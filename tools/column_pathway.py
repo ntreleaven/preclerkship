@@ -36,7 +36,8 @@ CONTENT SHAPE
                                                      [["ok", "A", ["..."]], ["ok", "B", ["..."]]]]}],
      # optional: one block of a section shared by adjacent columns, drawn across them
      # (same rows-of-boxes shape, fixed kinds only); those columns leave that section out
-     # and each one's last box above feeds the span's first box
+     # and each one's last box above feeds the span's first box; a section of the
+     # columns' own may follow, fed straight down from the span's last box
  "panels": [{"title": "...", "items": ["..."], "cols": 1}]   # laid out evenly along the bottom
 }
 A section is a list of rows; a row holds one box or two side by side. A box is
@@ -230,7 +231,15 @@ def build(c: dict) -> dict:
         for a, b in zip(sections, sections[1:]):
             if (ci, a) in span_of:
                 if (ci, b) not in span_of:
-                    raise SystemExit("a column cannot leave a span for a section of its own")
+                    # back out of the span: its last box feeds straight down into this column
+                    s_i = span_of[(ci, a)]
+                    sx, sw = span(*spans[s_i]["cols"])
+                    src_ids = first_last[("span", s_i)][1]
+                    cx = xs[ci] + col_w / 2
+                    s = src_ids[0] if len(src_ids) == 1 or cx < sx + sw / 2 else src_ids[1]
+                    scx = sx + sw / 2 if len(src_ids) == 1 else (sx + box_w(src_ids, sw) / 2 if s == src_ids[0]
+                                                                 else sx + sw - box_w(src_ids, sw) / 2)
+                    edges.append({"from": s, "to": first_last[(col["id"], b)][0][0], "from_dx": round(cx - scx, 1)})
                 continue
             if (ci, b) in span_of:
                 s_i = span_of[(ci, b)]

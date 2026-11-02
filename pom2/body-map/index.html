@@ -1,0 +1,1648 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="robots" content="noindex, nofollow, noarchive">
+<meta name="referrer" content="no-referrer">
+<title>Where does it hurt? &middot; MSK &middot; PoM 2</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#f7f5fa;--card:#ffffff;--ink:#201436;--muted:#5f5670;--line:#ddd5ea;--accent:#7a3fb0;--accent-soft:#efe8f6;
+--stage:#e9e4f1;--stage2:#fbfaFD;--tip:#201436;--tip-ink:#fff;--shade:rgba(20,12,32,.55)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#15111c;--card:#1f1a29;--ink:#f1ecf8;--muted:#b3a9c4;--line:#3a3149;--accent:#c39bea;--accent-soft:#2c2240;
+--stage:#1b1624;--stage2:#2a2336;--tip:#f1ecf8;--tip-ink:#15111c;--shade:rgba(0,0,0,.65)}}
+:root[data-theme="dark"]{--bg:#15111c;--card:#1f1a29;--ink:#f1ecf8;--muted:#b3a9c4;--line:#3a3149;--accent:#c39bea;--accent-soft:#2c2240;
+--stage:#1b1624;--stage2:#2a2336;--tip:#f1ecf8;--tip-ink:#15111c;--shade:rgba(0,0,0,.65)}
+*{box-sizing:border-box}
+[hidden]{display:none!important}
+#modes,html.only-derm #modes,html.only-derm .credit.main{display:none}
+html.embed .wrap>.eyebrow,html.embed .wrap>h1,html.embed .wrap>.lead{display:none}
+html.embed .wrap{padding:0 0 8px}html.embed .app{margin-top:0}html.embed body{background:transparent}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.55 Inter,-apple-system,BlinkMacSystemFont,sans-serif}
+.wrap{max-width:1320px;margin:0 auto;padding:24px 16px 60px}
+h1,h2,h3{font-family:Fraunces,Georgia,serif;font-weight:600;letter-spacing:-.01em;margin:0}
+h1{font-size:clamp(26px,4.5vw,38px);line-height:1.1}
+h2{font-size:22px}
+h3{font-size:13px;font-family:Inter,sans-serif;text-transform:uppercase;letter-spacing:.1em;color:var(--muted);margin:16px 0 6px}
+.eyebrow{text-transform:uppercase;letter-spacing:.12em;font-size:12px;font-weight:600;color:var(--accent);margin:0 0 6px}
+.eyebrow a{color:inherit}
+.lead{color:var(--muted);max-width:80ch;margin:8px 0 0}
+.chips{display:flex;flex-wrap:wrap;gap:8px;margin-top:14px}
+.chip{font:inherit;font-size:14px;padding:7px 14px;border-radius:999px;border:1px solid var(--line);background:var(--card);color:var(--ink);cursor:pointer}
+.chip[aria-pressed="true"]{background:var(--accent);border-color:var(--accent);color:#fff}
+.app{display:grid;grid-template-columns:minmax(0,1fr) 380px;gap:16px;margin-top:14px;align-items:start}
+@media (max-width:980px){.app{grid-template-columns:1fr}}
+.stage{position:relative;border:1px solid var(--line);border-radius:14px;overflow:hidden;background:radial-gradient(ellipse at 50% 30%,var(--stage2),var(--stage));height:min(80vh,860px);min-height:480px;touch-action:none}
+.stage canvas{display:block;width:100%;height:100%;cursor:pointer}
+.tag{position:absolute;transform:translate(-50%,-50%);pointer-events:auto;cursor:pointer;font-size:12px;font-weight:600;padding:3px 9px;border-radius:999px;background:var(--card);color:var(--ink);border:1px solid var(--line);white-space:nowrap;box-shadow:0 1px 4px rgba(0,0,0,.12)}
+.tag.on{background:var(--accent);color:#fff;border-color:var(--accent)}
+.tip{position:absolute;pointer-events:none;background:var(--tip);color:var(--tip-ink);font-size:13px;padding:4px 9px;border-radius:7px;white-space:nowrap;transform:translate(-50%,-140%);display:none}
+.hint{position:absolute;left:12px;bottom:10px;right:12px;font-size:12px;color:var(--muted);pointer-events:none}
+.loading{position:absolute;inset:0;display:grid;place-items:center;color:var(--muted)}
+.legend{position:absolute;top:10px;left:12px;display:none;flex-direction:column;gap:3px;font-size:12px;color:var(--muted);background:var(--card);padding:8px 10px;border-radius:10px;border:1px solid var(--line)}
+.legend span::before{content:"";display:inline-block;width:10px;height:10px;border-radius:3px;margin-right:6px;vertical-align:-1px;background:var(--c)}
+.panel{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:16px}
+.panel .sub{color:var(--muted);font-size:14px;margin:4px 0 0}
+.panel ul{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:6px}
+.panel button.ch{all:unset;box-sizing:border-box;display:block;width:100%;cursor:pointer;padding:8px 11px;border-radius:10px;border:1px solid var(--line);background:var(--bg)}
+.panel button.ch:hover,.panel button.ch:focus-visible{border-color:var(--accent);outline:none}
+.panel button.ch b{display:block;font-weight:600;font-size:15px}
+.panel button.ch small{display:block;color:var(--muted);font-size:13px;line-height:1.4}
+.panel .first button.ch{border-color:var(--accent);background:var(--accent-soft)}
+.empty{color:var(--muted);font-size:14px}
+.st{display:flex;flex-wrap:wrap;gap:6px}
+.st button{font:inherit;font-size:13px;padding:4px 10px;border-radius:999px;border:1px solid var(--line);background:var(--bg);color:var(--ink);cursor:pointer}
+.st button:hover{border-color:var(--accent)}
+dialog{border:none;padding:0;border-radius:14px;width:min(1280px,96vw);height:92vh;background:var(--bg);color:var(--ink);box-shadow:0 20px 60px rgba(0,0,0,.35)}
+dialog::backdrop{background:var(--shade)}
+dialog .bar{display:flex;align-items:center;gap:10px;padding:10px 14px;border-bottom:1px solid var(--line);background:var(--card)}
+dialog .bar b{flex:1;font-family:Fraunces,Georgia,serif;font-size:18px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+dialog .bar a,dialog .bar button{font:inherit;font-size:14px;color:var(--accent);background:none;border:1px solid var(--line);border-radius:999px;padding:5px 12px;cursor:pointer;text-decoration:none}
+dialog iframe{display:block;width:100%;height:calc(100% - 54px);border:0;background:var(--bg)}
+@media (max-width:600px){dialog{width:100vw;height:100vh;max-width:100vw;max-height:100vh;border-radius:0}dialog .bar a{display:none}}
+.credit{color:var(--muted);font-size:12px;margin-top:18px}
+.credit a{color:var(--accent)}
+.dermmap{margin-top:14px}
+.derm-frame{display:block;width:100%;height:1400px;border:0;background:transparent}
+.row{margin-top:10px;font-size:14px}
+.row dt{font-size:12px;font-weight:600;text-transform:uppercase;letter-spacing:.08em;color:var(--muted);margin-top:10px}
+.row dd{margin:2px 0 0}
+.row dd span{display:block}
+.row dd span.sub{padding-left:14px;position:relative;color:var(--muted)}
+.row dd span.sub::before{content:"–";position:absolute;left:2px}
+.st button.off{opacity:.55;cursor:default}
+.st button.on{background:var(--accent);border-color:var(--accent);color:#fff}
+.acts{display:flex;flex-wrap:wrap;gap:8px;margin-top:12px}
+.acts button,.acts a{font:inherit;font-size:13px;padding:5px 12px;border-radius:999px;border:1px solid var(--line);background:var(--bg);color:var(--accent);cursor:pointer;text-decoration:none}
+.sw{display:inline-block;width:12px;height:12px;border-radius:3px;vertical-align:-1px;margin-right:6px}
+.quiz{margin-top:12px;padding:10px 12px;border-radius:10px;background:var(--accent-soft)}
+.quiz b{font-size:18px}
+.dlab{position:absolute;transform:translate(-50%,-50%);font-size:11px;font-weight:600;line-height:1;padding:3px 6px;border-radius:999px;cursor:pointer;white-space:nowrap;box-shadow:0 1px 3px rgba(0,0,0,.25);border:1px solid rgba(0,0,0,.18)}
+.dlab.sel{font-size:13px;padding:4px 8px;outline:2px solid #201436}
+.layers{position:absolute;top:10px;right:12px;display:flex;flex-wrap:wrap;gap:6px;align-items:center;font-size:13px;background:var(--card);padding:6px 10px;border-radius:10px;border:1px solid var(--line);z-index:2}
+.layers span{font-size:11px;font-weight:600;text-transform:uppercase;letter-spacing:.08em;color:var(--muted)}
+.layers label{display:flex;gap:5px;align-items:center;cursor:pointer;padding:2px 8px;border-radius:999px;border:1px solid var(--line)}
+.layers label:has(input:checked){background:var(--accent-soft);border-color:var(--accent)}
+.nlab{position:absolute;transform:translate(-50%,-50%);font-size:11px;font-weight:700;line-height:1.1;padding:3px 7px;border-radius:999px;cursor:pointer;white-space:nowrap;background:var(--card);color:var(--ink);border:1px solid var(--line);box-shadow:0 1px 3px rgba(0,0,0,.2)}
+.nlab.ar{color:#a12a1e;border-color:#e3a59d;font-weight:600;font-size:10.5px}
+.nlab.call{max-width:260px;white-space:normal;border-radius:9px;font-weight:500;text-align:left;padding:5px 8px;transform:translate(10px,-50%);cursor:default;border-left:4px solid var(--accent)}
+.nlab.call b{display:block;font-size:10px;text-transform:uppercase;letter-spacing:.08em;color:var(--muted)}
+.chips2{display:flex;flex-wrap:wrap;gap:5px;margin:4px 0}.chips2 span{font-size:12px;font-weight:600;padding:2px 8px;border-radius:999px;border:1px solid var(--line);color:var(--muted)}.chips2 span.in{background:var(--accent);border-color:var(--accent);color:#fff}
+ul.sup{margin:2px 0 8px;padding-left:18px;font-size:14px}ul.sup li{margin:0 0 6px;line-height:1.35}
+p.moves{background:#fff3b0;color:#222;border-radius:6px;padding:6px 8px;font-weight:600;font-size:14px;line-height:1.4;margin:8px 0}
+ul.sup .ac{font-weight:600}
+.notes{font-size:13.5px;line-height:1.4}.notes .note{margin:0 0 8px}.notes .nh{display:block;font-weight:700}.notes .ln{display:block}.notes .sub{display:block;padding-left:12px;color:var(--muted)}
+p.src{font-size:11.5px;color:var(--muted);margin:10px 0 0}
+ul.facts{margin:4px 0 10px;padding-left:18px;font-size:14px;line-height:1.4}ul.facts li{margin:0 0 5px}
+details.fold{margin:10px 0;border:1px solid var(--line);border-radius:8px;padding:6px 10px}details.fold summary{cursor:pointer;font-size:13px;font-weight:600;color:var(--muted)}details.fold .notes{margin-top:8px}
+table.rn{width:100%;border-collapse:collapse;font-size:13px;margin:10px 0}table.rn th,table.rn td{border-top:1px solid var(--line);padding:6px 5px;vertical-align:top;text-align:left;line-height:1.35}
+table.rn thead th{font-size:13px;border-top:0}table.rn thead th span{font-weight:400;color:var(--muted);font-size:11.5px}table.rn tbody th{font-size:11px;text-transform:uppercase;letter-spacing:.05em;color:var(--muted);width:72px}
+ul.terr{list-style:none;padding:0;font-size:13.5px}ul.terr li{margin:0 0 7px;line-height:1.35}ul.terr .sw{display:inline-block;width:12px;height:12px;border-radius:3px;margin-right:6px;vertical-align:-1px}ul.sup .bl{color:#a33;font-size:13px}ul.sup .nt{color:var(--muted);font-size:12.5px;font-style:italic}
+:root[data-theme="dark"] ul.sup .bl{color:#ff9f9f}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]) ul.sup .bl{color:#ff9f9f}}
+.good{color:#2f6b4f;font-weight:600}.bad{color:#b42318;font-weight:600}
+</style>
+<script>
+/* ?view=derm opens the painted dermatomes on their own: the anatomy tables frame it as a tab
+   (with &embed=1, which drops this page's header and view buttons; &theme= follows that page's theme) */
+(function () {
+  var q = new URLSearchParams(location.search), h = document.documentElement;
+  if (q.get("view") === "derm") h.classList.add("only-derm");
+  if (q.get("embed") === "1") h.classList.add("embed");
+  if (q.get("theme")) h.setAttribute("data-theme", q.get("theme"));
+  else { try { var s = localStorage.getItem("pc-theme"); if (s === "dark" || s === "light") h.setAttribute("data-theme", s); } catch (e) {} }
+})();
+</script>
+<script type="importmap">
+{"imports":{"three":"https://cdn.jsdelivr.net/npm/three@0.160.0/build/three.module.js","three/addons/":"https://cdn.jsdelivr.net/npm/three@0.160.0/examples/jsm/"}}
+</script>
+</head>
+<body>
+<div class="wrap">
+<p class="eyebrow"><a href="../msk.html">Musculoskeletal</a> · Where does it hurt?</p>
+<h1>Where does it hurt?</h1>
+<p class="lead">Tap where the patient points. You get that region's own chart first, then the charts that cut across regions (arthritis, infection, nerves, fractures). Each chart opens in a pop-up.</p>
+<div class="chips" id="modes">
+  <button class="chip" data-mode="region" aria-pressed="true">Where it hurts</button>
+  <button class="chip" data-mode="structure" aria-pressed="false">Which structure</button>
+  <button class="chip" data-mode="tables" aria-pressed="false">Anatomy tables</button>
+  <button class="chip" data-mode="dermmap" aria-pressed="false">Dermatome map</button>
+  <button class="chip" data-mode="myo" aria-pressed="false">Myotome map</button>
+  <button class="chip" data-mode="rootnerve" aria-pressed="false">Root or nerve?</button>
+</div>
+<div class="dermmap" id="dermmap" hidden>
+  <iframe class="derm-frame" data-src="../dermatomes/?embed=1" title="Dermatome map in 3D" loading="lazy" allow="autoplay; fullscreen; xr-spatial-tracking"></iframe>
+  <p class="credit">The Dermatomes tab of the <a href="../anatomy-tables/#dermatomes">anatomy tables</a>, as it is there. Also on its own page: <a href="../dermatomes/">dermatome map in 3D</a>.</p>
+</div>
+<div class="app" id="app">
+  <div class="stage" id="stage">
+    <div class="loading" id="loading">Loading the skeleton…</div>
+    <div class="layers" id="layers" hidden>
+      <span>Show</span>
+      <label><input type="checkbox" data-layer="bones" checked> Bones</label>
+      <label><input type="checkbox" data-layer="muscles" checked> Muscles</label>
+      <label><input type="checkbox" data-layer="lig"> Ligaments</label>
+      <label><input type="checkbox" data-layer="cn"> Cranial nerves</label>
+      <label><input type="checkbox" data-layer="bp"> Brachial plexus</label>
+      <label><input type="checkbox" data-layer="ar"> Blood supply</label>
+    </div>
+    <div class="legend" id="legend">
+      <span style="--c:#c8524a">Muscle or tendon</span>
+      <span style="--c:#e8c547">Ligament or labrum</span>
+      <span style="--c:#4f9fd8">Bursa or cyst</span>
+      <span style="--c:#f2e14c">Nerve</span>
+      <span style="--c:#e07b2e">Bone or joint</span>
+    </div>
+    <div class="tip" id="tip"></div>
+    <p class="hint" id="hint">Drag to turn · pinch or scroll to zoom · tap a body part</p>
+  </div>
+  <aside class="panel" id="panel"></aside>
+</div>
+<p class="credit main">Skeleton: BodyParts3D, &copy; The Database Center for Life Science, CC BY 4.0. Charts are the interactive overview charts from the PoM 2 MSK notes.</p>
+</div>
+
+<dialog id="pop">
+  <div class="bar"><b id="popTitle"></b><a id="popNew" target="_blank" rel="noopener">Open in a new tab</a><button id="popClose">Close</button></div>
+  <iframe id="popFrame" title="Interactive chart"></iframe>
+</dialog>
+
+<script type="module">
+import * as THREE from 'three';
+import { OrbitControls } from 'three/addons/controls/OrbitControls.js';
+import { GLTFLoader } from 'three/addons/loaders/GLTFLoader.js';
+
+/* The MSK charts, by folder in ../charts/ */
+const CH = {
+  mech: ["msk-w7-02.2_2", "Clinical Approach to Mechanical Back & Neck Pain"],
+  nonmech: ["msk-w7-03.2_2", "Clinical Approach to Non-Mechanical Back & Neck Pain"],
+  spinerad: ["msk-w7-04_2", "Axial Spine Radiology"],
+  proxue: ["msk-w7-05.2_2", "Clinical Approach to Osteology and Joints of the Proximal Upper Extremity"],
+  shoulder: ["msk-w8-02.2_2", "Clinical Approach to the Muscles of the Shoulder"],
+  arm: ["msk-w8-03.2_2", "Clinical Approach to the Muscles of the Arm"],
+  elbow: ["msk-w8-05.2_2", "Clinical Approach to the Elbow"],
+  distue: ["msk-w8-06.2_2", "Clinical Approach to the Muscles of the Distal Upper Extremity"],
+  nv: ["msk-w8-07.2_2", "Clinical Approach to the Neurovascular Supply of the Distal Upper Extremity"],
+  wh: ["msk-w8-08.2_3", "Clinical Approach to the Wrist and Hand - PARTS 1 and 2"],
+  hipj: ["msk-w9-03.2_2", "Clinical Approach to the Hip Joint"],
+  hippain: ["msk-w9-05_2", "Clinical Approach to Hip Pain"],
+  kneech: ["msk-w9-06.2_3", "Clinical Approach to the Knee - PARTS 1 and 2"],
+  ankle: ["msk-w10-01.2_2", "Clinical Approach to the Ankle and Foot"],
+  nerve: ["msk-w10-03_2", "Nerve Injury"],
+  mono: ["msk-w10-04_2", "Acute Monoarthritis"],
+  inf: ["msk-w10-05_2", "MSK Infections"],
+  oa: ["msk-w10-06_2", "Osteoarthritis"],
+  poly: ["msk-w10-07_2", "Approach to Polyarthritis"],
+  jia: ["msk-w10-08_2", "Juvenile Idiopathic Arthritis"],
+  ctd: ["msk-w10-09_2", "Connective Tissue Disorders"],
+  sero: ["msk-w10-10_2", "Seronegative Arthritides"],
+  vasc: ["msk-w11-01_2", "Vasculitis"],
+  rheumlab: ["msk-w11-02_2", "Rheumatology Investigations"],
+  peds: ["msk-w11-04_2", "Pediatric Orthopedics"],
+  fxrad: ["msk-w11-05_2", "Fracture Radiology"],
+  onc: ["msk-w11-06_2", "MSK Oncology"],
+  fxmgmt: ["msk-w11-07_2", "Fracture Management"],
+  pa: ["msk-w11-08_2", "Physical Activity Prescription"],
+  limp: ["msk-w11-09_2", "Child with a Limp"],
+};
+
+/* Each region: its own charts first, then the cross-cutting ones, as [chart, column to light, why] */
+const REGIONS = {
+  neck: { name: "Neck", first: [["mech", null, "discs, facets, muscle, whiplash"], ["nonmech", "myl", "radiculopathy, cervical myelopathy, red flags"], ["spinerad", null, "C-spine films: fractures, facet dislocation, prevertebral swelling"]],
+    also: [["nerve", "rad", "pain or numbness down the arm: which root?"], ["sero", "as", "inflammatory: morning stiffness, better with movement"], ["fxmgmt", null, "after trauma"]] },
+  back: { name: "Low back", first: [["mech", null, "discogenic pain, disc herniation, facet, muscle"], ["nonmech", null, "stenosis, cauda equina, inflammatory, fracture, infection or cancer"], ["spinerad", null, "vertebral fracture, spondylolysis, scoliosis, ankylosing spondylitis"]],
+    also: [["nerve", "rad", "pain down the leg: radiculopathy, or foot drop from L5"], ["sero", "as", "young, morning stiffness, night pain, sacroiliac joints"], ["inf", "om", "fever, injection drug use: vertebral osteomyelitis"], ["peds", "sco", "a teenager: scoliosis"]] },
+  shoulder: { name: "Shoulder", first: [["proxue", null, "AC joint, glenohumeral arthritis, instability, frozen shoulder"], ["shoulder", null, "rotator cuff impingement, stages I to III, cuff arthropathy"], ["arm", null, "biceps tendon, SLAP tear, bursitis"]],
+    also: [["mono", "sep", "one hot swollen joint: septic until proven otherwise"], ["poly", null, "both shoulders plus other joints"], ["vasc", "gca", "over 50, stiff shoulders and hips, headache: polymyalgia and giant cell arteritis"], ["fxrad", null, "after a fall"], ["fxmgmt", null, "after a fall"]] },
+  arm: { name: "Upper arm", first: [["arm", null, "biceps and rotator cuff pain felt in the arm"]],
+    also: [["shoulder", null, "rotator cuff pain refers to the lateral arm"], ["nerve", "mono", "wrist drop after a humeral shaft fracture"], ["fxmgmt", null, "fracture"], ["onc", null, "a lump or bone pain that doesn't fit"]] },
+  elbow: { name: "Elbow", first: [["elbow", null, "dislocation, nursemaid's, UCL, arthritis, olecranon bursitis"], ["distue", null, "tennis and golfer's elbow, distal biceps"], ["nv", "une", "numb ring and little finger: ulnar nerve at the elbow"]],
+    also: [["mono", "sep", "hot swollen joint"], ["poly", "ra", "both elbows plus small joints"], ["nerve", "mono", "a single nerve after trauma"], ["fxrad", null, "after a fall"], ["fxmgmt", "cs", "after a fracture: compartment syndrome"], ["peds", "frac", "a child after a fall"]] },
+  forearm: { name: "Forearm", first: [["distue", null, "the muscles that start at the epicondyles"], ["nv", "pro", "pronator syndrome: median nerve in the forearm"]],
+    also: [["fxmgmt", "cs", "pain out of proportion after a fracture"], ["peds", "frac", "a child: buckle or greenstick fracture"], ["nerve", "mono", "a single nerve"], ["fxrad", null, "reading the film"]] },
+  hand: { name: "Wrist and hand", first: [["wh", "dr", "a fall: distal radius or scaphoid fracture"], ["wh", "cts", "a numb hand: carpal tunnel, ulnar nerve at the wrist"]],
+    also: [["poly", null, "many small joints: RA (knuckles) vs OA (DIPs, thumb base)"], ["inf", "deep", "hand infection: cellulitis or closed-space"], ["mono", "cppd", "older person, one hot wrist: pseudogout"], ["sero", "psa", "a sausage finger: dactylitis"], ["ctd", "ssc", "Raynaud's, tight skin"], ["jia", null, "a child with a swollen wrist"], ["peds", "sh", "a child: growth plate injury"]] },
+  hip: { name: "Hip", first: [["hipj", null, "hip fractures in older adults"], ["hippain", null, "osteoarthritis, labral tear, trochanteric bursitis, piriformis"]],
+    also: [["limp", null, "a child: septic hip, transient synovitis, Perthes, SCFE"], ["peds", "ddh", "a baby: developmental dysplasia"], ["oa", "oa", "gradual, worse with use"], ["mono", "sep", "one hot joint"], ["fxmgmt", "avn", "after a femoral neck fracture: avascular necrosis"], ["sero", "as", "buttock pain, morning stiffness: sacroiliitis"]] },
+  knee: { name: "Knee", first: [["kneech", "acl", "ACL, PCL, MCL, LCL, meniscus"], ["kneech", "pfps", "patellofemoral pain, bursitis, IT band, Baker's cyst"]],
+    also: [["mono", null, "one hot swollen knee: septic, gout or pseudogout"], ["oa", "oa", "gradual, older, worse with use"], ["jia", "oli", "a child: oligoarticular JIA"], ["limp", null, "a child with knee pain: check the hip"], ["sero", "rea", "after an infection: reactive arthritis"], ["peds", "leg", "bow legs or knock knees"]] },
+  leg: { name: "Shin and calf", first: [],
+    also: [["fxmgmt", "cs", "pain out of proportion after a tibial fracture: compartment syndrome"], ["fxmgmt", "vte", "a swollen calf after injury: DVT"], ["nerve", "mono", "foot drop: common fibular nerve at the fibular head"], ["inf", "cel", "red, warm skin"], ["peds", "leg", "a child's leg shape"], ["fxrad", null, "reading the film"]] },
+  foot: { name: "Ankle and foot", first: [["ankle", null, "sprain, Achilles, plantar fasciitis, tibialis posterior, bunion, Morton's, diabetic foot"]],
+    also: [["mono", "gout", "a hot big toe: gout"], ["inf", "dfi", "a diabetic foot ulcer or infection"], ["sero", "rea", "heel pain with enthesitis"], ["peds", "club", "a newborn: clubfoot"], ["fxrad", null, "after a twist: reading the film"]] },
+};
+const WHOLE = [["poly", null, "many joints"], ["ctd", null, "a woman with several organs involved"], ["vasc", null, ""], ["jia", null, "a child, any joint"], ["rheumlab", null, "ANA, anti-DNA, ENA, complement"], ["onc", null, "a lump anywhere"], ["fxrad", null, ""], ["fxmgmt", null, ""], ["pa", null, "prescribing exercise"]];
+
+/* Each tappable structure: [label, region, chart, column] */
+const ST = {
+  supraspinatus: ["Supraspinatus", "shoulder", "shoulder", "s1"], infraspinatus: ["Infraspinatus", "shoulder", "shoulder", "s2"],
+  teres_minor: ["Teres minor", "shoulder", "shoulder", "s2"], subscapularis: ["Subscapularis", "shoulder", "shoulder", "s2"],
+  biceps_long_head: ["Long head of biceps", "shoulder", "arm", "lhb"], glenoid_labrum: ["Glenoid labrum", "shoulder", "arm", "slap"],
+  ac_joint: ["Acromioclavicular joint", "shoulder", "proxue", "acs"],
+  ucl: ["Ulnar collateral ligament", "elbow", "elbow", "ucl"], olecranon_bursa: ["Olecranon bursa", "elbow", "elbow", "bur"],
+  annular_ligament: ["Annular ligament (radial head)", "elbow", "elbow", "nm"], ecrb: ["Extensor carpi radialis brevis (lateral epicondyle)", "elbow", "distue", "lat"],
+  fcu_humeral: ["Common flexor origin (medial epicondyle)", "elbow", "distue", "med"], pronator_teres: ["Pronator teres", "forearm", "nv", "pro"],
+  distal_biceps: ["Distal biceps tendon", "elbow", "distue", "bic"], ulnar_nerve_elbow: ["Ulnar nerve, cubital tunnel", "elbow", "nv", "une"],
+  flexor_retinaculum: ["Flexor retinaculum (carpal tunnel)", "hand", "wh", "cts"], guyon_canal: ["Guyon's canal (ulnar nerve)", "hand", "wh", "uln"],
+  distal_radius: ["Distal radius", "hand", "wh", "dr"], scaphoid: ["Scaphoid", "hand", "wh", "sc"],
+  femoral_neck: ["Femoral neck", "hip", "hipj", "nd"], acetabular_labrum: ["Acetabular labrum", "hip", "hippain", "lab"],
+  gluteus_medius: ["Gluteus medius (greater trochanter)", "hip", "hippain", "gt"], piriformis: ["Piriformis", "hip", "hippain", "pir"],
+  acl: ["Anterior cruciate ligament", "knee", "kneech", "acl"], pcl: ["Posterior cruciate ligament", "knee", "kneech", "pcl"],
+  mcl: ["Medial collateral ligament", "knee", "kneech", "mcl"], lcl: ["Lateral collateral ligament", "knee", "kneech", "lcl"],
+  medial_meniscus: ["Medial meniscus", "knee", "kneech", "men"], lateral_meniscus: ["Lateral meniscus", "knee", "kneech", "men"],
+  prepatellar_bursa: ["Prepatellar bursa", "knee", "kneech", "bur"], bakers_cyst: ["Popliteal (Baker's) cyst", "knee", "kneech", "bak"],
+  itb: ["Iliotibial band", "knee", "kneech", "itb"],
+  achilles: ["Achilles tendon", "foot", "ankle", "ach"], plantar_fascia: ["Plantar fascia", "foot", "ankle", "pf"],
+  tibialis_posterior: ["Tibialis posterior", "foot", "ankle", "tp"], atfl: ["Anterior talofibular ligament", "foot", "ankle", "spr"],
+  first_mtp: ["First MTP joint (bunion)", "foot", "ankle", "bun"], mortons: ["Third web space (Morton's neuroma)", "foot", "ankle", "mor"],
+};
+const KIND = { ucl: "lig", annular_ligament: "lig", glenoid_labrum: "lig", acetabular_labrum: "lig", acl: "lig", pcl: "lig", mcl: "lig", lcl: "lig",
+  medial_meniscus: "lig", lateral_meniscus: "lig", atfl: "lig", plantar_fascia: "lig", flexor_retinaculum: "lig", itb: "lig",
+  olecranon_bursa: "bursa", prepatellar_bursa: "bursa", bakers_cyst: "bursa", ulnar_nerve_elbow: "nerve", guyon_canal: "nerve", mortons: "nerve",
+  ac_joint: "bone", first_mtp: "bone", femoral_neck: "bone", distal_radius: "bone", scaphoid: "bone" };
+const KCOL = { muscle: 0xc8524a, lig: 0xe8c547, bursa: 0x4f9fd8, nerve: 0xf2e14c, bone: 0xe07b2e };
+
+/* ---------- panel and pop-up ---------- */
+const panel = document.getElementById("panel");
+const pop = document.getElementById("pop"), popFrame = document.getElementById("popFrame");
+function openChart(key, col) {
+  const [dir, title] = CH[key], url = `../charts/${dir}/` + (col ? `#col=${col}` : "");
+  document.getElementById("popTitle").textContent = title;
+  document.getElementById("popNew").href = url;
+  popFrame.src = `../charts/${dir}/?embed=1` + (col ? `#col=${col}` : "");
+  pop.showModal();
+}
+document.getElementById("popClose").onclick = () => pop.close();
+pop.addEventListener("click", e => { if (e.target === pop) pop.close(); });
+pop.addEventListener("close", () => { popFrame.src = "about:blank"; });
+
+function item([key, col, why]) {
+  const li = document.createElement("li"), b = document.createElement("button");
+  b.className = "ch"; b.innerHTML = `<b></b><small></small>`;
+  b.querySelector("b").textContent = CH[key][1]; b.querySelector("small").textContent = why || "";
+  b.onclick = () => openChart(key, col); li.appendChild(b); return li;
+}
+function list(title, rows, cls) {
+  const frag = document.createDocumentFragment(), h = document.createElement("h3"); h.textContent = title; frag.appendChild(h);
+  const ul = document.createElement("ul"); if (cls) ul.className = cls; rows.forEach(r => ul.appendChild(item(r))); frag.appendChild(ul); return frag;
+}
+function showIntro() {
+  panel.innerHTML = `<h2>Tap where it hurts</h2><p class="sub">Or pick a region:</p>`;
+  const d = document.createElement("div"); d.className = "st"; d.style.marginTop = "10px";
+  Object.entries(REGIONS).forEach(([k, r]) => { const b = document.createElement("button"); b.textContent = r.name; b.onclick = () => selectRegion(k, true); d.appendChild(b); });
+  panel.appendChild(d); panel.appendChild(list("Not one spot", WHOLE));
+}
+function showRegion(k) {
+  const r = REGIONS[k];
+  panel.innerHTML = ""; const h = document.createElement("h2"); h.textContent = r.name; panel.appendChild(h);
+  const sub = document.createElement("p"); sub.className = "sub";
+  sub.textContent = r.first.length ? "Start with the region's own chart, then think wider." : "No chart of its own: think wider."; panel.appendChild(sub);
+  if (r.first.length) panel.appendChild(list("Start here", r.first, "first"));
+  panel.appendChild(list("Also think of", r.also));
+  const sts = Object.entries(ST).filter(([, s]) => s[1] === k);
+  if (sts.length) {
+    const h3 = document.createElement("h3"); h3.textContent = "Structures here"; panel.appendChild(h3);
+    const d = document.createElement("div"); d.className = "st";
+    sts.forEach(([sk, s]) => { const b = document.createElement("button"); b.textContent = s[0]; b.onclick = () => selectStructure(sk); d.appendChild(b); });
+    panel.appendChild(d);
+  }
+  const back = document.createElement("p"); back.className = "sub"; back.style.marginTop = "14px";
+  back.innerHTML = `<a href="#" style="color:var(--accent)">All regions</a>`; back.querySelector("a").onclick = e => { e.preventDefault(); clearRegion(); showIntro(); };
+  panel.appendChild(back);
+}
+
+/* ---------- 3D ---------- */
+const stage = document.getElementById("stage"), tip = document.getElementById("tip");
+const renderer = new THREE.WebGLRenderer({ antialias: true, alpha: true });
+renderer.setPixelRatio(Math.min(devicePixelRatio, 2)); stage.appendChild(renderer.domElement);
+const scene = new THREE.Scene();
+const camera = new THREE.PerspectiveCamera(32, 1, 0.01, 20);
+const controls = new OrbitControls(camera, renderer.domElement);
+controls.enableDamping = true; controls.minDistance = 0.25; controls.maxDistance = 5;
+scene.add(new THREE.HemisphereLight(0xffffff, 0x8a7f99, 1.6));
+const sun = new THREE.DirectionalLight(0xffffff, 1.4); sun.position.set(1, 2, 2.5); scene.add(sun);
+const back = new THREE.DirectionalLight(0xffffff, 0.6); back.position.set(-1, 1, -2); scene.add(back);
+
+function resize() { const w = stage.clientWidth, h = stage.clientHeight; if (!w || !h) return; renderer.setSize(w, h, false); camera.aspect = w / h; camera.updateProjectionMatrix(); }
+new ResizeObserver(resize).observe(stage); resize();
+
+let mode = "region", anchors = {}, bones = [], structs = [], tags = {}, selected = null;
+const boneMat = () => new THREE.MeshStandardMaterial({ color: 0xece3d0, roughness: 0.75, metalness: 0 });
+const v3 = a => new THREE.Vector3(a[0], a[1], a[2]);
+let fly = null;
+function flyTo(target, dist) {
+  const dir = camera.position.clone().sub(controls.target).normalize();
+  fly = { t0: performance.now(), fromT: controls.target.clone(), toT: target.clone(), fromP: camera.position.clone(), toP: target.clone().add(dir.multiplyScalar(dist)) };
+}
+
+const [gltf, data] = await Promise.all([new GLTFLoader().loadAsync("body.glb"), fetch("body.json").then(r => r.json())]);
+document.getElementById("loading").remove();
+const root = gltf.scene; scene.add(root);
+root.traverse(o => {
+  if (!o.isMesh) return;
+  if (!o.geometry.attributes.normal) o.geometry.computeVertexNormals();
+  if (o.name.startsWith("bone_")) { o.material = boneMat(); bones.push(o); }
+  else if (o.name.startsWith("st_")) { o.userData.st = o.name.slice(3); }
+});
+root.traverse(o => { if (o.userData.st) { o.material = new THREE.MeshStandardMaterial({ color: KCOL[KIND[o.userData.st] || "muscle"], roughness: 0.6, transparent: true, opacity: 0.85 }); structs.push(o); } });
+for (const d of data.drawn) {
+  const col = KCOL[KIND[d.key] || "lig"];
+  let geo;
+  if (d.kind === "tube") {
+    const curve = new THREE.CatmullRomCurve3(d.path.map(v3), !!d.closed);
+    geo = new THREE.TubeGeometry(curve, Math.max(24, d.path.length * 8), d.r, 10, !!d.closed);
+  } else { geo = new THREE.SphereGeometry(d.r, 24, 16); }
+  const m = new THREE.Mesh(geo, new THREE.MeshStandardMaterial({ color: col, roughness: 0.5, transparent: true, opacity: d.kind === "ball" ? 0.7 : 0.95 }));
+  if (d.kind === "ball") { m.position.copy(v3(d.c)); m.scale.set(d.squash[0], d.squash[2], d.squash[1]); }
+  m.userData.st = d.key; root.add(m); structs.push(m);
+}
+for (const [k, p] of Object.entries(data.anchors)) anchors[k] = v3(p);
+for (const b of bones) { b.geometry.computeBoundingSphere(); b.userData.c = b.geometry.boundingSphere.center.clone(); }
+
+/* frame the whole body */
+const box = new THREE.Box3().setFromObject(root), centre = box.getCenter(new THREE.Vector3()), size = box.getSize(new THREE.Vector3());
+controls.target.copy(centre); camera.position.set(centre.x - 0.45, centre.y + 0.05, centre.z + size.y * 2.3); controls.update();
+const home = { t: centre.clone(), p: camera.position.clone() };
+
+/* region labels, on the right side of the body */
+for (const k of Object.keys(REGIONS)) {
+  const t = document.createElement("div"); t.className = "tag"; t.textContent = REGIONS[k].name;
+  t.onclick = () => selectRegion(k, true); stage.appendChild(t); tags[k] = t;
+}
+const legend = document.getElementById("legend"), LEGEND_ST = legend.innerHTML;
+function setLegend(items) {
+  if (!items) { legend.style.display = "none"; return; }
+  legend.innerHTML = items === "st" ? LEGEND_ST : items.map(([c, t]) => `<span style="--c:${c}">${t}</span>`).join("");
+  legend.style.display = "flex";
+}
+function setStructVisible(on) { structs.forEach(s => s.visible = on); }
+setStructVisible(false);
+
+/* nearest region to a point on the body (left side mirrored onto the right) */
+function regionAt(p) {
+  const q = p.clone(); if (Math.abs(q.x) > 0.06) q.x = -Math.abs(q.x);
+  let best = null, bd = 1e9;
+  for (const [k, a] of Object.entries(anchors)) { const d = a.distanceTo(q); if (d < bd) { bd = d; best = k; } }
+  return best;
+}
+const REGION_R = { neck: 0.09, back: 0.16, shoulder: 0.1, arm: 0.12, elbow: 0.06, forearm: 0.1, hand: 0.1, hip: 0.12, knee: 0.08, leg: 0.15, foot: 0.12 };
+function tint(k) {
+  for (const b of bones) {
+    const c = b.userData.c.clone(); if (Math.abs(c.x) > 0.06) c.x = -Math.abs(c.x);
+    const on = k && regionAt(c) === k && c.distanceTo(anchors[k]) < REGION_R[k] * 1.6;
+    b.material.color.set(on ? 0xc9a6ef : 0xece3d0); b.material.emissive.set(on ? 0x3a1a5a : 0x000000);
+  }
+}
+const halo = new THREE.Mesh(new THREE.SphereGeometry(1, 32, 20), new THREE.MeshBasicMaterial({ color: 0x9b5fe0, transparent: true, opacity: 0.22, depthWrite: false }));
+halo.visible = false; scene.add(halo);
+function clearRegion() { selected = null; tint(null); halo.visible = false; Object.values(tags).forEach(t => t.classList.remove("on")); fly = { t0: performance.now(), fromT: controls.target.clone(), toT: home.t, fromP: camera.position.clone(), toP: home.p }; }
+function selectRegion(k, zoom) {
+  selected = k; tint(k); halo.position.copy(anchors[k]); halo.scale.setScalar(REGION_R[k] * 0.75); halo.visible = true; Object.entries(tags).forEach(([x, t]) => t.classList.toggle("on", x === k));
+  showRegion(k); if (zoom) flyTo(anchors[k], k === "back" || k === "leg" ? 1.0 : 0.75);
+}
+function selectStructure(sk) {
+  const s = ST[sk]; if (mode !== "structure") setMode("structure");
+  selectRegion(s[1], false);
+  const obj = structs.find(o => o.userData.st === sk);
+  if (obj) { const c = new THREE.Box3().setFromObject(obj).getCenter(new THREE.Vector3()); flyTo(c, 0.5); }
+  openChart(s[2], s[3]);
+}
+const HINT = {
+  region: "Drag to turn · pinch or scroll to zoom · tap a body part",
+  structure: "Coloured parts are tappable (right side) · tap one to open its chart with that diagnosis lit",
+  tables: "Right side · tap a muscle or nerve for its table row · hide a muscle to see the one underneath · tap the skull for the cranial nerves",
+  derm: "Tap the skin or a label · zoom in to see more levels · dots are the key sensory points",
+  myo: "Right side · pick a root to light its muscles · tap a muscle for its roots",
+  rootnerve: "Patient's right arm: the root · patient's left arm: the nerve · tap the skin to name the nerve that supplies it",
+};
+/* the anatomy tables' Dermatomes tab, framed exactly as that page frames it */
+const dermmap = document.getElementById("dermmap"), app = document.getElementById("app");
+addEventListener("message", e => {
+  const h = e.data && e.data.dermatomesHeight, f = dermmap.querySelector(".derm-frame");
+  if (h && f) f.style.height = Math.ceil(h) + "px";
+});
+async function setMode(m) {
+  document.querySelectorAll("#modes .chip").forEach(x => x.setAttribute("aria-pressed", x.dataset.mode === m ? "true" : "false"));
+  dermmap.hidden = m !== "dermmap"; app.hidden = m === "dermmap";
+  if (m === "dermmap") {
+    const f = dermmap.querySelector("iframe[data-src]");
+    if (f) { f.src = f.dataset.src; f.removeAttribute("data-src"); }
+    return;
+  }
+  mode = m; document.querySelectorAll("#modes .chip").forEach(x => x.setAttribute("aria-pressed", x.dataset.mode === m ? "true" : "false"));
+  setStructVisible(m === "structure");
+  bones.forEach(b => b.visible = m !== "derm");
+  if (skinRoot) skinRoot.visible = m === "derm";
+  if (limbRoot) limbRoot.visible = m === "rootnerve";
+  if (m !== "rootnerve") rnMarks.forEach(o => o.visible = false);
+  if (m !== "region" && m !== "structure") { halo.visible = false; tint(null); fly = { t0: performance.now(), fromT: controls.target.clone(), toT: home.t, fromP: camera.position.clone(), toP: home.p }; }
+  applyLayers();
+  document.getElementById("hint").textContent = HINT[m];
+  tip.style.display = "none";
+  if (m === "structure") setLegend("st");
+  else if (m === "region") setLegend(null);
+  if (m === "tables") { setLegend(null); panel.innerHTML = `<p class="empty">Loading the muscles…</p>`; await ensureTables(); if (mode === "tables") showTablesIntro(); }
+  else if (m === "myo") { setLegend(null); panel.innerHTML = `<p class="empty">Loading the muscles…</p>`; await ensureTables(); if (mode === "myo") { applyLayers(); showMyoIntro(); } }
+  else if (m === "rootnerve") { setLegend(null); panel.innerHTML = `<p class="empty">Loading the arms and the plexus…</p>`; await ensureLimb(); if (mode === "rootnerve") showRootNerve(rnPair); }
+  else if (m === "derm") { setLegend(null); panel.innerHTML = `<p class="empty">Loading the skin…</p>`; await ensureDerm(); if (mode === "derm") showDermIntro(); }
+  else if (selected) showRegion(selected); else showIntro();
+}
+document.querySelectorAll("#modes .chip").forEach(b => b.onclick = () => setMode(b.dataset.mode));
+
+/* picking: a tap (not a drag) selects */
+const ray = new THREE.Raycaster(), ptr = new THREE.Vector2();
+function pick(e) {
+  const r = renderer.domElement.getBoundingClientRect();
+  ptr.set(((e.clientX - r.left) / r.width) * 2 - 1, -((e.clientY - r.top) / r.height) * 2 + 1);
+  ray.setFromCamera(ptr, camera);
+  const targets = mode === "structure" ? structs.concat(bones)
+    : mode === "tables" ? (layers.muscles ? muscles.filter(o => o.visible) : []).concat(layers.cn ? cnPick : [], layers.bp ? bpPick : [], layers.ar ? arPick : [],
+      layers.lig ? ligPick.concat(structs.filter(o => o.visible)) : [], layers.bones ? bones : [])
+    : mode === "derm" ? skins : mode === "rootnerve" ? limbs : mode === "myo" ? muscles : bones;
+  return ray.intersectObjects(targets, false)[0];
+}
+let down = null;
+renderer.domElement.addEventListener("pointerdown", e => { down = [e.clientX, e.clientY]; });
+renderer.domElement.addEventListener("pointerup", e => {
+  if (!down || Math.hypot(e.clientX - down[0], e.clientY - down[1]) > 6) return; down = null;
+  const hit = pick(e); if (!hit) return;
+  if (mode === "tables" && hit.object.userData.cn) { selectCN(hit.object.userData.cn); return; }
+  if (mode === "tables" && hit.object.userData.bp) { selectBP(hit.object.userData.bp); return; }
+  if (mode === "tables" && hit.object.userData.ar) { selectArtery(hit.object.userData.ar); return; }
+  if (mode === "tables" && (hit.object.userData.lg || hit.object.userData.st)) { selectLig(hit.object.userData.lg || hit.object.userData.st); return; }
+  if (mode === "tables") { if (hit.object.userData.mu) selectMuscle(hit.object.userData.mu); else if (hit.object.name.startsWith("bone_")) selectBone(hit.object.name.slice(5)); return; }
+  if (mode === "myo") { if (hit.object.userData.mu) myoMuscle(hit.object.userData.mu); return; }
+  if (mode === "rootnerve") { if (hit.object.userData.ct) tapLimb(hit.object.userData.ct, hit.point); return; }
+  if (mode === "derm") { tapDerm(hit.object.userData.field ? fieldLevel(hit) : hit.object.userData.dm); return; }
+  if (hit.object.userData.st) selectStructure(hit.object.userData.st);
+  else selectRegion(regionAt(hit.point), true);
+});
+let hovered = null;
+renderer.domElement.addEventListener("pointermove", e => {
+  if (e.pointerType !== "mouse") return;
+  const hit = pick(e), r = stage.getBoundingClientRect();
+  if (hovered && hovered.material.emissive && hovered.userData.st) hovered.material.emissive.set(0x000000);
+  hovered = null;
+  if (!hit) { tip.style.display = "none"; return; }
+  if (hit.object.userData.cn || hit.object.userData.bp || hit.object.userData.ar) {
+    const o = hit.object, t = o.userData.cn ? cnTitle(o.userData.cn) : o.userData.bp ? bpName(o.userData.bp) : AR.info[o.userData.ar].name;
+    tip.textContent = t; tip.style.display = t ? "block" : "none";
+    tip.style.left = (e.clientX - r.left) + "px"; tip.style.top = (e.clientY - r.top) + "px"; return;
+  }
+  if (mode === "myo") {
+    const k = hit.object.userData.mu, rr = k ? myoRoots(k) : null, t = k ? myoName(k) + (rr.test.concat(rr.also).length ? " · " + rr.test.concat(rr.also).join(", ") : "") : "";
+    tip.textContent = t; tip.style.display = t ? "block" : "none";
+    tip.style.left = (e.clientX - r.left) + "px"; tip.style.top = (e.clientY - r.top) + "px"; return;
+  }
+  if (mode === "rootnerve") {
+    const ct = hit.object.userData.ct; tip.textContent = ct ? TERR[ct][0] : ""; tip.style.display = ct ? "block" : "none";
+    tip.style.left = (e.clientX - r.left) + "px"; tip.style.top = (e.clientY - r.top) + "px"; return;
+  }
+  if (mode === "tables" || mode === "derm") {
+    const o = hit.object, t = mode === "derm" ? (quiz ? "" : o.userData.field ? fieldLevel(hit) : o.userData.dm) : o.userData.mu ? MU[o.userData.mu].cells[1] : (o.userData.lg || o.userData.st) && LG ? ligName(o.userData.lg || o.userData.st)
+      : o.name.startsWith("bone_") && LG && LG.bones[o.name.slice(5)] ? LG.bones[o.name.slice(5)][0] : "";
+    tip.textContent = t; tip.style.display = t ? "block" : "none";
+    tip.style.left = (e.clientX - r.left) + "px"; tip.style.top = (e.clientY - r.top) + "px"; return;
+  }
+  const st = hit.object.userData.st;
+  if (st) { hovered = hit.object; hovered.material.emissive.set(0x553300); }
+  tip.textContent = st ? ST[st][0] : REGIONS[regionAt(hit.point)].name;
+  tip.style.left = (e.clientX - r.left) + "px"; tip.style.top = (e.clientY - r.top) + "px"; tip.style.display = "block";
+});
+renderer.domElement.addEventListener("pointerleave", () => { tip.style.display = "none"; });
+
+/* labels follow their anchors; hidden when behind the body's midline from this view */
+const tmp = new THREE.Vector3();
+const TAG_DX = { shoulder: 0.07, arm: 0.08, elbow: 0.08, forearm: 0.09, hand: 0.1, hip: -0.06, knee: -0.08, leg: -0.08, foot: -0.09 };  // nudge labels off the bone
+function placeTags() {
+  const w = stage.clientWidth, h = stage.clientHeight;
+  for (const [k, t] of Object.entries(tags)) {
+    tmp.copy(anchors[k]); tmp.x -= TAG_DX[k] || 0;
+    tmp.project(camera);
+    const vis = mode === "region" && tmp.z < 1 && Math.abs(tmp.x) < 1.05 && Math.abs(tmp.y) < 1.05;
+    t.style.display = vis ? "block" : "none";
+    t.style.left = ((tmp.x + 1) / 2 * w) + "px"; t.style.top = ((1 - tmp.y) / 2 * h) + "px";
+  }
+}
+/* level names printed on the skin: only those facing the camera, and none that would overlap one already placed */
+const camDir = new THREE.Vector3();
+function placeDermLabels() {
+  if (!dLabels.length) return;
+  const show = mode === "derm" && !quiz, w = stage.clientWidth, h = stage.clientHeight, placed = [];
+  const order = dermSel ? [...dLabels].sort((a, b) => (b.lv === dermSel) - (a.lv === dermSel)) : dLabels;
+  for (const L of order) {
+    let vis = show && camDir.subVectors(camera.position, L.p).normalize().dot(L.n) > 0.5;  // facing us, not edge-on
+    if (vis) {
+      tmp.copy(L.p).project(camera);
+      const x = (tmp.x + 1) / 2 * w, y = (1 - tmp.y) / 2 * h;
+      vis = tmp.z < 1 && x > 10 && x < w - 10 && y > 10 && y < h - 10;
+      const rw = 13 + 7 * L.e.textContent.length, rh = 18;
+      if (vis && placed.some(r => Math.abs(r[0] - x) < (r[2] + rw) / 2 && Math.abs(r[1] - y) < rh)) vis = false;
+      if (vis) { placed.push([x, y, rw]); L.e.style.left = x + "px"; L.e.style.top = y + "px"; }
+    }
+    L.e.style.display = vis ? "block" : "none";
+    L.e.classList.toggle("sel", L.lv === dermSel);
+    L.e.style.opacity = dermSel && L.lv !== dermSel ? 0.55 : 1;
+  }
+}
+function loop(now) {
+  if (fly) {
+    const u = Math.min(1, (now - fly.t0) / 700), e = u < .5 ? 2 * u * u : 1 - Math.pow(-2 * u + 2, 2) / 2;
+    controls.target.lerpVectors(fly.fromT, fly.toT, e); camera.position.lerpVectors(fly.fromP, fly.toP, e);
+    if (u >= 1) fly = null;
+  }
+  if (halo.visible) halo.material.opacity = 0.16 + 0.1 * Math.sin(now / 300);
+  controls.update(); placeTags(); placeDermLabels(); placeNerveLabels(); renderer.render(scene, camera); requestAnimationFrame(loop);
+}
+/* ---------- Anatomy tables view ---------- */
+const REGION_COL = { back: 0x8a5a2b, shoulder: 0xb5600f, arm: 0xc8524a, forearm: 0xa3336b, hand: 0x6a4aa8, "hip-thigh": 0x1f5f9e, leg: 0x1f6f8b, foot: 0x4f6d1f };
+let TB = null, MU = {}, muscles = [], muscleRoot = null, tablesLoading = null, picked = null;
+function isSkull(o) { return o.name && o.name.startsWith("bone_") && o.userData.c && o.userData.c.y > 1.45; }
+function ensureTables() {
+  if (tablesLoading) return tablesLoading;
+  tablesLoading = Promise.all([new GLTFLoader().loadAsync("muscles.glb"), fetch("tables.json").then(r => r.json())]).then(([g, tb]) => {
+    TB = tb;
+    for (const reg of tb.regions) for (const row of reg.rows) if (!MU[row.key]) MU[row.key] = { ...row, reg }; else MU[row.key].notes = MU[row.key].notes.concat(row.notes);
+    muscleRoot = g.scene; scene.add(muscleRoot);
+    muscleRoot.traverse(o => {
+      if (!o.isMesh) return;
+      const m = /^mu_(.+)_(\d+)$/.exec(o.name); if (!m || !MU[m[1]]) return;
+      if (!o.geometry.attributes.normal) o.geometry.computeVertexNormals();
+      o.userData.mu = m[1];
+      o.material = new THREE.MeshStandardMaterial({ color: REGION_COL[MU[m[1]].reg.sid], roughness: 0.6, transparent: true, opacity: 0.92 });
+      muscles.push(o);
+    });
+    applyLayers();
+  });
+  return tablesLoading;
+}
+/* notes arrive as HTML built by anatomy-tables/build.py from the vault text (escaped there) */
+function notesBox(list) { const d = document.createElement("div"); d.className = "notes"; d.innerHTML = list.join(""); return d; }
+function foldNotes(title, list) {
+  const det = document.createElement("details"); det.className = "fold";
+  const sm = document.createElement("summary"); sm.textContent = title; det.append(sm, notesBox(list)); return det;
+}
+function rowHtml(header, cells, skip) {
+  const dl = document.createElement("dl"); dl.className = "row";
+  header.forEach((h, i) => {
+    if (skip.includes(i) || !cells[i]) return;
+    const dt = document.createElement("dt"); dt.textContent = h; dl.appendChild(dt);
+    const dd = document.createElement("dd");
+    cells[i].split("<br>").map(l => l.trim()).filter(Boolean).forEach(l => {
+      const sp = document.createElement("span"); if (l.startsWith("- ")) { sp.className = "sub"; l = l.slice(2); }
+      sp.textContent = l; dd.appendChild(sp);
+    });
+    dl.appendChild(dd);
+  });
+  return dl;
+}
+function shade(sel) {
+  for (const o of muscles) {
+    const on = !sel || o.userData.mu === sel;
+    const base = mode === "tables" && (layers.cn || layers.bp || layers.ar) ? 0.75 : 0.92;  // solid enough to read; the plexus is drawn on top (bpShade)
+    o.material.color.setHex(REGION_COL[MU[o.userData.mu].reg.sid]);  // the myotome view recolours them
+    o.material.opacity = on ? base : 0.18; o.material.depthWrite = on;
+    o.material.emissive.set(sel && o.userData.mu === sel ? 0x3a2a00 : 0x000000);
+  }
+}
+function hiddenBar() {
+  const hid = muscles.filter(o => !o.visible);
+  if (!hid.length) return null;
+  const d = document.createElement("div"); d.className = "acts";
+  const b = document.createElement("button"); b.textContent = `Show the ${new Set(hid.map(o => o.userData.mu)).size} hidden muscle(s)`;
+  b.onclick = () => { muscles.forEach(o => o.visible = true); picked ? selectMuscle(picked) : showTablesIntro(); }; d.appendChild(b); return d;
+}
+function clearNerveSel() { if (LG) { if (ligSel) { ligSel = null; ligShade(null); clearCalls(); } if (boneSel || panel.dataset.list === "bones") { boneSel = null; boneShade(null); } } if (AR && arSel) { arSel = null; arShade(null); clearCalls(); } if (!NV) return; clearCalls(); cnSel = null; cnShade(null); bpSel = null; bpShade(null); }
+function showTablesIntro(sid) {
+  picked = null; shade(null); clearNerveSel(); panel.dataset.list = "";
+  panel.innerHTML = `<h2>Anatomy tables</h2><p class="sub">Tap a muscle on the body, or pick a table. Colours follow the table each muscle is in.</p>`;
+  const d = document.createElement("div"); d.className = "st"; d.style.marginTop = "10px";
+  for (const [k, t] of [["bones", "Bones"], ["lig", "Ligaments"], ["cn", "Cranial nerves"], ["bp", "Brachial plexus"], ["ar", "Blood supply"]]) { const b = document.createElement("button"); b.textContent = t; b.onclick = () => showLayer(k); d.appendChild(b); }
+  for (const reg of TB.regions) {
+    const b = document.createElement("button"); b.innerHTML = `<span class="sw" style="background:#${REGION_COL[reg.sid].toString(16).padStart(6, "0")}"></span>`;
+    b.append(reg.tab); if (reg.sid === sid) b.classList.add("on"); b.onclick = () => showTablesIntro(reg.sid); d.appendChild(b);
+  }
+  panel.appendChild(d);
+  if (sid) {
+    const reg = TB.regions.find(r => r.sid === sid), h = document.createElement("h3"); h.textContent = reg.tab + " muscles"; panel.appendChild(h);
+    const l = document.createElement("div"); l.className = "st";
+    for (const row of reg.rows) {
+      const b = document.createElement("button"); b.textContent = row.cells[1].replace(/\s*\(.*$/, "");
+      if (!row.in3d) { b.classList.add("off"); b.title = "Not in the 3D model"; }
+      b.onclick = () => selectMuscle(row.key, row.in3d); l.appendChild(b);
+    }
+    panel.appendChild(l);
+    if (reg.boxes.length) panel.appendChild(foldNotes(`Clinical points from the ${reg.tab.toLowerCase()} slides (${reg.boxes.length})`, reg.boxes));
+    const a = document.createElement("div"); a.className = "acts"; a.innerHTML = `<a target="_blank" rel="noopener" href="../anatomy-tables/#${sid}">Open the full ${reg.tab.toLowerCase()} table</a>`; panel.appendChild(a);
+  }
+  const hb = hiddenBar(); if (hb) panel.appendChild(hb);
+}
+function selectMuscle(key, zoom = true) {
+  const row = MU[key]; if (!row) return; picked = key; clearNerveSel();
+  const objs = muscles.filter(o => o.userData.mu === key);
+  objs.forEach(o => o.visible = true); shade(objs.length ? key : null);
+  if (zoom && objs.length) { const bx = new THREE.Box3(); objs.forEach(o => bx.expandByObject(o)); const c = bx.getCenter(new THREE.Vector3()), sz = bx.getSize(new THREE.Vector3()).length(); flyTo(c, Math.max(0.35, sz * 1.8)); }
+  panel.innerHTML = "";
+  const h = document.createElement("h2"); h.textContent = row.cells[1]; panel.appendChild(h);
+  const sub = document.createElement("p"); sub.className = "sub"; sub.textContent = `${row.reg.tab} table · ${row.cells[0]}` + (objs.length ? (row.drawn ? " · drawn approximately (not in BodyParts3D)" : "") : " · not in the 3D model"); panel.appendChild(sub);
+  const dl = rowHtml(row.reg.header, row.cells, [0, 1]);
+  panel.appendChild(dl);
+  if (!row.cells[2] && !row.cells[3]) { const p = document.createElement("p"); p.className = "sub"; p.textContent = "Named on the slides, with no action or nerve given."; panel.appendChild(p); }
+  // only what this year's slides say about this muscle
+  if (row.notes.length) { const h3 = document.createElement("h3"); h3.textContent = "Clinical"; panel.appendChild(h3); panel.appendChild(notesBox(row.notes)); }
+  const src = document.createElement("p"); src.className = "src"; src.textContent = "Slides: " + row.src; panel.appendChild(src);
+  const a = document.createElement("div"); a.className = "acts";
+  if (objs.length) { const hb = document.createElement("button"); hb.textContent = "Hide it to see underneath"; hb.onclick = () => { objs.forEach(o => o.visible = false); picked = null; shade(null); showTablesIntro(row.reg.sid); }; a.appendChild(hb); }
+  const back = document.createElement("button"); back.textContent = `All ${row.reg.tab.toLowerCase()} muscles`; back.onclick = () => showTablesIntro(row.reg.sid); a.appendChild(back);
+  const full = document.createElement("a"); full.target = "_blank"; full.rel = "noopener"; full.href = `../anatomy-tables/#${row.reg.sid}`; full.textContent = "Full table"; a.appendChild(full);
+  panel.appendChild(a);
+  const hb = hiddenBar(); if (hb) panel.appendChild(hb);
+}
+
+/* ---------- Cranial nerve and brachial plexus views ---------- */
+const MODC = { S: 0x2a8fb8, M: 0xd9822b, B: 0x8a63d2 }, MODNAME = { S: "Sensory", M: "Motor", B: "Both" };
+const CN_MOD = { I: "S", II: "S", III: "M", IV: "M", V: "B", VI: "M", VII: "B", VIII: "S", IX: "B", X: "B", XI: "M", XII: "M" };
+const CN_NUM = Object.keys(CN_MOD);
+let NV = null, cnRoot = null, bpRoot = null, cnPick = [], bpPick = [], nervesLoading = null, nLabels = [], cnSel = null, bpSel = null, CNROWS = {};
+const CN_HEAD = ["CN", "Name", "Origin", "Exits via", "Fibres and function", "Test", "Clinical notes"];
+function cnTitle(n) { return `CN ${n}` + (CNROWS[n] ? ` · ${CNROWS[n][1]}` : ""); }
+function bpName(id) { const s = NV.plexus.S[id]; return s.name || `Root ${id}`; }
+function firstLine(t, n = 90) { const l = String(t || "").split("<br>")[0].replace(/^- /, "").trim(); return l.length > n ? l.slice(0, n - 1) + "…" : l; }
+/* in the Anatomy tables view the muscles, cranial nerves and plexus are layers on one skeleton, each switched on or off */
+const layers = { bones: true, muscles: true, lig: false, cn: false, bp: false, ar: false };
+const INTRO = { cn: () => showCNIntro(), bp: () => showBPIntro(), ar: () => showARIntro(), lig: () => showLigIntro(), bones: () => showBoneIntro() };
+function viewOn(v) { return (mode === "tables" && ((v === "cn3d" && layers.cn) || (v === "bp3d" && layers.bp) || (v === "ar3d" && layers.ar) || (v === "lg3d" && layers.lig))) || (mode === "rootnerve" && v === "rn"); }
+function applyLayers() {
+  if (muscleRoot) muscleRoot.visible = (mode === "tables" && layers.muscles) || mode === "myo";
+  if (mode === "myo") muscles.forEach(o => o.visible = true);
+  if (cnRoot) cnRoot.visible = viewOn("cn3d");
+  if (arRoot) arRoot.visible = viewOn("ar3d");
+  if (mode === "tables") bones.forEach(b => b.visible = layers.bones);
+  if (ligRoot) ligRoot.visible = mode === "tables" && layers.lig;
+  if (mode === "tables") structs.forEach(o => o.visible = layers.lig && !!LG && LG.existing.includes(o.userData.st));
+  if (bpRoot) bpRoot.visible = viewOn("bp3d") || mode === "rootnerve";
+  if (bpRoot) bpRoot.children.forEach(o => { if (o.userData.ctx) o.visible = mode !== "rootnerve"; });
+  if (bpMirror) bpMirror.visible = mode === "rootnerve";
+  document.getElementById("layers").hidden = mode !== "tables";
+  boneLook(mode);
+  if (muscles.length && mode !== "myo") shade(picked);
+}
+document.querySelectorAll("#layers input").forEach(i => i.addEventListener("change", async () => {
+  const k = i.dataset.layer; layers[k] = i.checked;
+  if ((layers.cn || layers.bp) && !NV) await ensureNerves();
+  if (layers.ar && !AR) await ensureArteries();
+  if ((layers.lig || k === "bones") && !LG) await ensureLigaments();
+  applyLayers();
+  if (k === "muscles" || (k === "bones" && !i.checked)) return;
+  if (i.checked) INTRO[k]();
+  else if ((k === "cn" && cnSel) || (k === "bp" && bpSel) || (k === "ar" && arSel) || panel.dataset.list === k) showTablesIntro();
+}));
+/* switch a nerve layer on (if it is off) and open its list */
+async function showLayer(k) {
+  const box = document.querySelector(`#layers input[data-layer="${k}"]`);
+  if (!box.checked) { box.checked = true; box.dispatchEvent(new Event("change")); return; }
+  if (k === "ar") await ensureArteries(); else if (k === "lig" || k === "bones") await ensureLigaments(); else if (!NV) await ensureNerves();
+  INTRO[k]();
+}
+function boneLook(m) {
+  for (const b of bones) {
+    const c = b.userData.c, head = c.y > 1.42, girdle = /^bone_FJ(3362|3334|3384)/.test(b.name);
+    const cnOn = viewOn("cn3d"), bpOn = viewOn("bp3d") || mode === "rootnerve", see = (cnOn && head) || (bpOn && girdle);
+    if (b.material.transparent !== see) b.material.needsUpdate = true;
+    b.material.transparent = see; b.material.opacity = see ? (cnOn && head ? 0.16 : 0.35) : 1; b.material.depthWrite = !see;
+  }
+}
+function tube(path, r, mat) {
+  const curve = new THREE.CatmullRomCurve3(path.map(v3), false, "centripetal");
+  return new THREE.Mesh(new THREE.TubeGeometry(curve, Math.max(16, path.length * 10), r, 8, false), mat);
+}
+function shape(s, mat) {
+  if (s.kind === "ellipsoid") { const m = new THREE.Mesh(new THREE.SphereGeometry(1, 24, 16), mat); m.position.copy(v3(s.c)); m.scale.set(s.r[0], s.r[2], s.r[1]); return m; }
+  const a = v3(s.a), b = v3(s.b), len = a.distanceTo(b), m = new THREE.Mesh(new THREE.CapsuleGeometry(s.r, len, 6, 16), mat);
+  m.position.copy(a).add(b).multiplyScalar(0.5); m.quaternion.setFromUnitVectors(new THREE.Vector3(0, 1, 0), b.clone().sub(a).normalize()); return m;
+}
+function nlabel(text, p, cls, onclick) {
+  const e = document.createElement("div"); e.className = "nlab" + (cls ? " " + cls : ""); e.innerHTML = text; e.style.display = "none";
+  if (onclick) e.onclick = onclick; stage.appendChild(e);
+  const L = { e, p: p.clone(), view: null, call: cls === "call", key: null }; nLabels.push(L); return L;
+}
+function ensureNerves() {
+  if (nervesLoading) return nervesLoading;
+  nervesLoading = Promise.all([new GLTFLoader().loadAsync("nerves.glb"), fetch("nerves.json").then(r => r.json()), fetch("tables.json").then(r => r.json())]).then(([g, nv, tb]) => {
+    NV = nv; tb.cn.rows.forEach(r => CNROWS[r[0]] = r);
+    cnRoot = new THREE.Group(); bpRoot = new THREE.Group(); scene.add(cnRoot, bpRoot);
+    applyLayers();
+    const cnMat = {}; for (const n of CN_NUM) cnMat[n] = new THREE.MeshStandardMaterial({ color: MODC[CN_MOD[n]], roughness: 0.45, emissive: 0x000000 });
+    const ctxMat = { cn: new THREE.MeshStandardMaterial({ color: 0xc9b8a8, roughness: 0.7, transparent: true, opacity: 0.35, depthWrite: false }),
+      art: new THREE.MeshStandardMaterial({ color: 0xc0392b, roughness: 0.6, transparent: true, opacity: 0.45, depthWrite: false }),
+      eye: new THREE.MeshStandardMaterial({ color: 0xf4f1ea, roughness: 0.4, transparent: true, opacity: 0.55, depthWrite: false }),
+      mus: new THREE.MeshStandardMaterial({ color: 0xc8524a, roughness: 0.7, transparent: true, opacity: 0.3, depthWrite: false }) };
+    [...g.scene.children].forEach(o => {
+      if (!o.isMesh) return;
+      if (!o.geometry.attributes.normal) o.geometry.computeVertexNormals();
+      let m = /^cn_(\w+?)_(\d+)$/.exec(o.name);
+      if (m) { o.material = cnMat[m[1]]; o.userData.cn = m[1]; cnRoot.add(o); cnPick.push(o); return; }
+      m = /^ctx_(cn|bp)_(.+)$/.exec(o.name); if (!m) return;
+      o.material = /artery|carotid|jugular/.test(m[2]) ? ctxMat.art : m[2] === "eye" ? ctxMat.eye : ctxMat.mus;
+      o.userData.ctx = true; (m[1] === "cn" ? cnRoot : bpRoot).add(o);
+    });
+    const stemMat = new THREE.MeshStandardMaterial({ color: 0xd9c6ea, roughness: 0.8, transparent: true, opacity: 0.8 });
+    for (const s of nv.brainstem) cnRoot.add(shape(s, stemMat));
+    const bulb = shape(nv.bulb, cnMat.I); bulb.userData.cn = "I"; cnRoot.add(bulb); cnPick.push(bulb);
+    for (const [n, c] of Object.entries(nv.cn)) {
+      for (const p of c.paths) { const t = tube(p, n === "VIII" || n === "I" ? 0.0011 : 0.0014, cnMat[n]); t.userData.cn = n; cnRoot.add(t); cnPick.push(t); }
+      const mid = c.paths.length ? v3(c.paths[0][Math.min(2, c.paths[0].length - 1)]) : v3(c.exit);
+      const L = nlabel(n, n === "II" || n === "IV" ? v3(c.exit) : mid, null, () => selectCN(n)); L.view = "cn3d"; L.key = n;
+      L.e.style.borderColor = "#" + MODC[CN_MOD[n]].toString(16).padStart(6, "0"); L.e.style.color = L.e.style.borderColor;
+    }
+    const S = nv.plexus.S;
+    for (const [id, path] of Object.entries(nv.bp)) {
+      const s = S[id], minor = s.minor, r = s.t === "root" ? 0.0026 : s.t === "nerve" ? (s.hand ? 0.0011 : minor ? 0.0013 : 0.0024) : 0.0031;
+      const mat = new THREE.MeshStandardMaterial({ color: minor ? 0xe6c35c : 0xf2d34f, roughness: 0.45, emissive: 0x000000, transparent: true, opacity: 1 });
+      const t = tube(path, r, mat); t.userData.bp = id; bpRoot.add(t); bpPick.push(t);
+      for (const xp of (nv.bpx || {})[id] || []) { const x = tube(xp, r, mat); x.userData.bp = id; bpRoot.add(x); bpPick.push(x); }  // a branch that fans to several fingers
+      if (!minor) {
+        const short = s.t === "root" ? id : s.short || (s.t === "nerve" ? s.name.replace(" nerve", "") : s.t === "division" ? id.slice(-1) : s.name.replace(" trunk", "").replace(" cord", " cord"));
+        const L = nlabel(short, v3(path[Math.floor(path.length / 2)]), null, () => selectBP(id)); L.view = "bp3d"; L.key = id;
+        if (s.t === "division") L.small = true;
+      }
+    }
+  });
+  return nervesLoading;
+}
+let calls = [];
+function clearCalls() { calls.forEach(L => { L.e.remove(); nLabels.splice(nLabels.indexOf(L), 1); }); calls = []; }
+function callout(title, text, p, view) { const L = nlabel(`<b>${title}</b>`, p, "call"); L.e.append(text); L.view = view; calls.push(L); return L; }
+function placeNerveLabels() {
+  if (!nLabels.length) return;
+  const w = stage.clientWidth, h = stage.clientHeight, placed = [];
+  const order = [...calls, ...nLabels.filter(L => !L.call)];
+  for (const L of order) {
+    let vis = viewOn(L.view);
+    if (vis && !L.call && L.small && !bpSel) vis = false;
+    if (vis) {
+      tmp.copy(L.p).project(camera);
+      const x = (tmp.x + 1) / 2 * w, y = (1 - tmp.y) / 2 * h;
+      vis = tmp.z < 1 && x > 0 && x < w && y > 0 && y < h;
+      const rw = L.call ? 200 : 14 + 7 * L.e.textContent.length, rh = L.call ? 44 : 18, cx = L.call ? x + 10 + rw / 2 : x;
+      const hits = yy => placed.some(r => Math.abs(r[0] - cx) < (r[2] + rw) / 2 && Math.abs(r[1] - yy) < (r[3] + rh) / 2);
+      let yy = y;
+      if (vis && L.call) for (let k = 0; k < 6 && hits(yy); k++) yy += rh;  // callouts stack rather than vanish
+      if (vis && hits(yy)) vis = false;
+      if (vis) { placed.push([cx, yy, rw, rh]); L.e.style.left = x + "px"; L.e.style.top = yy + "px"; }
+    }
+    L.e.style.display = vis ? "block" : "none";
+    if (!L.call) L.e.style.opacity = (L.view === "cn3d" && cnSel && L.key !== cnSel) || (L.view === "bp3d" && bpLit && !bpLit[L.key]) ? 0.45 : 1;
+  }
+}
+function cellBlock(t) {
+  const dd = document.createElement("div"); dd.className = "row";
+  String(t || "").split("<br>").map(l => l.trim()).filter(Boolean).forEach(l => {
+    const sp = document.createElement("span"); sp.style.display = "block"; if (l.startsWith("- ")) { sp.style.paddingLeft = "12px"; sp.style.color = "var(--muted)"; l = l.slice(2); }
+    sp.textContent = l; dd.appendChild(sp);
+  });
+  return dd;
+}
+function cnShade(sel) {
+  for (const o of cnPick) { const on = !sel || o.userData.cn === sel; o.material.emissive.set(sel && on ? 0x2a1600 : 0); }
+  for (const n of CN_NUM) {
+    const m = cnPick.find(o => o.userData.cn === n); if (!m) continue;  // a nerve's pieces share one material
+    const dim = !!sel && n !== sel; if (m.material.transparent !== dim) m.material.needsUpdate = true;
+    m.material.transparent = dim; m.material.opacity = dim ? 0.18 : 1; m.material.depthWrite = !dim;
+  }
+}
+function backToTables(a) {
+  if (mode !== "tables") return;
+  const b = document.createElement("button"); b.textContent = "Muscle tables"; b.onclick = () => showTablesIntro(); a.prepend(b);
+}
+function showCNIntro() {
+  cnSel = null; cnShade(null); clearCalls();
+  panel.innerHTML = `<h2>Cranial nerves</h2><p class="sub">Right side. Each nerve runs from where it leaves the brainstem, through its opening in the see-through skull, to what it supplies. Tap a nerve or pick one; its table row appears on the body and below. Colour: <b style="color:#2a8fb8">sensory</b> · <b style="color:#d9822b">motor</b> · <b style="color:#8a63d2">both</b>.</p>`;
+  const d = document.createElement("div"); d.className = "st"; d.style.marginTop = "10px";
+  for (const n of CN_NUM) { const b = document.createElement("button"); b.textContent = cnTitle(n); b.onclick = () => selectCN(n); d.appendChild(b); }
+  panel.appendChild(d); panel.dataset.list = "cn";
+  const a = document.createElement("div"); a.className = "acts"; backToTables(a); panel.appendChild(a);
+}
+function selectCN(n) {
+  cnSel = n; cnShade(n); clearCalls();
+  const c = NV.cn[n], r = CNROWS[n] || [];
+  callout("Origin", firstLine(r[2]), v3(c.origin), "cn3d");
+  callout("Exits via", firstLine(r[3]), v3(c.exit), "cn3d");
+  callout("Fibres and function", firstLine(r[4]), v3(c.target), "cn3d");
+  const mid = v3(c.exit).add(v3(c.origin)).multiplyScalar(0.5);
+  fly = { t0: performance.now(), fromT: controls.target.clone(), toT: mid, fromP: camera.position.clone(), toP: camera.position.clone().sub(controls.target).normalize().multiplyScalar(0.3).add(mid) };
+  panel.innerHTML = "";
+  const k = document.createElement("p"); k.className = "sub"; k.textContent = MODNAME[CN_MOD[n]]; panel.appendChild(k);
+  const h = document.createElement("h2"); h.textContent = cnTitle(n); panel.appendChild(h);
+  const dl = document.createElement("dl"); dl.className = "row";
+  [[2, "Origin"], [3, "Exits via"], [4, "Fibres and function"], [5, "Test"], [6, "Clinical notes"]].forEach(([i, t]) => {
+    if (!r[i]) return; const dt = document.createElement("dt"); dt.textContent = t; const dd = document.createElement("dd"); dd.appendChild(cellBlock(r[i])); dl.append(dt, dd);
+  });
+  panel.appendChild(dl);
+  const a = document.createElement("div"); a.className = "acts";
+  const b = document.createElement("button"); b.textContent = "All cranial nerves"; b.onclick = showCNIntro; a.appendChild(b);
+  const t = document.createElement("a"); t.href = "../anatomy-tables/#cn"; t.target = "_blank"; t.rel = "noopener"; t.textContent = "Full table"; a.appendChild(t);
+  backToTables(a); panel.appendChild(a);
+}
+/* brachial plexus: the same structures and notes as the anatomy tables' plexus tab */
+let bpLit = null;
+function rootsOf(id) {
+  const S = NV.plexus.S, s = S[id]; if (s.roots) return s.roots; if (s.t === "root") return [id];
+  const out = new Set(); s.p.forEach(q => rootsOf(q).forEach(r => out.add(r))); return NV.plexus.R.filter(r => out.has(r));
+}
+function pathUp(id, want, acc) { acc[id] = 1; NV.plexus.S[id].p.forEach(q => { if (rootsOf(q).some(r => want.includes(r))) pathUp(q, want, acc); }); return acc; }
+function pathFor(id) {
+  const S = NV.plexus.S;
+  if (S[id].t !== "root") return pathUp(id, rootsOf(id), {});
+  const acc = { [id]: 1 }; Object.keys(S).forEach(k => { if (rootsOf(k).includes(id)) Object.assign(acc, pathUp(k, [id], {})); }); return acc;
+}
+const FROM = { sup: "Superior trunk", mid: "Middle trunk", inf: "Inferior trunk", lat: "Lateral cord", post: "Posterior cord", med: "Medial cord" };
+function arisesFrom(id) { const s = NV.plexus.S[id], q = NV.plexus.S[s.p[0]]; if (id === "medn") return "Lateral + medial cords"; return q.t === "root" ? "Roots" : q.t === "nerve" ? q.name : FROM[s.p[0]]; }
+/* a nerve's own branches further down (the hand branches), so tapping the median nerve also lights it in the hand */
+function branchesOf(id) { const S = NV.plexus.S, acc = {}; for (const k of Object.keys(S)) if (S[k].p && S[k].p.includes(id)) Object.assign(acc, { [k]: 1 }, branchesOf(k)); return acc; }
+function bpShade(lit, focus) {
+  bpLit = lit;
+  for (const o of bpPick) {
+    const id = o.userData.bp, on = !lit || lit[id];
+    o.material.opacity = on ? 1 : 0.15; o.material.depthWrite = on; o.material.depthTest = !on; o.renderOrder = on ? 10 : 0;  // lit nerves show through the muscles
+    o.material.color.set(id === focus ? 0x5b21b6 : lit && on ? 0xa98bdc : NV.plexus.S[id].minor ? 0xe6c35c : 0xf2d34f);  // purple, never artery red
+  }
+}
+function showBPIntro() {
+  bpSel = null; bpShade(null); clearCalls();
+  panel.innerHTML = `<h2>Brachial plexus</h2><p class="sub">Right side. Roots C5–T1 leave their intervertebral foramina, pass between the scalenes as trunks, split into divisions behind the clavicle, form cords around the axillary artery and end as five nerves down the arm (Read That Damn Cadaver Book). Tap any part: its path lights back to the roots it carries.</p>`;
+  const S = NV.plexus.S;
+  for (const [title, ids] of [["Roots", NV.plexus.R], ["Trunks", ["sup", "mid", "inf"]], ["Cords", ["lat", "post", "med"]], ["Terminal nerves", ["mc", "ax", "rad", "medn", "uln"]],
+    ["In the hand", Object.keys(S).filter(k => S[k].hand)], ["Other branches", Object.keys(S).filter(k => S[k].minor)]]) {
+    const h = document.createElement("h3"); h.textContent = title; panel.appendChild(h);
+    const d = document.createElement("div"); d.className = "st";
+    for (const id of ids) { const b = document.createElement("button"); b.textContent = bpName(id); b.onclick = () => selectBP(id); d.appendChild(b); }
+    panel.appendChild(d);
+  }
+  panel.dataset.list = "bp";
+  const a = document.createElement("div"); a.className = "acts"; backToTables(a); panel.appendChild(a);
+}
+function selectBP(id) {
+  bpSel = id; const S = NV.plexus.S, s = S[id], i = NV.plexus.INFO[id] || {}, path = NV.bp[id];
+  bpShade(Object.assign(pathFor(id), branchesOf(id)), id); clearCalls();
+  const end = v3(path[path.length - 1]), start = v3(path[0]);
+  const roots = rootsOf(id).join(", ");
+  callout(bpName(id), `Roots ${roots}` + (s.t === "nerve" ? ` · from ${arisesFrom(id).toLowerCase()}` : ""), v3(path[Math.floor(path.length / 2)]), "bp3d");
+  const sup = NV.plexus.SUPPLY && NV.plexus.SUPPLY[id];
+  const moves = NV.plexus.MOVES && NV.plexus.MOVES[id];
+  const motor = moves ? moves.split(". Cut it")[0] : sup ? sup.map(m => m[0]).join(", ") : i.m;
+  if (motor) callout(moves ? "What it does" : sup ? `Supplies (${sup.length})` : "Motor", motor.length > 220 ? motor.slice(0, 218) + "…" : motor, end, "bp3d"); else if (i.s) callout("Sensory", i.s, end, "bp3d");
+  if (i.m && i.s) callout("Sensory", i.s, v3(path[Math.max(0, path.length - 2)]), "bp3d");
+  const box = new THREE.Box3(); path.forEach(p => box.expandByPoint(v3(p)));
+  const c = box.getCenter(new THREE.Vector3()), size = Math.max(0.25, box.getSize(new THREE.Vector3()).length() * 1.3);
+  fly = { t0: performance.now(), fromT: controls.target.clone(), toT: c, fromP: camera.position.clone(), toP: camera.position.clone().sub(controls.target).normalize().multiplyScalar(size).add(c) };
+  const kind = { root: "Root", trunk: "Trunk", division: "Division", cord: "Cord", nerve: s.hand ? "Branch in the hand" : s.minor ? "Branch before the terminal five" : "Terminal branch" }[s.t];
+  panel.innerHTML = `<p class="sub"></p><h2></h2><p class="row" style="margin-top:10px"><b style="font-size:12px;text-transform:uppercase;letter-spacing:.08em;color:var(--muted)">Roots carried</b></p><div class="chips2">${NV.plexus.R.map(r => `<span class="${rootsOf(id).includes(r) ? "in" : ""}">${r}</span>`).join("")}</div>`;
+  panel.querySelector(".sub").textContent = kind; panel.querySelector("h2").textContent = bpName(id);
+  if (moves) { const p = document.createElement("p"); p.className = "moves"; p.textContent = moves; panel.querySelector("h2").after(p); }
+  const dl = document.createElement("dl"); dl.className = "row";
+  const add = (k, v) => { if (!v) return; const dt = document.createElement("dt"); dt.textContent = k; const dd = document.createElement("dd"); dd.textContent = v; dl.append(dt, dd); };
+  if (s.t === "nerve") add("Comes off", arisesFrom(id));
+  add("Formed by", i.d); if (!sup) add("Motor", i.m); add("Sensory", i.s); add("Note", i.c);
+  panel.appendChild(dl);
+  if (sup) {
+    const h3 = document.createElement("h3"); h3.textContent = `Muscles it supplies (${sup.length})`; panel.appendChild(h3);
+    const ul = document.createElement("ul"); ul.className = "sup";
+    for (const [m, br, blood, note, action] of sup) {
+      const li = document.createElement("li"), b = document.createElement("b"); b.textContent = m; li.appendChild(b);
+      if (br) li.append(` (${br})`);
+      if (action) { const s = document.createElement("span"); s.className = "ac"; s.textContent = action; li.append(document.createElement("br"), s); }
+      if (blood.length) { const s = document.createElement("span"); s.className = "bl"; s.textContent = "Blood: " + blood.join(", "); li.append(document.createElement("br"), s); }
+      if (note) { const s = document.createElement("span"); s.className = "nt"; s.textContent = note; li.append(document.createElement("br"), s); }
+      ul.appendChild(li);
+    }
+    panel.appendChild(ul);
+  }
+  const a = document.createElement("div"); a.className = "acts";
+  const b = document.createElement("button"); b.textContent = "Whole plexus"; b.onclick = showBPIntro; a.appendChild(b);
+  const t = document.createElement("a"); t.href = "../anatomy-tables/#plexus"; t.target = "_blank"; t.rel = "noopener"; t.textContent = "Plexus diagram"; a.appendChild(t);
+  backToTables(a); panel.appendChild(a);
+}
+
+/* ---------- Dermatomes view ---------- */
+const DERM_INFO = {
+  V: ["Trigeminal nerve (CN V), not a spinal level", "Face: V1 forehead, V2 cheek, V3 jaw. The back of the scalp is C2."],
+  C2: ["At least 1 cm lateral to the occipital protuberance"], C3: ["Supraclavicular fossa, midclavicular line"],
+  C4: ["Over the acromioclavicular joint"], C5: ["Lateral side of the antecubital fossa, just above the elbow crease"],
+  C6: ["Thumb: dorsal surface of the proximal phalanx"], C7: ["Middle finger: dorsal surface of the proximal phalanx"],
+  C8: ["Little finger: dorsal surface of the proximal phalanx"], T1: ["Medial side of the antecubital fossa, just above the medial epicondyle"],
+  T2: ["Apex of the axilla"], T3: ["Midclavicular line, 3rd intercostal space"], T4: ["Midclavicular line, 4th intercostal space (nipple line)"],
+  T5: ["Midclavicular line, midway between T4 and T6"], T6: ["Midclavicular line, level of the xiphisternum"],
+  T7: ["Midclavicular line, a quarter of the way from T6 to T10"], T8: ["Midclavicular line, halfway from T6 to T10"],
+  T9: ["Midclavicular line, three quarters of the way from T6 to T10"], T10: ["Midclavicular line, level of the umbilicus"],
+  T11: ["Midclavicular line, midway between T10 and T12"], T12: ["Midpoint of the inguinal ligament"],
+  L1: ["Halfway between the T12 and L2 points"], L2: ["Anteromedial thigh, midway between T12 and the medial femoral condyle"],
+  L3: ["Medial femoral condyle, just above the knee"], L4: ["Medial malleolus"], L5: ["Dorsum of the foot at the 3rd metatarsophalangeal joint"],
+  S1: ["Lateral heel (calcaneus)"], S2: ["Midpoint of the popliteal fossa"], S3: ["Ischial tuberosity or infragluteal fold"],
+  "S4-5": ["Perianal, less than 1 cm lateral to the mucocutaneous junction"],
+};
+/* motor and reflex, from the dermatome table the class was given */
+const DERM_EXAM = {
+  C5: ["Shoulder abduction, adduction, retraction, rotation · elbow flexion", "Biceps (C5/6), brachioradialis (C5/6)"],
+  C6: ["Shoulder rotation · elbow flexion · forearm pronation · wrist extension", "Biceps (C5/6), brachioradialis (C5/6)"],
+  C7: ["Elbow extension · forearm pronation · finger extension · shoulder adduction", "Triceps"],
+  C8: ["Finger flexion, abduction, adduction · thumb movements", "(finger flexion)"], T1: ["Finger flexion, abduction, adduction · thumb movements", "(finger flexion)"],
+  L2: ["Hip flexion · knee extension · hip adduction", "none"], L3: ["Hip flexion · knee extension · hip adduction", "Patellar"],
+  L4: ["Knee extension · hip adduction · dorsiflexion · knee flexion", "Patellar"],
+  L5: ["Dorsiflexion · toe extension · inversion, eversion · knee flexion · hip abduction", "(hamstrings)"],
+  S1: ["Knee flexion · plantar flexion · toe flexion · inversion, eversion · hip extension", "Ankle"],
+};
+const ORDER = ["V", "C2", "C3", "C4", "C5", "C6", "C7", "C8", "T1", "T2", "T3", "T4", "T5", "T6", "T7", "T8", "T9", "T10", "T11", "T12", "L1", "L2", "L3", "L4", "L5", "S1", "S2", "S3", "S4-5"];
+const GROUPS_D = [["Head and neck", ["V", "C2", "C3", "C4"]], ["Arm", ["C5", "C6", "C7", "C8", "T1"]], ["Trunk", ["T2", "T3", "T4", "T5", "T6", "T7", "T8", "T9", "T10", "T11", "T12", "L1"]], ["Leg", ["L2", "L3", "L4", "L5", "S1", "S2"]], ["Sacral", ["S3", "S4-5"]]];
+function dermColour(lv) {
+  // the usual atlas families: purple-blue cervical, red to yellow thoracic, green lumbar, pink sacral; neighbours alternate light and dark
+  const i = ORDER.indexOf(lv), light = i % 2 ? 62 : 48;
+  if (lv === "V") return new THREE.Color().setHSL(0, 0, 0.72);
+  const n = parseInt(lv.slice(1)), f = lv[0];
+  const hue = f === "C" ? 265 - (n - 2) * 9 : f === "T" ? (n - 1) * 4.5 : f === "L" ? 95 + (n - 1) * 14 : 305 + (n - 1) * 9;
+  return new THREE.Color().setHSL(hue / 360, 0.62, light / 100);
+}
+let dLabels = [];
+let skinRoot = null, skins = [], keyDots = {}, dermLoading = null, dermSel = null, quiz = null, field = null, FIELD_LV = [];
+const DIM = new THREE.Color(0xe9e4ee), QUIZ_SKIN = new THREE.Color(0xe6dccd);
+/* the trunk is one mesh carrying its level as a smooth number per vertex; the shader rounds it per pixel, so band borders are clean lines */
+function fieldMaterial() {
+  const m = new THREE.MeshStandardMaterial({ roughness: 0.85, side: THREE.DoubleSide });
+  m.userData.u = { uCols: { value: FIELD_LV.map(dermColour) }, uSel: { value: -1 }, uDim: { value: 0 }, uQuiz: { value: 0 }, uN: { value: FIELD_LV.length - 1 }, uDimCol: { value: DIM }, uQuizCol: { value: QUIZ_SKIN } };
+  m.onBeforeCompile = sh => {
+    Object.assign(sh.uniforms, m.userData.u);
+    sh.vertexShader = "attribute vec4 dcode;\nvarying float vCode;\n" + sh.vertexShader.replace("#include <begin_vertex>", "#include <begin_vertex>\nvCode = dcode.r;");
+    sh.fragmentShader = `uniform vec3 uCols[${FIELD_LV.length}];\nuniform int uSel;\nuniform float uDim, uQuiz, uN;\nuniform vec3 uDimCol, uQuizCol;\nvarying float vCode;\n` +
+      sh.fragmentShader.replace("vec4 diffuseColor = vec4( diffuse, opacity );", `
+        int lv = int(floor(vCode * uN + 0.5));
+        vec3 col = uCols[0];
+        for (int k = 0; k < ${FIELD_LV.length}; k++) if (k == lv) col = uCols[k];
+        if (uDim > 0.5 && lv != uSel) col = mix(col, uDimCol, 0.78);
+        if (uQuiz > 0.5) col = uQuizCol;
+        vec4 diffuseColor = vec4(col, opacity);`);
+  };
+  return m;
+}
+function fieldLevel(hit) {
+  const g = hit.object.geometry, pos = g.attributes.position, code = g.attributes.dcode, f = hit.face;
+  const tri = new THREE.Triangle(...[f.a, f.b, f.c].map(i => new THREE.Vector3().fromBufferAttribute(pos, i)));
+  const local = hit.object.worldToLocal(hit.point.clone()), w = tri.getBarycoord(local, new THREE.Vector3());
+  const c = w.x * code.getX(f.a) + w.y * code.getX(f.b) + w.z * code.getX(f.c);
+  return FIELD_LV[Math.round(c * (FIELD_LV.length - 1))];
+}
+function ensureDerm() {
+  if (dermLoading) return dermLoading;
+  dermLoading = Promise.all([new GLTFLoader().loadAsync("skin.glb"), fetch("dermatomes.json").then(r => r.json())]).then(([g, dj]) => {
+    skinRoot = g.scene; skinRoot.visible = mode === "derm"; scene.add(skinRoot);
+    FIELD_LV = dj.trunk_field;
+    skinRoot.traverse(o => {
+      if (!o.isMesh || !o.name.startsWith("dm_")) return;
+      if (!o.geometry.attributes.normal) o.geometry.computeVertexNormals();
+      if (o.name === "dm_FIELD") {
+        o.geometry.setAttribute("dcode", o.geometry.getAttribute("color")); o.geometry.deleteAttribute("color");
+        o.material = fieldMaterial(); o.userData.field = true; field = o; skins.push(o); return;
+      }
+      const lv = o.name.slice(3).replace("S45", "S4-5"); o.userData.dm = lv;
+      o.material = new THREE.MeshStandardMaterial({ color: dermColour(lv), roughness: 0.85, side: THREE.DoubleSide });
+      skins.push(o);
+    });
+    for (const l of dj.labels) for (const mirror of [false, true]) {
+      const e = document.createElement("div"), c = dermColour(l.lv);
+      e.className = "dlab"; e.textContent = l.lv === "V" ? "CN V" : l.lv;
+      e.style.background = "#" + c.getHexString(); e.style.color = c.getHSL({}).l < 0.5 ? "#fff" : "#201436";
+      e.style.display = "none"; e.onclick = () => { if (!quiz) selectDerm(l.lv); };
+      stage.appendChild(e);
+      const pp = v3(l.p), n = v3(l.n); if (mirror) { pp.x = -pp.x; n.x = -n.x; }
+      dLabels.push({ lv: l.lv, p: pp, n, e });
+    }
+    const dotGeo = new THREE.SphereGeometry(0.006, 14, 10);
+    for (const [lv, p] of Object.entries(dj.keypoints)) {
+      const d = new THREE.Mesh(dotGeo, new THREE.MeshBasicMaterial({ color: 0x201436 }));
+      d.position.copy(v3(p)); skinRoot.add(d); keyDots[lv] = d;
+    }
+  });
+  return dermLoading;
+}
+function dermShade(lv, quizMode = false) {
+  if (field) { const u = field.material.userData.u; u.uSel.value = lv ? FIELD_LV.indexOf(lv) : -1; u.uDim.value = lv ? 1 : 0; u.uQuiz.value = quizMode ? 1 : 0; }
+  for (const o of skins) {
+    if (o.userData.field) continue;
+    if (quizMode) { o.material.color.copy(QUIZ_SKIN); o.material.emissive.set(0); continue; }
+    const c = dermColour(o.userData.dm);
+    if (lv && o.userData.dm !== lv) c.lerp(DIM, 0.78);
+    o.material.color.copy(c); o.material.emissive.set(lv && o.userData.dm === lv ? 0x220a30 : 0x000000);
+  }
+  for (const [k, d] of Object.entries(keyDots)) { d.visible = !lv || k === lv; d.scale.setScalar(k === lv ? 1.8 : 1); }
+}
+function dermChips(sel, onPick) {
+  const frag = document.createDocumentFragment();
+  for (const [name, lvs] of GROUPS_D) {
+    const h = document.createElement("h3"); h.textContent = name; frag.appendChild(h);
+    const d = document.createElement("div"); d.className = "st";
+    for (const lv of lvs) {
+      const b = document.createElement("button"); b.innerHTML = `<span class="sw" style="background:#${dermColour(lv).getHexString()}"></span>`; b.append(lv);
+      if (lv === sel) b.classList.add("on"); b.onclick = () => onPick(lv); d.appendChild(b);
+    }
+    frag.appendChild(d);
+  }
+  return frag;
+}
+function showDermIntro() {
+  dermSel = null; quiz = null; dermShade(null);
+  panel.innerHTML = `<h2>Dermatomes</h2><p class="sub">Tap the skin, or pick a level. Each dot is the ISNCSCI key sensory point for that level; boundaries between levels vary from person to person.</p>`;
+  const a = document.createElement("div"); a.className = "acts";
+  const t = document.createElement("button"); t.textContent = "Test me: find the level"; t.onclick = startQuiz; a.appendChild(t); panel.appendChild(a);
+  panel.appendChild(dermChips(null, selectDerm));
+}
+function selectDerm(lv) {
+  dermSel = lv; dermShade(lv);
+  const dot = keyDots[lv]; if (dot) flyTo(dot.position.clone(), 0.75);
+  const [kp, extra] = DERM_INFO[lv] || ["", ""], ex = DERM_EXAM[lv];
+  panel.innerHTML = "";
+  const h = document.createElement("h2"); h.textContent = lv === "V" ? "Face" : lv; panel.appendChild(h);
+  const dl = document.createElement("dl"); dl.className = "row";
+  const add = (k, v) => { if (!v) return; const dt = document.createElement("dt"); dt.textContent = k; const dd = document.createElement("dd"); dd.textContent = v; dl.append(dt, dd); };
+  add(lv === "V" ? "Nerve" : "Key sensory point", kp); add("Note", extra);
+  if (ex) { add("Motor", ex[0]); add("Reflex", ex[1]); }
+  panel.appendChild(dl);
+  const a = document.createElement("div"); a.className = "acts";
+  const b = document.createElement("button"); b.textContent = "All levels"; b.onclick = showDermIntro; a.appendChild(b);
+  const t = document.createElement("button"); t.textContent = "Test me"; t.onclick = startQuiz; a.appendChild(t);
+  panel.appendChild(a);
+  panel.appendChild(dermChips(lv, selectDerm));
+}
+function startQuiz() {
+  dermSel = null;
+  const pool = ORDER.filter(x => x !== "V");
+  quiz = { ask: pool[Math.floor(Math.random() * pool.length)], right: quiz ? quiz.right : 0, done: quiz ? quiz.done : 0, answered: false };
+  dermShade(null, true); for (const d of Object.values(keyDots)) d.visible = false;
+  panel.innerHTML = "";
+  const h = document.createElement("h2"); h.textContent = "Find the level"; panel.appendChild(h);
+  const q = document.createElement("div"); q.className = "quiz"; q.innerHTML = `Tap the <b></b> dermatome on the body.`; q.querySelector("b").textContent = quiz.ask; panel.appendChild(q);
+  const s = document.createElement("p"); s.className = "sub"; s.id = "qscore"; s.textContent = quiz.done ? `${quiz.right} of ${quiz.done} right so far` : "The colours are off until you answer."; panel.appendChild(s);
+  const a = document.createElement("div"); a.className = "acts";
+  const n = document.createElement("button"); n.textContent = "Skip"; n.onclick = startQuiz; a.appendChild(n);
+  const x = document.createElement("button"); x.textContent = "Stop testing"; x.onclick = () => { quiz = null; showDermIntro(); }; a.appendChild(x);
+  panel.appendChild(a);
+}
+function tapDerm(lv) {
+  if (!lv) return;
+  if (!quiz) { selectDerm(lv); return; }
+  if (quiz.answered) return;
+  quiz.answered = true; quiz.done++; const ok = lv === quiz.ask; if (ok) quiz.right++;
+  dermShade(quiz.ask);
+  const q = panel.querySelector(".quiz");
+  const r = document.createElement("p"); r.className = ok ? "good" : "bad";
+  r.textContent = ok ? `Yes: ${quiz.ask}.` : `That was ${lv}. ${quiz.ask} is lit now.`; q.appendChild(r);
+  const kp = document.createElement("p"); kp.className = "sub"; kp.textContent = `Key point: ${DERM_INFO[quiz.ask][0]}`; q.appendChild(kp);
+  document.getElementById("qscore").textContent = `${quiz.right} of ${quiz.done} right`;
+  const n = panel.querySelector(".acts button"); n.textContent = "Next";
+}
+
+/* ---------- Myotome map: the table muscles coloured by the root that powers them ---------- */
+/* test movements, reflexes and muscle levels from this year's slides; the everyday functions are bedside teaching, not on the slides */
+const MYO = {
+  C5: { move: "Shoulder abduction · elbow flexion", how: "Arm out to the side (deltoid) · bend the elbow (biceps)", reflex: "Biceps, brachioradialis (C5/6)",
+    fn: "Lifting the arm out and up: brushing hair, reaching a high shelf", disc: "C4/5",
+    test: ["deltoid", "biceps_brachii"], also: ["supraspinatus", "infraspinatus", "teres_minor", "subscapularis", "serratus_anterior", "brachioradialis"],
+    src: "Anatomy of the Back & Spinal Cord · Neurovascular Supply of the Distal Upper Extremity · Muscles of the Shoulder" },
+  C6: { move: "Elbow flexion · wrist extension", how: "Bend the elbow (biceps) · cock the wrist back (forearm extensors)", reflex: "Biceps, brachioradialis (C5/6)",
+    fn: "Bringing food to the mouth; holding the wrist up to grip", disc: "C5/6",
+    test: ["biceps_brachii", "extensor_carpi_radialis_longus", "extensor_carpi_radialis_brevis"],
+    also: ["deltoid", "supraspinatus", "infraspinatus", "teres_minor", "subscapularis", "brachioradialis", "latissimus_dorsi", "serratus_anterior", "pronator_teres", "flexor_carpi_radialis"],
+    src: "Anatomy of the Back & Spinal Cord · Neurovascular Supply of the Distal Upper Extremity · Nerve Injury" },
+  C7: { move: "Elbow extension · wrist flexion · finger extension", how: "Straighten the elbow (triceps) · bend the wrist (forearm flexors) · straighten the fingers (forearm extensors)", reflex: "Triceps",
+    fn: "Pushing: up out of a chair, a door open, a walker forward", disc: "C6/7",
+    test: ["triceps", "flexor_carpi_radialis", "palmaris_longus", "flexor_carpi_ulnaris", "extensor_digitorum", "extensor_digiti_minimi", "extensor_indicis"],
+    also: ["serratus_anterior", "subscapularis", "extensor_carpi_ulnaris"],
+    src: "Anatomy of the Back & Spinal Cord · Neurovascular Supply of the Distal Upper Extremity · Nerve Injury" },
+  C8: { move: "Finger flexion", how: "Curl the fingers into a fist, against resistance", reflex: "None on the slides",
+    fn: "Gripping: a cup, a bag handle, a railing", disc: "C7/T1",
+    test: ["flexor_digitorum_superficialis", "flexor_digitorum_profundus", "flexor_pollicis_longus"],
+    also: ["triceps", "extensor_indicis", "flexor_carpi_ulnaris", "abductor_digiti_minimi", "flexor_digiti_minimi_brevis", "opponens_digiti_minimi", "adductor_pollicis", "interossei"],
+    src: "Neurovascular Supply of the Distal Upper Extremity · Nerve Injury (ulnar C8, T1; radial C5-T1)" },
+  T1: { move: "Finger abduction and adduction", how: "Spread the fingers (dorsal interossei, DAB) · squeeze them together (palmar interossei, PAD)", reflex: "None on the slides",
+    fn: "Fine hand work: buttons, holding a card between two fingers", disc: "",
+    test: ["interossei"], also: ["extensor_indicis", "flexor_carpi_ulnaris", "abductor_digiti_minimi", "flexor_digiti_minimi_brevis", "opponens_digiti_minimi", "adductor_pollicis"],
+    src: "Neurovascular Supply of the Distal Upper Extremity · Nerve Injury (ulnar C8, T1)" },
+  L2: { move: "Hip flexion", how: "Lift the thigh off the bed (iliopsoas, L1/2)", reflex: "None",
+    fn: "Lifting the leg: onto a step, into a car", disc: "",
+    test: ["iliopsoas"], also: ["sartorius", "rectus_femoris"],
+    src: "Anatomy of the Gluteal Region & Thigh (iliopsoas L1/2; femoral nerve L2-L4)" },
+  L3: { move: "Knee extension · hip adduction", how: "Straighten the knee (quadriceps, L3/4) · squeeze the knees together (adductors, L3)", reflex: "Patellar (L3-L4)",
+    fn: "Standing up from a chair or a squat; climbing stairs", disc: "",
+    test: ["rectus_femoris", "vastus_lateralis", "vastus_medialis", "vastus_intermedius", "adductor_longus", "adductor_brevis", "adductor_magnus", "gracilis"],
+    also: ["iliopsoas", "sartorius"],
+    src: "Anatomy of the Gluteal Region & Thigh" },
+  L4: { move: "Ankle dorsiflexion", how: "Pull the foot up against resistance (tibialis anterior)", reflex: "Patellar",
+    fn: "Walking on the heels; clearing the toes when stepping (weak = foot drop)", disc: "",
+    test: ["tibialis_anterior"], also: ["rectus_femoris", "vastus_lateralis", "vastus_medialis", "vastus_intermedius"],
+    src: "Anatomy of the Back & Spinal Cord · Anatomy of the Leg · Gluteal Region & Thigh (quadriceps L3/4)" },
+  L5: { move: "Big toe extension", how: "Pull the big toe up against resistance (extensor hallucis longus)", reflex: "Hamstrings (often absent normally: compare sides)",
+    fn: "Walking on the heels; lifting the big toe", disc: "",
+    test: ["extensor_hallucis_longus"], also: ["tibialis_anterior", "tibialis_posterior", "biceps_femoris", "semitendinosus", "semimembranosus", "tensor_fascia_latae", "gluteus_maximus"],
+    src: "Anatomy of the Back & Spinal Cord · Anatomy of the Leg · Gluteal Region & Thigh (hamstrings L5, TFL L5; one slide gives gluteus maximus L5)" },
+  S1: { move: "Plantar flexion", how: "Push the foot down against resistance (gastrocnemius, soleus)", reflex: "Achilles",
+    fn: "Walking on tiptoe; repeated single-leg calf raises", disc: "",
+    test: ["gastrocnemius", "soleus"], also: ["gluteus_maximus"],
+    src: "Anatomy of the Back & Spinal Cord · Anatomy of the Leg · Gluteal Region & Thigh (gluteus maximus S1)" },
+};
+/* one clearly different colour per root (the dermatome palette shades neighbours alike) */
+const MYO_COL = { C5: 0x3f63d1, C6: 0x1fa6c4, C7: 0x7b4fe0, C8: 0xd2427f, T1: 0xe8743b, L2: 0xd9a520, L3: 0x4caf50, L4: 0x12856e, L5: 0xc43c3c, S1: 0x8a6d1f };
+const myoColour = lv => new THREE.Color(MYO_COL[lv]);
+const MYO_KEY = { C5: "shoulder abduction", C6: "wrist extension", C7: "elbow extension", C8: "finger flexion", T1: "finger spread and squeeze", L2: "hip flexion", L3: "knee extension", L4: "ankle dorsiflexion", L5: "big toe extension", S1: "plantar flexion" };
+const MYO_LV = Object.keys(MYO), MYO_GROUPS = [["Arm", ["C5", "C6", "C7", "C8", "T1"]], ["Leg", ["L2", "L3", "L4", "L5", "S1"]]];
+const MYO_EXTRA = { levator_scapulae: ["C3", "C4"] };  // levels the tables give for muscles outside the tested roots
+/* each muscle's roots: where it is a test muscle first, then where it is also supplied */
+function myoRoots(key) {
+  const t = MYO_LV.filter(lv => MYO[lv].test.includes(key)), a = MYO_LV.filter(lv => !t.includes(lv) && MYO[lv].also.includes(key));
+  return { test: t, also: a, extra: MYO_EXTRA[key] || [] };
+}
+let myoSel = null, myoQuiz = null;
+const MYO_GREY = new THREE.Color(0xd8d2de);
+function myoShade(lv) {
+  for (const o of muscles) {
+    const r = myoRoots(o.userData.mu), m = o.material;
+    let c, op = 0.92, glow = 0;
+    if (myoQuiz && !myoQuiz.answered) { c = MYO_GREY.clone(); op = 0.85; }
+    else if (!lv) { c = r.test.length ? myoColour(r.test[0]) : MYO_GREY.clone(); op = r.test.length ? 0.92 : 0.35; }
+    else if (MYO[lv].test.includes(o.userData.mu)) { c = myoColour(lv); glow = 1; }
+    else if (MYO[lv].also.includes(o.userData.mu)) { c = myoColour(lv).lerp(new THREE.Color(0xffffff), 0.5); op = 0.7; }
+    else { c = MYO_GREY.clone(); op = 0.14; }
+    m.color.copy(c); m.opacity = op; m.depthWrite = op > 0.5; m.emissive.set(glow ? 0x2a1240 : 0x000000);
+  }
+}
+function myoFly(keys) {
+  const objs = muscles.filter(o => keys.includes(o.userData.mu)); if (!objs.length) return;
+  const bx = new THREE.Box3(); objs.forEach(o => bx.expandByObject(o));
+  flyTo(bx.getCenter(new THREE.Vector3()), Math.max(0.85, bx.getSize(new THREE.Vector3()).length() * 1.6));
+}
+function myoChips(sel, onPick) {
+  const frag = document.createDocumentFragment();
+  for (const [name, lvs] of MYO_GROUPS) {
+    const h = document.createElement("h3"); h.textContent = name; frag.appendChild(h);
+    const d = document.createElement("div"); d.className = "st";
+    for (const lv of lvs) {
+      const b = document.createElement("button"); b.innerHTML = `<span class="sw" style="background:#${myoColour(lv).getHexString()}"></span>`; b.append(lv);
+      if (lv === sel) b.classList.add("on"); b.onclick = () => onPick(lv); d.appendChild(b);
+    }
+    frag.appendChild(d);
+  }
+  return frag;
+}
+function myoName(key) { return MU[key] ? MU[key].cells[1].replace(/\s*\(.*$/, "") : key; }
+function myoList(title, keys) {
+  const frag = document.createDocumentFragment(); if (!keys.length) return frag;
+  const h = document.createElement("h3"); h.textContent = title; frag.appendChild(h);
+  const d = document.createElement("div"); d.className = "st";
+  for (const k of keys) { const b = document.createElement("button"); b.textContent = myoName(k); b.onclick = () => myoMuscle(k); d.appendChild(b); }
+  frag.appendChild(d); return frag;
+}
+function myoRow(pairs) {
+  const dl = document.createElement("dl"); dl.className = "row";
+  for (const [k, v] of pairs) { if (!v) continue; const dt = document.createElement("dt"); dt.textContent = k; const dd = document.createElement("dd"); dd.textContent = v; dl.append(dt, dd); }
+  return dl;
+}
+function myoLegend() { setLegend(MYO_LV.map(lv => ["#" + myoColour(lv).getHexString(), `${lv} · ${MYO_KEY[lv]}`])); }
+function showMyoIntro() {
+  myoSel = null; myoQuiz = null; myoShade(null); myoLegend();
+  panel.innerHTML = `<h2>Myotomes</h2><p class="sub">A myotome is the set of muscles one spinal root supplies, whichever peripheral nerve carries the fibres. Each muscle is coloured by the root whose test movement it does; grey ones have no myotome on the slides. Pick a root, or tap a muscle.</p>`;
+  const a = document.createElement("div"); a.className = "acts";
+  const t = document.createElement("button"); t.textContent = "Test me: which root?"; t.onclick = startMyoQuiz; a.appendChild(t); panel.appendChild(a);
+  panel.appendChild(myoChips(null, selectMyo));
+  const tbl = document.createElement("table"); tbl.className = "rn";
+  tbl.innerHTML = `<thead><tr><th>Root</th><th>Test this movement</th><th>Everyday function</th></tr></thead>`;
+  const tb = document.createElement("tbody");
+  for (const lv of MYO_LV) {
+    const tr = document.createElement("tr"), th = document.createElement("th"), m = document.createElement("td"), f = document.createElement("td");
+    th.textContent = lv; th.style.cursor = "pointer"; th.onclick = () => selectMyo(lv); m.textContent = MYO[lv].move; f.textContent = MYO[lv].fn; tr.append(th, m, f); tb.appendChild(tr);
+  }
+  tbl.appendChild(tb); panel.appendChild(tbl);
+  const s = document.createElement("p"); s.className = "src"; s.textContent = "Movements, reflexes and levels: this year's slides. Everyday functions are bedside teaching, not on the slides."; panel.appendChild(s);
+}
+function selectMyo(lv) {
+  myoSel = lv; myoQuiz = null; myoShade(lv); myoLegend(); myoFly(MYO[lv].test);
+  const M = MYO[lv]; panel.innerHTML = "";
+  const h = document.createElement("h2"); h.textContent = `${lv} myotome`; panel.appendChild(h);
+  const sub = document.createElement("p"); sub.className = "sub"; sub.textContent = `Muscles that do the test movement are lit in ${lv}'s colour; paler ones also get fibres from ${lv}.`; panel.appendChild(sub);
+  panel.appendChild(myoRow([["Test this movement", M.move], ["How", M.how], ["Reflex", M.reflex], ["Everyday function", M.fn + " (bedside teaching)"],
+    ["Same root's skin", DERM_INFO[lv] ? DERM_INFO[lv][0] : ""], ["Disc that pinches it", M.disc ? `${M.disc}: a cervical root leaves above its own vertebra, so the disc above it` : ""]]));
+  panel.appendChild(myoList("Tested by", M.test));
+  panel.appendChild(myoList(`Also get ${lv}`, M.also));
+  const src = document.createElement("p"); src.className = "src"; src.textContent = "Slides: " + M.src; panel.appendChild(src);
+  const a = document.createElement("div"); a.className = "acts";
+  const b = document.createElement("button"); b.textContent = "All roots"; b.onclick = showMyoIntro; a.appendChild(b);
+  const t = document.createElement("button"); t.textContent = "Test me"; t.onclick = startMyoQuiz; a.appendChild(t);
+  panel.appendChild(a);
+  panel.appendChild(myoChips(lv, selectMyo));
+}
+function myoMuscle(key) {
+  if (myoQuiz && !myoQuiz.answered) return;
+  const row = MU[key]; if (!row) return; const r = myoRoots(key);
+  myoSel = null; myoQuiz = null;
+  for (const o of muscles) {
+    const on = o.userData.mu === key, m = o.material;
+    m.color.copy(on ? (r.test.length ? myoColour(r.test[0]) : r.also.length ? myoColour(r.also[0]) : new THREE.Color(0xb98ae0)) : MYO_GREY);
+    m.opacity = on ? 0.95 : 0.14; m.depthWrite = on; m.emissive.set(on ? 0x2a1240 : 0x000000);
+  }
+  myoFly([key]);
+  panel.innerHTML = "";
+  const h = document.createElement("h2"); h.textContent = row.cells[1]; panel.appendChild(h);
+  const roots = r.test.concat(r.also, r.extra);
+  const sub = document.createElement("p"); sub.className = "sub"; sub.textContent = roots.length ? `Roots: ${roots.join(", ")}` : "The slides give no myotome for this muscle."; panel.appendChild(sub);
+  panel.appendChild(myoRow([["Tests", r.test.map(lv => `${lv}: ${MYO[lv].move.toLowerCase()}`).join(" · ")], ["Action", row.cells[2]], ["Nerve", row.cells[3]]]));
+  if (r.test.length || r.also.length) {
+    const d = document.createElement("div"); d.className = "st"; d.style.marginTop = "10px";
+    for (const lv of r.test.concat(r.also)) { const b = document.createElement("button"); b.innerHTML = `<span class="sw" style="background:#${myoColour(lv).getHexString()}"></span>`; b.append(`${lv} myotome`); b.onclick = () => selectMyo(lv); d.appendChild(b); }
+    panel.appendChild(d);
+  }
+  const a = document.createElement("div"); a.className = "acts";
+  const b = document.createElement("button"); b.textContent = "All roots"; b.onclick = showMyoIntro; a.appendChild(b); panel.appendChild(a);
+}
+/* the quiz asks a movement or an everyday function and you pick the root */
+function startMyoQuiz() {
+  const lv = MYO_LV[Math.floor(Math.random() * MYO_LV.length)], asFn = Math.random() < 0.5;
+  myoQuiz = { lv, ask: asFn ? MYO[lv].fn : MYO[lv].move, kind: asFn ? "everyday function" : "test movement", right: myoQuiz ? myoQuiz.right : 0, done: myoQuiz ? myoQuiz.done : 0, answered: false };
+  myoSel = null; myoShade(null); setLegend(null);
+  panel.innerHTML = "";
+  const h = document.createElement("h2"); h.textContent = "Which root?"; panel.appendChild(h);
+  const q = document.createElement("div"); q.className = "quiz"; q.innerHTML = `Which root powers this <span></span>?<br><b></b>`;
+  q.querySelector("span").textContent = myoQuiz.kind; q.querySelector("b").textContent = myoQuiz.ask; panel.appendChild(q);
+  const s = document.createElement("p"); s.className = "sub"; s.id = "mqscore"; s.textContent = myoQuiz.done ? `${myoQuiz.right} of ${myoQuiz.done} right so far` : "The colours are off until you answer."; panel.appendChild(s);
+  panel.appendChild(myoChips(null, answerMyo));
+  const a = document.createElement("div"); a.className = "acts";
+  const n = document.createElement("button"); n.textContent = "Skip"; n.onclick = startMyoQuiz; a.appendChild(n);
+  const x = document.createElement("button"); x.textContent = "Stop testing"; x.onclick = showMyoIntro; a.appendChild(x);
+  panel.appendChild(a);
+}
+function answerMyo(lv) {
+  if (!myoQuiz || myoQuiz.answered) return;
+  myoQuiz.answered = true; myoQuiz.done++; const ok = lv === myoQuiz.lv; if (ok) myoQuiz.right++;
+  myoShade(myoQuiz.lv); myoFly(MYO[myoQuiz.lv].test);
+  const q = panel.querySelector(".quiz"), r = document.createElement("p"); r.className = ok ? "good" : "bad";
+  r.textContent = ok ? `Yes: ${myoQuiz.lv}.` : `Not ${lv}: it is ${myoQuiz.lv}, lit now.`; q.appendChild(r);
+  const k = document.createElement("p"); k.className = "sub"; k.textContent = `${myoQuiz.lv}: ${MYO[myoQuiz.lv].move} · reflex: ${MYO[myoQuiz.lv].reflex.toLowerCase()}`; q.appendChild(k);
+  document.getElementById("mqscore").textContent = `${myoQuiz.right} of ${myoQuiz.done} right`;
+  panel.querySelectorAll(".st button").forEach(b => { const t = b.textContent; b.classList.toggle("on", t === myoQuiz.lv); });
+  panel.querySelector(".acts button").textContent = "Next";
+}
+
+/* ---------- Bones and ligaments layers: names, and only the facts our notes give ---------- */
+let LG = null, ligRoot = null, ligPick = [], ligLoading = null, ligSel = null, boneSel = null;
+const LIG_COL = 0xe8c547, LIG_ON = 0xff9f1c;
+const ligMat = new THREE.MeshStandardMaterial({ color: LIG_COL, roughness: 0.5, side: THREE.DoubleSide });
+function ligName(k) { const i = LG.info[k]; return i ? i.name : (ST[k] ? ST[k][0] : k); }
+function sheetGeo(a, b) {
+  const pos = [], idx = [];
+  a.forEach((p, i) => { pos.push(...p, ...b[i]); if (i) { const q = 2 * i; idx.push(q - 2, q - 1, q, q - 1, q + 1, q); } });
+  const g = new THREE.BufferGeometry(); g.setAttribute("position", new THREE.Float32BufferAttribute(pos, 3)); g.setIndex(idx); g.computeVertexNormals(); return g;
+}
+function ensureLigaments() {
+  if (ligLoading) return ligLoading;
+  ligLoading = fetch("ligaments.json").then(r => r.json()).then(lj => {
+    LG = lj; ligRoot = new THREE.Group(); scene.add(ligRoot);
+    for (const d of lj.drawn) {
+      const mat = ligMat.clone();
+      const m = d.kind === "sheet" ? new THREE.Mesh(sheetGeo(d.a, d.b), mat) : tube(d.path, d.r, mat);
+      m.userData.lg = d.key; m.userData.sub = d.sub; ligRoot.add(m); ligPick.push(m);
+    }
+    applyLayers();
+  });
+  return ligLoading;
+}
+function ligShade(sel) {
+  for (const o of [...ligPick, ...structs.filter(o => LG.existing.includes(o.userData.st))]) {
+    const k = o.userData.lg || o.userData.st, on = !sel || k === sel;
+    o.material.color.set(sel && on ? LIG_ON : KCOL.lig); o.material.emissive.set(sel && on ? 0x3a2000 : 0);
+    if (o.userData.op0 === undefined) o.userData.op0 = o.material.transparent ? o.material.opacity : 1;
+    o.material.transparent = true; o.material.opacity = on ? o.userData.op0 : 0.3; o.material.depthTest = !(sel && on); o.renderOrder = sel && on ? 11 : 0;
+  }
+}
+function factsList(facts) {
+  const ul = document.createElement("ul"); ul.className = "facts";
+  for (const f of facts) { const li = document.createElement("li"); li.textContent = f; ul.appendChild(li); }
+  return ul;
+}
+function showLigIntro() {
+  ligSel = null; ligShade(null); clearCalls(); panel.dataset.list = "lig";
+  panel.innerHTML = `<h2>Ligaments</h2><p class="sub">Only the ligaments this year's slides name: right side, and the spine's midline ligaments. Drawn from landmarks on the bones (BodyParts3D has almost none), so their lines are approximate. Tap one for what the slides say.</p>`;
+  for (const [title, ids] of LG.groups) {
+    const h = document.createElement("h3"); h.textContent = title; panel.appendChild(h);
+    const d = document.createElement("div"); d.className = "st";
+    for (const id of ids) { const b = document.createElement("button"); b.textContent = ligName(id); b.onclick = () => selectLig(id); d.appendChild(b); }
+    panel.appendChild(d);
+  }
+  const a = document.createElement("div"); a.className = "acts"; backToTables(a); panel.appendChild(a);
+}
+function selectLig(id) {
+  ligSel = id; ligShade(id); clearCalls();
+  const objs = [...ligPick.filter(o => o.userData.lg === id), ...structs.filter(o => o.userData.st === id)];
+  if (objs.length) {
+    const bx = new THREE.Box3(); objs.forEach(o => bx.expandByObject(o)); const c = bx.getCenter(new THREE.Vector3());
+    flyTo(c, Math.max(0.3, bx.getSize(new THREE.Vector3()).length() * 2.2));
+    callout(ligName(id), objs.map(o => o.userData.sub).filter(Boolean).join(", ") || "Ligament", c, "lg3d");
+  }
+  const i = LG.info[id] || { facts: [] };
+  panel.innerHTML = ""; panel.dataset.list = "";
+  const k = document.createElement("p"); k.className = "sub"; k.textContent = "Ligament · drawn approximately"; panel.appendChild(k);
+  const h = document.createElement("h2"); h.textContent = ligName(id); panel.appendChild(h);
+  if (i.facts.length) panel.appendChild(factsList(i.facts));
+  else { const p = document.createElement("p"); p.className = "sub"; p.textContent = "Named on the slides, with nothing more about it."; panel.appendChild(p); }
+  if (i.src) { const src = document.createElement("p"); src.className = "src"; src.textContent = srcLine(i.src); panel.appendChild(src); }
+  const a = document.createElement("div"); a.className = "acts";
+  if (ST[id]) { const c = document.createElement("button"); c.textContent = "Open its chart"; c.onclick = () => openChart(ST[id][2], ST[id][3]); a.appendChild(c); }
+  const b = document.createElement("button"); b.textContent = "All ligaments"; b.onclick = showLigIntro; a.appendChild(b);
+  backToTables(a); panel.appendChild(a);
+}
+function boneShade(fids) {
+  for (const b of bones) { const on = fids && fids.has(b.name.slice(5)); b.material.emissive.set(on ? 0x5a3a00 : 0); }
+  if (fids) muscles.forEach(o => { o.material.opacity = 0.12; o.material.depthWrite = false; });  // let the bone show
+}
+function showBoneIntro() {
+  boneSel = null; boneShade(null); clearCalls(); panel.dataset.list = "bones";
+  panel.innerHTML = `<h2>Bones</h2><p class="sub">Tap any bone for its name and what the slides say about it. The bones below are the ones the slides teach; pick one to light it up.</p>`;
+  const d = document.createElement("div"); d.className = "st";
+  for (const k of Object.keys(LG.bone_facts)) { const b = document.createElement("button"); b.textContent = boneTitle(k); b.onclick = () => selectBoneGroup(k); d.appendChild(b); }
+  panel.appendChild(d);
+  const a = document.createElement("div"); a.className = "acts"; backToTables(a); panel.appendChild(a);
+}
+/* "Deck, slide 4, 9" pieces -> one line per deck: "Deck: slides 4, 9, 11" */
+function srcLine(list) {
+  const by = new Map();
+  for (const x of list) { const m = /^(.*?), slides? (.*)$/.exec(x); const [d, n] = m ? [m[1], m[2].split(/,\s*/)] : [x, []]; by.set(d, [...(by.get(d) || []), ...n]); }
+  return "Slides: " + [...by].map(([d, n]) => n.length ? `${d}, ${[...new Set(n)].length > 1 ? "slides" : "slide"} ${[...new Set(n)].join(", ")}` : d).join(" · ");
+}
+function boneTitle(k) { return k === "spine" ? "Vertebral column" : (k.charAt(0).toUpperCase() + k.slice(1)).replace(/_/g, " ").replace(" hand", " of the hand"); }
+function boneFids(fact) { return new Set(Object.entries(LG.bones).filter(([, v]) => v[1].includes(fact)).map(([f]) => f)); }
+function boneFacts(name, facts, fids) {
+  boneShade(fids); clearCalls(); panel.innerHTML = ""; panel.dataset.list = "";
+  const k = document.createElement("p"); k.className = "sub"; k.textContent = "Bone"; panel.appendChild(k);
+  const h = document.createElement("h2"); h.textContent = name; panel.appendChild(h);
+  const sections = facts.flatMap(f => LG.bone_facts[f] || []);
+  for (const sct of sections) {  // the bone itself first, then each landmark the slides name on it
+    const h3 = document.createElement("h3"); h3.textContent = sct.name; panel.appendChild(h3); panel.appendChild(factsList(sct.facts));
+  }
+  if (!sections.length) { const p = document.createElement("p"); p.className = "sub"; p.textContent = "Not on this year's slides."; panel.appendChild(p); }
+  else { const src = document.createElement("p"); src.className = "src"; src.textContent = srcLine(sections.map(x => x.src)); panel.appendChild(src); }
+  const a = document.createElement("div"); a.className = "acts";
+  const b = document.createElement("button"); b.textContent = "All bones"; b.onclick = showBoneIntro; a.appendChild(b);
+  backToTables(a); panel.appendChild(a);
+}
+async function selectBone(fid) {
+  if (!LG) await ensureLigaments();
+  const [name, facts] = LG.bones[fid] || ["Bone", []];
+  boneSel = fid; picked = null; if (muscles.length) shade(null);
+  boneFacts(name, facts, new Set([fid]));
+  if (/skull|cranial|frontal|parietal|occipital|temporal|sphenoid|ethmoid|maxilla|mandible|zygomatic|nasal|lacrimal|palatine|vomer|concha/i.test(name)) {
+    const c = document.createElement("button"); c.textContent = "Cranial nerves"; c.onclick = () => showLayer("cn"); panel.querySelector(".acts").prepend(c);
+  }
+}
+function selectBoneGroup(fact) {
+  const fids = boneFids(fact); boneFacts(boneTitle(fact), [fact], fids);
+  const bx = new THREE.Box3(); bones.filter(b => fids.has(b.name.slice(5)) && b.userData.c.x < 0.02).forEach(b => bx.expandByObject(b));  // the right side's
+  if (!bx.isEmpty()) flyTo(bx.getCenter(new THREE.Vector3()), Math.max(0.35, bx.getSize(new THREE.Vector3()).length() * 1.8));
+}
+
+/* ---------- Blood supply layer: the arteries named in our MSK notes ---------- */
+const AR_LABEL = ["subclavian", "axillary", "brachial", "deep_brachial", "radial", "ulnar", "sup_palmar_arch", "external_iliac", "femoral", "deep_femoral",
+  "popliteal", "ant_tibial", "post_tibial", "fibular", "dorsalis_pedis", "sup_gluteal", "inf_gluteal", "vertebral"];
+let AR = null, arRoot = null, arPick = [], arLoading = null, arSel = null, arMat = {};
+const AR_RED = 0xc0392b;
+const AR_BACK = new Set(["sup_gluteal", "inf_gluteal", "internal_pudendal", "post_interosseous", "deep_brachial", "popliteal", "post_tibial", "fibular",
+  "circumflex_scapular", "post_circumflex_humeral", "dorsal_scapular", "suprascapular", "perforating", "med_circumflex_femoral", "lat_plantar", "med_plantar", "plantar_arch"]);
+function ensureArteries() {
+  if (arLoading) return arLoading;
+  arLoading = Promise.all([new GLTFLoader().loadAsync("arteries.glb"), fetch("arteries.json").then(r => r.json())]).then(([g, aj]) => {
+    AR = aj; arRoot = new THREE.Group(); scene.add(arRoot);
+    for (const id of Object.keys(aj.info)) arMat[id] = new THREE.MeshStandardMaterial({ color: AR_RED, roughness: 0.45, transparent: true, opacity: 1, emissive: 0x000000 });
+    const where = {};
+    [...g.scene.children].forEach(o => {
+      const m = /^ar_(.+)_(\d+)$/.exec(o.name); if (!o.isMesh || !m) return;
+      if (!o.geometry.attributes.normal) o.geometry.computeVertexNormals();
+      o.material = arMat[m[1]]; o.userData.ar = m[1]; arRoot.add(o); arPick.push(o);
+      if (m[2] === "0") { o.geometry.computeBoundingSphere(); where[m[1]] = o.geometry.boundingSphere.center.clone(); }
+    });
+    for (const [id, paths] of Object.entries(aj.drawn)) {
+      for (const p of paths) { const t = tube(p, 0.0022, arMat[id]); t.userData.ar = id; arRoot.add(t); arPick.push(t); }
+      where[id] = v3(paths[0][Math.floor(paths[0].length / 2)]);
+    }
+    for (const id of AR_LABEL) {
+      if (!where[id]) continue;
+      const L = nlabel(aj.info[id].name.replace(/ \(.*\)/, "").replace(/ artery$/, ""), where[id], "ar", () => selectArtery(id)); L.view = "ar3d"; L.key = id;
+    }
+    applyLayers();
+  });
+  return arLoading;
+}
+function arShade(sel) {
+  for (const [id, m] of Object.entries(arMat)) {
+    const on = !sel || id === sel;
+    m.opacity = on ? 1 : 0.25; m.depthWrite = on; m.depthTest = !(sel && on);  // the chosen artery shows through bone and muscle m.emissive.set(sel && on ? 0x550000 : 0x000000); m.color.set(sel && on ? 0xff2a2a : AR_RED);
+  }
+  for (const o of arPick) o.renderOrder = sel && o.userData.ar === sel ? 12 : 0;
+  if (muscles.length && !picked) shade(null);
+}
+function showARIntro() {
+  arSel = null; if (AR) arShade(null); clearCalls(); panel.dataset.list = "ar";
+  panel.innerHTML = `<h2>Blood supply</h2><p class="sub">Right side. Only the arteries this year's slides name. Tap one, on the body or here, for what the slides say about it. Marked * are not in BodyParts3D and are drawn approximately.</p>`;
+  for (const [title, ids] of AR.groups) {
+    const h = document.createElement("h3"); h.textContent = title; panel.appendChild(h);
+    const d = document.createElement("div"); d.className = "st";
+    for (const id of ids) { const b = document.createElement("button"); b.textContent = AR.info[id].name.replace(/ artery$/, "") + (AR.info[id].drawn ? " *" : ""); b.onclick = () => selectArtery(id); d.appendChild(b); }
+    panel.appendChild(d);
+  }
+  const a = document.createElement("div"); a.className = "acts"; backToTables(a); panel.appendChild(a);
+}
+function selectArtery(id) {
+  arSel = id; picked = null; arShade(id); clearCalls();
+  const i = AR.info[id], objs = arPick.filter(o => o.userData.ar === id);
+  const bx = new THREE.Box3(); objs.forEach(o => bx.expandByObject(o));
+  const c = bx.getCenter(new THREE.Vector3()), sz = Math.max(0.3, bx.getSize(new THREE.Vector3()).length() * 1.6);
+  const dir = new THREE.Vector3(-0.35, 0.12, AR_BACK.has(id) ? -1 : 1).normalize();  // from the right side, front or back
+  fly = { t0: performance.now(), fromT: controls.target.clone(), toT: c, fromP: camera.position.clone(), toP: dir.multiplyScalar(sz).add(c) };
+  callout(i.name, i.facts[0] || "Artery", c, "ar3d");
+  panel.innerHTML = ""; panel.dataset.list = "";
+  const k = document.createElement("p"); k.className = "sub"; k.textContent = "Artery" + (i.drawn ? " · drawn approximately (not in BodyParts3D)" : ""); panel.appendChild(k);
+  const h = document.createElement("h2"); h.textContent = i.name; panel.appendChild(h);
+  if (i.facts.length) panel.appendChild(factsList(i.facts));
+  const src = document.createElement("p"); src.className = "src"; src.textContent = srcLine(i.src); panel.appendChild(src);
+  const a = document.createElement("div"); a.className = "acts";
+  const b = document.createElement("button"); b.textContent = "All arteries"; b.onclick = showARIntro; a.appendChild(b);
+  backToTables(a); panel.appendChild(a);
+}
+
+/* ---------- Root or nerve? ----------
+   The same skin twice: the patient's right arm shows a pinched root (its dermatome, edges faded because the
+   neighbouring roots overlap it, and the plexus lighting every nerve that root feeds); the left arm shows one
+   compressed nerve (its cutaneous patch with a hard edge, and only that nerve lit). */
+const TERR = {  // cutaneous territory: [name, from, roots, slide colour (N400)]
+  ax: ["Superior lateral cutaneous nerve of the arm", "axillary nerve", "C5-C6", 0xa9b0bd],
+  rad: ["Posterior and inferior lateral cutaneous nerves of the arm, posterior cutaneous nerve of the forearm, superficial branch on the back of the hand", "radial nerve", "C5-C8", 0xe8737a],
+  mca: ["Medial cutaneous nerve of the arm (with the intercostobrachial, T2)", "medial cord", "C8-T1", 0xf0a35e],
+  mcf: ["Medial cutaneous nerve of the forearm", "medial cord, its own branch: not the ulnar nerve", "C8-T1", 0xb9a6e0],
+  lcf: ["Lateral cutaneous nerve of the forearm", "musculocutaneous nerve", "C5-C6", 0x6fbf8a],
+  medn: ["Palmar digital branches (and the fingertips on the back)", "median nerve", "C6-C8", 0xf2c94c],
+  mpb: ["Palmar cutaneous branch: leaves above the wrist and runs over the carpal tunnel, so carpal tunnel syndrome spares the palm", "median nerve", "C6-C8", 0xf2c94c],
+  uln: ["Palmar and dorsal branches", "ulnar nerve", "C8-T1", 0x5aa9e6],
+};
+const NUMB = new THREE.Color(0xd6246e), SKIN = new THREE.Color(0xeadfd3);
+const RN = {
+  c8: { root: "C8", nerve: "uln", ch: 2, at: "elbow", label: "C8 or ulnar?",
+    rootName: "C8 root pinched in the neck (radiculopathy)", nerveName: "Ulnar nerve compressed at the elbow (mononeuropathy)",
+    rows: [
+      ["Numb skin", "Little and ring fingers, the inner hand and the lower inner forearm. Fuzzy edges: C7 and T1 overlap it", "Little finger and the little-finger half of the ring finger, front and back. A sharp edge down the middle of the ring finger"],
+      ["Inner forearm", "Numb: C8 reaches it through the medial cutaneous nerve of the forearm", "Normal: that skin is the medial cutaneous nerve of the forearm, a separate branch of the medial cord"],
+      ["Weak", "Every muscle with C8 fibres, whatever its nerve: finger flexors (median and ulnar), abductor pollicis brevis (median), extensor indicis (radial), interossei (ulnar). Key test: finger flexion", "Ulnar muscles only: interossei (spreading the fingers), hypothenar, adductor pollicis, flexor carpi ulnaris, FDP to the ring and little fingers. Thumb abduction is normal"],
+      ["Pain", "Neck pain running down the arm; worse extending the neck", "At the elbow; worse leaning on it"],
+      ["Plexus", "C8 lights every nerve it feeds", "Only the ulnar nerve is cut off below the elbow"]] },
+  c6: { root: "C6", nerve: "medn", ch: 0, at: "wrist", label: "C6 or median? (numb thumb)",
+    rootName: "C6 root pinched in the neck (radiculopathy)", nerveName: "Median nerve compressed at the wrist (carpal tunnel)",
+    rows: [
+      ["Numb skin", "Lateral forearm, thumb and index finger. Fuzzy edges", "Palm side of the thumb, index, middle and half the ring finger, and those fingertips on the back. Sharp edges. The palm itself is spared: its branch leaves above the wrist and runs over the tunnel, not through it"],
+      ["Lateral forearm", "Numb: C6 reaches it through the musculocutaneous nerve (lateral cutaneous nerve of the forearm)", "Normal"],
+      ["Weak", "Biceps (elbow flexion) and wrist extension; biceps reflex down", "Abductor pollicis brevis (thumb abduction), a C8 muscle. Biceps normal"],
+      ["Pain", "Neck pain running down the arm", "Wrist and hand; worse at night, typing or driving"],
+      ["Plexus", "C6 lights every nerve it feeds", "Only the median nerve is cut off below the wrist"]] },
+};
+let limbRoot = null, limbs = [], limbLoading = null, bpMirror = null, mirrorTubes = [], rnPair = "c8", rnMap = false, rnMarks = [];
+const rnU = { uChan: { value: new THREE.Vector4(0, 0, 1, 0) }, uMap: { value: 0 }, uNumb: { value: NUMB }, uSkin: { value: SKIN } };
+function limbMaterial(ct) {
+  const m = new THREE.MeshStandardMaterial({ roughness: 0.8, side: THREE.DoubleSide, transparent: true, opacity: 0.86, depthWrite: false });
+  m.userData.u = { uOn: { value: 0 }, uCol: { value: new THREE.Color(TERR[ct][3]) } };
+  m.onBeforeCompile = sh => {
+    Object.assign(sh.uniforms, rnU, m.userData.u);
+    sh.vertexShader = "attribute vec4 dist;\nvarying float vD;\nvarying float vWX;\nuniform vec4 uChan;\n" + sh.vertexShader.replace("#include <begin_vertex>",
+      "#include <begin_vertex>\nvD = dot(dist, uChan) * 2.0 - 1.0;\nvWX = (modelMatrix * vec4(position, 1.0)).x;");
+    sh.fragmentShader = "uniform float uOn, uMap;\nuniform vec3 uCol, uNumb, uSkin;\nvarying float vD;\nvarying float vWX;\n" +
+      sh.fragmentShader.replace("vec4 diffuseColor = vec4( diffuse, opacity );", `
+        vec3 col;
+        if (uMap > 0.5) col = uCol;
+        else if (vWX < 0.0) col = mix(uSkin, uNumb, 0.92 * smoothstep(-0.4, 0.3, vD));  // the root: fades over about 2 cm either side
+        else col = uOn > 0.5 ? uNumb : mix(uSkin, uCol, 0.3);  // the nerve: its own patch, hard-edged
+        vec4 diffuseColor = vec4(col, opacity);`);
+  };
+  return m;
+}
+async function ensureLimb() {
+  await ensureNerves();
+  if (limbLoading) return limbLoading;
+  limbLoading = new GLTFLoader().loadAsync("limb.glb").then(g => {
+    limbRoot = g.scene; limbRoot.visible = mode === "rootnerve"; scene.add(limbRoot);
+    limbRoot.traverse(o => {
+      if (!o.isMesh || !o.name.startsWith("ct_")) return;
+      if (!o.geometry.attributes.normal) o.geometry.computeVertexNormals();
+      o.geometry.setAttribute("dist", o.geometry.getAttribute("color")); o.geometry.deleteAttribute("color");
+      o.userData.ct = o.name.slice(3); o.material = limbMaterial(o.userData.ct); o.renderOrder = 1; limbs.push(o);
+    });
+    // the plexus is drawn on the right; the left arm gets a mirror copy for the nerve
+    bpMirror = new THREE.Group(); bpMirror.scale.x = -1; scene.add(bpMirror);
+    for (const o of bpPick) {
+      const c = new THREE.Mesh(o.geometry, o.material.clone()); c.material.side = THREE.DoubleSide; c.userData.bp = o.userData.bp;
+      bpMirror.add(c); mirrorTubes.push(c);
+    }
+    const mark = new THREE.MeshBasicMaterial({ color: 0xd6246e, depthTest: false, transparent: true });
+    for (let k = 0; k < 2; k++) { const s = new THREE.Mesh(new THREE.SphereGeometry(0.009, 16, 12), mark); s.renderOrder = 20; s.visible = false; scene.add(s); rnMarks.push(s); }
+    applyLayers();
+  });
+  return limbLoading;
+}
+function litTube(o, on, focus, deep) {
+  const id = o.userData.bp;
+  o.material.opacity = on ? 1 : 0.12; o.material.depthWrite = on;
+  o.material.depthTest = !on; o.renderOrder = on ? 10 : 0;  // lit nerves show through the skin
+  o.material.color.set(id === focus ? deep : on ? 0xa98bdc : NV.plexus.S[id].minor ? 0xe6c35c : 0xf2d34f);
+}
+function nearest(path, p) { let best = path[0], d = 1e9; for (const q of path) { const e = v3(q).distanceTo(p); if (e < d) { d = e; best = q; } } return v3(best); }
+function rnShade() {
+  const P = RN[rnPair];
+  rnU.uChan.value.set(...[0, 1, 2, 3].map(i => i === P.ch ? 1 : 0)); rnU.uMap.value = rnMap ? 1 : 0;
+  for (const o of limbs) o.material.userData.u.uOn.value = !rnMap && o.userData.ct === P.nerve ? 1 : 0;
+  const rootLit = rnMap ? {} : pathFor(P.root), nerveLit = rnMap ? {} : Object.assign(pathFor(P.nerve), branchesOf(P.nerve));
+  bpLit = null;
+  for (const o of bpPick) litTube(o, rnMap || !!rootLit[o.userData.bp], P.root, 0xd6246e);
+  for (const o of mirrorTubes) litTube(o, rnMap || !!nerveLit[o.userData.bp], P.nerve, 0xd6246e);
+  if (rnMap) { [...bpPick, ...mirrorTubes].forEach(o => { o.material.color.set(0xf2d34f); o.material.depthTest = true; o.renderOrder = 0; }); }
+  // where it is pinched: the root by the spine, the nerve at the elbow or wrist (mirrored to the left arm)
+  const rootP = v3(NV.bp[P.root][0]);
+  const at = P.at === "elbow" ? anchors.elbow : anchors.forearm.clone().lerp(anchors.hand, 0.55);
+  const nerveP = nearest(NV.bp[P.nerve], at); nerveP.x = -nerveP.x;
+  rnMarks[0].position.copy(rootP); rnMarks[1].position.copy(nerveP); rnMarks.forEach(m => m.visible = !rnMap && mode === "rootnerve");
+  clearCalls();
+  if (!rnMap) {
+    callout("Patient's right · root", P.rootName, rootP, "rn");
+    callout("Patient's left · nerve", P.nerveName, nerveP, "rn");
+  }
+}
+function rnView(back, hands) {
+  const t = new THREE.Vector3(0, hands ? anchors.hand.y - 0.02 : anchors.elbow.y - 0.1, 0.05);
+  fly = { t0: performance.now(), fromT: controls.target.clone(), toT: t, fromP: camera.position.clone(), toP: t.clone().add(new THREE.Vector3(0, 0.03, (back ? -1 : 1) * (hands ? 1.3 : 2.05))) };
+}
+function showRootNerve(key, keepView) {
+  rnPair = key; rnMap = false; const P = RN[key];
+  rnShade(); if (!keepView) rnView(false);
+  panel.innerHTML = "";
+  const h = document.createElement("h2"); h.textContent = "Root or nerve?"; panel.appendChild(h);
+  const sub = document.createElement("p"); sub.className = "sub";
+  sub.textContent = "A root's fibres are shared out among several nerves in the plexus, and each nerve carries fibres from several roots. Pinch a root and every nerve it feeds loses a little; neighbouring roots overlap its skin, so the edges stay fuzzy. Compress a nerve and only its own patch goes, right up to a sharp edge.";
+  panel.appendChild(sub);
+  const pick = document.createElement("div"); pick.className = "st";
+  for (const [k, v] of Object.entries(RN)) { const b = document.createElement("button"); b.textContent = v.label; if (k === key) b.classList.add("on"); b.onclick = () => showRootNerve(k, true); pick.appendChild(b); }
+  const all = document.createElement("button"); all.textContent = "Every nerve's patch"; all.onclick = showNerveMap; pick.appendChild(all);
+  panel.appendChild(pick);
+  const tbl = document.createElement("table"); tbl.className = "rn";
+  tbl.innerHTML = `<thead><tr><th></th><th>${P.root} root<br><span>patient's right arm</span></th><th>${TERR[P.nerve][1].replace(/^./, c => c.toUpperCase())}<br><span>patient's left arm</span></th></tr></thead>`;
+  const tb = document.createElement("tbody");
+  for (const r of P.rows) { const tr = document.createElement("tr"); r.forEach((c, i) => { const td = document.createElement(i ? "td" : "th"); td.textContent = c; tr.appendChild(td); }); tb.appendChild(tr); }
+  tbl.appendChild(tb); panel.appendChild(tbl);
+  const tap = document.createElement("div"); tap.id = "rnTap"; tap.className = "sub"; tap.textContent = "Tap the skin of either arm to see which nerve supplies it."; panel.appendChild(tap);
+  const a = document.createElement("div"); a.className = "acts";
+  const f = document.createElement("button"); f.textContent = "Front"; f.onclick = () => rnView(false); a.appendChild(f);
+  const bk = document.createElement("button"); bk.textContent = "Back of the arms"; bk.onclick = () => rnView(true); a.appendChild(bk);
+  const hp = document.createElement("button"); hp.textContent = "Palms close up"; hp.onclick = () => rnView(false, true); a.appendChild(hp);
+  const hb = document.createElement("button"); hb.textContent = "Backs of the hands"; hb.onclick = () => rnView(true, true); a.appendChild(hb);
+  panel.appendChild(a);
+}
+function showNerveMap() {
+  rnMap = true; rnShade();
+  panel.innerHTML = `<h2>Every nerve's patch</h2><p class="sub">The cutaneous nerves of the upper limb, coloured as on the class slide (Netter N400). Compare the dermatome map: the same skin, cut up by root instead of by nerve.</p>`;
+  const ul = document.createElement("ul"); ul.className = "terr";
+  for (const [k, [name, from, roots, col]] of Object.entries(TERR)) {
+    if (k === "mpb") continue;
+    const li = document.createElement("li"); li.innerHTML = `<span class="sw" style="background:#${col.toString(16).padStart(6, "0")}"></span>`;
+    const b = document.createElement("b"); b.textContent = from.split(",")[0].replace(/^./, c => c.toUpperCase()); li.append(b, ` (${roots}): ${name}`); ul.appendChild(li);
+  }
+  panel.appendChild(ul);
+  const a = document.createElement("div"); a.className = "acts";
+  const back = document.createElement("button"); back.textContent = "Root or nerve?"; back.onclick = () => showRootNerve(rnPair, true); a.appendChild(back);
+  const f = document.createElement("button"); f.textContent = "Front"; f.onclick = () => rnView(false); a.appendChild(f);
+  const bk = document.createElement("button"); bk.textContent = "Back of the arms"; bk.onclick = () => rnView(true); a.appendChild(bk);
+  const hp = document.createElement("button"); hp.textContent = "Palms close up"; hp.onclick = () => rnView(false, true); a.appendChild(hp);
+  const hb = document.createElement("button"); hb.textContent = "Backs of the hands"; hb.onclick = () => rnView(true, true); a.appendChild(hb);
+  panel.appendChild(a);
+}
+function tapLimb(ct, p) {
+  const [name, from, roots] = TERR[ct], box = document.getElementById("rnTap");
+  if (!box) return;
+  box.innerHTML = ""; const b = document.createElement("b"); b.textContent = name; box.append(b, ` · from the ${from} · carries ${roots}`);
+  if (!rnMap) {
+    const P = RN[rnPair];
+    box.append(document.createElement("br"), p.x < 0 ? `Right arm (root): numb wherever it lies in the ${P.root} dermatome, whichever nerve carries it there; faint at the edges, where the next root overlaps`
+      : `Left arm (nerve): ${ct === P.nerve ? "numb, the whole patch" : "feels normally: a different nerve, even if it carries the same roots"}`);
+  }
+}
+
+if (document.documentElement.classList.contains("only-derm")) {
+  document.querySelector("h1").textContent = "Dermatomes on the body";
+  document.querySelector(".lead").textContent = "The skin painted by spinal level from the skeleton under it. Tap the skin or a label to name the level; the dots are the ISNCSCI key sensory points; Test me hides the colours and asks you to find one.";
+  const c = document.createElement("p"); c.className = "credit";
+  c.textContent = "Skin: BodyParts3D, © The Database Center for Life Science, CC BY 4.0. Dermatomes are painted from the skeleton under the skin, following the usual textbook map; borders vary between people and between maps.";
+  document.querySelector(".wrap").appendChild(c);
+  setMode("derm");
+} else showIntro();
+requestAnimationFrame(loop);
+</script>
+</body>
+</html>

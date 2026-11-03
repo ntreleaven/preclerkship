@@ -1043,8 +1043,6 @@ mark.lo .wl{border-bottom-color:#9a7a00;}
 
 /* the MSK body map under the notes' heading (notes.js bodyMap) */
 .bodymap{margin-bottom:28px;}
-.bodymap .railnote{margin:0 0 10px;}
-.bodymap-frame{display:block;width:100%;height:900px;border:0;background:transparent;}
 
 .fam-head{
     padding-bottom:11px;

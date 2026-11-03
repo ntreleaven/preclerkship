@@ -689,33 +689,13 @@
     });
   }
 
-  /* the MSK skeleton, inline above week 1 so a region's charts are one tap from the notes.
-     Same origin, so the frame grows to fit the page inside it rather than scrolling twice;
-     where it cannot read that (opened from file://) it keeps its fixed height. */
+  /* the MSK skeleton, as a button above week 1 that opens it in its own tab:
+     framed inline it kept resizing itself and left a blank gap below it. */
   function bodyMap(src) {
     var box = el("section", "bodymap");
-    var top = el("div", "weekbar");
-    top.appendChild(el("h3", null, "Where does it hurt?"));
-    var open = el("a", "print-cta", "Open full screen");
+    var open = el("a", "print-cta", "Where does it hurt? Open the body map");
     open.href = src; open.target = "_blank"; open.rel = "noopener";
-    top.appendChild(open);
-    box.appendChild(top);
-    box.appendChild(el("p", "railnote", "Tap where the patient points: that region\u2019s " +
-      "chart comes first, then the ones that cut across regions."));
-    var frame = el("iframe", "bodymap-frame");
-    frame.title = "Where does it hurt? A 3D skeleton to tap";
-    frame.src = src + "?embed=1";
-    frame.allow = "fullscreen; xr-spatial-tracking";
-    frame.addEventListener("load", function () {
-      try {
-        var doc = frame.contentDocument, fit = function () {
-          frame.style.height = doc.documentElement.scrollHeight + "px";
-        };
-        fit();
-        if (window.ResizeObserver) new ResizeObserver(fit).observe(doc.body);
-      } catch (e) {}
-    });
-    box.appendChild(frame);
+    box.appendChild(open);
     return box;
   }
 

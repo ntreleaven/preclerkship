@@ -71,13 +71,18 @@ function buildMap(host) {
   if (PRES.length) { gap(); PRES.forEach(function (p) { var gr = GROUPS.filter(function (x) { return x.id === p.group; })[0]; var n = node(p, "pres"); n.dataset.k = p.id; put(n, gr.cols); }); }
   if (TIERS.length) { gap(); TIERS.forEach(function (t) { var n = node(t); n.dataset.k = t.id; put(n, t.cols); }); }
   gap();
+  /* a span cuts the columns: rows above it, the span, then each column carries on below it */
+  var cut = ROWS.findIndex(function (rw) { return SPANS.some(function (sp) { return sp.section === rw[0]; }); });
+  if (cut < 0) cut = ROWS.length;
+  /* a column no span crosses is not cut: it carries all its rows straight down */
+  function spanned(c) { return SPANS.some(function (sp) { return c.i >= sp.cols[0] && c.i <= sp.cols[1]; }); }
   S.columns.forEach(function (c) {
     var col = el("div", "col"); col.style.setProperty("--c", COL[c.colour]); col.dataset.k = "c:" + c.id;
     col.style.gridColumn = (c.i + 1) + " / " + (c.i + 2); col.style.gridRow = String(row);
     col.appendChild(el("div", "sp"));
     col.appendChild(el("div", "drop", c.drop_label || " "));
     col.appendChild(head(c));
-    ROWS.forEach(function (rw) {
+    ROWS.slice(0, spanned(c) ? cut : ROWS.length).forEach(function (rw) {
       if (!(c[rw[0]] || []).length) return;
       var sec = el("div", "sec"); sec.dataset.row = rw[0];
       sec.appendChild(el("div", "arr"));
@@ -96,6 +101,22 @@ function buildMap(host) {
     var wrap = el("div", "stagewrap"); stages(wrap, { colour: "slate", s: sp.rows }, "s", false); sec.appendChild(wrap);
     b.appendChild(sec); put(b, sp.cols);
   });
+  if (cut < ROWS.length) {
+    row++;
+    S.columns.filter(spanned).forEach(function (c) {
+      var after = ROWS.slice(cut).filter(function (rw) { return (c[rw[0]] || []).length; });
+      if (!after.length) return;
+      var col = el("div", "col cont"); col.style.setProperty("--c", COL[c.colour]); col.dataset.k = "c:" + c.id;
+      col.style.gridColumn = (c.i + 1) + " / " + (c.i + 2); col.style.gridRow = String(row);
+      after.forEach(function (rw) {
+        var sec = el("div", "sec"); sec.dataset.row = rw[0];
+        sec.appendChild(el("div", "rowlabel", rw[1]));
+        var wrap = el("div", "stagewrap"); stages(wrap, c, rw[0], DASHED.indexOf(rw[0]) > -1); sec.appendChild(wrap);
+        col.appendChild(sec);
+      });
+      g.appendChild(col);
+    });
+  }
   host.appendChild(g);
   if (PANELS.length) {
     var p = el("div", "panels"); p.style.minWidth = g.style.minWidth;
@@ -146,6 +167,8 @@ function drawLinks() {
       var col = q("c:" + c.id), st = col && col.querySelectorAll(".stage"); if (!st || !st.length) return;
       var x = box(col.querySelector(".colhead")).x;
       path("M" + x + " " + box(st[st.length - 1]).b + "V" + (t - 1), "c:" + c.id, true);
+      var cont = g.querySelector('.col.cont[data-k="c:' + c.id + '"] .stage'), all = g.querySelectorAll('[data-span="' + i + '"] .stage');
+      if (cont) path("M" + x + " " + box(all[all.length - 1]).b + "V" + (box(cont).t - 1), "c:" + c.id, true);
     });
   });
   g.appendChild(svg);
@@ -161,7 +184,7 @@ function light() {
   map.classList.add("walking");
   map.querySelectorAll(".on").forEach(function (e) { e.classList.remove("on"); });
   lit.forEach(function (k) {
-    var e = map.querySelector('[data-k="' + k + '"]'); if (e) e.classList.add("on");
+    map.querySelectorAll('[data-k="' + k + '"]').forEach(function (e) { e.classList.add("on"); });
     map.querySelectorAll('[data-a="' + k + '"]').forEach(function (a) { a.classList.add("on"); });
   });
 }

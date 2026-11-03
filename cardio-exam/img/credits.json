@@ -126,15 +126,6 @@
     "what_it_shows": "Xanthelasma: yellow fatty plaques on the eyelids"
   },
   {
-    "test": "Landmarks: auscultate",
-    "file": "auscultate-landmarks.jpg",
-    "slug": "auscultate-landmarks.jpg",
-    "source_page_url": "https://commons.wikimedia.org/wiki/File:Auscultationis_areae_La.svg",
-    "author": "Andreas Raether",
-    "licence": "CC BY-SA 4.0",
-    "what_it_shows": "The four valve listening areas on the chest (aortic, pulmonary, tricuspid, mitral; Latin labels)"
-  },
-  {
     "test": "Brachial pulse",
     "file": "brachial-pulse.jpg",
     "slug": "brachial-pulse.jpg",
@@ -169,15 +160,6 @@
     "author": "Schulich School of Medicine and Dentistry (Health Education Media Library, Western Libraries)",
     "licence": "CC BY-NC 4.0",
     "what_it_shows": "Patient reclined in bed, looked at from the foot of the bed for distress, colour and breathing"
-  },
-  {
-    "test": "Apical impulse (PMI)",
-    "file": "apical-impulse.jpg",
-    "slug": "apical-impulse.jpg",
-    "source_page_url": "https://commons.wikimedia.org/wiki/File:Apex_beat.png",
-    "author": "Shashikiranu",
-    "licence": "CC BY 3.0",
-    "what_it_shows": "Flowchart classifying the apex beat: normal, tapping, hyperdynamic, heaving; bottom website line cropped"
   },
   {
     "test": "Liver and aorta",
@@ -223,5 +205,41 @@
     "author": "Drawn for this page (Claude), concept diagram",
     "licence": "CC0",
     "what_it_shows": "Four-chamber schematic with blood leaking from right ventricle to right atrium, and the bedside findings"
+  },
+  {
+    "test": "Landmarks: auscultate",
+    "file": "auscultate-landmarks.jpg",
+    "slug": "auscultate-landmarks.jpg",
+    "source_page_url": "",
+    "author": "Textbook figure reproduced in student notes (Class of 2025 exam templates)",
+    "licence": "Copyright its publisher; used for non-commercial teaching",
+    "what_it_shows": "The precordial listening areas: aortic (right 2nd interspace), pulmonic (left 2nd), right ventricular (left sternal border), apex, epigastric."
+  },
+  {
+    "test": "Apical impulse (PMI)",
+    "file": "apical-impulse.jpg",
+    "slug": "apical-impulse.jpg",
+    "source_page_url": "",
+    "author": "Textbook figure reproduced in student notes (Class of 2025 exam templates)",
+    "licence": "Copyright its publisher; used for non-commercial teaching",
+    "what_it_shows": "The heart as it sits behind the chest wall, with the apical impulse over the left ventricle."
+  },
+  {
+    "test": "Landmarks: neck",
+    "file": "neck-landmarks.jpg",
+    "slug": "neck-landmarks.jpg",
+    "source_page_url": "",
+    "author": "Textbook figure reproduced in student notes (Class of 2025 exam templates)",
+    "licence": "Copyright its publisher; used for non-commercial teaching",
+    "what_it_shows": "The neck vessels: common, internal and external carotid arteries; internal and external jugular veins beside the sternomastoid."
+  },
+  {
+    "test": "Landmarks: murmurs",
+    "file": "murmurs-landmarks.jpg",
+    "slug": "murmurs-landmarks.jpg",
+    "source_page_url": "",
+    "author": "Textbook figure reproduced in student notes (Class of 2025 exam templates)",
+    "licence": "Copyright its publisher; used for non-commercial teaching",
+    "what_it_shows": "The four valves and the path of blood through the heart."
   }
 ]

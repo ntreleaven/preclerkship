@@ -18,15 +18,6 @@
     "what_it_shows": "Auscultation, right lower quadrant"
   },
   {
-    "test": "Bruits (aorta, renal, iliac, femoral)",
-    "file": "bruits.jpg",
-    "slug": "bruits.jpg",
-    "source_page_url": "https://rsc.lib.uwo.ca/s/healthedu/item/1994",
-    "author": "Arthur Labatt Family School of Nursing, Western University (Health Education Media Library, Western Libraries)",
-    "licence": "CC BY-NC 4.0",
-    "what_it_shows": "Auscultation, upper abdomen (stethoscope near the midline)"
-  },
-  {
     "test": "Light palpation",
     "file": "light-palpation.jpg",
     "slug": "light-palpation.jpg",
@@ -106,33 +97,6 @@
     "author": "Drawn for this page (Claude)",
     "licence": "CC0 (own drawing)",
     "what_it_shows": "Drawn for this page (Claude), concept diagram: cross-section of the abdomen at L2 with one hand behind the flank and one in front of the right kidney"
-  },
-  {
-    "test": "Liver span (percussion)",
-    "file": "liver-span.jpg",
-    "slug": "liver-span.jpg",
-    "source_page_url": "https://github.com/schulichmed/preclerkship",
-    "author": "Drawn for this page (Claude)",
-    "licence": "CC0 (own drawing)",
-    "what_it_shows": "Drawn for this page (Claude), concept diagram: percussing down the right mid-clavicular line from the lung and up from the belly to find the liver's upper and lower borders"
-  },
-  {
-    "test": "Liver edge (palpation)",
-    "file": "liver-edge.jpg",
-    "slug": "liver-edge.jpg",
-    "source_page_url": "https://rsc.lib.uwo.ca/s/healthedu/item/1988",
-    "author": "Arthur Labatt Family School of Nursing, Western University (Health Education Media Library, Western Libraries)",
-    "licence": "CC BY-NC 4.0",
-    "what_it_shows": "Deep palpation of the right upper quadrant: the hand position used to feel for the liver edge"
-  },
-  {
-    "test": "Shifting dullness",
-    "file": "shifting-dullness.jpg",
-    "slug": "shifting-dullness.jpg",
-    "source_page_url": "https://github.com/schulichmed/preclerkship",
-    "author": "Drawn for this page (Claude)",
-    "licence": "CC0 (own drawing)",
-    "what_it_shows": "Drawn for this page (Claude), concept diagram: free fluid settles in the flanks lying down and moves to the lower side after rolling, so the dull note moves"
   },
   {
     "test": "Fluid wave",
@@ -225,24 +189,6 @@
     "what_it_shows": "Drawn for this page (Claude), concept/technique diagram: side view: pressing in slowly, then releasing quickly"
   },
   {
-    "test": "Castell's sign (percussion)",
-    "file": "castells-sign.jpg",
-    "slug": "castells-sign.jpg",
-    "source_page_url": "https://github.com/schulichmed/preclerkship",
-    "author": "Drawn for this page (Claude)",
-    "licence": "CC0 (own drawing)",
-    "what_it_shows": "Drawn for this page (Claude), concept/technique diagram: the lowest left intercostal space in the anterior axillary line, over the spleen"
-  },
-  {
-    "test": "Spleen tip (palpation)",
-    "file": "spleen-tip-palpation.jpg",
-    "slug": "spleen-tip-palpation.jpg",
-    "source_page_url": "https://github.com/schulichmed/preclerkship",
-    "author": "Drawn for this page (Claude)",
-    "licence": "CC0 (own drawing)",
-    "what_it_shows": "Drawn for this page (Claude), concept/technique diagram: hand moving from the right lower quadrant toward the left costal margin under an enlarged spleen"
-  },
-  {
     "test": "Obturator test",
     "file": "obturator-test.jpg",
     "slug": "obturator-test.jpg",
@@ -250,5 +196,86 @@
     "author": "Drawn for this page (Claude)",
     "licence": "CC0 (own drawing)",
     "what_it_shows": "Drawn for this page (Claude), concept/technique diagram: hip and knee at 90 degrees, then internal rotation of the hip, side and top views"
+  },
+  {
+    "test": "Bruits (aorta, renal, iliac, femoral)",
+    "file": "bruits.jpg",
+    "slug": "bruits.jpg",
+    "source_page_url": "",
+    "author": "Textbook figure reproduced in student notes (Class of 2025 exam templates)",
+    "licence": "Copyright its publisher; used for non-commercial teaching",
+    "what_it_shows": "Where to listen for bruits: aorta, renal, iliac and femoral arteries."
+  },
+  {
+    "test": "Liver span (percussion)",
+    "file": "liver-span.jpg",
+    "slug": "liver-span.jpg",
+    "source_page_url": "",
+    "author": "Textbook figure reproduced in student notes (Class of 2025 exam templates)",
+    "licence": "Copyright its publisher; used for non-commercial teaching",
+    "what_it_shows": "The liver under the right ribs, with the normal span: 6–12 cm in the right mid-clavicular line, 4–8 cm in the midsternal line."
+  },
+  {
+    "test": "Liver edge (palpation)",
+    "file": "liver-edge.jpg",
+    "slug": "liver-edge.jpg",
+    "source_page_url": "",
+    "author": "Textbook figure reproduced in student notes (Class of 2025 exam templates)",
+    "licence": "Copyright its publisher; used for non-commercial teaching",
+    "what_it_shows": "Bimanual palpation of the liver edge: left hand behind the lower right ribs, right hand below the costal margin."
+  },
+  {
+    "test": "Shifting dullness",
+    "file": "shifting-dullness.jpg",
+    "slug": "shifting-dullness.jpg",
+    "source_page_url": "",
+    "author": "Textbook figure reproduced in student notes (Class of 2025 exam templates)",
+    "licence": "Copyright its publisher; used for non-commercial teaching",
+    "what_it_shows": "Shifting dullness: lying flat, the flanks are dull and the top tympanic; rolled onto one side, the dullness shifts to the lower side."
+  },
+  {
+    "test": "Spleen tip (palpation)",
+    "file": "spleen-tip-palpation.jpg",
+    "slug": "spleen-tip-palpation.jpg",
+    "source_page_url": "",
+    "author": "Textbook figure reproduced in student notes (Class of 2025 exam templates)",
+    "licence": "Copyright its publisher; used for non-commercial teaching",
+    "what_it_shows": "Palpating for the spleen tip: left hand lifts the lower left ribs from behind, right hand below the left costal margin."
+  },
+  {
+    "test": "Castell's sign (percussion)",
+    "file": "castells-sign.jpg",
+    "slug": "castells-sign.jpg",
+    "source_page_url": "",
+    "author": "Textbook figure reproduced in student notes (Class of 2025 exam templates)",
+    "licence": "Copyright its publisher; used for non-commercial teaching",
+    "what_it_shows": "Percussing the lowest left interspace in the anterior axillary line; a large dull area suggests an enlarged spleen."
+  },
+  {
+    "test": "Landmarks: inspect",
+    "file": "inspect-landmarks.jpg",
+    "slug": "inspect-landmarks.jpg",
+    "source_page_url": "",
+    "author": "Textbook figure reproduced in student notes (Class of 2025 exam templates)",
+    "licence": "Copyright its publisher; used for non-commercial teaching",
+    "what_it_shows": "Surface landmarks of the abdomen: costal margin, rectus muscles, linea alba, umbilicus, iliac crest and spine, inguinal ligament, pubis."
+  },
+  {
+    "test": "Landmarks: percuss",
+    "file": "percuss-landmarks.jpg",
+    "slug": "percuss-landmarks.jpg",
+    "source_page_url": "",
+    "author": "Textbook figure reproduced in student notes (Class of 2025 exam templates)",
+    "licence": "Copyright its publisher; used for non-commercial teaching",
+    "what_it_shows": "The four quadrants and the nine regions used to say where a finding is."
+  },
+  {
+    "test": "Landmarks: palpate",
+    "file": "palpate-landmarks.jpg",
+    "slug": "palpate-landmarks.jpg",
+    "source_page_url": "",
+    "author": "Textbook figure reproduced in student notes (Class of 2025 exam templates)",
+    "licence": "Copyright its publisher; used for non-commercial teaching",
+    "what_it_shows": "The organs under each part of the abdomen: liver, gallbladder, spleen, stomach, kidney, aorta, colon, bladder."
   }
 ]

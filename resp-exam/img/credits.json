@@ -133,5 +133,50 @@
     "author": "Flapping Tremor: Unraveling Asterixis, a narrative review (Medicina 2024, 60(3):362), Figure 2",
     "licence": "CC BY 4.0 (cropped to the upper-limb panel)",
     "what_it_shows": "Line drawing: arm extended, wrist dorsiflexed, then the irregular flapping of the hand (published illustration, not a photograph)"
+  },
+  {
+    "test": "Tactile fremitus",
+    "file": "tactile-fremitus.jpg",
+    "slug": "tactile-fremitus.jpg",
+    "source_page_url": "",
+    "author": "Textbook figure reproduced in student notes (Class of 2025 exam templates)",
+    "licence": "Copyright its publisher; used for non-commercial teaching",
+    "what_it_shows": "Where to feel for fremitus on the back, side to side."
+  },
+  {
+    "test": "Percussing a lung field",
+    "file": "percussing-a-lung-field.jpg",
+    "slug": "percussing-a-lung-field.jpg",
+    "source_page_url": "",
+    "author": "Textbook figure reproduced in student notes (Class of 2025 exam templates)",
+    "licence": "Copyright its publisher; used for non-commercial teaching",
+    "what_it_shows": "Where to percuss and listen on the back, comparing side to side down to the bases."
+  },
+  {
+    "test": "Anterior percussion",
+    "file": "anterior-percussion.jpg",
+    "slug": "anterior-percussion.jpg",
+    "source_page_url": "",
+    "author": "Textbook figure reproduced in student notes (Class of 2025 exam templates)",
+    "licence": "Copyright its publisher; used for non-commercial teaching",
+    "what_it_shows": "Where to percuss and listen on the front of the chest."
+  },
+  {
+    "test": "Landmarks: chest-inspection",
+    "file": "chest-inspection-landmarks.jpg",
+    "slug": "chest-inspection-landmarks.jpg",
+    "source_page_url": "",
+    "author": "Textbook figure reproduced in student notes (Class of 2025 exam templates)",
+    "licence": "Copyright its publisher; used for non-commercial teaching",
+    "what_it_shows": "Chest wall landmarks: suprasternal notch, manubrium, sternal angle and 2nd rib, xiphoid, costal angle."
+  },
+  {
+    "test": "Landmarks: auscultation",
+    "file": "auscultation-landmarks.jpg",
+    "slug": "auscultation-landmarks.jpg",
+    "source_page_url": "",
+    "author": "Textbook figure reproduced in student notes (Class of 2025 exam templates)",
+    "licence": "Copyright its publisher; used for non-commercial teaching",
+    "what_it_shows": "Where each lobe lies, front and back: fissures, apices, T3 and the bases on breathing in."
   }
 ]

@@ -180,7 +180,7 @@ EXAM = exam_page.Exam(
     root_note="Compare left with right · examine the joint above and below · watch gait for the back and legs. A test counts only when it reproduces the patient's own symptom or differs from the other side.",
     video_credit='Videos by <a href="https://mskmedicine.com">MSK Medicine</a>, played from their YouTube channel; where they have none, a video from another teaching channel, named on its button. Each opens only when you tap it.',
     general_week="Week 1 · every joint", pearls_heading="Pearls and X-rays",
-    video=VIDEO, video_page="https://mskmedicine.com/clinical_skills/{slug}/", region_video=REGION_VIDEO,
+    video=VIDEO, video_page="https://mskmedicine.com/clinical_skills/{slug}/", region_video=REGION_VIDEO, official_region_video=True,
     other_video=json.loads((HERE / "videos_other.json").read_text(encoding="utf-8")),
     extra_cards={"ankle": [OTTAWA]},
     clips=json.loads((HERE / "clips.json").read_text(encoding="utf-8")),

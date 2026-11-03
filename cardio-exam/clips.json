@@ -1,0 +1,10 @@
+{
+ "Aortic stenosis": [
+  {"mp4": "https://upload.wikimedia.org/wikipedia/commons/2/24/Heart-energy-signature-spectrogram-for-cardiovascular-diagnosis-1475-925X-6-16-S6.ogg",
+   "title": "Hear it: aortic stenosis murmur (audio)", "page": "https://commons.wikimedia.org/wiki/File:Heart-energy-signature-spectrogram-for-cardiovascular-diagnosis-1475-925X-6-16-S6.ogg", "secs": 0}
+ ],
+ "Rhythm, S1 and S2": [
+  {"mp4": "https://upload.wikimedia.org/wikipedia/commons/a/a3/Heart-energy-signature-spectrogram-for-cardiovascular-diagnosis-1475-925X-6-16-S3.ogg",
+   "title": "Hear it: two split S2 sounds (audio)", "page": "https://commons.wikimedia.org/wiki/File:Heart-energy-signature-spectrogram-for-cardiovascular-diagnosis-1475-925X-6-16-S3.ogg", "secs": 0}
+ ]
+}

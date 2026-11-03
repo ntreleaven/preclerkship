@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="520" viewBox="0 0 1100 520" font-family="Arial">
+<rect width="1100" height="520" fill="#fff"/>
+<text x="30" y="40" font-size="26" font-weight="bold" fill="#222">Symphysis-fundal height: side view, lying on the back</text>
+<!-- table -->
+<rect x="40" y="380" width="1000" height="22" rx="6" fill="#9aa5b1"/>
+<!-- body slab with abdominal skin dome -->
+<path d="M 60 380 L 60 322 C 120 316 200 250 300 205 C 380 175 470 205 540 300 C 600 330 800 332 1000 330 L 1000 380 Z" fill="#f2d2b6" stroke="#8a6a4f" stroke-width="4"/>
+<!-- uterus inside -->
+<ellipse cx="290" cy="290" rx="105" ry="72" transform="rotate(-28 290 290)" fill="#e9a3a8" stroke="#a5545c" stroke-width="4"/>
+<!-- pubic symphysis -->
+<ellipse cx="108" cy="340" rx="22" ry="30" fill="#f7f4ee" stroke="#6a6a6a" stroke-width="4"/>
+<!-- tape measure along skin from symphysis to fundus -->
+<path d="M 98 308 C 140 300 205 245 290 200 C 322 188 345 188 362 192" fill="none" stroke="#e6a800" stroke-width="12" stroke-linecap="round"/>
+<path d="M 98 308 C 140 300 205 245 290 200 C 322 188 345 188 362 192" fill="none" stroke="#222" stroke-width="12" stroke-dasharray="2 16"/>
+<circle cx="98" cy="308" r="8" fill="#d62d20"/>
+<circle cx="362" cy="192" r="8" fill="#d62d20"/>
+<g font-size="19" fill="#222">
+<text x="40" y="450">Pubic symphysis: top edge of the pubic bone</text><line x1="110" y1="436" x2="108" y2="372" stroke="#666"/>
+<text x="30" y="100">Tape measure: zero at the symphysis,</text><text x="30" y="124">read in cm at the fundus</text><line x1="130" y1="132" x2="190" y2="268" stroke="#666"/>
+<text x="420" y="90">Fundus: top of the uterus, found by pressing in</text><text x="420" y="114">from the ribs downward until the firm top is felt</text><line x1="480" y1="122" x2="368" y2="190" stroke="#666"/>
+<text x="640" y="250">From about 24 weeks, height in cm</text><text x="640" y="274">is roughly the weeks of pregnancy</text><text x="640" y="298">(give or take 2 cm)</text>
+<text x="255" y="305" fill="#7a2b32" font-weight="bold">Uterus</text>
+<text x="40" y="500" fill="#555" font-size="16">feet</text><text x="960" y="500" fill="#555" font-size="16">head</text>
+</g>
+</svg>

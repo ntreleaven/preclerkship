@@ -43,6 +43,13 @@ def cards():
             u'</span>\n'
             u'</a>' % (c["slug"], c["blocks"][0][0], c["accent"], c["year"], len(c["blocks"]),
                        c["name"], c["blurb"], notes, "{:,}".format(q)))
+    out.append(
+        u'<a class="block-card" href="clinical-skills/history.html" style="--hue:#2f5d7c">\n'
+        u'<p class="bmeta">Years 1 and 2 &middot; alongside every course</p>\n'
+        u'<h2>Clinical Skills</h2>\n'
+        u'<p>Every history and exam, one page each, arranged by skill rather than by semester.</p>\n'
+        u'<span class="tally">\n<span><b>10</b> exams</span>\n<span><b>10</b> histories and other skills</span>\n</span>\n'
+        u'</a>')
     return "\n".join(out)
 
 

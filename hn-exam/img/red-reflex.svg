@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1180" height="560" viewBox="0 0 1180 560" font-family="Arial">
+<rect width="1180" height="560" fill="#fff"/>
+<text x="30" y="40" font-size="26" font-weight="bold" fill="#222">Red reflex: light in, red glow out</text>
+<!-- eye cross-section, front of eye at left -->
+<g transform="translate(0,20)">
+<circle cx="470" cy="260" r="150" fill="#f7efe6" stroke="#8a6f5a" stroke-width="5"/>
+<!-- retina / choroid (inner wall, right side) -->
+<path d="M 470 118 A 142 142 0 0 1 470 402" fill="none" stroke="#c0392b" stroke-width="14" opacity="0.85"/>
+<!-- cornea bulge -->
+<path d="M 345 195 Q 290 260 345 325" fill="#e8f3f8" stroke="#6c8ea0" stroke-width="5"/>
+<!-- iris, with pupil gap between y=235 and y=285 -->
+<path d="M 352 175 L 352 235" stroke="#6b4a2b" stroke-width="14" stroke-linecap="round"/>
+<path d="M 352 345 L 352 285" stroke="#6b4a2b" stroke-width="14" stroke-linecap="round"/>
+<!-- lens -->
+<ellipse cx="385" cy="260" rx="16" ry="48" fill="#dfeef5" stroke="#6c8ea0" stroke-width="4"/>
+<!-- vitreous label area -->
+<!-- incoming light (yellow) -->
+<g stroke="#e6a800" stroke-width="5" fill="none" stroke-linecap="round">
+<line x1="90" y1="160" x2="352" y2="248"/><line x1="352" y1="248" x2="600" y2="262"/>
+<line x1="90" y1="190" x2="352" y2="266"/><line x1="352" y1="266" x2="600" y2="264"/>
+</g>
+<!-- returning light (red) -->
+<g stroke="#d62d20" stroke-width="5" fill="none" stroke-linecap="round" stroke-dasharray="2 9">
+<line x1="520" y1="268" x2="352" y2="270"/><line x1="352" y1="270" x2="90" y2="322"/>
+<line x1="520" y1="262" x2="352" y2="256"/><line x1="352" y1="256" x2="90" y2="285"/>
+</g>
+<!-- examiner side -->
+<rect x="30" y="140" width="70" height="70" rx="12" fill="#445" />
+<text x="65" y="182" font-size="14" fill="#fff" text-anchor="middle">scope</text>
+<circle cx="65" cy="305" r="32" fill="#fff" stroke="#445" stroke-width="5"/><circle cx="65" cy="305" r="12" fill="#445"/>
+<text x="65" y="360" font-size="16" fill="#222" text-anchor="middle">examiner's eye</text>
+</g>
+<text x="75" y="148" font-size="16" fill="#222" text-anchor="middle">ophthalmoscope</text>
+<!-- labels -->
+<g font-size="17" fill="#222">
+<text x="240" y="115">Cornea</text><line x1="285" y1="123" x2="320" y2="190" stroke="#888"/>
+<text x="330" y="470">Iris and pupil</text><line x1="380" y1="455" x2="360" y2="365" stroke="#888"/>
+<text x="470" y="95">Lens</text><line x1="480" y1="103" x2="405" y2="265" stroke="#888"/>
+<text x="560" y="430">Retina and choroid:</text><text x="560" y="452">blood-rich, reflects red</text><line x1="610" y1="415" x2="590" y2="360" stroke="#888"/>
+</g>
+<text x="205" y="525" font-size="17" fill="#e6a800" font-weight="bold">yellow: light from the scope</text>
+<text x="500" y="525" font-size="17" fill="#d62d20" font-weight="bold">red: light reflected back to the examiner</text>
+<!-- what you see panel -->
+<g transform="translate(780,70)">
+<text x="0" y="0" font-size="19" font-weight="bold" fill="#222">What the examiner sees</text>
+<circle cx="60" cy="70" r="42" fill="#e86a2a" /><circle cx="48" cy="58" r="8" fill="#fff" opacity="0.7"/>
+<text x="120" y="66" font-size="16" fill="#222">Normal: even red-orange</text><text x="120" y="86" font-size="16" fill="#222">glow in both eyes</text>
+<circle cx="60" cy="190" r="42" fill="#e86a2a"/><path d="M 42 175 q 14 -14 30 2 q 8 18 -10 26 q -22 4 -20 -28 z" fill="#2a1a10"/>
+<text x="120" y="186" font-size="16" fill="#222">Dark spot or shadow:</text><text x="120" y="206" font-size="16" fill="#222">something blocks the light</text><text x="120" y="226" font-size="16" fill="#222">(e.g. cataract)</text>
+<circle cx="60" cy="320" r="42" fill="#f4f1ea" stroke="#bbb" stroke-width="2"/>
+<text x="120" y="316" font-size="16" fill="#222">White glow, or the two</text><text x="120" y="336" font-size="16" fill="#222">eyes differ: refer urgently</text>
+</g>
+</svg>

@@ -1,0 +1,83 @@
+[
+  {
+    "test": "Radial pulse",
+    "file": "radial-pulse.jpg",
+    "slug": "radial-pulse.jpg",
+    "source_page_url": "https://rsc.lib.uwo.ca/s/healthedu/item/2284",
+    "author": "Clinical Skills teaching set, Schulich School of Medicine and Dentistry (Health Education Media Library, Western Libraries)",
+    "licence": "CC BY-NC 4.0, cropped",
+    "what_it_shows": "Fingers on the radial pulse at the wrist"
+  },
+  {
+    "test": "Palpated systolic estimate",
+    "file": "palpated-systolic-estimate.jpg",
+    "slug": "palpated-systolic-estimate.jpg",
+    "source_page_url": "https://rsc.lib.uwo.ca/s/healthedu/item/2312",
+    "author": "Clinical Skills teaching set, Schulich School of Medicine and Dentistry (Health Education Media Library, Western Libraries)",
+    "licence": "CC BY-NC 4.0, cropped",
+    "what_it_shows": "Cuff on the upper arm while the radial pulse is felt at the wrist"
+  },
+  {
+    "test": "Auscultated blood pressure",
+    "file": "auscultated-bp.jpg",
+    "slug": "auscultated-bp.jpg",
+    "source_page_url": "https://rsc.lib.uwo.ca/s/healthedu/item/2250",
+    "author": "Clinical Skills teaching set, Schulich School of Medicine and Dentistry (Health Education Media Library, Western Libraries)",
+    "licence": "CC BY-NC 4.0, cropped",
+    "what_it_shows": "Blood pressure cuff applied to the upper arm"
+  },
+  {
+    "test": "Central cyanosis",
+    "file": "central-cyanosis.jpg",
+    "slug": "central-cyanosis.jpg",
+    "source_page_url": "https://commons.wikimedia.org/wiki/File:Cyanoza_.jpg",
+    "author": "Ciernik M",
+    "licence": "CC BY-SA 4.0, cropped",
+    "what_it_shows": "Blue-purple lips (central cyanosis)"
+  },
+  {
+    "test": "Peripheral cyanosis",
+    "file": "peripheral-cyanosis.jpg",
+    "slug": "peripheral-cyanosis.jpg",
+    "source_page_url": "https://commons.wikimedia.org/wiki/File:Cyanosis-adult_fingertips.PNG",
+    "author": "7mike5000 (derivative of a Wikimedia Commons photo)",
+    "licence": "CC BY-SA 3.0",
+    "what_it_shows": "Blue fingertips (peripheral cyanosis, here in Raynaud's phenomenon)"
+  },
+  {
+    "test": "Jaundice",
+    "file": "jaundice.jpg",
+    "slug": "jaundice.jpg",
+    "source_page_url": "https://commons.wikimedia.org/wiki/File:Jaundice_of_the_sclerotic_(cropped).JPG",
+    "author": "Bobjgalindo",
+    "licence": "CC BY-SA 4.0",
+    "what_it_shows": "Yellow whites of the eyes (scleral icterus)"
+  },
+  {
+    "test": "Pallor",
+    "file": "pallor.jpg",
+    "slug": "pallor.jpg",
+    "source_page_url": "https://commons.wikimedia.org/wiki/File:PallorSkinTones.jpg",
+    "author": "Chidiebere Ibe",
+    "licence": "CC BY-SA 4.0, cropped",
+    "what_it_shows": "Pale tongue and pale inner lower eyelid beside normal (illustration)"
+  },
+  {
+    "test": "Counting the respiratory rate",
+    "file": "counting-respiratory-rate.jpg",
+    "slug": "counting-respiratory-rate.jpg",
+    "source_page_url": "https://rsc.lib.uwo.ca/s/healthedu/item/2296",
+    "author": "Schulich School of Medicine and Dentistry (Health Education Media Library, Western Libraries)",
+    "licence": "CC BY-NC 4.0, cropped",
+    "what_it_shows": "Watching the patient's chest rise and fall without telling them, while counting breaths"
+  },
+  {
+    "test": "Orthostatic blood pressure",
+    "file": "orthostatic-bp.jpg",
+    "slug": "orthostatic-bp.jpg",
+    "source_page_url": "",
+    "author": "Drawn for this page (Claude), concept diagram",
+    "licence": "CC0",
+    "what_it_shows": "Worked example: systolic and diastolic lying, then standing at 1 and 3 minutes, with the positive criteria"
+  }
+]

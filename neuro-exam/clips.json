@@ -1,0 +1,489 @@
+{
+ "The general approach": [
+  {
+   "mp4": "https://rsc.lib.uwo.ca/files/original/330d82ebb98681351f7e1f0a77127f490bfdf69a.mp4",
+   "title": "Doctor Patient Introduction",
+   "page": "https://rsc.lib.uwo.ca/s/healthedu/item/2429",
+   "secs": 21,
+   "item": 2429
+  },
+  {
+   "mp4": "https://rsc.lib.uwo.ca/files/original/8c6d3372b4c9de8dab6b0421683793dae777fe5b.mp4",
+   "title": "Bed Set Up for Exam",
+   "page": "https://rsc.lib.uwo.ca/s/healthedu/item/2431",
+   "secs": 25,
+   "item": 2431
+  },
+  {
+   "mp4": "https://rsc.lib.uwo.ca/files/original/495171b18a2d913ab5889e616db826161a67035b.mp4",
+   "title": "Draping a Supine Patient",
+   "page": "https://rsc.lib.uwo.ca/s/healthedu/item/2427",
+   "secs": 25,
+   "item": 2427
+  }
+ ],
+ "cranial": [
+  {
+   "mp4": "https://rsc.lib.uwo.ca/files/original/7270840b5e63ad25ff10e8c7aee1cdbd807ca484.mp4",
+   "title": "Cranial Nerve Exam",
+   "page": "https://rsc.lib.uwo.ca/s/healthedu/item/2495",
+   "secs": 311,
+   "item": 2495
+  },
+  {
+   "mp4": "https://rsc.lib.uwo.ca/files/original/5f4e3ec16a516b7328f6261df1cee9e945508179.mp4",
+   "title": "Cranial Nerve Exam (CN II-VII)",
+   "page": "https://rsc.lib.uwo.ca/s/healthedu/item/2485",
+   "secs": 453,
+   "item": 2485
+  },
+  {
+   "mp4": "https://rsc.lib.uwo.ca/files/original/769aa653acc6942dc3fba41e53fc891079c8543c.mp4",
+   "title": "Cranial Nerve Exam Lower",
+   "page": "https://rsc.lib.uwo.ca/s/healthedu/item/2487",
+   "secs": 194,
+   "item": 2487
+  },
+  {
+   "mp4": "https://rsc.lib.uwo.ca/files/original/4b4bef0d23497b0f6454d4157aa9d69cc0226b80.mp4",
+   "title": "Optokinetic Nystagmus and Head Thrust/Impulse Testing",
+   "page": "https://rsc.lib.uwo.ca/s/healthedu/item/2501",
+   "secs": 87,
+   "item": 2501
+  }
+ ],
+ "CN II, optic: visual acuity": [
+  {
+   "mp4": "https://rsc.lib.uwo.ca/files/original/9929363610c391c29cfccb48d75f552a471a0def.mp4",
+   "title": "Near Visual Acuity",
+   "page": "https://rsc.lib.uwo.ca/s/healthedu/item/2489",
+   "secs": 76,
+   "item": 2489
+  },
+  {
+   "mp4": "https://rsc.lib.uwo.ca/files/original/07eea38fc88cfa60f34ac0918807e271443685d6.mp4",
+   "title": "Near Visual Acuity, view 2",
+   "page": "https://rsc.lib.uwo.ca/s/healthedu/item/2491",
+   "secs": 61,
+   "item": 2491
+  }
+ ],
+ "CN II: visual fields by confrontation": [
+  {
+   "mp4": "https://rsc.lib.uwo.ca/files/original/241bb6900b57d9c427062492e8ba23a14659e753.mp4",
+   "title": "Testing Visual Fields",
+   "page": "https://rsc.lib.uwo.ca/s/healthedu/item/2493",
+   "secs": 75,
+   "item": 2493
+  }
+ ],
+ "CN II and III: pupillary light reflex": [
+  {
+   "mp4": "https://rsc.lib.uwo.ca/files/original/6fe9683c389624b0238f041812f52e92eba50246.mp4",
+   "title": "Pupillary Light Response and RAPD",
+   "page": "https://rsc.lib.uwo.ca/s/healthedu/item/2483",
+   "secs": 91,
+   "item": 2483
+  },
+  {
+   "mp4": "https://rsc.lib.uwo.ca/files/original/819e526f51663c5c28dc799e9cea2a0ac082d21e.mp4",
+   "title": "Cranial Nerve Exam Pupillary Light Response and RAPD",
+   "page": "https://rsc.lib.uwo.ca/s/healthedu/item/2497",
+   "secs": 44,
+   "item": 2497
+  }
+ ],
+ "CN VII, facial: motor": [
+  {
+   "mp4": "https://rsc.lib.uwo.ca/files/original/37d354ad77348f5401f9d4d5b7bfe3899affab81.mp4",
+   "title": "Facial Power Exam (CN VII)",
+   "page": "https://rsc.lib.uwo.ca/s/healthedu/item/2481",
+   "secs": 27,
+   "item": 2481
+  }
+ ],
+ "motor": [
+  {
+   "mp4": "https://rsc.lib.uwo.ca/files/original/ba9a7ac60c68baccf0c98c03b2c7a091bff66874.mp4",
+   "title": "Inspection of Upper Extremities",
+   "page": "https://rsc.lib.uwo.ca/s/healthedu/item/2519",
+   "secs": 39,
+   "item": 2519
+  },
+  {
+   "mp4": "https://rsc.lib.uwo.ca/files/original/769baf0f07d1c2b5d71eba5d760b68168e701072.mp4",
+   "title": "Testing Tone in Arms",
+   "page": "https://rsc.lib.uwo.ca/s/healthedu/item/2555",
+   "secs": 56,
+   "item": 2555
+  },
+  {
+   "mp4": "https://rsc.lib.uwo.ca/files/original/0cc1bdfa38c0cade67fd5e5c27f6dadb0635b170.mp4",
+   "title": "Pronator Drift",
+   "page": "https://rsc.lib.uwo.ca/s/healthedu/item/2525",
+   "secs": 46,
+   "item": 2525
+  },
+  {
+   "mp4": "https://rsc.lib.uwo.ca/files/original/b8e9bcdfdd6cb755800d7ffaef3598962b7f04bc.mp4",
+   "title": "Screening Motor Exam Upper Extremity",
+   "page": "https://rsc.lib.uwo.ca/s/healthedu/item/2513",
+   "secs": 201,
+   "item": 2513
+  },
+  {
+   "mp4": "https://rsc.lib.uwo.ca/files/original/618291f31296d88b34fcb5a535c4c051f1b7ac0a.mp4",
+   "title": "Screening Motor Exam Upper Extremity, view 2",
+   "page": "https://rsc.lib.uwo.ca/s/healthedu/item/2517",
+   "secs": 257,
+   "item": 2517
+  },
+  {
+   "mp4": "https://rsc.lib.uwo.ca/files/original/c6dbb100d14eaeccb0e17bf46c22a0bac2a638df.mp4",
+   "title": "Testing Strength in Upper Extremities",
+   "page": "https://rsc.lib.uwo.ca/s/healthedu/item/2553",
+   "secs": 145,
+   "item": 2553
+  },
+  {
+   "mp4": "https://rsc.lib.uwo.ca/files/original/7f6dc2f6fcb8d7f388cd68b98e02ab1a766f424a.mp4",
+   "title": "Testing Strength in Arms",
+   "page": "https://rsc.lib.uwo.ca/s/healthedu/item/2557",
+   "secs": 42,
+   "item": 2557
+  },
+  {
+   "mp4": "https://rsc.lib.uwo.ca/files/original/6f95e8992f984796fc0dba711c771726ed16c894.mp4",
+   "title": "Strength Testing Wrist Extension",
+   "page": "https://rsc.lib.uwo.ca/s/healthedu/item/2527",
+   "secs": 9,
+   "item": 2527
+  },
+  {
+   "mp4": "https://rsc.lib.uwo.ca/files/original/68b4df0dfdf624beb502f796605005d9d7566d18.mp4",
+   "title": "Strength Testing Wrist Extension, view 2",
+   "page": "https://rsc.lib.uwo.ca/s/healthedu/item/2529",
+   "secs": 17,
+   "item": 2529
+  },
+  {
+   "mp4": "https://rsc.lib.uwo.ca/files/original/d23d5ef0bbfa6ccd2c19087970565372522c6e77.mp4",
+   "title": "Strength Testing Wrist Flexion",
+   "page": "https://rsc.lib.uwo.ca/s/healthedu/item/2531",
+   "secs": 13,
+   "item": 2531
+  },
+  {
+   "mp4": "https://rsc.lib.uwo.ca/files/original/90aacd9a30c02772f620e7df5c44f2e777d24df4.mp4",
+   "title": "Strength Testing Finger Extension",
+   "page": "https://rsc.lib.uwo.ca/s/healthedu/item/2541",
+   "secs": 9,
+   "item": 2541
+  },
+  {
+   "mp4": "https://rsc.lib.uwo.ca/files/original/7f399b0cf3bfc1453f19e009b7033119cd1d6ab4.mp4",
+   "title": "Strength Testing Finger Extension, view 2",
+   "page": "https://rsc.lib.uwo.ca/s/healthedu/item/2543",
+   "secs": 11,
+   "item": 2543
+  },
+  {
+   "mp4": "https://rsc.lib.uwo.ca/files/original/880a012cabfcec7371bf4080554c4ffc74b9daa0.mp4",
+   "title": "Student Attempting Motor Exam-Arms",
+   "page": "https://rsc.lib.uwo.ca/s/healthedu/item/2425",
+   "secs": 165,
+   "item": 2425
+  }
+ ],
+ "Shoulder abduction": [
+  {
+   "mp4": "https://rsc.lib.uwo.ca/files/original/8d90347dcec352ee353a0de3888147a3c1a507bc.mp4",
+   "title": "Strength Testing Shoulder Abduction",
+   "page": "https://rsc.lib.uwo.ca/s/healthedu/item/2549",
+   "secs": 21,
+   "item": 2549
+  },
+  {
+   "mp4": "https://rsc.lib.uwo.ca/files/original/55268c41e3da807da94b389e2d8c596dea853099.mp4",
+   "title": "Strength Testing Shoulder Abduction, view 2",
+   "page": "https://rsc.lib.uwo.ca/s/healthedu/item/2551",
+   "secs": 17,
+   "item": 2551
+  }
+ ],
+ "Elbow flexion": [
+  {
+   "mp4": "https://rsc.lib.uwo.ca/files/original/6c2cfbce35ae8c5d455aec58ee5b427c155eea73.mp4",
+   "title": "Strength Testing Elbow Flexion - Biceps",
+   "page": "https://rsc.lib.uwo.ca/s/healthedu/item/2545",
+   "secs": 24,
+   "item": 2545
+  },
+  {
+   "mp4": "https://rsc.lib.uwo.ca/files/original/552f45cfc480b409de81e9bc63629aa7ed5a3a6b.mp4",
+   "title": "Strength Testing Elbow Flexion - Biceps, view 2",
+   "page": "https://rsc.lib.uwo.ca/s/healthedu/item/2547",
+   "secs": 20,
+   "item": 2547
+  }
+ ],
+ "Elbow extension": [
+  {
+   "mp4": "https://rsc.lib.uwo.ca/files/original/d89dea66889afa73a10af55060b6460548cf3a2e.mp4",
+   "title": "Strength Testing Elbow Extension",
+   "page": "https://rsc.lib.uwo.ca/s/healthedu/item/2533",
+   "secs": 16,
+   "item": 2533
+  },
+  {
+   "mp4": "https://rsc.lib.uwo.ca/files/original/607d417fab368f69aeac8012ad8c40ec29dc91c0.mp4",
+   "title": "Strength Testing Elbow Extension, view 2",
+   "page": "https://rsc.lib.uwo.ca/s/healthedu/item/2535",
+   "secs": 2,
+   "item": 2535
+  }
+ ],
+ "Finger abduction": [
+  {
+   "mp4": "https://rsc.lib.uwo.ca/files/original/db0856c3a03ccdf4a90c3dbfb33ed104d5784283.mp4",
+   "title": "Strength Testing Finger Abduction",
+   "page": "https://rsc.lib.uwo.ca/s/healthedu/item/2537",
+   "secs": 14,
+   "item": 2537
+  },
+  {
+   "mp4": "https://rsc.lib.uwo.ca/files/original/5f80f17e21e0e3aea751344116bb4267382b7f40.mp4",
+   "title": "Strength Testing Finger Abduction, view 2",
+   "page": "https://rsc.lib.uwo.ca/s/healthedu/item/2539",
+   "secs": 34,
+   "item": 2539
+  }
+ ],
+ "sensory": [
+  {
+   "mp4": "https://rsc.lib.uwo.ca/files/original/0848426467a4995275e29b7547f355d87d1c0881.mp4",
+   "title": "Sensory Hand Exam (No Audio)",
+   "page": "https://rsc.lib.uwo.ca/s/healthedu/item/2409",
+   "secs": 9,
+   "item": 2409
+  },
+  {
+   "mp4": "https://rsc.lib.uwo.ca/files/original/ef6c9345e3e95b76c79ff4a06854d935ac29157f.mp4",
+   "title": "Sensory Deficits Exam of Leg",
+   "page": "https://rsc.lib.uwo.ca/s/healthedu/item/2408",
+   "secs": 58,
+   "item": 2408
+  },
+  {
+   "mp4": "https://rsc.lib.uwo.ca/files/original/fd0514fc8415384d448c6f795085fb35e2886ab3.mp4",
+   "title": "Pinprick Peripheral Neuropathy",
+   "page": "https://rsc.lib.uwo.ca/s/healthedu/item/2414",
+   "secs": 33,
+   "item": 2414
+  }
+ ],
+ "Pain (pinprick)": [
+  {
+   "mp4": "https://rsc.lib.uwo.ca/files/original/070e842b7608c6d10dbb0767d30c70d43d05d2a2.mp4",
+   "title": "Pinprick C6",
+   "page": "https://rsc.lib.uwo.ca/s/healthedu/item/2410",
+   "secs": 1,
+   "item": 2410
+  },
+  {
+   "mp4": "https://rsc.lib.uwo.ca/files/original/c8350b1794b74be586ad281a1a3c48806ce699de.mp4",
+   "title": "Pinprick C7",
+   "page": "https://rsc.lib.uwo.ca/s/healthedu/item/2411",
+   "secs": 4,
+   "item": 2411
+  },
+  {
+   "mp4": "https://rsc.lib.uwo.ca/files/original/8378cf090d25325e860b92ac07eee8f198877274.mp4",
+   "title": "Pinprick C8",
+   "page": "https://rsc.lib.uwo.ca/s/healthedu/item/2412",
+   "secs": 4,
+   "item": 2412
+  },
+  {
+   "mp4": "https://rsc.lib.uwo.ca/files/original/17eaf1740ed4b260d533957fed180c298e668a75.mp4",
+   "title": "Pinprick L3-S1",
+   "page": "https://rsc.lib.uwo.ca/s/healthedu/item/2413",
+   "secs": 26,
+   "item": 2413
+  }
+ ],
+ "reflexes": [
+  {
+   "mp4": "https://rsc.lib.uwo.ca/files/original/79de1b7772334e0d3724739582c9fc721538eaec.mp4",
+   "title": "Deep Tendon Reflex Exam Sitting",
+   "page": "https://rsc.lib.uwo.ca/s/healthedu/item/2447",
+   "secs": 141,
+   "item": 2447
+  },
+  {
+   "mp4": "https://rsc.lib.uwo.ca/files/original/0dd52f6674f50cdc8942724604cdd2343ee2c28e.mp4",
+   "title": "Upper Deep Tendon Reflex Exam Sitting",
+   "page": "https://rsc.lib.uwo.ca/s/healthedu/item/2469",
+   "secs": 152,
+   "item": 2469
+  },
+  {
+   "mp4": "https://rsc.lib.uwo.ca/files/original/7c652f17ca665e72d7c77dc050110fa9bd853240.mp4",
+   "title": "Deep Tendon Reflexes Supine",
+   "page": "https://rsc.lib.uwo.ca/s/healthedu/item/2449",
+   "secs": 215,
+   "item": 2449
+  },
+  {
+   "mp4": "https://rsc.lib.uwo.ca/files/original/777ccb04bb3c644cb897e94e9770b19f293389a9.mp4",
+   "title": "Reflex Testing Full",
+   "page": "https://rsc.lib.uwo.ca/s/healthedu/item/2459",
+   "secs": 156,
+   "item": 2459
+  },
+  {
+   "mp4": "https://rsc.lib.uwo.ca/files/original/f4c6458059396b7ca5a34761597ee7c1293a79e8.mp4",
+   "title": "Testing Hoffmann's sign and Tromner's sign",
+   "page": "https://rsc.lib.uwo.ca/s/healthedu/item/2515",
+   "secs": 4,
+   "item": 2515
+  },
+  {
+   "mp4": "https://rsc.lib.uwo.ca/files/original/b560d0432ee43b848d30227521a4c1f821d4b9da.mp4",
+   "title": "Elbow Reflex Sitting",
+   "page": "https://rsc.lib.uwo.ca/s/healthedu/item/2451",
+   "secs": 3,
+   "item": 2451
+  },
+  {
+   "mp4": "https://rsc.lib.uwo.ca/files/original/acf9957001d758e03e9b87c42017c72e81ffd08c.mp4",
+   "title": "Elbow Reflex Sitting, view 2",
+   "page": "https://rsc.lib.uwo.ca/s/healthedu/item/2453",
+   "secs": 4,
+   "item": 2453
+  }
+ ],
+ "Biceps": [
+  {
+   "mp4": "https://rsc.lib.uwo.ca/files/original/2518ddb0928b22ef3698efae58e78aca9452579b.mp4",
+   "title": "Biceps Reflex Sitting",
+   "page": "https://rsc.lib.uwo.ca/s/healthedu/item/2443",
+   "secs": 26,
+   "item": 2443
+  }
+ ],
+ "Brachioradialis": [
+  {
+   "mp4": "https://rsc.lib.uwo.ca/files/original/46545a4bfce2a0eace6fe6a03c3488db7ca28d8e.mp4",
+   "title": "Brachioradialis Reflex Sitting",
+   "page": "https://rsc.lib.uwo.ca/s/healthedu/item/2445",
+   "secs": 12,
+   "item": 2445
+  }
+ ],
+ "Triceps": [
+  {
+   "mp4": "https://rsc.lib.uwo.ca/files/original/66620cca89ee11cbf537a9445243736dfcd57938.mp4",
+   "title": "Tricep Reflex Sitting",
+   "page": "https://rsc.lib.uwo.ca/s/healthedu/item/2461",
+   "secs": 7,
+   "item": 2461
+  },
+  {
+   "mp4": "https://rsc.lib.uwo.ca/files/original/20c95d23f225892fe65c83993432202d2cdce223.mp4",
+   "title": "Tricep Reflex Sitting, view 2",
+   "page": "https://rsc.lib.uwo.ca/s/healthedu/item/2463",
+   "secs": 8,
+   "item": 2463
+  },
+  {
+   "mp4": "https://rsc.lib.uwo.ca/files/original/abb8a1d6bdcaa12766c5625914dab53661fe67cf.mp4",
+   "title": "Tricep Reflex Sitting, view 3",
+   "page": "https://rsc.lib.uwo.ca/s/healthedu/item/2465",
+   "secs": 3,
+   "item": 2465
+  },
+  {
+   "mp4": "https://rsc.lib.uwo.ca/files/original/c90b7a477c88338026792041708eccf73984fb4b.mp4",
+   "title": "Tricep Reflex Sitting, view 4",
+   "page": "https://rsc.lib.uwo.ca/s/healthedu/item/2467",
+   "secs": 53,
+   "item": 2467
+  }
+ ],
+ "Knee (patellar)": [
+  {
+   "mp4": "https://rsc.lib.uwo.ca/files/original/623066c69d4d0d87fd8fb5949995d6a6ec9b75bf.mp4",
+   "title": "Knee Reflex Sitting",
+   "page": "https://rsc.lib.uwo.ca/s/healthedu/item/2455",
+   "secs": 24,
+   "item": 2455
+  }
+ ],
+ "Ankle (Achilles)": [
+  {
+   "mp4": "https://rsc.lib.uwo.ca/files/original/132b0899b7fb9ba8cc47d90ecb078ced3a258a59.mp4",
+   "title": "Ankle Reflex Sitting",
+   "page": "https://rsc.lib.uwo.ca/s/healthedu/item/2441",
+   "secs": 33,
+   "item": 2441
+  }
+ ],
+ "Plantar response": [
+  {
+   "mp4": "https://rsc.lib.uwo.ca/files/original/1675c27c73425bfeacff0f338dee4e8665f88532.mp4",
+   "title": "Plantar Response",
+   "page": "https://rsc.lib.uwo.ca/s/healthedu/item/2457",
+   "secs": 2,
+   "item": 2457
+  },
+  {
+   "mp4": "https://rsc.lib.uwo.ca/files/original/e1a526814d783b89f8463475c74ddbf78e969abf.mp4",
+   "title": "Plantar Response Test",
+   "page": "https://rsc.lib.uwo.ca/s/healthedu/item/2521",
+   "secs": 16,
+   "item": 2521
+  },
+  {
+   "mp4": "https://rsc.lib.uwo.ca/files/original/443d403715b06fa145dc3092b5993ab57480d8e9.mp4",
+   "title": "Plantar Response Test, view 2",
+   "page": "https://rsc.lib.uwo.ca/s/healthedu/item/2523",
+   "secs": 58,
+   "item": 2523
+  }
+ ],
+ "Pronator drift": [
+  {
+   "mp4": "https://rsc.lib.uwo.ca/files/original/0cc1bdfa38c0cade67fd5e5c27f6dadb0635b170.mp4",
+   "title": "Pronator Drift",
+   "page": "https://rsc.lib.uwo.ca/s/healthedu/item/2525",
+   "secs": 46,
+   "item": 2525
+  }
+ ],
+ "Wrist extension": [
+  {
+   "mp4": "https://rsc.lib.uwo.ca/files/original/6f95e8992f984796fc0dba711c771726ed16c894.mp4",
+   "title": "Strength Testing Wrist Extension",
+   "page": "https://rsc.lib.uwo.ca/s/healthedu/item/2527",
+   "secs": 9,
+   "item": 2527
+  },
+  {
+   "mp4": "https://rsc.lib.uwo.ca/files/original/68b4df0dfdf624beb502f796605005d9d7566d18.mp4",
+   "title": "Strength Testing Wrist Extension, view 2",
+   "page": "https://rsc.lib.uwo.ca/s/healthedu/item/2529",
+   "secs": 17,
+   "item": 2529
+  }
+ ],
+ "CN II: swinging light test": [
+  {
+   "mp4": "https://rsc.lib.uwo.ca/files/original/6fe9683c389624b0238f041812f52e92eba50246.mp4",
+   "title": "Pupillary Light Response and RAPD",
+   "page": "https://rsc.lib.uwo.ca/s/healthedu/item/2483",
+   "secs": 91,
+   "item": 2483
+  }
+ ]
+}

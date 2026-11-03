@@ -689,6 +689,36 @@
     });
   }
 
+  /* the MSK skeleton, inline above week 1 so a region's charts are one tap from the notes.
+     Same origin, so the frame grows to fit the page inside it rather than scrolling twice;
+     where it cannot read that (opened from file://) it keeps its fixed height. */
+  function bodyMap(src) {
+    var box = el("section", "bodymap");
+    var top = el("div", "weekbar");
+    top.appendChild(el("h3", null, "Where does it hurt?"));
+    var open = el("a", "print-cta", "Open full screen");
+    open.href = src; open.target = "_blank"; open.rel = "noopener";
+    top.appendChild(open);
+    box.appendChild(top);
+    box.appendChild(el("p", "railnote", "Tap where the patient points: that region\u2019s " +
+      "chart comes first, then the ones that cut across regions."));
+    var frame = el("iframe", "bodymap-frame");
+    frame.title = "Where does it hurt? A 3D skeleton to tap";
+    frame.src = src + "?embed=1";
+    frame.allow = "fullscreen; xr-spatial-tracking";
+    frame.addEventListener("load", function () {
+      try {
+        var doc = frame.contentDocument, fit = function () {
+          frame.style.height = doc.documentElement.scrollHeight + "px";
+        };
+        fit();
+        if (window.ResizeObserver) new ResizeObserver(fit).observe(doc.body);
+      } catch (e) {}
+    });
+    box.appendChild(frame);
+    return box;
+  }
+
   function buildStream() {
     var stream = byId("note-stream"), frag = document.createDocumentFragment();
 
@@ -716,6 +746,7 @@
       head.appendChild(dr);
     }
     frag.appendChild(head);
+    if (BLOCK.bodymap) frag.appendChild(bodyMap(BLOCK.bodymap));
 
     WEEKS.forEach(function (w) {
       var wb = el("div", "weekbar");

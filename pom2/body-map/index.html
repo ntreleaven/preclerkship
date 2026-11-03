@@ -21,6 +21,8 @@
 #modes,html.only-derm #modes,html.only-derm .credit.main{display:none}
 html.embed .wrap>.eyebrow,html.embed .wrap>h1,html.embed .wrap>.lead{display:none}
 html.embed .wrap{padding:0 0 8px}html.embed .app{margin-top:0}html.embed body{background:transparent}
+/* under the MSK notes the frame grows to fit this page, so the stage cannot size off vh there */
+html.embed .stage{height:620px;min-height:0}
 html{-webkit-text-size-adjust:100%}
 body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.55 Inter,-apple-system,BlinkMacSystemFont,sans-serif}
 .wrap{max-width:1320px;margin:0 auto;padding:24px 16px 60px}

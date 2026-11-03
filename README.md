@@ -1,5 +1,12 @@
 # Pre-clerkship portal
 
+**Clinical Skills** sits beside the courses (`clinical-skills/`, opened from a fifth card on the
+landing page). It holds every history and physical exam for Years 1 and 2, one page each
+(`<system>-exam/` for the exams, `<topic>-skill/` for histories, ultrasound and OSCE prep),
+laid out by the shared engine `clinical-skills/exam_page.py` with Look and Test modes. The
+pages are built from the author's vault notes by each folder's `build.py`; edit the note, then
+rerun it. Pictures are credited at the foot of each page.
+
 A static study portal for the pre-clerkship years at Schulich. One directory per
 course. Each **block** gets a page with two tabs: **notes**, a coverage map of
 every lecture in the block whether or not it has been written up, and **Anki**,

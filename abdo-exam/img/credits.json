@@ -1,0 +1,254 @@
+[
+  {
+    "test": "Inspection from the side and the foot",
+    "file": "inspection-side-and-foot.jpg",
+    "slug": "inspection-side-and-foot.jpg",
+    "source_page_url": "https://rsc.lib.uwo.ca/s/healthedu/item/2270",
+    "author": "Arthur Labatt Family School of Nursing, Western University (Health Education Media Library, Western Libraries)",
+    "licence": "CC BY-NC 4.0",
+    "what_it_shows": "Abdominal assessment: inspecting the abdomen from the side of the bed"
+  },
+  {
+    "test": "Bowel sounds",
+    "file": "bowel-sounds.jpg",
+    "slug": "bowel-sounds.jpg",
+    "source_page_url": "https://rsc.lib.uwo.ca/s/healthedu/item/1992",
+    "author": "Arthur Labatt Family School of Nursing, Western University (Health Education Media Library, Western Libraries)",
+    "licence": "CC BY-NC 4.0",
+    "what_it_shows": "Auscultation, right lower quadrant"
+  },
+  {
+    "test": "Bruits (aorta, renal, iliac, femoral)",
+    "file": "bruits.jpg",
+    "slug": "bruits.jpg",
+    "source_page_url": "https://rsc.lib.uwo.ca/s/healthedu/item/1994",
+    "author": "Arthur Labatt Family School of Nursing, Western University (Health Education Media Library, Western Libraries)",
+    "licence": "CC BY-NC 4.0",
+    "what_it_shows": "Auscultation, upper abdomen (stethoscope near the midline)"
+  },
+  {
+    "test": "Light palpation",
+    "file": "light-palpation.jpg",
+    "slug": "light-palpation.jpg",
+    "source_page_url": "https://rsc.lib.uwo.ca/s/healthedu/item/1976",
+    "author": "Arthur Labatt Family School of Nursing, Western University (Health Education Media Library, Western Libraries)",
+    "licence": "CC BY-NC 4.0",
+    "what_it_shows": "Light palpation, one hand flat, upper right quadrant"
+  },
+  {
+    "test": "Deep palpation",
+    "file": "deep-palpation.jpg",
+    "slug": "deep-palpation.jpg",
+    "source_page_url": "https://rsc.lib.uwo.ca/s/healthedu/item/1984",
+    "author": "Arthur Labatt Family School of Nursing, Western University (Health Education Media Library, Western Libraries)",
+    "licence": "CC BY-NC 4.0",
+    "what_it_shows": "Deep palpation, right quadrant"
+  },
+  {
+    "test": "Clubbing",
+    "file": "clubbing.jpg",
+    "slug": "clubbing.jpg",
+    "source_page_url": "https://commons.wikimedia.org/wiki/File:Clubbing_of_fingers_in_IPF.jpg",
+    "author": "IPFeditor",
+    "licence": "CC BY-SA 3.0",
+    "what_it_shows": "Clubbed fingertips"
+  },
+  {
+    "test": "Asterixis",
+    "file": "asterixis.jpg",
+    "slug": "asterixis.jpg",
+    "source_page_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10972428",
+    "author": "Flapping Tremor: Unraveling Asterixis, a narrative review (Medicina 2024, 60(3):362), Figure 2",
+    "licence": "CC BY 4.0 (cropped to the upper-limb panel)",
+    "what_it_shows": "Line drawing: arm extended, wrist dorsiflexed, then the irregular flapping of the hand (published illustration, not a photograph)"
+  },
+  {
+    "test": "Liver stigmata (hands, face, chest)",
+    "file": "liver-stigmata.jpg",
+    "slug": "liver-stigmata.jpg",
+    "source_page_url": "https://commons.wikimedia.org/wiki/File:Palmar_erythema.jpg",
+    "author": "Left: Jmarchn (Palmar erythema.jpg); right: James Heilman, MD (Hepaticfailure.jpg, https://commons.wikimedia.org/wiki/File:Hepaticfailure.jpg)",
+    "licence": "CC BY-SA 3.0 (two images placed side by side, no changes otherwise)",
+    "what_it_shows": "Left: palmar erythema in both palms. Right: a swollen, ascitic abdomen with spider angiomata and dilated veins in a patient with liver failure"
+  },
+  {
+    "test": "Hernia check (head raise or cough)",
+    "file": "hernia-check.jpg",
+    "slug": "hernia-check.jpg",
+    "source_page_url": "https://commons.wikimedia.org/wiki/File:Umbilical_hernia_01.jpg",
+    "author": "Saltanat",
+    "licence": "CC0 (public domain dedication)",
+    "what_it_shows": "A bulging adult umbilical hernia seen on the abdomen"
+  },
+  {
+    "test": "Inguinal nodes and hernias",
+    "file": "inguinal-hernia.jpg",
+    "slug": "inguinal-hernia.jpg",
+    "source_page_url": "https://commons.wikimedia.org/wiki/File:Inguinalhernia.jpg",
+    "author": "Robystarm07",
+    "licence": "CC0 (cropped to the lower abdomen and groin)",
+    "what_it_shows": "A right-sided inguinal hernia: the bulge in the groin above the inguinal ligament, circled"
+  },
+  {
+    "test": "Aorta width",
+    "file": "aorta-width.jpg",
+    "slug": "aorta-width.jpg",
+    "source_page_url": "https://github.com/schulichmed/preclerkship",
+    "author": "Drawn for this page (Claude)",
+    "licence": "CC0 (own drawing)",
+    "what_it_shows": "Drawn for this page (Claude), concept diagram: cross-section of the abdomen at L2 with a fingertip each side of the aorta and the gap between them as its width"
+  },
+  {
+    "test": "Kidneys (bimanual)",
+    "file": "kidneys.jpg",
+    "slug": "kidneys.jpg",
+    "source_page_url": "https://github.com/schulichmed/preclerkship",
+    "author": "Drawn for this page (Claude)",
+    "licence": "CC0 (own drawing)",
+    "what_it_shows": "Drawn for this page (Claude), concept diagram: cross-section of the abdomen at L2 with one hand behind the flank and one in front of the right kidney"
+  },
+  {
+    "test": "Liver span (percussion)",
+    "file": "liver-span.jpg",
+    "slug": "liver-span.jpg",
+    "source_page_url": "https://github.com/schulichmed/preclerkship",
+    "author": "Drawn for this page (Claude)",
+    "licence": "CC0 (own drawing)",
+    "what_it_shows": "Drawn for this page (Claude), concept diagram: percussing down the right mid-clavicular line from the lung and up from the belly to find the liver's upper and lower borders"
+  },
+  {
+    "test": "Liver edge (palpation)",
+    "file": "liver-edge.jpg",
+    "slug": "liver-edge.jpg",
+    "source_page_url": "https://rsc.lib.uwo.ca/s/healthedu/item/1988",
+    "author": "Arthur Labatt Family School of Nursing, Western University (Health Education Media Library, Western Libraries)",
+    "licence": "CC BY-NC 4.0",
+    "what_it_shows": "Deep palpation of the right upper quadrant: the hand position used to feel for the liver edge"
+  },
+  {
+    "test": "Shifting dullness",
+    "file": "shifting-dullness.jpg",
+    "slug": "shifting-dullness.jpg",
+    "source_page_url": "https://github.com/schulichmed/preclerkship",
+    "author": "Drawn for this page (Claude)",
+    "licence": "CC0 (own drawing)",
+    "what_it_shows": "Drawn for this page (Claude), concept diagram: free fluid settles in the flanks lying down and moves to the lower side after rolling, so the dull note moves"
+  },
+  {
+    "test": "Fluid wave",
+    "file": "fluid-wave.jpg",
+    "slug": "fluid-wave.jpg",
+    "source_page_url": "https://github.com/schulichmed/preclerkship",
+    "author": "Drawn for this page (Claude)",
+    "licence": "CC0 (own drawing)",
+    "what_it_shows": "Drawn for this page (Claude), concept diagram: a tap on one flank crosses the ascitic fluid to the other hand while an assistant's hand on the midline blocks the wall"
+  },
+  {
+    "test": "McBurney's point",
+    "file": "mcburneys-point.jpg",
+    "slug": "mcburneys-point.jpg",
+    "source_page_url": "https://commons.wikimedia.org/wiki/File:McBurney%27s_point.jpg",
+    "author": "Steven Fruitsmaak",
+    "licence": "CC BY-SA 3.0",
+    "what_it_shows": "Surface marking of McBurney's point: one third of the way from the right anterior superior iliac spine to the umbilicus (points 1 to 3)"
+  },
+  {
+    "test": "Rovsing's sign",
+    "file": "rovsings-sign.jpg",
+    "slug": "rovsings-sign.jpg",
+    "source_page_url": "https://github.com/schulichmed/preclerkship",
+    "author": "Drawn for this page (Claude)",
+    "licence": "CC0 (own drawing)",
+    "what_it_shows": "Drawn for this page (Claude), concept diagram: pressing the left lower quadrant causes pain in the right lower quadrant"
+  },
+  {
+    "test": "Psoas test",
+    "file": "psoas-test.jpg",
+    "slug": "psoas-test.jpg",
+    "source_page_url": "https://commons.wikimedia.org/wiki/File:Anterior_Hip_Muscles_2.PNG",
+    "author": "Beth ohara",
+    "licence": "CC BY-SA 3.0",
+    "what_it_shows": "Published muscle illustration: psoas major from the lumbar spine to the femur (the muscle an inflamed retrocecal appendix lies on); shows the muscle, not the manoeuvre"
+  },
+  {
+    "test": "Leg edema",
+    "file": "leg-edema.jpg",
+    "slug": "leg-edema.jpg",
+    "source_page_url": "https://rsc.lib.uwo.ca/s/healthedu/item/2280",
+    "author": "Arthur Labatt Family School of Nursing, Western University (Health Education Media Library, Western Libraries)",
+    "licence": "CC BY-NC 4.0 (cropped to the legs and hands)",
+    "what_it_shows": "Examiner's hands on both lower legs, checking for swelling"
+  },
+  {
+    "test": "Percussion of the four quadrants",
+    "file": "percussion-four-quadrants.jpg",
+    "slug": "percussion-four-quadrants.jpg",
+    "source_page_url": "https://github.com/schulichmed/preclerkship",
+    "author": "Drawn for this page (Claude)",
+    "licence": "CC0 (own drawing)",
+    "what_it_shows": "Drawn for this page (Claude), concept/technique diagram: the four quadrants, the order to percuss them, and the two-finger tap"
+  },
+  {
+    "test": "Guarding",
+    "file": "guarding.jpg",
+    "slug": "guarding.jpg",
+    "source_page_url": "https://github.com/schulichmed/preclerkship",
+    "author": "Drawn for this page (Claude)",
+    "licence": "CC0 (own drawing)",
+    "what_it_shows": "Drawn for this page (Claude), concept/technique diagram: gentle pressing on the abdomen, voluntary against involuntary guarding"
+  },
+  {
+    "test": "Head-raise test for tenderness",
+    "file": "head-raise-tenderness.jpg",
+    "slug": "head-raise-tenderness.jpg",
+    "source_page_url": "https://github.com/schulichmed/preclerkship",
+    "author": "Drawn for this page (Claude)",
+    "licence": "CC0 (own drawing)",
+    "what_it_shows": "Drawn for this page (Claude), concept/technique diagram: the rectus muscles tensed over a tender spot: wall pain against deeper pain"
+  },
+  {
+    "test": "Murphy's sign",
+    "file": "murphys-sign.jpg",
+    "slug": "murphys-sign.jpg",
+    "source_page_url": "https://github.com/schulichmed/preclerkship",
+    "author": "Drawn for this page (Claude)",
+    "licence": "CC0 (own drawing)",
+    "what_it_shows": "Drawn for this page (Claude), concept/technique diagram: fingers under the right costal margin at the mid-clavicular line, over the gallbladder"
+  },
+  {
+    "test": "Rebound tenderness",
+    "file": "rebound-tenderness.jpg",
+    "slug": "rebound-tenderness.jpg",
+    "source_page_url": "https://github.com/schulichmed/preclerkship",
+    "author": "Drawn for this page (Claude)",
+    "licence": "CC0 (own drawing)",
+    "what_it_shows": "Drawn for this page (Claude), concept/technique diagram: side view: pressing in slowly, then releasing quickly"
+  },
+  {
+    "test": "Castell's sign (percussion)",
+    "file": "castells-sign.jpg",
+    "slug": "castells-sign.jpg",
+    "source_page_url": "https://github.com/schulichmed/preclerkship",
+    "author": "Drawn for this page (Claude)",
+    "licence": "CC0 (own drawing)",
+    "what_it_shows": "Drawn for this page (Claude), concept/technique diagram: the lowest left intercostal space in the anterior axillary line, over the spleen"
+  },
+  {
+    "test": "Spleen tip (palpation)",
+    "file": "spleen-tip-palpation.jpg",
+    "slug": "spleen-tip-palpation.jpg",
+    "source_page_url": "https://github.com/schulichmed/preclerkship",
+    "author": "Drawn for this page (Claude)",
+    "licence": "CC0 (own drawing)",
+    "what_it_shows": "Drawn for this page (Claude), concept/technique diagram: hand moving from the right lower quadrant toward the left costal margin under an enlarged spleen"
+  },
+  {
+    "test": "Obturator test",
+    "file": "obturator-test.jpg",
+    "slug": "obturator-test.jpg",
+    "source_page_url": "https://github.com/schulichmed/preclerkship",
+    "author": "Drawn for this page (Claude)",
+    "licence": "CC0 (own drawing)",
+    "what_it_shows": "Drawn for this page (Claude), concept/technique diagram: hip and knee at 90 degrees, then internal rotation of the hip, side and top views"
+  }
+]

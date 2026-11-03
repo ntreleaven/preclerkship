@@ -1,0 +1,38 @@
+{
+ "Subxiphoid (heart)": {
+  "id": "mRLb-tRtCp8",
+  "start": 9,
+  "title": "Probe position: subxiphoid heart view",
+  "channel": "Dr. Sam's Imaging Library"
+ },
+ "Right upper quadrant": {
+  "id": "mRLb-tRtCp8",
+  "start": 176,
+  "title": "Probe position: right upper quadrant (Morison's pouch)",
+  "channel": "Dr. Sam's Imaging Library"
+ },
+ "Gallbladder": {
+  "id": "dBxFSnZHUm8",
+  "start": 0,
+  "title": "Probe position: gallbladder",
+  "channel": "Dr. Sam's Imaging Library"
+ },
+ "Left upper quadrant": {
+  "id": "6WwBGDbBlQg",
+  "start": 0,
+  "title": "Probe position: spleen and left upper quadrant",
+  "channel": "Dr. Sam's Imaging Library"
+ },
+ "Pelvis, transverse": {
+  "id": "mRLb-tRtCp8",
+  "start": 378,
+  "title": "Probe position: pelvis (FAST)",
+  "channel": "Dr. Sam's Imaging Library"
+ },
+ "Pelvis, sagittal": {
+  "id": "6V-aAFVfiJk",
+  "start": 0,
+  "title": "Probe position: uterus, sagittal then transverse",
+  "channel": "Dr. Sam's Imaging Library"
+ }
+}

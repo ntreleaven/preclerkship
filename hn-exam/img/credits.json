@@ -1,0 +1,245 @@
+[
+ {
+  "test": "Swinging flashlight test",
+  "file": "swinging-flashlight-test.jpg",
+  "slug": "swinging-flashlight-test.jpg",
+  "source_page_url": "https://rsc.lib.uwo.ca/s/healthedu/item/2483",
+  "author": "Clinical Neurological Sciences, Schulich School of Medicine and Dentistry (Health Education Media Library, Western Libraries)",
+  "licence": "CC BY-NC 4.0 (frame from video)",
+  "what_it_shows": "Penlight on one eye with the other eye in view (frame at 1:04 of Pupillary Light Response and RAPD)."
+ },
+ {
+  "test": "Visual acuity",
+  "file": "visual-acuity.jpg",
+  "slug": "visual-acuity.jpg",
+  "source_page_url": "https://rsc.lib.uwo.ca/s/healthedu/item/1676",
+  "author": "Clinical Neurological Sciences, Schulich School of Medicine and Dentistry (Health Education Media Library, Western Libraries)",
+  "licence": "CC BY-NC 4.0",
+  "what_it_shows": "Visual Acuity - Using near card."
+ },
+ {
+  "test": "Ophthalmoscope: front of the eye, then the fundus",
+  "file": "ophthalmoscope.jpg",
+  "slug": "ophthalmoscope.jpg",
+  "source_page_url": "https://europepmc.org/article/PMC/PMC13571928",
+  "author": "Shiokawa A, Monteiro MLR, Massuda R, et al., Clinics (Sao Paulo) 2026, Fig. 2B",
+  "licence": "CC BY 4.0 (cropped to panel B, examiner's face and name badge blurred; patient's eyes barred in the original)",
+  "what_it_shows": "The examiner, seated beside the patient, brings a direct ophthalmoscope close to her right eye from the side with his other hand steadying her forehead."
+ },
+ {
+  "test": "Palate rise",
+  "file": "palate-rise.jpg",
+  "slug": "palate-rise.jpg",
+  "source_page_url": "https://rsc.lib.uwo.ca/s/healthedu/item/1732",
+  "author": "Clinical Neurological Sciences, Schulich School of Medicine and Dentistry (Health Education Media Library, Western Libraries)",
+  "licence": "CC BY-NC 4.0",
+  "what_it_shows": "Examining palatal elevation with patient saying \"ahhhh\" - cranial nerve IX and X"
+ },
+ {
+  "test": "Tongue",
+  "file": "tongue.jpg",
+  "slug": "tongue.jpg",
+  "source_page_url": "https://rsc.lib.uwo.ca/s/healthedu/item/1734",
+  "author": "Clinical Neurological Sciences, Schulich School of Medicine and Dentistry (Health Education Media Library, Western Libraries)",
+  "licence": "CC BY-NC 4.0",
+  "what_it_shows": "Examining tongue extension- cranial nerve XII"
+ },
+ {
+  "test": "Facial movements",
+  "file": "facial-movements.jpg",
+  "slug": "facial-movements.jpg",
+  "source_page_url": "https://rsc.lib.uwo.ca/s/healthedu/item/1716",
+  "author": "Clinical Neurological Sciences, Schulich School of Medicine and Dentistry (Health Education Media Library, Western Libraries)",
+  "licence": "CC BY-NC 4.0",
+  "what_it_shows": "Examining facial power-cranial nerve VII \"big smile\""
+ },
+ {
+  "test": "Shoulder shrug and head turn",
+  "file": "shoulder-shrug-and-head-turn.jpg",
+  "slug": "shoulder-shrug-and-head-turn.jpg",
+  "source_page_url": "https://rsc.lib.uwo.ca/s/healthedu/item/1740",
+  "author": "Clinical Neurological Sciences, Schulich School of Medicine and Dentistry (Health Education Media Library, Western Libraries)",
+  "licence": "CC BY-NC 4.0",
+  "what_it_shows": "Testing shoulder shrug-trapezius, cranial nerve XI"
+ },
+ {
+  "test": "Slit lamp",
+  "file": "slit-lamp.jpg",
+  "slug": "slit-lamp.jpg",
+  "source_page_url": "https://commons.wikimedia.org/wiki/File:Slit_lamp_examination.jpg",
+  "author": "PFrankoZeitz (Wikimedia Commons)",
+  "licence": "CC BY-SA 3.0, faces blurred",
+  "what_it_shows": "A slit lamp examination: chin rest, forehead bar, examiner at the microscope"
+ },
+ {
+  "test": "Inspect the external ear",
+  "file": "inspect-the-external-ear.jpg",
+  "slug": "inspect-the-external-ear.jpg",
+  "source_page_url": "https://commons.wikimedia.org/wiki/File:Ear_Anatomy_and_Mastoid_Bone.png",
+  "author": "BruceBlaus (Wikimedia Commons)",
+  "licence": "CC BY-SA 4.0",
+  "what_it_shows": "Labelled diagram of the external ear, ear canal and eardrum"
+ },
+ {
+  "test": "Otoscopy",
+  "file": "otoscopy.jpg",
+  "slug": "otoscopy.jpg",
+  "source_page_url": "https://commons.wikimedia.org/wiki/File:Normal_Left_Tympanic_Membrane.jpg",
+  "author": "Michael Hawke MD (Wikimedia Commons)",
+  "licence": "CC BY-SA 4.0",
+  "what_it_shows": "What the otoscope shows: a normal left eardrum with the malleus handle"
+ },
+ {
+  "test": "Weber test",
+  "file": "weber-test.jpg",
+  "slug": "weber-test.jpg",
+  "source_page_url": "https://commons.wikimedia.org/wiki/File:Weber_Test.jpg",
+  "author": "DrSaltMD (Wikimedia Commons)",
+  "licence": "CC BY-SA 4.0, faces blurred, cropped to the head and tuning fork",
+  "what_it_shows": "Tuning fork on the top of the head (midline)"
+ },
+ {
+  "test": "Rinne test",
+  "file": "rinne-test.jpg",
+  "slug": "rinne-test.jpg",
+  "source_page_url": "https://commons.wikimedia.org/wiki/File:Rinneversuch.png",
+  "author": "Ziyun518 (Wikimedia Commons)",
+  "licence": "CC0",
+  "what_it_shows": "Tuning fork against the mastoid bone behind the ear"
+ },
+ {
+  "test": "Nostril patency",
+  "file": "nostril-patency.jpg",
+  "slug": "nostril-patency.jpg",
+  "source_page_url": "https://commons.wikimedia.org/wiki/File:Nose_Anatomy.png",
+  "author": "BruceBlaus (Wikimedia Commons)",
+  "licence": "CC BY-SA 4.0",
+  "what_it_shows": "Sagittal diagram of the nose, nostril and nasal cavity"
+ },
+ {
+  "test": "Septum and turbinates",
+  "file": "septum-and-turbinates.jpg",
+  "slug": "septum-and-turbinates.jpg",
+  "source_page_url": "https://commons.wikimedia.org/wiki/File:Blausen_0872_UpperRespiratorySystem.png",
+  "author": "BruceBlaus (Wikimedia Commons)",
+  "licence": "CC BY 3.0",
+  "what_it_shows": "Upper airway diagram with the nares and the nasal conchae (turbinates)"
+ },
+ {
+  "test": "Lips, tongue, teeth, gums and throat",
+  "file": "lips-tongue-teeth-gums-and-throat.jpg",
+  "slug": "lips-tongue-teeth-gums-and-throat.jpg",
+  "source_page_url": "https://commons.wikimedia.org/wiki/File:Tonsils_diagram.jpg",
+  "author": " (Wikimedia Commons)",
+  "licence": "Public domain",
+  "what_it_shows": "Labelled mouth and throat: soft palate, uvula, tonsils, tongue"
+ },
+ {
+  "test": "Lymph node palpation",
+  "file": "lymph-node-palpation.jpg",
+  "slug": "lymph-node-palpation.jpg",
+  "source_page_url": "https://commons.wikimedia.org/wiki/File:Cervical_lymph_nodes_and_levels.png",
+  "author": "Mikael Häggström, M.D. Author info - Reusing images- Conflicts of interest:  Non (Wikimedia Commons)",
+  "licence": "CC0",
+  "what_it_shows": "Lymph node groups of the head and neck"
+ },
+ {
+  "test": "Salivary glands",
+  "file": "salivary-glands.jpg",
+  "slug": "salivary-glands.jpg",
+  "source_page_url": "https://commons.wikimedia.org/wiki/File:Blausen_0780_SalivaryGlands.png",
+  "author": "BruceBlaus (Wikimedia Commons)",
+  "licence": "CC BY 3.0",
+  "what_it_shows": "Parotid, submandibular and sublingual glands"
+ },
+ {
+  "test": "Thyroid inspection",
+  "file": "thyroid-inspection.jpg",
+  "slug": "thyroid-inspection.jpg",
+  "source_page_url": "https://commons.wikimedia.org/wiki/File:Illu_thyroid_parathyroid.jpg",
+  "author": "CFCF (Wikimedia Commons)",
+  "licence": "Public domain",
+  "what_it_shows": "Where the thyroid sits in the lower neck"
+ },
+ {
+  "test": "Inspect the eyes and eyelids",
+  "file": "inspect-the-eyes-and-eyelids.jpg",
+  "slug": "inspect-the-eyes-and-eyelids.jpg",
+  "source_page_url": "https://commons.wikimedia.org/wiki/File:Congenitalptosis.JPG",
+  "author": "Andrewya (Wikimedia Commons)",
+  "licence": "Public domain",
+  "what_it_shows": "Real photo of both eyes: eyelids, lashes, sclera and pupils, with the right upper lid drooping (ptosis); compare one side with the other."
+ },
+ {
+  "test": "Red reflex",
+  "file": "red-reflex.jpg",
+  "slug": "red-reflex.jpg",
+  "source_page_url": "img/red-reflex.svg",
+  "author": "Drawn for this page (Claude)",
+  "licence": "Drawn for this page (Claude), concept diagram",
+  "what_it_shows": "Light from the ophthalmoscope enters the pupil, reflects off the blood-rich retina and returns as a red-orange glow; normal, dark-spot and white-glow appearances."
+ },
+ {
+  "test": "Hair and skin",
+  "file": "hair-and-skin.jpg",
+  "slug": "hair-and-skin.jpg",
+  "source_page_url": "https://commons.wikimedia.org/wiki/File:Alopecia_areata_bald_spot.jpg",
+  "author": "Kevlaraz (Wikimedia Commons)",
+  "licence": "CC0 (cropped to the scalp)",
+  "what_it_shows": "Scalp and hair from behind: a round patch of hair loss (alopecia areata) to look for when inspecting hair and scalp."
+ },
+ {
+  "test": "Neck inspection",
+  "file": "neck-inspection.jpg",
+  "slug": "neck-inspection.jpg",
+  "source_page_url": "https://commons.wikimedia.org/wiki/File:Struma_001.jpg",
+  "author": "Drahreg01 (Wikimedia Commons)",
+  "licence": "CC BY-SA 3.0 (face not shown)",
+  "what_it_shows": "Front of the neck from the side: a visible swelling to the left of the midline (enlarged thyroid), the kind of asymmetry inspection looks for."
+ },
+ {
+  "test": "Pupils and light reflex",
+  "file": "pupils-and-light-reflex.jpg",
+  "slug": "pupils-and-light-reflex.jpg",
+  "source_page_url": "https://rsc.lib.uwo.ca/s/healthedu/item/1708",
+  "author": "Clinical Neurological Sciences, Schulich School of Medicine and Dentistry (Health Education Media Library, Western Libraries)",
+  "licence": "CC BY-NC 4.0, cropped",
+  "what_it_shows": "Testing pupillary light reflex: the penlight shone into one eye, the pupil constricting"
+ },
+ {
+  "test": "Eye movements",
+  "file": "eye-movements.jpg",
+  "slug": "eye-movements.jpg",
+  "source_page_url": "https://rsc.lib.uwo.ca/s/healthedu/item/1692",
+  "author": "Clinical Neurological Sciences, Schulich School of Medicine and Dentistry (Health Education Media Library, Western Libraries)",
+  "licence": "CC BY-NC 4.0 (cropped)",
+  "what_it_shows": "Testing extraocular movements"
+ },
+ {
+  "test": "Visual fields by confrontation",
+  "file": "visual-fields-by-confrontation.jpg",
+  "slug": "visual-fields-by-confrontation.jpg",
+  "source_page_url": "https://rsc.lib.uwo.ca/s/healthedu/item/1682",
+  "author": "Clinical Neurological Sciences, Schulich School of Medicine and Dentistry (Health Education Media Library, Western Libraries)",
+  "licence": "CC BY-NC 4.0 (cropped)",
+  "what_it_shows": "Testing visual fields"
+ },
+ {
+  "test": "Whisper or finger-rub test",
+  "file": "whisper-or-finger-rub-test.jpg",
+  "slug": "whisper-or-finger-rub-test.jpg",
+  "source_page_url": "",
+  "author": "Drawn for this page (Claude), concept/technique diagram",
+  "licence": "Original drawing (not sourced)",
+  "what_it_shows": "Top view: examiner at arm's length whispering or rubbing fingers at one ear while the other ear is masked."
+ },
+ {
+  "test": "Thyroid palpation",
+  "file": "thyroid-palpation.jpg",
+  "slug": "thyroid-palpation.jpg",
+  "source_page_url": "",
+  "author": "Drawn for this page (Claude), concept/technique diagram",
+  "licence": "Original drawing (not sourced)",
+  "what_it_shows": "Front view: fingers of both hands over the thyroid lobes from behind, and the swallow cue."
+ }
+]

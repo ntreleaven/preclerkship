@@ -51,13 +51,13 @@ TESTS = {
     "Respiratory movement and accessory muscles": ("Shape and movement", None),
     "Spine and renal angle tenderness": ("Tenderness", "cva-angle.jpg"),
     "Chest expansion": ("Movement and vibration", None),
-    "Tactile fremitus": ("Movement and vibration", None),
-    "Percussing a lung field": ("Air, fluid or solid?", None),
+    "Tactile fremitus": ("Movement and vibration", "tactile-fremitus.jpg"),
+    "Percussing a lung field": ("Air, fluid or solid?", "percussing-a-lung-field.jpg"),
     "Diaphragmatic excursion": ("Diaphragm", "diaphragmatic-excursion.jpg"),
     "Auscultating a lung field": ("Breath sounds", "auscultating-a-lung-field.jpg"),
     "Egophony": ("Voice tests for consolidation", "egophony.jpg"),
     "Whispered pectoriloquy": ("Voice tests for consolidation", "whispered-pectoriloquy.jpg"),
-    "Anterior percussion": ("Front lung fields", None),
+    "Anterior percussion": ("Front lung fields", "anterior-percussion.jpg"),
     "Anterior auscultation": ("Front lung fields", "anterior-auscultation.jpg"),
     "Right middle lobe": ("Front lung fields", "right-middle-lobe.jpg"),
     "Clubbing (upper limb)": ("Hands and legs", "clubbing.jpg"),
@@ -104,6 +104,9 @@ EXAM.walk = {
 }
 EXAM.video_credit += ' Demonstration videos by Hamzah Algodi ("*Unofficial* Schulich Clinical Skills"), used with his permission.'
 
+# captions for the landmark diagrams taken from the upper-year student notes
+for _key, _cap in {'chest-inspection': 'Chest wall landmarks · tap to enlarge', 'auscultation': 'Where each lobe lies · tap to enlarge'}.items():
+    EXAM.region_text.setdefault(_key, {})['landmark_caption'] = _cap
 
 if __name__ == "__main__":
     exam_page.build(EXAM)

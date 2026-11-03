@@ -121,6 +121,9 @@ class Exam:
     clips: dict = field(default_factory=dict)
     extra_cards: dict = field(default_factory=dict)
     walk: dict = field(default_factory=dict)
+    # region_video from the course's own suggested list (MSK Medicine for MSK) plays before
+    # Hamzah Algodi's walk-throughs; a teaching channel picked for the page (Geeky Medics) plays after
+    official_region_video: bool = False
     videos: dict = field(default_factory=dict, init=False)
 
 
@@ -413,10 +416,14 @@ def wide_card(exam: Exam, title: str, body: str, slugs: list[str] | None = None,
     """Render a full-width card of prose (a spine routine, gait, pearls), with its
     videos and a picture (side) beside the text when given; clip_key names its video files."""
     words = (title + " " + re.sub(r"<[^>]+>", " ", body)).lower()
-    side += (clips(exam, clip_key) + walks(exam, clip_key)) if clip_key else ""
+    # official videos first (library clips, then the course's suggested list), then Hamzah's, then the rest
+    side += clips(exam, clip_key) if clip_key else ""
+    walk = walks(exam, clip_key) if clip_key else ""
+    region = "".join(video(exam, v, thumb=i == 0 and not (side or walk)) for i, v in enumerate(slugs or []))
+    side += region + walk if exam.official_region_video else walk + region
     return (f'<article class="test wide" tabindex="0" data-words="{html.escape(words)}">'
             f'<h4>{html.escape(title)}</h4><div class="hide h1 split"><div class="xprose">{body}</div>'
-            f'{f"""<div class="aside">{side}{"".join(video(exam, v, thumb=i == 0 and not side) for i, v in enumerate(slugs or []))}</div>""" if slugs or side else ""}</div>'
+            f'{f"""<div class="aside">{side}</div>""" if side else ""}</div>'
             f'<span class="pill">Tap to reveal</span></article>')
 
 
@@ -459,12 +466,14 @@ def render(exam: Exam, regions: list[dict], credits: list[dict]) -> str:
     landmark_names = {f"Landmarks: {key}": (f"{title} diagram" if "landmark_caption" in exam.region_text.get(key, {})
                                             else f"{title} landmarks diagram")
                       for key, title, _w, _c in exam.regions.values()}
+    # only a web address is linked: drawn pictures and textbook figures from student notes have none
+    source = lambda c: (f', <a href="{html.escape(c["source_page_url"])}">source</a>'
+                        if c["source_page_url"].startswith("http") else "")
     items = "".join(
-        f'<li>{html.escape(landmark_names.get(c["test"], c["test"]))}: {html.escape(c["author"])}, {html.escape(c["licence"])}, '
-        + (f'<a href="{html.escape(c["source_page_url"])}">source</a>' if c["source_page_url"].startswith("http") else "")
-        + '</li>' for c in credits)
+        f'<li>{html.escape(landmark_names.get(c["test"], c["test"]))}: {html.escape(c["author"])}, {html.escape(c["licence"])}'
+        f'{source(c)}</li>' for c in credits)
     cred = (f'<details class="acc"><summary>Image credits ({len(credits)})</summary><p>Images used for non-commercial teaching under their own licences '
-            f'(Creative Commons or public domain). Some were cropped to hide faces.</p><ul>{items}</ul></details>') if credits else ""
+            f'(Creative Commons or public domain; textbook figures from student notes remain their publishers&#39; copyright). Some were cropped to hide faces or handwriting.</p><ul>{items}</ul></details>') if credits else ""
     cs = clinical_skills
     sec, _key, name, taught, _page, _what = next(s for s in cs.SKILLS if s[1] == exam.key)
     sec_name = next(s[1] for s in cs.SECTIONS if s[0] == sec)

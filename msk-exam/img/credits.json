@@ -1,497 +1,497 @@
 [
- {
-  "test": "Spurling's maneuver",
-  "file": "Spurling's maneuver - PMC.jpg",
-  "source_page_url": "https://europepmc.org/article/PMC/PMC8684701",
-  "author": "George Pujalte, Jayson R Loeffert, Tais G O Bertasi et al. - Cervical Spine Evaluation by Telephone and Video Visit (Cureus, 2021), Figure 6B",
-  "licence": "CC BY (version not stated in licence text)",
-  "what_it_shows": "Examiner's hand pressing down on the extended, side-bent head of a seated patient (axial compression in extension); patient face pixelated. Telemedicine paper, so the figure is a demonstration.",
-  "slug": "spurling-s-maneuver.jpg"
- },
- {
-  "test": "Straight leg raise (Lasegue)",
-  "file": "Straight leg raise (Lasegue) - PMC.jpg",
-  "source_page_url": "https://europepmc.org/article/PMC/PMC13129396",
-  "author": "Amit Hegde, Atul Sareen, Ravi Shankar et al. - The Association Between Hamstring Tightness and Chronic Low Back Pain: A Comparative Study (Cureus, 2026), Figure 2",
-  "licence": "CC BY 4.0",
-  "what_it_shows": "Passive straight leg raise: examiner lifts the supine patient's straight leg while a goniometer at the hip measures the angle. Shown in a hamstring-tightness study, same manoeuvre.",
-  "slug": "straight-leg-raise-lasegue.jpg"
- },
- {
-  "test": "Femoral nerve stretch test",
-  "file": "Femoral nerve stretch test - PMC.jpg",
-  "source_page_url": "https://europepmc.org/article/PMC/PMC6505079",
-  "author": "Kristine Vegstein, Hilde Stendal Robinson, Roar Jensen - Neurodynamic tests for patellofemoral pain syndrome: a pilot study (Chiropractic & Manual Therapies, 2019), Fig. 2",
-  "licence": "CC BY 4.0",
-  "what_it_shows": "Prone knee bend: patient prone, examiner flexes the knee (heel toward buttock) to stretch the femoral nerve; second hand holds a goniometer.",
-  "slug": "femoral-nerve-stretch-test.jpg"
- },
- {
-  "test": "Modified Schober test",
-  "file": "Modified Schober test - Wikimedia.jpg",
-  "source_page_url": "https://commons.wikimedia.org/wiki/File:Schober_Test.jpg",
-  "author": "Nasch92",
-  "licence": "CC BY-SA 4.0",
-  "what_it_shows": "Line drawing of the lower back upright and in forward flexion with the marked lumbar segment lengthening (arrows) - the Schober measurement.",
-  "slug": "modified-schober-test.jpg"
- },
- {
-  "test": "Painful arc (shoulder)",
-  "file": "Painful arc (shoulder) - PMC.jpg",
-  "source_page_url": "https://europepmc.org/article/PMC/PMC11856014",
-  "author": "Daniel-Andrei Iordan, Stoica Leonard, Daniela Viorelia Matei et al. - Understanding Scapulohumeral Periarthritis: A Comprehensive Systematic Review (Life, 2025), Figure 4",
-  "licence": "CC BY 4.0",
-  "what_it_shows": "Seated patient abducting the arm, with arrows marking the painful arc range (roughly 60-120 degrees); face blurred.",
-  "slug": "painful-arc-shoulder.jpg"
- },
- {
-  "test": "Neer test",
-  "file": "Neer test - Wikimedia.jpg",
-  "source_page_url": "https://commons.wikimedia.org/wiki/File:Neer_Test.jpg",
-  "author": "Nasch92",
-  "licence": "CC BY-SA 4.0",
-  "what_it_shows": "Line drawing: examiner stabilises the scapula and passively forward-flexes the internally rotated (pronated) arm to full elevation.",
-  "slug": "neer-test.jpg"
- },
- {
-  "test": "Hawkins-Kennedy test",
-  "file": "Hawkins-Kennedy test - PMC.jpg",
-  "source_page_url": "https://europepmc.org/article/PMC/PMC11856014",
-  "author": "Daniel-Andrei Iordan, Stoica Leonard, Daniela Viorelia Matei et al. - Understanding Scapulohumeral Periarthritis: A Comprehensive Systematic Review (Life, 2025), Figure 3",
-  "licence": "CC BY 4.0",
-  "what_it_shows": "Examiner holds the patient's shoulder and elbow at 90 degrees forward flexion and internally rotates the arm; patient face blurred.",
-  "slug": "hawkins-kennedy-test.jpg"
- },
- {
-  "test": "Empty can (Jobe) test",
-  "file": "Empty can (Jobe) test - PMC.jpg",
-  "source_page_url": "https://europepmc.org/article/PMC/PMC11856014",
-  "author": "Daniel-Andrei Iordan, Stoica Leonard, Daniela Viorelia Matei et al. - Understanding Scapulohumeral Periarthritis: A Comprehensive Systematic Review (Life, 2025), Figure 6",
-  "licence": "CC BY 4.0",
-  "what_it_shows": "Examiner pushes down on the patient's arm held at 90 degrees elevation, testing supraspinatus; patient face blurred.",
-  "slug": "empty-can-jobe-test.jpg"
- },
- {
-  "test": "Lift-off (Gerber) test",
-  "file": "Lift-off (Gerber) test - PMC.jpg",
-  "source_page_url": "https://europepmc.org/article/PMC/PMC11856014",
-  "author": "Daniel-Andrei Iordan, Stoica Leonard, Daniela Viorelia Matei et al. - Understanding Scapulohumeral Periarthritis: A Comprehensive Systematic Review (Life, 2025), Figure 8",
-  "licence": "CC BY 4.0",
-  "what_it_shows": "Three panels: hand placed on lower back, patient lifts it off the back, examiner checks the lift (subscapularis). Cropped at the shoulders to remove faces.",
-  "slug": "lift-off-gerber-test.jpg"
- },
- {
-  "test": "Belly press test",
-  "file": "Belly press test - PMC.jpg",
-  "source_page_url": "https://europepmc.org/article/PMC/PMC7434033",
-  "author": "Patrick M. O'Brien, Jack E. Kazanjian, James D. Kelly et al. - Subscapularis Function After Total Shoulder Arthroplasty Using Lesser Tuberosity Osteotomy or Tenotomy (JAAOS Global Research & Reviews, 2020), Figure 3",
-  "licence": "CC BY 4.0",
-  "what_it_shows": "Graded belly press, side view: hand pressed on the abdomen, elbow forward (grade 1) versus elbow dropping behind the trunk (grade -1, weak subscapularis). Faces out of frame.",
-  "slug": "belly-press-test.jpg"
- },
- {
-  "test": "Speed's test",
-  "file": "Speed's test - PMC.jpg",
-  "source_page_url": "https://europepmc.org/article/PMC/PMC11856014",
-  "author": "Daniel-Andrei Iordan, Stoica Leonard, Daniela Viorelia Matei et al. - Understanding Scapulohumeral Periarthritis: A Comprehensive Systematic Review (Life, 2025), Figure 12",
-  "licence": "CC BY 4.0",
-  "what_it_shows": "Examiner resists forward flexion of the patient's extended, supinated arm at the forearm; patient face blurred.",
-  "slug": "speed-s-test.jpg"
- },
- {
-  "test": "Yergason's test",
-  "file": "Yergason's test - PMC.jpg",
-  "source_page_url": "https://europepmc.org/article/PMC/PMC11856014",
-  "author": "Daniel-Andrei Iordan, Stoica Leonard, Daniela Viorelia Matei et al. - Understanding Scapulohumeral Periarthritis: A Comprehensive Systematic Review (Life, 2025), Figure 11",
-  "licence": "CC BY 4.0",
-  "what_it_shows": "Elbow flexed 90 degrees at the side; examiner holds the wrist and resists supination while palpating the bicipital groove; patient face blurred.",
-  "slug": "yergason-s-test.jpg"
- },
- {
-  "test": "Shoulder apprehension and relocation test",
-  "file": "Shoulder apprehension and relocation test - PMC.jpg",
-  "source_page_url": "https://europepmc.org/article/PMC/PMC13125581",
-  "author": "Emily N Lau, Cortez L Brown, Rachit Saggar et al. - Managing Shoulder Instability in the Contact and Collision Athlete (Current Reviews in Musculoskeletal Medicine, 2026), Fig. 1a-b",
-  "licence": "CC BY 4.0",
-  "what_it_shows": "(A) supine anterior apprehension: arm abducted 90 degrees and externally rotated by the examiner; (B) Jobe relocation: posterior pressure on the humeral head in the same position. No faces.",
-  "slug": "shoulder-apprehension-and-relocation-test.jpg"
- },
- {
-  "test": "Elbow valgus stress test",
-  "file": "Elbow valgus stress test - PMC.jpg",
-  "source_page_url": "https://europepmc.org/article/PMC/PMC11209444",
-  "author": "Hironobu Koseki, Shiro Kajiyama, Takayuki Shida et al. - Characteristics and Clinical Assessment of Elbow Pain in Youth Baseball Players (Sports, 2024), Figure 2",
-  "licence": "CC BY 4.0",
-  "what_it_shows": "Moving valgus stress test: examiner holds the wrist and applies valgus torque while moving the elbow from flexion to extension; patient face masked in the original.",
-  "slug": "elbow-valgus-stress-test.jpg"
- },
- {
-  "test": "Phalen's test",
-  "file": "Phalen's test - Wikimedia.jpg",
-  "source_page_url": "https://commons.wikimedia.org/wiki/File:Phalen%27s_Maneuver.jpg",
-  "author": "LittleT889",
-  "licence": "CC BY-SA 4.0",
-  "what_it_shows": "Photo of Phalen's manoeuvre: backs of the hands pressed together with both wrists fully flexed, fingers down; face out of frame.",
-  "slug": "phalen-s-test.jpg"
- },
- {
-  "test": "CMC grind test",
-  "file": "CMC grind test - PMC.jpg",
-  "source_page_url": "https://europepmc.org/article/PMC/PMC10893956",
-  "author": "Saverio Colonna, Corrado Borghi - Rhizarthrosis Part I: A Literature Review (Cureus, 2024), Figure 10",
-  "licence": "CC BY (version not stated in licence text)",
-  "what_it_shows": "Three panels: examiner grips the thumb metacarpal, applies axial compression (red arrow) and rotation (green arrow) at the base of the thumb.",
-  "slug": "cmc-grind-test.jpg"
- },
- {
-  "test": "Finkelstein's test",
-  "file": "Finkelstein's test - Wikimedia.jpg",
-  "source_page_url": "https://commons.wikimedia.org/wiki/File:Finkelstein_Test_Arrow.jpg",
-  "author": "James Heilman, MD",
-  "licence": "CC BY-SA 4.0",
-  "what_it_shows": "Thumb tucked in the fist; examiner's hand deviates the wrist ulnarly; blue arrow marks where pain arises over the radial styloid (first dorsal compartment).",
-  "slug": "finkelstein-s-test.jpg"
- },
- {
-  "test": "Trendelenburg sign",
-  "file": "Trendelenburg sign - Wikimedia.jpg",
-  "source_page_url": "https://commons.wikimedia.org/wiki/File:Trendelenburg.PNG",
-  "author": "User:Mikael Häggström",
-  "licence": "Public domain",
-  "what_it_shows": "Two photos of single-leg stance labelled Negative (pelvis level) and Positive (pelvis drops on the unsupported side, red arrow).",
-  "slug": "trendelenburg-sign.jpg"
- },
- {
-  "test": "Stinchfield test",
-  "file": "Stinchfield test - PMC.jpg",
-  "source_page_url": "https://europepmc.org/article/PMC/PMC9076795",
-  "author": "Stephanie E. Wong, Charles J. Cogan, Alan L. Zhang - Physical Examination of the Hip: Assessment of Femoroacetabular Impingement, Labral Pathology, and Microinstability (Current Reviews in Musculoskeletal Medicine, 2022), Figure 7",
-  "licence": "CC BY 4.0",
-  "what_it_shows": "Resisted straight leg raise: supine patient raises the straight leg about 30-45 degrees while the examiner pushes down on the thigh. Cropped to remove faces and background posters.",
-  "slug": "stinchfield-test.jpg"
- },
- {
-  "test": "FABER (Patrick) test",
-  "file": "FABER (Patrick) test - PMC.jpg",
-  "source_page_url": "https://europepmc.org/article/PMC/PMC9076795",
-  "author": "Stephanie E. Wong, Charles J. Cogan, Alan L. Zhang - Physical Examination of the Hip: Assessment of Femoroacetabular Impingement, Labral Pathology, and Microinstability (Current Reviews in Musculoskeletal Medicine, 2022), Figure 6",
-  "licence": "CC BY 4.0",
-  "what_it_shows": "Supine, tested leg in flexion, abduction and external rotation (figure-4) with the foot by the opposite knee; examiner's hand presses the knee/stabilises. Cropped to remove faces and posters.",
-  "slug": "faber-patrick-test.jpg"
- },
- {
-  "test": "True leg length measurement",
-  "file": "True leg length measurement - PMC.jpg",
-  "source_page_url": "https://europepmc.org/article/PMC/PMC11371848",
-  "author": "Davide Stimolo, Salvatore Lo Giudice, Fabrizio Matassi et al. - Multicenter survey about leg length discrepancy and total hip arthroplasty: preoperative and intraoperative management (Musculoskeletal Surgery, 2024), Fig. 1",
-  "licence": "CC BY 4.0",
-  "what_it_shows": "Supine patient, tape measure running from the anterior superior iliac spine to the medial malleolus (ASIS-MM true leg length).",
-  "slug": "true-leg-length-measurement.jpg"
- },
- {
-  "test": "Lachman test",
-  "file": "Lachman test - Wikimedia.jpg",
-  "source_page_url": "https://commons.wikimedia.org/wiki/File:ACLI_17.jpg",
-  "author": "Mak-Ham Lam, Daniel TP Fong, Patrick SH Yung, Eric PY Ho, Wood-Yee Chan and Kai-Ming Chan",
-  "licence": "CC BY-SA 2.0",
-  "what_it_shows": "Knee in slight flexion (about 20-30 degrees); one hand stabilises the distal femur while the other pulls the proximal tibia forward (white arrow).",
-  "slug": "lachman-test.jpg"
- },
- {
-  "test": "Posterior sag sign",
-  "file": "Posterior sag sign - PMC.jpg",
-  "source_page_url": "https://europepmc.org/article/PMC/PMC10150838",
-  "author": "Rock P Vomer, Emma York, Larick S Rayghan et al. - Telemedicine Examination of the Knee (Cureus, 2023), Figure 8",
-  "licence": "CC BY (version not stated in licence text)",
-  "what_it_shows": "Supine patient with hips and knees flexed to about 90 degrees, heels supported on a box; the tibia sags back if the PCL is torn. Self-positioned telemedicine version; cropped to remove the face.",
-  "slug": "posterior-sag-sign.jpg"
- },
- {
-  "test": "Thessaly test",
-  "file": "Thessaly test - PMC.jpg",
-  "source_page_url": "https://europepmc.org/article/PMC/PMC10150838",
-  "author": "Rock P Vomer, Emma York, Larick S Rayghan et al. - Telemedicine Examination of the Knee (Cureus, 2023), Figure 10",
-  "licence": "CC BY (version not stated in licence text)",
-  "what_it_shows": "Modified Thessaly: patient stands on the affected leg with slight knee flexion and twists the trunk left and right (blue rotation arrows). Unassisted telemedicine version; in clinic the examiner holds the hands.",
-  "slug": "thessaly-test.jpg"
- },
- {
-  "test": "Patellar apprehension test",
-  "file": "Patellar apprehension test - PMC.jpg",
-  "source_page_url": "https://europepmc.org/article/PMC/PMC12129843",
-  "author": "Paul Nardelli, Armin Runer - Klinische Untersuchung und Bildgebung bei patellofemoraler Arthrose (Orthopadie (Heidelberg, Germany), 2025), Abb. 6",
-  "licence": "CC BY 4.0",
-  "what_it_shows": "Examiner's thumbs push the patella laterally on a relaxed, slightly flexed knee (arrow) - Fairbank apprehension test.",
-  "slug": "patellar-apprehension-test.jpg"
- },
- {
-  "test": "Patellar grind (Clarke) test",
-  "file": "Patellar grind (Clarke) test - PMC.jpg",
-  "source_page_url": "https://europepmc.org/article/PMC/PMC12129843",
-  "author": "Paul Nardelli, Armin Runer - Klinische Untersuchung und Bildgebung bei patellofemoraler Arthrose (Orthopadie (Heidelberg, Germany), 2025), Abb. 5",
-  "licence": "CC BY 4.0",
-  "what_it_shows": "Zohlen/Clarke sign: web of the hand presses the superior pole of the patella distally (arrows) while the patient tightens the quadriceps.",
-  "slug": "patellar-grind-clarke-test.jpg"
- },
- {
-  "test": "Ankle anterior drawer",
-  "file": "Ankle anterior drawer - PMC.jpg",
-  "source_page_url": "https://europepmc.org/article/PMC/PMC9969681",
-  "author": "Yasutaka Murahashi, Atsushi Teramoto, Katsunori Takahashi et al. - High reproducibility of a novel supported anterior drawer test for diagnosing ankle instability (BMC Musculoskeletal Disorders, 2023), Fig. 2a",
-  "licence": "CC BY 4.0",
-  "what_it_shows": "Seated patient, knee flexed over the table edge; examiner grasps the heel and pulls it forward against the tibia. A small sensor device sits in the examiner's hands (instrumented study).",
-  "slug": "ankle-anterior-drawer.jpg"
- },
- {
-  "test": "Thompson (Simmonds) test",
-  "file": "Thompson (Simmonds) test - PMC.jpg",
-  "source_page_url": "https://europepmc.org/article/PMC/PMC13058164",
-  "author": "Sharina Mohd Khalid, Mohd Fadhli Miskon - Assessing Functional Outcomes and Complications After Turndown Flap With Flexor Hallucis Longus Augmentation in Chronic Achilles Tendon Ruptures (Cureus, 2026), Figure 1",
-  "licence": "CC BY 4.0",
-  "what_it_shows": "Feet hanging free over the table edge; gloved hand squeezes the calf. Plantarflexion absent or reduced if the Achilles is ruptured.",
-  "slug": "thompson-simmonds-test.jpg"
- },
- {
-  "test": "Landmarks: cspine",
-  "file": "cspine-landmarks.jpg",
-  "slug": "cspine-landmarks.jpg",
-  "source_page_url": "https://commons.wikimedia.org/wiki/File:723_Cervical_Vertebrae.jpg",
-  "author": "OpenStax College",
-  "licence": "CC BY 3.0 (https://creativecommons.org/licenses/by/3.0)",
-  "what_it_shows": "Cervical spine column (posterolateral view): C1 atlas, C2 axis, C3, bifid spinous processes, transverse processes, C7 vertebra prominens (top-right panel of the OpenStax figure, cropped)"
- },
- {
-  "test": "Landmarks: lspine",
-  "file": "lspine-landmarks.jpg",
-  "slug": "lspine-landmarks.jpg",
-  "source_page_url": "https://commons.wikimedia.org/wiki/File:817_Ligaments_of_Pelvis.jpg",
-  "author": "OpenStax College",
-  "licence": "CC BY 3.0 (https://creativecommons.org/licenses/by/3.0)",
-  "what_it_shows": "Pelvis from behind: sacrum, posterior superior iliac spine, ilium, posterior sacroiliac ligament, ischial tuberosity, ischial spine, sacrotuberous and sacrospinous ligaments"
- },
- {
-  "test": "Landmarks: shoulder",
-  "file": "shoulder-landmarks.jpg",
-  "slug": "shoulder-landmarks.jpg",
-  "source_page_url": "https://commons.wikimedia.org/wiki/File:Shoulder_joint.svg",
-  "author": "National Institute Of Arthritis And Musculoskeletal And Skin Diseases (NIAMS); SVG version by Angelito7",
-  "licence": "Public domain",
-  "what_it_shows": "Shoulder from the front: clavicle, acromioclavicular (AC) joint, acromion, coracoid process, glenohumeral joint, humerus, scapula, rotator cuff tendons, bursa, biceps"
- },
- {
-  "test": "Landmarks: elbow",
-  "file": "elbow-landmarks.jpg",
-  "slug": "elbow-landmarks.jpg",
-  "source_page_url": "https://commons.wikimedia.org/wiki/File:804_Humerus_and_Elbow.jpg",
-  "author": "OpenStax College",
-  "licence": "CC BY 3.0 (https://creativecommons.org/licenses/by/3.0)",
-  "what_it_shows": "Distal humerus/elbow, anterior and posterior views: medial and lateral epicondyles, olecranon of ulna, head of radius, capitulum, trochlea, olecranon fossa (lower part of the OpenStax humerus figure, cropped)"
- },
- {
-  "test": "Landmarks: wrist",
-  "file": "wrist-landmarks.jpg",
-  "slug": "wrist-landmarks.jpg",
-  "source_page_url": "https://commons.wikimedia.org/wiki/File:806_Hand_and_Wrist.jpg",
-  "author": "OpenStax College",
-  "licence": "CC BY 3.0 (https://creativecommons.org/licenses/by/3.0)",
-  "what_it_shows": "Bones of the hand and wrist, anterior view: scaphoid, lunate, triquetrum, pisiform, trapezium, trapezoid, capitate, hamate, metacarpals 1-5, phalanges, distal radius and ulna (anterior-view half of the OpenStax figure, cropped)"
- },
- {
-  "test": "Landmarks: hip",
-  "file": "hip-landmarks.jpg",
-  "slug": "hip-landmarks.jpg",
-  "source_page_url": "https://commons.wikimedia.org/wiki/File:808_Hip_Bone.jpg",
-  "author": "OpenStax College",
-  "licence": "CC BY 3.0 (https://creativecommons.org/licenses/by/3.0)",
-  "what_it_shows": "Right hip bone, lateral view: iliac crest, anterior superior and anterior inferior iliac spines, posterior superior iliac spine, acetabulum, pubis, ischial tuberosity (lateral-view half of the OpenStax figure, cropped); four medial-view labels whose leader lines pointed off the crop (arcuate line, superior ramus of pubis, pubic tubercle, articular surface of pubis) and leader-line stubs at the right edge were whited out"
- },
- {
-  "test": "Landmarks: knee",
-  "file": "knee-landmarks.jpg",
-  "slug": "knee-landmarks.jpg",
-  "source_page_url": "https://commons.wikimedia.org/wiki/File:Knee_diagram.svg",
-  "author": "Mysid",
-  "licence": "Public domain",
-  "what_it_shows": "Knee from the front/side: patella, quadriceps and patellar tendons, femur, lateral condyle, medial and lateral collateral ligaments, meniscus (joint line), cruciate ligaments, tibia, fibula"
- },
- {
-  "test": "Landmarks: ankle",
-  "file": "ankle-landmarks.jpg",
-  "slug": "ankle-landmarks.jpg",
-  "source_page_url": "https://commons.wikimedia.org/wiki/File:Lateral_collateral_ligament_of_ankle_joint.png",
-  "author": "Laboratoires Servier",
-  "licence": "CC BY-SA 3.0 (https://creativecommons.org/licenses/by-sa/3.0)",
-  "what_it_shows": "Ankle and foot, lateral view: anterior talofibular, calcaneofibular and posterior talofibular ligaments; tibia, fibula (its tip is the lateral malleolus, not labelled), talus, calcaneus; metatarsals visible but unlabelled"
- },
- {
-  "test": "Adam's forward bend test",
-  "file": "adam-s-forward-bend-test.jpg",
-  "source_page_url": "https://europepmc.org/article/PMC/PMC12213709",
-  "author": "Tu Q, Xu W, Feng Y et al. - Prevalence and determinants of adolescent idiopathic scoliosis from school screening in Xiaoshan District, Hangzhou, China (Front Public Health, 2025), Figure 3 (right panel)",
-  "licence": "CC BY (version not stated) (cropped; patient's head blurred)",
-  "what_it_shows": "Side view of a student bent forward at the waist, arms hanging, while the examiner stands behind and checks the back with a scoliometer; source already pixelated the examiner's face.",
-  "slug": "adam-s-forward-bend-test.jpg"
- },
- {
-  "test": "Thigh thrust",
-  "file": "thigh-thrust.jpg",
-  "source_page_url": "https://europepmc.org/article/PMC/PMC10029172",
-  "author": "Abdollahi S, Sheikhhoseini R, Rahimi M et al. - The sacroiliac dysfunction and pain is associated with history of lower extremity sport related injuries (BMC Sports Sci Med Rehabil, 2023), Fig. 1B 'posterior shear'",
-  "licence": "CC BY 4.0 (cropped to panel B; faces blurred)",
-  "what_it_shows": "Supine patient, hip and knee flexed to 90 degrees; examiner pushes down along the femur (red arrow) with the other arm reaching under the pelvis. Small (214 px) source panel.",
-  "slug": "thigh-thrust.jpg"
- },
- {
-  "test": "Patellar ballottement",
-  "file": "patellar-ballottement.jpg",
-  "source_page_url": "https://europepmc.org/article/PMC/PMC12129843",
-  "author": "Nardelli P, Runer A - Klinische Untersuchung und Bildgebung bei patellofemoraler Arthrose (Orthopadie, 2025), Abb. 1",
-  "licence": "CC BY 4.0",
-  "what_it_shows": "Extended knee: one hand milks the suprapatellar pouch down toward the patella (arrow) while the other hand's fingers press the patella onto the femur ('dancing patella').",
-  "slug": "patellar-ballottement.jpg"
- },
- {
-  "test": "Bragard's sign",
-  "file": "bragard-s-sign.jpg",
-  "source_page_url": "https://europepmc.org/article/PMC/PMC7992338",
-  "author": "Pesonen J, Shacklock M, Rantanen P et al. - Extending the straight leg raise test for improved clinical evaluation of sciatica (BMC Musculoskelet Disord, 2021), Fig. 1",
-  "licence": "CC BY 4.0 (top trimmed)",
-  "what_it_shows": "Examiner holds the supine patient's straight leg raised and dorsiflexes the ankle by pushing the forefoot (Bragard / ankle dorsiflexion sensitisation).",
-  "slug": "bragard-s-sign.jpg"
- },
- {
-  "test": "Tinel's sign (wrist)",
-  "file": "tinel-s-sign-wrist.jpg",
-  "source_page_url": "https://europepmc.org/article/PMC/PMC10038651",
-  "author": "Vomer RP, Lewno AJ, Udoh I et al. - Evaluation of the Hand and Wrist via Telephone and Video Visit (Cureus, 2023), Figure 8",
-  "licence": "CC BY (version not stated)",
-  "what_it_shows": "Palm up; two fingers tap over the carpal tunnel at the wrist crease (blue star marks the transverse carpal ligament).",
-  "slug": "tinel-s-sign-wrist.jpg"
- },
- {
-  "test": "Valgus / varus stress",
-  "file": "valgus-varus-stress.jpg",
-  "source_page_url": "https://europepmc.org/article/PMC/PMC10030541",
-  "author": "Lopes C, Vilaca A, Rocha C et al. - Knee positioning systems for X-ray environment: a literature review (Phys Eng Sci Med, 2023), Fig. 3",
-  "licence": "CC BY 4.0 (cropped below the examiner's face)",
-  "what_it_shows": "Supine patient, knee straight; examiner's gloved hand at the knee and the other at the ankle pushing the lower leg sideways (arrow) - the valgus stress at 0 degrees.",
-  "slug": "valgus-varus-stress.jpg"
- },
- {
-  "test": "Anterior drawer",
-  "file": "anterior-drawer.jpg",
-  "source_page_url": "https://europepmc.org/article/PMC/PMC8060088",
-  "author": "Afana HB, Nau T - Physeal-Sparing ACL Reconstruction for Skeletally Immature Patients (Case Rep Orthop, 2021), Figure 2",
-  "licence": "CC BY (version not stated)",
-  "what_it_shows": "Two side-view frames: knee bent about 90 degrees, examiner's hands wrapped around the top of the shin; in the second frame the shin is pulled forward.",
-  "slug": "anterior-drawer.jpg"
- },
- {
-  "test": "McMurray's test",
-  "file": "mcmurray-s-test.jpg",
-  "source_page_url": "https://europepmc.org/article/PMC/PMC3213012",
-  "author": "Rossi R, Dettoni F, Bruzzone M, Cottino U, D'Elicio DG, Margheritini F - Clinical examination of the knee: know your tools for diagnosis of knee injuries (Sports Med Arthrosc Rehabil Ther Technol, 2011), Figure 3",
-  "licence": "CC BY 2.0",
-  "what_it_shows": "Two frames of McMurray's test: supine, hip and knee flexed, examiner holds the heel with one hand and the knee joint line with the other while rotating the foot and moving the knee from bent to straight.",
-  "slug": "mcmurray-s-test.jpg"
- },
- {
-  "test": "Posterior drawer",
-  "file": "posterior-drawer.jpg",
-  "source_page_url": "https://europepmc.org/article/PMC/PMC12875799",
-  "author": "Current standards for the objective assessment and management of posterior cruciate ligament tears: a narrative review (Annals of Joint, 2026), Figure 2",
-  "licence": "CC BY-NC-ND 4.0 (used uncropped, as the licence requires)",
-  "what_it_shows": "Posterior drawer test on a right knee, patient supine, knee bent about 90 degrees: examiner's hands wrapped around the top of the shin, thumbs on the tibial tubercle region, pushing the shin backward. Tight close-up of the hands.",
-  "slug": "posterior-drawer.jpg"
- },
- {
-  "test": "Talar tilt",
-  "file": "talar-tilt.jpg",
-  "source_page_url": "https://europepmc.org/article/PMC/PMC12712512",
-  "author": "Duguay T, Vieira TD, Saillant G et al. - Prone-Position Physical Examination of the Ankle for Chronic Ankle Instability: A Technical Note (Arthroscopy Techniques, 2025), Figure 5",
-  "licence": "CC BY-NC-ND 4.0 (used uncropped, as the licence requires)",
-  "what_it_shows": "Talar tilt: one hand holds the lower leg still while the other tips the heel (calcaneus) sideways under the talus to feel how far the talus tilts in the ankle mortise; arrow shows the tilt. Examiner position is prone, a variant of the usual supine position.",
-  "slug": "talar-tilt.jpg"
- },
- {
-  "test": "Passive external rotation",
-  "file": "passive-external-rotation.jpg",
-  "source_page_url": "https://europepmc.org/article/PMC/PMC12712512",
-  "author": "Duguay T, Vieira TD, Saillant G et al. - Prone-Position Physical Examination of the Ankle for Chronic Ankle Instability: A Technical Note (Arthroscopy Techniques, 2025), Figure 6",
-  "licence": "CC BY-NC-ND 4.0 (used uncropped, as the licence requires)",
-  "what_it_shows": "Panel A is the Frick test: patient prone with the knee bent 90 degrees, lower hand holds the leg still and the upper hand turns the foot outward (arrow) - the passive external rotation (syndesmosis) test. Panel B is the squeeze-type syndesmosis test shown alongside it.",
-  "slug": "passive-external-rotation.jpg"
- },
- {
-  "test": "Lateral ankle ligament stress",
-  "file": "lateral-ankle-ligament-stress.jpg",
-  "source_page_url": "https://europepmc.org/article/PMC/PMC12712512",
-  "author": "Duguay T, Vieira TD, Saillant G et al. - Prone-Position Physical Examination of the Ankle for Chronic Ankle Instability: A Technical Note (Arthroscopy Techniques, 2025), Figure 2",
-  "licence": "CC BY-NC-ND 4.0 (used uncropped, as the licence requires)",
-  "what_it_shows": "Stress testing of the lateral ankle ligaments: one hand steadies the talus/shin while the other applies a sideways force to the heel, A: subtalar laxity and B: tibiotalar laxity (arrow = direction of stress). Prone variant; it does not separate ATFL from CFL by foot position as the note's steps do.",
-  "slug": "lateral-ankle-ligament-stress.jpg"
- },
- {
-  "test": "Wipe (bulge) test",
-  "file": "wipe-bulge-test.jpg",
-  "source_page_url": "Drawn for this page (Claude), concept diagram",
-  "author": "Claude (Anthropic), drawn for this page",
-  "licence": "Own work, concept diagram",
-  "what_it_shows": "Left knee, front view, two steps of the wipe test: stroke up the inner side to empty the hollow beside the kneecap, then stroke down the outer side; a wave of fluid refilling the inner hollow is positive. Shows the mechanism, not a person doing it.",
-  "slug": "wipe-bulge-test.jpg"
- },
- {
-  "test": "Thomas test",
-  "file": "thomas-test-drawn.jpg",
-  "slug": "thomas-test-drawn.jpg",
-  "source_page_url": "Drawn for this page (Claude), concept diagram",
-  "author": "Drawn for this page (Claude), concept/technique diagram",
-  "licence": "Own work, concept diagram",
-  "what_it_shows": "Side view, patient on their back: one knee pulled to the chest, the other thigh lifting off the table (hip flexion contracture); a faint dashed leg shows the normal flat thigh."
- },
- {
-  "test": "Ober's test",
-  "file": "obers-test-drawn.jpg",
-  "slug": "obers-test-drawn.jpg",
-  "source_page_url": "Drawn for this page (Claude), concept diagram",
-  "author": "Drawn for this page (Claude), concept/technique diagram",
-  "licence": "Own work, concept diagram",
-  "what_it_shows": "View from behind, patient on their side: the top leg lifted out and back stays up instead of dropping toward the table (tight IT band); a faint leg shows the normal drop."
- },
- {
-  "test": "Drop arm test",
-  "file": "drop-arm-test-drawn.jpg",
-  "slug": "drop-arm-test-drawn.jpg",
-  "source_page_url": "Drawn for this page (Claude), concept diagram",
-  "author": "Drawn for this page (Claude), concept/technique diagram",
-  "licence": "Own work, concept diagram",
-  "what_it_shows": "Front view: arm lifted to 90 degrees, then released; it drops suddenly instead of lowering slowly (rotator cuff tear)."
- },
- {
-  "test": "Resisted external rotation",
-  "file": "resisted-external-rotation-drawn.jpg",
-  "slug": "resisted-external-rotation-drawn.jpg",
-  "source_page_url": "Drawn for this page (Claude), concept diagram",
-  "author": "Drawn for this page (Claude), concept/technique diagram",
-  "licence": "Own work, concept diagram",
-  "what_it_shows": "Seen from above: elbows tucked at the sides bent 90 degrees, hands pushing outward against the examiner (infraspinatus, teres minor)."
- },
- {
-  "test": "Bear hug test",
-  "file": "bear-hug-test-drawn.jpg",
-  "slug": "bear-hug-test-drawn.jpg",
-  "source_page_url": "Drawn for this page (Claude), concept diagram",
-  "author": "Drawn for this page (Claude), concept/technique diagram",
-  "licence": "Own work, concept diagram",
-  "what_it_shows": "Front view: palm on the opposite shoulder, elbow forward, examiner pulling the hand off the shoulder (subscapularis)."
- },
- {
-  "test": "Scarf test (cross-arm)",
-  "file": "scarf-test-drawn.jpg",
-  "slug": "scarf-test-drawn.jpg",
-  "source_page_url": "Drawn for this page (Claude), concept diagram",
-  "author": "Drawn for this page (Claude), concept/technique diagram",
-  "licence": "Own work, concept diagram",
-  "what_it_shows": "Front view: arm held across the chest at shoulder height, examiner pushing the elbow further across; pain at the AC joint is positive."
- }
+  {
+    "test": "Spurling's maneuver",
+    "file": "Spurling's maneuver - PMC.jpg",
+    "source_page_url": "https://europepmc.org/article/PMC/PMC8684701",
+    "author": "George Pujalte, Jayson R Loeffert, Tais G O Bertasi et al. - Cervical Spine Evaluation by Telephone and Video Visit (Cureus, 2021), Figure 6B",
+    "licence": "CC BY (version not stated in licence text)",
+    "what_it_shows": "Examiner's hand pressing down on the extended, side-bent head of a seated patient (axial compression in extension); patient face pixelated. Telemedicine paper, so the figure is a demonstration.",
+    "slug": "spurling-s-maneuver.jpg"
+  },
+  {
+    "test": "Straight leg raise (Lasegue)",
+    "file": "Straight leg raise (Lasegue) - PMC.jpg",
+    "source_page_url": "https://europepmc.org/article/PMC/PMC13129396",
+    "author": "Amit Hegde, Atul Sareen, Ravi Shankar et al. - The Association Between Hamstring Tightness and Chronic Low Back Pain: A Comparative Study (Cureus, 2026), Figure 2",
+    "licence": "CC BY 4.0",
+    "what_it_shows": "Passive straight leg raise: examiner lifts the supine patient's straight leg while a goniometer at the hip measures the angle. Shown in a hamstring-tightness study, same manoeuvre.",
+    "slug": "straight-leg-raise-lasegue.jpg"
+  },
+  {
+    "test": "Femoral nerve stretch test",
+    "file": "Femoral nerve stretch test - PMC.jpg",
+    "source_page_url": "https://europepmc.org/article/PMC/PMC6505079",
+    "author": "Kristine Vegstein, Hilde Stendal Robinson, Roar Jensen - Neurodynamic tests for patellofemoral pain syndrome: a pilot study (Chiropractic & Manual Therapies, 2019), Fig. 2",
+    "licence": "CC BY 4.0",
+    "what_it_shows": "Prone knee bend: patient prone, examiner flexes the knee (heel toward buttock) to stretch the femoral nerve; second hand holds a goniometer.",
+    "slug": "femoral-nerve-stretch-test.jpg"
+  },
+  {
+    "test": "Modified Schober test",
+    "file": "Modified Schober test - Wikimedia.jpg",
+    "source_page_url": "https://commons.wikimedia.org/wiki/File:Schober_Test.jpg",
+    "author": "Nasch92",
+    "licence": "CC BY-SA 4.0",
+    "what_it_shows": "Line drawing of the lower back upright and in forward flexion with the marked lumbar segment lengthening (arrows) - the Schober measurement.",
+    "slug": "modified-schober-test.jpg"
+  },
+  {
+    "test": "Painful arc (shoulder)",
+    "file": "Painful arc (shoulder) - PMC.jpg",
+    "source_page_url": "https://europepmc.org/article/PMC/PMC11856014",
+    "author": "Daniel-Andrei Iordan, Stoica Leonard, Daniela Viorelia Matei et al. - Understanding Scapulohumeral Periarthritis: A Comprehensive Systematic Review (Life, 2025), Figure 4",
+    "licence": "CC BY 4.0",
+    "what_it_shows": "Seated patient abducting the arm, with arrows marking the painful arc range (roughly 60-120 degrees); face blurred.",
+    "slug": "painful-arc-shoulder.jpg"
+  },
+  {
+    "test": "Neer test",
+    "file": "Neer test - Wikimedia.jpg",
+    "source_page_url": "https://commons.wikimedia.org/wiki/File:Neer_Test.jpg",
+    "author": "Nasch92",
+    "licence": "CC BY-SA 4.0",
+    "what_it_shows": "Line drawing: examiner stabilises the scapula and passively forward-flexes the internally rotated (pronated) arm to full elevation.",
+    "slug": "neer-test.jpg"
+  },
+  {
+    "test": "Hawkins-Kennedy test",
+    "file": "Hawkins-Kennedy test - PMC.jpg",
+    "source_page_url": "https://europepmc.org/article/PMC/PMC11856014",
+    "author": "Daniel-Andrei Iordan, Stoica Leonard, Daniela Viorelia Matei et al. - Understanding Scapulohumeral Periarthritis: A Comprehensive Systematic Review (Life, 2025), Figure 3",
+    "licence": "CC BY 4.0",
+    "what_it_shows": "Examiner holds the patient's shoulder and elbow at 90 degrees forward flexion and internally rotates the arm; patient face blurred.",
+    "slug": "hawkins-kennedy-test.jpg"
+  },
+  {
+    "test": "Empty can (Jobe) test",
+    "file": "Empty can (Jobe) test - PMC.jpg",
+    "source_page_url": "https://europepmc.org/article/PMC/PMC11856014",
+    "author": "Daniel-Andrei Iordan, Stoica Leonard, Daniela Viorelia Matei et al. - Understanding Scapulohumeral Periarthritis: A Comprehensive Systematic Review (Life, 2025), Figure 6",
+    "licence": "CC BY 4.0",
+    "what_it_shows": "Examiner pushes down on the patient's arm held at 90 degrees elevation, testing supraspinatus; patient face blurred.",
+    "slug": "empty-can-jobe-test.jpg"
+  },
+  {
+    "test": "Lift-off (Gerber) test",
+    "file": "Lift-off (Gerber) test - PMC.jpg",
+    "source_page_url": "https://europepmc.org/article/PMC/PMC11856014",
+    "author": "Daniel-Andrei Iordan, Stoica Leonard, Daniela Viorelia Matei et al. - Understanding Scapulohumeral Periarthritis: A Comprehensive Systematic Review (Life, 2025), Figure 8",
+    "licence": "CC BY 4.0",
+    "what_it_shows": "Three panels: hand placed on lower back, patient lifts it off the back, examiner checks the lift (subscapularis). Cropped at the shoulders to remove faces.",
+    "slug": "lift-off-gerber-test.jpg"
+  },
+  {
+    "test": "Belly press test",
+    "file": "Belly press test - PMC.jpg",
+    "source_page_url": "https://europepmc.org/article/PMC/PMC7434033",
+    "author": "Patrick M. O'Brien, Jack E. Kazanjian, James D. Kelly et al. - Subscapularis Function After Total Shoulder Arthroplasty Using Lesser Tuberosity Osteotomy or Tenotomy (JAAOS Global Research & Reviews, 2020), Figure 3",
+    "licence": "CC BY 4.0",
+    "what_it_shows": "Graded belly press, side view: hand pressed on the abdomen, elbow forward (grade 1) versus elbow dropping behind the trunk (grade -1, weak subscapularis). Faces out of frame.",
+    "slug": "belly-press-test.jpg"
+  },
+  {
+    "test": "Speed's test",
+    "file": "Speed's test - PMC.jpg",
+    "source_page_url": "https://europepmc.org/article/PMC/PMC11856014",
+    "author": "Daniel-Andrei Iordan, Stoica Leonard, Daniela Viorelia Matei et al. - Understanding Scapulohumeral Periarthritis: A Comprehensive Systematic Review (Life, 2025), Figure 12",
+    "licence": "CC BY 4.0",
+    "what_it_shows": "Examiner resists forward flexion of the patient's extended, supinated arm at the forearm; patient face blurred.",
+    "slug": "speed-s-test.jpg"
+  },
+  {
+    "test": "Yergason's test",
+    "file": "Yergason's test - PMC.jpg",
+    "source_page_url": "https://europepmc.org/article/PMC/PMC11856014",
+    "author": "Daniel-Andrei Iordan, Stoica Leonard, Daniela Viorelia Matei et al. - Understanding Scapulohumeral Periarthritis: A Comprehensive Systematic Review (Life, 2025), Figure 11",
+    "licence": "CC BY 4.0",
+    "what_it_shows": "Elbow flexed 90 degrees at the side; examiner holds the wrist and resists supination while palpating the bicipital groove; patient face blurred.",
+    "slug": "yergason-s-test.jpg"
+  },
+  {
+    "test": "Shoulder apprehension and relocation test",
+    "file": "Shoulder apprehension and relocation test - PMC.jpg",
+    "source_page_url": "https://europepmc.org/article/PMC/PMC13125581",
+    "author": "Emily N Lau, Cortez L Brown, Rachit Saggar et al. - Managing Shoulder Instability in the Contact and Collision Athlete (Current Reviews in Musculoskeletal Medicine, 2026), Fig. 1a-b",
+    "licence": "CC BY 4.0",
+    "what_it_shows": "(A) supine anterior apprehension: arm abducted 90 degrees and externally rotated by the examiner; (B) Jobe relocation: posterior pressure on the humeral head in the same position. No faces.",
+    "slug": "shoulder-apprehension-and-relocation-test.jpg"
+  },
+  {
+    "test": "Elbow valgus stress test",
+    "file": "Elbow valgus stress test - PMC.jpg",
+    "source_page_url": "https://europepmc.org/article/PMC/PMC11209444",
+    "author": "Hironobu Koseki, Shiro Kajiyama, Takayuki Shida et al. - Characteristics and Clinical Assessment of Elbow Pain in Youth Baseball Players (Sports, 2024), Figure 2",
+    "licence": "CC BY 4.0",
+    "what_it_shows": "Moving valgus stress test: examiner holds the wrist and applies valgus torque while moving the elbow from flexion to extension; patient face masked in the original.",
+    "slug": "elbow-valgus-stress-test.jpg"
+  },
+  {
+    "test": "Phalen's test",
+    "file": "Phalen's test - Wikimedia.jpg",
+    "source_page_url": "https://commons.wikimedia.org/wiki/File:Phalen%27s_Maneuver.jpg",
+    "author": "LittleT889",
+    "licence": "CC BY-SA 4.0",
+    "what_it_shows": "Photo of Phalen's manoeuvre: backs of the hands pressed together with both wrists fully flexed, fingers down; face out of frame.",
+    "slug": "phalen-s-test.jpg"
+  },
+  {
+    "test": "CMC grind test",
+    "file": "CMC grind test - PMC.jpg",
+    "source_page_url": "https://europepmc.org/article/PMC/PMC10893956",
+    "author": "Saverio Colonna, Corrado Borghi - Rhizarthrosis Part I: A Literature Review (Cureus, 2024), Figure 10",
+    "licence": "CC BY (version not stated in licence text)",
+    "what_it_shows": "Three panels: examiner grips the thumb metacarpal, applies axial compression (red arrow) and rotation (green arrow) at the base of the thumb.",
+    "slug": "cmc-grind-test.jpg"
+  },
+  {
+    "test": "Finkelstein's test",
+    "file": "Finkelstein's test - Wikimedia.jpg",
+    "source_page_url": "https://commons.wikimedia.org/wiki/File:Finkelstein_Test_Arrow.jpg",
+    "author": "James Heilman, MD",
+    "licence": "CC BY-SA 4.0",
+    "what_it_shows": "Thumb tucked in the fist; examiner's hand deviates the wrist ulnarly; blue arrow marks where pain arises over the radial styloid (first dorsal compartment).",
+    "slug": "finkelstein-s-test.jpg"
+  },
+  {
+    "test": "Trendelenburg sign",
+    "file": "Trendelenburg sign - Wikimedia.jpg",
+    "source_page_url": "https://commons.wikimedia.org/wiki/File:Trendelenburg.PNG",
+    "author": "User:Mikael Häggström",
+    "licence": "Public domain",
+    "what_it_shows": "Two photos of single-leg stance labelled Negative (pelvis level) and Positive (pelvis drops on the unsupported side, red arrow).",
+    "slug": "trendelenburg-sign.jpg"
+  },
+  {
+    "test": "Stinchfield test",
+    "file": "Stinchfield test - PMC.jpg",
+    "source_page_url": "https://europepmc.org/article/PMC/PMC9076795",
+    "author": "Stephanie E. Wong, Charles J. Cogan, Alan L. Zhang - Physical Examination of the Hip: Assessment of Femoroacetabular Impingement, Labral Pathology, and Microinstability (Current Reviews in Musculoskeletal Medicine, 2022), Figure 7",
+    "licence": "CC BY 4.0",
+    "what_it_shows": "Resisted straight leg raise: supine patient raises the straight leg about 30-45 degrees while the examiner pushes down on the thigh. Cropped to remove faces and background posters.",
+    "slug": "stinchfield-test.jpg"
+  },
+  {
+    "test": "FABER (Patrick) test",
+    "file": "FABER (Patrick) test - PMC.jpg",
+    "source_page_url": "https://europepmc.org/article/PMC/PMC9076795",
+    "author": "Stephanie E. Wong, Charles J. Cogan, Alan L. Zhang - Physical Examination of the Hip: Assessment of Femoroacetabular Impingement, Labral Pathology, and Microinstability (Current Reviews in Musculoskeletal Medicine, 2022), Figure 6",
+    "licence": "CC BY 4.0",
+    "what_it_shows": "Supine, tested leg in flexion, abduction and external rotation (figure-4) with the foot by the opposite knee; examiner's hand presses the knee/stabilises. Cropped to remove faces and posters.",
+    "slug": "faber-patrick-test.jpg"
+  },
+  {
+    "test": "True leg length measurement",
+    "file": "True leg length measurement - PMC.jpg",
+    "source_page_url": "https://europepmc.org/article/PMC/PMC11371848",
+    "author": "Davide Stimolo, Salvatore Lo Giudice, Fabrizio Matassi et al. - Multicenter survey about leg length discrepancy and total hip arthroplasty: preoperative and intraoperative management (Musculoskeletal Surgery, 2024), Fig. 1",
+    "licence": "CC BY 4.0",
+    "what_it_shows": "Supine patient, tape measure running from the anterior superior iliac spine to the medial malleolus (ASIS-MM true leg length).",
+    "slug": "true-leg-length-measurement.jpg"
+  },
+  {
+    "test": "Lachman test",
+    "file": "Lachman test - Wikimedia.jpg",
+    "source_page_url": "https://commons.wikimedia.org/wiki/File:ACLI_17.jpg",
+    "author": "Mak-Ham Lam, Daniel TP Fong, Patrick SH Yung, Eric PY Ho, Wood-Yee Chan and Kai-Ming Chan",
+    "licence": "CC BY-SA 2.0",
+    "what_it_shows": "Knee in slight flexion (about 20-30 degrees); one hand stabilises the distal femur while the other pulls the proximal tibia forward (white arrow).",
+    "slug": "lachman-test.jpg"
+  },
+  {
+    "test": "Posterior sag sign",
+    "file": "Posterior sag sign - PMC.jpg",
+    "source_page_url": "https://europepmc.org/article/PMC/PMC10150838",
+    "author": "Rock P Vomer, Emma York, Larick S Rayghan et al. - Telemedicine Examination of the Knee (Cureus, 2023), Figure 8",
+    "licence": "CC BY (version not stated in licence text)",
+    "what_it_shows": "Supine patient with hips and knees flexed to about 90 degrees, heels supported on a box; the tibia sags back if the PCL is torn. Self-positioned telemedicine version; cropped to remove the face.",
+    "slug": "posterior-sag-sign.jpg"
+  },
+  {
+    "test": "Thessaly test",
+    "file": "Thessaly test - PMC.jpg",
+    "source_page_url": "https://europepmc.org/article/PMC/PMC10150838",
+    "author": "Rock P Vomer, Emma York, Larick S Rayghan et al. - Telemedicine Examination of the Knee (Cureus, 2023), Figure 10",
+    "licence": "CC BY (version not stated in licence text)",
+    "what_it_shows": "Modified Thessaly: patient stands on the affected leg with slight knee flexion and twists the trunk left and right (blue rotation arrows). Unassisted telemedicine version; in clinic the examiner holds the hands.",
+    "slug": "thessaly-test.jpg"
+  },
+  {
+    "test": "Patellar apprehension test",
+    "file": "Patellar apprehension test - PMC.jpg",
+    "source_page_url": "https://europepmc.org/article/PMC/PMC12129843",
+    "author": "Paul Nardelli, Armin Runer - Klinische Untersuchung und Bildgebung bei patellofemoraler Arthrose (Orthopadie (Heidelberg, Germany), 2025), Abb. 6",
+    "licence": "CC BY 4.0",
+    "what_it_shows": "Examiner's thumbs push the patella laterally on a relaxed, slightly flexed knee (arrow) - Fairbank apprehension test.",
+    "slug": "patellar-apprehension-test.jpg"
+  },
+  {
+    "test": "Patellar grind (Clarke) test",
+    "file": "Patellar grind (Clarke) test - PMC.jpg",
+    "source_page_url": "https://europepmc.org/article/PMC/PMC12129843",
+    "author": "Paul Nardelli, Armin Runer - Klinische Untersuchung und Bildgebung bei patellofemoraler Arthrose (Orthopadie (Heidelberg, Germany), 2025), Abb. 5",
+    "licence": "CC BY 4.0",
+    "what_it_shows": "Zohlen/Clarke sign: web of the hand presses the superior pole of the patella distally (arrows) while the patient tightens the quadriceps.",
+    "slug": "patellar-grind-clarke-test.jpg"
+  },
+  {
+    "test": "Ankle anterior drawer",
+    "file": "Ankle anterior drawer - PMC.jpg",
+    "source_page_url": "https://europepmc.org/article/PMC/PMC9969681",
+    "author": "Yasutaka Murahashi, Atsushi Teramoto, Katsunori Takahashi et al. - High reproducibility of a novel supported anterior drawer test for diagnosing ankle instability (BMC Musculoskeletal Disorders, 2023), Fig. 2a",
+    "licence": "CC BY 4.0",
+    "what_it_shows": "Seated patient, knee flexed over the table edge; examiner grasps the heel and pulls it forward against the tibia. A small sensor device sits in the examiner's hands (instrumented study).",
+    "slug": "ankle-anterior-drawer.jpg"
+  },
+  {
+    "test": "Thompson (Simmonds) test",
+    "file": "Thompson (Simmonds) test - PMC.jpg",
+    "source_page_url": "https://europepmc.org/article/PMC/PMC13058164",
+    "author": "Sharina Mohd Khalid, Mohd Fadhli Miskon - Assessing Functional Outcomes and Complications After Turndown Flap With Flexor Hallucis Longus Augmentation in Chronic Achilles Tendon Ruptures (Cureus, 2026), Figure 1",
+    "licence": "CC BY 4.0",
+    "what_it_shows": "Feet hanging free over the table edge; gloved hand squeezes the calf. Plantarflexion absent or reduced if the Achilles is ruptured.",
+    "slug": "thompson-simmonds-test.jpg"
+  },
+  {
+    "test": "Landmarks: cspine",
+    "file": "cspine-landmarks.jpg",
+    "slug": "cspine-landmarks.jpg",
+    "source_page_url": "https://commons.wikimedia.org/wiki/File:723_Cervical_Vertebrae.jpg",
+    "author": "OpenStax College",
+    "licence": "CC BY 3.0 (https://creativecommons.org/licenses/by/3.0)",
+    "what_it_shows": "Cervical spine column (posterolateral view): C1 atlas, C2 axis, C3, bifid spinous processes, transverse processes, C7 vertebra prominens (top-right panel of the OpenStax figure, cropped)"
+  },
+  {
+    "test": "Landmarks: lspine",
+    "file": "lspine-landmarks.jpg",
+    "slug": "lspine-landmarks.jpg",
+    "source_page_url": "https://commons.wikimedia.org/wiki/File:817_Ligaments_of_Pelvis.jpg",
+    "author": "OpenStax College",
+    "licence": "CC BY 3.0 (https://creativecommons.org/licenses/by/3.0)",
+    "what_it_shows": "Pelvis from behind: sacrum, posterior superior iliac spine, ilium, posterior sacroiliac ligament, ischial tuberosity, ischial spine, sacrotuberous and sacrospinous ligaments"
+  },
+  {
+    "test": "Landmarks: shoulder",
+    "file": "shoulder-landmarks.jpg",
+    "slug": "shoulder-landmarks.jpg",
+    "source_page_url": "https://commons.wikimedia.org/wiki/File:Shoulder_joint.svg",
+    "author": "National Institute Of Arthritis And Musculoskeletal And Skin Diseases (NIAMS); SVG version by Angelito7",
+    "licence": "Public domain",
+    "what_it_shows": "Shoulder from the front: clavicle, acromioclavicular (AC) joint, acromion, coracoid process, glenohumeral joint, humerus, scapula, rotator cuff tendons, bursa, biceps"
+  },
+  {
+    "test": "Landmarks: elbow",
+    "file": "elbow-landmarks.jpg",
+    "slug": "elbow-landmarks.jpg",
+    "source_page_url": "https://commons.wikimedia.org/wiki/File:804_Humerus_and_Elbow.jpg",
+    "author": "OpenStax College",
+    "licence": "CC BY 3.0 (https://creativecommons.org/licenses/by/3.0)",
+    "what_it_shows": "Distal humerus/elbow, anterior and posterior views: medial and lateral epicondyles, olecranon of ulna, head of radius, capitulum, trochlea, olecranon fossa (lower part of the OpenStax humerus figure, cropped)"
+  },
+  {
+    "test": "Landmarks: wrist",
+    "file": "wrist-landmarks.jpg",
+    "slug": "wrist-landmarks.jpg",
+    "source_page_url": "https://commons.wikimedia.org/wiki/File:806_Hand_and_Wrist.jpg",
+    "author": "OpenStax College",
+    "licence": "CC BY 3.0 (https://creativecommons.org/licenses/by/3.0)",
+    "what_it_shows": "Bones of the hand and wrist, anterior view: scaphoid, lunate, triquetrum, pisiform, trapezium, trapezoid, capitate, hamate, metacarpals 1-5, phalanges, distal radius and ulna (anterior-view half of the OpenStax figure, cropped)"
+  },
+  {
+    "test": "Landmarks: hip",
+    "file": "hip-landmarks.jpg",
+    "slug": "hip-landmarks.jpg",
+    "source_page_url": "https://commons.wikimedia.org/wiki/File:808_Hip_Bone.jpg",
+    "author": "OpenStax College",
+    "licence": "CC BY 3.0 (https://creativecommons.org/licenses/by/3.0)",
+    "what_it_shows": "Right hip bone, lateral view: iliac crest, anterior superior and anterior inferior iliac spines, posterior superior iliac spine, acetabulum, pubis, ischial tuberosity (lateral-view half of the OpenStax figure, cropped); four medial-view labels whose leader lines pointed off the crop (arcuate line, superior ramus of pubis, pubic tubercle, articular surface of pubis) and leader-line stubs at the right edge were whited out"
+  },
+  {
+    "test": "Landmarks: knee",
+    "file": "knee-landmarks.jpg",
+    "slug": "knee-landmarks.jpg",
+    "source_page_url": "https://commons.wikimedia.org/wiki/File:Knee_diagram.svg",
+    "author": "Mysid",
+    "licence": "Public domain",
+    "what_it_shows": "Knee from the front/side: patella, quadriceps and patellar tendons, femur, lateral condyle, medial and lateral collateral ligaments, meniscus (joint line), cruciate ligaments, tibia, fibula"
+  },
+  {
+    "test": "Landmarks: ankle",
+    "file": "ankle-landmarks.jpg",
+    "slug": "ankle-landmarks.jpg",
+    "source_page_url": "https://commons.wikimedia.org/wiki/File:Lateral_collateral_ligament_of_ankle_joint.png",
+    "author": "Laboratoires Servier",
+    "licence": "CC BY-SA 3.0 (https://creativecommons.org/licenses/by-sa/3.0)",
+    "what_it_shows": "Ankle and foot, lateral view: anterior talofibular, calcaneofibular and posterior talofibular ligaments; tibia, fibula (its tip is the lateral malleolus, not labelled), talus, calcaneus; metatarsals visible but unlabelled"
+  },
+  {
+    "test": "Adam's forward bend test",
+    "file": "adam-s-forward-bend-test.jpg",
+    "source_page_url": "https://europepmc.org/article/PMC/PMC12213709",
+    "author": "Tu Q, Xu W, Feng Y et al. - Prevalence and determinants of adolescent idiopathic scoliosis from school screening in Xiaoshan District, Hangzhou, China (Front Public Health, 2025), Figure 3 (right panel)",
+    "licence": "CC BY (version not stated) (cropped; patient's head blurred)",
+    "what_it_shows": "Side view of a student bent forward at the waist, arms hanging, while the examiner stands behind and checks the back with a scoliometer; source already pixelated the examiner's face.",
+    "slug": "adam-s-forward-bend-test.jpg"
+  },
+  {
+    "test": "Thigh thrust",
+    "file": "thigh-thrust.jpg",
+    "source_page_url": "https://europepmc.org/article/PMC/PMC10029172",
+    "author": "Abdollahi S, Sheikhhoseini R, Rahimi M et al. - The sacroiliac dysfunction and pain is associated with history of lower extremity sport related injuries (BMC Sports Sci Med Rehabil, 2023), Fig. 1B 'posterior shear'",
+    "licence": "CC BY 4.0 (cropped to panel B; faces blurred)",
+    "what_it_shows": "Supine patient, hip and knee flexed to 90 degrees; examiner pushes down along the femur (red arrow) with the other arm reaching under the pelvis. Small (214 px) source panel.",
+    "slug": "thigh-thrust.jpg"
+  },
+  {
+    "test": "Bragard's sign",
+    "file": "bragard-s-sign.jpg",
+    "source_page_url": "https://europepmc.org/article/PMC/PMC7992338",
+    "author": "Pesonen J, Shacklock M, Rantanen P et al. - Extending the straight leg raise test for improved clinical evaluation of sciatica (BMC Musculoskelet Disord, 2021), Fig. 1",
+    "licence": "CC BY 4.0 (top trimmed)",
+    "what_it_shows": "Examiner holds the supine patient's straight leg raised and dorsiflexes the ankle by pushing the forefoot (Bragard / ankle dorsiflexion sensitisation).",
+    "slug": "bragard-s-sign.jpg"
+  },
+  {
+    "test": "Tinel's sign (wrist)",
+    "file": "tinel-s-sign-wrist.jpg",
+    "source_page_url": "https://europepmc.org/article/PMC/PMC10038651",
+    "author": "Vomer RP, Lewno AJ, Udoh I et al. - Evaluation of the Hand and Wrist via Telephone and Video Visit (Cureus, 2023), Figure 8",
+    "licence": "CC BY (version not stated)",
+    "what_it_shows": "Palm up; two fingers tap over the carpal tunnel at the wrist crease (blue star marks the transverse carpal ligament).",
+    "slug": "tinel-s-sign-wrist.jpg"
+  },
+  {
+    "test": "Valgus / varus stress",
+    "file": "valgus-varus-stress.jpg",
+    "source_page_url": "https://europepmc.org/article/PMC/PMC10030541",
+    "author": "Lopes C, Vilaca A, Rocha C et al. - Knee positioning systems for X-ray environment: a literature review (Phys Eng Sci Med, 2023), Fig. 3",
+    "licence": "CC BY 4.0 (cropped below the examiner's face)",
+    "what_it_shows": "Supine patient, knee straight; examiner's gloved hand at the knee and the other at the ankle pushing the lower leg sideways (arrow) - the valgus stress at 0 degrees.",
+    "slug": "valgus-varus-stress.jpg"
+  },
+  {
+    "test": "Anterior drawer",
+    "file": "anterior-drawer.jpg",
+    "source_page_url": "https://europepmc.org/article/PMC/PMC8060088",
+    "author": "Afana HB, Nau T - Physeal-Sparing ACL Reconstruction for Skeletally Immature Patients (Case Rep Orthop, 2021), Figure 2",
+    "licence": "CC BY (version not stated)",
+    "what_it_shows": "Two side-view frames: knee bent about 90 degrees, examiner's hands wrapped around the top of the shin; in the second frame the shin is pulled forward.",
+    "slug": "anterior-drawer.jpg"
+  },
+  {
+    "test": "McMurray's test",
+    "file": "mcmurray-s-test.jpg",
+    "source_page_url": "https://europepmc.org/article/PMC/PMC3213012",
+    "author": "Rossi R, Dettoni F, Bruzzone M, Cottino U, D'Elicio DG, Margheritini F - Clinical examination of the knee: know your tools for diagnosis of knee injuries (Sports Med Arthrosc Rehabil Ther Technol, 2011), Figure 3",
+    "licence": "CC BY 2.0",
+    "what_it_shows": "Two frames of McMurray's test: supine, hip and knee flexed, examiner holds the heel with one hand and the knee joint line with the other while rotating the foot and moving the knee from bent to straight.",
+    "slug": "mcmurray-s-test.jpg"
+  },
+  {
+    "test": "Posterior drawer",
+    "file": "posterior-drawer.jpg",
+    "source_page_url": "https://europepmc.org/article/PMC/PMC12875799",
+    "author": "Current standards for the objective assessment and management of posterior cruciate ligament tears: a narrative review (Annals of Joint, 2026), Figure 2",
+    "licence": "CC BY-NC-ND 4.0 (used uncropped, as the licence requires)",
+    "what_it_shows": "Posterior drawer test on a right knee, patient supine, knee bent about 90 degrees: examiner's hands wrapped around the top of the shin, thumbs on the tibial tubercle region, pushing the shin backward. Tight close-up of the hands.",
+    "slug": "posterior-drawer.jpg"
+  },
+  {
+    "test": "Talar tilt",
+    "file": "talar-tilt.jpg",
+    "source_page_url": "https://europepmc.org/article/PMC/PMC12712512",
+    "author": "Duguay T, Vieira TD, Saillant G et al. - Prone-Position Physical Examination of the Ankle for Chronic Ankle Instability: A Technical Note (Arthroscopy Techniques, 2025), Figure 5",
+    "licence": "CC BY-NC-ND 4.0 (used uncropped, as the licence requires)",
+    "what_it_shows": "Talar tilt: one hand holds the lower leg still while the other tips the heel (calcaneus) sideways under the talus to feel how far the talus tilts in the ankle mortise; arrow shows the tilt. Examiner position is prone, a variant of the usual supine position.",
+    "slug": "talar-tilt.jpg"
+  },
+  {
+    "test": "Passive external rotation",
+    "file": "passive-external-rotation.jpg",
+    "source_page_url": "https://europepmc.org/article/PMC/PMC12712512",
+    "author": "Duguay T, Vieira TD, Saillant G et al. - Prone-Position Physical Examination of the Ankle for Chronic Ankle Instability: A Technical Note (Arthroscopy Techniques, 2025), Figure 6",
+    "licence": "CC BY-NC-ND 4.0 (used uncropped, as the licence requires)",
+    "what_it_shows": "Panel A is the Frick test: patient prone with the knee bent 90 degrees, lower hand holds the leg still and the upper hand turns the foot outward (arrow) - the passive external rotation (syndesmosis) test. Panel B is the squeeze-type syndesmosis test shown alongside it.",
+    "slug": "passive-external-rotation.jpg"
+  },
+  {
+    "test": "Lateral ankle ligament stress",
+    "file": "lateral-ankle-ligament-stress.jpg",
+    "source_page_url": "https://europepmc.org/article/PMC/PMC12712512",
+    "author": "Duguay T, Vieira TD, Saillant G et al. - Prone-Position Physical Examination of the Ankle for Chronic Ankle Instability: A Technical Note (Arthroscopy Techniques, 2025), Figure 2",
+    "licence": "CC BY-NC-ND 4.0 (used uncropped, as the licence requires)",
+    "what_it_shows": "Stress testing of the lateral ankle ligaments: one hand steadies the talus/shin while the other applies a sideways force to the heel, A: subtalar laxity and B: tibiotalar laxity (arrow = direction of stress). Prone variant; it does not separate ATFL from CFL by foot position as the note's steps do.",
+    "slug": "lateral-ankle-ligament-stress.jpg"
+  },
+  {
+    "test": "Wipe (bulge) test",
+    "file": "wipe-bulge-test.jpg",
+    "source_page_url": "Drawn for this page (Claude), concept diagram",
+    "author": "Claude (Anthropic), drawn for this page",
+    "licence": "Own work, concept diagram",
+    "what_it_shows": "Left knee, front view, two steps of the wipe test: stroke up the inner side to empty the hollow beside the kneecap, then stroke down the outer side; a wave of fluid refilling the inner hollow is positive. Shows the mechanism, not a person doing it.",
+    "slug": "wipe-bulge-test.jpg"
+  },
+  {
+    "test": "Thomas test",
+    "file": "thomas-test-drawn.jpg",
+    "slug": "thomas-test-drawn.jpg",
+    "source_page_url": "Drawn for this page (Claude), concept diagram",
+    "author": "Drawn for this page (Claude), concept/technique diagram",
+    "licence": "Own work, concept diagram",
+    "what_it_shows": "Side view, patient on their back: one knee pulled to the chest, the other thigh lifting off the table (hip flexion contracture); a faint dashed leg shows the normal flat thigh."
+  },
+  {
+    "test": "Ober's test",
+    "file": "obers-test-drawn.jpg",
+    "slug": "obers-test-drawn.jpg",
+    "source_page_url": "Drawn for this page (Claude), concept diagram",
+    "author": "Drawn for this page (Claude), concept/technique diagram",
+    "licence": "Own work, concept diagram",
+    "what_it_shows": "View from behind, patient on their side: the top leg lifted out and back stays up instead of dropping toward the table (tight IT band); a faint leg shows the normal drop."
+  },
+  {
+    "test": "Drop arm test",
+    "file": "drop-arm-test-drawn.jpg",
+    "slug": "drop-arm-test-drawn.jpg",
+    "source_page_url": "Drawn for this page (Claude), concept diagram",
+    "author": "Drawn for this page (Claude), concept/technique diagram",
+    "licence": "Own work, concept diagram",
+    "what_it_shows": "Front view: arm lifted to 90 degrees, then released; it drops suddenly instead of lowering slowly (rotator cuff tear)."
+  },
+  {
+    "test": "Resisted external rotation",
+    "file": "resisted-external-rotation-drawn.jpg",
+    "slug": "resisted-external-rotation-drawn.jpg",
+    "source_page_url": "Drawn for this page (Claude), concept diagram",
+    "author": "Drawn for this page (Claude), concept/technique diagram",
+    "licence": "Own work, concept diagram",
+    "what_it_shows": "Seen from above: elbows tucked at the sides bent 90 degrees, hands pushing outward against the examiner (infraspinatus, teres minor)."
+  },
+  {
+    "test": "Bear hug test",
+    "file": "bear-hug-test-drawn.jpg",
+    "slug": "bear-hug-test-drawn.jpg",
+    "source_page_url": "Drawn for this page (Claude), concept diagram",
+    "author": "Drawn for this page (Claude), concept/technique diagram",
+    "licence": "Own work, concept diagram",
+    "what_it_shows": "Front view: palm on the opposite shoulder, elbow forward, examiner pulling the hand off the shoulder (subscapularis)."
+  },
+  {
+    "test": "Scarf test (cross-arm)",
+    "file": "scarf-test-drawn.jpg",
+    "slug": "scarf-test-drawn.jpg",
+    "source_page_url": "Drawn for this page (Claude), concept diagram",
+    "author": "Drawn for this page (Claude), concept/technique diagram",
+    "licence": "Own work, concept diagram",
+    "what_it_shows": "Front view: arm held across the chest at shoulder height, examiner pushing the elbow further across; pain at the AC joint is positive."
+  },
+  {
+    "test": "Patellar ballottement",
+    "file": "patellar-ballottement.jpg",
+    "slug": "patellar-ballottement.jpg",
+    "source_page_url": "",
+    "author": "Textbook figure reproduced in student notes (Class of 2025 exam templates)",
+    "licence": "Copyright its publisher; used for non-commercial teaching",
+    "what_it_shows": "Patellar tap: press above the patella to push fluid down behind it, then push the patella briskly against the femur."
+  }
 ]

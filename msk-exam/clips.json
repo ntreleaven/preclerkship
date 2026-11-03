@@ -1,0 +1,137 @@
+{
+ "shoulder": [
+  {
+   "mp4": "clips/2142.mp4",
+   "title": "Shoulder circumduction",
+   "page": "https://rsc.lib.uwo.ca/s/healthedu/item/2142",
+   "secs": 8,
+   "item": 2142
+  }
+ ],
+ "elbow": [
+  {
+   "mp4": "clips/2052.mp4",
+   "title": "Elbow flexion and extension",
+   "page": "https://rsc.lib.uwo.ca/s/healthedu/item/2052",
+   "secs": 17,
+   "item": 2052
+  }
+ ],
+ "wrist": [
+  {
+   "mp4": "clips/2216.mp4",
+   "title": "Wrist flexion and extension",
+   "page": "https://rsc.lib.uwo.ca/s/healthedu/item/2216",
+   "secs": 18,
+   "item": 2216
+  },
+  {
+   "mp4": "clips/2228.mp4",
+   "title": "Wrist and forearm movement",
+   "page": "https://rsc.lib.uwo.ca/s/healthedu/item/2228",
+   "secs": 11,
+   "item": 2228
+  },
+  {
+   "mp4": "clips/2182.mp4",
+   "title": "Thumb abduction and adduction",
+   "page": "https://rsc.lib.uwo.ca/s/healthedu/item/2182",
+   "secs": 11,
+   "item": 2182
+  },
+  {
+   "mp4": "clips/2186.mp4",
+   "title": "Thumb circumduction",
+   "page": "https://rsc.lib.uwo.ca/s/healthedu/item/2186",
+   "secs": 5,
+   "item": 2186
+  },
+  {
+   "mp4": "clips/2198.mp4",
+   "title": "Thumb opposition and spread",
+   "page": "https://rsc.lib.uwo.ca/s/healthedu/item/2198",
+   "secs": 16,
+   "item": 2198
+  }
+ ],
+ "1st CMC grind test": [
+  {
+   "mp4": "clips/2186.mp4",
+   "title": "Thumb circumduction (the movement the CMC joint allows)",
+   "page": "https://rsc.lib.uwo.ca/s/healthedu/item/2186",
+   "secs": 5,
+   "item": 2186
+  }
+ ],
+ "hip": [
+  {
+   "mp4": "clips/2090.mp4",
+   "title": "Hip abduction and adduction",
+   "page": "https://rsc.lib.uwo.ca/s/healthedu/item/2090",
+   "secs": 14,
+   "item": 2090
+  },
+  {
+   "mp4": "clips/2094.mp4",
+   "title": "Hip circumduction",
+   "page": "https://rsc.lib.uwo.ca/s/healthedu/item/2094",
+   "secs": 11,
+   "item": 2094
+  },
+  {
+   "mp4": "clips/2096.mp4",
+   "title": "Hip flexion (knee lift)",
+   "page": "https://rsc.lib.uwo.ca/s/healthedu/item/2096",
+   "secs": 13,
+   "item": 2096
+  }
+ ],
+ "knee": [
+  {
+   "mp4": "clips/2114.mp4",
+   "title": "Knee flexion and extension",
+   "page": "https://rsc.lib.uwo.ca/s/healthedu/item/2114",
+   "secs": 16,
+   "item": 2114
+  },
+  {
+   "mp4": "clips/2170.mp4",
+   "title": "Squat, side view",
+   "page": "https://rsc.lib.uwo.ca/s/healthedu/item/2170",
+   "secs": 18,
+   "item": 2170
+  }
+ ],
+ "ankle": [
+  {
+   "mp4": "clips/2020.mp4",
+   "title": "Ankle dorsiflexion and plantar flexion",
+   "page": "https://rsc.lib.uwo.ca/s/healthedu/item/2020",
+   "secs": 8,
+   "item": 2020
+  },
+  {
+   "mp4": "clips/2068.mp4",
+   "title": "Foot up and down",
+   "page": "https://rsc.lib.uwo.ca/s/healthedu/item/2068",
+   "secs": 11,
+   "item": 2068
+  },
+  {
+   "mp4": "clips/2208.mp4",
+   "title": "Plantar flexion (rising on the toes)",
+   "page": "https://rsc.lib.uwo.ca/s/healthedu/item/2208",
+   "secs": 11,
+   "item": 2208
+  }
+ ],
+ "Gait": [
+  {
+   "mp4": "clips/2080.mp4",
+   "title": "Walking, side view (lower body)",
+   "page": "https://rsc.lib.uwo.ca/s/healthedu/item/2080",
+   "secs": 17,
+   "item": 2080
+  }
+ ]
+}

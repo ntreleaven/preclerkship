@@ -1,0 +1,85 @@
+{
+ "The general approach": [
+  {
+   "mp4": "https://rsc.lib.uwo.ca/files/original/1ec383969b6b962b08aae681be6bea593894b3c2.mp4",
+   "title": "Complete abdominal exam (nursing demo)",
+   "page": "https://rsc.lib.uwo.ca/s/healthedu/item/2599",
+   "secs": 306,
+   "item": 2599
+  },
+  {
+   "mp4": "https://rsc.lib.uwo.ca/files/original/38f4ea206da5d91c9b70fc52cd79c25eadd7c761.mp4",
+   "title": "Abdominal exam, second demonstration",
+   "page": "https://rsc.lib.uwo.ca/s/healthedu/item/2403",
+   "secs": 287,
+   "item": 2403
+  },
+  {
+   "mp4": "https://rsc.lib.uwo.ca/files/original/75c9e02eeb4b52d88f47a74a69604abe4a5958ac.mp4",
+   "title": "Abdominal exam, third demonstration",
+   "page": "https://rsc.lib.uwo.ca/s/healthedu/item/2401",
+   "secs": 308,
+   "item": 2401
+  }
+ ],
+ "Bowel sounds": [
+  {
+   "mp4": "https://rsc.lib.uwo.ca/files/original/7f3a913bca03b46b0a5043dfb4bcf119a8f317b5.mp4",
+   "title": "Bowel sounds, left lower quadrant",
+   "page": "https://rsc.lib.uwo.ca/s/healthedu/item/2585",
+   "secs": 24,
+   "item": 2585
+  },
+  {
+   "mp4": "https://rsc.lib.uwo.ca/files/original/e81e6faf8ab5e0cd500d124d64972410e3b2e414.mp4",
+   "title": "Left upper quadrant",
+   "page": "https://rsc.lib.uwo.ca/s/healthedu/item/2589",
+   "secs": 22,
+   "item": 2589
+  },
+  {
+   "mp4": "https://rsc.lib.uwo.ca/files/original/239f2ca87aa9d0d975af7140b6cd6908f8c13a6f.mp4",
+   "title": "Right upper quadrant",
+   "page": "https://rsc.lib.uwo.ca/s/healthedu/item/2595",
+   "secs": 30,
+   "item": 2595
+  },
+  {
+   "mp4": "https://rsc.lib.uwo.ca/files/original/d4f4e17d46d06fc84328a016691dd230a85f9815.mp4",
+   "title": "Bowel sounds, right lower quadrant (second volunteer)",
+   "page": "https://rsc.lib.uwo.ca/s/healthedu/item/2609",
+   "secs": 16,
+   "item": 2609
+  },
+  {
+   "mp4": "https://rsc.lib.uwo.ca/files/original/8bb7b251239df222839828d89fd5a88a2336f124.mp4",
+   "title": "Left lower quadrant (second volunteer)",
+   "page": "https://rsc.lib.uwo.ca/s/healthedu/item/2601",
+   "secs": 16,
+   "item": 2601
+  },
+  {
+   "mp4": "https://rsc.lib.uwo.ca/files/original/7557ed40bb2ac9e26ca9514ce3020d3c754d1c3b.mp4",
+   "title": "Left upper quadrant (second volunteer)",
+   "page": "https://rsc.lib.uwo.ca/s/healthedu/item/2605",
+   "secs": 16,
+   "item": 2605
+  },
+  {
+   "mp4": "https://rsc.lib.uwo.ca/files/original/0d4d2f2740f16d99dc7508e91cfb634669002d79.mp4",
+   "title": "Right upper quadrant (second volunteer)",
+   "page": "https://rsc.lib.uwo.ca/s/healthedu/item/2613",
+   "secs": 16,
+   "item": 2613
+  }
+ ],
+ "palpate": [
+  {
+   "mp4": "https://rsc.lib.uwo.ca/files/original/11d037748c8ad90e93f70e0fec0c6f44dcfdddfe.mp4",
+   "title": "Close-up abdominal exam",
+   "page": "https://rsc.lib.uwo.ca/s/healthedu/item/1300",
+   "secs": 161,
+   "item": 1300
+  }
+ ]
+}

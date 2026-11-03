@@ -1,0 +1,79 @@
+{
+ "eye": [
+  {
+   "mp4": "https://rsc.lib.uwo.ca/files/original/5f4e3ec16a516b7328f6261df1cee9e945508179.mp4",
+   "title": "Cranial Nerve Exam (CN II-VII)",
+   "page": "https://rsc.lib.uwo.ca/s/healthedu/item/2485",
+   "secs": 453,
+   "item": 2485
+  }
+ ],
+ "mouth": [
+  {
+   "mp4": "https://rsc.lib.uwo.ca/files/original/769aa653acc6942dc3fba41e53fc891079c8543c.mp4",
+   "title": "Cranial Nerve Exam Lower",
+   "page": "https://rsc.lib.uwo.ca/s/healthedu/item/2487",
+   "secs": 194,
+   "item": 2487
+  }
+ ],
+ "Pupils and light reflex": [
+  {
+   "mp4": "https://rsc.lib.uwo.ca/files/original/6fe9683c389624b0238f041812f52e92eba50246.mp4",
+   "title": "Pupillary Light Response and RAPD",
+   "page": "https://rsc.lib.uwo.ca/s/healthedu/item/2483",
+   "secs": 91,
+   "item": 2483
+  },
+  {
+   "mp4": "https://rsc.lib.uwo.ca/files/original/819e526f51663c5c28dc799e9cea2a0ac082d21e.mp4",
+   "title": "Cranial Nerve Exam Pupillary Light Response and RAPD",
+   "page": "https://rsc.lib.uwo.ca/s/healthedu/item/2497",
+   "secs": 44,
+   "item": 2497
+  }
+ ],
+ "Swinging flashlight test": [
+  {
+   "mp4": "https://rsc.lib.uwo.ca/files/original/6fe9683c389624b0238f041812f52e92eba50246.mp4",
+   "title": "Pupillary Light Response and RAPD",
+   "page": "https://rsc.lib.uwo.ca/s/healthedu/item/2483",
+   "secs": 91,
+   "item": 2483
+  }
+ ],
+ "Visual acuity": [
+  {
+   "mp4": "https://rsc.lib.uwo.ca/files/original/9929363610c391c29cfccb48d75f552a471a0def.mp4",
+   "title": "Near Visual Acuity",
+   "page": "https://rsc.lib.uwo.ca/s/healthedu/item/2489",
+   "secs": 76,
+   "item": 2489
+  },
+  {
+   "mp4": "https://rsc.lib.uwo.ca/files/original/07eea38fc88cfa60f34ac0918807e271443685d6.mp4",
+   "title": "Near Visual Acuity, view 2",
+   "page": "https://rsc.lib.uwo.ca/s/healthedu/item/2491",
+   "secs": 61,
+   "item": 2491
+  }
+ ],
+ "Visual fields by confrontation": [
+  {
+   "mp4": "https://rsc.lib.uwo.ca/files/original/241bb6900b57d9c427062492e8ba23a14659e753.mp4",
+   "title": "Testing Visual Fields",
+   "page": "https://rsc.lib.uwo.ca/s/healthedu/item/2493",
+   "secs": 75,
+   "item": 2493
+  }
+ ],
+ "Facial movements": [
+  {
+   "mp4": "https://rsc.lib.uwo.ca/files/original/37d354ad77348f5401f9d4d5b7bfe3899affab81.mp4",
+   "title": "Facial Power Exam (CN VII)",
+   "page": "https://rsc.lib.uwo.ca/s/healthedu/item/2481",
+   "secs": 27,
+   "item": 2481
+  }
+ ]
+}

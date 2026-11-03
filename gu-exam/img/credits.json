@@ -1,0 +1,128 @@
+[
+ {
+  "test": "Penis: inspection",
+  "file": "penis-inspection.jpg",
+  "slug": "penis-inspection.jpg",
+  "source_page_url": "index.html",
+  "author": "Noor Simsam (original schematic drawing for this page)",
+  "licence": "Original drawing, no photograph",
+  "what_it_shows": "Foreskin in place and pulled back, glans, meatus"
+ },
+ {
+  "test": "Penis: palpation",
+  "file": "penis-palpation.jpg",
+  "slug": "penis-palpation.jpg",
+  "source_page_url": "index.html",
+  "author": "Noor Simsam (original schematic drawing for this page)",
+  "licence": "Original drawing, no photograph",
+  "what_it_shows": "Shaft cross-section and where thumb and fingers go"
+ },
+ {
+  "test": "Scrotum: inspection",
+  "file": "scrotum-inspection.jpg",
+  "slug": "scrotum-inspection.jpg",
+  "source_page_url": "index.html",
+  "author": "Noor Simsam (original schematic drawing for this page)",
+  "licence": "Original drawing, no photograph",
+  "what_it_shows": "Both sides from the front, left lower"
+ },
+ {
+  "test": "Testis palpation",
+  "file": "testis-palpation.jpg",
+  "slug": "testis-palpation.jpg",
+  "source_page_url": "index.html",
+  "author": "Noor Simsam (original schematic drawing for this page)",
+  "licence": "Original drawing, no photograph",
+  "what_it_shows": "Testis held between thumb and two fingers"
+ },
+ {
+  "test": "Epididymis palpation",
+  "file": "epididymis-palpation.jpg",
+  "slug": "epididymis-palpation.jpg",
+  "source_page_url": "index.html",
+  "author": "Noor Simsam (original schematic drawing for this page)",
+  "licence": "Original drawing, no photograph",
+  "what_it_shows": "Epididymis behind and above the testis"
+ },
+ {
+  "test": "Spermatic cord and vas deferens",
+  "file": "spermatic-cord-and-vas-deferens.jpg",
+  "slug": "spermatic-cord-and-vas-deferens.jpg",
+  "source_page_url": "index.html",
+  "author": "Noor Simsam (original schematic drawing for this page)",
+  "licence": "Original drawing, no photograph",
+  "what_it_shows": "Normal cord against varicocele"
+ },
+ {
+  "test": "Transillumination",
+  "file": "transillumination.jpg",
+  "slug": "transillumination.jpg",
+  "source_page_url": "index.html",
+  "author": "Noor Simsam (original schematic drawing for this page)",
+  "licence": "Original drawing, no photograph",
+  "what_it_shows": "Fluid glows, solid stays dark"
+ },
+ {
+  "test": "Cremasteric reflex",
+  "file": "cremasteric-reflex.jpg",
+  "slug": "cremasteric-reflex.jpg",
+  "source_page_url": "index.html",
+  "author": "Noor Simsam (original schematic drawing for this page)",
+  "licence": "Original drawing, no photograph",
+  "what_it_shows": "Inner thigh stroke and the testis rising"
+ },
+ {
+  "test": "Groin inspection with Valsalva",
+  "file": "groin-inspection-with-valsalva.jpg",
+  "slug": "groin-inspection-with-valsalva.jpg",
+  "source_page_url": "index.html",
+  "author": "Noor Simsam (original schematic drawing for this page)",
+  "licence": "Original drawing, no photograph",
+  "what_it_shows": "Groin landmarks and a possible bulge"
+ },
+ {
+  "test": "Inguinal canal palpation",
+  "file": "inguinal-canal-palpation.jpg",
+  "slug": "inguinal-canal-palpation.jpg",
+  "source_page_url": "index.html",
+  "author": "Noor Simsam (original schematic drawing for this page)",
+  "licence": "Original drawing, no photograph",
+  "what_it_shows": "Finger path up the cord to the external ring"
+ },
+ {
+  "test": "Inguinal lymph nodes",
+  "file": "inguinal-lymph-nodes.jpg",
+  "slug": "inguinal-lymph-nodes.jpg",
+  "source_page_url": "index.html",
+  "author": "Noor Simsam (original schematic drawing for this page)",
+  "licence": "Original drawing, no photograph",
+  "what_it_shows": "Nodes above and below the inguinal ligament"
+ },
+ {
+  "test": "Anus: inspection",
+  "file": "anus-inspection.jpg",
+  "slug": "anus-inspection.jpg",
+  "source_page_url": "index.html",
+  "author": "Noor Simsam (original schematic drawing for this page)",
+  "licence": "Original drawing, no photograph",
+  "what_it_shows": "Perianal view with tag, hemorrhoid, fissure"
+ },
+ {
+  "test": "Withdrawing and the glove",
+  "file": "withdrawing-and-the-glove.jpg",
+  "slug": "withdrawing-and-the-glove.jpg",
+  "source_page_url": "index.html",
+  "author": "Noor Simsam (original schematic drawing for this page)",
+  "licence": "Original drawing, no photograph",
+  "what_it_shows": "Stool or blood on the glove"
+ },
+ {
+  "test": "Digital rectal exam (DRE)",
+  "file": "digital-rectal-exam-dre.jpg",
+  "slug": "digital-rectal-exam-dre.jpg",
+  "source_page_url": "https://commons.wikimedia.org/wiki/File:Digital_rectal_exam_nci-vol-7136-300.jpg",
+  "author": "National Cancer Institute (via Wikimedia Commons)",
+  "licence": "Public domain",
+  "what_it_shows": "Side view: the gloved index finger in the rectum, with bladder, rectum and prostate labelled."
+ }
+]

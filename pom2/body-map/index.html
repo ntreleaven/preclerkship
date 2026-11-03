@@ -138,7 +138,7 @@ ul.terr{list-style:none;padding:0;font-size:13.5px}ul.terr li{margin:0 0 7px;lin
 </div>
 <div class="dermmap" id="dermmap" hidden>
   <iframe class="derm-frame" data-src="../dermatomes/?embed=1" title="Dermatome map in 3D" loading="lazy" allow="autoplay; fullscreen; xr-spatial-tracking"></iframe>
-  <p class="credit">The Dermatomes tab of the <a href="../anatomy-tables/#dermatomes">anatomy tables</a>, as it is there. Also on its own page: <a href="../dermatomes/">dermatome map in 3D</a>.</p>
+  <p class="credit">The Dermatomes tab of the anatomy tables, as it is there.</p>
 </div>
 <div class="app" id="app">
   <div class="stage" id="stage">
@@ -638,8 +638,7 @@ function showTablesIntro(sid) {
     }
     panel.appendChild(l);
     if (reg.boxes.length) panel.appendChild(foldNotes(`Clinical points from the ${reg.tab.toLowerCase()} slides (${reg.boxes.length})`, reg.boxes));
-    const a = document.createElement("div"); a.className = "acts"; a.innerHTML = `<a target="_blank" rel="noopener" href="../anatomy-tables/#${sid}">Open the full ${reg.tab.toLowerCase()} table</a>`; panel.appendChild(a);
-  }
+     }
   const hb = hiddenBar(); if (hb) panel.appendChild(hb);
 }
 function selectMuscle(key, zoom = true) {
@@ -659,7 +658,6 @@ function selectMuscle(key, zoom = true) {
   const a = document.createElement("div"); a.className = "acts";
   if (objs.length) { const hb = document.createElement("button"); hb.textContent = "Hide it to see underneath"; hb.onclick = () => { objs.forEach(o => o.visible = false); picked = null; shade(null); showTablesIntro(row.reg.sid); }; a.appendChild(hb); }
   const back = document.createElement("button"); back.textContent = `All ${row.reg.tab.toLowerCase()} muscles`; back.onclick = () => showTablesIntro(row.reg.sid); a.appendChild(back);
-  const full = document.createElement("a"); full.target = "_blank"; full.rel = "noopener"; full.href = `../anatomy-tables/#${row.reg.sid}`; full.textContent = "Full table"; a.appendChild(full);
   panel.appendChild(a);
   const hb = hiddenBar(); if (hb) panel.appendChild(hb);
 }
@@ -846,7 +844,6 @@ function selectCN(n) {
   panel.appendChild(dl);
   const a = document.createElement("div"); a.className = "acts";
   const b = document.createElement("button"); b.textContent = "All cranial nerves"; b.onclick = showCNIntro; a.appendChild(b);
-  const t = document.createElement("a"); t.href = "../anatomy-tables/#cn"; t.target = "_blank"; t.rel = "noopener"; t.textContent = "Full table"; a.appendChild(t);
   backToTables(a); panel.appendChild(a);
 }
 /* brachial plexus: the same structures and notes as the anatomy tables' plexus tab */
@@ -925,7 +922,6 @@ function selectBP(id) {
   }
   const a = document.createElement("div"); a.className = "acts";
   const b = document.createElement("button"); b.textContent = "Whole plexus"; b.onclick = showBPIntro; a.appendChild(b);
-  const t = document.createElement("a"); t.href = "../anatomy-tables/#plexus"; t.target = "_blank"; t.rel = "noopener"; t.textContent = "Plexus diagram"; a.appendChild(t);
   backToTables(a); panel.appendChild(a);
 }
 

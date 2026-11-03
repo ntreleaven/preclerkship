@@ -1,8 +1,8 @@
 """
 Purpose: Build the clinical skills course prototype in the portal's own structure: one block
          page per section, the course opening straight on the first (index.html redirects to history.html,
-         exam.html, pocus.html, osce.html), and a copy of the portal landing with the
-         clinical skills card beside the four courses (landing.html).
+         exam.html, pocus.html, osce.html). landing.html, once a preview of the portal landing,
+         now redirects to the live landing, which carries the clinical skills card itself.
 Author: Noor Simsam
 Date: 2026-10-28
 Input: SECTIONS and SKILLS below (from the 2025-26 and 2026-27 clinical skills syllabi);
@@ -209,7 +209,7 @@ def course_page() -> str:
 
 def blocknav(current: str) -> str:
     """Return the section bar every block page opens on, as the PoM 2 block pages."""
-    links = [f'<a class="home" href="landing.html">All courses</a>']
+    links = [f'<a class="home" href="{PORTAL}">All courses</a>']
     for i, (slug, name, *_rest) in enumerate(SECTIONS, 1):
         here = ' class="here"' if slug == current else ""
         links.append(f'<a href="{slug}.html"{here}>{i} &middot; {esc(name)}</a>')
@@ -278,7 +278,7 @@ def exam_nav(current: str, base: str = "../clinical-skills/") -> str:
     ones without a page yet faded. Every exam page carries the same bar."""
     sec = next(s for s in SKILLS if s[1] == current)[0]
     sec_name = next(s[1] for s in SECTIONS if s[0] == sec)
-    items = [f'<a class="home" href="{base}landing.html">All courses</a>',
+    items = [f'<a class="home" href="{PORTAL}">All courses</a>',
              f'<a class="home" href="{base}{sec}.html">{esc(sec_name)} &rsaquo;</a>']
     for _sec, key, name, _taught, page, _what in (s for s in SKILLS if s[0] == sec):
         if key == current:
@@ -293,58 +293,19 @@ def exam_nav(current: str, base: str = "../clinical-skills/") -> str:
 </nav>"""
 
 
-# each course card opens the course's first block, as clinical skills opens its first section:
-# the block bar there reaches every other block and the question bank
-LANDING_CARDS = [
-    ("fom/b1.html", "#4f2683", "Year 1 &middot; 4 blocks", "Foundations of Medicine",
-     "The first fifteen weeks: what a physician does, then the body from cells up, then blood, then infection and immunity."),
-    ("pom1/cardio.html", "#6b3fb8", "Year 1 &middot; 5 blocks", "Principles of Medicine 1",
-     "The second half of first year, system by system."),
-    ("pom2/endo.html", "#7a3fb0", "Year 2 &middot; 5 blocks", "Principles of Medicine 2",
-     "The five blocks of second year, with a written note for every lecture that has one and a coverage map for the rest."),
-    ("t2c/peds.html", "#3a2a6e", "Year 2 &middot; 6 blocks", "Transition to Clerkship",
-     "The bridge into clerkship at the end of second year."),
-]
-
-
 def landing_page() -> str:
-    """Return the portal landing with clinical skills as a fifth card, running across all four."""
-    cards = [f"""<a class="block-card" href="{PORTAL}{href}" style="--hue:{hue}">
-<p class="bmeta">{meta}</p>
-<h2>{name}</h2>
-<p>{what}</p>
-</a>""" for href, hue, meta, name, what in LANDING_CARDS]
-    exams = sum(1 for s in SKILLS if s[0] == "exam")
-    cards.append(f"""<a class="block-card" href="{SECTIONS[0][0]}.html" style="--hue:#2f5d7c">
-<p class="bmeta">Years 1 and 2 &middot; alongside every course</p>
-<h2>Clinical Skills</h2>
-<p>Every history and exam, one page each, arranged by skill rather than by semester.</p>
-<span class="tally">
-<span><b>{exams}</b> exams</span>
-<span><b>{len(SKILLS) - exams}</b> histories and other skills</span>
-</span>
-</a>""")
-    return head("Schulich Pre-clerkship") + f"""
-<main id="content" tabindex="-1">
-
-<div class="page-hero">
-<h1>Schulich Pre-clerkship.</h1>
-<p>
-A centralized, dynamic, up-to-date resource for all Schulich med students in
-pre-clerkship.
-</p>
-</div>
-
-<div class="block-grid hub-grid">
-{chr(10).join(cards)}
-</div>
-
-</main>
-""" + FOOT
+    """Return landing.html as a redirect to the live portal landing, so old links reach the real
+    hub: the preview it used to be went stale once the hub got its own clinical skills card."""
+    return f"""<!DOCTYPE html>
+<html lang="en"><head><meta charset="UTF-8"><meta name="robots" content="noindex, nofollow, noarchive">
+<meta http-equiv="refresh" content="0; url={PORTAL}"><link rel="canonical" href="{PORTAL}">
+<title>Schulich Pre-clerkship</title></head>
+<body><p><a href="{PORTAL}">All courses</a></p></body></html>
+"""
 
 
 def main() -> None:
-    """Write the course page, the section pages and the landing preview."""
+    """Write the course page, the section pages and the landing redirect."""
     logging.basicConfig(level=logging.INFO, format="%(message)s")
     pages = {"index.html": course_page(), "landing.html": landing_page()}
     for i, section in enumerate(SECTIONS, 1):

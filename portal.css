@@ -1831,6 +1831,13 @@ body.has-dialog{overflow:hidden;}
    widths. Block pages keep the auto-fill grid above, where the count varies. */
 .block-grid.hub-grid{grid-template-columns:repeat(2,minmax(0,1fr));}
 
+/* Clinical Skills runs beside both years rather than in either, so on a wide
+   screen it is a third column as tall as the two course rows. */
+@media (min-width:1000px){
+    .block-grid.hub-grid{grid-template-columns:repeat(3,minmax(0,1fr));}
+    .block-grid.hub-grid .block-card.is-side{grid-column:3;grid-row:1 / span 2;}
+}
+
 @media (max-width:680px){
     .block-grid.hub-grid{grid-template-columns:1fr;}
 }

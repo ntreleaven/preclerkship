@@ -461,7 +461,8 @@ def render(exam: Exam, regions: list[dict], credits: list[dict]) -> str:
                       for key, title, _w, _c in exam.regions.values()}
     items = "".join(
         f'<li>{html.escape(landmark_names.get(c["test"], c["test"]))}: {html.escape(c["author"])}, {html.escape(c["licence"])}, '
-        f'<a href="{html.escape(c["source_page_url"])}">source</a></li>' for c in credits)
+        + (f'<a href="{html.escape(c["source_page_url"])}">source</a>' if c["source_page_url"].startswith("http") else "")
+        + '</li>' for c in credits)
     cred = (f'<details class="acc"><summary>Image credits ({len(credits)})</summary><p>Images used for non-commercial teaching under their own licences '
             f'(Creative Commons or public domain). Some were cropped to hide faces.</p><ul>{items}</ul></details>') if credits else ""
     cs = clinical_skills

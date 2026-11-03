@@ -613,7 +613,7 @@ PAGE = u"""<!DOCTYPE html>
 <section>
 <p class="panel-h">Lectures</p>
 <nav class="lecindex" id="note-index" aria-label="Jump to a lecture"></nav>
-</section>
+</section>{hurts}
 
 <section>
 <p class="panel-h">Save as PDF</p>
@@ -779,6 +779,16 @@ def build_qbank(course):
     print("%-5s %-6s %d blocks pooled  %4d questions" % (d, "qbank", len(blocks), total))
 
 
+# Where it hurts: a 3D body to tap, each region opening its MSK charts. Only the MSK block has one.
+HURTS = {("pom2", "msk"): u"""
+
+<section>
+<p class="panel-h">Where it hurts</p>
+<p class="railnote">Tap the body where the patient points and get that region&rsquo;s charts.</p>
+<a class="print-cta" href="body-map/" target="_blank" rel="noopener">Open the body map</a>
+</section>"""}
+
+
 def main():
     for course in portal.COURSES:
         for slug, n, name, weeks in course["blocks"]:
@@ -803,7 +813,7 @@ def main():
                 name=name, course=course["short"], weeks=weeks, lead=lead, desc=desc, accent=accent,
                 fonts=portal.FONTS, nocache=portal.NOCACHE, cf=portal.CF + portal.sync_tag(), footer=portal.footer(), howto=HOWTO, favicon=portal.favicon(label, fill),
                 theme=portal.THEME_SCRIPT, toggle=portal.THEME_BTN,
-                blocknav=blocknav(course, slug), questions=q, slug=slug,
+                blocknav=blocknav(course, slug), questions=q, slug=slug, hurts=HURTS.get((d, slug), u""),
                 anki=anki_panel(course, slug, weeks), ankitc=anki_tc(course, slug),
                 written=written, lectures=lectures, weeks_with=weeks_with, nweeks=nweeks,
                 eyebrow=html_escape(u"Schulich %s \u00b7 Block %s \u00b7 Weeks %s" % (course["short"], n, weeks)),

@@ -1,7 +1,7 @@
 {
  "name": "rotator cuff disease overview",
- "width": 1152,
- "title": "Rotator cuff disease staged by how far the tendon has gone: stage I inflamed but intact, stage II partial-thickness and stage III full-thickness defects, and rotator cuff arthropathy with the humerus riding up to the acromion; treatment by stage once nonoperative care fails, with the examination and the causes in panels",
+ "width": 1096,
+ "title": "Rotator cuff disease: pain, weakness and restricted motion; examine active against passive motion, the impingement signs (Neer, Hawkins, painful arc) and cuff strength; then stage it by how far the tendon has gone: stage I (shoulder impingement syndrome) inflamed but intact, stage II partial-thickness and stage III full-thickness defects, and rotator cuff arthropathy with the humerus riding up to the acromion; nonoperative care first at every stage, then surgery by stage when pain persists, the shoulder is weak or it followed an acute injury",
  "kinds": {
   "s1_h": [
    "#1f6f8b",
@@ -79,33 +79,33 @@
  "bands": [
   {
    "x": 40,
-   "y": 270,
+   "y": 506,
    "w": 260,
-   "h": 360,
+   "h": 230,
    "fill": "#eef7fa",
    "stroke": "#1f6f8b"
   },
   {
-   "x": 330,
-   "y": 270,
+   "x": 302,
+   "y": 506,
    "w": 260,
-   "h": 360,
+   "h": 230,
    "fill": "#fdf4ea",
    "stroke": "#b5600f"
   },
   {
-   "x": 592,
-   "y": 270,
+   "x": 564,
+   "y": 506,
    "w": 260,
-   "h": 360,
+   "h": 230,
    "fill": "#f5f1fb",
    "stroke": "#6a4aa8"
   },
   {
-   "x": 882,
-   "y": 270,
+   "x": 826,
+   "y": 506,
    "w": 260,
-   "h": 360,
+   "h": 230,
    "fill": "#fcf0f6",
    "stroke": "#a3336b"
   }
@@ -113,34 +113,71 @@
  "row_labels": [
   {
    "x": 23,
-   "y": 378,
+   "y": 238,
+   "h": 96,
+   "text": "EXAM"
+  },
+  {
+   "x": 23,
+   "y": 650,
    "h": 78,
    "text": "THE TENDON"
   },
   {
    "x": 23,
-   "y": 496,
+   "y": 768,
+   "h": 142,
+   "text": "TREAT FIRST"
+  },
+  {
+   "x": 23,
+   "y": 950,
    "h": 126,
-   "text": "TREATMENT"
+   "text": "BY STAGE"
   }
  ],
  "nodes": [
   {
    "id": "root",
-   "x": 211,
+   "x": 183,
    "y": 10,
    "w": 760,
    "kind": "dark",
    "title": "Rotator cuff disease: how far has the TENDON gone?",
    "lines": [
     "most common shoulder disorder · onset in the 40s · progressive",
-    "pain · weakness · restricted motion: ACTIVE motion << PASSIVE"
+    "INTRINSIC (usual): vascularity · tension overload · tendon degeneration",
+    "EXTRINSIC: acromion shape (subacromial space volume)"
    ]
   },
   {
-   "id": "g_in",
+   "id": "g_all",
    "x": 45,
-   "y": 138,
+   "y": 156,
+   "w": 1036,
+   "h": 42,
+   "kind": "plain",
+   "title": "Pain · weakness · restricted motion",
+   "lines": []
+  },
+  {
+   "id": "p_exam",
+   "x": 45,
+   "y": 238,
+   "w": 1036,
+   "h": 96,
+   "kind": "info",
+   "title": "Examine the shoulder",
+   "lines": [
+    "move: ACTIVE << PASSIVE",
+    "impingement signs: NEER · HAWKINS · PAINFUL ARC",
+    "strength: supraspinatus · infraspinatus · subscapularis"
+   ]
+  },
+  {
+   "id": "t_in",
+   "x": 45,
+   "y": 374,
    "w": 250,
    "h": 60,
    "kind": "plain",
@@ -150,9 +187,9 @@
    ]
   },
   {
-   "id": "g_tr",
-   "x": 335,
-   "y": 138,
+   "id": "t_tr",
+   "x": 307,
+   "y": 374,
    "w": 512,
    "h": 60,
    "kind": "plain",
@@ -162,9 +199,9 @@
    ]
   },
   {
-   "id": "g_ma",
-   "x": 887,
-   "y": 138,
+   "id": "t_ma",
+   "x": 831,
+   "y": 374,
    "w": 250,
    "h": 60,
    "kind": "plain",
@@ -176,21 +213,22 @@
   {
    "id": "s1_head_0_0",
    "x": 45,
-   "y": 278,
+   "y": 514,
    "w": 250,
-   "h": 60,
+   "h": 96,
    "kind": "s1_h",
    "title": "Stage I",
    "lines": [
-    "inflammation"
+    "inflammation",
+    "aka SHOULDER IMPINGEMENT SYNDROME"
    ]
   },
   {
    "id": "s2_head_0_0",
-   "x": 335,
-   "y": 278,
+   "x": 307,
+   "y": 514,
    "w": 250,
-   "h": 60,
+   "h": 96,
    "kind": "s2_h",
    "title": "Stage II",
    "lines": [
@@ -199,10 +237,10 @@
   },
   {
    "id": "s3_head_0_0",
-   "x": 597,
-   "y": 278,
+   "x": 569,
+   "y": 514,
    "w": 250,
-   "h": 60,
+   "h": 96,
    "kind": "s3_h",
    "title": "Stage III",
    "lines": [
@@ -211,10 +249,10 @@
   },
   {
    "id": "ar_head_0_0",
-   "x": 887,
-   "y": 278,
+   "x": 831,
+   "y": 514,
    "w": 250,
-   "h": 60,
+   "h": 96,
    "kind": "ar_h",
    "title": "Rotator cuff arthropathy",
    "lines": [
@@ -224,7 +262,7 @@
   {
    "id": "s1_path_0_0",
    "x": 45,
-   "y": 378,
+   "y": 650,
    "w": 250,
    "h": 78,
    "kind": "s1_t",
@@ -235,8 +273,8 @@
   },
   {
    "id": "s2_path_0_0",
-   "x": 335,
-   "y": 378,
+   "x": 307,
+   "y": 650,
    "w": 250,
    "h": 78,
    "kind": "s2_t",
@@ -245,8 +283,8 @@
   },
   {
    "id": "s3_path_0_0",
-   "x": 597,
-   "y": 378,
+   "x": 569,
+   "y": 650,
    "w": 250,
    "h": 78,
    "kind": "s3_t",
@@ -255,8 +293,8 @@
   },
   {
    "id": "ar_path_0_0",
-   "x": 887,
-   "y": 378,
+   "x": 831,
+   "y": 650,
    "w": 250,
    "h": 78,
    "kind": "ar_t",
@@ -267,9 +305,32 @@
    ]
   },
   {
+   "id": "span0_first_0_0",
+   "x": 45,
+   "y": 768,
+   "w": 1036,
+   "h": 78,
+   "kind": "ok",
+   "title": "Nonoperative, every stage: enough in the MAJORITY",
+   "lines": [
+    "education · activity modification · pain management (nonsteroidal anti-inflammatory drugs)",
+    "physiotherapy (muscle reconditioning) · injections"
+   ]
+  },
+  {
+   "id": "span0_first_1_0",
+   "x": 45,
+   "y": 868,
+   "w": 1036,
+   "h": 42,
+   "kind": "warn",
+   "title": "SURGERY when: pain persists · weakness · after an acute injury",
+   "lines": []
+  },
+  {
    "id": "s1_tx_0_0",
    "x": 45,
-   "y": 496,
+   "y": 950,
    "w": 250,
    "h": 42,
    "kind": "ok",
@@ -279,7 +340,7 @@
   {
    "id": "s1_tx_1_0",
    "x": 45,
-   "y": 560,
+   "y": 1014,
    "w": 250,
    "h": 62,
    "kind": "warn",
@@ -288,96 +349,67 @@
   },
   {
    "id": "s2_tx_0_0",
-   "x": 335,
-   "y": 496,
+   "x": 307,
+   "y": 950,
    "w": 250,
-   "h": 42,
-   "kind": "ok",
-   "title": "1 · Physiotherapy",
-   "lines": []
-  },
-  {
-   "id": "s2_tx_1_0",
-   "x": 335,
-   "y": 560,
-   "w": 250,
-   "h": 62,
+   "h": 126,
    "kind": "warn",
-   "title": "2 · CONSIDER rotator cuff repair",
+   "title": "CONSIDER rotator cuff repair",
    "lines": []
   },
   {
    "id": "s3_tx_0_0",
-   "x": 597,
-   "y": 496,
+   "x": 569,
+   "y": 950,
    "w": 250,
-   "h": 52,
-   "kind": "ok",
-   "title": "1 · Physiotherapy",
-   "lines": []
-  },
-  {
-   "id": "s3_tx_1_0",
-   "x": 597,
-   "y": 570,
-   "w": 250,
-   "h": 52,
+   "h": 126,
    "kind": "warn",
-   "title": "2 · Rotator cuff repair",
+   "title": "Rotator cuff repair",
    "lines": []
   },
   {
    "id": "ar_tx_0_0",
-   "x": 887,
-   "y": 496,
+   "x": 831,
+   "y": 950,
    "w": 250,
-   "h": 42,
-   "kind": "ok",
-   "title": "1 · Physiotherapy",
-   "lines": []
-  },
-  {
-   "id": "ar_tx_1_0",
-   "x": 887,
-   "y": 560,
-   "w": 250,
-   "h": 62,
+   "h": 126,
    "kind": "bad",
-   "title": "2 · Reverse shoulder replacement",
+   "title": "Reverse shoulder replacement",
    "lines": []
   }
  ],
  "edges": [
   {
    "from": "root",
-   "to": "g_in",
-   "path": "M591.0 88V113H170.0V138"
+   "to": "g_all",
+   "path": "M563.0 106V131H563.0V156"
   },
   {
-   "from": "root",
-   "to": "g_tr",
-   "path": "M591.0 88V113H591.0V138"
+   "from": "g_all",
+   "to": "p_exam"
   },
   {
-   "from": "root",
-   "to": "g_ma",
-   "path": "M591.0 88V113H1012.0V138"
+   "from": "p_exam",
+   "to": "t_in",
+   "from_dx": -393
+  },
+  {
+   "from": "p_exam",
+   "to": "t_tr",
+   "from_dx": 0
+  },
+  {
+   "from": "p_exam",
+   "to": "t_ma",
+   "from_dx": 393
+  },
+  {
+   "from": "span0_first_0_0",
+   "to": "span0_first_1_0"
   },
   {
    "from": "s1_tx_0_0",
    "to": "s1_tx_1_0"
-  },
-  {
-   "from": "s2_tx_0_0",
-   "to": "s2_tx_1_0"
-  },
-  {
-   "from": "s3_tx_0_0",
-   "to": "s3_tx_1_0"
-  },
-  {
-   "from": "ar_tx_0_0",
-   "to": "ar_tx_1_0"
   },
   {
    "from": "s1_head_0_0",
@@ -385,10 +417,16 @@
   },
   {
    "from": "s1_path_0_0",
-   "to": "s1_tx_0_0"
+   "to": "span0_first_0_0",
+   "to_dx": -393.0
   },
   {
-   "from": "g_in",
+   "from": "span0_first_1_0",
+   "to": "s1_tx_0_0",
+   "from_dx": -393.0
+  },
+  {
+   "from": "t_in",
    "to": "s1_head_0_0",
    "from_dx": 0
   },
@@ -398,16 +436,22 @@
   },
   {
    "from": "s2_path_0_0",
-   "to": "s2_tx_0_0"
+   "to": "span0_first_0_0",
+   "to_dx": -131.0
   },
   {
-   "from": "g_tr",
+   "from": "span0_first_1_0",
+   "to": "s2_tx_0_0",
+   "from_dx": -131.0
+  },
+  {
+   "from": "t_tr",
    "to": "s2_head_0_0",
    "from_dx": -131,
    "label": "partial",
    "label_at": [
-    460.0,
-    238
+    432.0,
+    474
    ]
   },
   {
@@ -416,16 +460,22 @@
   },
   {
    "from": "s3_path_0_0",
-   "to": "s3_tx_0_0"
+   "to": "span0_first_0_0",
+   "to_dx": 131.0
   },
   {
-   "from": "g_tr",
+   "from": "span0_first_1_0",
+   "to": "s3_tx_0_0",
+   "from_dx": 131.0
+  },
+  {
+   "from": "t_tr",
    "to": "s3_head_0_0",
    "from_dx": 131,
    "label": "full",
    "label_at": [
-    722.0,
-    238
+    694.0,
+    474
    ]
   },
   {
@@ -434,49 +484,19 @@
   },
   {
    "from": "ar_path_0_0",
-   "to": "ar_tx_0_0"
+   "to": "span0_first_0_0",
+   "to_dx": 393.0
   },
   {
-   "from": "g_ma",
+   "from": "span0_first_1_0",
+   "to": "ar_tx_0_0",
+   "from_dx": 393.0
+  },
+  {
+   "from": "t_ma",
    "to": "ar_head_0_0",
    "from_dx": 0
   }
  ],
- "panels": [
-  {
-   "x": 45,
-   "y": 656,
-   "w": 355,
-   "title": "Physiotherapy FIRST at every stage",
-   "items": [
-    "education · activity modification · pain management (nonsteroidal anti-inflammatory drugs) · physiotherapy (muscle reconditioning) · injections",
-    "nonsurgical in the MAJORITY",
-    "step 2, SURGERY, only when: pain persists · weakness · after an acute injury"
-   ],
-   "cols": 1
-  },
-  {
-   "x": 414,
-   "y": 656,
-   "w": 355,
-   "title": "Examination",
-   "items": [
-    "move: active << passive",
-    "impingement: Neer · Hawkins · painful arc",
-    "strength: supraspinatus · infraspinatus · subscapularis"
-   ],
-   "cols": 1
-  },
-  {
-   "x": 782,
-   "y": 656,
-   "w": 355,
-   "title": "Why the tendon fails",
-   "items": [
-    "INTRINSIC (usual): vascularity · tension overload · tendon degeneration",
-    "EXTRINSIC: acromion shape (subacromial space volume)"
-   ],
-   "cols": 1
-  }
- ]
+ "panels": []
 }

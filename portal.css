@@ -1041,6 +1041,11 @@ mark.lo .wl{border-bottom-color:#9a7a00;}
 
 .fam-gap[hidden]{display:none;}
 
+/* the MSK body map under the notes' heading (notes.js bodyMap) */
+.bodymap{margin-bottom:28px;}
+.bodymap .railnote{margin:0 0 10px;}
+.bodymap-frame{display:block;width:100%;height:900px;border:0;background:transparent;}
+
 .fam-head{
     padding-bottom:11px;
     margin-bottom:16px;
@@ -1825,6 +1830,13 @@ body.has-dialog{overflow:hidden;}
    (FoM + PoM 1, then PoM 2 + T2C) rather than reflowing three-and-one at wide
    widths. Block pages keep the auto-fill grid above, where the count varies. */
 .block-grid.hub-grid{grid-template-columns:repeat(2,minmax(0,1fr));}
+
+/* Clinical Skills runs beside both years rather than in either, so on a wide
+   screen it is a third column as tall as the two course rows. */
+@media (min-width:1000px){
+    .block-grid.hub-grid{grid-template-columns:repeat(3,minmax(0,1fr));}
+    .block-grid.hub-grid .block-card.is-side{grid-column:3;grid-row:1 / span 2;}
+}
 
 @media (max-width:680px){
     .block-grid.hub-grid{grid-template-columns:1fr;}

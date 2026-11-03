@@ -780,6 +780,8 @@ def build_qbank(course):
 
 
 # Where it hurts: a 3D body to tap, each region opening its MSK charts. Only the MSK block has one.
+# BODY_MAP puts it under the notes' heading as well; HURTS keeps the sidebar link to the full page.
+BODY_MAP = {("pom2", "msk"): "body-map/"}
 HURTS = {("pom2", "msk"): u"""
 
 <section>
@@ -804,6 +806,7 @@ def main():
                 "nv": portal.digest(os.path.join(d, "data", "notes", "%s.json" % slug)),
                 "dir": d, "contact": portal.CONTACT, "report": portal.REPORT_URL,
                 "lecq": lecture_counts(course, slug),
+                "bodymap": BODY_MAP.get((d, slug)),
             }
             label, fill = FAVICON[d]
             html = PAGE.format(

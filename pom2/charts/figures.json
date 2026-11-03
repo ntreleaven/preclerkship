@@ -922,6 +922,71 @@
    "source_page_url": ""
   }
  },
+ "msk-w9-06.2_3": {
+  "acl": {
+   "file": "acl.jpg",
+   "caption": "ACL snapped into two stumps inside the knee",
+   "author": "BruceBlaus (Blausen Medical)",
+   "licence": "CC BY-SA 4.0",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Anterior_Cruciate_Ligament_Tear.jpg"
+  },
+  "men": {
+   "file": "men.png",
+   "caption": "Meniscus tear patterns: vertical, bucket-handle, transverse, degenerative",
+   "author": "Mikael Häggström",
+   "licence": "CC0",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Meniscus_tear_types.svg"
+  },
+  "pcl": {
+   "file": "pcl.png",
+   "caption": "Dashboard pushes the tibia back, tearing the PCL",
+   "author": "Drawn for this page",
+   "licence": "CC BY 4.0",
+   "source_page_url": ""
+  },
+  "mcl": {
+   "file": "mcl.png",
+   "caption": "Valgus blow from outside opens the inside, tearing MCL",
+   "author": "Drawn for this page",
+   "licence": "CC BY 4.0",
+   "source_page_url": ""
+  },
+  "lcl": {
+   "file": "lcl.png",
+   "caption": "Varus force from inside opens the outside, tearing LCL",
+   "author": "Drawn for this page",
+   "licence": "CC BY 4.0",
+   "source_page_url": ""
+  },
+  "pfps": {
+   "file": "pfps.png",
+   "caption": "Runner's knee: ache around the front of the kneecap",
+   "author": "InjuryMap",
+   "licence": "CC BY-SA 4.0 (cropped)",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:IT_band_syndrome_vs_Runner%27s_knee.svg"
+  },
+  "bur": {
+   "file": "bur.png",
+   "caption": "Knee bursae: above, in front of, and below the kneecap",
+   "author": "Jmarchn",
+   "licence": "CC0",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Knee_bursae.svg"
+  },
+  "itb": {
+   "file": "itb.png",
+   "caption": "IT band rubbing over the lateral femoral epicondyle",
+   "author": "Jmarchn",
+   "licence": "CC BY-SA 3.0 (cropped)",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Iliotibial_band_syndrome-en.svg"
+  },
+  "bak": {
+   "file": "bak.jpg",
+   "caption": "Fluid-filled cyst bulging behind the knee (bright on MRI)",
+   "author": "Hellerhoff",
+   "licence": "CC BY-SA 4.0 (cropped)",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Grosse_lobulierte_Baker-Zyste_an_typischer_Stelle_26W_-_MR_-_001.jpg"
+  }
+ },
  "msk-w9-07.2_2": {
   "pfps": {
    "file": "pfps.png",

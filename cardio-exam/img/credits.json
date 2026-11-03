@@ -1,0 +1,227 @@
+[
+  {
+    "test": "Hands",
+    "file": "hands.jpg",
+    "slug": "hands.jpg",
+    "source_page_url": "https://rsc.lib.uwo.ca/s/healthedu/item/1416",
+    "author": "Labatt Family School of Nursing, Schulich School of Medicine and Dentistry (Health Education Media Library, Western Libraries)",
+    "licence": "CC BY-NC 4.0",
+    "what_it_shows": "Both hands held out, back of the hands up, for colour, nails and fingertips (clubbing, splinter hemorrhages)"
+  },
+  {
+    "test": "Capillary refill",
+    "file": "capillary-refill.jpg",
+    "slug": "capillary-refill.jpg",
+    "source_page_url": "https://rsc.lib.uwo.ca/s/healthedu/item/1418",
+    "author": "Labatt Family School of Nursing, Schulich School of Medicine and Dentistry (Health Education Media Library, Western Libraries)",
+    "licence": "CC BY-NC 4.0",
+    "what_it_shows": "Capillary refill check at the fingertips"
+  },
+  {
+    "test": "Carotid pulse",
+    "file": "carotid-pulse.jpg",
+    "slug": "carotid-pulse.jpg",
+    "source_page_url": "https://commons.wikimedia.org/wiki/File:Pulse_%28Neck%29.png",
+    "author": "BruceBlaus",
+    "licence": "CC BY-SA 4.0",
+    "what_it_shows": "Two fingers on the carotid pulse in the neck"
+  },
+  {
+    "test": "Heart sounds",
+    "file": "heart-sounds-cycle.jpg",
+    "slug": "heart-sounds-cycle.jpg",
+    "source_page_url": "https://github.com/schulichmed/preclerkship",
+    "author": "Noor Simsam (drawn for this page)",
+    "licence": "CC0",
+    "what_it_shows": "S1, S2, S3 and S4 in one cardiac cycle"
+  },
+  {
+    "test": "Aortic stenosis",
+    "file": "murmur-aortic-stenosis.jpg",
+    "slug": "murmur-aortic-stenosis.jpg",
+    "source_page_url": "https://github.com/schulichmed/preclerkship",
+    "author": "Noor Simsam (drawn for this page)",
+    "licence": "CC0",
+    "what_it_shows": "Schematic of the murmur"
+  },
+  {
+    "test": "Aortic regurgitation",
+    "file": "murmur-aortic-regurgitation.jpg",
+    "slug": "murmur-aortic-regurgitation.jpg",
+    "source_page_url": "https://github.com/schulichmed/preclerkship",
+    "author": "Noor Simsam (drawn for this page)",
+    "licence": "CC0",
+    "what_it_shows": "Schematic of the murmur"
+  },
+  {
+    "test": "Mitral stenosis",
+    "file": "murmur-mitral-stenosis.jpg",
+    "slug": "murmur-mitral-stenosis.jpg",
+    "source_page_url": "https://github.com/schulichmed/preclerkship",
+    "author": "Noor Simsam (drawn for this page)",
+    "licence": "CC0",
+    "what_it_shows": "Schematic of the murmur"
+  },
+  {
+    "test": "Mitral regurgitation",
+    "file": "murmur-mitral-regurgitation.jpg",
+    "slug": "murmur-mitral-regurgitation.jpg",
+    "source_page_url": "https://github.com/schulichmed/preclerkship",
+    "author": "Noor Simsam (drawn for this page)",
+    "licence": "CC0",
+    "what_it_shows": "Schematic of the murmur"
+  },
+  {
+    "test": "Chest wall inspection",
+    "file": "chest-wall-inspection.jpg",
+    "slug": "chest-wall-inspection.jpg",
+    "source_page_url": "https://rsc.lib.uwo.ca/s/healthedu/item/2254",
+    "author": "Labatt Family School of Nursing, Schulich School of Medicine and Dentistry (Health Education Media Library, Western Libraries)",
+    "licence": "CC BY-NC 4.0, cropped",
+    "what_it_shows": "Bare, reclined chest with a dressing, looked at for scars and the apical impulse"
+  },
+  {
+    "test": "Listening areas",
+    "file": "listening-areas.jpg",
+    "slug": "listening-areas.jpg",
+    "source_page_url": "https://rsc.lib.uwo.ca/s/healthedu/item/2256",
+    "author": "Labatt Family School of Nursing, Schulich School of Medicine and Dentistry (Health Education Media Library, Western Libraries)",
+    "licence": "CC BY-NC 4.0, cropped",
+    "what_it_shows": "Stethoscope placed on the chest over the heart"
+  },
+  {
+    "test": "Radial pulse",
+    "file": "radial-pulse.jpg",
+    "slug": "radial-pulse.jpg",
+    "source_page_url": "https://rsc.lib.uwo.ca/s/healthedu/item/2312",
+    "author": "Labatt Family School of Nursing, Schulich School of Medicine and Dentistry (Health Education Media Library, Western Libraries)",
+    "licence": "CC BY-NC 4.0, cropped",
+    "what_it_shows": "Fingertips on the radial pulse at the wrist"
+  },
+  {
+    "test": "Peripheral edema",
+    "file": "peripheral-edema.jpg",
+    "slug": "peripheral-edema.jpg",
+    "source_page_url": "https://commons.wikimedia.org/wiki/File:Combinpedal.jpg",
+    "author": "James Heilman, MD",
+    "licence": "CC BY-SA 3.0, cropped",
+    "what_it_shows": "Finger pressing into a swollen lower leg to look for pitting"
+  },
+  {
+    "test": "JVP (jugular venous pressure)",
+    "file": "jvp-raised.jpg",
+    "slug": "jvp-raised.jpg",
+    "source_page_url": "https://commons.wikimedia.org/wiki/File:Elevated_Jugular_Venous_Pressure.jpg",
+    "author": "James Heilman, MD",
+    "licence": "CC BY-SA 4.0",
+    "what_it_shows": "Raised jugular venous pressure: the distended internal jugular vein in the neck"
+  },
+  {
+    "test": "Face and eyes",
+    "file": "face-xanthelasma.jpg",
+    "slug": "face-xanthelasma.jpg",
+    "source_page_url": "https://commons.wikimedia.org/wiki/File:Xanthelasma.jpg",
+    "author": "Klaus D. Peter, Wiehl, Germany",
+    "licence": "CC BY 3.0 de",
+    "what_it_shows": "Xanthelasma: yellow fatty plaques on the eyelids"
+  },
+  {
+    "test": "Landmarks: auscultate",
+    "file": "auscultate-landmarks.jpg",
+    "slug": "auscultate-landmarks.jpg",
+    "source_page_url": "https://commons.wikimedia.org/wiki/File:Auscultationis_areae_La.svg",
+    "author": "Andreas Raether",
+    "licence": "CC BY-SA 4.0",
+    "what_it_shows": "The four valve listening areas on the chest (aortic, pulmonary, tricuspid, mitral; Latin labels)"
+  },
+  {
+    "test": "Brachial pulse",
+    "file": "brachial-pulse.jpg",
+    "slug": "brachial-pulse.jpg",
+    "source_page_url": "https://commons.wikimedia.org/wiki/File:Figure62brachial.svg",
+    "author": "Silentplanetart",
+    "licence": "CC BY-SA 4.0",
+    "what_it_shows": "Line illustration: two fingers on the brachial artery in the arm"
+  },
+  {
+    "test": "Femoral pulse",
+    "file": "femoral-pulse.jpg",
+    "slug": "femoral-pulse.jpg",
+    "source_page_url": "https://commons.wikimedia.org/wiki/File:Figure62femoral.svg",
+    "author": "Silentplanetart",
+    "licence": "CC BY-SA 4.0",
+    "what_it_shows": "Line illustration: two fingers on the femoral artery in the groin"
+  },
+  {
+    "test": "Dorsalis pedis pulse",
+    "file": "dorsalis-pedis-pulse.jpg",
+    "slug": "dorsalis-pedis-pulse.jpg",
+    "source_page_url": "https://commons.wikimedia.org/wiki/File:Figure62pedal.svg",
+    "author": "Silentplanetart",
+    "licence": "CC BY-SA 4.0",
+    "what_it_shows": "Line illustration: fingers on the dorsalis pedis artery on the top of the foot"
+  },
+  {
+    "test": "General inspection",
+    "file": "general-inspection.jpg",
+    "slug": "general-inspection.jpg",
+    "source_page_url": "https://rsc.lib.uwo.ca/s/healthedu/item/2236",
+    "author": "Schulich School of Medicine and Dentistry (Health Education Media Library, Western Libraries)",
+    "licence": "CC BY-NC 4.0",
+    "what_it_shows": "Patient reclined in bed, looked at from the foot of the bed for distress, colour and breathing"
+  },
+  {
+    "test": "Apical impulse (PMI)",
+    "file": "apical-impulse.jpg",
+    "slug": "apical-impulse.jpg",
+    "source_page_url": "https://commons.wikimedia.org/wiki/File:Apex_beat.png",
+    "author": "Shashikiranu",
+    "licence": "CC BY 3.0",
+    "what_it_shows": "Flowchart classifying the apex beat: normal, tapping, hyperdynamic, heaving; bottom website line cropped"
+  },
+  {
+    "test": "Liver and aorta",
+    "file": "liver-palpation.jpg",
+    "slug": "liver-palpation.jpg",
+    "source_page_url": "https://rsc.lib.uwo.ca/s/healthedu/item/1988",
+    "author": "Schulich School of Medicine and Dentistry (Health Education Media Library, Western Libraries)",
+    "licence": "CC BY-NC 4.0",
+    "what_it_shows": "Hand pressing deeply into the right upper abdomen to feel the liver edge"
+  },
+  {
+    "test": "Ascites",
+    "file": "ascites.jpg",
+    "slug": "ascites.jpg",
+    "source_page_url": "https://commons.wikimedia.org/wiki/File:Hepaticfailure.jpg",
+    "author": "James Heilman, MD",
+    "licence": "CC BY-SA 3.0",
+    "what_it_shows": "Distended, tense abdomen from ascites in liver failure, cropped"
+  },
+  {
+    "test": "Lung bases and sacrum",
+    "file": "lung-bases.jpg",
+    "slug": "lung-bases.jpg",
+    "source_page_url": "https://rsc.lib.uwo.ca/s/healthedu/item/1452",
+    "author": "Schulich School of Medicine and Dentistry (Health Education Media Library, Western Libraries)",
+    "licence": "CC BY-NC 4.0",
+    "what_it_shows": "Stethoscope on the back of the chest (male actor), listening at a posterior lung field"
+  },
+  {
+    "test": "Describing a murmur",
+    "file": "describing-a-murmur.jpg",
+    "slug": "describing-a-murmur.jpg",
+    "source_page_url": "",
+    "author": "Drawn for this page (Claude), concept diagram",
+    "licence": "CC0",
+    "what_it_shows": "The six descriptors, with plateau, crescendo-decrescendo and decrescendo shapes"
+  },
+  {
+    "test": "Tricuspid regurgitation",
+    "file": "tricuspid-regurgitation.jpg",
+    "slug": "tricuspid-regurgitation.jpg",
+    "source_page_url": "",
+    "author": "Drawn for this page (Claude), concept diagram",
+    "licence": "CC0",
+    "what_it_shows": "Four-chamber schematic with blood leaking from right ventricle to right atrium, and the bedside findings"
+  }
+]

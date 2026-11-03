@@ -1,0 +1,92 @@
+[
+ {
+  "test": "Arms at sides",
+  "file": "arms-at-sides.jpg",
+  "slug": "arms-at-sides.jpg",
+  "source_page_url": "https://commons.wikimedia.org/wiki/File:Breast_self-exam_illustration_(series_of_6).jpg",
+  "author": "Unknown Illustrator (U.S. National Cancer Institute collection)",
+  "licence": "Public domain",
+  "what_it_shows": "Line drawing of a seated or standing patient, arms relaxed at her sides, both breasts in view."
+ },
+ {
+  "test": "Arms over head",
+  "file": "arms-over-head.jpg",
+  "slug": "arms-over-head.jpg",
+  "source_page_url": "https://commons.wikimedia.org/wiki/File:Breast_self-exam_illustration_(series_of_6)_(1).jpg",
+  "author": "Unknown Illustrator (U.S. National Cancer Institute collection)",
+  "licence": "Public domain",
+  "what_it_shows": "Line drawing of the patient with both arms raised over her head."
+ },
+ {
+  "test": "Hands pressed on hips",
+  "file": "hands-pressed-on-hips.jpg",
+  "slug": "hands-pressed-on-hips.jpg",
+  "source_page_url": "https://commons.wikimedia.org/wiki/File:Breast_self-exam_illustration_(series_of_6)_(2).jpg",
+  "author": "Unknown Illustrator (U.S. National Cancer Institute collection)",
+  "licence": "Public domain",
+  "what_it_shows": "Line drawing of the patient with her hands pressed firmly on her hips."
+ },
+ {
+  "test": "Axillary nodes",
+  "file": "axillary-nodes.jpg",
+  "slug": "axillary-nodes.jpg",
+  "source_page_url": "https://commons.wikimedia.org/wiki/File:Breast_and_adjacent_lymph_nodes.jpg",
+  "author": "Don Bliss (Illustrator) (National Cancer Institute)",
+  "licence": "Public domain",
+  "what_it_shows": "Diagram of the breast with the lymph nodes of the armpit and the lymph vessels draining to them."
+ },
+ {
+  "test": "Mobility of a mass",
+  "file": "mobility-of-a-mass.jpg",
+  "slug": "mobility-of-a-mass.jpg",
+  "source_page_url": "https://commons.wikimedia.org/wiki/File:Breast_structure.jpg",
+  "author": "Susan Spangler (Illustrator) (National Cancer Institute)",
+  "licence": "Public domain",
+  "what_it_shows": "Cross-section diagram of the breast over the muscle and ribs: the layers a lump can be fixed to."
+ },
+ {
+  "test": "Landmarks: palpate",
+  "file": "palpate-landmarks.jpg",
+  "slug": "palpate-landmarks.jpg",
+  "source_page_url": "https://github.com/schulichmed/preclerkship",
+  "author": "Noor Simsam (drawn for this page, make_diagrams.py)",
+  "licence": "CC0 (own drawing)",
+  "what_it_shows": "Drawn for this page: the rectangle of breast tissue to cover and the vertical strips."
+ },
+ {
+  "test": "Lateral (outer) half",
+  "file": "lateral-outer-half.jpg",
+  "slug": "lateral-outer-half.jpg",
+  "source_page_url": "https://github.com/schulichmed/preclerkship",
+  "author": "Noor Simsam (drawn for this page, make_diagrams.py)",
+  "licence": "CC0 (own drawing)",
+  "what_it_shows": "Drawn for this page: vertical strips over the outer half, from the armpit toward the nipple."
+ },
+ {
+  "test": "Medial (inner) half",
+  "file": "medial-inner-half.jpg",
+  "slug": "medial-inner-half.jpg",
+  "source_page_url": "https://github.com/schulichmed/preclerkship",
+  "author": "Noor Simsam (drawn for this page, make_diagrams.py)",
+  "licence": "CC0 (own drawing)",
+  "what_it_shows": "Drawn for this page: vertical strips over the inner half, from the nipple to the breastbone."
+ },
+ {
+  "test": "Male breast: inspect and palpate",
+  "file": "male-breast-inspect-palpate.jpg",
+  "slug": "male-breast-inspect-palpate.jpg",
+  "source_page_url": "https://github.com/schulichmed/preclerkship",
+  "author": "Drawn for this page (Claude)",
+  "licence": "CC0 (own drawing)",
+  "what_it_shows": "Drawn for this page (Claude), concept/technique diagram: the male chest and the area to palpate around each nipple"
+ },
+ {
+  "test": "Enlarged male breast",
+  "file": "enlarged-male-breast.jpg",
+  "slug": "enlarged-male-breast.jpg",
+  "source_page_url": "https://github.com/schulichmed/preclerkship",
+  "author": "Drawn for this page (Claude)",
+  "licence": "CC0 (own drawing)",
+  "what_it_shows": "Drawn for this page (Claude), concept/technique diagram: side-view sections: gynecomastia, fat only, and a hard eccentric mass"
+ }
+]

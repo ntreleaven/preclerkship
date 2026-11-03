@@ -1,0 +1,137 @@
+[
+  {
+    "test": "Capillary refill",
+    "file": "capillary-refill.jpg",
+    "slug": "capillary-refill.jpg",
+    "source_page_url": "https://rsc.lib.uwo.ca/s/healthedu/item/1418",
+    "author": "Schulich School of Medicine and Dentistry (Health Education Media Library, Western Libraries)",
+    "licence": "CC BY-NC 4.0",
+    "what_it_shows": "Assessing cap refill (pressing a fingernail)"
+  },
+  {
+    "test": "Auscultating a lung field",
+    "file": "auscultating-a-lung-field.jpg",
+    "slug": "auscultating-a-lung-field.jpg",
+    "source_page_url": "https://rsc.lib.uwo.ca/s/healthedu/item/1452",
+    "author": "Schulich School of Medicine and Dentistry (Health Education Media Library, Western Libraries)",
+    "licence": "CC BY-NC 4.0",
+    "what_it_shows": "Auscultating the posterior chest"
+  },
+  {
+    "test": "Egophony",
+    "file": "egophony.jpg",
+    "slug": "egophony.jpg",
+    "source_page_url": "https://rsc.lib.uwo.ca/s/healthedu/item/1448",
+    "author": "Schulich School of Medicine and Dentistry (Health Education Media Library, Western Libraries)",
+    "licence": "CC BY-NC 4.0",
+    "what_it_shows": "Stethoscope on the posterior chest"
+  },
+  {
+    "test": "Whispered pectoriloquy",
+    "file": "whispered-pectoriloquy.jpg",
+    "slug": "whispered-pectoriloquy.jpg",
+    "source_page_url": "https://rsc.lib.uwo.ca/s/healthedu/item/1450",
+    "author": "Schulich School of Medicine and Dentistry (Health Education Media Library, Western Libraries)",
+    "licence": "CC BY-NC 4.0",
+    "what_it_shows": "Stethoscope on the posterior chest"
+  },
+  {
+    "test": "Anterior auscultation",
+    "file": "anterior-auscultation.jpg",
+    "slug": "anterior-auscultation.jpg",
+    "source_page_url": "https://rsc.lib.uwo.ca/s/healthedu/item/1392",
+    "author": "Schulich School of Medicine and Dentistry (Health Education Media Library, Western Libraries)",
+    "licence": "CC BY-NC 4.0",
+    "what_it_shows": "Auscultating the upper left lobe at the 4th intercostal space"
+  },
+  {
+    "test": "Right middle lobe",
+    "file": "right-middle-lobe.jpg",
+    "slug": "right-middle-lobe.jpg",
+    "source_page_url": "https://rsc.lib.uwo.ca/s/healthedu/item/1394",
+    "author": "Schulich School of Medicine and Dentistry (Health Education Media Library, Western Libraries)",
+    "licence": "CC BY-NC 4.0",
+    "what_it_shows": "Auscultating the mid right lobe at the 4th intercostal space"
+  },
+  {
+    "test": "Pitting edema (lower limbs)",
+    "file": "pitting-edema-lower-limbs.jpg",
+    "slug": "pitting-edema-lower-limbs.jpg",
+    "source_page_url": "https://commons.wikimedia.org/wiki/File:Combinpedal.jpg",
+    "author": "James Heilman, MD",
+    "licence": "CC BY-SA 3.0, cropped",
+    "what_it_shows": "Pitting edema: a thumb press leaves a dent in the swollen shin"
+  },
+  {
+    "test": "Clubbing (Schamroth sign)",
+    "file": "schamroth-sign.jpg",
+    "slug": "schamroth-sign.jpg",
+    "source_page_url": "https://commons.wikimedia.org/wiki/File:Schamroths.jpg",
+    "author": "Rollcloud",
+    "licence": "CC BY 3.0",
+    "what_it_shows": "Schamroth sign: the diamond-shaped window between the nails is lost"
+  },
+  {
+    "test": "Clubbing (upper limb)",
+    "file": "clubbing.jpg",
+    "slug": "clubbing.jpg",
+    "source_page_url": "https://commons.wikimedia.org/wiki/File:Clubbing_of_fingers_in_IPF.jpg",
+    "author": "IPFeditor",
+    "licence": "CC BY-SA 3.0",
+    "what_it_shows": "Clubbed fingertips (idiopathic pulmonary fibrosis)"
+  },
+  {
+    "test": "Cervical and supraclavicular lymph nodes",
+    "file": "cervical-lymph-nodes.jpg",
+    "slug": "cervical-lymph-nodes.jpg",
+    "source_page_url": "https://commons.wikimedia.org/wiki/File:Cervical_lymphadenopathy_right_neck.png",
+    "author": "Coronation Dental Specialty Group (Ian Furst)",
+    "licence": "CC BY-SA 4.0",
+    "what_it_shows": "Enlarged cervical lymph nodes in the neck (arrowheads), cropped"
+  },
+  {
+    "test": "Chest shape and skin (SEADS)",
+    "file": "chest-shape.jpg",
+    "slug": "chest-shape.jpg",
+    "source_page_url": "https://commons.wikimedia.org/wiki/File:Physical_diagnosis_(1912)_(14770064641).jpg",
+    "author": "Richard C. Cabot, Physical Diagnosis (1912), via Internet Archive Book Images",
+    "licence": "Public domain",
+    "what_it_shows": "Barrel chest from chronic bronchitis and emphysema: a deep, rounded chest seen from the side"
+  },
+  {
+    "test": "Spine and renal angle tenderness",
+    "file": "cva-angle.jpg",
+    "slug": "cva-angle.jpg",
+    "source_page_url": "https://commons.wikimedia.org/wiki/File:CVangle.png",
+    "author": "Brainmachine",
+    "licence": "CC0",
+    "what_it_shows": "Back skeleton with the costovertebral (renal) angle marked"
+  },
+  {
+    "test": "Tracheal position",
+    "file": "tracheal-position.jpg",
+    "slug": "tracheal-position.jpg",
+    "source_page_url": "",
+    "author": "Drawn for this page (Claude), concept diagram",
+    "licence": "CC0",
+    "what_it_shows": "Normal, pushed-away and pulled-toward trachea, with causes"
+  },
+  {
+    "test": "Diaphragmatic excursion",
+    "file": "diaphragmatic-excursion.jpg",
+    "slug": "diaphragmatic-excursion.jpg",
+    "source_page_url": "",
+    "author": "Drawn for this page (Claude), concept diagram",
+    "licence": "CC0",
+    "what_it_shows": "Dull level marked after breathing out and after breathing in; 3 to 5 cm apart"
+  },
+  {
+    "test": "Asterixis",
+    "file": "asterixis.jpg",
+    "slug": "asterixis.jpg",
+    "source_page_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10972428",
+    "author": "Flapping Tremor: Unraveling Asterixis, a narrative review (Medicina 2024, 60(3):362), Figure 2",
+    "licence": "CC BY 4.0 (cropped to the upper-limb panel)",
+    "what_it_shows": "Line drawing: arm extended, wrist dorsiflexed, then the irregular flapping of the hand (published illustration, not a photograph)"
+  }
+]

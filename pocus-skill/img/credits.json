@@ -1,0 +1,56 @@
+[
+ {
+  "test": "Subxiphoid (heart)",
+  "file": "subxiphoid.jpg",
+  "slug": "subxiphoid.jpg",
+  "source_page_url": "https://commons.wikimedia.org/wiki/File:Subcostal_view_of_heart.gif",
+  "author": "Patrick J. Lynch, medical illustrator, and C. Carl Jaffe, MD",
+  "licence": "CC BY 2.5",
+  "what_it_shows": "Subcostal (subxiphoid) four-chamber view: the echo image beside the heart drawn in the same plane, with the liver as the window"
+ },
+ {
+  "test": "Right upper quadrant",
+  "file": "ruq.jpg",
+  "slug": "ruq.jpg",
+  "source_page_url": "https://commons.wikimedia.org/wiki/File:Abdominal_Ultrasound_Full_Exam_28.jpg",
+  "author": "Ptrump16",
+  "licence": "CC BY-SA 4.0",
+  "what_it_shows": "Liver above, right kidney below, the diaphragm as a bright curved line (labelled in French by the scanner: REIN DROIT, right kidney)"
+ },
+ {
+  "test": "Gallbladder",
+  "file": "gallbladder.jpg",
+  "slug": "gallbladder.jpg",
+  "source_page_url": "https://commons.wikimedia.org/wiki/File:Abdominal_Ultrasound_Full_Exam_11.jpg",
+  "author": "Ptrump16",
+  "licence": "CC BY-SA 4.0",
+  "what_it_shows": "Black, bag-shaped gallbladder against the liver (labelled in French by the scanner: VES.BIL., gallbladder)"
+ },
+ {
+  "test": "Left upper quadrant",
+  "file": "luq.jpg",
+  "slug": "luq.jpg",
+  "source_page_url": "https://commons.wikimedia.org/wiki/File:Abdominal_Ultrasound_Full_Exam_54.jpg",
+  "author": "Ptrump16",
+  "licence": "CC BY-SA 4.0 (cropped to the image area)",
+  "what_it_shows": "Normal spleen (labelled SPLEEN by the scanner) with the left kidney's bright central sinus beside it, from a normal full abdominal exam"
+ },
+ {
+  "test": "Pelvis, transverse",
+  "file": "pelvis_transverse.jpg",
+  "slug": "pelvis_transverse.jpg",
+  "source_page_url": "https://commons.wikimedia.org/wiki/File:Echographie_pelvienne,_aplio_toshiba_ssa_700_5_2004_01.JPG",
+  "author": "Anne Mousse",
+  "licence": "CC0 (one panel cropped; the patient's name, blurred in the source, is cropped out)",
+  "what_it_shows": "Transabdominal view through a full bladder (black, top) of a normal non-pregnant uterus behind it; the source does not name the plane, but the wide symmetrical cross-section is a transverse view"
+ },
+ {
+  "test": "Pelvis, sagittal",
+  "file": "pelvis_sagittal.jpg",
+  "slug": "pelvis_sagittal.jpg",
+  "source_page_url": "https://commons.wikimedia.org/wiki/File:Vagina_US.png",
+  "author": "user:schomynv",
+  "licence": "CC0",
+  "what_it_shows": "Sagittal pelvis through a full bladder: bladder (1, black), uterus (2) and vagina (3) in a line (numbers from the source; the scanner logo in the corner is cropped)"
+ }
+]

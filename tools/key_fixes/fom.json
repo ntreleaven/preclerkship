@@ -284,5 +284,20 @@
     ],
     "answer": "<p><strong>The correct answer is A.</strong> In an older adult any fall matters: falls are one of the geriatric syndromes, and a fall can be the only sign of a serious illness such as an MI, an infection or hyperthyroidism.</p>",
     "why": "01 - Healthy Aging vs. Disease lists falls among the geriatric syndromes and warns that in older adults a fall may be the only presenting sign of an MI, appendicitis, infection or hyperthyroidism."
+  },
+  "b3-wb-heme-q24": {
+    "convert": "mcq",
+    "correct": [
+      "B"
+    ],
+    "why": "The workbook's key line gives B, but the bank had kept this as a self-marked question with no key. 10 - Pharmacological Treatment of Anemias: without vitamin B12, THF is trapped as methyl-THF."
+  },
+  "b3-wb-heme-q25": {
+    "convert": "mcq",
+    "correct": [
+      "C"
+    ],
+    "lead": "<p><strong>The correct answer is C.</strong></p>",
+    "why": "The workbook's key line gives C, but the bank had kept this as a self-marked question with no key. 03 - Approach to Microcytic Anemia: alpha thalassemia is common in South-East Asian and African populations, beta thalassemia in Mediterranean ones."
   }
 }

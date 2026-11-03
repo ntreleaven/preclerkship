@@ -13,6 +13,8 @@
   "use strict";
 
   var BLOCK = window.QUIZ_BLOCK;
+  // blocks whose notes show each chart as its interactive page, as the body map does
+  var FRAMED_CHARTS = ["msk"];
 
   var TABS = {
     notes: {
@@ -203,10 +205,34 @@
       fopen.addEventListener("click", function () { openFigure(b, lec, ctx); });
       fbox.appendChild(fopen);
 
-      /* A chart that also exists as an interactive page (pom2/charts) gets a
-         button to it, in a new tab. The note keeps the drawn chart: the user
-         tried the interactive page framed inside the note and preferred the
-         picture here and Look / Walk / Test a click away. */
+      /* In the MSK notes the chart is its interactive page, framed: the same
+         chart the "Where does it hurt?" body map pops up, so the two always
+         look alike. The drawn chart behind it is what prints and what "Open
+         full size" opens. */
+      if (b.interactive && BLOCK && FRAMED_CHARTS.indexOf(BLOCK.slug) >= 0) {
+        fbox.classList.add("has-live");
+        var frame = el("iframe", "fig-frame");
+        frame.src = b.interactive + "?embed=1&theme=" + currentTheme();
+        frame.title = (b.alt || "Overview chart") + ", interactive";
+        frame.loading = "lazy";
+        // a first guess at the height; the page reports its real one
+        frame.style.height = Math.round(Math.min(b.h || 1600, 2400) * 0.7) + "px";
+        fbox.insertBefore(frame, fig);
+
+        var tools = el("div", "fig-tools");
+        var own = el("a", "fig-open fig-live", "Open on its own page");
+        own.href = b.interactive;
+        own.target = "_blank";
+        own.rel = "noopener";
+        own.title = "The interactive chart in a tab of its own, with room to spread out";
+        tools.appendChild(own);
+        tools.appendChild(fopen);
+        fbox.insertBefore(tools, frame);
+        return fbox;
+      }
+
+      /* Elsewhere a chart that also exists as an interactive page (pom2/charts)
+         gets a button to it, in a new tab, and the note keeps the drawn chart. */
       if (b.interactive) {
         var live = el("a", "fig-open fig-live", "Interactive chart");
         live.href = b.interactive;
@@ -711,9 +737,24 @@
   /* The head script flips data-theme on the root; nothing else on the page
      needs telling, only the diagrams. */
   if (window.MutationObserver) {
-    new MutationObserver(function () { redrawPathways(); })
+    new MutationObserver(function () { redrawPathways(); tellFrames(); })
       .observe(document.documentElement, { attributes: true, attributeFilter: ["data-theme"] });
   }
+
+  /* The interactive charts in their frames follow the page's theme, and tell
+     the page how tall they are so the note scrolls, never the frame. */
+  function tellFrames() {
+    document.querySelectorAll("iframe.fig-frame").forEach(function (f) {
+      if (f.contentWindow) f.contentWindow.postMessage({ chartTheme: currentTheme() }, "*");
+    });
+  }
+  window.addEventListener("message", function (e) {
+    var d = e.data;
+    if (!d || typeof d.chartHeight !== "number") return;
+    document.querySelectorAll("iframe.fig-frame").forEach(function (f) {
+      if (f.contentWindow === e.source) f.style.height = Math.ceil(d.chartHeight) + "px";
+    });
+  });
 
   window.PORTAL_NOTES = {
     written: written,

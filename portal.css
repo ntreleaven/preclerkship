@@ -2415,6 +2415,17 @@ body.has-dialog{overflow:hidden;}
 
 .figblock:hover .fig-open{border-color:var(--muted);}
 .fig-live{right:auto;left:8px;text-decoration:none;}
+
+/* an MSK chart is its interactive page, in a frame: the drawn chart behind it
+   is what prints and what "Open full size" opens */
+.fig-tools{display:flex;flex-wrap:wrap;justify-content:flex-end;gap:6px;margin:0 0 6px;}
+.has-live .fig-open{position:static;}
+.fig-frame{display:block;width:100%;border:0;background:transparent;}
+.has-live .fig{display:none;}
+@media print{
+    .has-live .fig-frame,.fig-tools{display:none;}
+    .has-live .fig{display:block;}
+}
 .fig-open:hover{color:var(--q-accent-text);border-color:var(--q-accent);}
 
 .workup{

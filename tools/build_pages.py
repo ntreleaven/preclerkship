@@ -274,11 +274,31 @@ def anki_panel(course, slug, weeks):
     tools/build_anki.py writes beside the .apkg it exports. No manifest means no
     deck, and the tab says so rather than offering a dead download.
     """
+    paths = deck_manifests(course, slug)
+    if not paths:
+        return ANKI_EMPTY.format(course=course["short"], weeks=weeks)
+    out = []
+    for i, p in enumerate(paths):
+        out += deck_section(course, json.load(io.open(p, encoding="utf-8")), weeks, i == 0)
+    out += lab_decks(course, slug)
+    # a course with no preview contributes an empty string, not a blank line
+    return "\n".join(x for x in out if x)
+
+
+def deck_manifests(course, slug):
+    """The block's deck manifests: <block>.json, then any split parts <block>-2.json, ...
+
+    A block whose deck outgrows GitHub's file size limit is split by week into
+    several files, each with its own manifest and download.
+    """
     p = os.path.join(course["slug"], "data", "anki", "%s.json" % slug)
     if not os.path.exists(p):
-        return ANKI_EMPTY.format(course=course["short"], weeks=weeks)
-    m = json.load(io.open(p, encoding="utf-8"))
+        return []
+    return [p] + sorted(glob.glob(os.path.join(course["slug"], "data", "anki", "%s-[0-9]*.json" % slug)))
 
+
+def deck_section(course, m, weeks, first):
+    """One deck download: its draft note, counts, how to import (once), and lectures."""
     mb = "%.0f MB" % (m["bytes"] / 1048576.0)
     out = ['<div class="deck">']
     # A draft deck says so before anything else, the way the notes tab does.
@@ -290,7 +310,7 @@ def anki_panel(course, slug, weeks):
     out += [
            '<div class="deck-head">',
            '<div class="deck-what">',
-           '<h2>%s, weeks %s</h2>' % (course["short"], weeks),
+           '<h2>%s, %s</h2>' % (course["short"], m.get("label", "weeks %s" % weeks)),
            '<p class="deck-sum"><b>%d</b> cards from <b>%d</b> notes, '
            'across %d lectures. <b>%d</b> are marked high-yield.</p>'
            % (m["cards"], m["notes"],
@@ -299,15 +319,16 @@ def anki_panel(course, slug, weeks):
            '</div>',
            '<a class="deck-dl" href="%s" download>Download the deck '
            '<span class="sz">%s</span></a>' % (m["file"], mb),
-           '</div>',
-           '<div class="deck-how">',
-           '<p><strong>To import it:</strong> open Anki on a computer, then '
-           '<strong>File &rarr; Import</strong> and pick the file. It arrives as '
-           '<code>%s</code> with the week and lecture subdecks intact, so it sits '
-           'beside whatever you already have rather than merging into it.</p>' % m["deck"],
-           anki_preview(course),
-           '</div>',
-           '<div class="deck-weeks">']
+           '</div>']
+    if first:
+        out += ['<div class="deck-how">',
+                '<p><strong>To import it:</strong> open Anki on a computer, then '
+                '<strong>File &rarr; Import</strong> and pick the file. It arrives as '
+                '<code>%s</code> with the week and lecture subdecks intact, so it sits '
+                'beside whatever you already have rather than merging into it.</p>' % m["deck"],
+                anki_preview(course),
+                '</div>']
+    out += ['<div class="deck-weeks">']
     for w in m["weeks"]:
         n = sum(l["cards"] for l in w["lectures"])
         out.append('<section class="deck-week">')
@@ -324,9 +345,7 @@ def anki_panel(course, slug, weeks):
         out.append('</section>')
     out.append('</div>')
     out.append('</div>')
-    out += lab_decks(course, slug)
-    # a course with no preview contributes an empty string, not a blank line
-    return "\n".join(x for x in out if x)
+    return out
 
 
 def lab_decks(course, slug):
@@ -363,11 +382,11 @@ def lab_decks(course, slug):
 
 def anki_tc(course, slug):
     """The card count beside the Anki tab, or nothing while there is no deck."""
-    p = os.path.join(course["slug"], "data", "anki", "%s.json" % slug)
-    if not os.path.exists(p):
+    paths = deck_manifests(course, slug)
+    if not paths:
         return u""
-    return u' <span class="tc">%d</span>' % json.load(
-        io.open(p, encoding="utf-8"))["cards"]
+    return u' <span class="tc">%d</span>' % sum(
+        json.load(io.open(p, encoding="utf-8"))["cards"] for p in paths)
 
 
 def blocknav(course, active):

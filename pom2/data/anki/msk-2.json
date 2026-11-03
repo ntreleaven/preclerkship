@@ -1,0 +1,142 @@
+{
+ "bytes": 24022821,
+ "cards": 652,
+ "deck": "PoM2::Block 3",
+ "draft": "Weeks 10-11, split from the Weeks 7-9 deck to keep each file under GitHub's size limit. Both import as PoM2::Block 3, so they sit together in Anki. Week 10 follows this year's lectures and is checked against this year's slides, with AI-made cards for gaps (tagged AI_added) and a deck for the Soft Tissue Syndromes & Nerve Injuries DSSG (tagged dssg). Week 11 (rheumatology) is Christina's cards sorted into this year's lectures, not yet checked against the slides; Rheumatology Treatments sits there until it is scheduled. Marks: nice_to_know (greyed out on the slides), not_in_2026_slides (lower priority), slide_mismatch (a note says what the slides say).",
+ "file": "anki/msk-2.apkg",
+ "highyield": 155,
+ "label": "weeks 10-11",
+ "notes": 580,
+ "weeks": [
+  {
+   "lectures": [
+    {
+     "cards": 63,
+     "highyield": 4,
+     "name": "01 - Clinical Approach to the Foot & Ankle",
+     "notes": 59
+    },
+    {
+     "cards": 20,
+     "highyield": 1,
+     "name": "02 - Nerve Injury",
+     "notes": 20
+    },
+    {
+     "cards": 16,
+     "highyield": 0,
+     "name": "03 - Lower Extremity Radiology",
+     "notes": 16
+    },
+    {
+     "cards": 20,
+     "highyield": 1,
+     "name": "04 - Fracture Radiology",
+     "notes": 20
+    },
+    {
+     "cards": 24,
+     "highyield": 2,
+     "name": "05 - Fracture Management",
+     "notes": 24
+    },
+    {
+     "cards": 21,
+     "highyield": 1,
+     "name": "06 - MSK Oncology",
+     "notes": 21
+    },
+    {
+     "cards": 63,
+     "highyield": 24,
+     "name": "07 - Understanding & Managing Chronic Pain",
+     "notes": 51
+    },
+    {
+     "cards": 31,
+     "highyield": 12,
+     "name": "08 - Psychological Factors in Chronic Pain",
+     "notes": 24
+    },
+    {
+     "cards": 39,
+     "highyield": 6,
+     "name": "09 - Pediatric Orthopedics",
+     "notes": 33
+    },
+    {
+     "cards": 18,
+     "highyield": 0,
+     "name": "10 - Physical Activity Prescription",
+     "notes": 16
+    },
+    {
+     "cards": 46,
+     "highyield": 16,
+     "name": "11 - DSSG - Soft Tissue Syndromes & Nerve Injuries",
+     "notes": 42
+    }
+   ],
+   "week": "Week 10"
+  },
+  {
+   "lectures": [
+    {
+     "cards": 34,
+     "highyield": 11,
+     "name": "01 - MSK Infections",
+     "notes": 32
+    },
+    {
+     "cards": 38,
+     "highyield": 13,
+     "name": "02 - Acute Monoarthritis",
+     "notes": 34
+    },
+    {
+     "cards": 30,
+     "highyield": 9,
+     "name": "03 - Approach to Polyarthritis",
+     "notes": 25
+    },
+    {
+     "cards": 25,
+     "highyield": 3,
+     "name": "04 - Juvenile Idiopathic Arthritis",
+     "notes": 20
+    },
+    {
+     "cards": 10,
+     "highyield": 3,
+     "name": "05 - Osteoarthritis",
+     "notes": 9
+    },
+    {
+     "cards": 19,
+     "highyield": 6,
+     "name": "06 - Seronegative Arthritides",
+     "notes": 16
+    },
+    {
+     "cards": 55,
+     "highyield": 24,
+     "name": "07 - Connective Tissue Disorders",
+     "notes": 45
+    },
+    {
+     "cards": 46,
+     "highyield": 13,
+     "name": "08 - Vasculitis",
+     "notes": 40
+    },
+    {
+     "cards": 34,
+     "highyield": 6,
+     "name": "09 - Rheumatology Treatments",
+     "notes": 33
+    }
+   ],
+   "week": "Week 11"
+  }
+ ]
+}

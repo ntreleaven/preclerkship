@@ -1,0 +1,49 @@
+{
+ "name": "neurosurgical emergencies overview",
+ "title": "Neurosurgical emergencies: headache, coma, a new deficit or trauma mean pressure in a closed skull; protect the airway, image, and decompress according to what takes up the space: an epidural or acute subdural hematoma, a ruptured aneurysm, a tumour with edema, or hydrocephalus",
+ "col_w": 220,
+ "root": {
+  "title": "Headache · coma · new neurological deficit · trauma: the cause is PRESSURE",
+  "lines": [
+   "examine to LOCALIZE: Glasgow Coma Scale (GCS), PUPILS, cranial nerves, power side to side, sensory level",
+   "INTUBATE for GCS < 9 (airway protection) → image → emergency neurosurgery = DECOMPRESSION"
+  ]
+ },
+ "groups": [
+  {"id": "g_blood", "cols": [0, 2], "title": "BLOOD", "lines": ["which space it is in decides the shape and the outlook"]},
+  {"id": "g_mass", "cols": [3, 3], "title": "A MASS", "lines": ["weeks of progressive deficit"]},
+  {"id": "g_csf", "cols": [4, 4], "title": "TRAPPED CSF", "lines": ["the brain squeezed from inside"]}
+ ],
+ "sections": ["head", "pres", "inv", "tx"],
+ "row_names": {"pres": "PRESENTS AS", "inv": "IMAGING", "tx": "TREATMENT"},
+ "dashed_sections": ["pres"],
+ "columns": [
+  {"id": "edh", "colour": "teal",
+   "head": [[["h", "Epidural hematoma", ["middle meningeal ARTERY", "contact blow to the side of the head"]]]],
+   "pres": [[["t", "LUCID interval, then coma", ["• stunned, then fine, then cannot be woken", "• BLOWN PUPIL on the SAME side (third nerve)", "• opposite side weaker"]]]],
+   "inv": [[["w", "CT: LENS-shaped (convex)", []]]],
+   "tx": [[["ok", "EARLY decompression", ["predictably good results"]]]]},
+  {"id": "sdh", "colour": "blue",
+   "head": [[["h", "Acute subdural hematoma", ["BRIDGING VEINS", "acceleration-deceleration"]]]],
+   "pres": [[["t", "Falling consciousness", ["• intoxicated, on ASA", "• fixed dilated pupil, posturing"]]]],
+   "inv": [[["w", "CT: CRESCENT (concave)", []]]],
+   "tx": [[["warn", "Evacuate the hematoma", ["outcome UNPREDICTABLE: depends on the brain injury underneath"]]]]},
+  {"id": "sah", "colour": "orange",
+   "head": [[["h", "Subarachnoid hemorrhage", ["ruptured ANEURYSM"]]]],
+   "pres": [[["t", "Explosive headache UNLIKE ANY OTHER", ["• vomiting, photophobia", "• stiff neck, retinal hemorrhage", "• GCS may be 15"]]]],
+   "inv": [[["w", "CT: blood in the subarachnoid space", ["lumbar puncture: blood in the CSF"]]]],
+   "tx": [[["bad", "EARLY aneurysm repair", ["• re-rupture 6% day 1, 20% at 2 weeks, 50% at 6 months", "• protects against the NEXT bleed only"]]]]},
+  {"id": "tum", "colour": "purple",
+   "head": [[["h", "Tumour with edema", ["leaky tumour vessels: VASOGENIC edema"]]]],
+   "pres": [[["t", "Weeks of progressive deficit", ["• word-finding, one weak hand", "• then a rapid fall in consciousness"]]]],
+   "inv": [[["w", "Mass with surrounding edema", []]]],
+   "tx": [[["ok", "DEXAMETHASONE 10 mg IV", ["restores the blood-brain barrier → edema shrinks"]]],
+          [["ok", "+ MANNITOL 20% IV push", ["shrinks brain with an INTACT barrier"]]],
+          [["ok", "Resect once stable", []]]]},
+  {"id": "hyd", "colour": "magenta",
+   "head": [[["h", "Hydrocephalus", ["e.g. after bacterial meningitis"]]]],
+   "pres": [[["t", "Not rousable", ["• dysconjugate gaze", "• fever if infection"]]]],
+   "inv": [[["w", "Enlarged ventricles", ["cloudy CSF = bacterial meningitis"]]]],
+   "tx": [[["bad", "DIVERT the CSF: untreated it KILLS by herniation", ["• now: EXTERNAL VENTRICULAR DRAIN", "• long term: ventriculoperitoneal SHUNT", "• treat the cause (antibiotics)"]]]]}
+ ]
+}

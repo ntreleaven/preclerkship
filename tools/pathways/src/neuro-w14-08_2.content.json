@@ -1,0 +1,280 @@
+{
+ "name": "seizures overview",
+ "title": "First seizure: history decides whether it was a seizure, then whether it was provoked; for an unprovoked seizure, MRI and EEG estimate the recurrence risk, which decides between discussing treatment for a single seizure and recommending it for epilepsy; drug-resistant epilepsy goes to an epilepsy centre; status epilepticus is an emergency",
+ "col_w": 214,
+ "root": {
+  "title": "A first seizure: HISTORY is the key",
+  "lines": [
+   "details of the event · witnesses · ambulance records · risk factors: febrile seizures, head trauma, meningitis or encephalitis, family history",
+   "URGENT evaluation if fever, trauma, enduring confusion or low consciousness, or a persistent focal deficit"
+  ]
+ },
+ "groups": [
+  {
+   "id": "g_ne",
+   "cols": [
+    0,
+    0
+   ],
+   "title": "Was it a seizure?",
+   "lines": [
+    "NO"
+   ]
+  },
+  {
+   "id": "g_prov",
+   "cols": [
+    1,
+    1
+   ],
+   "title": "Was it PROVOKED?",
+   "lines": [
+    "YES"
+   ]
+  },
+  {
+   "id": "g_unprov",
+   "cols": [
+    2,
+    3
+   ],
+   "title": "UNPROVOKED: how likely is ANOTHER?",
+   "lines": [
+    "an enduring abnormality: genetic, old stroke, old trauma, tumour"
+   ]
+  },
+  {
+   "id": "g_se",
+   "cols": [
+    4,
+    4
+   ],
+   "title": "Still seizing?",
+   "lines": [
+    "YES"
+   ]
+  }
+ ],
+ "pres": [
+  {
+   "id": "p_unprov",
+   "group": "g_unprov",
+   "title": "Work up to estimate the RECURRENCE RISK",
+   "lines": [
+    "1 · electrolytes (extended) · CT in the emergency department: bleed, tumour?",
+    "2 · MRI, epilepsy protocol: a STRUCTURAL lesion ↑ risk",
+    "3 · EEG: EPILEPTIFORM discharges ↑ risk"
+   ]
+  }
+ ],
+ "row_names": {
+  "pres": "WORKUP",
+  "clue": "WHAT DECIDES IT",
+  "tx": "TREATMENT"
+ },
+ "sections": [
+  "head",
+  "clue",
+  "tx"
+ ],
+ "dashed_sections": [],
+ "columns": [
+  {
+   "id": "ne",
+   "colour": "slate",
+   "head": [
+    [
+     [
+      "h",
+      "Non-epileptic event",
+      [
+       "not a seizure"
+      ]
+     ]
+    ]
+   ],
+   "clue": [
+    [
+     [
+      "t",
+      "The history does not fit a seizure",
+      [
+       "look for another cause"
+      ]
+     ]
+    ]
+   ],
+   "tx": [
+    [
+     [
+      "ok",
+      "Do NOT treat",
+      [
+       "treat the underlying cause"
+      ]
+     ]
+    ]
+   ]
+  },
+  {
+   "id": "prov",
+   "colour": "teal",
+   "head": [
+    [
+     [
+      "h",
+      "Provoked seizure",
+      [
+       "a TRANSIENT factor on an otherwise normal brain"
+      ]
+     ]
+    ]
+   ],
+   "clue": [
+    [
+     [
+      "t",
+      "A trigger was present",
+      [
+       "• immediate post-traumatic",
+       "• fever",
+       "• glucose or sodium",
+       "• alcohol"
+      ]
+     ]
+    ]
+   ],
+   "tx": [
+    [
+     [
+      "ok",
+      "Do NOT treat",
+      [
+       "treat the underlying cause"
+      ]
+     ]
+    ]
+   ]
+  },
+  {
+   "id": "single",
+   "colour": "orange",
+   "drop_label": "normal MRI + EEG",
+   "head": [
+    [
+     [
+      "h",
+      "Single unprovoked seizure",
+      [
+       "risk BELOW 60%"
+      ]
+     ]
+    ]
+   ],
+   "clue": [
+    [
+     [
+      "t",
+      "No lesion, no discharges",
+      [
+       "only one seizure"
+      ]
+     ]
+    ]
+   ],
+   "tx": [
+    [
+     [
+      "warn",
+      "DISCUSS options with the patient",
+      [
+       "a second unprovoked seizure > 24 h apart = epilepsy"
+      ]
+     ]
+    ]
+   ]
+  },
+  {
+   "id": "epi",
+   "colour": "purple",
+   "drop_label": "lesion or discharges",
+   "head": [
+    [
+     [
+      "h",
+      "Epilepsy",
+      [
+       "ANY one of these"
+      ]
+     ]
+    ]
+   ],
+   "clue": [
+    [
+     [
+      "t",
+      "Defined by",
+      [
+       "• 2 unprovoked seizures > 24 h apart",
+       "• 1 unprovoked + recurrence risk ≥ 60% over 10 years",
+       "• an epilepsy SYNDROME"
+      ]
+     ]
+    ]
+   ],
+   "tx": [
+    [
+     [
+      "ok",
+      "RECOMMEND an antiseizure drug",
+      [
+       "• 1st drug → 2nd drug (switch or combine)",
+       "• monitor side effects, interactions, levels"
+      ]
+     ]
+    ],
+    [
+     [
+      "bad",
+      "2 tolerated, appropriate drugs FAILED = drug-resistant",
+      [
+       "→ REFER to a comprehensive EPILEPSY CENTRE (a 3rd drug alongside)",
+       "→ rule out pseudoresistance → presurgical workup → surgery, neurostimulation"
+      ]
+     ]
+    ]
+   ]
+  },
+  {
+   "id": "se",
+   "colour": "magenta",
+   "head": [
+    [
+     [
+      "h",
+      "Status epilepticus",
+      []
+     ]
+    ]
+   ],
+   "clue": [
+    [
+     [
+      "t",
+      "Seizure does not stop",
+      []
+     ]
+    ]
+   ],
+   "tx": [
+    [
+     [
+      "bad",
+      "Treat as a NEUROLOGIC EMERGENCY",
+      []
+     ]
+    ]
+   ]
+  }
+ ]
+}

@@ -1,0 +1,456 @@
+{
+ "name": "non-mendelian genetics overview",
+ "width": 1172,
+ "title": "Non-Mendelian inheritance: mitochondrial DNA disease passes only through the mother and varies by heteroplasmy and threshold, nuclear mitochondrial disease follows Mendelian patterns, and triple nucleotide repeat disorders (Huntington disease, myotonic dystrophy) are autosomal dominant with anticipation, read by repeat size; each column gives inheritance, presentation, testing and treatment",
+ "kinds": {
+  "mt_h": [
+   "#1f6f8b",
+   "#1f6f8b",
+   "#ffffff",
+   "#ffffff"
+  ],
+  "mt_t": [
+   "#dceef4",
+   "#1f6f8b",
+   "#1f6f8b",
+   "#18212e"
+  ],
+  "mt_w": [
+   "#ffffff",
+   "#1f6f8b",
+   "#1f6f8b",
+   "#18212e"
+  ],
+  "nu_h": [
+   "#1f5f9e",
+   "#1f5f9e",
+   "#ffffff",
+   "#ffffff"
+  ],
+  "nu_t": [
+   "#dde9f7",
+   "#1f5f9e",
+   "#1f5f9e",
+   "#18212e"
+  ],
+  "nu_w": [
+   "#ffffff",
+   "#1f5f9e",
+   "#1f5f9e",
+   "#18212e"
+  ],
+  "hd_h": [
+   "#6a4aa8",
+   "#6a4aa8",
+   "#ffffff",
+   "#ffffff"
+  ],
+  "hd_t": [
+   "#ebe4f7",
+   "#6a4aa8",
+   "#6a4aa8",
+   "#18212e"
+  ],
+  "hd_w": [
+   "#ffffff",
+   "#6a4aa8",
+   "#6a4aa8",
+   "#18212e"
+  ],
+  "dm_h": [
+   "#b5600f",
+   "#b5600f",
+   "#ffffff",
+   "#ffffff"
+  ],
+  "dm_t": [
+   "#fbe8d3",
+   "#b5600f",
+   "#b5600f",
+   "#18212e"
+  ],
+  "dm_w": [
+   "#ffffff",
+   "#b5600f",
+   "#b5600f",
+   "#18212e"
+  ]
+ },
+ "bands": [
+  {
+   "x": 40,
+   "y": 270,
+   "w": 272,
+   "h": 286,
+   "fill": "#eef7fa",
+   "stroke": "#1f6f8b"
+  },
+  {
+   "x": 314,
+   "y": 270,
+   "w": 272,
+   "h": 286,
+   "fill": "#eff5fc",
+   "stroke": "#1f5f9e"
+  },
+  {
+   "x": 616,
+   "y": 270,
+   "w": 272,
+   "h": 558,
+   "fill": "#f5f1fb",
+   "stroke": "#6a4aa8"
+  },
+  {
+   "x": 890,
+   "y": 270,
+   "w": 272,
+   "h": 558,
+   "fill": "#fdf4ea",
+   "stroke": "#b5600f"
+  }
+ ],
+ "row_labels": [
+  {
+   "x": 23,
+   "y": 398,
+   "h": 150,
+   "text": "PRESENTS AS"
+  },
+  {
+   "x": 23,
+   "y": 588,
+   "h": 232,
+   "text": "INVESTIGATIONS"
+  },
+  {
+   "x": 23,
+   "y": 860,
+   "h": 78,
+   "text": "TREATMENT"
+  }
+ ],
+ "nodes": [
+  {
+   "id": "root",
+   "x": 221,
+   "y": 10,
+   "w": 760,
+   "kind": "dark",
+   "title": "Non-Mendelian inheritance: WHAT does the family tree and the patient show?",
+   "lines": [
+    "• high-energy tissues (brain, retina, skeletal muscle, heart) in 2 or more systems → MITOCHONDRIAL",
+    "• worse and EARLIER in each generation → triple nucleotide REPEAT (anticipation)"
+   ]
+  },
+  {
+   "id": "g_mito",
+   "x": 45,
+   "y": 138,
+   "w": 536,
+   "h": 60,
+   "kind": "plain",
+   "title": "MITOCHONDRIAL disorders",
+   "lines": [
+    "↓ ATP · dual control by nuclear + mitochondrial genes"
+   ]
+  },
+  {
+   "id": "g_rep",
+   "x": 621,
+   "y": 138,
+   "w": 536,
+   "h": 60,
+   "kind": "plain",
+   "title": "Triple nucleotide REPEAT disorders",
+   "lines": [
+    "autosomal dominant · bigger repeat = earlier, more severe"
+   ]
+  },
+  {
+   "id": "mt_head_0_0",
+   "x": 45,
+   "y": 278,
+   "w": 262,
+   "h": 80,
+   "kind": "mt_h",
+   "title": "Mitochondrial DNA disease",
+   "lines": [
+    "point mutations: MATERNAL · deletions, duplications: sporadic"
+   ]
+  },
+  {
+   "id": "nu_head_0_0",
+   "x": 319,
+   "y": 278,
+   "w": 262,
+   "h": 80,
+   "kind": "nu_h",
+   "title": "Nuclear-gene mitochondrial disease",
+   "lines": [
+    "follows MENDELIAN inheritance"
+   ]
+  },
+  {
+   "id": "hd_head_0_0",
+   "x": 621,
+   "y": 278,
+   "w": 262,
+   "h": 80,
+   "kind": "hd_h",
+   "title": "Huntington disease",
+   "lines": [
+    "polyglutamine huntingtin aggregates in neurons"
+   ]
+  },
+  {
+   "id": "dm_head_0_0",
+   "x": 895,
+   "y": 278,
+   "w": 262,
+   "h": 80,
+   "kind": "dm_h",
+   "title": "Myotonic dystrophy",
+   "lines": [
+    "myotonia: cannot relax after contracting"
+   ]
+  },
+  {
+   "id": "mt_pres_0_0",
+   "x": 45,
+   "y": 398,
+   "w": 262,
+   "h": 150,
+   "kind": "mt_t",
+   "title": "Varies by tissue and worsens",
+   "lines": [
+    "• HETEROPLASMY: mutant + normal mtDNA, shared out at random",
+    "• symptoms once a tissue passes its THRESHOLD",
+    "• mutant mtDNA accumulates → progressive"
+   ]
+  },
+  {
+   "id": "nu_pres_0_0",
+   "x": 319,
+   "y": 398,
+   "w": 262,
+   "h": 150,
+   "kind": "nu_t",
+   "title": "e.g. depletion syndromes",
+   "lines": [
+    "• nuclear genes for mtDNA nucleotides or replication",
+    "• too little mtDNA → too little energy"
+   ]
+  },
+  {
+   "id": "hd_pres_0_0",
+   "x": 621,
+   "y": 398,
+   "w": 262,
+   "h": 150,
+   "kind": "hd_t",
+   "title": "Onset 35-44 years",
+   "lines": [
+    "• 2/3 neurologic (chorea), 1/3 psychiatric",
+    "• MRI: caudate atrophy",
+    "• JUVENILE (60-100 repeats): rigidity, seizures, little chorea"
+   ]
+  },
+  {
+   "id": "dm_pres_0_0",
+   "x": 895,
+   "y": 398,
+   "w": 262,
+   "h": 150,
+   "kind": "dm_t",
+   "title": "Grip will not let go",
+   "lines": [
+    "• ptosis · narrow face · balding · cataracts · arrhythmia",
+    "• CONGENITAL: floppy newborn, respiratory failure"
+   ]
+  },
+  {
+   "id": "hd_inv_0_0",
+   "x": 621,
+   "y": 588,
+   "w": 262,
+   "h": 114,
+   "kind": "hd_w",
+   "title": "CAG repeat count",
+   "lines": [
+    "• 26 or fewer: normal",
+    "• 27-35: premutation, child at risk",
+    "• 36-39: reduced penetrance",
+    "• 40 or more: WILL develop HD"
+   ]
+  },
+  {
+   "id": "hd_inv_1_0",
+   "x": 621,
+   "y": 724,
+   "w": 262,
+   "h": 96,
+   "kind": "warn",
+   "title": "Pre-symptomatic test",
+   "lines": [
+    "• only after counselling by a geneticist or genetic counsellor",
+    "• 70-80% of relatives decline"
+   ]
+  },
+  {
+   "id": "dm_inv_0_0",
+   "x": 895,
+   "y": 588,
+   "w": 262,
+   "h": 232,
+   "kind": "dm_w",
+   "title": "CTG repeat count",
+   "lines": [
+    "• 35-49: premutation, no signs",
+    "• 50-150: mild, cataracts",
+    "• about 100-1000: classic, onset 10-30",
+    "• over 1000: congenital"
+   ]
+  },
+  {
+   "id": "span0_inv_0_0",
+   "x": 45,
+   "y": 588,
+   "w": 536,
+   "h": 232,
+   "kind": "plain",
+   "title": "Suspect it: 2 or more systems",
+   "lines": [
+    "• ↑ blood and cerebrospinal fluid lactate",
+    "• MRI or spectroscopy: lactate peak, basal ganglia, leukodystrophy",
+    "• muscle biopsy · mtDNA and nuclear gene panels"
+   ]
+  },
+  {
+   "id": "span1_tx_0_0",
+   "x": 45,
+   "y": 860,
+   "w": 536,
+   "h": 78,
+   "kind": "bad",
+   "title": "No effective treatment",
+   "lines": [
+    "• mitochondrial cocktail: riboflavin, coenzyme Q10, thiamine"
+   ]
+  },
+  {
+   "id": "span2_tx_0_0",
+   "x": 621,
+   "y": 860,
+   "w": 536,
+   "h": 78,
+   "kind": "ok",
+   "title": "Supportive",
+   "lines": [
+    "• genetic counselling · family planning",
+    "• prenatal and preimplantation diagnosis"
+   ]
+  }
+ ],
+ "edges": [
+  {
+   "from": "root",
+   "to": "g_mito",
+   "path": "M601.0 88V113H313.0V138"
+  },
+  {
+   "from": "root",
+   "to": "g_rep",
+   "path": "M601.0 88V113H889.0V138"
+  },
+  {
+   "from": "hd_inv_0_0",
+   "to": "hd_inv_1_0"
+  },
+  {
+   "from": "mt_head_0_0",
+   "to": "mt_pres_0_0"
+  },
+  {
+   "from": "mt_pres_0_0",
+   "to": "span0_inv_0_0",
+   "to_dx": -137.0
+  },
+  {
+   "from": "g_mito",
+   "to": "mt_head_0_0",
+   "from_dx": -137,
+   "label": "mother only",
+   "label_at": [
+    176.0,
+    238
+   ]
+  },
+  {
+   "from": "nu_head_0_0",
+   "to": "nu_pres_0_0"
+  },
+  {
+   "from": "nu_pres_0_0",
+   "to": "span0_inv_0_0",
+   "to_dx": 137.0
+  },
+  {
+   "from": "g_mito",
+   "to": "nu_head_0_0",
+   "from_dx": 137,
+   "label": "AR · XL · AD",
+   "label_at": [
+    450.0,
+    238
+   ]
+  },
+  {
+   "from": "hd_head_0_0",
+   "to": "hd_pres_0_0"
+  },
+  {
+   "from": "hd_pres_0_0",
+   "to": "hd_inv_0_0"
+  },
+  {
+   "from": "hd_inv_1_0",
+   "to": "span2_tx_0_0",
+   "to_dx": -137.0
+  },
+  {
+   "from": "g_rep",
+   "to": "hd_head_0_0",
+   "from_dx": -137,
+   "label": "CAG in HTT",
+   "label_at": [
+    752.0,
+    238
+   ]
+  },
+  {
+   "from": "dm_head_0_0",
+   "to": "dm_pres_0_0"
+  },
+  {
+   "from": "dm_pres_0_0",
+   "to": "dm_inv_0_0"
+  },
+  {
+   "from": "dm_inv_0_0",
+   "to": "span2_tx_0_0",
+   "to_dx": 137.0
+  },
+  {
+   "from": "g_rep",
+   "to": "dm_head_0_0",
+   "from_dx": 137,
+   "label": "CTG in DMPK",
+   "label_at": [
+    1026.0,
+    238
+   ]
+  }
+ ],
+ "panels": []
+}

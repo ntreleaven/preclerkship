@@ -1,0 +1,470 @@
+{
+ "name": "weakness localization overview",
+ "title": "Weakness localization: rule out mimics, decide upper or lower motor neuron from the exam, then the pattern of weakness, sensory findings and pain place the lesion in the brain, brainstem, spinal cord, anterior horn cell, root, plexus, nerve, neuromuscular junction or muscle",
+ "col_w": 150,
+ "root": {
+  "title": "WEAKNESS: loss of voluntary movement from a break anywhere, cerebrum to muscle fibre",
+  "lines": [
+   "first rule out mimics: incoordination (cerebellar) · apraxia (cortical) · severe sensory loss (proprioceptive failure)",
+   "history: where (one limb, one side, both) · how (abrupt or gradual) · what is hard · sensory, speech or swallowing, pain, bowel or bladder"
+  ]
+ },
+ "groups": [
+  {
+   "id": "g_umn",
+   "cols": [
+    0,
+    2
+   ],
+   "title": "UPPER MOTOR NEURON (UMN)",
+   "lines": [
+    "• spasticity · hyperreflexia",
+    "• upgoing plantar (Babinski)",
+    "• no atrophy · no fasciculations",
+    "• PYRAMIDAL: arm extensors and leg flexors weak first"
+   ]
+  },
+  {
+   "id": "g_lmn",
+   "cols": [
+    3,
+    8
+   ],
+   "title": "LOWER MOTOR NEURON (LMN)",
+   "lines": [
+    "• atrophy · fasciculations possible (anterior horn cell, nerve)",
+    "• reflexes normal, ↓ or absent · tone normal · downgoing plantar",
+    "• the pattern fits the level"
+   ]
+  }
+ ],
+ "sections": [
+  "head",
+  "pat",
+  "clue",
+  "tx"
+ ],
+ "row_names": {
+  "pat": "PATTERN",
+  "clue": "SENSORY · PAIN · CLUES",
+  "tx": "CAUSES"
+ },
+ "columns": [
+  {
+   "id": "brain",
+   "colour": "purple",
+   "head": [
+    [
+     [
+      "h",
+      "Brain",
+      []
+     ]
+    ]
+   ],
+   "pat": [
+    [
+     [
+      "t",
+      "Hemiparesis, pyramidal",
+      [
+       "• face, arm > leg → middle cerebral artery (MCA)",
+       "• leg > face, arm → anterior cerebral artery (ACA)",
+       "• face = arm = leg → internal capsule"
+      ]
+     ]
+    ]
+   ],
+   "clue": [
+    [
+     [
+      "w",
+      "Cortical signs",
+      [
+       "• aphasia, neglect",
+       "• headache, seizures",
+       "• sensory: potentially",
+       "• no pain"
+      ]
+     ]
+    ]
+   ],
+   "tx": [
+    [
+     [
+      "w",
+      "Stroke · tumour · multiple sclerosis (MS)",
+      []
+     ]
+    ]
+   ]
+  },
+  {
+   "id": "stem",
+   "colour": "magenta",
+   "head": [
+    [
+     [
+      "h",
+      "Brainstem",
+      []
+     ]
+    ]
+   ],
+   "pat": [
+    [
+     [
+      "t",
+      "Hemiparesis, pyramidal",
+      [
+       "~less often all four limbs"
+      ]
+     ]
+    ]
+   ],
+   "clue": [
+    [
+     [
+      "w",
+      "Cranial nerves",
+      [
+       "• diplopia, vertigo",
+       "• cerebellar findings",
+       "• CROSSED: face one side, body the other"
+      ]
+     ]
+    ]
+   ],
+   "tx": [
+    [
+     [
+      "w",
+      "Stroke · MS · tumour",
+      []
+     ]
+    ]
+   ]
+  },
+  {
+   "id": "cord",
+   "colour": "blue",
+   "head": [
+    [
+     [
+      "h",
+      "Spinal cord",
+      []
+     ]
+    ]
+   ],
+   "pat": [
+    [
+     [
+      "t",
+      "Paraparesis or quadriparesis",
+      [
+       "pyramidal, both sides below the lesion"
+      ]
+     ]
+    ]
+   ],
+   "clue": [
+    [
+     [
+      "w",
+      "SENSORY LEVEL",
+      [
+       "• neck or back pain",
+       "• urinary symptoms"
+      ]
+     ]
+    ]
+   ],
+   "tx": [
+    [
+     [
+      "w",
+      "Trauma · disc herniation · tumour · epidural hemorrhage · MS",
+      []
+     ]
+    ]
+   ]
+  },
+  {
+   "id": "ahc",
+   "colour": "teal",
+   "head": [
+    [
+     [
+      "h",
+      "Anterior horn cell",
+      []
+     ]
+    ]
+   ],
+   "pat": [
+    [
+     [
+      "t",
+      "Segmental",
+      [
+       "~LMN pattern"
+      ]
+     ]
+    ]
+   ],
+   "clue": [
+    [
+     [
+      "w",
+      "NO sensory loss",
+      [
+       "• no pain"
+      ]
+     ]
+    ]
+   ],
+   "tx": [
+    [
+     [
+      "w",
+      "Polio and polio-like",
+      [
+       "ALS: UMN signs too"
+      ]
+     ]
+    ]
+   ]
+  },
+  {
+   "id": "root",
+   "colour": "olive",
+   "head": [
+    [
+     [
+      "h",
+      "Root(s)",
+      []
+     ]
+    ]
+   ],
+   "pat": [
+    [
+     [
+      "t",
+      "MYOTOMAL",
+      [
+       "• that root's reflex ↓",
+       "• several roots: more than one level, sometimes both sides"
+      ]
+     ]
+    ]
+   ],
+   "clue": [
+    [
+     [
+      "w",
+      "DERMATOMAL loss",
+      [
+       "• neck or back pain radiating into a limb"
+      ]
+     ]
+    ]
+   ],
+   "tx": [
+    [
+     [
+      "w",
+      "Disc herniation · foraminal stenosis",
+      [
+       "several: cauda equina, leptomeningeal cancer"
+      ]
+     ]
+    ]
+   ]
+  },
+  {
+   "id": "plex",
+   "colour": "orange",
+   "head": [
+    [
+     [
+      "h",
+      "Plexus",
+      []
+     ]
+    ]
+   ],
+   "pat": [
+    [
+     [
+      "t",
+      "One limb",
+      [
+       "more muscles than one nerve or one root"
+      ]
+     ]
+    ]
+   ],
+   "clue": [
+    [
+     [
+      "w",
+      "Painful",
+      [
+       "• sensory usually"
+      ]
+     ]
+    ]
+   ],
+   "tx": [
+    [
+     [
+      "w",
+      "Trauma · tumour · inflammatory",
+      [
+       "e.g. brachial neuritis"
+      ]
+     ]
+    ]
+   ]
+  },
+  {
+   "id": "nerve",
+   "colour": "brown",
+   "head": [
+    [
+     [
+      "h",
+      "Nerve",
+      []
+     ]
+    ]
+   ],
+   "pat": [
+    [
+     [
+      "t",
+      "One nerve, or many",
+      [
+       "• ONE nerve: that nerve's muscles (ulnar, radial, common peroneal, sciatic)",
+       "• MANY (polyneuropathy): length-dependent, symmetric, DISTAL, feet first",
+       "• or mononeuritis multiplex"
+      ]
+     ]
+    ]
+   ],
+   "clue": [
+    [
+     [
+      "w",
+      "That nerve's area",
+      [
+       "or GLOVE AND STOCKING, prominent",
+       "• pain +/-"
+      ]
+     ]
+    ]
+   ],
+   "tx": [
+    [
+     [
+      "w",
+      "Nerve palsies · Guillain-Barré syndrome (GBS)",
+      []
+     ]
+    ]
+   ]
+  },
+  {
+   "id": "nmj",
+   "colour": "slate",
+   "head": [
+    [
+     [
+      "h",
+      "Neuromuscular junction",
+      []
+     ]
+    ]
+   ],
+   "pat": [
+    [
+     [
+      "t",
+      "FLUCTUATING, descending",
+      [
+       "eyes first (ptosis, diplopia) → speech, swallowing"
+      ]
+     ]
+    ]
+   ],
+   "clue": [
+    [
+     [
+      "w",
+      "Sensation normal",
+      [
+       "• reflexes usually normal",
+       "• no pain"
+      ]
+     ]
+    ]
+   ],
+   "tx": [
+    [
+     [
+      "w",
+      "Myasthenia gravis",
+      []
+     ]
+    ]
+   ]
+  },
+  {
+   "id": "muscle",
+   "colour": "purple",
+   "head": [
+    [
+     [
+      "h",
+      "Muscle",
+      []
+     ]
+    ]
+   ],
+   "pat": [
+    [
+     [
+      "t",
+      "Symmetric PROXIMAL",
+      [
+       "trunk, paraspinals, shoulder and hip girdle"
+      ]
+     ]
+    ]
+   ],
+   "clue": [
+    [
+     [
+      "w",
+      "No sensory loss",
+      [
+       "• reflexes often normal",
+       "• no pain"
+      ]
+     ]
+    ]
+   ],
+   "tx": [
+    [
+     [
+      "w",
+      "Polymyositis · dermatomyositis · muscular dystrophies",
+      []
+     ]
+    ]
+   ]
+  }
+ ]
+}

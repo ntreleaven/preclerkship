@@ -1,0 +1,455 @@
+{
+ "name": "neuropathic pain overview",
+ "width": 1234,
+ "title": "Neuropathic pain has a neurological cause and is recognized by its descriptors; after the cause is evaluated, one agent is chosen by the co-existing problem (amitriptyline for poor sleep or low cost, duloxetine for depression, carbamazepine for trigeminal neuralgia, gabapentinoids, topicals) with narcotics only as a last resort, and titrated by trial and error",
+ "kinds": {
+  "tca_h": [
+   "#1f6f8b",
+   "#1f6f8b",
+   "#ffffff",
+   "#ffffff"
+  ],
+  "tca_t": [
+   "#dceef4",
+   "#1f6f8b",
+   "#1f6f8b",
+   "#18212e"
+  ],
+  "tca_w": [
+   "#ffffff",
+   "#1f6f8b",
+   "#1f6f8b",
+   "#18212e"
+  ],
+  "snri_h": [
+   "#6a4aa8",
+   "#6a4aa8",
+   "#ffffff",
+   "#ffffff"
+  ],
+  "snri_t": [
+   "#ebe4f7",
+   "#6a4aa8",
+   "#6a4aa8",
+   "#18212e"
+  ],
+  "snri_w": [
+   "#ffffff",
+   "#6a4aa8",
+   "#6a4aa8",
+   "#18212e"
+  ],
+  "gab_h": [
+   "#b5600f",
+   "#b5600f",
+   "#ffffff",
+   "#ffffff"
+  ],
+  "gab_t": [
+   "#fbe8d3",
+   "#b5600f",
+   "#b5600f",
+   "#18212e"
+  ],
+  "gab_w": [
+   "#ffffff",
+   "#b5600f",
+   "#b5600f",
+   "#18212e"
+  ],
+  "carb_h": [
+   "#1f5f9e",
+   "#1f5f9e",
+   "#ffffff",
+   "#ffffff"
+  ],
+  "carb_t": [
+   "#dde9f7",
+   "#1f5f9e",
+   "#1f5f9e",
+   "#18212e"
+  ],
+  "carb_w": [
+   "#ffffff",
+   "#1f5f9e",
+   "#1f5f9e",
+   "#18212e"
+  ],
+  "oth_h": [
+   "#46607a",
+   "#46607a",
+   "#ffffff",
+   "#ffffff"
+  ],
+  "oth_t": [
+   "#e2e8ee",
+   "#46607a",
+   "#46607a",
+   "#18212e"
+  ],
+  "oth_w": [
+   "#ffffff",
+   "#46607a",
+   "#46607a",
+   "#18212e"
+  ]
+ },
+ "bands": [
+  {
+   "x": 40,
+   "y": 324,
+   "w": 224,
+   "h": 214,
+   "fill": "#eef7fa",
+   "stroke": "#1f6f8b"
+  },
+  {
+   "x": 266,
+   "y": 324,
+   "w": 224,
+   "h": 214,
+   "fill": "#f5f1fb",
+   "stroke": "#6a4aa8"
+  },
+  {
+   "x": 520,
+   "y": 324,
+   "w": 224,
+   "h": 214,
+   "fill": "#fdf4ea",
+   "stroke": "#b5600f"
+  },
+  {
+   "x": 746,
+   "y": 324,
+   "w": 224,
+   "h": 214,
+   "fill": "#eff5fc",
+   "stroke": "#1f5f9e"
+  },
+  {
+   "x": 1000,
+   "y": 324,
+   "w": 224,
+   "h": 214,
+   "fill": "#f2f5f8",
+   "stroke": "#46607a"
+  }
+ ],
+ "row_labels": [
+  {
+   "x": 23,
+   "y": 452,
+   "h": 78,
+   "text": "CHOOSE IT FOR"
+  },
+  {
+   "x": 23,
+   "y": 570,
+   "h": 124,
+   "text": "THEN"
+  }
+ ],
+ "nodes": [
+  {
+   "id": "root",
+   "x": 252,
+   "y": 10,
+   "w": 760,
+   "kind": "dark",
+   "title": "NEUROPATHIC pain: a neurological cause, peripheral or central",
+   "lines": [
+    "sounds like: electrical · shooting · burning, hot or cold · pins and needles",
+    "allodynia: a non-painful touch hurts · hyperpathia: a painful stimulus hurts far too much · dysesthesia: uncomfortable sensations (burning)",
+    "EVALUATE THE CAUSE and examine: some are reversible · nociceptive pain (tissue injury) takes acetaminophen, NSAIDs, opioids instead"
+   ]
+  },
+  {
+   "id": "g_ad",
+   "x": 45,
+   "y": 192,
+   "w": 440,
+   "h": 60,
+   "kind": "plain",
+   "title": "ANTIDEPRESSANTS",
+   "lines": [
+    "↑ norepinephrine and serotonin → stronger descending pain inhibition"
+   ]
+  },
+  {
+   "id": "g_ac",
+   "x": 525,
+   "y": 192,
+   "w": 440,
+   "h": 60,
+   "kind": "plain",
+   "title": "ANTICONVULSANTS",
+   "lines": [
+    "in specific situations a sodium-channel drug"
+   ]
+  },
+  {
+   "id": "g_ot",
+   "x": 1005,
+   "y": 192,
+   "w": 214,
+   "h": 60,
+   "kind": "plain",
+   "title": "OTHERS",
+   "lines": []
+  },
+  {
+   "id": "tca_head_0_0",
+   "x": 45,
+   "y": 332,
+   "w": 214,
+   "h": 80,
+   "kind": "tca_h",
+   "title": "Tricyclics (TCAs)",
+   "lines": [
+    "amitriptyline · nortriptyline"
+   ]
+  },
+  {
+   "id": "snri_head_0_0",
+   "x": 271,
+   "y": 332,
+   "w": 214,
+   "h": 80,
+   "kind": "snri_h",
+   "title": "SNRIs",
+   "lines": [
+    "duloxetine · venlafaxine"
+   ]
+  },
+  {
+   "id": "gab_head_0_0",
+   "x": 525,
+   "y": 332,
+   "w": 214,
+   "h": 80,
+   "kind": "gab_h",
+   "title": "Gabapentinoids",
+   "lines": [
+    "gabapentin · pregabalin"
+   ]
+  },
+  {
+   "id": "carb_head_0_0",
+   "x": 751,
+   "y": 332,
+   "w": 214,
+   "h": 80,
+   "kind": "carb_h",
+   "title": "Sodium-channel anticonvulsant",
+   "lines": [
+    "carbamazepine"
+   ]
+  },
+  {
+   "id": "oth_head_0_0",
+   "x": 1005,
+   "y": 332,
+   "w": 214,
+   "h": 80,
+   "kind": "oth_h",
+   "title": "Topicals · cannabinoids",
+   "lines": [
+    "capsaicin · lidocaine gel or patch"
+   ]
+  },
+  {
+   "id": "tca_clue_0_0",
+   "x": 45,
+   "y": 452,
+   "w": 214,
+   "h": 78,
+   "kind": "ok",
+   "title": "Poor SLEEP or COST",
+   "lines": [
+    "• sleep disorder → amitriptyline",
+    "• amitriptyline is the cheapest"
+   ]
+  },
+  {
+   "id": "snri_clue_0_0",
+   "x": 271,
+   "y": 452,
+   "w": 214,
+   "h": 78,
+   "kind": "ok",
+   "title": "DEPRESSION",
+   "lines": [
+    "• depression → duloxetine"
+   ]
+  },
+  {
+   "id": "gab_clue_0_0",
+   "x": 525,
+   "y": 452,
+   "w": 214,
+   "h": 78,
+   "kind": "ok",
+   "title": "No deciding issue",
+   "lines": [
+    "• trial one agent"
+   ]
+  },
+  {
+   "id": "carb_clue_0_0",
+   "x": 751,
+   "y": 452,
+   "w": 214,
+   "h": 78,
+   "kind": "ok",
+   "title": "A classic SYNDROME",
+   "lines": [
+    "• TRIGEMINAL NEURALGIA → carbamazepine"
+   ]
+  },
+  {
+   "id": "oth_clue_0_0",
+   "x": 1005,
+   "y": 452,
+   "w": 214,
+   "h": 78,
+   "kind": "bad",
+   "title": "NARCOTICS",
+   "lines": [
+    "ONLY as a last resort"
+   ]
+  },
+  {
+   "id": "span0_tx_0_0",
+   "x": 45,
+   "y": 570,
+   "w": 1174,
+   "h": 42,
+   "kind": "plain",
+   "title": "TRIAL AND ERROR: one agent, titrated up SLOWLY to the maximum dose",
+   "lines": []
+  },
+  {
+   "id": "span0_tx_1_0",
+   "x": 45.0,
+   "y": 634,
+   "w": 582.0,
+   "h": 60,
+   "kind": "warn",
+   "title": "Side effects before an effect?",
+   "lines": [
+    "→ change the drug"
+   ]
+  },
+  {
+   "id": "span0_tx_1_1",
+   "x": 637.0,
+   "y": 634,
+   "w": 582.0,
+   "h": 60,
+   "kind": "warn",
+   "title": "1 month at the highest dose, no effect?",
+   "lines": [
+    "→ change the drug"
+   ]
+  }
+ ],
+ "edges": [
+  {
+   "from": "root",
+   "to": "g_ad",
+   "path": "M632.0 142V167H265.0V192"
+  },
+  {
+   "from": "root",
+   "to": "g_ac",
+   "path": "M632.0 142V167H745.0V192"
+  },
+  {
+   "from": "root",
+   "to": "g_ot",
+   "path": "M632.0 142V167H1112.0V192"
+  },
+  {
+   "from": "span0_tx_0_0",
+   "to": "span0_tx_1_0",
+   "from_dx": -296.0
+  },
+  {
+   "from": "span0_tx_0_0",
+   "to": "span0_tx_1_1",
+   "from_dx": 296.0
+  },
+  {
+   "from": "tca_head_0_0",
+   "to": "tca_clue_0_0"
+  },
+  {
+   "from": "tca_clue_0_0",
+   "to": "span0_tx_0_0",
+   "to_dx": -480.0
+  },
+  {
+   "from": "g_ad",
+   "to": "tca_head_0_0",
+   "from_dx": -113
+  },
+  {
+   "from": "snri_head_0_0",
+   "to": "snri_clue_0_0"
+  },
+  {
+   "from": "snri_clue_0_0",
+   "to": "span0_tx_0_0",
+   "to_dx": -254.0
+  },
+  {
+   "from": "g_ad",
+   "to": "snri_head_0_0",
+   "from_dx": 113
+  },
+  {
+   "from": "gab_head_0_0",
+   "to": "gab_clue_0_0"
+  },
+  {
+   "from": "gab_clue_0_0",
+   "to": "span0_tx_0_0",
+   "to_dx": 0.0
+  },
+  {
+   "from": "g_ac",
+   "to": "gab_head_0_0",
+   "from_dx": -113
+  },
+  {
+   "from": "carb_head_0_0",
+   "to": "carb_clue_0_0"
+  },
+  {
+   "from": "carb_clue_0_0",
+   "to": "span0_tx_0_0",
+   "to_dx": 226.0
+  },
+  {
+   "from": "g_ac",
+   "to": "carb_head_0_0",
+   "from_dx": 113
+  },
+  {
+   "from": "oth_head_0_0",
+   "to": "oth_clue_0_0"
+  },
+  {
+   "from": "oth_clue_0_0",
+   "to": "span0_tx_0_0",
+   "to_dx": 480.0
+  },
+  {
+   "from": "g_ot",
+   "to": "oth_head_0_0",
+   "from_dx": 0
+  }
+ ],
+ "panels": []
+}

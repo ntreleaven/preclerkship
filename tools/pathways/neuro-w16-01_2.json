@@ -1,0 +1,525 @@
+{
+ "name": "end of life decisions overview",
+ "width": 1052,
+ "title": "End of life: a patient who cannot decide gets a substitute decision maker in a fixed order; palliative care is reached by four routes and aims at comfort; a patient who asks for medical assistance in dying must meet every eligibility criterion, and the stream (natural death foreseeable or not) sets the safeguards",
+ "kinds": {
+  "sdm_h": [
+   "#1f6f8b",
+   "#1f6f8b",
+   "#ffffff",
+   "#ffffff"
+  ],
+  "sdm_t": [
+   "#dceef4",
+   "#1f6f8b",
+   "#1f6f8b",
+   "#18212e"
+  ],
+  "sdm_w": [
+   "#ffffff",
+   "#1f6f8b",
+   "#1f6f8b",
+   "#18212e"
+  ],
+  "pal_h": [
+   "#6a4aa8",
+   "#6a4aa8",
+   "#ffffff",
+   "#ffffff"
+  ],
+  "pal_t": [
+   "#ebe4f7",
+   "#6a4aa8",
+   "#6a4aa8",
+   "#18212e"
+  ],
+  "pal_w": [
+   "#ffffff",
+   "#6a4aa8",
+   "#6a4aa8",
+   "#18212e"
+  ],
+  "s1_h": [
+   "#b5600f",
+   "#b5600f",
+   "#ffffff",
+   "#ffffff"
+  ],
+  "s1_t": [
+   "#fbe8d3",
+   "#b5600f",
+   "#b5600f",
+   "#18212e"
+  ],
+  "s1_w": [
+   "#ffffff",
+   "#b5600f",
+   "#b5600f",
+   "#18212e"
+  ],
+  "s2_h": [
+   "#1f5f9e",
+   "#1f5f9e",
+   "#ffffff",
+   "#ffffff"
+  ],
+  "s2_t": [
+   "#dde9f7",
+   "#1f5f9e",
+   "#1f5f9e",
+   "#18212e"
+  ],
+  "s2_w": [
+   "#ffffff",
+   "#1f5f9e",
+   "#1f5f9e",
+   "#18212e"
+  ]
+ },
+ "bands": [
+  {
+   "x": 40,
+   "y": 478,
+   "w": 235,
+   "h": 894,
+   "fill": "#eef7fa",
+   "stroke": "#1f6f8b"
+  },
+  {
+   "x": 305,
+   "y": 478,
+   "w": 235,
+   "h": 894,
+   "fill": "#f5f1fb",
+   "stroke": "#6a4aa8"
+  },
+  {
+   "x": 570,
+   "y": 478,
+   "w": 235,
+   "h": 894,
+   "fill": "#fdf4ea",
+   "stroke": "#b5600f"
+  },
+  {
+   "x": 807,
+   "y": 478,
+   "w": 235,
+   "h": 894,
+   "fill": "#eff5fc",
+   "stroke": "#1f5f9e"
+  }
+ ],
+ "row_labels": [
+  {
+   "x": 23,
+   "y": 256,
+   "h": 150,
+   "text": "ELIGIBLE?"
+  },
+  {
+   "x": 23,
+   "y": 624,
+   "h": 168,
+   "text": "WHEN"
+  },
+  {
+   "x": 23,
+   "y": 832,
+   "h": 132,
+   "text": "ASSESS"
+  },
+  {
+   "x": 23,
+   "y": 1004,
+   "h": 360,
+   "text": "DO"
+  }
+ ],
+ "nodes": [
+  {
+   "id": "root",
+   "x": 161,
+   "y": 10,
+   "w": 760,
+   "kind": "dark",
+   "title": "End of life: who decides, and what can be offered?",
+   "lines": [
+    "capacity = UNDERSTAND the information + APPRECIATE the foreseeable consequences · specific to each decision · can fluctuate",
+    "code status (which resuscitation, if any) needs informed consent from the patient or SDM · it is NOT the same as goals of care"
+   ]
+  },
+  {
+   "id": "g_cap",
+   "x": 45,
+   "y": 156,
+   "w": 225,
+   "h": 60,
+   "kind": "plain",
+   "title": "Patient NOT capable",
+   "lines": [
+    "of this decision"
+   ]
+  },
+  {
+   "id": "g_pal",
+   "x": 310,
+   "y": 156,
+   "w": 225,
+   "h": 60,
+   "kind": "plain",
+   "title": "Comfort becomes the goal",
+   "lines": []
+  },
+  {
+   "id": "g_maid",
+   "x": 575,
+   "y": 156,
+   "w": 462,
+   "h": 60,
+   "kind": "plain",
+   "title": "Patient asks for medical assistance in dying (MAiD)",
+   "lines": []
+  },
+  {
+   "id": "p_maid",
+   "x": 575,
+   "y": 256,
+   "w": 462,
+   "h": 150,
+   "kind": "info",
+   "title": "Eligible? ALL of these",
+   "lines": [
+    "• eligible for publicly funded health care",
+    "• 18 or older and capable",
+    "• grievous and irremediable: serious illness, advanced irreversible decline, unbearable suffering",
+    "• voluntary, free of outside pressure",
+    "• informed consent, including palliative options"
+   ]
+  },
+  {
+   "id": "sdm_head_0_0",
+   "x": 45,
+   "y": 486,
+   "w": 225,
+   "h": 98,
+   "kind": "sdm_h",
+   "title": "Substitute decision maker (SDM)",
+   "lines": [
+    "gives or refuses consent for the patient"
+   ]
+  },
+  {
+   "id": "pal_head_0_0",
+   "x": 310,
+   "y": 486,
+   "w": 225,
+   "h": 98,
+   "kind": "pal_h",
+   "title": "Palliative care",
+   "lines": [
+    "quality of life: physical, psychosocial, spiritual · patient AND family"
+   ]
+  },
+  {
+   "id": "s1_head_0_0",
+   "x": 575,
+   "y": 486,
+   "w": 225,
+   "h": 98,
+   "kind": "s1_h",
+   "title": "Stream 1",
+   "lines": [
+    "natural death reasonably FORESEEABLE"
+   ]
+  },
+  {
+   "id": "s2_head_0_0",
+   "x": 812,
+   "y": 486,
+   "w": 225,
+   "h": 98,
+   "kind": "s2_h",
+   "title": "Stream 2",
+   "lines": [
+    "natural death NOT reasonably foreseeable"
+   ]
+  },
+  {
+   "id": "sdm_when_0_0",
+   "x": 45,
+   "y": 624,
+   "w": 225,
+   "h": 168,
+   "kind": "sdm_t",
+   "title": "Fails EITHER part of capacity",
+   "lines": [
+    "• cannot understand the information",
+    "• cannot appreciate the consequences"
+   ]
+  },
+  {
+   "id": "pal_when_0_0",
+   "x": 310,
+   "y": 624,
+   "w": 225,
+   "h": 168,
+   "kind": "pal_t",
+   "title": "Any ONE route in",
+   "lines": [
+    "• patient declines treatment",
+    "• treatment futile or would cause suffering",
+    "• hard symptoms DURING treatment",
+    "• severe irreversible disability (e.g. major stroke)"
+   ]
+  },
+  {
+   "id": "s1_when_0_0",
+   "x": 575,
+   "y": 624,
+   "w": 225,
+   "h": 168,
+   "kind": "s1_t",
+   "title": "Written request",
+   "lines": [
+    "signed before an independent witness"
+   ]
+  },
+  {
+   "id": "s2_when_0_0",
+   "x": 812,
+   "y": 624,
+   "w": 225,
+   "h": 168,
+   "kind": "s2_t",
+   "title": "Written request",
+   "lines": [
+    "signed before an independent witness"
+   ]
+  },
+  {
+   "id": "sdm_check_0_0",
+   "x": 45,
+   "y": 832,
+   "w": 225,
+   "h": 132,
+   "kind": "sdm_w",
+   "title": "Who assesses capacity?",
+   "lines": [
+    "the clinician offering the treatment",
+    "~can be delegated"
+   ]
+  },
+  {
+   "id": "pal_check_0_0",
+   "x": 310,
+   "y": 832,
+   "w": 225,
+   "h": 132,
+   "kind": "pal_w",
+   "title": "Two scales",
+   "lines": [
+    "• Palliative Performance Scale: disease burden, progress to end of life",
+    "• Edmonton Symptom Assessment System: symptoms to manage"
+   ]
+  },
+  {
+   "id": "s1_check_0_0",
+   "x": 575,
+   "y": 832,
+   "w": 225,
+   "h": 132,
+   "kind": "s1_w",
+   "title": "2 independent physicians or nurse practitioners",
+   "lines": [
+    "certify eligibility"
+   ]
+  },
+  {
+   "id": "s2_check_0_0",
+   "x": 812,
+   "y": 832,
+   "w": 225,
+   "h": 132,
+   "kind": "s2_w",
+   "title": "2 independent assessors",
+   "lines": [
+    "ONE has expertise in the condition and has discussed all treatment options"
+   ]
+  },
+  {
+   "id": "sdm_do_0_0",
+   "x": 45,
+   "y": 1004,
+   "w": 225,
+   "h": 260,
+   "kind": "ok",
+   "title": "Ask the SDM, in this ORDER",
+   "lines": [
+    "1 · court-ordered guardian",
+    "2 · attorney for PERSONAL CARE (not property)",
+    "3 · Consent and Capacity Board representative",
+    "4 · spouse or partner",
+    "5 · child (16+) or custodial parent",
+    "6 · parent with right of access",
+    "7 · siblings",
+    "8 · any other relative",
+    "9 · Public Guardian and Trustee"
+   ]
+  },
+  {
+   "id": "sdm_do_1_0",
+   "x": 45,
+   "y": 1286,
+   "w": 225,
+   "h": 78,
+   "kind": "sdm_w",
+   "title": "Advance care planning",
+   "lines": [
+    "WISHES that guide the SDM, NOT advance consent"
+   ]
+  },
+  {
+   "id": "pal_do_0_0",
+   "x": 310,
+   "y": 1004,
+   "w": 225,
+   "h": 360,
+   "kind": "ok",
+   "title": "Comfort, at home where possible",
+   "lines": [
+    "• control pain, breathlessness, delirium, agitation",
+    "• stroke, disability unacceptable to them: no tube feeds or IV fluids",
+    "• turning and symptom drugs do NOT hasten death"
+   ]
+  },
+  {
+   "id": "s1_do_0_0",
+   "x": 575,
+   "y": 1004,
+   "w": 225,
+   "h": 360,
+   "kind": "ok",
+   "title": "Consent AGAIN at the time of MAiD",
+   "lines": [
+    "unless a WAIVER of final consent was signed (at risk of losing capacity)"
+   ]
+  },
+  {
+   "id": "s2_do_0_0",
+   "x": 812,
+   "y": 1004,
+   "w": 225,
+   "h": 360,
+   "kind": "bad",
+   "title": "90-day wait · NO waiver",
+   "lines": [
+    "consent AGAIN at the time of MAiD"
+   ]
+  }
+ ],
+ "edges": [
+  {
+   "from": "root",
+   "to": "g_cap",
+   "path": "M541.0 106V131H157.5V156"
+  },
+  {
+   "from": "root",
+   "to": "g_pal",
+   "path": "M541.0 106V131H422.5V156"
+  },
+  {
+   "from": "root",
+   "to": "g_maid",
+   "path": "M541.0 106V131H806.0V156"
+  },
+  {
+   "from": "g_maid",
+   "to": "p_maid"
+  },
+  {
+   "from": "sdm_do_0_0",
+   "to": "sdm_do_1_0"
+  },
+  {
+   "from": "sdm_head_0_0",
+   "to": "sdm_when_0_0"
+  },
+  {
+   "from": "sdm_when_0_0",
+   "to": "sdm_check_0_0"
+  },
+  {
+   "from": "sdm_check_0_0",
+   "to": "sdm_do_0_0"
+  },
+  {
+   "from": "g_cap",
+   "to": "sdm_head_0_0",
+   "from_dx": 0
+  },
+  {
+   "from": "pal_head_0_0",
+   "to": "pal_when_0_0"
+  },
+  {
+   "from": "pal_when_0_0",
+   "to": "pal_check_0_0"
+  },
+  {
+   "from": "pal_check_0_0",
+   "to": "pal_do_0_0"
+  },
+  {
+   "from": "g_pal",
+   "to": "pal_head_0_0",
+   "from_dx": 0
+  },
+  {
+   "from": "s1_head_0_0",
+   "to": "s1_when_0_0"
+  },
+  {
+   "from": "s1_when_0_0",
+   "to": "s1_check_0_0"
+  },
+  {
+   "from": "s1_check_0_0",
+   "to": "s1_do_0_0"
+  },
+  {
+   "from": "p_maid",
+   "to": "s1_head_0_0",
+   "from_dx": -118,
+   "label": "death foreseeable",
+   "label_at": [
+    687.5,
+    446
+   ]
+  },
+  {
+   "from": "s2_head_0_0",
+   "to": "s2_when_0_0"
+  },
+  {
+   "from": "s2_when_0_0",
+   "to": "s2_check_0_0"
+  },
+  {
+   "from": "s2_check_0_0",
+   "to": "s2_do_0_0"
+  },
+  {
+   "from": "p_maid",
+   "to": "s2_head_0_0",
+   "from_dx": 118,
+   "label": "NOT foreseeable",
+   "label_at": [
+    924.5,
+    446
+   ]
+  }
+ ],
+ "panels": []
+}

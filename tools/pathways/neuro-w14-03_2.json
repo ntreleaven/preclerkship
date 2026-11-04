@@ -1,0 +1,686 @@
+{
+ "name": "stroke overview",
+ "width": 1172,
+ "title": "A sudden focal deficit runs the stroke protocol: glucose, NIH Stroke Scale and localization, then a non-contrast CT; no blood means an ischemic stroke (CT angiogram and perfusion, tPA within 4.5 hours, thrombectomy for a proximal large-vessel occlusion with a mismatch) or a TIA (CT, ASA, TIA clinic), both followed by secondary prevention chosen by cause; blood means an intracerebral hemorrhage (cause by site, BP under 160/110, hold antithrombotics) or a subarachnoid hemorrhage (vessel imaging, neurosurgery)",
+ "kinds": {
+  "isch_h": [
+   "#1f6f8b",
+   "#1f6f8b",
+   "#ffffff",
+   "#ffffff"
+  ],
+  "isch_t": [
+   "#dceef4",
+   "#1f6f8b",
+   "#1f6f8b",
+   "#18212e"
+  ],
+  "isch_w": [
+   "#ffffff",
+   "#1f6f8b",
+   "#1f6f8b",
+   "#18212e"
+  ],
+  "tia_h": [
+   "#6a4aa8",
+   "#6a4aa8",
+   "#ffffff",
+   "#ffffff"
+  ],
+  "tia_t": [
+   "#ebe4f7",
+   "#6a4aa8",
+   "#6a4aa8",
+   "#18212e"
+  ],
+  "tia_w": [
+   "#ffffff",
+   "#6a4aa8",
+   "#6a4aa8",
+   "#18212e"
+  ],
+  "ich_h": [
+   "#b5600f",
+   "#b5600f",
+   "#ffffff",
+   "#ffffff"
+  ],
+  "ich_t": [
+   "#fbe8d3",
+   "#b5600f",
+   "#b5600f",
+   "#18212e"
+  ],
+  "ich_w": [
+   "#ffffff",
+   "#b5600f",
+   "#b5600f",
+   "#18212e"
+  ],
+  "sah_h": [
+   "#1f5f9e",
+   "#1f5f9e",
+   "#ffffff",
+   "#ffffff"
+  ],
+  "sah_t": [
+   "#dde9f7",
+   "#1f5f9e",
+   "#1f5f9e",
+   "#18212e"
+  ],
+  "sah_w": [
+   "#ffffff",
+   "#1f5f9e",
+   "#1f5f9e",
+   "#18212e"
+  ]
+ },
+ "bands": [
+  {
+   "x": 40,
+   "y": 288,
+   "w": 272,
+   "h": 916,
+   "fill": "#eef7fa",
+   "stroke": "#1f6f8b"
+  },
+  {
+   "x": 314,
+   "y": 288,
+   "w": 272,
+   "h": 916,
+   "fill": "#f5f1fb",
+   "stroke": "#6a4aa8"
+  },
+  {
+   "x": 616,
+   "y": 288,
+   "w": 272,
+   "h": 1188,
+   "fill": "#fdf4ea",
+   "stroke": "#b5600f"
+  },
+  {
+   "x": 890,
+   "y": 288,
+   "w": 272,
+   "h": 1188,
+   "fill": "#eff5fc",
+   "stroke": "#1f5f9e"
+  }
+ ],
+ "row_labels": [
+  {
+   "x": 23,
+   "y": 414,
+   "h": 198,
+   "text": "PRESENTS AS"
+  },
+  {
+   "x": 23,
+   "y": 652,
+   "h": 200,
+   "text": "INVESTIGATIONS"
+  },
+  {
+   "x": 23,
+   "y": 892,
+   "h": 304,
+   "text": "TREATMENT"
+  },
+  {
+   "x": 23,
+   "y": 1236,
+   "h": 232,
+   "text": "THEN"
+  }
+ ],
+ "nodes": [
+  {
+   "id": "root",
+   "x": 221,
+   "y": 10,
+   "w": 760,
+   "kind": "dark",
+   "title": "Sudden focal neurological deficit: STROKE PROTOCOL · TIME IS BRAIN",
+   "lines": [
+    "point-of-care glucose (low sugar mimics a stroke) · 2 IV lines, labs (INR, creatinine, CBC) · NIH Stroke Scale",
+    "LOCALIZE before you look at the scan · door to imaging under 25 min, door to needle under 60 min",
+    "NON-CONTRAST CT first: any hemorrhage is an ABSOLUTE contraindication to tPA"
+   ]
+  },
+  {
+   "id": "g_isch",
+   "x": 45,
+   "y": 156,
+   "w": 536,
+   "h": 60,
+   "kind": "plain",
+   "title": "NO blood: ISCHEMIC",
+   "lines": [
+    "follows a vascular territory"
+   ]
+  },
+  {
+   "id": "g_hem",
+   "x": 621,
+   "y": 156,
+   "w": 536,
+   "h": 60,
+   "kind": "plain",
+   "title": "BLOOD: HEMORRHAGIC",
+   "lines": [
+    "may not follow a territory · more often with a headache"
+   ]
+  },
+  {
+   "id": "isch_head_0_0",
+   "x": 45,
+   "y": 296,
+   "w": 262,
+   "h": 78,
+   "kind": "isch_h",
+   "title": "Ischemic stroke",
+   "lines": [
+    "large vessel occlusion, or small vessel (lacunar)"
+   ]
+  },
+  {
+   "id": "tia_head_0_0",
+   "x": 319,
+   "y": 296,
+   "w": 262,
+   "h": 78,
+   "kind": "tia_h",
+   "title": "Transient ischemic attack (TIA)",
+   "lines": [
+    "usually under 1 hour · NO infarct"
+   ]
+  },
+  {
+   "id": "ich_head_0_0",
+   "x": 621,
+   "y": 296,
+   "w": 262,
+   "h": 78,
+   "kind": "ich_h",
+   "title": "Intracerebral hemorrhage",
+   "lines": [
+    "bleeding into the brain"
+   ]
+  },
+  {
+   "id": "sah_head_0_0",
+   "x": 895,
+   "y": 296,
+   "w": 262,
+   "h": 78,
+   "kind": "sah_h",
+   "title": "Subarachnoid hemorrhage",
+   "lines": [
+    "ruptured aneurysm, in most (or trauma)"
+   ]
+  },
+  {
+   "id": "isch_clue_0_0",
+   "x": 45,
+   "y": 414,
+   "w": 262,
+   "h": 198,
+   "kind": "isch_t",
+   "title": "The territory's syndrome",
+   "lines": [
+    "• LEFT MCA: aphasia + right face, arm > leg",
+    "• RIGHT MCA: left neglect, anosognosia + left face, arm > leg",
+    "• ACA: opposite leg · PCA: opposite hemianopsia"
+   ]
+  },
+  {
+   "id": "tia_clue_0_0",
+   "x": 319,
+   "y": 414,
+   "w": 262,
+   "h": 198,
+   "kind": "tia_t",
+   "title": "Resolves COMPLETELY",
+   "lines": [
+    "• e.g. 10 minutes of face and hand weakness",
+    "• crescendo TIAs → admit (neurology)"
+   ]
+  },
+  {
+   "id": "ich_clue_0_0",
+   "x": 621,
+   "y": 414,
+   "w": 262,
+   "h": 42,
+   "kind": "ich_t",
+   "title": "Cause by SITE",
+   "lines": []
+  },
+  {
+   "id": "ich_clue_1_0",
+   "x": 621.0,
+   "y": 478,
+   "w": 126.0,
+   "h": 134,
+   "kind": "ich_w",
+   "title": "DEEP: hypertension",
+   "lines": [
+    "pons, basal ganglia, thalamus, cerebellum"
+   ]
+  },
+  {
+   "id": "ich_clue_1_1",
+   "x": 757.0,
+   "y": 478,
+   "w": 126.0,
+   "h": 134,
+   "kind": "ich_w",
+   "title": "LOBAR: amyloid angiopathy",
+   "lines": [
+    "just under the cortex"
+   ]
+  },
+  {
+   "id": "sah_clue_0_0",
+   "x": 895,
+   "y": 414,
+   "w": 262,
+   "h": 198,
+   "kind": "sah_t",
+   "title": "THUNDERCLAP",
+   "lines": [
+    "• sudden, explosive, worst headache of her life",
+    "• then nausea, vomiting"
+   ]
+  },
+  {
+   "id": "isch_inv_0_0",
+   "x": 45,
+   "y": 652,
+   "w": 262,
+   "h": 60,
+   "kind": "isch_w",
+   "title": "1 · CT: early ischemic change",
+   "lines": [
+    "dead brain · over 1/3 of MCA → no tPA"
+   ]
+  },
+  {
+   "id": "isch_inv_1_0",
+   "x": 45.0,
+   "y": 734,
+   "w": 126.0,
+   "h": 118,
+   "kind": "isch_w",
+   "title": "2 · CT angiogram (CTA)",
+   "lines": [
+    "large vessel occlusion?"
+   ]
+  },
+  {
+   "id": "isch_inv_1_1",
+   "x": 181.0,
+   "y": 734,
+   "w": 126.0,
+   "h": 118,
+   "kind": "isch_w",
+   "title": "3 · CT perfusion",
+   "lines": [
+    "mismatch = salvageable"
+   ]
+  },
+  {
+   "id": "tia_inv_0_0",
+   "x": 319,
+   "y": 652,
+   "w": 262,
+   "h": 80,
+   "kind": "tia_w",
+   "title": "CT head",
+   "lines": [
+    "rule out mimics: subdural, tumour"
+   ]
+  },
+  {
+   "id": "tia_inv_1_0",
+   "x": 319,
+   "y": 754,
+   "w": 262,
+   "h": 98,
+   "kind": "tia_w",
+   "title": "Rapid TIA clinic",
+   "lines": [
+    "echo · Holter · CTA or carotid Dopplers · lipids, glucose, BP"
+   ]
+  },
+  {
+   "id": "ich_inv_0_0",
+   "x": 621,
+   "y": 652,
+   "w": 262,
+   "h": 200,
+   "kind": "ich_w",
+   "title": "Find the cause: MRI, CTA",
+   "lines": [
+    "also tumour (metastasis) · AVM, cavernoma, aneurysm · coagulopathy"
+   ]
+  },
+  {
+   "id": "sah_inv_0_0",
+   "x": 895,
+   "y": 652,
+   "w": 262,
+   "h": 200,
+   "kind": "sah_w",
+   "title": "Urgent vessel imaging",
+   "lines": [
+    "CTA or MRA to find the aneurysm"
+   ]
+  },
+  {
+   "id": "isch_tx_0_0",
+   "x": 45,
+   "y": 892,
+   "w": 262,
+   "h": 168,
+   "kind": "bad",
+   "title": "First check: NO tPA if ANY",
+   "lines": [
+    "• hemorrhage now or ever · SAH symptoms, seizure at onset",
+    "• BP over 185/110 despite treatment",
+    "• INR over 1.4 · PTT over 40 s · platelets under 100,000",
+    "• factor Xa inhibitor in 24-48 h · glucose under 3 or over 22"
+   ]
+  },
+  {
+   "id": "isch_tx_1_0",
+   "x": 45.0,
+   "y": 1082,
+   "w": 126.0,
+   "h": 114,
+   "kind": "ok",
+   "title": "tPA up to 4.5 h",
+   "lines": [
+    "0.9 mg/kg, 10% bolus · bleed risk 6%"
+   ]
+  },
+  {
+   "id": "isch_tx_1_1",
+   "x": 181.0,
+   "y": 1082,
+   "w": 126.0,
+   "h": 114,
+   "kind": "ok",
+   "title": "Thrombectomy",
+   "lines": [
+    "proximal occlusion + mismatch, even without tPA"
+   ]
+  },
+  {
+   "id": "tia_tx_0_0",
+   "x": 319,
+   "y": 892,
+   "w": 262,
+   "h": 304,
+   "kind": "ok",
+   "title": "Start ASA",
+   "lines": [
+    "already on ASA → add clopidogrel for 21 days"
+   ]
+  },
+  {
+   "id": "ich_tx_0_0",
+   "x": 621,
+   "y": 892,
+   "w": 262,
+   "h": 304,
+   "kind": "bad",
+   "title": "NO tPA",
+   "lines": [
+    "• BP under 160/110",
+    "• HOLD all antiplatelets and anticoagulants",
+    "• MECHANICAL DVT prophylaxis",
+    "• surgery very rarely"
+   ]
+  },
+  {
+   "id": "sah_tx_0_0",
+   "x": 895,
+   "y": 892,
+   "w": 262,
+   "h": 304,
+   "kind": "ok",
+   "title": "Admit to NEUROSURGERY",
+   "lines": [
+    "coil or clip, by the aneurysm's shape and site"
+   ]
+  },
+  {
+   "id": "ich_after_0_0",
+   "x": 621,
+   "y": 1236,
+   "w": 262,
+   "h": 232,
+   "kind": "warn",
+   "title": "At 24 hours",
+   "lines": [
+    "repeat CT · no clot extension → heparin prophylaxis · rehabilitation"
+   ]
+  },
+  {
+   "id": "sah_after_0_0",
+   "x": 895,
+   "y": 1236,
+   "w": 262,
+   "h": 232,
+   "kind": "bad",
+   "title": "Watch for",
+   "lines": [
+    "• RE-BLEEDING before it is secured",
+    "• VASOSPASM → ischemic stroke",
+    "• medical complications"
+   ]
+  },
+  {
+   "id": "span0_after_0_0",
+   "x": 45,
+   "y": 1236,
+   "w": 536,
+   "h": 78,
+   "kind": "plain",
+   "title": "SECONDARY PREVENTION, chosen by the CAUSE",
+   "lines": [
+    "admit to the stroke unit: BP watch and imaging at 24 h, nothing by mouth until a swallowing assessment · rehabilitation beats even tPA"
+   ]
+  },
+  {
+   "id": "span0_after_1_0",
+   "x": 45.0,
+   "y": 1336,
+   "w": 263.0,
+   "h": 132,
+   "kind": "ok",
+   "title": "Antithrombotic",
+   "lines": [
+    "• CARDIOEMBOLIC (atrial fibrillation, valve) → ANTICOAGULATE, ~2 weeks after",
+    "• all other causes → ASA 81 mg · clopidogrel if ASA fails"
+   ]
+  },
+  {
+   "id": "span0_after_1_1",
+   "x": 318.0,
+   "y": 1336,
+   "w": 263.0,
+   "h": 132,
+   "kind": "ok",
+   "title": "And",
+   "lines": [
+    "• symptomatic carotid stenosis over 70% → endarterectomy or stent",
+    "• BP under 140/90 · high-dose statin · glucose · smoking"
+   ]
+  }
+ ],
+ "edges": [
+  {
+   "from": "root",
+   "to": "g_isch",
+   "path": "M601.0 106V131H313.0V156"
+  },
+  {
+   "from": "root",
+   "to": "g_hem",
+   "path": "M601.0 106V131H889.0V156"
+  },
+  {
+   "from": "ich_clue_0_0",
+   "to": "ich_clue_1_0",
+   "from_dx": -68.0
+  },
+  {
+   "from": "ich_clue_0_0",
+   "to": "ich_clue_1_1",
+   "from_dx": 68.0
+  },
+  {
+   "from": "isch_inv_0_0",
+   "to": "isch_inv_1_0",
+   "from_dx": -68.0
+  },
+  {
+   "from": "isch_inv_0_0",
+   "to": "isch_inv_1_1",
+   "from_dx": 68.0
+  },
+  {
+   "from": "tia_inv_0_0",
+   "to": "tia_inv_1_0"
+  },
+  {
+   "from": "isch_tx_0_0",
+   "to": "isch_tx_1_0",
+   "from_dx": -68.0
+  },
+  {
+   "from": "isch_tx_0_0",
+   "to": "isch_tx_1_1",
+   "from_dx": 68.0
+  },
+  {
+   "from": "span0_after_0_0",
+   "to": "span0_after_1_0",
+   "from_dx": -136.5
+  },
+  {
+   "from": "span0_after_0_0",
+   "to": "span0_after_1_1",
+   "from_dx": 136.5
+  },
+  {
+   "from": "isch_head_0_0",
+   "to": "isch_clue_0_0"
+  },
+  {
+   "from": "isch_clue_0_0",
+   "to": "isch_inv_0_0"
+  },
+  {
+   "from": "isch_inv_1_0",
+   "to": "isch_tx_0_0",
+   "to_dx": -68.0
+  },
+  {
+   "from": "isch_inv_1_1",
+   "to": "isch_tx_0_0",
+   "to_dx": 68.0
+  },
+  {
+   "from": "isch_tx_1_0",
+   "to": "span0_after_0_0",
+   "to_dx": -137.0
+  },
+  {
+   "from": "isch_tx_1_1",
+   "to": "span0_after_0_0",
+   "to_dx": -137.0
+  },
+  {
+   "from": "g_isch",
+   "to": "isch_head_0_0",
+   "from_dx": -137
+  },
+  {
+   "from": "tia_head_0_0",
+   "to": "tia_clue_0_0"
+  },
+  {
+   "from": "tia_clue_0_0",
+   "to": "tia_inv_0_0"
+  },
+  {
+   "from": "tia_inv_1_0",
+   "to": "tia_tx_0_0"
+  },
+  {
+   "from": "tia_tx_0_0",
+   "to": "span0_after_0_0",
+   "to_dx": 137.0
+  },
+  {
+   "from": "g_isch",
+   "to": "tia_head_0_0",
+   "from_dx": 137
+  },
+  {
+   "from": "ich_head_0_0",
+   "to": "ich_clue_0_0"
+  },
+  {
+   "from": "ich_clue_1_0",
+   "to": "ich_inv_0_0",
+   "to_dx": -68.0
+  },
+  {
+   "from": "ich_clue_1_1",
+   "to": "ich_inv_0_0",
+   "to_dx": 68.0
+  },
+  {
+   "from": "ich_inv_0_0",
+   "to": "ich_tx_0_0"
+  },
+  {
+   "from": "ich_tx_0_0",
+   "to": "ich_after_0_0"
+  },
+  {
+   "from": "g_hem",
+   "to": "ich_head_0_0",
+   "from_dx": -137
+  },
+  {
+   "from": "sah_head_0_0",
+   "to": "sah_clue_0_0"
+  },
+  {
+   "from": "sah_clue_0_0",
+   "to": "sah_inv_0_0"
+  },
+  {
+   "from": "sah_inv_0_0",
+   "to": "sah_tx_0_0"
+  },
+  {
+   "from": "sah_tx_0_0",
+   "to": "sah_after_0_0"
+  },
+  {
+   "from": "g_hem",
+   "to": "sah_head_0_0",
+   "from_dx": 137
+  }
+ ],
+ "panels": []
+}

@@ -1,0 +1,59 @@
+{
+ "name": "end of life decisions overview",
+ "title": "End of life: a patient who cannot decide gets a substitute decision maker in a fixed order; palliative care is reached by four routes and aims at comfort; a patient who asks for medical assistance in dying must meet every eligibility criterion, and the stream (natural death foreseeable or not) sets the safeguards",
+ "col_w": 225,
+ "root": {
+  "title": "End of life: who decides, and what can be offered?",
+  "lines": [
+   "capacity = UNDERSTAND the information + APPRECIATE the foreseeable consequences · specific to each decision · can fluctuate",
+   "code status (which resuscitation, if any) needs informed consent from the patient or SDM · it is NOT the same as goals of care"
+  ]
+ },
+ "groups": [
+  {"id": "g_cap", "cols": [0, 0], "title": "Patient NOT capable", "lines": ["of this decision"]},
+  {"id": "g_pal", "cols": [1, 1], "title": "Comfort becomes the goal", "lines": []},
+  {"id": "g_maid", "cols": [2, 3], "title": "Patient asks for medical assistance in dying (MAiD)", "lines": []}
+ ],
+ "pres": [
+  {"id": "p_maid", "group": "g_maid", "title": "Eligible? ALL of these", "lines": [
+   "• eligible for publicly funded health care",
+   "• 18 or older and capable",
+   "• grievous and irremediable: serious illness, advanced irreversible decline, unbearable suffering",
+   "• voluntary, free of outside pressure",
+   "• informed consent, including palliative options"
+  ]}
+ ],
+ "sections": ["head", "when", "check", "do"],
+ "row_names": {"pres": "ELIGIBLE?", "when": "WHEN", "check": "ASSESS", "do": "DO"},
+ "columns": [
+  {
+   "id": "sdm", "colour": "teal",
+   "head": [[["h", "Substitute decision maker (SDM)", ["gives or refuses consent for the patient"]]]],
+   "when": [[["t", "Fails EITHER part of capacity", ["• cannot understand the information", "• cannot appreciate the consequences"]]]],
+   "check": [[["w", "Who assesses capacity?", ["the clinician offering the treatment", "~can be delegated"]]]],
+   "do": [[["ok", "Ask the SDM, in this ORDER", ["1 · court-ordered guardian", "2 · attorney for PERSONAL CARE (not property)", "3 · Consent and Capacity Board representative", "4 · spouse or partner", "5 · child (16+) or custodial parent", "6 · parent with right of access", "7 · siblings", "8 · any other relative", "9 · Public Guardian and Trustee"]]],
+          [["w", "Advance care planning", ["WISHES that guide the SDM, NOT advance consent"]]]]
+  },
+  {
+   "id": "pal", "colour": "purple",
+   "head": [[["h", "Palliative care", ["quality of life: physical, psychosocial, spiritual · patient AND family"]]]],
+   "when": [[["t", "Any ONE route in", ["• patient declines treatment", "• treatment futile or would cause suffering", "• hard symptoms DURING treatment", "• severe irreversible disability (e.g. major stroke)"]]]],
+   "check": [[["w", "Two scales", ["• Palliative Performance Scale: disease burden, progress to end of life", "• Edmonton Symptom Assessment System: symptoms to manage"]]]],
+   "do": [[["ok", "Comfort, at home where possible", ["• control pain, breathlessness, delirium, agitation", "• stroke, disability unacceptable to them: no tube feeds or IV fluids", "• turning and symptom drugs do NOT hasten death"]]]]
+  },
+  {
+   "id": "s1", "colour": "orange", "drop_from": "p_maid", "drop_label": "death foreseeable",
+   "head": [[["h", "Stream 1", ["natural death reasonably FORESEEABLE"]]]],
+   "when": [[["t", "Written request", ["signed before an independent witness"]]]],
+   "check": [[["w", "2 independent physicians or nurse practitioners", ["certify eligibility"]]]],
+   "do": [[["ok", "Consent AGAIN at the time of MAiD", ["unless a WAIVER of final consent was signed (at risk of losing capacity)"]]]]
+  },
+  {
+   "id": "s2", "colour": "blue", "drop_from": "p_maid", "drop_label": "NOT foreseeable",
+   "head": [[["h", "Stream 2", ["natural death NOT reasonably foreseeable"]]]],
+   "when": [[["t", "Written request", ["signed before an independent witness"]]]],
+   "check": [[["w", "2 independent assessors", ["ONE has expertise in the condition and has discussed all treatment options"]]]],
+   "do": [[["bad", "90-day wait · NO waiver", ["consent AGAIN at the time of MAiD"]]]]
+  }
+ ]
+}

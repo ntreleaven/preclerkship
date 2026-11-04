@@ -1,0 +1,228 @@
+{
+ "name": "movement disorders overview",
+ "title": "Tremor or slowness: a symmetric postural or action tremor that improves with alcohol is essential tremor; asymmetric rest tremor with rigidity, bradykinesia and postural instability is parkinsonism, which is Parkinson's disease only once drugs, basal ganglia lesions, head trauma, toxins, PSP and MSA are excluded; each with its treatment",
+ "col_w": 300,
+ "root": {
+  "title": "Tremor or slowness: WHEN is the tremor worst, and is it on ONE side?",
+  "lines": [
+   "• hyperkinetic (too much movement): ballismus · chorea · athetosis · tremor · dystonia · tics",
+   "• hypokinetic (too little): parkinsonism, with bradykinesia (slow) and akinesia (hard to start)"
+  ]
+ },
+ "groups": [
+  {
+   "id": "g_et",
+   "cols": [
+    0,
+    0
+   ],
+   "title": "Tremor with POSTURE or ACTION",
+   "lines": [
+    "SYMMETRIC"
+   ]
+  },
+  {
+   "id": "g_pk",
+   "cols": [
+    1,
+    2
+   ],
+   "title": "PARKINSONISM: a syndrome",
+   "lines": [
+    "tremor · rigidity · bradykinesia · postural instability, in any mix"
+   ]
+  }
+ ],
+ "sections": [
+  "head",
+  "pres",
+  "tx"
+ ],
+ "row_names": {
+  "pres": "PRESENTS AS",
+  "tx": "TREATMENT"
+ },
+ "columns": [
+  {
+   "id": "et",
+   "colour": "teal",
+   "drop_label": "better with alcohol",
+   "head": [
+    [
+     [
+      "h",
+      "Essential tremor",
+      [
+       "may be hereditary · worsens over time"
+      ]
+     ]
+    ]
+   ],
+   "pres": [
+    [
+     [
+      "t",
+      "Postural or action tremor",
+      [
+       "• both sides alike",
+       "• arms most, also head and voice",
+       "• improves with ALCOHOL",
+       "• LARGE, shaky handwriting"
+      ]
+     ]
+    ]
+   ],
+   "tx": [
+    [
+     [
+      "ok",
+      "Mild → no treatment",
+      []
+     ]
+    ],
+    [
+     [
+      "ok",
+      "Beta-blocker or primidone",
+      [
+       "other anticonvulsants are options"
+      ]
+     ]
+    ],
+    [
+     [
+      "warn",
+      "Refractory → deep brain stimulation",
+      [
+       "targets in the basal ganglia"
+      ]
+     ]
+    ]
+   ]
+  },
+  {
+   "id": "pd",
+   "colour": "purple",
+   "drop_label": "no other cause",
+   "head": [
+    [
+     [
+      "h",
+      "Parkinson's disease",
+      [
+       "dopamine neurons of the substantia nigra die · onset about 60"
+      ]
+     ]
+    ]
+   ],
+   "pres": [
+    [
+     [
+      "t",
+      "T.R.A.P., ASYMMETRIC",
+      [
+       "• Tremor at REST, pill-rolling",
+       "• Rigidity: same at any speed, ↑ with augmentation",
+       "• Akinesia / bradykinesia",
+       "• Postural instability",
+       "• small handwriting · masked face · soft voice · less arm swing · stooped, turns en bloc"
+      ]
+     ]
+    ]
+   ],
+   "tx": [
+    [
+     [
+      "plain",
+      "Not functionally limiting → no treatment yet",
+      []
+     ]
+    ],
+    [
+     [
+      "ok",
+      "Limiting → LEVODOPA + carbidopa",
+      [
+       "• most effective: bradykinesia, rigidity best · tremor variable",
+       "• start low, titrate slowly",
+       "• NEVER stop suddenly",
+       "• watch: on-off, wearing off · dyskinesia (50% by 5 years)"
+      ]
+     ]
+    ],
+    [
+     [
+      "ok",
+      "Other options",
+      [
+       "• early: MAO-B inhibitor",
+       "• dopamine agonist (pramipexole, ropinirole)",
+       "• tremor: anticholinergic",
+       "• severe: deep brain stimulation"
+      ]
+     ]
+    ]
+   ]
+  },
+  {
+   "id": "oth",
+   "colour": "orange",
+   "drop_label": "a cause, or red flags",
+   "head": [
+    [
+     [
+      "h",
+      "Parkinsonism from ANOTHER cause",
+      [
+       "Parkinson's disease is only ONE cause"
+      ]
+     ]
+    ]
+   ],
+   "pres": [
+    [
+     [
+      "t",
+      "Ask about",
+      [
+       "• antipsychotics, antiemetics (prochlorperazine, metoclopramide)",
+       "• basal ganglia stroke, bleed, tumour, infection",
+       "• repeated head trauma · carbon monoxide, cyanide"
+      ]
+     ]
+    ],
+    [
+     [
+      "w",
+      "Progressive supranuclear palsy (PSP)",
+      [
+       "• VERTICAL gaze palsy, overcome by vestibular reflexes",
+       "• EARLY falls",
+       "• axial tone > limb tone"
+      ]
+     ],
+     [
+      "w",
+      "Multiple system atrophy (MSA)",
+      [
+       "• AUTONOMIC dysfunction",
+       "• + parkinsonism (MSA-P) OR cerebellar signs (MSA-C)"
+      ]
+     ]
+    ]
+   ],
+   "tx": [
+    [
+     [
+      "bad",
+      "Do NOT call it Parkinson's disease",
+      [
+       "• other neurodegenerative causes: MSA, PSP, diffuse Lewy body disease",
+       "• MSA: death within 6-9 years of onset"
+      ]
+     ]
+    ]
+   ]
+  }
+ ]
+}

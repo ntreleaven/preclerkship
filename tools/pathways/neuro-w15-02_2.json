@@ -1,0 +1,443 @@
+{
+ "name": "brain tumours overview",
+ "width": 1068,
+ "title": "Suspected brain tumour: progressive symptoms and raised intracranial pressure prompt a contrast MRI; metastasis is treated by resection and radiation, a glioma by its grade (an enhancing high-grade glioma is treated at once, a non-enhancing low-grade glioma can be watched), and primary CNS lymphoma is suspected in the immunosuppressed",
+ "kinds": {
+  "met_h": [
+   "#1f6f8b",
+   "#1f6f8b",
+   "#ffffff",
+   "#ffffff"
+  ],
+  "met_t": [
+   "#dceef4",
+   "#1f6f8b",
+   "#1f6f8b",
+   "#18212e"
+  ],
+  "met_w": [
+   "#ffffff",
+   "#1f6f8b",
+   "#1f6f8b",
+   "#18212e"
+  ],
+  "hgg_h": [
+   "#b5600f",
+   "#b5600f",
+   "#ffffff",
+   "#ffffff"
+  ],
+  "hgg_t": [
+   "#fbe8d3",
+   "#b5600f",
+   "#b5600f",
+   "#18212e"
+  ],
+  "hgg_w": [
+   "#ffffff",
+   "#b5600f",
+   "#b5600f",
+   "#18212e"
+  ],
+  "lgg_h": [
+   "#1f5f9e",
+   "#1f5f9e",
+   "#ffffff",
+   "#ffffff"
+  ],
+  "lgg_t": [
+   "#dde9f7",
+   "#1f5f9e",
+   "#1f5f9e",
+   "#18212e"
+  ],
+  "lgg_w": [
+   "#ffffff",
+   "#1f5f9e",
+   "#1f5f9e",
+   "#18212e"
+  ],
+  "pcl_h": [
+   "#6a4aa8",
+   "#6a4aa8",
+   "#ffffff",
+   "#ffffff"
+  ],
+  "pcl_t": [
+   "#ebe4f7",
+   "#6a4aa8",
+   "#6a4aa8",
+   "#18212e"
+  ],
+  "pcl_w": [
+   "#ffffff",
+   "#6a4aa8",
+   "#6a4aa8",
+   "#18212e"
+  ]
+ },
+ "bands": [
+  {
+   "x": 40,
+   "y": 424,
+   "w": 246,
+   "h": 522,
+   "fill": "#eef7fa",
+   "stroke": "#1f6f8b"
+  },
+  {
+   "x": 316,
+   "y": 424,
+   "w": 246,
+   "h": 522,
+   "fill": "#fdf4ea",
+   "stroke": "#b5600f"
+  },
+  {
+   "x": 564,
+   "y": 424,
+   "w": 246,
+   "h": 522,
+   "fill": "#eff5fc",
+   "stroke": "#1f5f9e"
+  },
+  {
+   "x": 812,
+   "y": 424,
+   "w": 246,
+   "h": 522,
+   "fill": "#f5f1fb",
+   "stroke": "#6a4aa8"
+  }
+ ],
+ "row_labels": [
+  {
+   "x": 23,
+   "y": 550,
+   "h": 96,
+   "text": "CLUES"
+  },
+  {
+   "x": 23,
+   "y": 686,
+   "h": 252,
+   "text": "TREATMENT"
+  }
+ ],
+ "nodes": [
+  {
+   "id": "root",
+   "x": 169,
+   "y": 10,
+   "w": 760,
+   "kind": "dark",
+   "title": "Could it be a brain TUMOUR? The red flag is PROGRESSIVE symptoms",
+   "lines": [
+    "• raised pressure: ↓ consciousness · headache, nausea, vomiting · Cushing response · papilledema (LATE) · herniation",
+    "• headache: persistent, progressive, worse lying down and in the morning, wakes from sleep, worse with cough or Valsalva",
+    "• focal deficit · mental status change (mistaken for depression or dementia) · seizures, especially focal",
+    "• CONTRAST MRI (gadolinium) = test of choice · CT only WITH contrast · tissue diagnosis still needed",
+    "• steroids for brain swelling · anti-seizure drugs only once there is a seizure"
+   ]
+  },
+  {
+   "id": "g_sec",
+   "x": 45,
+   "y": 192,
+   "w": 236,
+   "h": 60,
+   "kind": "plain",
+   "title": "SECONDARY: metastasis",
+   "lines": [
+    "the MORE common kind"
+   ]
+  },
+  {
+   "id": "g_pri",
+   "x": 321,
+   "y": 192,
+   "w": 732,
+   "h": 60,
+   "kind": "plain",
+   "title": "PRIMARY",
+   "lines": [
+    "gliomas are the most common primary"
+   ]
+  },
+  {
+   "id": "t_enh",
+   "x": 321,
+   "y": 292,
+   "w": 484,
+   "h": 60,
+   "kind": "plain",
+   "title": "Glioma: does it ENHANCE with contrast?",
+   "lines": [
+    "enhancement = high grade (3 or 4)"
+   ]
+  },
+  {
+   "id": "met_head_0_0",
+   "x": 45,
+   "y": 432,
+   "w": 236,
+   "h": 78,
+   "kind": "met_h",
+   "title": "Brain metastasis",
+   "lines": [
+    "most common CNS tumour"
+   ]
+  },
+  {
+   "id": "hgg_head_0_0",
+   "x": 321,
+   "y": 432,
+   "w": 236,
+   "h": 78,
+   "kind": "hgg_h",
+   "title": "High-grade glioma",
+   "lines": [
+    "grade 3 anaplastic · grade 4 glioblastoma"
+   ]
+  },
+  {
+   "id": "lgg_head_0_0",
+   "x": 569,
+   "y": 432,
+   "w": 236,
+   "h": 78,
+   "kind": "lgg_h",
+   "title": "Low-grade glioma",
+   "lines": [
+    "grade 2 · slow, but still malignant"
+   ]
+  },
+  {
+   "id": "pcl_head_0_0",
+   "x": 817,
+   "y": 432,
+   "w": 236,
+   "h": 78,
+   "kind": "pcl_h",
+   "title": "Primary CNS lymphoma",
+   "lines": [
+    "non-neural tissue, confined to the CNS"
+   ]
+  },
+  {
+   "id": "met_pres_0_0",
+   "x": 45,
+   "y": 550,
+   "w": 236,
+   "h": 96,
+   "kind": "met_t",
+   "title": "Where from?",
+   "lines": [
+    "• lung (small cell, adenocarcinoma)",
+    "• breast · melanoma · renal cell",
+    "• often multiple, enhancing lesions"
+   ]
+  },
+  {
+   "id": "hgg_pres_0_0",
+   "x": 321,
+   "y": 550,
+   "w": 236,
+   "h": 96,
+   "kind": "hgg_t",
+   "title": "SHORT history",
+   "lines": [
+    "weeks to a few months"
+   ]
+  },
+  {
+   "id": "lgg_pres_0_0",
+   "x": 569,
+   "y": 550,
+   "w": 236,
+   "h": 96,
+   "kind": "lgg_t",
+   "title": "LONG history",
+   "lines": [
+    "• months or longer",
+    "• may be seizures only"
+   ]
+  },
+  {
+   "id": "pcl_pres_0_0",
+   "x": 817,
+   "y": 550,
+   "w": 236,
+   "h": 96,
+   "kind": "pcl_t",
+   "title": "Who gets it?",
+   "lines": [
+    "• HIV, immunosuppressed",
+    "• also immunocompetent people",
+    "• B-cell non-Hodgkin in 90%"
+   ]
+  },
+  {
+   "id": "met_tx_0_0",
+   "x": 45,
+   "y": 686,
+   "w": 236,
+   "h": 252,
+   "kind": "ok",
+   "title": "Accessible + causing symptoms",
+   "lines": [
+    "1 · resection (biopsy only if difficult)",
+    "2 · then radiation: whole-brain or stereotactic radiosurgery",
+    "3 · treat the primary cancer too"
+   ]
+  },
+  {
+   "id": "hgg_tx_0_0",
+   "x": 321,
+   "y": 686,
+   "w": 236,
+   "h": 252,
+   "kind": "bad",
+   "title": "TREAT IMMEDIATELY",
+   "lines": [
+    "1 · maximal safe resection (deep → stereotactic biopsy)",
+    "2 · radiation, 15-30 treatments",
+    "3 · temozolomide (oral) during and 6-12 months after",
+    "~ glioblastoma: median survival 14-18 months"
+   ]
+  },
+  {
+   "id": "lgg_tx_0_0",
+   "x": 569,
+   "y": 686,
+   "w": 236,
+   "h": 80,
+   "kind": "ok",
+   "title": "No symptoms or seizures controlled",
+   "lines": [
+    "serial MRI · biopsy deferred"
+   ]
+  },
+  {
+   "id": "lgg_tx_1_0",
+   "x": 569,
+   "y": 788,
+   "w": 236,
+   "h": 150,
+   "kind": "warn",
+   "title": "TREAT if ANY of these",
+   "lines": [
+    "• new or progressive symptoms",
+    "• clear progression on MRI (starts to enhance)",
+    "• patient preference · older, very large",
+    "→ biopsy or resection, then radiation"
+   ]
+  },
+  {
+   "id": "pcl_tx_0_0",
+   "x": 817,
+   "y": 686,
+   "w": 236,
+   "h": 252,
+   "kind": "pcl_w",
+   "title": "Tissue diagnosis",
+   "lines": [
+    "biopsy, as for every brain tumour"
+   ]
+  }
+ ],
+ "edges": [
+  {
+   "from": "root",
+   "to": "g_sec",
+   "path": "M549.0 142V167H163.0V192"
+  },
+  {
+   "from": "root",
+   "to": "g_pri",
+   "path": "M549.0 142V167H687.0V192"
+  },
+  {
+   "from": "g_pri",
+   "to": "t_enh",
+   "from_dx": -124
+  },
+  {
+   "from": "lgg_tx_0_0",
+   "to": "lgg_tx_1_0"
+  },
+  {
+   "from": "met_head_0_0",
+   "to": "met_pres_0_0"
+  },
+  {
+   "from": "met_pres_0_0",
+   "to": "met_tx_0_0"
+  },
+  {
+   "from": "g_sec",
+   "to": "met_head_0_0",
+   "from_dx": 0,
+   "label": "known cancer, smoker",
+   "label_at": [
+    163.0,
+    392
+   ]
+  },
+  {
+   "from": "hgg_head_0_0",
+   "to": "hgg_pres_0_0"
+  },
+  {
+   "from": "hgg_pres_0_0",
+   "to": "hgg_tx_0_0"
+  },
+  {
+   "from": "t_enh",
+   "to": "hgg_head_0_0",
+   "from_dx": -124,
+   "label": "ENHANCES",
+   "label_at": [
+    439.0,
+    392
+   ]
+  },
+  {
+   "from": "lgg_head_0_0",
+   "to": "lgg_pres_0_0"
+  },
+  {
+   "from": "lgg_pres_0_0",
+   "to": "lgg_tx_0_0"
+  },
+  {
+   "from": "t_enh",
+   "to": "lgg_head_0_0",
+   "from_dx": 124,
+   "label": "does NOT enhance",
+   "label_at": [
+    687.0,
+    392
+   ]
+  },
+  {
+   "from": "pcl_head_0_0",
+   "to": "pcl_pres_0_0"
+  },
+  {
+   "from": "pcl_pres_0_0",
+   "to": "pcl_tx_0_0"
+  },
+  {
+   "from": "g_pri",
+   "to": "pcl_head_0_0",
+   "from_dx": 248,
+   "label": "immunosuppressed",
+   "label_at": [
+    935.0,
+    392
+   ]
+  }
+ ],
+ "panels": []
+}

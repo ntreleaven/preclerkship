@@ -1,0 +1,625 @@
+{
+ "name": "ocular trauma overview",
+ "width": 1344,
+ "title": "Eye trauma: look first for an open globe, then sort by mechanism. Surface and lid injuries are a metallic foreign body or a lid laceration; blunt trauma to the globe gives a hyphema or traumatic iritis; a stab or poke gives a corneal laceration with iris prolapse; each column gives the presentation, the exam finding and what to do",
+ "kinds": {
+  "fb_h": [
+   "#46607a",
+   "#46607a",
+   "#ffffff",
+   "#ffffff"
+  ],
+  "fb_t": [
+   "#e2e8ee",
+   "#46607a",
+   "#46607a",
+   "#18212e"
+  ],
+  "fb_w": [
+   "#ffffff",
+   "#46607a",
+   "#46607a",
+   "#18212e"
+  ],
+  "lid_h": [
+   "#8a5a2b",
+   "#8a5a2b",
+   "#ffffff",
+   "#ffffff"
+  ],
+  "lid_t": [
+   "#f3e6d8",
+   "#8a5a2b",
+   "#8a5a2b",
+   "#18212e"
+  ],
+  "lid_w": [
+   "#ffffff",
+   "#8a5a2b",
+   "#8a5a2b",
+   "#18212e"
+  ],
+  "hy_h": [
+   "#b5600f",
+   "#b5600f",
+   "#ffffff",
+   "#ffffff"
+  ],
+  "hy_t": [
+   "#fbe8d3",
+   "#b5600f",
+   "#b5600f",
+   "#18212e"
+  ],
+  "hy_w": [
+   "#ffffff",
+   "#b5600f",
+   "#b5600f",
+   "#18212e"
+  ],
+  "ti_h": [
+   "#6a4aa8",
+   "#6a4aa8",
+   "#ffffff",
+   "#ffffff"
+  ],
+  "ti_t": [
+   "#ebe4f7",
+   "#6a4aa8",
+   "#6a4aa8",
+   "#18212e"
+  ],
+  "ti_w": [
+   "#ffffff",
+   "#6a4aa8",
+   "#6a4aa8",
+   "#18212e"
+  ],
+  "cl_h": [
+   "#a3336b",
+   "#a3336b",
+   "#ffffff",
+   "#ffffff"
+  ],
+  "cl_t": [
+   "#f8e0ec",
+   "#a3336b",
+   "#a3336b",
+   "#18212e"
+  ],
+  "cl_w": [
+   "#ffffff",
+   "#a3336b",
+   "#a3336b",
+   "#18212e"
+  ]
+ },
+ "bands": [
+  {
+   "x": 40,
+   "y": 288,
+   "w": 246,
+   "h": 632,
+   "fill": "#f2f5f8",
+   "stroke": "#46607a"
+  },
+  {
+   "x": 288,
+   "y": 288,
+   "w": 246,
+   "h": 632,
+   "fill": "#faf4ee",
+   "stroke": "#8a5a2b"
+  },
+  {
+   "x": 564,
+   "y": 288,
+   "w": 246,
+   "h": 632,
+   "fill": "#fdf4ea",
+   "stroke": "#b5600f"
+  },
+  {
+   "x": 812,
+   "y": 288,
+   "w": 246,
+   "h": 632,
+   "fill": "#f5f1fb",
+   "stroke": "#6a4aa8"
+  },
+  {
+   "x": 1088,
+   "y": 288,
+   "w": 246,
+   "h": 632,
+   "fill": "#fcf0f6",
+   "stroke": "#a3336b"
+  }
+ ],
+ "row_labels": [
+  {
+   "x": 23,
+   "y": 396,
+   "h": 78,
+   "text": "PRESENTS AS"
+  },
+  {
+   "x": 23,
+   "y": 514,
+   "h": 98,
+   "text": "EXAM"
+  },
+  {
+   "x": 23,
+   "y": 652,
+   "h": 260,
+   "text": "WHAT TO DO"
+  }
+ ],
+ "nodes": [
+  {
+   "id": "root",
+   "x": 307,
+   "y": 10,
+   "w": 760,
+   "kind": "dark",
+   "title": "Eye trauma: is the globe OPEN?",
+   "lines": [
+    "look for: PEAKED pupil · Seidel sign · 360° subconjunctival hemorrhage · dark tissue at the limbus (extruded uvea) · shallow chamber",
+    "also: orbital rim pain or step-off · air under the skin · lid lacerations · forehead and cheek sensation · eye movements · proptosis or sunken eye"
+   ]
+  },
+  {
+   "id": "g_s",
+   "x": 45,
+   "y": 174,
+   "w": 484,
+   "h": 42,
+   "kind": "plain",
+   "title": "SURFACE or LID",
+   "lines": []
+  },
+  {
+   "id": "g_b",
+   "x": 569,
+   "y": 174,
+   "w": 484,
+   "h": 42,
+   "kind": "plain",
+   "title": "BLUNT trauma to the globe",
+   "lines": []
+  },
+  {
+   "id": "g_p",
+   "x": 1093,
+   "y": 174,
+   "w": 236,
+   "h": 42,
+   "kind": "plain",
+   "title": "STAB or POKE",
+   "lines": []
+  },
+  {
+   "id": "fb_head_0_0",
+   "x": 45,
+   "y": 296,
+   "w": 236,
+   "h": 60,
+   "kind": "fb_h",
+   "title": "Metallic foreign body",
+   "lines": []
+  },
+  {
+   "id": "lid_head_0_0",
+   "x": 293,
+   "y": 296,
+   "w": 236,
+   "h": 60,
+   "kind": "lid_h",
+   "title": "Lid laceration",
+   "lines": []
+  },
+  {
+   "id": "hy_head_0_0",
+   "x": 569,
+   "y": 296,
+   "w": 236,
+   "h": 60,
+   "kind": "hy_h",
+   "title": "Hyphema",
+   "lines": []
+  },
+  {
+   "id": "ti_head_0_0",
+   "x": 817,
+   "y": 296,
+   "w": 236,
+   "h": 60,
+   "kind": "ti_h",
+   "title": "Traumatic iritis",
+   "lines": []
+  },
+  {
+   "id": "cl_head_0_0",
+   "x": 1093,
+   "y": 296,
+   "w": 236,
+   "h": 60,
+   "kind": "cl_h",
+   "title": "Corneal laceration",
+   "lines": [
+    "with iris prolapse"
+   ]
+  },
+  {
+   "id": "fb_pres_0_0",
+   "x": 45,
+   "y": 396,
+   "w": 236,
+   "h": 78,
+   "kind": "fb_t",
+   "title": "Metal on metal",
+   "lines": [
+    "• foreign-body feeling, tearing",
+    "• acuity normal or ↓"
+   ]
+  },
+  {
+   "id": "lid_pres_0_0",
+   "x": 293,
+   "y": 396,
+   "w": 236,
+   "h": 78,
+   "kind": "lid_t",
+   "title": "Dog bite, punch",
+   "lines": [
+    "• tearing (epiphora)",
+    "• vision may be normal"
+   ]
+  },
+  {
+   "id": "hy_pres_0_0",
+   "x": 569,
+   "y": 396,
+   "w": 236,
+   "h": 78,
+   "kind": "hy_t",
+   "title": "Blow to the globe",
+   "lines": [
+    "• pain, photophobia",
+    "• acuity ↓"
+   ]
+  },
+  {
+   "id": "ti_pres_0_0",
+   "x": 817,
+   "y": 396,
+   "w": 236,
+   "h": 78,
+   "kind": "ti_t",
+   "title": "Red eye after a blow",
+   "lines": [
+    "• photophobia",
+    "• acuity ↓"
+   ]
+  },
+  {
+   "id": "cl_pres_0_0",
+   "x": 1093,
+   "y": 396,
+   "w": 236,
+   "h": 78,
+   "kind": "cl_t",
+   "title": "Usually painful",
+   "lines": [
+    "• vision normal or ↓"
+   ]
+  },
+  {
+   "id": "fb_inv_0_0",
+   "x": 45,
+   "y": 514,
+   "w": 236,
+   "h": 98,
+   "kind": "fb_w",
+   "title": "On the cornea ± rust ring",
+   "lines": [
+    "• epithelial defect, Seidel sign",
+    "• evert the lid: hidden body?"
+   ]
+  },
+  {
+   "id": "lid_inv_0_0",
+   "x": 293,
+   "y": 514,
+   "w": 236,
+   "h": 98,
+   "kind": "lid_w",
+   "title": "MEDIAL lower lid cut?",
+   "lines": [
+    "• suspect the canaliculus",
+    "• examine the rest of the eye"
+   ]
+  },
+  {
+   "id": "hy_inv_0_0",
+   "x": 569,
+   "y": 514,
+   "w": 236,
+   "h": 98,
+   "kind": "hy_w",
+   "title": "BLOOD in the anterior chamber",
+   "lines": [
+    "• full = black '8-ball'",
+    "• pressure normal or ↑"
+   ]
+  },
+  {
+   "id": "ti_inv_0_0",
+   "x": 817,
+   "y": 514,
+   "w": 236,
+   "h": 98,
+   "kind": "ti_w",
+   "title": "CELLS in the anterior chamber",
+   "lines": [
+    "• ciliary flush",
+    "• sluggish or irregular pupil"
+   ]
+  },
+  {
+   "id": "cl_inv_0_0",
+   "x": 1093,
+   "y": 514,
+   "w": 236,
+   "h": 98,
+   "kind": "cl_w",
+   "title": "PEAKED pupil, Seidel +",
+   "lines": [
+    "• ± hyphema",
+    "• pressure may be normal (wound self-seals)"
+   ]
+  },
+  {
+   "id": "fb_tx_0_0",
+   "x": 45,
+   "y": 652,
+   "w": 236,
+   "h": 60,
+   "kind": "warn",
+   "title": "High speed? X-ray or CT",
+   "lines": [
+    "rule out an intraocular body"
+   ]
+  },
+  {
+   "id": "fb_tx_1_0",
+   "x": 45,
+   "y": 734,
+   "w": 236,
+   "h": 78,
+   "kind": "ok",
+   "title": "Remove + antibiotics",
+   "lines": [
+    "• tuberculin syringe, then burr",
+    "• antibiotic drops × 7 days"
+   ]
+  },
+  {
+   "id": "fb_tx_2_0",
+   "x": 45,
+   "y": 834,
+   "w": 236,
+   "h": 78,
+   "kind": "bad",
+   "title": "Refer if",
+   "lines": [
+    "• intraocular body possible",
+    "• hard to remove, or in the visual axis"
+   ]
+  },
+  {
+   "id": "lid_tx_0_0",
+   "x": 293,
+   "y": 652,
+   "w": 236,
+   "h": 260,
+   "kind": "warn",
+   "title": "Refer: oculoplastics",
+   "lines": [
+    "• lid margin or canaliculus involved",
+    "~poor repair: lid notch, chronic tearing"
+   ]
+  },
+  {
+   "id": "hy_tx_0_0",
+   "x": 569,
+   "y": 652,
+   "w": 236,
+   "h": 128,
+   "kind": "bad",
+   "title": "Shield + refer ASAP",
+   "lines": [
+    "• restrict activity",
+    "• avoid blood thinners"
+   ]
+  },
+  {
+   "id": "hy_tx_1_0",
+   "x": 569,
+   "y": 802,
+   "w": 236,
+   "h": 110,
+   "kind": "warn",
+   "title": "Ophthalmology treats",
+   "lines": [
+    "steroid drops + pressure drops if ↑"
+   ]
+  },
+  {
+   "id": "ti_tx_0_0",
+   "x": 817,
+   "y": 652,
+   "w": 236,
+   "h": 260,
+   "kind": "warn",
+   "title": "Refer",
+   "lines": [
+    "• steroid drops ± pressure drops",
+    "• cycloplegic if photophobic"
+   ]
+  },
+  {
+   "id": "cl_tx_0_0",
+   "x": 1093,
+   "y": 652,
+   "w": 236,
+   "h": 260,
+   "kind": "bad",
+   "title": "Shield + refer NOW",
+   "lines": [
+    "surgery: corneal sutures or glue"
+   ]
+  }
+ ],
+ "edges": [
+  {
+   "from": "root",
+   "to": "g_s",
+   "path": "M687.0 124V149H287.0V174"
+  },
+  {
+   "from": "root",
+   "to": "g_b",
+   "path": "M687.0 124V149H811.0V174"
+  },
+  {
+   "from": "root",
+   "to": "g_p",
+   "path": "M687.0 124V149H1211.0V174"
+  },
+  {
+   "from": "fb_tx_0_0",
+   "to": "fb_tx_1_0"
+  },
+  {
+   "from": "fb_tx_1_0",
+   "to": "fb_tx_2_0"
+  },
+  {
+   "from": "hy_tx_0_0",
+   "to": "hy_tx_1_0"
+  },
+  {
+   "from": "fb_head_0_0",
+   "to": "fb_pres_0_0"
+  },
+  {
+   "from": "fb_pres_0_0",
+   "to": "fb_inv_0_0"
+  },
+  {
+   "from": "fb_inv_0_0",
+   "to": "fb_tx_0_0"
+  },
+  {
+   "from": "g_s",
+   "to": "fb_head_0_0",
+   "from_dx": -124,
+   "label": "foreign body",
+   "label_at": [
+    163.0,
+    256
+   ]
+  },
+  {
+   "from": "lid_head_0_0",
+   "to": "lid_pres_0_0"
+  },
+  {
+   "from": "lid_pres_0_0",
+   "to": "lid_inv_0_0"
+  },
+  {
+   "from": "lid_inv_0_0",
+   "to": "lid_tx_0_0"
+  },
+  {
+   "from": "g_s",
+   "to": "lid_head_0_0",
+   "from_dx": 124,
+   "label": "bite, punch",
+   "label_at": [
+    411.0,
+    256
+   ]
+  },
+  {
+   "from": "hy_head_0_0",
+   "to": "hy_pres_0_0"
+  },
+  {
+   "from": "hy_pres_0_0",
+   "to": "hy_inv_0_0"
+  },
+  {
+   "from": "hy_inv_0_0",
+   "to": "hy_tx_0_0"
+  },
+  {
+   "from": "g_b",
+   "to": "hy_head_0_0",
+   "from_dx": -124,
+   "label": "blood",
+   "label_at": [
+    687.0,
+    256
+   ]
+  },
+  {
+   "from": "ti_head_0_0",
+   "to": "ti_pres_0_0"
+  },
+  {
+   "from": "ti_pres_0_0",
+   "to": "ti_inv_0_0"
+  },
+  {
+   "from": "ti_inv_0_0",
+   "to": "ti_tx_0_0"
+  },
+  {
+   "from": "g_b",
+   "to": "ti_head_0_0",
+   "from_dx": 124,
+   "label": "cells",
+   "label_at": [
+    935.0,
+    256
+   ]
+  },
+  {
+   "from": "cl_head_0_0",
+   "to": "cl_pres_0_0"
+  },
+  {
+   "from": "cl_pres_0_0",
+   "to": "cl_inv_0_0"
+  },
+  {
+   "from": "cl_inv_0_0",
+   "to": "cl_tx_0_0"
+  },
+  {
+   "from": "g_p",
+   "to": "cl_head_0_0",
+   "from_dx": 0,
+   "label": "open globe",
+   "label_at": [
+    1211.0,
+    256
+   ]
+  }
+ ],
+ "panels": []
+}

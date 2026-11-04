@@ -1,0 +1,634 @@
+{
+ "name": "sensory symptoms overview",
+ "width": 1420,
+ "title": "Numbness and tingling are localized first, central or peripheral: a thalamic lesion gives opposite-side clumsiness and burning pain, a spinal cord lesion a truncal sensory level with brisk reflexes, a root a dermatomal pattern with a lost reflex, a mononeuropathy one nerve's territory, a length-dependent polyneuropathy symmetric distal sensory loss, and Guillain-Barre syndrome weakness ascending over days with lost reflexes; each column gives what it looks like, the test that settles it and what to do",
+ "kinds": {
+  "thal_h": [
+   "#46607a",
+   "#46607a",
+   "#ffffff",
+   "#ffffff"
+  ],
+  "thal_t": [
+   "#e2e8ee",
+   "#46607a",
+   "#46607a",
+   "#18212e"
+  ],
+  "thal_w": [
+   "#ffffff",
+   "#46607a",
+   "#46607a",
+   "#18212e"
+  ],
+  "cord_h": [
+   "#6a4aa8",
+   "#6a4aa8",
+   "#ffffff",
+   "#ffffff"
+  ],
+  "cord_t": [
+   "#ebe4f7",
+   "#6a4aa8",
+   "#6a4aa8",
+   "#18212e"
+  ],
+  "cord_w": [
+   "#ffffff",
+   "#6a4aa8",
+   "#6a4aa8",
+   "#18212e"
+  ],
+  "root_h": [
+   "#b5600f",
+   "#b5600f",
+   "#ffffff",
+   "#ffffff"
+  ],
+  "root_t": [
+   "#fbe8d3",
+   "#b5600f",
+   "#b5600f",
+   "#18212e"
+  ],
+  "root_w": [
+   "#ffffff",
+   "#b5600f",
+   "#b5600f",
+   "#18212e"
+  ],
+  "mono_h": [
+   "#1f6f8b",
+   "#1f6f8b",
+   "#ffffff",
+   "#ffffff"
+  ],
+  "mono_t": [
+   "#dceef4",
+   "#1f6f8b",
+   "#1f6f8b",
+   "#18212e"
+  ],
+  "mono_w": [
+   "#ffffff",
+   "#1f6f8b",
+   "#1f6f8b",
+   "#18212e"
+  ],
+  "poly_h": [
+   "#1f5f9e",
+   "#1f5f9e",
+   "#ffffff",
+   "#ffffff"
+  ],
+  "poly_t": [
+   "#dde9f7",
+   "#1f5f9e",
+   "#1f5f9e",
+   "#18212e"
+  ],
+  "poly_w": [
+   "#ffffff",
+   "#1f5f9e",
+   "#1f5f9e",
+   "#18212e"
+  ],
+  "gbs_h": [
+   "#a3336b",
+   "#a3336b",
+   "#ffffff",
+   "#ffffff"
+  ],
+  "gbs_t": [
+   "#f8e0ec",
+   "#a3336b",
+   "#a3336b",
+   "#18212e"
+  ],
+  "gbs_w": [
+   "#ffffff",
+   "#a3336b",
+   "#a3336b",
+   "#18212e"
+  ]
+ },
+ "bands": [
+  {
+   "x": 40,
+   "y": 288,
+   "w": 222,
+   "h": 578,
+   "fill": "#f2f5f8",
+   "stroke": "#46607a"
+  },
+  {
+   "x": 264,
+   "y": 288,
+   "w": 222,
+   "h": 578,
+   "fill": "#f5f1fb",
+   "stroke": "#6a4aa8"
+  },
+  {
+   "x": 516,
+   "y": 288,
+   "w": 222,
+   "h": 578,
+   "fill": "#fdf4ea",
+   "stroke": "#b5600f"
+  },
+  {
+   "x": 740,
+   "y": 288,
+   "w": 222,
+   "h": 578,
+   "fill": "#eef7fa",
+   "stroke": "#1f6f8b"
+  },
+  {
+   "x": 964,
+   "y": 288,
+   "w": 222,
+   "h": 578,
+   "fill": "#eff5fc",
+   "stroke": "#1f5f9e"
+  },
+  {
+   "x": 1188,
+   "y": 288,
+   "w": 222,
+   "h": 578,
+   "fill": "#fcf0f6",
+   "stroke": "#a3336b"
+  }
+ ],
+ "row_labels": [
+  {
+   "x": 23,
+   "y": 434,
+   "h": 132,
+   "text": "PRESENTS AS"
+  },
+  {
+   "x": 23,
+   "y": 606,
+   "h": 116,
+   "text": "THE TELL"
+  },
+  {
+   "x": 23,
+   "y": 762,
+   "h": 96,
+   "text": "NEXT STEP"
+  }
+ ],
+ "nodes": [
+  {
+   "id": "root",
+   "x": 345,
+   "y": 10,
+   "w": 760,
+   "kind": "dark",
+   "title": "Numbness and tingling: WHERE is the lesion?",
+   "lines": [
+    "first: CENTRAL or PERIPHERAL?",
+    "characterize a neuropathy: sensory, motor or autonomic · acute (days-6 weeks), subacute (to 6 months) or chronic · its pattern · axonal or demyelinating (EMG)"
+   ]
+  },
+  {
+   "id": "g_cns",
+   "x": 45,
+   "y": 156,
+   "w": 436,
+   "h": 60,
+   "kind": "plain",
+   "title": "CENTRAL",
+   "lines": [
+    "cortex · subcortical · brainstem · spinal cord"
+   ]
+  },
+  {
+   "id": "g_pns",
+   "x": 521,
+   "y": 156,
+   "w": 884,
+   "h": 60,
+   "kind": "plain",
+   "title": "PERIPHERAL",
+   "lines": [
+    "dorsal root ganglion · root · one nerve · many nerves"
+   ]
+  },
+  {
+   "id": "thal_head_0_0",
+   "x": 45,
+   "y": 296,
+   "w": 212,
+   "h": 98,
+   "kind": "thal_h",
+   "title": "Brain: thalamus",
+   "lines": [
+    "e.g. a thalamic hemorrhage"
+   ]
+  },
+  {
+   "id": "cord_head_0_0",
+   "x": 269,
+   "y": 296,
+   "w": 212,
+   "h": 98,
+   "kind": "cord_h",
+   "title": "Spinal cord",
+   "lines": [
+    "e.g. MS myelitis"
+   ]
+  },
+  {
+   "id": "root_head_0_0",
+   "x": 521,
+   "y": 296,
+   "w": 212,
+   "h": 98,
+   "kind": "root_h",
+   "title": "Root (radiculopathy)",
+   "lines": [
+    "e.g. S1 after lifting"
+   ]
+  },
+  {
+   "id": "mono_head_0_0",
+   "x": 745,
+   "y": 296,
+   "w": 212,
+   "h": 98,
+   "kind": "mono_h",
+   "title": "Mononeuropathy",
+   "lines": [
+    "e.g. carpal tunnel (median nerve)"
+   ]
+  },
+  {
+   "id": "poly_head_0_0",
+   "x": 969,
+   "y": 296,
+   "w": 212,
+   "h": 98,
+   "kind": "poly_h",
+   "title": "Length-dependent polyneuropathy",
+   "lines": [
+    "DIABETES: the most common cause in Canada"
+   ]
+  },
+  {
+   "id": "gbs_head_0_0",
+   "x": 1193,
+   "y": 296,
+   "w": 212,
+   "h": 98,
+   "kind": "gbs_h",
+   "title": "Guillain-Barré syndrome",
+   "lines": [
+    "acute inflammatory demyelinating polyneuropathy"
+   ]
+  },
+  {
+   "id": "thal_clue_0_0",
+   "x": 45,
+   "y": 434,
+   "w": 212,
+   "h": 132,
+   "kind": "thal_t",
+   "title": "The OPPOSITE side",
+   "lines": [
+    "• a clumsy hand",
+    "• burning pain"
+   ]
+  },
+  {
+   "id": "cord_clue_0_0",
+   "x": 269,
+   "y": 434,
+   "w": 212,
+   "h": 132,
+   "kind": "cord_t",
+   "title": "Below a level on the trunk",
+   "lines": [
+    "• tingling from mid-chest down",
+    "• bladder urgency"
+   ]
+  },
+  {
+   "id": "root_clue_0_0",
+   "x": 521,
+   "y": 434,
+   "w": 212,
+   "h": 132,
+   "kind": "root_t",
+   "title": "Back pain down one leg",
+   "lines": [
+    "• SHOOTING pain",
+    "• S1: little toe and sole"
+   ]
+  },
+  {
+   "id": "mono_clue_0_0",
+   "x": 745,
+   "y": 434,
+   "w": 212,
+   "h": 132,
+   "kind": "mono_t",
+   "title": "One nerve's territory",
+   "lines": [
+    "• hands: intermittent, NOCTURNAL",
+    "• relieved by shaking the hands"
+   ]
+  },
+  {
+   "id": "poly_clue_0_0",
+   "x": 969,
+   "y": 434,
+   "w": 212,
+   "h": 132,
+   "kind": "poly_t",
+   "title": "Distal, symmetric, years",
+   "lines": [
+    "• painful, BURNING feet (stocking-glove)",
+    "• autonomic: postural light-headedness, urinary hesitancy, constipation"
+   ]
+  },
+  {
+   "id": "gbs_clue_0_0",
+   "x": 1193,
+   "y": 434,
+   "w": 212,
+   "h": 132,
+   "kind": "gbs_t",
+   "title": "ASCENDING over DAYS",
+   "lines": [
+    "• after an infection (a cold)",
+    "• toes → knees, then fingertips → legs give out"
+   ]
+  },
+  {
+   "id": "thal_inv_0_0",
+   "x": 45,
+   "y": 606,
+   "w": 212,
+   "h": 116,
+   "kind": "thal_w",
+   "title": "Not neglect or atrophy",
+   "lines": [
+    "neglect = cortex · atrophy = nerve"
+   ]
+  },
+  {
+   "id": "cord_inv_0_0",
+   "x": 269,
+   "y": 606,
+   "w": 212,
+   "h": 116,
+   "kind": "cord_w",
+   "title": "A TRUNCAL SENSORY LEVEL",
+   "lines": [
+    "• BRISK reflexes below it",
+    "• Babinski signs · Romberg can be positive"
+   ]
+  },
+  {
+   "id": "root_inv_0_0",
+   "x": 521,
+   "y": 606,
+   "w": 212,
+   "h": 116,
+   "kind": "root_w",
+   "title": "One root's pattern",
+   "lines": [
+    "• S1: ABSENT ankle (Achilles) reflex"
+   ]
+  },
+  {
+   "id": "mono_inv_0_0",
+   "x": 745,
+   "y": 606,
+   "w": 212,
+   "h": 116,
+   "kind": "mono_w",
+   "title": "Exam can be NORMAL",
+   "lines": [
+    "it is not MS"
+   ]
+  },
+  {
+   "id": "poly_inv_0_0",
+   "x": 969,
+   "y": 606,
+   "w": 212,
+   "h": 116,
+   "kind": "poly_w",
+   "title": "Axonal, sensorimotor",
+   "lines": [
+    "large and small fibres · distal dying back"
+   ]
+  },
+  {
+   "id": "gbs_inv_0_0",
+   "x": 1193,
+   "y": 606,
+   "w": 212,
+   "h": 116,
+   "kind": "gbs_w",
+   "title": "WEAKNESS >> sensory loss",
+   "lines": [
+    "• AREFLEXIA, down-going toes",
+    "• EMG: demyelinating (some axonal)"
+   ]
+  },
+  {
+   "id": "thal_tx_0_0",
+   "x": 45,
+   "y": 762,
+   "w": 212,
+   "h": 96,
+   "kind": "warn",
+   "title": "Expect it as he recovers",
+   "lines": [
+    "central pain: see the NEUROPATHIC PAIN chart"
+   ]
+  },
+  {
+   "id": "cord_tx_0_0",
+   "x": 269,
+   "y": 762,
+   "w": 212,
+   "h": 96,
+   "kind": "warn",
+   "title": "MRI of the cord",
+   "lines": [
+    "suspect MS? brain AND spinal cord, within 6 weeks"
+   ]
+  },
+  {
+   "id": "root_tx_0_0",
+   "x": 521,
+   "y": 762,
+   "w": 212,
+   "h": 96,
+   "kind": "warn",
+   "title": "Not a diabetic neuropathy",
+   "lines": [
+    "shooting leg pain is a root, even in a diabetic"
+   ]
+  },
+  {
+   "id": "mono_tx_0_0",
+   "x": 745,
+   "y": 762,
+   "w": 212,
+   "h": 96,
+   "kind": "ok",
+   "title": "Reassure · no imaging",
+   "lines": [
+    "nocturnal wrist splints"
+   ]
+  },
+  {
+   "id": "poly_tx_0_0",
+   "x": 969,
+   "y": 762,
+   "w": 212,
+   "h": 96,
+   "kind": "ok",
+   "title": "Treat the PAIN",
+   "lines": [
+    "an analgesic or an antidepressant for neuropathic pain"
+   ]
+  },
+  {
+   "id": "gbs_tx_0_0",
+   "x": 1193,
+   "y": 762,
+   "w": 212,
+   "h": 96,
+   "kind": "bad",
+   "title": "IVIG · a neurologist",
+   "lines": [
+    "can reach the cranial nerves and breathing muscles → intubation"
+   ]
+  }
+ ],
+ "edges": [
+  {
+   "from": "root",
+   "to": "g_cns",
+   "path": "M725.0 106V131H263.0V156"
+  },
+  {
+   "from": "root",
+   "to": "g_pns",
+   "path": "M725.0 106V131H963.0V156"
+  },
+  {
+   "from": "thal_head_0_0",
+   "to": "thal_clue_0_0"
+  },
+  {
+   "from": "thal_clue_0_0",
+   "to": "thal_inv_0_0"
+  },
+  {
+   "from": "thal_inv_0_0",
+   "to": "thal_tx_0_0"
+  },
+  {
+   "from": "g_cns",
+   "to": "thal_head_0_0",
+   "from_dx": -112
+  },
+  {
+   "from": "cord_head_0_0",
+   "to": "cord_clue_0_0"
+  },
+  {
+   "from": "cord_clue_0_0",
+   "to": "cord_inv_0_0"
+  },
+  {
+   "from": "cord_inv_0_0",
+   "to": "cord_tx_0_0"
+  },
+  {
+   "from": "g_cns",
+   "to": "cord_head_0_0",
+   "from_dx": 112
+  },
+  {
+   "from": "root_head_0_0",
+   "to": "root_clue_0_0"
+  },
+  {
+   "from": "root_clue_0_0",
+   "to": "root_inv_0_0"
+  },
+  {
+   "from": "root_inv_0_0",
+   "to": "root_tx_0_0"
+  },
+  {
+   "from": "g_pns",
+   "to": "root_head_0_0",
+   "from_dx": -336
+  },
+  {
+   "from": "mono_head_0_0",
+   "to": "mono_clue_0_0"
+  },
+  {
+   "from": "mono_clue_0_0",
+   "to": "mono_inv_0_0"
+  },
+  {
+   "from": "mono_inv_0_0",
+   "to": "mono_tx_0_0"
+  },
+  {
+   "from": "g_pns",
+   "to": "mono_head_0_0",
+   "from_dx": -112
+  },
+  {
+   "from": "poly_head_0_0",
+   "to": "poly_clue_0_0"
+  },
+  {
+   "from": "poly_clue_0_0",
+   "to": "poly_inv_0_0"
+  },
+  {
+   "from": "poly_inv_0_0",
+   "to": "poly_tx_0_0"
+  },
+  {
+   "from": "g_pns",
+   "to": "poly_head_0_0",
+   "from_dx": 112
+  },
+  {
+   "from": "gbs_head_0_0",
+   "to": "gbs_clue_0_0"
+  },
+  {
+   "from": "gbs_clue_0_0",
+   "to": "gbs_inv_0_0"
+  },
+  {
+   "from": "gbs_inv_0_0",
+   "to": "gbs_tx_0_0"
+  },
+  {
+   "from": "g_pns",
+   "to": "gbs_head_0_0",
+   "from_dx": 336
+  }
+ ],
+ "panels": []
+}

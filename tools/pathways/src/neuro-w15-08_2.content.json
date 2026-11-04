@@ -1,0 +1,51 @@
+{
+ "name": "pediatric ophthalmology overview",
+ "title": "A child's eyes: the red reflex sorts a dim or different reflex (refractive error or media opacity), a brighter one (the turned eye in strabismus) and a white one (leukocoria, retinoblastoma first); misaligned eyes are concomitant or incomitant by whether the angle changes with gaze; reduced acuity in one eye without disease is amblyopia; each column gives what is seen, what to think of and what to do",
+ "col_w": 236,
+ "root": {
+  "title": "A child's eyes: acuity in EACH eye, alignment, red reflex",
+  "lines": [
+   "anything that blurs, blocks or misaligns one eye while vision develops → AMBLYOPIA",
+   "early detection and early treatment are what restore vision"
+  ]
+ },
+ "groups": [
+  {"id": "g_rr", "cols": [0, 2], "title": "RED REFLEX (Brückner): both eyes at once", "lines": ["dim room · 1/3 m or more · child looking far away", "compare brightness, colour, alignment, symmetry", "~disease in both eyes is easy to miss if they match"]},
+  {"id": "g_al", "cols": [3, 4], "title": "MISALIGNED: does the angle change with gaze?", "lines": ["corneal light reflexes · cover test (from 6-7 months) · cardinal gazes"]},
+  {"id": "g_am", "cols": [5, 5], "title": "ACUITY ↓ in one eye", "lines": ["no eye disease to explain it"]}
+ ],
+ "sections": ["head", "pres", "inv", "tx"],
+ "row_names": {"pres": "SEEN AS", "inv": "THINK OF", "tx": "WHAT TO DO"},
+ "columns": [
+  {"id": "dim", "colour": "blue", "drop_label": "dimmer",
+   "head": [[["h", "Dim or different reflex", []]]],
+   "pres": [[["t", "One reflex DIMMER", ["• or a visible opacity in it", "• the eye with the larger refractive error is dimmer"]]]],
+   "inv": [[["w", "Refractive error or opacity", ["• myopia, hyperopia, astigmatism", "• cataract (not always white)", "• cornea, chamber, vitreous, retina"]]]],
+   "tx": [[["warn", "Timely referral", ["amblyopia risk"]]]]},
+  {"id": "bright", "colour": "teal", "drop_label": "brighter",
+   "head": [[["h", "Brighter reflex", []]]],
+   "pres": [[["t", "One reflex BRIGHTER", ["• its pupil looks slightly larger", "• finds turns as small as 3 prism dioptres"]]]],
+   "inv": [[["w", "Strabismus", ["the BRIGHTER eye is the turned eye"]]]],
+   "tx": [[["warn", "Refer", ["amblyopia risk in the turned eye"]]]]},
+  {"id": "white", "colour": "magenta", "drop_label": "white",
+   "head": [[["h", "Leukocoria", ["a WHITE pupillary reflex"]]]],
+   "pres": [[["t", "White reflex", ["• may be the first sign of a life-threatening disease", "~physiologic white reflex ~15° off axis: still refer"]]]],
+   "inv": [[["w", "RETINOBLASTOMA first", ["• retinopathy of prematurity", "• congenital cataract", "• Coats' disease, toxocariasis, coloboma"]]]],
+   "tx": [[["bad", "IMMEDIATE referral", ["• family history of eye disease", "• bring old photographs", "~without needless alarm"]]]]},
+  {"id": "con", "colour": "purple", "drop_label": "same angle",
+   "head": [[["h", "Concomitant strabismus", ["non-paralytic"]]]],
+   "pres": [[["t", "SAME angle in every gaze", ["• muscles work, eyes not aimed together", "• starts in childhood"]]]],
+   "inv": [[["w", "Name the direction", ["• eso- in · exo- out", "• hyper- up · hypo- down", "~epicanthal folds: pseudostrabismus"]]]],
+   "tx": [[["warn", "Refer if", ["• constant turn at any age", "• occasional turn beyond 3-4 months", "• any nystagmus"]]], [["ok", "Patching, glasses, surgery", ["no role for eye exercises"]]]]},
+  {"id": "inc", "colour": "orange", "drop_label": "angle changes",
+   "head": [[["h", "Incomitant strabismus", ["paralytic or restrictive"]]]],
+   "pres": [[["t", "Angle CHANGES with gaze", ["a muscle or nerve not working, or tethered"]]]],
+   "inv": [[["w", "Look for", ["• 3rd, 4th or 6th nerve palsy", "• orbital blowout fracture", "• thyroid eye disease"]]]],
+   "tx": [[["warn", "Refer to ophthalmology", []]]]},
+  {"id": "amb", "colour": "olive", "drop_label": "amblyopia",
+   "head": [[["h", "Amblyopia", ["usually one eye"]]]],
+   "pres": [[["t", "Test EACH eye", ["• newborn: light reflexes, pupils, fundus", "• to age 2: fusses when the GOOD eye is covered", "• 2-5: HOTV, tumbling E charts"]]]],
+   "inv": [[["w", "Three causes", ["• strabismic: turned eye suppressed", "• refractive: unequal refractive error", "• deprivation: cataract, corneal scar, ptosis"]]]],
+   "tx": [[["bad", "IMMEDIATE referral", ["pediatric ophthalmologist"]]], [["ok", "Patch the GOOD eye", ["+ glasses, or surgery for cataract or strabismus"]]]]}
+ ]
+}

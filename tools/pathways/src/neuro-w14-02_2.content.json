@@ -1,0 +1,39 @@
+{
+ "name": "multiple sclerosis overview",
+ "title": "Multiple sclerosis: a relapse is new neurological dysfunction lasting 24 hours or more with no other cause; the typical relapses are myelitis, optic neuritis and brainstem or cerebellar syndromes; the diagnosis needs dissemination in space and time on MRI, with CSF oligoclonal bands able to stand in for time, once better explanations are ruled out; treatment is disease-modifying therapy by category plus symptomatic therapy",
+ "col_w": 282,
+ "root": {"title": "Could it be MULTIPLE SCLEROSIS (MS)?",
+  "lines": ["an immune attack (B and T cells) on central nervous system myelin → axonal damage, then loss",
+            "most common disabling neurological disease of young adults in Canada · women 3:1 · age 20-40",
+            "risk: Epstein-Barr virus (EBV, 32-fold) · adolescent obesity · smoking · low vitamin D or sunlight · shift work"]},
+ "groups": [
+  {"id": "g_rel", "cols": [0, 2], "title": "A RELAPSE: which kind?",
+   "lines": ["NEW neurological symptoms · acute or subacute onset · lasting 24 HOURS or more · no other cause · not a pseudo-relapse", "other features: sensory disturbances · fatigue · Lhermitte's sign (an electric shock down the back on bending the neck)"]}
+ ],
+ "sections": ["head", "clue", "inv", "tx"],
+ "row_names": {"clue": "PRESENTS AS", "inv": "DIAGNOSIS", "tx": "TREATMENT"},
+ "columns": [
+  {"id": "mye", "colour": "teal",
+   "head": [[["h", "Myelitis", ["spinal cord lesion · about 50% at onset"]]]],
+   "clue": [[["t", "Below the lesion", ["• sensory changes", "• weakness", "• bladder and bowel dysfunction"]]]]},
+  {"id": "on", "colour": "purple",
+   "head": [[["h", "Optic neuritis", ["about 25% at onset"]]]],
+   "clue": [[["t", "Vision", ["• vision loss", "• PAIN with eye movement"]]]]},
+  {"id": "bs", "colour": "orange",
+   "head": [[["h", "Brainstem or cerebellar syndrome", ["about 15% at onset"]]]],
+   "clue": [[["t", "Eyes and balance", ["• double vision · vertigo", "• ataxia · slurred speech (dysarthria)"]]]]}
+ ],
+ "spans": [
+  {"section": "inv", "cols": [0, 2], "rows": [
+   [["plain", "MRI is central · lumbar puncture supports", ["2017 McDonald criteria: clinical attacks + MRI or CSF findings, combined"]]],
+   [["warn", "Disseminated in SPACE", ["lesions in 2 or more typical regions:", "• periventricular · cortical or juxtacortical", "• infratentorial · spinal cord"]],
+    ["warn", "Disseminated in TIME", ["• a NEW lesion on follow-up MRI", "• OR enhancing + non-enhancing lesions at once", "• CSF oligoclonal bands can stand in for time"]]],
+   [["bad", "ALWAYS rule out a better explanation", ["neuromyelitis optica (NMO) · myelin oligodendrocyte glycoprotein disease (MOGAD) · vascular · infection · metabolic (B12)"]]]
+  ]},
+  {"section": "tx", "cols": [0, 2], "rows": [
+   [["plain", "Course: relapsing-remitting (85% at onset) → secondary progressive · or primary progressive from the start", ["score disability on the Expanded Disability Status Scale (EDSS, 0-10)"]]],
+   [["ok", "Disease-modifying therapy: think in CATEGORIES", ["• injectable platforms: interferons, glatiramer (Copaxone)", "• standard orals: dimethyl fumarate, teriflunomide, fingolimod", "• induction: cladribine", "• high efficacy: natalizumab, B-cell therapies (ocrelizumab, ofatumumab, rituximab)"]],
+    ["ok", "Treat the symptoms too", ["• spasticity: baclofen, tizanidine", "• pain, tingling: amitriptyline, gabapentin, duloxetine", "• bladder: solifenacin · erections: sildenafil", "• fatigue: amantadine, modafinil · walking: fampridine"]]]
+  ]}
+ ]
+}

@@ -1,0 +1,560 @@
+{
+ "name": "pediatric ataxia overview",
+ "width": 1211,
+ "title": "A child with ataxia: localize it (hemisphere for limb ataxia, vermis for truncal ataxia), then sort the three most common causes (intoxication, acute postinfectious cerebellar ataxia, brain tumour) from the can't-miss causes (stroke or hemorrhage, meningitis or encephalitis, brain tumour) by the history; each column says whether to image and what to do",
+ "kinds": {
+  "tox_h": [
+   "#1f6f8b",
+   "#1f6f8b",
+   "#ffffff",
+   "#ffffff"
+  ],
+  "tox_t": [
+   "#dceef4",
+   "#1f6f8b",
+   "#1f6f8b",
+   "#18212e"
+  ],
+  "tox_w": [
+   "#ffffff",
+   "#1f6f8b",
+   "#1f6f8b",
+   "#18212e"
+  ],
+  "pi_h": [
+   "#1f5f9e",
+   "#1f5f9e",
+   "#ffffff",
+   "#ffffff"
+  ],
+  "pi_t": [
+   "#dde9f7",
+   "#1f5f9e",
+   "#1f5f9e",
+   "#18212e"
+  ],
+  "pi_w": [
+   "#ffffff",
+   "#1f5f9e",
+   "#1f5f9e",
+   "#18212e"
+  ],
+  "tum_h": [
+   "#6a4aa8",
+   "#6a4aa8",
+   "#ffffff",
+   "#ffffff"
+  ],
+  "tum_t": [
+   "#ebe4f7",
+   "#6a4aa8",
+   "#6a4aa8",
+   "#18212e"
+  ],
+  "tum_w": [
+   "#ffffff",
+   "#6a4aa8",
+   "#6a4aa8",
+   "#18212e"
+  ],
+  "str_h": [
+   "#a3336b",
+   "#a3336b",
+   "#ffffff",
+   "#ffffff"
+  ],
+  "str_t": [
+   "#f8e0ec",
+   "#a3336b",
+   "#a3336b",
+   "#18212e"
+  ],
+  "str_w": [
+   "#ffffff",
+   "#a3336b",
+   "#a3336b",
+   "#18212e"
+  ],
+  "men_h": [
+   "#b5600f",
+   "#b5600f",
+   "#ffffff",
+   "#ffffff"
+  ],
+  "men_t": [
+   "#fbe8d3",
+   "#b5600f",
+   "#b5600f",
+   "#18212e"
+  ],
+  "men_w": [
+   "#ffffff",
+   "#b5600f",
+   "#b5600f",
+   "#18212e"
+  ]
+ },
+ "bands": [
+  {
+   "x": 40,
+   "y": 288,
+   "w": 225,
+   "h": 556,
+   "fill": "#eef7fa",
+   "stroke": "#1f6f8b"
+  },
+  {
+   "x": 267,
+   "y": 288,
+   "w": 225,
+   "h": 556,
+   "fill": "#eff5fc",
+   "stroke": "#1f5f9e"
+  },
+  {
+   "x": 494,
+   "y": 288,
+   "w": 225,
+   "h": 556,
+   "fill": "#f5f1fb",
+   "stroke": "#6a4aa8"
+  },
+  {
+   "x": 749,
+   "y": 288,
+   "w": 225,
+   "h": 556,
+   "fill": "#fcf0f6",
+   "stroke": "#a3336b"
+  },
+  {
+   "x": 976,
+   "y": 288,
+   "w": 225,
+   "h": 556,
+   "fill": "#fdf4ea",
+   "stroke": "#b5600f"
+  }
+ ],
+ "row_labels": [
+  {
+   "x": 23,
+   "y": 414,
+   "h": 150,
+   "text": "HISTORY"
+  },
+  {
+   "x": 23,
+   "y": 604,
+   "h": 96,
+   "text": "IMAGING"
+  },
+  {
+   "x": 23,
+   "y": 740,
+   "h": 96,
+   "text": "MANAGEMENT"
+  }
+ ],
+ "nodes": [
+  {
+   "id": "root",
+   "x": 240,
+   "y": 10,
+   "w": 760,
+   "kind": "dark",
+   "title": "Child with ataxia: a SIGN, not a diagnosis",
+   "lines": [
+    "cerebellar HEMISPHERE → limbs: over- or undershoots, clumsy · VERMIS → trunk: can't sit, wide-based gait",
+    "also from vestibular disease (vertigo, vomiting) or weakness, sensory or position-sense loss",
+    "IMAGE (MRI preferred, CT more accessible) if: ANY other neurologic finding · SUBACUTE course · TRAUMA"
+   ]
+  },
+  {
+   "id": "g_c",
+   "x": 45,
+   "y": 156,
+   "w": 669,
+   "h": 60,
+   "kind": "plain",
+   "title": "3 MOST COMMON",
+   "lines": [
+    "the history sorts them"
+   ]
+  },
+  {
+   "id": "g_m",
+   "x": 754,
+   "y": 156,
+   "w": 442,
+   "h": 60,
+   "kind": "plain",
+   "title": "CAN'T MISS: rule in or out every time",
+   "lines": [
+    "brain tumour is one too"
+   ]
+  },
+  {
+   "id": "tox_head_0_0",
+   "x": 45,
+   "y": 296,
+   "w": 215,
+   "h": 78,
+   "kind": "tox_h",
+   "title": "Intoxication",
+   "lines": [
+    "any sedative-hypnotic"
+   ]
+  },
+  {
+   "id": "pi_head_0_0",
+   "x": 272,
+   "y": 296,
+   "w": 215,
+   "h": 78,
+   "kind": "pi_h",
+   "title": "Acute postinfectious cerebellar ataxia",
+   "lines": []
+  },
+  {
+   "id": "tum_head_0_0",
+   "x": 499,
+   "y": 296,
+   "w": 215,
+   "h": 78,
+   "kind": "tum_h",
+   "title": "Brain tumour",
+   "lines": [
+    "medulloblastoma · cerebellar astrocytoma"
+   ]
+  },
+  {
+   "id": "str_head_0_0",
+   "x": 754,
+   "y": 296,
+   "w": 215,
+   "h": 78,
+   "kind": "str_h",
+   "title": "Stroke · hemorrhage · infarction",
+   "lines": []
+  },
+  {
+   "id": "men_head_0_0",
+   "x": 981,
+   "y": 296,
+   "w": 215,
+   "h": 78,
+   "kind": "men_h",
+   "title": "Meningitis · encephalitis",
+   "lines": [
+    "viral or bacterial"
+   ]
+  },
+  {
+   "id": "tox_pres_0_0",
+   "x": 45,
+   "y": 414,
+   "w": 215,
+   "h": 150,
+   "kind": "tox_t",
+   "title": "Access + ingestion",
+   "lines": [
+    "• ethanol, anticonvulsants, cough syrup",
+    "• witnessed or known; unsupervised time",
+    "• abuse red flags",
+    "• improves with supportive care"
+   ]
+  },
+  {
+   "id": "pi_pres_0_0",
+   "x": 272,
+   "y": 414,
+   "w": 215,
+   "h": 150,
+   "kind": "pi_t",
+   "title": "Viral illness 1-4 weeks before",
+   "lines": [
+    "• well, afebrile",
+    "• no headache"
+   ]
+  },
+  {
+   "id": "tum_pres_0_0",
+   "x": 499,
+   "y": 414,
+   "w": 215,
+   "h": 150,
+   "kind": "tum_t",
+   "title": "PROGRESSIVE over weeks",
+   "lines": [
+    "• headache, worse on waking",
+    "• invades cerebellum or blocks CSF → hydrocephalus"
+   ]
+  },
+  {
+   "id": "str_pres_0_0",
+   "x": 754,
+   "y": 414,
+   "w": 215,
+   "h": 150,
+   "kind": "str_t",
+   "title": "ABRUPT onset",
+   "lines": [
+    "• loss of consciousness or seizure",
+    "• trigger: chiropractic neck adjustment (dissection), car crash",
+    "• clotting disorder"
+   ]
+  },
+  {
+   "id": "men_pres_0_0",
+   "x": 981,
+   "y": 414,
+   "w": 215,
+   "h": 150,
+   "kind": "men_t",
+   "title": "FEVER + meningismus",
+   "lines": [
+    "• headache, vomiting",
+    "• altered consciousness, seizures"
+   ]
+  },
+  {
+   "id": "tox_inv_0_0",
+   "x": 45,
+   "y": 604,
+   "w": 215,
+   "h": 96,
+   "kind": "ok",
+   "title": "NO imaging",
+   "lines": [
+    "if not very altered and can be watched in the emergency department"
+   ]
+  },
+  {
+   "id": "pi_inv_0_0",
+   "x": 272,
+   "y": 604,
+   "w": 215,
+   "h": 96,
+   "kind": "warn",
+   "title": "LOW threshold to image",
+   "lines": [
+    "a recent virus does not confirm it"
+   ]
+  },
+  {
+   "id": "tum_inv_0_0",
+   "x": 499,
+   "y": 604,
+   "w": 215,
+   "h": 96,
+   "kind": "bad",
+   "title": "IMAGE",
+   "lines": []
+  },
+  {
+   "id": "str_inv_0_0",
+   "x": 754,
+   "y": 604,
+   "w": 215,
+   "h": 96,
+   "kind": "bad",
+   "title": "IMAGE",
+   "lines": []
+  },
+  {
+   "id": "men_inv_0_0",
+   "x": 981,
+   "y": 604,
+   "w": 215,
+   "h": 96,
+   "kind": "bad",
+   "title": "IMAGE",
+   "lines": [
+    "then lumbar puncture"
+   ]
+  },
+  {
+   "id": "tox_tx_0_0",
+   "x": 45,
+   "y": 740,
+   "w": 215,
+   "h": 96,
+   "kind": "warn",
+   "title": "Call POISON CONTROL",
+   "lines": [
+    "• ABCs compromised → resuscitate"
+   ]
+  },
+  {
+   "id": "pi_tx_0_0",
+   "x": 272,
+   "y": 740,
+   "w": 215,
+   "h": 96,
+   "kind": "ok",
+   "title": "Supportive",
+   "lines": [
+    "• vomiting → IV fluids, anti-emetics",
+    "• supervise walking, no stairs"
+   ]
+  },
+  {
+   "id": "tum_tx_0_0",
+   "x": 499,
+   "y": 740,
+   "w": 215,
+   "h": 96,
+   "kind": "bad",
+   "title": "Neurosurgery + oncology",
+   "lines": [
+    "• hydrocephalus → NEUROSURGERY emergently"
+   ]
+  },
+  {
+   "id": "str_tx_0_0",
+   "x": 754,
+   "y": 740,
+   "w": 215,
+   "h": 96,
+   "kind": "bad",
+   "title": "Pediatric neurology + ICU",
+   "lines": [
+    "• Code Stroke if applicable"
+   ]
+  },
+  {
+   "id": "men_tx_0_0",
+   "x": 981,
+   "y": 740,
+   "w": 215,
+   "h": 96,
+   "kind": "bad",
+   "title": "Antibiotics",
+   "lines": []
+  }
+ ],
+ "edges": [
+  {
+   "from": "root",
+   "to": "g_c",
+   "path": "M620.5 106V131H379.5V156"
+  },
+  {
+   "from": "root",
+   "to": "g_m",
+   "path": "M620.5 106V131H975.0V156"
+  },
+  {
+   "from": "tox_head_0_0",
+   "to": "tox_pres_0_0"
+  },
+  {
+   "from": "tox_pres_0_0",
+   "to": "tox_inv_0_0"
+  },
+  {
+   "from": "tox_inv_0_0",
+   "to": "tox_tx_0_0"
+  },
+  {
+   "from": "g_c",
+   "to": "tox_head_0_0",
+   "from_dx": -227,
+   "label": "ingestion",
+   "label_at": [
+    152.5,
+    256
+   ]
+  },
+  {
+   "from": "pi_head_0_0",
+   "to": "pi_pres_0_0"
+  },
+  {
+   "from": "pi_pres_0_0",
+   "to": "pi_inv_0_0"
+  },
+  {
+   "from": "pi_inv_0_0",
+   "to": "pi_tx_0_0"
+  },
+  {
+   "from": "g_c",
+   "to": "pi_head_0_0",
+   "from_dx": 0,
+   "label": "after a virus",
+   "label_at": [
+    379.5,
+    256
+   ]
+  },
+  {
+   "from": "tum_head_0_0",
+   "to": "tum_pres_0_0"
+  },
+  {
+   "from": "tum_pres_0_0",
+   "to": "tum_inv_0_0"
+  },
+  {
+   "from": "tum_inv_0_0",
+   "to": "tum_tx_0_0"
+  },
+  {
+   "from": "g_c",
+   "to": "tum_head_0_0",
+   "from_dx": 227,
+   "label": "progressive",
+   "label_at": [
+    606.5,
+    256
+   ]
+  },
+  {
+   "from": "str_head_0_0",
+   "to": "str_pres_0_0"
+  },
+  {
+   "from": "str_pres_0_0",
+   "to": "str_inv_0_0"
+  },
+  {
+   "from": "str_inv_0_0",
+   "to": "str_tx_0_0"
+  },
+  {
+   "from": "g_m",
+   "to": "str_head_0_0",
+   "from_dx": -114,
+   "label": "abrupt",
+   "label_at": [
+    861.5,
+    256
+   ]
+  },
+  {
+   "from": "men_head_0_0",
+   "to": "men_pres_0_0"
+  },
+  {
+   "from": "men_pres_0_0",
+   "to": "men_inv_0_0"
+  },
+  {
+   "from": "men_inv_0_0",
+   "to": "men_tx_0_0"
+  },
+  {
+   "from": "g_m",
+   "to": "men_head_0_0",
+   "from_dx": 114,
+   "label": "fever",
+   "label_at": [
+    1088.5,
+    256
+   ]
+  }
+ ],
+ "panels": []
+}

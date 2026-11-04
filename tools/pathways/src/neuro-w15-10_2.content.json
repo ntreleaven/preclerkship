@@ -1,0 +1,417 @@
+{
+ "name": "vertigo overview",
+ "title": "Dizziness: first decide whether it is true vertigo; non-vestibular dizziness has organic and psychiatric causes, while peripheral vertigo is named by how long attacks last and whether hearing is affected: BPPV, Meniere's disease, vestibular neuronitis or labyrinthitis, superior canal dehiscence, and aminoglycoside toxicity; each column gives presentation, investigations and treatment",
+ "col_w": 196,
+ "root": {
+  "title": "\"Dizzy\": is it TRUE VERTIGO, an illusion of rotary movement?",
+  "lines": [
+   "history is 80% of the workup · exam: nystagmus (named by its FAST phase) and ataxia"
+  ]
+ },
+ "groups": [
+  {
+   "id": "g_not",
+   "cols": [
+    0,
+    0
+   ],
+   "title": "NO: dizziness",
+   "lines": [
+    "lightheaded, unsteady, disoriented · chronic"
+   ]
+  },
+  {
+   "id": "g_v",
+   "cols": [
+    1,
+    5
+   ],
+   "title": "YES: vestibular",
+   "lines": [
+    "episodic, limited duration · hearing symptoms · nausea, vomiting, sweating · worse with head movement"
+   ]
+  }
+ ],
+ "tiers": [
+  {
+   "id": "t1",
+   "cols": [
+    1,
+    5
+   ],
+   "title": "How long does an attack last, and is hearing lost?",
+   "lines": [
+    "seconds: BPPV, dehiscence · minutes to hours: Ménière's (hearing lost) or migrainous (hearing kept) · days: labyrinthitis (hearing lost) or neuronitis (kept) · forever: uncompensated vestibular loss"
+   ]
+  }
+ ],
+ "sections": [
+  "head",
+  "pres",
+  "inv",
+  "tx"
+ ],
+ "row_names": {
+  "pres": "PRESENTS AS",
+  "inv": "INVESTIGATIONS",
+  "tx": "TREATMENT"
+ },
+ "columns": [
+  {
+   "id": "diz",
+   "colour": "slate",
+   "head": [
+    [
+     [
+      "h",
+      "Not vestibular",
+      []
+     ]
+    ]
+   ],
+   "pres": [
+    [
+     [
+      "t",
+      "Organic",
+      [
+       "• presyncope, vasodepressor syncope",
+       "• arrhythmia",
+       "• orthostatic hypotension",
+       "• hyperventilation · anemia",
+       "• neuropathy · poor vision",
+       "• musculoskeletal · drugs"
+      ]
+     ]
+    ],
+    [
+     [
+      "w",
+      "Psychiatric",
+      [
+       "• depression · anxiety",
+       "• panic disorder",
+       "• phobic dizziness · somatization"
+      ]
+     ]
+    ]
+   ],
+   "inv": [
+    [
+     [
+      "w",
+      "Look for",
+      [
+       "cardiac or neurological symptoms, loss of consciousness"
+      ]
+     ]
+    ]
+   ],
+   "tx": [
+    [
+     [
+      "w",
+      "Not a vestibular problem",
+      [
+       "~chronic disequilibrium, lightheadedness"
+      ]
+     ]
+    ]
+   ]
+  },
+  {
+   "id": "bppv",
+   "colour": "teal",
+   "drop_from": "t1",
+   "drop_label": "seconds",
+   "head": [
+    [
+     [
+      "h",
+      "BPPV",
+      [
+       "benign paroxysmal positional vertigo · commonest end-organ disorder"
+      ]
+     ]
+    ]
+   ],
+   "pres": [
+    [
+     [
+      "t",
+      "10-30 s of spinning",
+      [
+       "• set off by specific head movements",
+       "• hearing NORMAL",
+       "~idiopathic, or head trauma"
+      ]
+     ]
+    ]
+   ],
+   "inv": [
+    [
+     [
+      "w",
+      "Dix-Hallpike",
+      [
+       "torsional nystagmus with latency, fades, reverses on sitting up"
+      ]
+     ]
+    ]
+   ],
+   "tx": [
+    [
+     [
+      "ok",
+      "Particle repositioning (Epley, Semont)",
+      [
+       "80% after 1 session · 95% after 3",
+       "~intractable: posterior canal occlusion"
+      ]
+     ]
+    ]
+   ]
+  },
+  {
+   "id": "scd",
+   "colour": "orange",
+   "drop_from": "t1",
+   "drop_label": "sound, pressure",
+   "head": [
+    [
+     [
+      "h",
+      "Superior canal dehiscence",
+      [
+       "a third mobile window into the inner ear"
+      ]
+     ]
+    ]
+   ],
+   "pres": [
+    [
+     [
+      "t",
+      "Vertigo with LOUD SOUND or PRESSURE",
+      [
+       "• hears own voice, footsteps, eye movements",
+       "• conductive loss, acoustic reflexes PRESERVED"
+      ]
+     ]
+    ]
+   ],
+   "inv": [
+    [
+     [
+      "w",
+      "Audiometry + temporal bone CT",
+      []
+     ]
+    ]
+   ],
+   "tx": [
+    [
+     [
+      "ok",
+      "Avoid triggers, or surgery",
+      []
+     ]
+    ]
+   ]
+  },
+  {
+   "id": "men",
+   "colour": "blue",
+   "drop_from": "t1",
+   "drop_label": "min-hours",
+   "head": [
+    [
+     [
+      "h",
+      "Ménière's disease",
+      [
+       "endolymphatic hydrops · 2nd commonest"
+      ]
+     ]
+    ]
+   ],
+   "pres": [
+    [
+     [
+      "t",
+      "Episodic vertigo, 24 min to 24 h",
+      [
+       "• FLUCTUATING LOW-frequency sensorineural loss",
+       "• tinnitus · aural fullness",
+       "~both ears in 25-30%"
+      ]
+     ]
+    ]
+   ],
+   "inv": [
+    [
+     [
+      "w",
+      "Ménière's syndrome?",
+      [
+       "secondary: syphilis, trauma, labyrinthitis"
+      ]
+     ]
+    ]
+   ],
+   "tx": [
+    [
+     [
+      "ok",
+      "1 · Everyone, 3-6 months",
+      [
+       "low salt · no caffeine, chocolate, alcohol, tobacco"
+      ]
+     ]
+    ],
+    [
+     [
+      "ok",
+      "2 · Attacks",
+      [
+       "vestibular suppressant · diuretic · betahistine"
+      ]
+     ]
+    ],
+    [
+     [
+      "warn",
+      "3 · Failing: into the ear",
+      [
+       "steroids → gentamicin"
+      ]
+     ]
+    ],
+    [
+     [
+      "bad",
+      "4 · Last: surgery",
+      [
+       "vestibular neurectomy → labyrinthectomy"
+      ]
+     ]
+    ]
+   ]
+  },
+  {
+   "id": "neu",
+   "colour": "purple",
+   "drop_from": "t1",
+   "drop_label": "days",
+   "head": [
+    [
+     [
+      "h",
+      "Vestibular neuronitis / labyrinthitis",
+      [
+       "viral, often after a cold"
+      ]
+     ]
+    ]
+   ],
+   "pres": [
+    [
+     [
+      "t",
+      "Vertigo for DAYS",
+      [
+       "• nausea, vomiting",
+       "• nystagmus beats AWAY from the bad ear"
+      ]
+     ]
+    ]
+   ],
+   "inv": [
+    [
+     [
+      "w",
+      "Hearing kept → NEURONITIS",
+      []
+     ]
+    ],
+    [
+     [
+      "w",
+      "Hearing loss + tinnitus → LABYRINTHITIS",
+      []
+     ]
+    ]
+   ],
+   "tx": [
+    [
+     [
+      "ok",
+      "Symptoms, short-term",
+      [
+       "• antiemetics, vestibular sedatives",
+       "• oral steroids if within 72 h",
+       "~antivirals: no evidence"
+      ]
+     ]
+    ]
+   ]
+  },
+  {
+   "id": "ami",
+   "colour": "olive",
+   "drop_from": "t1",
+   "drop_label": "on gentamicin",
+   "head": [
+    [
+     [
+      "h",
+      "Aminoglycoside toxicity",
+      [
+       "ear drops or injections"
+      ]
+     ]
+    ]
+   ],
+   "pres": [
+    [
+     [
+      "t",
+      "One ear (drops)",
+      [
+       "vertigo, nystagmus beating away from it"
+      ]
+     ]
+    ],
+    [
+     [
+      "w",
+      "Systemic (both ears)",
+      [
+       "severe disequilibrium, motion sensitivity, oscillopsia"
+      ]
+     ]
+    ]
+   ],
+   "inv": [
+    [
+     [
+      "w",
+      "Usually diagnosed 'after the fact'",
+      []
+     ]
+    ]
+   ],
+   "tx": [
+    [
+     [
+      "bad",
+      "STOP the aminoglycoside",
+      [
+       "~usually permanent, some partial recovery"
+      ]
+     ]
+    ]
+   ]
+  }
+ ]
+}

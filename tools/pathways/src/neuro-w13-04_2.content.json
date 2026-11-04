@@ -1,0 +1,252 @@
+{
+ "name": "cerebellum and basal ganglia overview",
+ "title": "Movement disorders with normal power: a cerebellar lesion lets movement start but makes it inaccurate, on the same side, with the subdivision deciding the signs; a basal ganglia imbalance either blocks starting (Parkinson disease, hypokinetic) or releases unwanted movement (chorea, hyperkinetic); each column gives the signs and the circuit that failed",
+ "col_w": 172,
+ "root": {
+  "title": "Abnormal movement, power NORMAL: cerebellum or basal ganglia?",
+  "lines": [
+   "both are SIDE LOOPS: cortex → loop → thalamus → cortex",
+   "no upper motor neurons of their own, so NOT an upper motor neuron disorder"
+  ]
+ },
+ "groups": [
+  {
+   "id": "g_cb",
+   "cols": [
+    0,
+    2
+   ],
+   "title": "CEREBELLUM: movement starts, but is INACCURATE",
+   "lines": [
+    "signs on the SAME side as the lesion",
+    "stable or slowly improve"
+   ]
+  },
+  {
+   "id": "g_bg",
+   "cols": [
+    3,
+    4
+   ],
+   "title": "BASAL GANGLIA: release vs suppress is off",
+   "lines": [
+    "dopamine: direct pathway UP, indirect DOWN"
+   ]
+  }
+ ],
+ "sections": [
+  "head",
+  "sign",
+  "circuit"
+ ],
+ "row_names": {
+  "sign": "PRESENTS AS",
+  "circuit": "WHAT FAILED"
+ },
+ "dashed_sections": [
+  "sign"
+ ],
+ "columns": [
+  {
+   "id": "vest",
+   "colour": "teal",
+   "head": [
+    [
+     [
+      "h",
+      "Vestibulocerebellum",
+      [
+       "flocculonodular lobe"
+      ]
+     ]
+    ]
+   ],
+   "sign": [
+    [
+     [
+      "t",
+      "Balance",
+      [
+       "• wide-based gait, looks drunk",
+       "• Romberg: WORSE with eyes closed",
+       "• nystagmus"
+      ]
+     ]
+    ]
+   ],
+   "circuit": [
+    [
+     [
+      "w",
+      "Tunes balance + the vestibulo-ocular reflex",
+      [
+       "in: vestibular organs",
+       "out: vestibular nuclei → eye, limb, trunk muscles"
+      ]
+     ]
+    ]
+   ]
+  },
+  {
+   "id": "spin",
+   "colour": "blue",
+   "head": [
+    [
+     [
+      "h",
+      "Spinocerebellum",
+      [
+       "vermis + intermediate zone"
+      ]
+     ]
+    ]
+   ],
+   "sign": [
+    [
+     [
+      "t",
+      "Gait + tone",
+      [
+       "• ataxic gait, poor leg control",
+       "• falls walking heel-to-toe",
+       "• hypotonia: LOW tone"
+      ]
+     ]
+    ]
+   ],
+   "circuit": [
+    [
+     [
+      "w",
+      "Tunes ongoing movement + tone",
+      [
+       "out: fastigial and interposed nuclei → spinal cord"
+      ]
+     ]
+    ]
+   ]
+  },
+  {
+   "id": "cereb",
+   "colour": "purple",
+   "head": [
+    [
+     [
+      "h",
+      "Cerebrocerebellum",
+      [
+       "lateral hemispheres"
+      ]
+     ]
+    ]
+   ],
+   "sign": [
+    [
+     [
+      "t",
+      "Skilled movement",
+      [
+       "• dysmetria: misses the target",
+       "• dyssynergia: segments uncoordinated",
+       "• INTENTION tremor, near the end",
+       "• fails finger-to-nose"
+      ]
+     ]
+    ]
+   ],
+   "circuit": [
+    [
+     [
+      "w",
+      "Adds skill + coordination",
+      [
+       "out: dentate nucleus → motor and premotor cortex",
+       "no tremor at rest"
+      ]
+     ]
+    ]
+   ]
+  },
+  {
+   "id": "pd",
+   "colour": "orange",
+   "head": [
+    [
+     [
+      "h",
+      "Parkinson disease",
+      [
+       "HYPOKINETIC"
+      ]
+     ]
+    ]
+   ],
+   "sign": [
+    [
+     [
+      "t",
+      "Can't START",
+      [
+       "• akinesia: needs an outside cue",
+       "• slow (bradykinesia), freezing",
+       "• tremor at REST, eases with movement",
+       "• RIGIDITY: HIGH tone"
+      ]
+     ]
+    ]
+   ],
+   "circuit": [
+    [
+     [
+      "w",
+      "Pars compacta dopamine cells die",
+      [
+       "→ too much inhibition of the thalamus",
+       "WORSENS over time",
+       "treat: L-dopa"
+      ]
+     ]
+    ]
+   ]
+  },
+  {
+   "id": "chor",
+   "colour": "magenta",
+   "head": [
+    [
+     [
+      "h",
+      "Chorea",
+      [
+       "HYPERKINETIC"
+      ]
+     ]
+    ]
+   ],
+   "sign": [
+    [
+     [
+      "t",
+      "Can't SUPPRESS",
+      [
+       "• spontaneous, unwanted movements"
+      ]
+     ]
+    ]
+   ],
+   "circuit": [
+    [
+     [
+      "w",
+      "Either cause",
+      [
+       "• Huntington disease: indirect pathway degraded",
+       "• too much L-dopa: direct pathway over-driven",
+       "→ too little inhibition of the thalamus"
+      ]
+     ]
+    ]
+   ]
+  }
+ ]
+}

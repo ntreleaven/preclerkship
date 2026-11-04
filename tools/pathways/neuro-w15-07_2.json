@@ -1,0 +1,1067 @@
+{
+ "name": "red eye overview",
+ "width": 1896,
+ "title": "Red eye: red flags decide whether it is vision threatening. Without them it is the lids, a conjunctivitis told apart by its discharge and itch, a subconjunctival hemorrhage or a corneal abrasion; with them it is keratitis, anterior uveitis or acute angle closure glaucoma and needs urgent ophthalmology; each column gives the presentation, the exam finding that decides it and the treatment",
+ "kinds": {
+  "lid_h": [
+   "#8a5a2b",
+   "#8a5a2b",
+   "#ffffff",
+   "#ffffff"
+  ],
+  "lid_t": [
+   "#f3e6d8",
+   "#8a5a2b",
+   "#8a5a2b",
+   "#18212e"
+  ],
+  "lid_w": [
+   "#ffffff",
+   "#8a5a2b",
+   "#8a5a2b",
+   "#18212e"
+  ],
+  "vir_h": [
+   "#1f6f8b",
+   "#1f6f8b",
+   "#ffffff",
+   "#ffffff"
+  ],
+  "vir_t": [
+   "#dceef4",
+   "#1f6f8b",
+   "#1f6f8b",
+   "#18212e"
+  ],
+  "vir_w": [
+   "#ffffff",
+   "#1f6f8b",
+   "#1f6f8b",
+   "#18212e"
+  ],
+  "bac_h": [
+   "#1f5f9e",
+   "#1f5f9e",
+   "#ffffff",
+   "#ffffff"
+  ],
+  "bac_t": [
+   "#dde9f7",
+   "#1f5f9e",
+   "#1f5f9e",
+   "#18212e"
+  ],
+  "bac_w": [
+   "#ffffff",
+   "#1f5f9e",
+   "#1f5f9e",
+   "#18212e"
+  ],
+  "gon_h": [
+   "#a3336b",
+   "#a3336b",
+   "#ffffff",
+   "#ffffff"
+  ],
+  "gon_t": [
+   "#f8e0ec",
+   "#a3336b",
+   "#a3336b",
+   "#18212e"
+  ],
+  "gon_w": [
+   "#ffffff",
+   "#a3336b",
+   "#a3336b",
+   "#18212e"
+  ],
+  "all_h": [
+   "#4f6d1f",
+   "#4f6d1f",
+   "#ffffff",
+   "#ffffff"
+  ],
+  "all_t": [
+   "#e7eed9",
+   "#4f6d1f",
+   "#4f6d1f",
+   "#18212e"
+  ],
+  "all_w": [
+   "#ffffff",
+   "#4f6d1f",
+   "#4f6d1f",
+   "#18212e"
+  ],
+  "sch_h": [
+   "#46607a",
+   "#46607a",
+   "#ffffff",
+   "#ffffff"
+  ],
+  "sch_t": [
+   "#e2e8ee",
+   "#46607a",
+   "#46607a",
+   "#18212e"
+  ],
+  "sch_w": [
+   "#ffffff",
+   "#46607a",
+   "#46607a",
+   "#18212e"
+  ],
+  "abr_h": [
+   "#6a4aa8",
+   "#6a4aa8",
+   "#ffffff",
+   "#ffffff"
+  ],
+  "abr_t": [
+   "#ebe4f7",
+   "#6a4aa8",
+   "#6a4aa8",
+   "#18212e"
+  ],
+  "abr_w": [
+   "#ffffff",
+   "#6a4aa8",
+   "#6a4aa8",
+   "#18212e"
+  ],
+  "ker_h": [
+   "#b5600f",
+   "#b5600f",
+   "#ffffff",
+   "#ffffff"
+  ],
+  "ker_t": [
+   "#fbe8d3",
+   "#b5600f",
+   "#b5600f",
+   "#18212e"
+  ],
+  "ker_w": [
+   "#ffffff",
+   "#b5600f",
+   "#b5600f",
+   "#18212e"
+  ],
+  "uv_h": [
+   "#1f6f8b",
+   "#1f6f8b",
+   "#ffffff",
+   "#ffffff"
+  ],
+  "uv_t": [
+   "#dceef4",
+   "#1f6f8b",
+   "#1f6f8b",
+   "#18212e"
+  ],
+  "uv_w": [
+   "#ffffff",
+   "#1f6f8b",
+   "#1f6f8b",
+   "#18212e"
+  ],
+  "aac_h": [
+   "#1f5f9e",
+   "#1f5f9e",
+   "#ffffff",
+   "#ffffff"
+  ],
+  "aac_t": [
+   "#dde9f7",
+   "#1f5f9e",
+   "#1f5f9e",
+   "#18212e"
+  ],
+  "aac_w": [
+   "#ffffff",
+   "#1f5f9e",
+   "#1f5f9e",
+   "#18212e"
+  ]
+ },
+ "bands": [
+  {
+   "x": 40,
+   "y": 288,
+   "w": 180,
+   "h": 696,
+   "fill": "#faf4ee",
+   "stroke": "#8a5a2b"
+  },
+  {
+   "x": 222,
+   "y": 288,
+   "w": 180,
+   "h": 696,
+   "fill": "#eef7fa",
+   "stroke": "#1f6f8b"
+  },
+  {
+   "x": 404,
+   "y": 288,
+   "w": 180,
+   "h": 696,
+   "fill": "#eff5fc",
+   "stroke": "#1f5f9e"
+  },
+  {
+   "x": 586,
+   "y": 288,
+   "w": 180,
+   "h": 696,
+   "fill": "#fcf0f6",
+   "stroke": "#a3336b"
+  },
+  {
+   "x": 768,
+   "y": 288,
+   "w": 180,
+   "h": 696,
+   "fill": "#f4f7ee",
+   "stroke": "#4f6d1f"
+  },
+  {
+   "x": 950,
+   "y": 288,
+   "w": 180,
+   "h": 696,
+   "fill": "#f2f5f8",
+   "stroke": "#46607a"
+  },
+  {
+   "x": 1132,
+   "y": 288,
+   "w": 180,
+   "h": 696,
+   "fill": "#f5f1fb",
+   "stroke": "#6a4aa8"
+  },
+  {
+   "x": 1342,
+   "y": 288,
+   "w": 180,
+   "h": 696,
+   "fill": "#fdf4ea",
+   "stroke": "#b5600f"
+  },
+  {
+   "x": 1524,
+   "y": 288,
+   "w": 180,
+   "h": 696,
+   "fill": "#eef7fa",
+   "stroke": "#1f6f8b"
+  },
+  {
+   "x": 1706,
+   "y": 288,
+   "w": 180,
+   "h": 696,
+   "fill": "#eff5fc",
+   "stroke": "#1f5f9e"
+  }
+ ],
+ "row_labels": [
+  {
+   "x": 23,
+   "y": 434,
+   "h": 150,
+   "text": "PRESENTS AS"
+  },
+  {
+   "x": 23,
+   "y": 624,
+   "h": 114,
+   "text": "EXAM"
+  },
+  {
+   "x": 23,
+   "y": 778,
+   "h": 198,
+   "text": "TREATMENT"
+  }
+ ],
+ "nodes": [
+  {
+   "id": "root",
+   "x": 583,
+   "y": 10,
+   "w": 760,
+   "kind": "dark",
+   "title": "Red eye: is it VISION THREATENING?",
+   "lines": [
+    "red flag symptoms: blurred vision that does not clear with blinking · SEVERE pain · photophobia · coloured halos",
+    "red flag signs: ↓ acuity · ciliary flush · corneal opacity · abnormal pupil · shallow chamber · ↑ pressure · proptosis",
+    "ask: contact lenses (swim, sleep, shower in them?) · discharge · itch · recent cold · trauma"
+   ]
+  },
+  {
+   "id": "g_ok",
+   "x": 45,
+   "y": 156,
+   "w": 1262,
+   "h": 60,
+   "kind": "plain",
+   "title": "NO red flags: lids, conjunctiva, surface",
+   "lines": [
+    "acuity and pressure normal: treat or reassure"
+   ]
+  },
+  {
+   "id": "g_bad",
+   "x": 1347,
+   "y": 156,
+   "w": 534,
+   "h": 60,
+   "kind": "plain",
+   "title": "RED FLAGS: vision threatening",
+   "lines": [
+    "URGENT referral to ophthalmology"
+   ]
+  },
+  {
+   "id": "lid_head_0_0",
+   "x": 45,
+   "y": 296,
+   "w": 170,
+   "h": 98,
+   "kind": "lid_h",
+   "title": "Stye · chalazion · entropion",
+   "lines": []
+  },
+  {
+   "id": "vir_head_0_0",
+   "x": 227,
+   "y": 296,
+   "w": 170,
+   "h": 98,
+   "kind": "vir_h",
+   "title": "Viral conjunctivitis",
+   "lines": [
+    "usually adenovirus"
+   ]
+  },
+  {
+   "id": "bac_head_0_0",
+   "x": 409,
+   "y": 296,
+   "w": 170,
+   "h": 98,
+   "kind": "bac_h",
+   "title": "Bacterial conjunctivitis",
+   "lines": []
+  },
+  {
+   "id": "gon_head_0_0",
+   "x": 591,
+   "y": 296,
+   "w": 170,
+   "h": 98,
+   "kind": "gon_h",
+   "title": "Gonococcal conjunctivitis",
+   "lines": []
+  },
+  {
+   "id": "all_head_0_0",
+   "x": 773,
+   "y": 296,
+   "w": 170,
+   "h": 98,
+   "kind": "all_h",
+   "title": "Allergic conjunctivitis",
+   "lines": []
+  },
+  {
+   "id": "sch_head_0_0",
+   "x": 955,
+   "y": 296,
+   "w": 170,
+   "h": 98,
+   "kind": "sch_h",
+   "title": "Subconjunctival hemorrhage",
+   "lines": []
+  },
+  {
+   "id": "abr_head_0_0",
+   "x": 1137,
+   "y": 296,
+   "w": 170,
+   "h": 98,
+   "kind": "abr_h",
+   "title": "Corneal abrasion",
+   "lines": []
+  },
+  {
+   "id": "ker_head_0_0",
+   "x": 1347,
+   "y": 296,
+   "w": 170,
+   "h": 98,
+   "kind": "ker_h",
+   "title": "Bacterial keratitis",
+   "lines": [
+    "contact lens-related"
+   ]
+  },
+  {
+   "id": "uv_head_0_0",
+   "x": 1529,
+   "y": 296,
+   "w": 170,
+   "h": 98,
+   "kind": "uv_h",
+   "title": "Anterior uveitis (iritis)",
+   "lines": [
+    "HLA-B27; ~50% idiopathic"
+   ]
+  },
+  {
+   "id": "aac_head_0_0",
+   "x": 1711,
+   "y": 296,
+   "w": 170,
+   "h": 98,
+   "kind": "aac_h",
+   "title": "Acute angle closure glaucoma",
+   "lines": []
+  },
+  {
+   "id": "lid_pres_0_0",
+   "x": 45,
+   "y": 434,
+   "w": 170,
+   "h": 150,
+   "kind": "lid_t",
+   "title": "Eyelid problem",
+   "lines": [
+    "• tender red lump, days: STYE",
+    "• painless nodule: CHALAZION",
+    "• lashes rub the eye: ENTROPION"
+   ]
+  },
+  {
+   "id": "vir_pres_0_0",
+   "x": 227,
+   "y": 434,
+   "w": 170,
+   "h": 150,
+   "kind": "vir_t",
+   "title": "Watery, after a cold",
+   "lines": [
+    "• one eye, then the other",
+    "• itch, burning, gritty"
+   ]
+  },
+  {
+   "id": "bac_pres_0_0",
+   "x": 409,
+   "y": 434,
+   "w": 170,
+   "h": 150,
+   "kind": "bac_t",
+   "title": "Lids GLUED on waking",
+   "lines": [
+    "• yellow-white discharge",
+    "• no photophobia, no itch"
+   ]
+  },
+  {
+   "id": "gon_pres_0_0",
+   "x": 591,
+   "y": 434,
+   "w": 170,
+   "h": 150,
+   "kind": "gon_t",
+   "title": "SEVERE pus",
+   "lines": [
+    "• hyperacute: 12-24 hours",
+    "• sexual history"
+   ]
+  },
+  {
+   "id": "all_pres_0_0",
+   "x": 773,
+   "y": 434,
+   "w": 170,
+   "h": 150,
+   "kind": "all_t",
+   "title": "ITCH, both eyes",
+   "lines": [
+    "• seasonal",
+    "• sneezing, runny nose"
+   ]
+  },
+  {
+   "id": "sch_pres_0_0",
+   "x": 955,
+   "y": 434,
+   "w": 170,
+   "h": 150,
+   "kind": "sch_t",
+   "title": "Painless red patch",
+   "lines": [
+    "• straining, trauma",
+    "• warfarin, hypertension"
+   ]
+  },
+  {
+   "id": "abr_pres_0_0",
+   "x": 1137,
+   "y": 434,
+   "w": 170,
+   "h": 150,
+   "kind": "abr_t",
+   "title": "Sudden sharp pain",
+   "lines": [
+    "• fingernail, branch",
+    "• foreign-body feeling, tearing"
+   ]
+  },
+  {
+   "id": "ker_pres_0_0",
+   "x": 1347,
+   "y": 434,
+   "w": 170,
+   "h": 150,
+   "kind": "ker_t",
+   "title": "Worsening pain",
+   "lines": [
+    "• photophobia, ↓ vision",
+    "• slept or showered in lenses"
+   ]
+  },
+  {
+   "id": "uv_pres_0_0",
+   "x": 1529,
+   "y": 434,
+   "w": 170,
+   "h": 150,
+   "kind": "uv_t",
+   "title": "PHOTOPHOBIA, pain",
+   "lines": [
+    "• age 20-40, men",
+    "• recurrent, alternating eyes",
+    "• inflammatory back pain"
+   ]
+  },
+  {
+   "id": "aac_pres_0_0",
+   "x": 1711,
+   "y": 434,
+   "w": 170,
+   "h": 150,
+   "kind": "aac_t",
+   "title": "Pain, brow ache, vomiting",
+   "lines": [
+    "• blurred vision",
+    "• female, Asian or Inuit, hyperopia"
+   ]
+  },
+  {
+   "id": "lid_inv_0_0",
+   "x": 45,
+   "y": 624,
+   "w": 170,
+   "h": 114,
+   "kind": "lid_w",
+   "title": "Look at the lid",
+   "lines": [
+    "• stye: tender, red, raised",
+    "• entropion: lid turned in, hazy cornea"
+   ]
+  },
+  {
+   "id": "vir_inv_0_0",
+   "x": 227,
+   "y": 624,
+   "w": 170,
+   "h": 114,
+   "kind": "vir_w",
+   "title": "Follicles, chemosis",
+   "lines": [
+    "• node in front of the ear",
+    "• acuity, pressure normal"
+   ]
+  },
+  {
+   "id": "bac_inv_0_0",
+   "x": 409,
+   "y": 624,
+   "w": 170,
+   "h": 114,
+   "kind": "bac_w",
+   "title": "Hyperemia, lid edema",
+   "lines": [
+    "• diagnosis is clinical",
+    "~culture rarely needed"
+   ]
+  },
+  {
+   "id": "gon_inv_0_0",
+   "x": 591,
+   "y": 624,
+   "w": 170,
+   "h": 114,
+   "kind": "gon_w",
+   "title": "Suspect gonorrhea or chlamydia",
+   "lines": []
+  },
+  {
+   "id": "all_inv_0_0",
+   "x": 773,
+   "y": 624,
+   "w": 170,
+   "h": 114,
+   "kind": "all_w",
+   "title": "Chemosis, watery",
+   "lines": [
+    "• atopy: asthma, eczema"
+   ]
+  },
+  {
+   "id": "sch_inv_0_0",
+   "x": 955,
+   "y": 624,
+   "w": 170,
+   "h": 114,
+   "kind": "sch_w",
+   "title": "Solid red sector",
+   "lines": [
+    "• no conjunctival injection",
+    "• chamber deep and quiet"
+   ]
+  },
+  {
+   "id": "abr_inv_0_0",
+   "x": 1137,
+   "y": 624,
+   "w": 170,
+   "h": 114,
+   "kind": "abr_w",
+   "title": "STAINS with fluorescein",
+   "lines": [
+    "• cornea CLEAR",
+    "• Seidel negative"
+   ]
+  },
+  {
+   "id": "ker_inv_0_0",
+   "x": 1347,
+   "y": 624,
+   "w": 170,
+   "h": 114,
+   "kind": "ker_w",
+   "title": "WHITE infiltrate",
+   "lines": [
+    "• HAZY cornea, ciliary flush",
+    "• cells in the chamber"
+   ]
+  },
+  {
+   "id": "uv_inv_0_0",
+   "x": 1529,
+   "y": 624,
+   "w": 170,
+   "h": 114,
+   "kind": "uv_w",
+   "title": "Cells + flare",
+   "lines": [
+    "• ciliary flush, hypopyon",
+    "• pressure normal or LOW"
+   ]
+  },
+  {
+   "id": "aac_inv_0_0",
+   "x": 1711,
+   "y": 624,
+   "w": 170,
+   "h": 114,
+   "kind": "aac_w",
+   "title": "ROCK HARD eye",
+   "lines": [
+    "• pressure ↑↑, hazy cornea",
+    "• mid-dilated pupil",
+    "• SHALLOW chamber"
+   ]
+  },
+  {
+   "id": "lid_tx_0_0",
+   "x": 45,
+   "y": 778,
+   "w": 170,
+   "h": 198,
+   "kind": "ok",
+   "title": "Warm compresses, lid massage",
+   "lines": [
+    "• stye or chalazion: refer if not gone in 3-4 weeks",
+    "• ENTROPION: artificial tears + refer for lid surgery"
+   ]
+  },
+  {
+   "id": "vir_tx_0_0",
+   "x": 227,
+   "y": 778,
+   "w": 170,
+   "h": 198,
+   "kind": "ok",
+   "title": "NO antibiotics",
+   "lines": [
+    "• contagious 10-12 days: hand hygiene",
+    "• preservative-free drops, cool compresses"
+   ]
+  },
+  {
+   "id": "bac_tx_0_0",
+   "x": 409,
+   "y": 778,
+   "w": 170,
+   "h": 198,
+   "kind": "ok",
+   "title": "Fluoroquinolone drops",
+   "lines": [
+    "4 times a day × 7 days"
+   ]
+  },
+  {
+   "id": "gon_tx_0_0",
+   "x": 591,
+   "y": 778,
+   "w": 170,
+   "h": 198,
+   "kind": "bad",
+   "title": "Treat + refer",
+   "lines": [
+    "• ceftriaxone 1 g IM + azithromycin 1 g by mouth, once",
+    "• treat partners"
+   ]
+  },
+  {
+   "id": "all_tx_0_0",
+   "x": 773,
+   "y": 778,
+   "w": 170,
+   "h": 198,
+   "kind": "ok",
+   "title": "Avoid the allergen",
+   "lines": [
+    "• antihistamine or mast-cell stabilizer drops",
+    "• oral 2nd-generation if severe"
+   ]
+  },
+  {
+   "id": "sch_tx_0_0",
+   "x": 955,
+   "y": 778,
+   "w": 170,
+   "h": 198,
+   "kind": "ok",
+   "title": "Reassure",
+   "lines": [
+    "benign, self-limiting"
+   ]
+  },
+  {
+   "id": "abr_tx_0_0",
+   "x": 1137,
+   "y": 778,
+   "w": 170,
+   "h": 114,
+   "kind": "ok",
+   "title": "Antibiotic drops",
+   "lines": [
+    "• 4 times a day × 7 days",
+    "• contact lens: fluoroquinolone (Pseudomonas)"
+   ]
+  },
+  {
+   "id": "abr_tx_1_0",
+   "x": 1137,
+   "y": 914,
+   "w": 170,
+   "h": 62,
+   "kind": "bad",
+   "title": "NEVER anesthetic drops",
+   "lines": []
+  },
+  {
+   "id": "ker_tx_0_0",
+   "x": 1347,
+   "y": 778,
+   "w": 170,
+   "h": 198,
+   "kind": "bad",
+   "title": "URGENT referral",
+   "lines": [
+    "• STOP contact lenses",
+    "• intensive antibiotics"
+   ]
+  },
+  {
+   "id": "uv_tx_0_0",
+   "x": 1529,
+   "y": 778,
+   "w": 170,
+   "h": 198,
+   "kind": "bad",
+   "title": "URGENT referral",
+   "lines": [
+    "• steroid + cycloplegic drops: ophthalmologist ONLY",
+    "• HLA-B27, sacroiliac x-ray, rheumatology"
+   ]
+  },
+  {
+   "id": "aac_tx_0_0",
+   "x": 1711,
+   "y": 778,
+   "w": 170,
+   "h": 198,
+   "kind": "bad",
+   "title": "URGENT referral",
+   "lines": [
+    "topical beta-blocker, alpha-agonist, carbonic anhydrase inhibitor"
+   ]
+  }
+ ],
+ "edges": [
+  {
+   "from": "root",
+   "to": "g_ok",
+   "path": "M963.0 106V131H676.0V156"
+  },
+  {
+   "from": "root",
+   "to": "g_bad",
+   "path": "M963.0 106V131H1614.0V156"
+  },
+  {
+   "from": "abr_tx_0_0",
+   "to": "abr_tx_1_0"
+  },
+  {
+   "from": "lid_head_0_0",
+   "to": "lid_pres_0_0"
+  },
+  {
+   "from": "lid_pres_0_0",
+   "to": "lid_inv_0_0"
+  },
+  {
+   "from": "lid_inv_0_0",
+   "to": "lid_tx_0_0"
+  },
+  {
+   "from": "g_ok",
+   "to": "lid_head_0_0",
+   "from_dx": -546,
+   "label": "lid",
+   "label_at": [
+    130.0,
+    256
+   ]
+  },
+  {
+   "from": "vir_head_0_0",
+   "to": "vir_pres_0_0"
+  },
+  {
+   "from": "vir_pres_0_0",
+   "to": "vir_inv_0_0"
+  },
+  {
+   "from": "vir_inv_0_0",
+   "to": "vir_tx_0_0"
+  },
+  {
+   "from": "g_ok",
+   "to": "vir_head_0_0",
+   "from_dx": -364,
+   "label": "watery",
+   "label_at": [
+    312.0,
+    256
+   ]
+  },
+  {
+   "from": "bac_head_0_0",
+   "to": "bac_pres_0_0"
+  },
+  {
+   "from": "bac_pres_0_0",
+   "to": "bac_inv_0_0"
+  },
+  {
+   "from": "bac_inv_0_0",
+   "to": "bac_tx_0_0"
+  },
+  {
+   "from": "g_ok",
+   "to": "bac_head_0_0",
+   "from_dx": -182,
+   "label": "mucopurulent",
+   "label_at": [
+    494.0,
+    256
+   ]
+  },
+  {
+   "from": "gon_head_0_0",
+   "to": "gon_pres_0_0"
+  },
+  {
+   "from": "gon_pres_0_0",
+   "to": "gon_inv_0_0"
+  },
+  {
+   "from": "gon_inv_0_0",
+   "to": "gon_tx_0_0"
+  },
+  {
+   "from": "g_ok",
+   "to": "gon_head_0_0",
+   "from_dx": 0,
+   "label": "hyperacute pus",
+   "label_at": [
+    676.0,
+    256
+   ]
+  },
+  {
+   "from": "all_head_0_0",
+   "to": "all_pres_0_0"
+  },
+  {
+   "from": "all_pres_0_0",
+   "to": "all_inv_0_0"
+  },
+  {
+   "from": "all_inv_0_0",
+   "to": "all_tx_0_0"
+  },
+  {
+   "from": "g_ok",
+   "to": "all_head_0_0",
+   "from_dx": 182,
+   "label": "itch",
+   "label_at": [
+    858.0,
+    256
+   ]
+  },
+  {
+   "from": "sch_head_0_0",
+   "to": "sch_pres_0_0"
+  },
+  {
+   "from": "sch_pres_0_0",
+   "to": "sch_inv_0_0"
+  },
+  {
+   "from": "sch_inv_0_0",
+   "to": "sch_tx_0_0"
+  },
+  {
+   "from": "g_ok",
+   "to": "sch_head_0_0",
+   "from_dx": 364,
+   "label": "solid patch",
+   "label_at": [
+    1040.0,
+    256
+   ]
+  },
+  {
+   "from": "abr_head_0_0",
+   "to": "abr_pres_0_0"
+  },
+  {
+   "from": "abr_pres_0_0",
+   "to": "abr_inv_0_0"
+  },
+  {
+   "from": "abr_inv_0_0",
+   "to": "abr_tx_0_0"
+  },
+  {
+   "from": "g_ok",
+   "to": "abr_head_0_0",
+   "from_dx": 546,
+   "label": "trauma",
+   "label_at": [
+    1222.0,
+    256
+   ]
+  },
+  {
+   "from": "ker_head_0_0",
+   "to": "ker_pres_0_0"
+  },
+  {
+   "from": "ker_pres_0_0",
+   "to": "ker_inv_0_0"
+  },
+  {
+   "from": "ker_inv_0_0",
+   "to": "ker_tx_0_0"
+  },
+  {
+   "from": "g_bad",
+   "to": "ker_head_0_0",
+   "from_dx": -182,
+   "label": "contact lens",
+   "label_at": [
+    1432.0,
+    256
+   ]
+  },
+  {
+   "from": "uv_head_0_0",
+   "to": "uv_pres_0_0"
+  },
+  {
+   "from": "uv_pres_0_0",
+   "to": "uv_inv_0_0"
+  },
+  {
+   "from": "uv_inv_0_0",
+   "to": "uv_tx_0_0"
+  },
+  {
+   "from": "g_bad",
+   "to": "uv_head_0_0",
+   "from_dx": 0,
+   "label": "photophobia",
+   "label_at": [
+    1614.0,
+    256
+   ]
+  },
+  {
+   "from": "aac_head_0_0",
+   "to": "aac_pres_0_0"
+  },
+  {
+   "from": "aac_pres_0_0",
+   "to": "aac_inv_0_0"
+  },
+  {
+   "from": "aac_inv_0_0",
+   "to": "aac_tx_0_0"
+  },
+  {
+   "from": "g_bad",
+   "to": "aac_head_0_0",
+   "from_dx": 182,
+   "label": "halos, vomiting",
+   "label_at": [
+    1796.0,
+    256
+   ]
+  }
+ ],
+ "panels": []
+}

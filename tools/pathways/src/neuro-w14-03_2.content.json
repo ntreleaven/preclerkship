@@ -1,0 +1,371 @@
+{
+ "name": "stroke overview",
+ "title": "A sudden focal deficit runs the stroke protocol: glucose, NIH Stroke Scale and localization, then a non-contrast CT; no blood means an ischemic stroke (CT angiogram and perfusion, tPA within 4.5 hours, thrombectomy for a proximal large-vessel occlusion with a mismatch) or a TIA (CT, ASA, TIA clinic), both followed by secondary prevention chosen by cause; blood means an intracerebral hemorrhage (cause by site, BP under 160/110, hold antithrombotics) or a subarachnoid hemorrhage (vessel imaging, neurosurgery)",
+ "col_w": 262,
+ "root": {
+  "title": "Sudden focal neurological deficit: STROKE PROTOCOL · TIME IS BRAIN",
+  "lines": [
+   "point-of-care glucose (low sugar mimics a stroke) · 2 IV lines, labs (INR, creatinine, CBC) · NIH Stroke Scale",
+   "LOCALIZE before you look at the scan · door to imaging under 25 min, door to needle under 60 min",
+   "NON-CONTRAST CT first: any hemorrhage is an ABSOLUTE contraindication to tPA"
+  ]
+ },
+ "groups": [
+  {
+   "id": "g_isch",
+   "cols": [
+    0,
+    1
+   ],
+   "title": "NO blood: ISCHEMIC",
+   "lines": [
+    "follows a vascular territory"
+   ]
+  },
+  {
+   "id": "g_hem",
+   "cols": [
+    2,
+    3
+   ],
+   "title": "BLOOD: HEMORRHAGIC",
+   "lines": [
+    "may not follow a territory · more often with a headache"
+   ]
+  }
+ ],
+ "sections": [
+  "head",
+  "clue",
+  "inv",
+  "tx",
+  "after"
+ ],
+ "row_names": {
+  "clue": "PRESENTS AS",
+  "inv": "INVESTIGATIONS",
+  "tx": "TREATMENT",
+  "after": "THEN"
+ },
+ "columns": [
+  {
+   "id": "isch",
+   "colour": "teal",
+   "head": [
+    [
+     [
+      "h",
+      "Ischemic stroke",
+      [
+       "large vessel occlusion, or small vessel (lacunar)"
+      ]
+     ]
+    ]
+   ],
+   "clue": [
+    [
+     [
+      "t",
+      "The territory's syndrome",
+      [
+       "• LEFT MCA: aphasia + right face, arm > leg",
+       "• RIGHT MCA: left neglect, anosognosia + left face, arm > leg",
+       "• ACA: opposite leg · PCA: opposite hemianopsia"
+      ]
+     ]
+    ]
+   ],
+   "inv": [
+    [
+     [
+      "w",
+      "1 · CT: early ischemic change",
+      [
+       "dead brain · over 1/3 of MCA → no tPA"
+      ]
+     ]
+    ],
+    [
+     [
+      "w",
+      "2 · CT angiogram (CTA)",
+      [
+       "large vessel occlusion?"
+      ]
+     ],
+     [
+      "w",
+      "3 · CT perfusion",
+      [
+       "mismatch = salvageable"
+      ]
+     ]
+    ]
+   ],
+   "tx": [
+    [
+     [
+      "bad",
+      "First check: NO tPA if ANY",
+      [
+       "• hemorrhage now or ever · SAH symptoms, seizure at onset",
+       "• BP over 185/110 despite treatment",
+       "• INR over 1.4 · PTT over 40 s · platelets under 100,000",
+       "• factor Xa inhibitor in 24-48 h · glucose under 3 or over 22"
+      ]
+     ]
+    ],
+    [
+     [
+      "ok",
+      "tPA up to 4.5 h",
+      [
+       "0.9 mg/kg, 10% bolus · bleed risk 6%"
+      ]
+     ],
+     [
+      "ok",
+      "Thrombectomy",
+      [
+       "proximal occlusion + mismatch, even without tPA"
+      ]
+     ]
+    ]
+   ]
+  },
+  {
+   "id": "tia",
+   "colour": "purple",
+   "head": [
+    [
+     [
+      "h",
+      "Transient ischemic attack (TIA)",
+      [
+       "usually under 1 hour · NO infarct"
+      ]
+     ]
+    ]
+   ],
+   "clue": [
+    [
+     [
+      "t",
+      "Resolves COMPLETELY",
+      [
+       "• e.g. 10 minutes of face and hand weakness",
+       "• crescendo TIAs → admit (neurology)"
+      ]
+     ]
+    ]
+   ],
+   "inv": [
+    [
+     [
+      "w",
+      "CT head",
+      [
+       "rule out mimics: subdural, tumour"
+      ]
+     ]
+    ],
+    [
+     [
+      "w",
+      "Rapid TIA clinic",
+      [
+       "echo · Holter · CTA or carotid Dopplers · lipids, glucose, BP"
+      ]
+     ]
+    ]
+   ],
+   "tx": [
+    [
+     [
+      "ok",
+      "Start ASA",
+      [
+       "already on ASA → add clopidogrel for 21 days"
+      ]
+     ]
+    ]
+   ]
+  },
+  {
+   "id": "ich",
+   "colour": "orange",
+   "head": [
+    [
+     [
+      "h",
+      "Intracerebral hemorrhage",
+      [
+       "bleeding into the brain"
+      ]
+     ]
+    ]
+   ],
+   "clue": [
+    [
+     [
+      "t",
+      "Cause by SITE",
+      []
+     ]
+    ],
+    [
+     [
+      "w",
+      "DEEP: hypertension",
+      [
+       "pons, basal ganglia, thalamus, cerebellum"
+      ]
+     ],
+     [
+      "w",
+      "LOBAR: amyloid angiopathy",
+      [
+       "just under the cortex"
+      ]
+     ]
+    ]
+   ],
+   "inv": [
+    [
+     [
+      "w",
+      "Find the cause: MRI, CTA",
+      [
+       "also tumour (metastasis) · AVM, cavernoma, aneurysm · coagulopathy"
+      ]
+     ]
+    ]
+   ],
+   "tx": [
+    [
+     [
+      "bad",
+      "NO tPA",
+      [
+       "• BP under 160/110",
+       "• HOLD all antiplatelets and anticoagulants",
+       "• MECHANICAL DVT prophylaxis",
+       "• surgery very rarely"
+      ]
+     ]
+    ]
+   ],
+   "after": [
+    [
+     [
+      "warn",
+      "At 24 hours",
+      [
+       "repeat CT · no clot extension → heparin prophylaxis · rehabilitation"
+      ]
+     ]
+    ]
+   ]
+  },
+  {
+   "id": "sah",
+   "colour": "blue",
+   "head": [
+    [
+     [
+      "h",
+      "Subarachnoid hemorrhage",
+      [
+       "ruptured aneurysm, in most (or trauma)"
+      ]
+     ]
+    ]
+   ],
+   "clue": [
+    [
+     [
+      "t",
+      "THUNDERCLAP",
+      [
+       "• sudden, explosive, worst headache of her life",
+       "• then nausea, vomiting"
+      ]
+     ]
+    ]
+   ],
+   "inv": [
+    [
+     [
+      "w",
+      "Urgent vessel imaging",
+      [
+       "CTA or MRA to find the aneurysm"
+      ]
+     ]
+    ]
+   ],
+   "tx": [
+    [
+     [
+      "ok",
+      "Admit to NEUROSURGERY",
+      [
+       "coil or clip, by the aneurysm's shape and site"
+      ]
+     ]
+    ]
+   ],
+   "after": [
+    [
+     [
+      "bad",
+      "Watch for",
+      [
+       "• RE-BLEEDING before it is secured",
+       "• VASOSPASM → ischemic stroke",
+       "• medical complications"
+      ]
+     ]
+    ]
+   ]
+  }
+ ],
+ "spans": [
+  {
+   "section": "after",
+   "cols": [
+    0,
+    1
+   ],
+   "rows": [
+    [
+     [
+      "plain",
+      "SECONDARY PREVENTION, chosen by the CAUSE",
+      [
+       "admit to the stroke unit: BP watch and imaging at 24 h, nothing by mouth until a swallowing assessment · rehabilitation beats even tPA"
+      ]
+     ]
+    ],
+    [
+     [
+      "ok",
+      "Antithrombotic",
+      [
+       "• CARDIOEMBOLIC (atrial fibrillation, valve) → ANTICOAGULATE, ~2 weeks after",
+       "• all other causes → ASA 81 mg · clopidogrel if ASA fails"
+      ]
+     ],
+     [
+      "ok",
+      "And",
+      [
+       "• symptomatic carotid stenosis over 70% → endarterectomy or stent",
+       "• BP under 140/90 · high-dose statin · glucose · smoking"
+      ]
+     ]
+    ]
+   ]
+  }
+ ]
+}

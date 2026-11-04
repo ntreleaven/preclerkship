@@ -1,0 +1,531 @@
+{
+ "name": "neuroimaging modalities overview",
+ "width": 1016,
+ "title": "Choosing a neuroimaging modality: different objects need different kinds of resolution (spatial, contrast, temporal); radiography, fluoroscopy and CT use X-rays, ultrasound and MRI do not, and each trades its resolution against cost, availability, invasiveness, radiation and scan length",
+ "kinds": {
+  "xr_h": [
+   "#46607a",
+   "#46607a",
+   "#ffffff",
+   "#ffffff"
+  ],
+  "xr_t": [
+   "#e2e8ee",
+   "#46607a",
+   "#46607a",
+   "#18212e"
+  ],
+  "xr_w": [
+   "#ffffff",
+   "#46607a",
+   "#46607a",
+   "#18212e"
+  ],
+  "fl_h": [
+   "#b5600f",
+   "#b5600f",
+   "#ffffff",
+   "#ffffff"
+  ],
+  "fl_t": [
+   "#fbe8d3",
+   "#b5600f",
+   "#b5600f",
+   "#18212e"
+  ],
+  "fl_w": [
+   "#ffffff",
+   "#b5600f",
+   "#b5600f",
+   "#18212e"
+  ],
+  "ct_h": [
+   "#1f5f9e",
+   "#1f5f9e",
+   "#ffffff",
+   "#ffffff"
+  ],
+  "ct_t": [
+   "#dde9f7",
+   "#1f5f9e",
+   "#1f5f9e",
+   "#18212e"
+  ],
+  "ct_w": [
+   "#ffffff",
+   "#1f5f9e",
+   "#1f5f9e",
+   "#18212e"
+  ],
+  "us_h": [
+   "#1f6f8b",
+   "#1f6f8b",
+   "#ffffff",
+   "#ffffff"
+  ],
+  "us_t": [
+   "#dceef4",
+   "#1f6f8b",
+   "#1f6f8b",
+   "#18212e"
+  ],
+  "us_w": [
+   "#ffffff",
+   "#1f6f8b",
+   "#1f6f8b",
+   "#18212e"
+  ],
+  "mri_h": [
+   "#6a4aa8",
+   "#6a4aa8",
+   "#ffffff",
+   "#ffffff"
+  ],
+  "mri_t": [
+   "#ebe4f7",
+   "#6a4aa8",
+   "#6a4aa8",
+   "#18212e"
+  ],
+  "mri_w": [
+   "#ffffff",
+   "#6a4aa8",
+   "#6a4aa8",
+   "#18212e"
+  ]
+ },
+ "bands": [
+  {
+   "x": 40,
+   "y": 252,
+   "w": 186,
+   "h": 542,
+   "fill": "#f2f5f8",
+   "stroke": "#46607a"
+  },
+  {
+   "x": 228,
+   "y": 252,
+   "w": 186,
+   "h": 542,
+   "fill": "#fdf4ea",
+   "stroke": "#b5600f"
+  },
+  {
+   "x": 416,
+   "y": 252,
+   "w": 186,
+   "h": 542,
+   "fill": "#eff5fc",
+   "stroke": "#1f5f9e"
+  },
+  {
+   "x": 632,
+   "y": 252,
+   "w": 186,
+   "h": 542,
+   "fill": "#eef7fa",
+   "stroke": "#1f6f8b"
+  },
+  {
+   "x": 820,
+   "y": 252,
+   "w": 186,
+   "h": 542,
+   "fill": "#f5f1fb",
+   "stroke": "#6a4aa8"
+  }
+ ],
+ "row_labels": [
+  {
+   "x": 23,
+   "y": 396,
+   "h": 134,
+   "text": "RESOLUTION"
+  },
+  {
+   "x": 23,
+   "y": 570,
+   "h": 96,
+   "text": "FOR"
+  },
+  {
+   "x": 23,
+   "y": 706,
+   "h": 80,
+   "text": "AGAINST"
+  }
+ ],
+ "nodes": [
+  {
+   "id": "root",
+   "x": 143,
+   "y": 10,
+   "w": 760,
+   "kind": "dark",
+   "title": "Which modality best RESOLVES the object of interest?",
+   "lines": [
+    "SPATIAL: tell apart nearby objects · CONTRAST: tell apart objects of similar density · TEMPORAL: see change over time"
+   ]
+  },
+  {
+   "id": "g_xray",
+   "x": 45,
+   "y": 120,
+   "w": 552,
+   "h": 60,
+   "kind": "plain",
+   "title": "X-RAY BASED",
+   "lines": [
+    "differential attenuation of X-rays · radiation"
+   ]
+  },
+  {
+   "id": "g_other",
+   "x": 637,
+   "y": 120,
+   "w": 364,
+   "h": 60,
+   "kind": "plain",
+   "title": "NO IONIZING RADIATION",
+   "lines": [
+    "sound · protons in a magnetic field"
+   ]
+  },
+  {
+   "id": "xr_head_0_0",
+   "x": 45,
+   "y": 260,
+   "w": 176,
+   "h": 96,
+   "kind": "xr_h",
+   "title": "Radiography",
+   "lines": [
+    "plain X-ray"
+   ]
+  },
+  {
+   "id": "fl_head_0_0",
+   "x": 233,
+   "y": 260,
+   "w": 176,
+   "h": 96,
+   "kind": "fl_h",
+   "title": "Fluoroscopy",
+   "lines": [
+    "pulsed X-rays, real time"
+   ]
+  },
+  {
+   "id": "ct_head_0_0",
+   "x": 421,
+   "y": 260,
+   "w": 176,
+   "h": 96,
+   "kind": "ct_h",
+   "title": "Computed tomography (CT)",
+   "lines": []
+  },
+  {
+   "id": "us_head_0_0",
+   "x": 637,
+   "y": 260,
+   "w": 176,
+   "h": 96,
+   "kind": "us_h",
+   "title": "Ultrasound",
+   "lines": [
+    "grayscale: time to echo · Doppler: frequency shift off a moving reflector"
+   ]
+  },
+  {
+   "id": "mri_head_0_0",
+   "x": 825,
+   "y": 260,
+   "w": 176,
+   "h": 96,
+   "kind": "mri_h",
+   "title": "MRI",
+   "lines": [
+    "proton energy states · choose the sequence"
+   ]
+  },
+  {
+   "id": "xr_res_0_0",
+   "x": 45,
+   "y": 396,
+   "w": 176,
+   "h": 134,
+   "kind": "xr_t",
+   "title": "SPATIAL +++",
+   "lines": [
+    "• contrast +",
+    "• temporal: none"
+   ]
+  },
+  {
+   "id": "fl_res_0_0",
+   "x": 233,
+   "y": 396,
+   "w": 176,
+   "h": 134,
+   "kind": "fl_t",
+   "title": "TEMPORAL +++",
+   "lines": [
+    "• spatial ++",
+    "• contrast +"
+   ]
+  },
+  {
+   "id": "ct_res_0_0",
+   "x": 421,
+   "y": 396,
+   "w": 176,
+   "h": 134,
+   "kind": "ct_t",
+   "title": "Spatial ++ · contrast ++",
+   "lines": [
+    "• temporal: none, or + with multi-phase scanning",
+    "• contrast dye → better contrast resolution"
+   ]
+  },
+  {
+   "id": "us_res_0_0",
+   "x": 637,
+   "y": 396,
+   "w": 176,
+   "h": 134,
+   "kind": "us_t",
+   "title": "TEMPORAL +++",
+   "lines": [
+    "• contrast ++",
+    "• spatial +"
+   ]
+  },
+  {
+   "id": "mri_res_0_0",
+   "x": 825,
+   "y": 396,
+   "w": 176,
+   "h": 134,
+   "kind": "mri_t",
+   "title": "CONTRAST +++",
+   "lines": [
+    "• spatial ++",
+    "• temporal 0/+"
+   ]
+  },
+  {
+   "id": "xr_pro_0_0",
+   "x": 45,
+   "y": 570,
+   "w": 176,
+   "h": 96,
+   "kind": "xr_w",
+   "title": "Inexpensive · instant",
+   "lines": [
+    "universally available"
+   ]
+  },
+  {
+   "id": "fl_pro_0_0",
+   "x": 233,
+   "y": 570,
+   "w": 176,
+   "h": 96,
+   "kind": "fl_w",
+   "title": "Real-time video",
+   "lines": [
+    "• digital subtraction: only NEW things show (contrast, air)"
+   ]
+  },
+  {
+   "id": "ct_pro_0_0",
+   "x": 421,
+   "y": 570,
+   "w": 176,
+   "h": 96,
+   "kind": "ct_w",
+   "title": "Widespread availability",
+   "lines": []
+  },
+  {
+   "id": "us_pro_0_0",
+   "x": 637,
+   "y": 570,
+   "w": 176,
+   "h": 96,
+   "kind": "us_w",
+   "title": "No radiation",
+   "lines": [
+    "• widely available · inexpensive"
+   ]
+  },
+  {
+   "id": "mri_pro_0_0",
+   "x": 825,
+   "y": 570,
+   "w": 176,
+   "h": 96,
+   "kind": "mri_w",
+   "title": "Best contrast resolution",
+   "lines": []
+  },
+  {
+   "id": "xr_con_0_0",
+   "x": 45,
+   "y": 706,
+   "w": 176,
+   "h": 80,
+   "kind": "xr_w",
+   "title": "No temporal information",
+   "lines": [
+    "contrast only +"
+   ]
+  },
+  {
+   "id": "fl_con_0_0",
+   "x": 233,
+   "y": 706,
+   "w": 176,
+   "h": 80,
+   "kind": "fl_w",
+   "title": "Limited availability",
+   "lines": [
+    "• invasive (angiography)"
+   ]
+  },
+  {
+   "id": "ct_con_0_0",
+   "x": 421,
+   "y": 706,
+   "w": 176,
+   "h": 80,
+   "kind": "ct_w",
+   "title": "Radiation dose",
+   "lines": [
+    "• moderate expense"
+   ]
+  },
+  {
+   "id": "us_con_0_0",
+   "x": 637,
+   "y": 706,
+   "w": 176,
+   "h": 80,
+   "kind": "us_w",
+   "title": "Least spatial detail",
+   "lines": []
+  },
+  {
+   "id": "mri_con_0_0",
+   "x": 825,
+   "y": 706,
+   "w": 176,
+   "h": 80,
+   "kind": "mri_w",
+   "title": "Expensive · limited availability",
+   "lines": [
+    "• long scan"
+   ]
+  }
+ ],
+ "edges": [
+  {
+   "from": "root",
+   "to": "g_xray",
+   "path": "M523.0 70V95H321.0V120"
+  },
+  {
+   "from": "root",
+   "to": "g_other",
+   "path": "M523.0 70V95H819.0V120"
+  },
+  {
+   "from": "xr_head_0_0",
+   "to": "xr_res_0_0"
+  },
+  {
+   "from": "xr_res_0_0",
+   "to": "xr_pro_0_0"
+  },
+  {
+   "from": "xr_pro_0_0",
+   "to": "xr_con_0_0"
+  },
+  {
+   "from": "g_xray",
+   "to": "xr_head_0_0",
+   "from_dx": -188
+  },
+  {
+   "from": "fl_head_0_0",
+   "to": "fl_res_0_0"
+  },
+  {
+   "from": "fl_res_0_0",
+   "to": "fl_pro_0_0"
+  },
+  {
+   "from": "fl_pro_0_0",
+   "to": "fl_con_0_0"
+  },
+  {
+   "from": "g_xray",
+   "to": "fl_head_0_0",
+   "from_dx": 0
+  },
+  {
+   "from": "ct_head_0_0",
+   "to": "ct_res_0_0"
+  },
+  {
+   "from": "ct_res_0_0",
+   "to": "ct_pro_0_0"
+  },
+  {
+   "from": "ct_pro_0_0",
+   "to": "ct_con_0_0"
+  },
+  {
+   "from": "g_xray",
+   "to": "ct_head_0_0",
+   "from_dx": 188
+  },
+  {
+   "from": "us_head_0_0",
+   "to": "us_res_0_0"
+  },
+  {
+   "from": "us_res_0_0",
+   "to": "us_pro_0_0"
+  },
+  {
+   "from": "us_pro_0_0",
+   "to": "us_con_0_0"
+  },
+  {
+   "from": "g_other",
+   "to": "us_head_0_0",
+   "from_dx": -94
+  },
+  {
+   "from": "mri_head_0_0",
+   "to": "mri_res_0_0"
+  },
+  {
+   "from": "mri_res_0_0",
+   "to": "mri_pro_0_0"
+  },
+  {
+   "from": "mri_pro_0_0",
+   "to": "mri_con_0_0"
+  },
+  {
+   "from": "g_other",
+   "to": "mri_head_0_0",
+   "from_dx": 94
+  }
+ ],
+ "panels": []
+}

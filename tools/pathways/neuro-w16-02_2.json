@@ -1,0 +1,364 @@
+{
+ "name": "autopsy and cause of death overview",
+ "width": 982,
+ "title": "After a death: any coroner indication makes it a medicolegal case under the Coroner's Act; an expected natural death is certified by the doctor, who writes the cause of death in the WHO format, and a hospital autopsy needs informed authorization from the estate trustee or next of kin in order",
+ "kinds": {
+  "ml_h": [
+   "#46607a",
+   "#46607a",
+   "#ffffff",
+   "#ffffff"
+  ],
+  "ml_t": [
+   "#e2e8ee",
+   "#46607a",
+   "#46607a",
+   "#18212e"
+  ],
+  "ml_w": [
+   "#ffffff",
+   "#46607a",
+   "#46607a",
+   "#18212e"
+  ],
+  "cert_h": [
+   "#b5600f",
+   "#b5600f",
+   "#ffffff",
+   "#ffffff"
+  ],
+  "cert_t": [
+   "#fbe8d3",
+   "#b5600f",
+   "#b5600f",
+   "#18212e"
+  ],
+  "cert_w": [
+   "#ffffff",
+   "#b5600f",
+   "#b5600f",
+   "#18212e"
+  ],
+  "hosp_h": [
+   "#1f6f8b",
+   "#1f6f8b",
+   "#ffffff",
+   "#ffffff"
+  ],
+  "hosp_t": [
+   "#dceef4",
+   "#1f6f8b",
+   "#1f6f8b",
+   "#18212e"
+  ],
+  "hosp_w": [
+   "#ffffff",
+   "#1f6f8b",
+   "#1f6f8b",
+   "#18212e"
+  ]
+ },
+ "bands": [
+  {
+   "x": 40,
+   "y": 306,
+   "w": 300,
+   "h": 622,
+   "fill": "#f2f5f8",
+   "stroke": "#46607a"
+  },
+  {
+   "x": 370,
+   "y": 306,
+   "w": 300,
+   "h": 622,
+   "fill": "#fdf4ea",
+   "stroke": "#b5600f"
+  },
+  {
+   "x": 672,
+   "y": 306,
+   "w": 300,
+   "h": 622,
+   "fill": "#eef7fa",
+   "stroke": "#1f6f8b"
+  }
+ ],
+ "row_labels": [
+  {
+   "x": 23,
+   "y": 432,
+   "h": 252,
+   "text": "AUTHORITY · FORMAT"
+  },
+  {
+   "x": 23,
+   "y": 724,
+   "h": 196,
+   "text": "KEY POINTS"
+  }
+ ],
+ "nodes": [
+  {
+   "id": "root",
+   "x": 126,
+   "y": 10,
+   "w": 760,
+   "kind": "dark",
+   "title": "A patient has died: does the coroner need to know?",
+   "lines": [
+    "call the coroner if ANY: family concerned about care · sudden and unexpected (no potentially fatal illness) · unnatural (accident, suicide, homicide) · death on a psychiatry ward · maternal death · seizure disorder · Children's Aid involved in a child's death"
+   ]
+  },
+  {
+   "id": "g_yes",
+   "x": 45,
+   "y": 156,
+   "w": 290,
+   "h": 78,
+   "kind": "plain",
+   "title": "YES: coroner's case",
+   "lines": [
+    "sudden and unexpected, or any indication above"
+   ]
+  },
+  {
+   "id": "g_no",
+   "x": 375,
+   "y": 156,
+   "w": 592,
+   "h": 78,
+   "kind": "plain",
+   "title": "NO: expected natural death",
+   "lines": []
+  },
+  {
+   "id": "ml_head_0_0",
+   "x": 45,
+   "y": 314,
+   "w": 290,
+   "h": 78,
+   "kind": "ml_h",
+   "title": "Medicolegal autopsy",
+   "lines": [
+    "forensic pathologist · death investigation ± police"
+   ]
+  },
+  {
+   "id": "cert_head_0_0",
+   "x": 375,
+   "y": 314,
+   "w": 290,
+   "h": 78,
+   "kind": "cert_h",
+   "title": "Death certificate",
+   "lines": [
+    "doctor or certain nurses sign · NOT for stillbirths"
+   ]
+  },
+  {
+   "id": "hosp_head_0_0",
+   "x": 677,
+   "y": 314,
+   "w": 290,
+   "h": 78,
+   "kind": "hosp_h",
+   "title": "Hospital autopsy",
+   "lines": [
+    "hospital pathologist"
+   ]
+  },
+  {
+   "id": "ml_who_0_0",
+   "x": 45,
+   "y": 432,
+   "w": 290,
+   "h": 252,
+   "kind": "bad",
+   "title": "The CORONER'S ACT",
+   "lines": [
+    "the family does NOT authorize it"
+   ]
+  },
+  {
+   "id": "cert_who_0_0",
+   "x": 375,
+   "y": 432,
+   "w": 290,
+   "h": 133,
+   "kind": "cert_t",
+   "title": "Part I: the causal chain, backwards",
+   "lines": [
+    "(a) immediate ← (b) ← (c) underlying",
+    "~hemopericardium ← ruptured myocardial infarct ← coronary atherosclerosis"
+   ]
+  },
+  {
+   "id": "cert_who_1_0",
+   "x": 375,
+   "y": 587,
+   "w": 290,
+   "h": 97,
+   "kind": "cert_w",
+   "title": "Part II: contributed, outside the chain",
+   "lines": [
+    "~e.g. diabetes, tobacco smoking"
+   ]
+  },
+  {
+   "id": "hosp_who_0_0",
+   "x": 677,
+   "y": 432,
+   "w": 290,
+   "h": 152,
+   "kind": "hosp_t",
+   "title": "INFORMED authorization, in this ORDER",
+   "lines": [
+    "1 · estate trustee",
+    "2 · spouse and adult children",
+    "3 · parents",
+    "4 · siblings",
+    "5 · any other capable next of kin"
+   ]
+  },
+  {
+   "id": "hosp_who_1_0",
+   "x": 677,
+   "y": 606,
+   "w": 290,
+   "h": 78,
+   "kind": "hosp_w",
+   "title": "They may RESTRICT it",
+   "lines": [
+    "• limited internal exam",
+    "• no organ retention (brain, heart)"
+   ]
+  },
+  {
+   "id": "ml_do_0_0",
+   "x": 45,
+   "y": 724,
+   "w": 290,
+   "h": 196,
+   "kind": "ml_w",
+   "title": "Coroner or medical examiner",
+   "lines": [
+    "signs the death certificate"
+   ]
+  },
+  {
+   "id": "cert_do_0_0",
+   "x": 375,
+   "y": 724,
+   "w": 290,
+   "h": 78,
+   "kind": "ok",
+   "title": "Be SPECIFIC",
+   "lines": [
+    "• infection: disease or organism + site",
+    "• cancer: origin + spread + type"
+   ]
+  },
+  {
+   "id": "cert_do_1_0",
+   "x": 375,
+   "y": 824,
+   "w": 290,
+   "h": 96,
+   "kind": "bad",
+   "title": "NEVER a mechanism",
+   "lines": [
+    "cardiac arrest · arrhythmia · exsanguination · respiratory arrest · multisystem organ failure · sepsis"
+   ]
+  },
+  {
+   "id": "hosp_do_0_0",
+   "x": 677,
+   "y": 724,
+   "w": 290,
+   "h": 196,
+   "kind": "ok",
+   "title": "Why do it",
+   "lines": [
+    "• diagnosis, extent, effect of treatment",
+    "• accuracy of clinical tests and imaging",
+    "• SUSPECTED GENETIC disease: tell living relatives",
+    "• grief · teaching · research · the death certificate"
+   ]
+  }
+ ],
+ "edges": [
+  {
+   "from": "root",
+   "to": "g_yes",
+   "path": "M506.0 106V131H190.0V156"
+  },
+  {
+   "from": "root",
+   "to": "g_no",
+   "path": "M506.0 106V131H671.0V156"
+  },
+  {
+   "from": "cert_who_0_0",
+   "to": "cert_who_1_0"
+  },
+  {
+   "from": "hosp_who_0_0",
+   "to": "hosp_who_1_0"
+  },
+  {
+   "from": "cert_do_0_0",
+   "to": "cert_do_1_0"
+  },
+  {
+   "from": "ml_head_0_0",
+   "to": "ml_who_0_0"
+  },
+  {
+   "from": "ml_who_0_0",
+   "to": "ml_do_0_0"
+  },
+  {
+   "from": "g_yes",
+   "to": "ml_head_0_0",
+   "from_dx": 0
+  },
+  {
+   "from": "cert_head_0_0",
+   "to": "cert_who_0_0"
+  },
+  {
+   "from": "cert_who_1_0",
+   "to": "cert_do_0_0"
+  },
+  {
+   "from": "g_no",
+   "to": "cert_head_0_0",
+   "from_dx": -151,
+   "label": "always",
+   "label_at": [
+    520.0,
+    274
+   ]
+  },
+  {
+   "from": "hosp_head_0_0",
+   "to": "hosp_who_0_0"
+  },
+  {
+   "from": "hosp_who_1_0",
+   "to": "hosp_do_0_0"
+  },
+  {
+   "from": "g_no",
+   "to": "hosp_head_0_0",
+   "from_dx": 151,
+   "label": "if wanted",
+   "label_at": [
+    822.0,
+    274
+   ]
+  }
+ ],
+ "panels": []
+}

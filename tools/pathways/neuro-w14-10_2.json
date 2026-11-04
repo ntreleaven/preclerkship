@@ -1,0 +1,588 @@
+{
+ "name": "neurosurgical emergencies overview",
+ "width": 1264,
+ "title": "Neurosurgical emergencies: headache, coma, a new deficit or trauma mean pressure in a closed skull; protect the airway, image, and decompress according to what takes up the space: an epidural or acute subdural hematoma, a ruptured aneurysm, a tumour with edema, or hydrocephalus",
+ "kinds": {
+  "edh_h": [
+   "#1f6f8b",
+   "#1f6f8b",
+   "#ffffff",
+   "#ffffff"
+  ],
+  "edh_t": [
+   "#dceef4",
+   "#1f6f8b",
+   "#1f6f8b",
+   "#18212e"
+  ],
+  "edh_w": [
+   "#ffffff",
+   "#1f6f8b",
+   "#1f6f8b",
+   "#18212e"
+  ],
+  "sdh_h": [
+   "#1f5f9e",
+   "#1f5f9e",
+   "#ffffff",
+   "#ffffff"
+  ],
+  "sdh_t": [
+   "#dde9f7",
+   "#1f5f9e",
+   "#1f5f9e",
+   "#18212e"
+  ],
+  "sdh_w": [
+   "#ffffff",
+   "#1f5f9e",
+   "#1f5f9e",
+   "#18212e"
+  ],
+  "sah_h": [
+   "#b5600f",
+   "#b5600f",
+   "#ffffff",
+   "#ffffff"
+  ],
+  "sah_t": [
+   "#fbe8d3",
+   "#b5600f",
+   "#b5600f",
+   "#18212e"
+  ],
+  "sah_w": [
+   "#ffffff",
+   "#b5600f",
+   "#b5600f",
+   "#18212e"
+  ],
+  "tum_h": [
+   "#6a4aa8",
+   "#6a4aa8",
+   "#ffffff",
+   "#ffffff"
+  ],
+  "tum_t": [
+   "#ebe4f7",
+   "#6a4aa8",
+   "#6a4aa8",
+   "#18212e"
+  ],
+  "tum_w": [
+   "#ffffff",
+   "#6a4aa8",
+   "#6a4aa8",
+   "#18212e"
+  ],
+  "hyd_h": [
+   "#a3336b",
+   "#a3336b",
+   "#ffffff",
+   "#ffffff"
+  ],
+  "hyd_t": [
+   "#f8e0ec",
+   "#a3336b",
+   "#a3336b",
+   "#18212e"
+  ],
+  "hyd_w": [
+   "#ffffff",
+   "#a3336b",
+   "#a3336b",
+   "#18212e"
+  ]
+ },
+ "bands": [
+  {
+   "x": 40,
+   "y": 270,
+   "w": 230,
+   "h": 724,
+   "fill": "#eef7fa",
+   "stroke": "#1f6f8b"
+  },
+  {
+   "x": 272,
+   "y": 270,
+   "w": 230,
+   "h": 724,
+   "fill": "#eff5fc",
+   "stroke": "#1f5f9e"
+  },
+  {
+   "x": 504,
+   "y": 270,
+   "w": 230,
+   "h": 724,
+   "fill": "#fdf4ea",
+   "stroke": "#b5600f"
+  },
+  {
+   "x": 764,
+   "y": 270,
+   "w": 230,
+   "h": 724,
+   "fill": "#f5f1fb",
+   "stroke": "#6a4aa8"
+  },
+  {
+   "x": 1024,
+   "y": 270,
+   "w": 230,
+   "h": 724,
+   "fill": "#fcf0f6",
+   "stroke": "#a3336b"
+  }
+ ],
+ "row_labels": [
+  {
+   "x": 23,
+   "y": 414,
+   "h": 132,
+   "text": "PRESENTS AS"
+  },
+  {
+   "x": 23,
+   "y": 586,
+   "h": 98,
+   "text": "IMAGING"
+  },
+  {
+   "x": 23,
+   "y": 724,
+   "h": 262,
+   "text": "TREATMENT"
+  }
+ ],
+ "nodes": [
+  {
+   "id": "root",
+   "x": 267,
+   "y": 10,
+   "w": 760,
+   "kind": "dark",
+   "title": "Headache · coma · new neurological deficit · trauma: the cause is PRESSURE",
+   "lines": [
+    "examine to LOCALIZE: Glasgow Coma Scale (GCS), PUPILS, cranial nerves, power side to side, sensory level",
+    "INTUBATE for GCS < 9 (airway protection) → image → emergency neurosurgery = DECOMPRESSION"
+   ]
+  },
+  {
+   "id": "g_blood",
+   "x": 45,
+   "y": 138,
+   "w": 684,
+   "h": 60,
+   "kind": "plain",
+   "title": "BLOOD",
+   "lines": [
+    "which space it is in decides the shape and the outlook"
+   ]
+  },
+  {
+   "id": "g_mass",
+   "x": 769,
+   "y": 138,
+   "w": 220,
+   "h": 60,
+   "kind": "plain",
+   "title": "A MASS",
+   "lines": [
+    "weeks of progressive deficit"
+   ]
+  },
+  {
+   "id": "g_csf",
+   "x": 1029,
+   "y": 138,
+   "w": 220,
+   "h": 60,
+   "kind": "plain",
+   "title": "TRAPPED CSF",
+   "lines": [
+    "the brain squeezed from inside"
+   ]
+  },
+  {
+   "id": "edh_head_0_0",
+   "x": 45,
+   "y": 278,
+   "w": 220,
+   "h": 96,
+   "kind": "edh_h",
+   "title": "Epidural hematoma",
+   "lines": [
+    "middle meningeal ARTERY",
+    "contact blow to the side of the head"
+   ]
+  },
+  {
+   "id": "sdh_head_0_0",
+   "x": 277,
+   "y": 278,
+   "w": 220,
+   "h": 96,
+   "kind": "sdh_h",
+   "title": "Acute subdural hematoma",
+   "lines": [
+    "BRIDGING VEINS",
+    "acceleration-deceleration"
+   ]
+  },
+  {
+   "id": "sah_head_0_0",
+   "x": 509,
+   "y": 278,
+   "w": 220,
+   "h": 96,
+   "kind": "sah_h",
+   "title": "Subarachnoid hemorrhage",
+   "lines": [
+    "ruptured ANEURYSM"
+   ]
+  },
+  {
+   "id": "tum_head_0_0",
+   "x": 769,
+   "y": 278,
+   "w": 220,
+   "h": 96,
+   "kind": "tum_h",
+   "title": "Tumour with edema",
+   "lines": [
+    "leaky tumour vessels: VASOGENIC edema"
+   ]
+  },
+  {
+   "id": "hyd_head_0_0",
+   "x": 1029,
+   "y": 278,
+   "w": 220,
+   "h": 96,
+   "kind": "hyd_h",
+   "title": "Hydrocephalus",
+   "lines": [
+    "e.g. after bacterial meningitis"
+   ]
+  },
+  {
+   "id": "edh_pres_0_0",
+   "x": 45,
+   "y": 414,
+   "w": 220,
+   "h": 132,
+   "kind": "edh_t",
+   "title": "LUCID interval, then coma",
+   "lines": [
+    "• stunned, then fine, then cannot be woken",
+    "• BLOWN PUPIL on the SAME side (third nerve)",
+    "• opposite side weaker"
+   ]
+  },
+  {
+   "id": "sdh_pres_0_0",
+   "x": 277,
+   "y": 414,
+   "w": 220,
+   "h": 132,
+   "kind": "sdh_t",
+   "title": "Falling consciousness",
+   "lines": [
+    "• intoxicated, on ASA",
+    "• fixed dilated pupil, posturing"
+   ]
+  },
+  {
+   "id": "sah_pres_0_0",
+   "x": 509,
+   "y": 414,
+   "w": 220,
+   "h": 132,
+   "kind": "sah_t",
+   "title": "Explosive headache UNLIKE ANY OTHER",
+   "lines": [
+    "• vomiting, photophobia",
+    "• stiff neck, retinal hemorrhage",
+    "• GCS may be 15"
+   ]
+  },
+  {
+   "id": "tum_pres_0_0",
+   "x": 769,
+   "y": 414,
+   "w": 220,
+   "h": 132,
+   "kind": "tum_t",
+   "title": "Weeks of progressive deficit",
+   "lines": [
+    "• word-finding, one weak hand",
+    "• then a rapid fall in consciousness"
+   ]
+  },
+  {
+   "id": "hyd_pres_0_0",
+   "x": 1029,
+   "y": 414,
+   "w": 220,
+   "h": 132,
+   "kind": "hyd_t",
+   "title": "Not rousable",
+   "lines": [
+    "• dysconjugate gaze",
+    "• fever if infection"
+   ]
+  },
+  {
+   "id": "edh_inv_0_0",
+   "x": 45,
+   "y": 586,
+   "w": 220,
+   "h": 98,
+   "kind": "edh_w",
+   "title": "CT: LENS-shaped (convex)",
+   "lines": []
+  },
+  {
+   "id": "sdh_inv_0_0",
+   "x": 277,
+   "y": 586,
+   "w": 220,
+   "h": 98,
+   "kind": "sdh_w",
+   "title": "CT: CRESCENT (concave)",
+   "lines": []
+  },
+  {
+   "id": "sah_inv_0_0",
+   "x": 509,
+   "y": 586,
+   "w": 220,
+   "h": 98,
+   "kind": "sah_w",
+   "title": "CT: blood in the subarachnoid space",
+   "lines": [
+    "lumbar puncture: blood in the CSF"
+   ]
+  },
+  {
+   "id": "tum_inv_0_0",
+   "x": 769,
+   "y": 586,
+   "w": 220,
+   "h": 98,
+   "kind": "tum_w",
+   "title": "Mass with surrounding edema",
+   "lines": []
+  },
+  {
+   "id": "hyd_inv_0_0",
+   "x": 1029,
+   "y": 586,
+   "w": 220,
+   "h": 98,
+   "kind": "hyd_w",
+   "title": "Enlarged ventricles",
+   "lines": [
+    "cloudy CSF = bacterial meningitis"
+   ]
+  },
+  {
+   "id": "edh_tx_0_0",
+   "x": 45,
+   "y": 724,
+   "w": 220,
+   "h": 262,
+   "kind": "ok",
+   "title": "EARLY decompression",
+   "lines": [
+    "predictably good results"
+   ]
+  },
+  {
+   "id": "sdh_tx_0_0",
+   "x": 277,
+   "y": 724,
+   "w": 220,
+   "h": 262,
+   "kind": "warn",
+   "title": "Evacuate the hematoma",
+   "lines": [
+    "outcome UNPREDICTABLE: depends on the brain injury underneath"
+   ]
+  },
+  {
+   "id": "sah_tx_0_0",
+   "x": 509,
+   "y": 724,
+   "w": 220,
+   "h": 262,
+   "kind": "bad",
+   "title": "EARLY aneurysm repair",
+   "lines": [
+    "• re-rupture 6% day 1, 20% at 2 weeks, 50% at 6 months",
+    "• protects against the NEXT bleed only"
+   ]
+  },
+  {
+   "id": "tum_tx_0_0",
+   "x": 769,
+   "y": 724,
+   "w": 220,
+   "h": 98,
+   "kind": "ok",
+   "title": "DEXAMETHASONE 10 mg IV",
+   "lines": [
+    "restores the blood-brain barrier → edema shrinks"
+   ]
+  },
+  {
+   "id": "tum_tx_1_0",
+   "x": 769,
+   "y": 844,
+   "w": 220,
+   "h": 78,
+   "kind": "ok",
+   "title": "+ MANNITOL 20% IV push",
+   "lines": [
+    "shrinks brain with an INTACT barrier"
+   ]
+  },
+  {
+   "id": "tum_tx_2_0",
+   "x": 769,
+   "y": 944,
+   "w": 220,
+   "h": 42,
+   "kind": "ok",
+   "title": "Resect once stable",
+   "lines": []
+  },
+  {
+   "id": "hyd_tx_0_0",
+   "x": 1029,
+   "y": 724,
+   "w": 220,
+   "h": 262,
+   "kind": "bad",
+   "title": "DIVERT the CSF: untreated it KILLS by herniation",
+   "lines": [
+    "• now: EXTERNAL VENTRICULAR DRAIN",
+    "• long term: ventriculoperitoneal SHUNT",
+    "• treat the cause (antibiotics)"
+   ]
+  }
+ ],
+ "edges": [
+  {
+   "from": "root",
+   "to": "g_blood",
+   "path": "M647.0 88V113H387.0V138"
+  },
+  {
+   "from": "root",
+   "to": "g_mass",
+   "path": "M647.0 88V113H879.0V138"
+  },
+  {
+   "from": "root",
+   "to": "g_csf",
+   "path": "M647.0 88V113H1139.0V138"
+  },
+  {
+   "from": "tum_tx_0_0",
+   "to": "tum_tx_1_0"
+  },
+  {
+   "from": "tum_tx_1_0",
+   "to": "tum_tx_2_0"
+  },
+  {
+   "from": "edh_head_0_0",
+   "to": "edh_pres_0_0"
+  },
+  {
+   "from": "edh_pres_0_0",
+   "to": "edh_inv_0_0"
+  },
+  {
+   "from": "edh_inv_0_0",
+   "to": "edh_tx_0_0"
+  },
+  {
+   "from": "g_blood",
+   "to": "edh_head_0_0",
+   "from_dx": -232
+  },
+  {
+   "from": "sdh_head_0_0",
+   "to": "sdh_pres_0_0"
+  },
+  {
+   "from": "sdh_pres_0_0",
+   "to": "sdh_inv_0_0"
+  },
+  {
+   "from": "sdh_inv_0_0",
+   "to": "sdh_tx_0_0"
+  },
+  {
+   "from": "g_blood",
+   "to": "sdh_head_0_0",
+   "from_dx": 0
+  },
+  {
+   "from": "sah_head_0_0",
+   "to": "sah_pres_0_0"
+  },
+  {
+   "from": "sah_pres_0_0",
+   "to": "sah_inv_0_0"
+  },
+  {
+   "from": "sah_inv_0_0",
+   "to": "sah_tx_0_0"
+  },
+  {
+   "from": "g_blood",
+   "to": "sah_head_0_0",
+   "from_dx": 232
+  },
+  {
+   "from": "tum_head_0_0",
+   "to": "tum_pres_0_0"
+  },
+  {
+   "from": "tum_pres_0_0",
+   "to": "tum_inv_0_0"
+  },
+  {
+   "from": "tum_inv_0_0",
+   "to": "tum_tx_0_0"
+  },
+  {
+   "from": "g_mass",
+   "to": "tum_head_0_0",
+   "from_dx": 0
+  },
+  {
+   "from": "hyd_head_0_0",
+   "to": "hyd_pres_0_0"
+  },
+  {
+   "from": "hyd_pres_0_0",
+   "to": "hyd_inv_0_0"
+  },
+  {
+   "from": "hyd_inv_0_0",
+   "to": "hyd_tx_0_0"
+  },
+  {
+   "from": "g_csf",
+   "to": "hyd_head_0_0",
+   "from_dx": 0
+  }
+ ],
+ "panels": []
+}

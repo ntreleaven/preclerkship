@@ -1,0 +1,345 @@
+{
+ "name": "neuro-ophthalmology overview",
+ "title": "Visual symptoms not from the eyeball: double vision sorts by which nerve palsy (third, fourth or sixth), a gaze-evoked nystagmus points to the cerebellum or brainstem, unequal pupils sort by whether the difference is worse in light (parasympathetic) or dark (sympathetic, Horner), and a relative afferent pupillary defect points to one optic nerve",
+ "col_w": 140,
+ "root": {
+  "title": "A visual symptom NOT from the eyeball: which kind?",
+  "lines": [
+   "each one localizes to a nerve or a pathway"
+  ]
+ },
+ "groups": [
+  {
+   "id": "g_dip",
+   "cols": [
+    0,
+    2
+   ],
+   "title": "DOUBLE VISION (diplopia)",
+   "lines": [
+    "the eyes are not aligned",
+    "lateral rectus = VI · superior oblique = IV · the rest = III"
+   ]
+  },
+  {
+   "id": "g_nys",
+   "cols": [
+    3,
+    3
+   ],
+   "title": "EYES DRIFT",
+   "lines": [
+    "nystagmus"
+   ]
+  },
+  {
+   "id": "g_pup",
+   "cols": [
+    4,
+    6
+   ],
+   "title": "THE PUPILS",
+   "lines": [
+    "parasympathetic constricts",
+    "sympathetic dilates"
+   ]
+  }
+ ],
+ "tiers": [
+  {
+   "id": "t_aniso",
+   "cols": [
+    4,
+    5
+   ],
+   "title": "UNEQUAL pupils: worse in light or dark?",
+   "lines": [
+    "is one big, or the other small?"
+   ]
+  }
+ ],
+ "sections": [
+  "head",
+  "pres",
+  "cause"
+ ],
+ "row_names": {
+  "pres": "PRESENTS AS",
+  "cause": "CAUSE · MEANING"
+ },
+ "dashed_sections": [
+  "pres"
+ ],
+ "columns": [
+  {
+   "id": "cn3",
+   "colour": "brown",
+   "head": [
+    [
+     [
+      "h",
+      "Third nerve palsy",
+      [
+       "oculomotor"
+      ]
+     ]
+    ]
+   ],
+   "pres": [
+    [
+     [
+      "t",
+      "Down and out",
+      [
+       "• ptosis",
+       "• pupil SPARED or involved"
+      ]
+     ]
+    ]
+   ],
+   "cause": [
+    [
+     [
+      "bad",
+      "Is the PUPIL involved?",
+      [
+       "• BLOWN (large, unreactive) → COMPRESSIVE: aneurysm on the surface pupil fibres",
+       "• spared → MICROVASCULAR"
+      ]
+     ]
+    ]
+   ]
+  },
+  {
+   "id": "cn4",
+   "colour": "olive",
+   "head": [
+    [
+     [
+      "h",
+      "Fourth nerve palsy",
+      [
+       "trochlear · superior oblique"
+      ]
+     ]
+    ]
+   ],
+   "pres": [
+    [
+     [
+      "t",
+      "HEAD TILT",
+      [
+       "vertical double vision"
+      ]
+     ]
+    ]
+   ],
+   "cause": [
+    [
+     [
+      "w",
+      "Often congenital",
+      []
+     ]
+    ]
+   ]
+  },
+  {
+   "id": "cn6",
+   "colour": "teal",
+   "head": [
+    [
+     [
+      "h",
+      "Sixth nerve palsy",
+      [
+       "abducens · lateral rectus"
+      ]
+     ]
+    ]
+   ],
+   "pres": [
+    [
+     [
+      "t",
+      "Can't ABDUCT",
+      [
+       "• eye turned in",
+       "• head turn to the weak side"
+      ]
+     ]
+    ]
+   ],
+   "cause": [
+    [
+     [
+      "bad",
+      "Raised intracranial pressure?",
+      [
+       "look for papilledema"
+      ]
+     ]
+    ]
+   ]
+  },
+  {
+   "id": "nys",
+   "colour": "purple",
+   "head": [
+    [
+     [
+      "h",
+      "Gaze-evoked nystagmus",
+      [
+       "the commonest form"
+      ]
+     ]
+    ]
+   ],
+   "pres": [
+    [
+     [
+      "t",
+      "Beats TOWARD gaze",
+      [
+       "• left-beating on left gaze",
+       "• up-beating on upgaze",
+       "• slow drift back, fast snap out"
+      ]
+     ]
+    ]
+   ],
+   "cause": [
+    [
+     [
+      "w",
+      "Cerebellum or brainstem",
+      [
+       "• stroke, bleed, tumour",
+       "• demyelination",
+       "• hereditary ataxia",
+       "• alcohol, phenytoin, lithium"
+      ]
+     ]
+    ]
+   ]
+  },
+  {
+   "id": "para",
+   "colour": "blue",
+   "drop_from": "t_aniso",
+   "drop_label": "LIGHT",
+   "head": [
+    [
+     [
+      "h",
+      "Parasympathetic paresis",
+      [
+       "the BIG pupil is abnormal"
+      ]
+     ]
+    ]
+   ],
+   "pres": [
+    [
+     [
+      "t",
+      "Won't CONSTRICT",
+      [
+       "difference worse in bright light"
+      ]
+     ]
+    ]
+   ],
+   "cause": [
+    [
+     [
+      "bad",
+      "e.g. compressive third nerve palsy",
+      [
+       "blown pupil"
+      ]
+     ]
+    ]
+   ]
+  },
+  {
+   "id": "symp",
+   "colour": "orange",
+   "drop_from": "t_aniso",
+   "drop_label": "DARK",
+   "head": [
+    [
+     [
+      "h",
+      "Horner syndrome",
+      [
+       "sympathetic paresis",
+       "the SMALL pupil is abnormal"
+      ]
+     ]
+    ]
+   ],
+   "pres": [
+    [
+     [
+      "t",
+      "Won't DILATE",
+      [
+       "• difference worse in the dark",
+       "• mild ptosis"
+      ]
+     ]
+    ]
+   ],
+   "cause": [
+    [
+     [
+      "bad",
+      "Rule out internal carotid dissection",
+      []
+     ]
+    ]
+   ]
+  },
+  {
+   "id": "rapd",
+   "colour": "magenta",
+   "head": [
+    [
+     [
+      "h",
+      "Relative afferent pupillary defect",
+      [
+       "swinging light test"
+      ]
+     ]
+    ]
+   ],
+   "pres": [
+    [
+     [
+      "t",
+      "Light to the BAD eye",
+      [
+       "• BOTH pupils dilate",
+       "• light to the good eye: both constrict"
+      ]
+     ]
+    ]
+   ],
+   "cause": [
+    [
+     [
+      "w",
+      "That optic nerve",
+      [
+       "the afferent arm of the light reflex"
+      ]
+     ]
+    ]
+   ]
+  }
+ ]
+}

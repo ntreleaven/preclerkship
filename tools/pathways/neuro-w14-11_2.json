@@ -1,0 +1,428 @@
+{
+ "name": "neuroinfections overview",
+ "width": 954,
+ "title": "Suspected meningitis or encephalitis: blood culture and empiric treatment first, CT before the lumbar puncture only with focal signs or a decreased level of consciousness, then the CSF separates bacterial meningitis, aseptic (viral) meningitis and herpes simplex encephalitis, each with its organisms and treatment",
+ "kinds": {
+  "bac_h": [
+   "#a3336b",
+   "#a3336b",
+   "#ffffff",
+   "#ffffff"
+  ],
+  "bac_t": [
+   "#f8e0ec",
+   "#a3336b",
+   "#a3336b",
+   "#18212e"
+  ],
+  "bac_w": [
+   "#ffffff",
+   "#a3336b",
+   "#a3336b",
+   "#18212e"
+  ],
+  "asep_h": [
+   "#1f6f8b",
+   "#1f6f8b",
+   "#ffffff",
+   "#ffffff"
+  ],
+  "asep_t": [
+   "#dceef4",
+   "#1f6f8b",
+   "#1f6f8b",
+   "#18212e"
+  ],
+  "asep_w": [
+   "#ffffff",
+   "#1f6f8b",
+   "#1f6f8b",
+   "#18212e"
+  ],
+  "hsv_h": [
+   "#6a4aa8",
+   "#6a4aa8",
+   "#ffffff",
+   "#ffffff"
+  ],
+  "hsv_t": [
+   "#ebe4f7",
+   "#6a4aa8",
+   "#6a4aa8",
+   "#18212e"
+  ],
+  "hsv_w": [
+   "#ffffff",
+   "#6a4aa8",
+   "#6a4aa8",
+   "#18212e"
+  ]
+ },
+ "bands": [
+  {
+   "x": 40,
+   "y": 424,
+   "w": 300,
+   "h": 846,
+   "fill": "#fcf0f6",
+   "stroke": "#a3336b"
+  },
+  {
+   "x": 342,
+   "y": 424,
+   "w": 300,
+   "h": 846,
+   "fill": "#eef7fa",
+   "stroke": "#1f6f8b"
+  },
+  {
+   "x": 644,
+   "y": 424,
+   "w": 300,
+   "h": 846,
+   "fill": "#f5f1fb",
+   "stroke": "#6a4aa8"
+  }
+ ],
+ "row_labels": [
+  {
+   "x": 23,
+   "y": 220,
+   "h": 132,
+   "text": "WORKUP"
+  },
+  {
+   "x": 23,
+   "y": 532,
+   "h": 114,
+   "text": "PRESENTS AS"
+  },
+  {
+   "x": 23,
+   "y": 686,
+   "h": 286,
+   "text": "CSF"
+  },
+  {
+   "x": 23,
+   "y": 1012,
+   "h": 250,
+   "text": "TREATMENT"
+  }
+ ],
+ "nodes": [
+  {
+   "id": "root",
+   "x": 112,
+   "y": 10,
+   "w": 760,
+   "kind": "dark",
+   "title": "Fever · headache · stiff neck · altered mental status: think MENINGITIS",
+   "lines": [
+    "classic triad: FEVER, ALTERED MENTAL STATUS, NUCHAL RIGIDITY (Kernig's, Brudzinski's)",
+    "language trouble, confusion, focal seizures → think ENCEPHALITIS (the brain itself)"
+   ]
+  },
+  {
+   "id": "g",
+   "x": 45,
+   "y": 138,
+   "w": 894,
+   "h": 42,
+   "kind": "plain",
+   "title": "Suspected CNS infection: treat FIRST, then let the CSF decide",
+   "lines": []
+  },
+  {
+   "id": "p",
+   "x": 45,
+   "y": 220,
+   "w": 894,
+   "h": 132,
+   "kind": "info",
+   "title": "Plan",
+   "lines": [
+    "1 · CULTURE a blood sample",
+    "2 · START EMPIRIC treatment now: never wait for the CT or the tap",
+    "3 · CT/MRI FIRST only if focal signs or ↓ consciousness (PUNISH: Papilledema, Unconscious, Neurologic deficit, Immunocompromised, Seizure, History of CNS disease) → mass = NEUROSURGERY",
+    "4 · LUMBAR PUNCTURE → adjust treatment to the CSF"
+   ]
+  },
+  {
+   "id": "bac_head_0_0",
+   "x": 45,
+   "y": 432,
+   "w": 290,
+   "h": 60,
+   "kind": "bac_h",
+   "title": "Bacterial meningitis",
+   "lines": [
+    "any age · a clinical EMERGENCY"
+   ]
+  },
+  {
+   "id": "asep_head_0_0",
+   "x": 347,
+   "y": 432,
+   "w": 290,
+   "h": 60,
+   "kind": "asep_h",
+   "title": "Aseptic (viral) meningitis",
+   "lines": [
+    "no organism isolated"
+   ]
+  },
+  {
+   "id": "hsv_head_0_0",
+   "x": 649,
+   "y": 432,
+   "w": 290,
+   "h": 60,
+   "kind": "hsv_h",
+   "title": "Herpes simplex encephalitis",
+   "lines": [
+    "the BRAIN itself · MESIAL TEMPORAL lobes"
+   ]
+  },
+  {
+   "id": "bac_clue_0_0",
+   "x": 45,
+   "y": 532,
+   "w": 290,
+   "h": 114,
+   "kind": "bac_t",
+   "title": "Very sick",
+   "lines": [
+    "• fever, stiff neck, ↓ awareness",
+    "• RASH can occur (meningococcus)",
+    "• no language disturbance"
+   ]
+  },
+  {
+   "id": "asep_clue_0_0",
+   "x": 347,
+   "y": 532,
+   "w": 290,
+   "h": 114,
+   "kind": "asep_t",
+   "title": "Uncomfortable, not very sick",
+   "lines": [
+    "• headache, fever, photophobia, rash",
+    "• MILD meningeal signs",
+    "• neuro exam normal"
+   ]
+  },
+  {
+   "id": "hsv_clue_0_0",
+   "x": 649,
+   "y": 532,
+   "w": 290,
+   "h": 114,
+   "kind": "hsv_t",
+   "title": "Cortical signs",
+   "lines": [
+    "• LANGUAGE trouble (word salad), confusion",
+    "• focal seizures, impaired memory, focal deficits",
+    "• fever, ↓ awareness · usually NO stiff neck"
+   ]
+  },
+  {
+   "id": "bac_csf_0_0",
+   "x": 45,
+   "y": 686,
+   "w": 290,
+   "h": 132,
+   "kind": "bac_w",
+   "title": "Cloudy, PUS",
+   "lines": [
+    "• ↑ pressure",
+    "• white cells > 500, NEUTROPHILS",
+    "• protein HIGH · glucose LOW (CSF:serum < 0.3-0.4)",
+    "• Gram stain POSITIVE"
+   ]
+  },
+  {
+   "id": "bac_csf_1_0",
+   "x": 45,
+   "y": 840,
+   "w": 290,
+   "h": 132,
+   "kind": "bac_w",
+   "title": "Organisms",
+   "lines": [
+    "• adults: S. pneumoniae, N. meningitidis, H. influenzae",
+    "• > 50 or immunocompromised: LISTERIA",
+    "• neonates: E. coli, group B strep",
+    "• after surgery: Staphylococcus"
+   ]
+  },
+  {
+   "id": "asep_csf_0_0",
+   "x": 347,
+   "y": 686,
+   "w": 290,
+   "h": 286,
+   "kind": "asep_w",
+   "title": "Clear",
+   "lines": [
+    "• pressure normal or mildly ↑",
+    "• white cells ↑ but < 1000, LYMPHOCYTES",
+    "• protein mildly ↑ · glucose NORMAL",
+    "• Gram stain negative"
+   ]
+  },
+  {
+   "id": "hsv_csf_0_0",
+   "x": 649,
+   "y": 686,
+   "w": 290,
+   "h": 286,
+   "kind": "hsv_w",
+   "title": "Lymphocytes, red cells, glucose normal",
+   "lines": [
+    "• CONFIRM: CSF HSV PCR",
+    "• MRI: temporal lobe signal change",
+    "• EEG: temporal spikes"
+   ]
+  },
+  {
+   "id": "bac_tx_0_0",
+   "x": 45,
+   "y": 1012,
+   "w": 290,
+   "h": 132,
+   "kind": "ok",
+   "title": "Empiric, IV",
+   "lines": [
+    "• CEFTRIAXONE 2 g q12h",
+    "• + VANCOMYCIN 1 g q8h",
+    "• + AMPICILLIN 2 g q4h if > 50 or immunocompromised",
+    "• + ACYCLOVIR 10 mg/kg q8h (herpes)"
+   ]
+  },
+  {
+   "id": "bac_tx_1_0",
+   "x": 45,
+   "y": 1166,
+   "w": 290,
+   "h": 96,
+   "kind": "ok",
+   "title": "+ DEXAMETHASONE 10 mg IV",
+   "lines": [
+    "with the FIRST antibiotic dose, then q6h for 4 days",
+    "~ most benefit in S. pneumoniae"
+   ]
+  },
+  {
+   "id": "asep_tx_0_0",
+   "x": 347,
+   "y": 1012,
+   "w": 290,
+   "h": 250,
+   "kind": "ok",
+   "title": "Supportive: REHYDRATION",
+   "lines": [
+    "~ self-limiting"
+   ]
+  },
+  {
+   "id": "hsv_tx_0_0",
+   "x": 649,
+   "y": 1012,
+   "w": 290,
+   "h": 250,
+   "kind": "ok",
+   "title": "IV ACYCLOVIR 10 mg/kg q8h",
+   "lines": [
+    "dosed on IDEAL body weight",
+    "started empirically, with the antibiotics"
+   ]
+  }
+ ],
+ "edges": [
+  {
+   "from": "root",
+   "to": "g",
+   "path": "M492.0 88V113H492.0V138"
+  },
+  {
+   "from": "g",
+   "to": "p"
+  },
+  {
+   "from": "bac_csf_0_0",
+   "to": "bac_csf_1_0"
+  },
+  {
+   "from": "bac_tx_0_0",
+   "to": "bac_tx_1_0"
+  },
+  {
+   "from": "bac_head_0_0",
+   "to": "bac_clue_0_0"
+  },
+  {
+   "from": "bac_clue_0_0",
+   "to": "bac_csf_0_0"
+  },
+  {
+   "from": "bac_csf_1_0",
+   "to": "bac_tx_0_0"
+  },
+  {
+   "from": "p",
+   "to": "bac_head_0_0",
+   "from_dx": -302,
+   "label": "neutrophils, low glucose",
+   "label_at": [
+    190.0,
+    392
+   ]
+  },
+  {
+   "from": "asep_head_0_0",
+   "to": "asep_clue_0_0"
+  },
+  {
+   "from": "asep_clue_0_0",
+   "to": "asep_csf_0_0"
+  },
+  {
+   "from": "asep_csf_0_0",
+   "to": "asep_tx_0_0"
+  },
+  {
+   "from": "p",
+   "to": "asep_head_0_0",
+   "from_dx": 0,
+   "label": "lymphocytes, normal glucose",
+   "label_at": [
+    492.0,
+    392
+   ]
+  },
+  {
+   "from": "hsv_head_0_0",
+   "to": "hsv_clue_0_0"
+  },
+  {
+   "from": "hsv_clue_0_0",
+   "to": "hsv_csf_0_0"
+  },
+  {
+   "from": "hsv_csf_0_0",
+   "to": "hsv_tx_0_0"
+  },
+  {
+   "from": "p",
+   "to": "hsv_head_0_0",
+   "from_dx": 302,
+   "label": "lymphocytes + red cells",
+   "label_at": [
+    794.0,
+    392
+   ]
+  }
+ ],
+ "panels": []
+}

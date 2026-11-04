@@ -1,0 +1,40 @@
+{
+ "name": "autopsy and cause of death overview",
+ "title": "After a death: any coroner indication makes it a medicolegal case under the Coroner's Act; an expected natural death is certified by the doctor, who writes the cause of death in the WHO format, and a hospital autopsy needs informed authorization from the estate trustee or next of kin in order",
+ "col_w": 290,
+ "root": {
+  "title": "A patient has died: does the coroner need to know?",
+  "lines": [
+   "call the coroner if ANY: family concerned about care · sudden and unexpected (no potentially fatal illness) · unnatural (accident, suicide, homicide) · death on a psychiatry ward · maternal death · seizure disorder · Children's Aid involved in a child's death"
+  ]
+ },
+ "groups": [
+  {"id": "g_yes", "cols": [0, 0], "title": "YES: coroner's case", "lines": ["sudden and unexpected, or any indication above"]},
+  {"id": "g_no", "cols": [1, 2], "title": "NO: expected natural death", "lines": []}
+ ],
+ "sections": ["head", "who", "do"],
+ "row_names": {"who": "AUTHORITY · FORMAT", "do": "KEY POINTS"},
+ "columns": [
+  {
+   "id": "ml", "colour": "slate",
+   "head": [[["h", "Medicolegal autopsy", ["forensic pathologist · death investigation ± police"]]]],
+   "who": [[["bad", "The CORONER'S ACT", ["the family does NOT authorize it"]]]],
+   "do": [[["w", "Coroner or medical examiner", ["signs the death certificate"]]]]
+  },
+  {
+   "id": "cert", "colour": "orange", "drop_label": "always",
+   "head": [[["h", "Death certificate", ["doctor or certain nurses sign · NOT for stillbirths"]]]],
+   "who": [[["t", "Part I: the causal chain, backwards", ["(a) immediate ← (b) ← (c) underlying", "~hemopericardium ← ruptured myocardial infarct ← coronary atherosclerosis"]]],
+           [["w", "Part II: contributed, outside the chain", ["~e.g. diabetes, tobacco smoking"]]]],
+   "do": [[["ok", "Be SPECIFIC", ["• infection: disease or organism + site", "• cancer: origin + spread + type"]]],
+          [["bad", "NEVER a mechanism", ["cardiac arrest · arrhythmia · exsanguination · respiratory arrest · multisystem organ failure · sepsis"]]]]
+  },
+  {
+   "id": "hosp", "colour": "teal", "drop_label": "if wanted",
+   "head": [[["h", "Hospital autopsy", ["hospital pathologist"]]]],
+   "who": [[["t", "INFORMED authorization, in this ORDER", ["1 · estate trustee", "2 · spouse and adult children", "3 · parents", "4 · siblings", "5 · any other capable next of kin"]]],
+           [["w", "They may RESTRICT it", ["• limited internal exam", "• no organ retention (brain, heart)"]]]],
+   "do": [[["ok", "Why do it", ["• diagnosis, extent, effect of treatment", "• accuracy of clinical tests and imaging", "• SUSPECTED GENETIC disease: tell living relatives", "• grief · teaching · research · the death certificate"]]]]
+  }
+ ]
+}

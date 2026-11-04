@@ -1,0 +1,553 @@
+{
+ "name": "spinal cord syndromes overview",
+ "width": 1096,
+ "title": "Spinal cord or root: upper motor neuron signs below a sensory level mean the cord, and which modalities are lost sorts anterior, posterior, central and Brown-Sequard cord syndromes; a lower motor neuron pattern means the roots, either cauda equina (an emergency) or a single radiculopathy; each column gives the presentation and the causes",
+ "kinds": {
+  "ant_h": [
+   "#8a5a2b",
+   "#8a5a2b",
+   "#ffffff",
+   "#ffffff"
+  ],
+  "ant_t": [
+   "#f3e6d8",
+   "#8a5a2b",
+   "#8a5a2b",
+   "#18212e"
+  ],
+  "ant_w": [
+   "#ffffff",
+   "#8a5a2b",
+   "#8a5a2b",
+   "#18212e"
+  ],
+  "post_h": [
+   "#1f6f8b",
+   "#1f6f8b",
+   "#ffffff",
+   "#ffffff"
+  ],
+  "post_t": [
+   "#dceef4",
+   "#1f6f8b",
+   "#1f6f8b",
+   "#18212e"
+  ],
+  "post_w": [
+   "#ffffff",
+   "#1f6f8b",
+   "#1f6f8b",
+   "#18212e"
+  ],
+  "cent_h": [
+   "#6a4aa8",
+   "#6a4aa8",
+   "#ffffff",
+   "#ffffff"
+  ],
+  "cent_t": [
+   "#ebe4f7",
+   "#6a4aa8",
+   "#6a4aa8",
+   "#18212e"
+  ],
+  "cent_w": [
+   "#ffffff",
+   "#6a4aa8",
+   "#6a4aa8",
+   "#18212e"
+  ],
+  "bs_h": [
+   "#b5600f",
+   "#b5600f",
+   "#ffffff",
+   "#ffffff"
+  ],
+  "bs_t": [
+   "#fbe8d3",
+   "#b5600f",
+   "#b5600f",
+   "#18212e"
+  ],
+  "bs_w": [
+   "#ffffff",
+   "#b5600f",
+   "#b5600f",
+   "#18212e"
+  ],
+  "ce_h": [
+   "#a3336b",
+   "#a3336b",
+   "#ffffff",
+   "#ffffff"
+  ],
+  "ce_t": [
+   "#f8e0ec",
+   "#a3336b",
+   "#a3336b",
+   "#18212e"
+  ],
+  "ce_w": [
+   "#ffffff",
+   "#a3336b",
+   "#a3336b",
+   "#18212e"
+  ],
+  "rad_h": [
+   "#46607a",
+   "#46607a",
+   "#ffffff",
+   "#ffffff"
+  ],
+  "rad_t": [
+   "#e2e8ee",
+   "#46607a",
+   "#46607a",
+   "#18212e"
+  ],
+  "rad_w": [
+   "#ffffff",
+   "#46607a",
+   "#46607a",
+   "#18212e"
+  ]
+ },
+ "bands": [
+  {
+   "x": 40,
+   "y": 306,
+   "w": 168,
+   "h": 584,
+   "fill": "#faf4ee",
+   "stroke": "#8a5a2b"
+  },
+  {
+   "x": 210,
+   "y": 306,
+   "w": 168,
+   "h": 584,
+   "fill": "#eef7fa",
+   "stroke": "#1f6f8b"
+  },
+  {
+   "x": 380,
+   "y": 306,
+   "w": 168,
+   "h": 584,
+   "fill": "#f5f1fb",
+   "stroke": "#6a4aa8"
+  },
+  {
+   "x": 550,
+   "y": 306,
+   "w": 168,
+   "h": 584,
+   "fill": "#fdf4ea",
+   "stroke": "#b5600f"
+  },
+  {
+   "x": 748,
+   "y": 306,
+   "w": 168,
+   "h": 584,
+   "fill": "#fcf0f6",
+   "stroke": "#a3336b"
+  },
+  {
+   "x": 918,
+   "y": 306,
+   "w": 168,
+   "h": 584,
+   "fill": "#f2f5f8",
+   "stroke": "#46607a"
+  }
+ ],
+ "row_labels": [
+  {
+   "x": 23,
+   "y": 432,
+   "h": 222,
+   "text": "PRESENTS AS"
+  },
+  {
+   "x": 23,
+   "y": 694,
+   "h": 188,
+   "text": "CAUSES"
+  }
+ ],
+ "nodes": [
+  {
+   "id": "root",
+   "x": 183,
+   "y": 10,
+   "w": 760,
+   "kind": "dark",
+   "title": "Cord or root? Motor exam + the LOWEST sensory level",
+   "lines": [
+    "upper motor neuron (UMN), brain or cord: subtle bulk loss, tone ↑, hyperreflexia, upgoing toe",
+    "lower motor neuron (LMN), root or nerve: wasting, tone ↓, reflexes ↓ or absent",
+    "NO motor or sensory function below the level, incl. rectal tone + perianal sensation = COMPLETE"
+   ]
+  },
+  {
+   "id": "g_cord",
+   "x": 45,
+   "y": 156,
+   "w": 668,
+   "h": 78,
+   "kind": "plain",
+   "title": "CORD (myelopathy): UMN below the level",
+   "lines": [
+    "cervical → arms + legs · thoracic → both legs ± bowel, bladder",
+    "incomplete: WHICH modalities are lost names the syndrome"
+   ]
+  },
+  {
+   "id": "g_root",
+   "x": 753,
+   "y": 156,
+   "w": 328,
+   "h": 78,
+   "kind": "plain",
+   "title": "ROOTS (radiculopathy): LMN pattern",
+   "lines": [
+    "cervical → one arm · lumbar → one leg",
+    "but beware cauda equina"
+   ]
+  },
+  {
+   "id": "ant_head_0_0",
+   "x": 45,
+   "y": 314,
+   "w": 158,
+   "h": 78,
+   "kind": "ant_h",
+   "title": "Anterior cord",
+   "lines": [
+    "anterior spinal artery territory"
+   ]
+  },
+  {
+   "id": "post_head_0_0",
+   "x": 215,
+   "y": 314,
+   "w": 158,
+   "h": 78,
+   "kind": "post_h",
+   "title": "Posterior cord",
+   "lines": [
+    "dorsal columns"
+   ]
+  },
+  {
+   "id": "cent_head_0_0",
+   "x": 385,
+   "y": 314,
+   "w": 158,
+   "h": 78,
+   "kind": "cent_h",
+   "title": "Central cord",
+   "lines": [
+    "commonest in ELDERLY trauma"
+   ]
+  },
+  {
+   "id": "bs_head_0_0",
+   "x": 555,
+   "y": 314,
+   "w": 158,
+   "h": 78,
+   "kind": "bs_h",
+   "title": "Brown-Séquard",
+   "lines": [
+    "hemisection · rare, usually incomplete"
+   ]
+  },
+  {
+   "id": "ce_head_0_0",
+   "x": 753,
+   "y": 314,
+   "w": 158,
+   "h": 78,
+   "kind": "ce_h",
+   "title": "Cauda equina",
+   "lines": [
+    "EMERGENCY"
+   ]
+  },
+  {
+   "id": "rad_head_0_0",
+   "x": 923,
+   "y": 314,
+   "w": 158,
+   "h": 78,
+   "kind": "rad_h",
+   "title": "Radiculopathy",
+   "lines": [
+    "one nerve root"
+   ]
+  },
+  {
+   "id": "ant_pres_0_0",
+   "x": 45,
+   "y": 432,
+   "w": 158,
+   "h": 222,
+   "kind": "ant_t",
+   "title": "Motor + pain LOST",
+   "lines": [
+    "• paralysis below the level",
+    "• pain, temperature lost AT + below",
+    "• vibration, position, 2-point SPARED",
+    "• orthostatic hypotension",
+    "• bladder, bowel, sexual"
+   ]
+  },
+  {
+   "id": "post_pres_0_0",
+   "x": 215,
+   "y": 432,
+   "w": 158,
+   "h": 222,
+   "kind": "post_t",
+   "title": "Vibration + position LOST",
+   "lines": [
+    "• motor NORMAL",
+    "• weak only if compression is severe"
+   ]
+  },
+  {
+   "id": "cent_pres_0_0",
+   "x": 385,
+   "y": 432,
+   "w": 158,
+   "h": 222,
+   "kind": "cent_t",
+   "title": "HANDS worst",
+   "lines": [
+    "• strength returns up the arm",
+    "• 'cape-like' pain, temperature loss",
+    "• light touch, dorsal columns spared"
+   ]
+  },
+  {
+   "id": "bs_pres_0_0",
+   "x": 555,
+   "y": 432,
+   "w": 158,
+   "h": 222,
+   "kind": "bs_t",
+   "title": "Split by side",
+   "lines": [
+    "• SAME side: motor, vibration, position",
+    "• OPPOSITE side: pain, temperature"
+   ]
+  },
+  {
+   "id": "ce_pres_0_0",
+   "x": 753,
+   "y": 432,
+   "w": 158,
+   "h": 222,
+   "kind": "ce_t",
+   "title": "Both legs",
+   "lines": [
+    "• bilateral leg pain, paresthesia",
+    "• LMN paraparesis",
+    "• saddle anesthesia",
+    "• bowel, bladder control lost"
+   ]
+  },
+  {
+   "id": "rad_pres_0_0",
+   "x": 923,
+   "y": 432,
+   "w": 158,
+   "h": 222,
+   "kind": "rad_t",
+   "title": "One root",
+   "lines": [
+    "• radicular pain",
+    "• numbness in its DERMATOME",
+    "• LMN weakness in its MYOTOME",
+    "• its reflex ↓"
+   ]
+  },
+  {
+   "id": "ant_cause_0_0",
+   "x": 45,
+   "y": 694,
+   "w": 158,
+   "h": 188,
+   "kind": "ant_w",
+   "title": "Anterior spinal artery occluded",
+   "lines": [
+    "• atherosclerosis",
+    "• aortic aneurysm, dissection, thrombosis, surgery",
+    "• compression: disc, tumour, osteophyte",
+    "• stab wound"
+   ]
+  },
+  {
+   "id": "post_cause_0_0",
+   "x": 215,
+   "y": 694,
+   "w": 158,
+   "h": 188,
+   "kind": "post_w",
+   "title": "Causes",
+   "lines": [
+    "• vitamin B12 deficiency",
+    "• syphilis (tabes dorsalis)",
+    "• posterior extrinsic mass",
+    "• spinal cord tumour surgery"
+   ]
+  },
+  {
+   "id": "cent_cause_0_0",
+   "x": 385,
+   "y": 694,
+   "w": 158,
+   "h": 188,
+   "kind": "cent_w",
+   "title": "Causes",
+   "lines": [
+    "• hyperextension trauma",
+    "• syrinx",
+    "• intrinsic tumour",
+    "• multiple sclerosis"
+   ]
+  },
+  {
+   "id": "bs_cause_0_0",
+   "x": 555,
+   "y": 694,
+   "w": 158,
+   "h": 188,
+   "kind": "bs_w",
+   "title": "Causes",
+   "lines": [
+    "• trauma",
+    "• a process inside the cord"
+   ]
+  },
+  {
+   "id": "ce_cause_0_0",
+   "x": 753,
+   "y": 694,
+   "w": 158,
+   "h": 188,
+   "kind": "ce_w",
+   "title": "Not the cord itself",
+   "lines": [
+    "the roots below the conus (cord ends ~L1/L2)"
+   ]
+  },
+  {
+   "id": "rad_cause_0_0",
+   "x": 923,
+   "y": 694,
+   "w": 158,
+   "h": 188,
+   "kind": "rad_w",
+   "title": "Disc herniation",
+   "lines": [
+    "• cervical: hits the LOWER root (C5-6 → C6)",
+    "• lumbar: hits the TRAVERSING root (L5-S1 → S1)",
+    "→ discectomy"
+   ]
+  }
+ ],
+ "edges": [
+  {
+   "from": "root",
+   "to": "g_cord",
+   "path": "M563.0 106V131H379.0V156"
+  },
+  {
+   "from": "root",
+   "to": "g_root",
+   "path": "M563.0 106V131H917.0V156"
+  },
+  {
+   "from": "ant_head_0_0",
+   "to": "ant_pres_0_0"
+  },
+  {
+   "from": "ant_pres_0_0",
+   "to": "ant_cause_0_0"
+  },
+  {
+   "from": "g_cord",
+   "to": "ant_head_0_0",
+   "from_dx": -255
+  },
+  {
+   "from": "post_head_0_0",
+   "to": "post_pres_0_0"
+  },
+  {
+   "from": "post_pres_0_0",
+   "to": "post_cause_0_0"
+  },
+  {
+   "from": "g_cord",
+   "to": "post_head_0_0",
+   "from_dx": -85
+  },
+  {
+   "from": "cent_head_0_0",
+   "to": "cent_pres_0_0"
+  },
+  {
+   "from": "cent_pres_0_0",
+   "to": "cent_cause_0_0"
+  },
+  {
+   "from": "g_cord",
+   "to": "cent_head_0_0",
+   "from_dx": 85
+  },
+  {
+   "from": "bs_head_0_0",
+   "to": "bs_pres_0_0"
+  },
+  {
+   "from": "bs_pres_0_0",
+   "to": "bs_cause_0_0"
+  },
+  {
+   "from": "g_cord",
+   "to": "bs_head_0_0",
+   "from_dx": 255
+  },
+  {
+   "from": "ce_head_0_0",
+   "to": "ce_pres_0_0"
+  },
+  {
+   "from": "ce_pres_0_0",
+   "to": "ce_cause_0_0"
+  },
+  {
+   "from": "g_root",
+   "to": "ce_head_0_0",
+   "from_dx": -85
+  },
+  {
+   "from": "rad_head_0_0",
+   "to": "rad_pres_0_0"
+  },
+  {
+   "from": "rad_pres_0_0",
+   "to": "rad_cause_0_0"
+  },
+  {
+   "from": "g_root",
+   "to": "rad_head_0_0",
+   "from_dx": 85
+  }
+ ],
+ "panels": []
+}

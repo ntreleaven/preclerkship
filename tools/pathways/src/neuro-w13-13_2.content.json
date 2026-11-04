@@ -1,0 +1,73 @@
+{
+ "name": "neuroimaging modalities overview",
+ "title": "Choosing a neuroimaging modality: different objects need different kinds of resolution (spatial, contrast, temporal); radiography, fluoroscopy and CT use X-rays, ultrasound and MRI do not, and each trades its resolution against cost, availability, invasiveness, radiation and scan length",
+ "col_w": 176,
+ "root": {
+  "title": "Which modality best RESOLVES the object of interest?",
+  "lines": [
+   "SPATIAL: tell apart nearby objects · CONTRAST: tell apart objects of similar density · TEMPORAL: see change over time"
+  ]
+ },
+ "groups": [
+  {
+   "id": "g_xray",
+   "cols": [0, 2],
+   "title": "X-RAY BASED",
+   "lines": ["differential attenuation of X-rays · radiation"]
+  },
+  {
+   "id": "g_other",
+   "cols": [3, 4],
+   "title": "NO IONIZING RADIATION",
+   "lines": ["sound · protons in a magnetic field"]
+  }
+ ],
+ "sections": ["head", "res", "pro", "con"],
+ "row_names": {
+  "res": "RESOLUTION",
+  "pro": "FOR",
+  "con": "AGAINST"
+ },
+ "columns": [
+  {
+   "id": "xr",
+   "colour": "slate",
+   "head": [[["h", "Radiography", ["plain X-ray"]]]],
+   "res": [[["t", "SPATIAL +++", ["• contrast +", "• temporal: none"]]]],
+   "pro": [[["w", "Inexpensive · instant", ["universally available"]]]],
+   "con": [[["w", "No temporal information", ["contrast only +"]]]]
+  },
+  {
+   "id": "fl",
+   "colour": "orange",
+   "head": [[["h", "Fluoroscopy", ["pulsed X-rays, real time"]]]],
+   "res": [[["t", "TEMPORAL +++", ["• spatial ++", "• contrast +"]]]],
+   "pro": [[["w", "Real-time video", ["• digital subtraction: only NEW things show (contrast, air)"]]]],
+   "con": [[["w", "Limited availability", ["• invasive (angiography)"]]]]
+  },
+  {
+   "id": "ct",
+   "colour": "blue",
+   "head": [[["h", "Computed tomography (CT)", []]]],
+   "res": [[["t", "Spatial ++ · contrast ++", ["• temporal: none, or + with multi-phase scanning", "• contrast dye → better contrast resolution"]]]],
+   "pro": [[["w", "Widespread availability", []]]],
+   "con": [[["w", "Radiation dose", ["• moderate expense"]]]]
+  },
+  {
+   "id": "us",
+   "colour": "teal",
+   "head": [[["h", "Ultrasound", ["grayscale: time to echo · Doppler: frequency shift off a moving reflector"]]]],
+   "res": [[["t", "TEMPORAL +++", ["• contrast ++", "• spatial +"]]]],
+   "pro": [[["w", "No radiation", ["• widely available · inexpensive"]]]],
+   "con": [[["w", "Least spatial detail", []]]]
+  },
+  {
+   "id": "mri",
+   "colour": "purple",
+   "head": [[["h", "MRI", ["proton energy states · choose the sequence"]]]],
+   "res": [[["t", "CONTRAST +++", ["• spatial ++", "• temporal 0/+"]]]],
+   "pro": [[["w", "Best contrast resolution", []]]],
+   "con": [[["w", "Expensive · limited availability", ["• long scan"]]]]
+  }
+ ]
+}

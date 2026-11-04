@@ -1,4 +1,738 @@
 {
+ "endo-w1-02_2": {
+  "t1e": {
+   "file": "t1e.jpg",
+   "caption": "Immune cells crowd a pancreatic islet: insulitis",
+   "author": "Muhammad T. Tabiin et al.",
+   "licence": "CC BY 2.0",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Insulitis_-_Image_from_Journal_of_Autoimmune_Diseases,_2004.jpg"
+  },
+  "t1": {
+   "file": "t1.jpg",
+   "caption": "Insulin pens: the treatment for absolute insulin lack",
+   "author": "PerPlex",
+   "licence": "Public domain",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Insulin_pen_2.JPG"
+  },
+  "t2": {
+   "file": "t2.jpg",
+   "caption": "Dark velvety skin folds: a sign of insulin resistance",
+   "author": "Mark F. Brady; Prashanth Rawla",
+   "licence": "CC BY-SA 4.0",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Acanthosis_nigricans.jpg"
+  },
+  "pre": {
+   "file": "pre.jpg",
+   "caption": "Glucose meter: a fasting sugar reading screens for prediabetes",
+   "author": "Roy Zuo",
+   "licence": "CC BY-SA 4.0",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:(20250417)_Blood_glucose_meter_09.jpg"
+  }
+ },
+ "endo-w1-04_1": {
+  "C": {
+   "file": "C.jpg",
+   "caption": "Ultrasound of a thyroid nodule: structural, not hormonal",
+   "author": "Nevit Dilmen",
+   "licence": "CC BY-SA 3.0",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Thyroid_ultrasound_110304095541_0957060.jpg"
+  },
+  "E": {
+   "file": "E.jpg",
+   "caption": "Pituitary tumour pressing on the optic chiasm: mass effect",
+   "author": "Philippe Chanson and Sylvie Salenave",
+   "licence": "CC BY 2.0",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Acromegaly_pituitary_macroadenoma.JPEG"
+  },
+  "D": {
+   "file": "D.jpg",
+   "caption": "Large goitre: the gland's size itself shows in the neck",
+   "author": "Emil Theodor Kocher",
+   "licence": "Public domain (cropped)",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Goiter_Kocher_1874.jpg"
+  }
+ },
+ "endo-w1-06_2": {
+  "dka": {
+   "file": "dka.png",
+   "caption": "Kussmaul breathing: deep, fast, regular breaths of DKA",
+   "author": "Jmarchn",
+   "licence": "CC0",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Kussmaul_breath_no_lang.svg"
+  },
+  "hypo": {
+   "file": "hypo.jpg",
+   "caption": "Glucagon emergency kit for severe low blood sugar",
+   "author": "Mr Hyde at Czech Wikipedia",
+   "licence": "Public domain",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:GlucaGen.jpg"
+  },
+  "ret": {
+   "file": "ret.jpg",
+   "caption": "Proliferative retinopathy: fragile new vessels on the retina",
+   "author": "http://www.nei.nih.gov/photo/eyedis/index.asp",
+   "licence": "Public domain",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Fundus_Proliferative_retinopathy_EDA01.JPG"
+  },
+  "neph": {
+   "file": "neph.jpg",
+   "caption": "Nodular scarring of the kidney filter: diabetic nephropathy",
+   "author": "KGH",
+   "licence": "CC BY-SA 3.0",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Diabetic_glomerulosclerosis_(4)_PAS.jpg"
+  },
+  "neur": {
+   "file": "neur.jpg",
+   "caption": "Painless heel ulcer on a numb diabetic foot",
+   "author": "Jonathan Moore",
+   "licence": "CC BY 3.0",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Neuropathic_heel_ulcer_diabetic.jpg"
+  },
+  "mac": {
+   "file": "mac.png",
+   "caption": "Plaque narrowing an artery: atherosclerosis behind heart attack and stroke",
+   "author": "NHLBI",
+   "licence": "Public domain",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Atherosclerosis_diagram.png"
+  }
+ },
+ "endo-w1-08_2": {
+  "t65": {
+   "file": "t65.jpg",
+   "caption": "Metformin: low risk of low blood sugar, so a tight target is safe",
+   "author": "User:Ash",
+   "licence": "Public domain",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Metformin_500mg_Tablets.jpg"
+  },
+  "t70": {
+   "file": "t70.jpg",
+   "caption": "Glucose meter: the standard A1c target of 7.0% or below",
+   "author": "BruceBlaus",
+   "licence": "CC BY 3.0",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Blausen_0301_Diabetes_GlucoseMonitoring.png"
+  },
+  "t85": {
+   "file": "t85.jpg",
+   "caption": "Frailty and dependence: looser target, avoid low sugars",
+   "author": "rawpixel.com",
+   "licence": "CC0",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:A_woman_supporting_herself_with_a_walking_frame.jpg"
+  },
+  "eol": {
+   "file": "eol.jpg",
+   "caption": "Comfort over numbers: at end of life, no A1c is checked",
+   "author": "Mercurywoodrose",
+   "licence": "CC BY-SA 4.0",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Mother_and_son_holding_hands.JPG"
+  }
+ },
+ "endo-w1-09_2": {
+  "glp": {
+   "file": "glp.jpg",
+   "caption": "Tirzepatide weekly pen (Mounjaro): a GLP-1 and GIP agonist",
+   "author": "Raimond Spekking",
+   "licence": "CC BY-SA 4.0",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Lilly_mounjaro_KwikPen_Tirzepatid_5_mg_per_dose_rate-9442.jpg"
+  },
+  "nb": {
+   "file": "nb.png",
+   "caption": "Bupropion (top) and naltrexone (bottom): the two drugs in one tablet",
+   "author": "Vaccinationist",
+   "licence": "Public domain",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Bupropion_and_naltrexone.svg"
+  },
+  "bar": {
+   "file": "bar.jpg",
+   "caption": "Roux-en-Y bypass: small stomach pouch joined to the small bowel",
+   "author": "BruceBlaus",
+   "licence": "CC BY-SA 4.0",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Roux-En-Y_Part_2.png"
+  },
+  "life": {
+   "file": "life.jpg",
+   "caption": "Mediterranean diet pyramid: activity and healthy food form the base",
+   "author": "Fundación Dieta Mediterránea (Mediterranean Diet Foundation, FDM)",
+   "licence": "CC0 (cropped)",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Mediterranean_diet_food_pyramid_(en).jpg"
+  }
+ },
+ "endo-w1-11_2": {
+  "plan": {
+   "file": "plan.jpg",
+   "caption": "Glucose meter and strips: check control before pregnancy",
+   "author": "Celeda",
+   "licence": "CC BY-SA 4.0",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Capteur_de_glyc%C3%A9mie_pour_personnes_diab%C3%A9tiques.jpg"
+  },
+  "preg": {
+   "file": "preg.jpg",
+   "caption": "Continuous glucose monitor kit for tight sugar control",
+   "author": "Ted Eytan",
+   "licence": "CC BY-SA 2.0",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:2018.11.03_Continuous_Glucose_Monitor_14_day,_Washington,_DC_USA_(43893894210).jpg"
+  },
+  "gdm": {
+   "file": "gdm.jpg",
+   "caption": "Glucose tolerance test: blood sugar after a sugar drink",
+   "author": "jencu",
+   "licence": "CC BY 2.0",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Glucose_tolerance_test_-_Can%27t_they_just_give_me_a_donut_or_chocolate_bar%3F.jpg"
+  }
+ },
+ "endo-w1-13_1": {
+  "C": {
+   "file": "C.png",
+   "caption": "Empagliflozin: an SGLT2 inhibitor (the gliflozins)",
+   "author": "Boghog",
+   "licence": "Public domain",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Empagliflozin.png"
+  },
+  "E": {
+   "file": "E.png",
+   "caption": "Glibenclamide: a sulfonylurea, avoid if hypoglycemia is a worry",
+   "author": "Vaccinationist",
+   "licence": "CC BY-SA 4.0",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Glibenclamide_ball-and-stick_model.png"
+  },
+  "G": {
+   "file": "G.jpg",
+   "caption": "Semaglutide pen: a once-weekly GLP-1 receptor agonist",
+   "author": "HualinXMN",
+   "licence": "CC BY-SA 4.0",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Ozempic%C2%AE_3ml.jpg"
+  },
+  "A": {
+   "file": "A.png",
+   "caption": "Metformin: the first-line drug these patients already take",
+   "author": "Wostr",
+   "licence": "Public domain",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Metformin_structure.svg"
+  }
+ },
+ "endo-w2-01_1": {
+  "B": {
+   "file": "B.png",
+   "caption": "Calcium-sensing receptor on the parathyroid cell",
+   "author": "Laboratoires Servier",
+   "licence": "CC BY-SA 3.0",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Calcium-sensing_receptor_(CaR)_1_--_Smart-Servier.png"
+  },
+  "C": {
+   "file": "C.jpg",
+   "caption": "Parathyroid chief cells: the cells that release PTH",
+   "author": "Mikael Häggström, M.D.",
+   "licence": "CC0",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Parathyroid_oxyphil_and_chief_cells.jpg"
+  },
+  "D": {
+   "file": "D.jpg",
+   "caption": "Osteoclasts and osteoblasts remodelling bone: PTH acts here",
+   "author": "Laboratoires Servier",
+   "licence": "CC BY-SA 3.0",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Bone_regeneration-Bone_remodeling_cycle_II-Pre-Osteoblast_Osteoblast_Bone-lining_cell_etc_--Smart-Servie_cropped.jpg"
+  },
+  "G": {
+   "file": "G.png",
+   "caption": "Calcitriol: active vitamin D, made by 1-alpha-hydroxylase",
+   "author": "NEUROtiker",
+   "licence": "Public domain",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Calcitriol2.svg"
+  }
+ },
+ "endo-w2-03_2": {
+  "prim_tx_0_0": {
+   "file": "prim_tx_0_0.jpg",
+   "caption": "Levothyroxine tablets: one a day replaces the hormone",
+   "author": "User:Ash",
+   "licence": "Public domain (cropped)",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Levothyroxine_25mcg_Tablets.jpg"
+  },
+  "gr_clue_2_0": {
+   "file": "gr_clue_2_0.jpg",
+   "caption": "Pretibial myxedema: thickened shin skin in Graves disease",
+   "author": "Herbert L. Fred, MD and Hendrik A. van Dijk",
+   "licence": "CC BY 2.0",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Myxedema.jpg"
+  },
+  "prim_clue_0_0": {
+   "file": "prim_clue_0_0.jpg",
+   "caption": "Hashimoto thyroiditis under the microscope: dense lymphocytes",
+   "author": "Librepath",
+   "licence": "CC BY-SA 3.0",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Hashimoto_thyroiditis_--_low_mag.jpg"
+  },
+  "gr_head_0_0": {
+   "file": "gr_head_0_0.jpg",
+   "caption": "Graves eye signs: bulging eyes and lid retraction",
+   "author": "Jonathan Trobe, M.D. - University of Michigan Kellogg Eye Center",
+   "licence": "CC BY 3.0",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Proptosis_and_lid_retraction_from_Graves%27_Disease.jpg"
+  }
+ },
+ "endo-w2-04_2": {
+  "php_head_0_0": {
+   "file": "php_head_0_0.jpg",
+   "caption": "Brown tumours (bone cysts) of the hands on X-ray: bones",
+   "author": "Frank Gaillard",
+   "licence": "CC BY-SA 4.0",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Hyperparathyroidism_Brown_Tumors_of_Hands.jpg"
+  },
+  "php_cause_0_0": {
+   "file": "php_cause_0_0.jpg",
+   "caption": "Parathyroid adenoma: one big gland (top right), three normal",
+   "author": "BruceBlaus",
+   "licence": "CC BY 3.0 (cropped)",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Blausen_0533_Parathyroid_adenoma.png"
+  },
+  "hypo_head_0_0": {
+   "file": "hypo_head_0_0.jpg",
+   "caption": "Trousseau sign: wrist and finger spasm from low calcium",
+   "author": "Tmdswan",
+   "licence": "CC BY-SA 4.0",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Trousseau%27s_Sign_of_Latent_Tetany.jpg"
+  },
+  "vdd_tx_1_0": {
+   "file": "vdd_tx_1_0.jpg",
+   "caption": "Rickets on X-ray: beaded rib ends from vitamin D lack",
+   "author": "Frank Gaillard",
+   "licence": "CC BY-SA 3.0",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:RicketsChestXray.jpg"
+  }
+ },
+ "endo-w2-05_2": {
+  "ben": {
+   "file": "ben.jpg",
+   "caption": "Colloid nodule: big follicles full of pink colloid, no atypia",
+   "author": "Mikael Häggström, M.D.",
+   "licence": "CC0",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Histopathology_of_thyroid_colloid_nodule.jpg"
+  },
+  "pap": {
+   "file": "pap.jpg",
+   "caption": "FNA smear: crowded cells with clear, grooved nuclei",
+   "author": "Librepath",
+   "licence": "CC BY-SA 3.0",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Papillary_thyroid_carcinoma_--_high_mag.jpg"
+  },
+  "med": {
+   "file": "med.jpg",
+   "caption": "Medullary carcinoma: nests of cells in pink amyloid",
+   "author": "Sarahkayb",
+   "licence": "CC BY-SA 4.0",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Thyroid_MedullaryCarcinoma_Amyloid_MP_PA.JPG"
+  },
+  "ana": {
+   "file": "ana.jpg",
+   "caption": "Anaplastic carcinoma: sheets of atypical cells, no follicles",
+   "author": "Nephron",
+   "licence": "CC BY-SA 3.0",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Anaplastic_thyroid_carcinoma_low_mag.jpg"
+  },
+  "fol": {
+   "file": "fol.jpg",
+   "caption": "Microfollicles: tiny rings of cells with scant colloid",
+   "author": "Ed Uthman from Houston, TX, USA",
+   "licence": "CC BY 2.0",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Microfollicular_Thyroid_Lesion,_FNA_(3633026540).jpg"
+  }
+ },
+ "endo-w2-07_2": {
+  "om": {
+   "file": "om.jpg",
+   "caption": "Pseudofractures (Looser zones) in thin, soft bones: osteomalacia",
+   "author": "Leslie Gamache, Mark R. Burge",
+   "licence": "CC BY 3.0",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Severe_Osteomalacia_Related_to_Long-Term_Intravenous_Drug_Abuse_P01_radiograph_of_right_tibia_and_fibula.jpg"
+  },
+  "oi": {
+   "file": "oi.jpg",
+   "caption": "Blue sclerae: a classic sign of osteogenesis imperfecta",
+   "author": "Herbert L. Fred, MD and Hendrik A. van Dijk",
+   "licence": "CC BY-SA 3.0",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Characteristically_blue_sclerae_of_patient_with_osteogenesis_imperfecta.jpg"
+  },
+  "pg": {
+   "file": "pg.jpg",
+   "caption": "Thick, coarse, bowed femur on x-ray: Paget disease of bone",
+   "author": "Hellerhoff",
+   "licence": "CC BY-SA 3.0",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Morbus_Paget_Femur_84jm_-_Roe_2_Ebenen_und_Skelett-Szintigraphie_-_001.jpg"
+  }
+ },
+ "endo-w2-08_1": {
+  "A": {
+   "file": "A.png",
+   "caption": "Sperm entering the egg: fertilisation in the ampulla",
+   "author": "{{Sciencia58}}",
+   "licence": "CC0",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Egg_cell_fertilization_-_Zygote.png"
+  },
+  "C": {
+   "file": "C.png",
+   "caption": "Cleavage: the zygote divides into smaller cells, no growth",
+   "author": "Henry Vandyke Carter",
+   "licence": "Public domain",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Gray9.png"
+  },
+  "D": {
+   "file": "D.jpg",
+   "caption": "Human blastocyst, day 5: inner cell mass and outer layer",
+   "author": "Harimiao",
+   "licence": "CC BY-SA 3.0",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Blastocyst.JPG"
+  },
+  "E": {
+   "file": "E.jpg",
+   "caption": "Implantation: the blastocyst sinks into the womb lining",
+   "author": "Staun-Ram et al.",
+   "licence": "CC BY 2.0 (cropped)",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Schematic_representation_of_an_implanting_blastocyst,_highlighting_interactions_between_trophoblastic_and_endometrial_cells.png"
+  }
+ },
+ "endo-w2-10_1": {
+  "B": {
+   "file": "B.jpg",
+   "caption": "Mature (Graafian) follicle: egg with its cumulus cells",
+   "author": "Ed Uthman from Houston, TX, USA",
+   "licence": "CC BY 2.0",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Graafian_Follicle_Cumulus_Oophorus_in_Human_Ovary_(6032619828).jpg"
+  },
+  "J": {
+   "file": "J.jpg",
+   "caption": "Corpus luteum on ultrasound: fluid-filled centre after ovulation",
+   "author": "Mikael Häggström",
+   "licence": "CC0",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Ultrasonography_of_corpus_luteum.jpg"
+  },
+  "N": {
+   "file": "N.jpg",
+   "caption": "Urine pregnancy tests detect hCG",
+   "author": "Grendelkhan",
+   "licence": "CC BY-SA 4.0",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Pregnancy_test_series_starting_to_show_positive.jpg"
+  }
+ },
+ "endo-w3-01_4": {
+  "cs": {
+   "file": "cs.jpg",
+   "caption": "Wide purple stretch marks on the abdomen: Cushing syndrome",
+   "author": "Masryyy",
+   "licence": "CC BY-SA 4.0 (cropped)",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Straie_with_cushing_syndrome_new_photo.jpg"
+  },
+  "add": {
+   "file": "add.jpg",
+   "caption": "Dark pigment in the palm creases: Addison disease",
+   "author": "Petros Perros",
+   "licence": "CC BY 2.5",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:A_69-Year-Old_Female_with_Tiredness_and_a_Persistent_Tan_02.png"
+  },
+  "pa": {
+   "file": "pa.jpg",
+   "caption": "Small adrenal adenoma (arrow) on CT: a cause of Conn syndrome",
+   "author": "Antonino Guerrisi et al.",
+   "licence": "CC BY 4.0",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:CT_of_adrenal_adenoma.jpg"
+  },
+  "pc": {
+   "file": "pc.jpg",
+   "caption": "MIBG scan lights up the tumour: pheochromocytoma",
+   "author": "Drahreg01",
+   "licence": "CC BY-SA 3.0",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Pheochromocytoma_Scan.jpg"
+  }
+ },
+ "endo-w3-02_2": {
+  "pit": {
+   "file": "pit.jpg",
+   "caption": "Pituitary tumour pressing up on the optic chiasm (MRI)",
+   "author": "Philippe Chanson and Sylvie Salenave",
+   "licence": "CC BY 2.0",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Acromegaly_pituitary_macroadenoma.JPEG"
+  },
+  "prl": {
+   "file": "prl.jpg",
+   "caption": "Prolactin-producing pituitary adenoma under the microscope",
+   "author": "Jensflorian",
+   "licence": "CC BY-SA 3.0",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:PRL_HE_histology.jpg"
+  },
+  "cd": {
+   "file": "cd.jpg",
+   "caption": "Small ACTH-secreting pituitary tumour on MRI (arrow)",
+   "author": "Yakafaucon",
+   "licence": "CC BY-SA 4.0",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Adenome_hypophyse_esp.jpg"
+  },
+  "tsh": {
+   "file": "tsh.jpg",
+   "caption": "TSH-secreting pituitary adenoma under the microscope",
+   "author": "Jensflorian",
+   "licence": "CC BY-SA 3.0",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:TSHoma_HE.jpg"
+  },
+  "acro": {
+   "file": "acro.jpg",
+   "caption": "Acromegaly: enlarged, thick hands with sausage-shaped fingers",
+   "author": "https://www.calmview.co.uk/BartsHealth/CalmView/Record.aspx?src=CalmView.Catalog",
+   "licence": "CC BY 4.0",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Hands_of_a_man_with_acromegaly_Wellcome_L0062533.jpg"
+  }
+ },
+ "endo-w3-03_1": {
+  "H": {
+   "file": "H.jpg",
+   "caption": "Anterior pituitary in its bony pocket: source of LH and FSH",
+   "author": "Gray's Anatomy",
+   "licence": "Public domain",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Pituitary_gland-optic_chiasm-sella_turcica.jpg"
+  },
+  "O": {
+   "file": "O.jpg",
+   "caption": "Acne on the back: an adrenarche (adrenal androgen) effect",
+   "author": "Sedef94",
+   "licence": "CC BY-SA 4.0 (cropped)",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:K%C3%BCr%C9%99kd%C9%99_d%C3%BCy%C3%BCnl%C3%BC_v%C9%99_kistik_s%C4%B1zanaqlar_(Acne_Vulgaris)_08.jpg"
+  },
+  "I": {
+   "file": "I.png",
+   "caption": "Ovarian follicle: where estradiol is made after gonadarche",
+   "author": "TUFTS OPEN COURSEWARE",
+   "licence": "CC BY 3.0",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Foliculo_de_Graaf..png"
+  }
+ },
+ "endo-w3-04_2": {
+  "prim": {
+   "file": "prim.jpg",
+   "caption": "Klinefelter karyotype: 47,XXY, an extra X chromosome",
+   "author": "No machine-readable author provided. The cat~commonswiki assumed (based on copyr",
+   "licence": "CC BY-SA 3.0",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:47,XXY.jpg"
+  },
+  "sec": {
+   "file": "sec.jpg",
+   "caption": "Brain MRI: olfactory bulbs missing in Kallmann syndrome (brain cause)",
+   "author": "Bothara K et al.",
+   "licence": "CC BY 4.0",
+   "source_page_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11364982/"
+  },
+  "ppp": {
+   "file": "ppp.jpg",
+   "caption": "Patchy dark skin marks on the back: McCune-Albright syndrome",
+   "author": "see above",
+   "licence": "CC BY 2.0 (cropped)",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Mccune-albrightsyndrome1.jpg"
+  },
+  "cpp": {
+   "file": "cpp.png",
+   "caption": "Early switch-on of the brain-to-gonad (HPG) axis: central puberty",
+   "author": "Artoria2e5",
+   "licence": "CC BY 3.0",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Hypothalamic%E2%80%93pituitary%E2%80%93gonadal_axis.svg"
+  },
+  "cdgp": {
+   "file": "cdgp.jpg",
+   "caption": "Hand X-ray: bone age behind real age in a boy with late puberty",
+   "author": "Mikael Häggström",
+   "licence": "CC0",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:X-ray_of_a_hand_with_automatic_bone_age_calculation.jpg"
+  },
+  "pub": {
+   "file": "pub.jpg",
+   "caption": "Adrenal cortex layers: the inner one starts making adrenal androgens",
+   "author": "Jpogi",
+   "licence": "CC0",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Adrenal_cortex_labelled.jpg"
+  },
+  "the": {
+   "file": "the.jpg",
+   "caption": "Breast ultrasound in a young girl: a breast bud, nothing else",
+   "author": "Kan L, He D, Yue W (Endocrine Connections 2025)",
+   "licence": "CC BY 4.0 (cropped)",
+   "source_page_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12520225/"
+  }
+ },
+ "endo-w3-05_2": {
+  "cdgp": {
+   "file": "cdgp.jpg",
+   "caption": "Hand X-ray to read bone age: behind in delayed puberty",
+   "author": "Mikael Häggström",
+   "licence": "CC0",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:X-ray_of_a_hand_before_automatic_bone_age_calculation.jpg"
+  },
+  "ghd": {
+   "file": "ghd.jpg",
+   "caption": "Growth hormone vial: replacement for GH deficiency",
+   "author": "Hunted230",
+   "licence": "CC BY-SA 3.0",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:GenotropinAQ.jpg"
+  },
+  "ts": {
+   "file": "ts.jpg",
+   "caption": "Karyotype 45,X: one X chromosome only (Turner syndrome)",
+   "author": "No machine-readable author provided. The cat~commonswiki assumed (based on copyr",
+   "licence": "CC BY-SA 3.0",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:45,X.jpg"
+  },
+  "hypo": {
+   "file": "hypo.jpg",
+   "caption": "Swollen belly and umbilical hernia: untreated hypothyroid infant",
+   "author": "Rastogi and LaFranchi; licensee BioMed Central Ltd",
+   "licence": "CC BY 2.5",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:CDpic2.png"
+  },
+  "ill": {
+   "file": "ill.jpg",
+   "caption": "Arm band checks undernutrition: weight falls before height",
+   "author": "©UNHCR / C. Fohlen",
+   "licence": "CC BY-SA 4.0 (cropped)",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Mid-Upper-Arm_Circumference_Band.jpg"
+  },
+  "fss": {
+   "file": "fss.jpg",
+   "caption": "Height chart: a short child can track low but steady",
+   "author": "Wikimedia Commons",
+   "licence": "Public domain",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Male_Growth_Chart.PNG"
+  },
+  "sk": {
+   "file": "sk.jpg",
+   "caption": "Achondroplasia: squared pelvis and short thigh bones on X-ray",
+   "author": "Pauli RM (Orphanet J Rare Dis 2019)",
+   "licence": "CC BY 4.0",
+   "source_page_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6318916/"
+  }
+ },
+ "endo-w3-06_1": {
+  "H": {
+   "file": "H.jpg",
+   "caption": "Epidural needle placed in the lower back for labour",
+   "author": "User:Ravedave",
+   "licence": "CC BY 2.5",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Epidural.JPG"
+  },
+  "O": {
+   "file": "O.jpg",
+   "caption": "Iliac lymph node chains in the pelvis",
+   "author": "Wikimedia Commons",
+   "licence": "Public domain",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Illu_lymph_chain10.jpg"
+  },
+  "Q": {
+   "file": "Q.jpg",
+   "caption": "Superficial inguinal nodes: the groin chain",
+   "author": "Wikimedia Commons",
+   "licence": "Public domain",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Illu_lymph_chain12.jpg"
+  }
+ },
+ "endo-w3-07_1": {
+  "R": {
+   "file": "R.png",
+   "caption": "Uterus didelphys: two uteri and two cervixes",
+   "author": "Sciencia58",
+   "licence": "CC0",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Uterus_didelphys_1.png"
+  },
+  "S": {
+   "file": "S.jpg",
+   "caption": "Bicornuate uterus on ultrasound: two horns, one common base",
+   "author": "Mikael Häggström",
+   "licence": "CC0",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Bicornuate_uterus_with_pregnancy.jpg"
+  },
+  "T": {
+   "file": "T.png",
+   "caption": "Septate uterus: normal outside, septum inside the cavity",
+   "author": "Sciencia58",
+   "licence": "CC0",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Uterus_septus_1.png"
+  },
+  "U": {
+   "file": "U.jpg",
+   "caption": "Unicornuate uterus: only one horn developed",
+   "author": "RadsWiki",
+   "licence": "CC BY-SA 3.0",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Unicornuate-uterus-001.jpg"
+  }
+ },
+ "endo-w3-08_2": {
+  "block": {
+   "file": "block.jpg",
+   "caption": "GnRH agonist implant syringe: the reversible puberty blocker",
+   "author": "Alison Cassidy",
+   "licence": "CC BY-SA 3.0 (cropped)",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Implantsyringe.JPG"
+  },
+  "mas": {
+   "file": "mas.jpg",
+   "caption": "Testosterone vial: injected to masculinise",
+   "author": "U.S. Drug Enforcement Administration",
+   "licence": "Public domain",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Depo-testosterone_200_mg_ml_crop.jpg"
+  },
+  "fem": {
+   "file": "fem.jpg",
+   "caption": "Estradiol patches: one route of feminising estrogen",
+   "author": "Vack Xu",
+   "licence": "CC0",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Estradiol_Patch_Australia.jpg"
+  }
+ },
+ "endo-w3-09_2": {
+  "srd": {
+   "file": "srd.png",
+   "caption": "Testosterone vs DHT: which tissues need the converted DHT",
+   "author": "Jonathan.Marcus",
+   "licence": "CC BY-SA 3.0",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Androgen_dependencies_of_male_genital_tissues.png"
+  },
+  "ais": {
+   "file": "ais.png",
+   "caption": "The androgen receptor: where partial insensitivity arises",
+   "author": "Jonathan.Marcus",
+   "licence": "CC BY 3.0",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Human_androgen_receptor_and_androgen_binding.svg"
+  },
+  "sw": {
+   "file": "sw.png",
+   "caption": "Steroid pathway: 21-hydroxylase block raises androgens",
+   "author": "David Richfield (Slashme) and Mikael Häggström. Derived from previous version by",
+   "licence": "CC0",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Steroidogenesis.png"
+  },
+  "sv": {
+   "file": "sv.png",
+   "caption": "Enlarged adrenals from long-term ACTH drive (PET-CT)",
+   "author": "NICHD/A. Mallappa, D. Merke",
+   "licence": "Public domain",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:CT_scan_shows_enlarged_adrenals_with_masses_consistent_with_congenital_adrenal_hyperplasia_due_to_21-hydroxylase_deficiency.png"
+  }
+ },
+ "endo-w3-10_2": {
+  "start": {
+   "file": "start.jpg",
+   "caption": "Polycystic ovary on ultrasound: many small follicles",
+   "author": "Schomynv",
+   "licence": "CC0",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Polycystic_ovary.jpg"
+  },
+  "hair": {
+   "file": "hair.jpg",
+   "caption": "Severe hirsutism in PMOS: coarse dark hair on the jaw",
+   "author": "Gacaferri Lumezi B et al.",
+   "licence": "CC BY 3.0 (cropped)",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:PMC4103002_ircmj-16-9410-g001.png"
+  },
+  "meta": {
+   "file": "meta.jpg",
+   "caption": "Acanthosis nigricans: dark velvety skin, a sign of insulin resistance",
+   "author": "Dr. Thomas Brinkmeier",
+   "licence": "CC BY 4.0",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Acanthosis_nigricans,_axill%C3%A4r,_%C2%A9WIKIDERM.jpg"
+  }
+ },
  "msk-w10-01.2_2": {
   "spr": {
    "file": "spr.png",
@@ -66,241 +800,175 @@
    "source_page_url": "https://commons.wikimedia.org/wiki/File:Carpal_Tunnel_Syndrome.png"
   },
   "npx": {
-   "file": "npx.png",
-   "caption": "Myelin damaged, axon and outer tube intact",
-   "author": "Drawn for this page",
-   "licence": "CC BY 4.0",
-   "source_page_url": ""
+   "file": "npx.jpg",
+   "caption": "Neurapraxia: myelin damaged, axon intact",
+   "author": "Davplast",
+   "licence": "CC BY-SA 4.0 (cropped)",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Sedon%27s_classification_of_nerve_injuries.jpg"
   },
   "axo": {
-   "file": "axo.png",
-   "caption": "Axon cut, tube intact: the far part breaks down",
-   "author": "Drawn for this page",
-   "licence": "CC BY 4.0",
-   "source_page_url": ""
+   "file": "axo.jpg",
+   "caption": "Axonotmesis: axon cut, connective sheath intact",
+   "author": "Davplast",
+   "licence": "CC BY-SA 4.0 (cropped)",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Sedon%27s_classification_of_nerve_injuries.jpg"
   },
   "nts": {
-   "file": "nts.png",
-   "caption": "Whole nerve cut: no tube for regrowth to follow",
-   "author": "Drawn for this page",
-   "licence": "CC BY 4.0",
-   "source_page_url": ""
+   "file": "nts.jpg",
+   "caption": "Neurotmesis: whole nerve cut",
+   "author": "Davplast",
+   "licence": "CC BY-SA 4.0 (cropped)",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Sedon%27s_classification_of_nerve_injuries.jpg"
   }
  },
- "msk-w11-08_2": {
-  "sep": {
-   "file": "sep.jpg",
-   "caption": "Gram-positive cocci in clusters: Staphylococcus",
-   "author": "Dr Graham Beards",
-   "licence": "CC BY-SA 4.0 (cropped)",
-   "source_page_url": "https://commons.wikimedia.org/wiki/File:Staphylococcus_aureus_Gram_stain.jpg"
+ "msk-w10-04_2": {
+  "loc": {
+   "file": "loc.jpg",
+   "caption": "Child's leg: growth plates (physes) between epiphysis and metaphysis",
+   "author": "Gilo1969",
+   "licence": "CC BY 3.0",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Tib_fib_growth_plates.jpg"
   },
-  "gout": {
-   "file": "gout.jpg",
-   "caption": "Needle crystals, yellow along the axis: negatively birefringent",
-   "author": "Mikael Häggström",
-   "licence": "CC0",
-   "source_page_url": "https://commons.wikimedia.org/wiki/File:Birefringence_microscopy_of_gout,_annotated.jpg"
+  "type": {
+   "file": "type.jpg",
+   "caption": "Complete fracture patterns: oblique, comminuted, spiral",
+   "author": "Laboratoires Servier",
+   "licence": "CC BY-SA 3.0 (cropped)",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Kind_of_fractures_-_Oblique_Comminuted_Spiral_Compound_--_Smart-Servier.jpg"
   },
-  "cppd": {
-   "file": "cppd.jpg",
-   "caption": "Chondrocalcinosis: calcium lines in the knee cartilage (arrows)",
-   "author": "Taokinesis, annotated by Mikael Häggström",
-   "licence": "CC0 (cropped)",
-   "source_page_url": "https://commons.wikimedia.org/wiki/File:Chondrocalcinosis_-_annotated.jpg"
-  }
- },
- "msk-w11-01_2": {
-  "deep": {
-   "file": "deep.png",
-   "caption": "Flexor tendon sheaths (blue): pus tracks the whole finger",
-   "author": "Henry Vandyke Carter (Gray's Anatomy)",
-   "licence": "Public domain",
-   "source_page_url": "https://commons.wikimedia.org/wiki/File:Gray1233.png"
+  "desc": {
+   "file": "desc.jpg",
+   "caption": "Distal fragment shifted and angled (Colles fracture of the wrist)",
+   "author": "Ashish j29",
+   "licence": "CC BY 3.0",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Colles_fracture.JPG"
   },
-  "om": {
-   "file": "om.jpg",
-   "caption": "MRI: two infected vertebrae and the disc between light up",
-   "author": "Hellerhoff",
-   "licence": "CC BY-SA 4.0 (cropped)",
-   "source_page_url": "https://commons.wikimedia.org/wiki/File:Spondylodiscitis_LWK_34_82M_-_MR_und_CT_-_001.jpg"
-  },
-  "dfi": {
-   "file": "dfi.jpg",
-   "caption": "Osteomyelitis eating away the big-toe joint on X-ray",
+  "joint": {
+   "file": "joint.jpg",
+   "caption": "Fat-fluid level (red): hidden fracture into the knee",
    "author": "James Heilman, MD",
-   "licence": "CC BY-SA 4.0",
-   "source_page_url": "https://commons.wikimedia.org/wiki/File:Osteomyelitis_of_the_1st_MTP.jpg"
-  }
- },
- "msk-w11-04_2": {
-  "oa": {
-   "file": "oa.png",
-   "caption": "Cartilage loss, joint-space narrowing and bone spurs",
-   "author": "InjuryMap",
-   "licence": "CC BY-SA 4.0",
-   "source_page_url": "https://commons.wikimedia.org/wiki/File:Knee_Osteoarthritis.svg"
-  }
- },
- "msk-w11-02_2": {
-  "ra": {
-   "file": "ra.jpg",
-   "caption": "Knuckles subluxed, fingers drifting ulnar, wrist eroded",
-   "author": "Bernd Brägelmann",
+   "licence": "CC BY-SA 4.0 (cropped)",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:LipohemarthrosisMark.png"
+  },
+  "other": {
+   "file": "other.jpg",
+   "caption": "Lytic metastasis (circled), then a transverse pathological fracture",
+   "author": "Hellerhoff",
+   "licence": "CC BY-SA 3.0",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Pathologische_Femurfraktur_bei_Mamma-Ca.jpg"
+  },
+  "heal": {
+   "file": "heal.jpg",
+   "caption": "Fluffy callus (arrow) bridging a healing humeral fracture",
+   "author": "Bill Rhodes",
+   "licence": "CC BY 2.0",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Communitive_midshaft_humeral_fracture_callus.jpg"
+  },
+  "view": {
+   "file": "view.jpg",
+   "caption": "Scaphoid fracture is subtle: standard views can miss it",
+   "author": "Mohamed Jarraya et al.",
    "licence": "CC BY 3.0",
-   "source_page_url": "https://commons.wikimedia.org/wiki/File:RheumatoideArthritisAP.jpg"
-  },
-  "psa": {
-   "file": "psa.jpg",
-   "caption": "Pencil-in-cup erosion at the end finger joint (DIP)",
-   "author": "Hellerhoff",
-   "licence": "CC BY-SA 4.0",
-   "source_page_url": "https://commons.wikimedia.org/wiki/File:Psoriasisarthritis_distales_Interphalangealgelenk_79M_-_CR_seitlich_-_001.jpg"
-  },
-  "axs": {
-   "file": "axs.jpg",
-   "caption": "Bamboo spine: vertebrae fused by bony bridges",
-   "author": "Stevenfruitsmaak",
-   "licence": "CC BY-SA 3.0",
-   "source_page_url": "https://commons.wikimedia.org/wiki/File:Bamboo_spine_ankylosing_spondylitis.jpg"
-  },
-  "oa": {
-   "file": "oa.jpg",
-   "caption": "DIP and thumb-base narrowing with bony spurs",
-   "author": "Hellerhoff",
-   "licence": "CC BY-SA 4.0",
-   "source_page_url": "https://commons.wikimedia.org/wiki/File:Klassische_Heberden-Arthrose_82W_-_CR_ap_-_001.jpg"
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:X-ray_of_subtle_scaphoid_fracture.jpg"
   }
  },
- "msk-w11-03_2": {
-  "sys": {
-   "file": "sys.png",
-   "caption": "Fever spikes once daily, normal in between",
-   "author": "Drawn for this page",
-   "licence": "CC BY 4.0",
-   "source_page_url": ""
-  },
-  "oli": {
-   "file": "oli.png",
-   "caption": "One knee, one ankle; the hip is spared",
-   "author": "Drawn for this page",
-   "licence": "CC BY 4.0",
-   "source_page_url": ""
-  },
-  "pol": {
-   "file": "pol.png",
-   "caption": "Five or more joints, small finger joints included",
-   "author": "Drawn for this page",
-   "licence": "CC BY 4.0",
-   "source_page_url": ""
-  },
-  "era": {
-   "file": "era.jpg",
-   "caption": "Bright, inflamed Achilles attachment on the heel (thick arrow)",
-   "author": "Fiona McQueen, Marissa Lassere, Mikkel Østergaard",
-   "licence": "CC BY 2.0 (cropped)",
-   "source_page_url": "https://commons.wikimedia.org/wiki/File:Psoriatic_arthritis_ankle_ar1934-3.gif"
-  }
- },
- "msk-w11-06_2": {
-  "sle": {
-   "file": "sle.jpg",
-   "caption": "Lupus nephritis: thick pink 'wire-loop' capillaries, lower left",
-   "author": "Kparavindan",
-   "licence": "CC BY-SA 4.0",
-   "source_page_url": "https://commons.wikimedia.org/wiki/File:Wire-loop_lesion_in_SLE.png"
-  },
-  "sjo": {
-   "file": "sjo.jpg",
-   "caption": "Lip biopsy: dense lymphocytes crowding a salivary gland",
-   "author": "KGH",
-   "licence": "CC BY-SA 3.0",
-   "source_page_url": "https://commons.wikimedia.org/wiki/File:Sjogren%27s_syndrome_1.jpg"
-  },
-  "myo": {
-   "file": "myo.jpg",
-   "caption": "Lymphocytes invading between and into muscle fibres",
-   "author": "Jensflorian",
-   "licence": "CC BY-SA 4.0",
-   "source_page_url": "https://commons.wikimedia.org/wiki/File:Polymyositis_muscle_biopsy_HE.jpg"
-  },
-  "ssc": {
-   "file": "ssc.png",
-   "caption": "Anticentromere ANA: scattered discrete dots, points to limited disease",
-   "author": "Al-Mughales JA, edited by Mikael Häggström",
+ "msk-w10-05_2": {
+  "cs": {
+   "file": "cs.png",
+   "caption": "Leg compartments: fascia that cannot stretch when pressure rises",
+   "author": "Beckie Palmer",
    "licence": "CC BY 4.0 (cropped)",
-   "source_page_url": "https://commons.wikimedia.org/wiki/File:Main_antinuclear_antibody_patterns_on_immunofluorescence.png"
-  }
- },
- "msk-w11-05_2": {
-  "as": {
-   "file": "as.jpg",
-   "caption": "'Bamboo spine': vertebrae fused by bony bridges",
-   "author": "Stevenfruitsmaak",
-   "licence": "CC BY-SA 3.0",
-   "source_page_url": "https://commons.wikimedia.org/wiki/File:Bamboo_spine_ankylosing_spondylitis.jpg"
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Leg_compartments.jpg"
   },
-  "psa": {
-   "file": "psa.jpg",
-   "caption": "Only ONE sacroiliac joint inflamed (arrow): asymmetric",
-   "author": "Fiona McQueen, Marissa Lassere, Mikkel Østergaard",
-   "licence": "CC BY 2.0 (cropped)",
-   "source_page_url": "https://commons.wikimedia.org/wiki/File:Sacroiliitis_MRI_ar1934-5.gif"
-  }
- },
- "msk-w11-07_2": {
-  "gca": {
-   "file": "gca.jpg",
-   "caption": "Temporal artery biopsy: giant cells, lumen nearly shut",
-   "author": "Abhishek Lunagariya, Chintan Rupareliya, Pradeep C. Bollu, Zabeen Mahuwala",
+  "nu": {
+   "file": "nu.jpg",
+   "caption": "Hypertrophic non-union: bone bulges, gap never bridges",
+   "author": "Lindsaydavidson",
    "licence": "CC BY 3.0",
-   "source_page_url": "https://commons.wikimedia.org/wiki/File:Histopathology_of_giant_cell_arteritis.png"
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Nonunion.jpg"
   },
-  "anca": {
-   "file": "anca.jpg",
-   "caption": "c-ANCA: grainy stain in neutrophil cytoplasm (anti-PR3, GPA)",
-   "author": "Simon Caulton",
-   "licence": "CC BY-SA 3.0 (cropped)",
-   "source_page_url": "https://commons.wikimedia.org/wiki/File:C_ANCA.jpg"
+  "avn": {
+   "file": "avn.jpg",
+   "caption": "Hip X-ray: femoral head collapsing and dense from lost blood supply",
+   "author": "Jmarchn",
+   "licence": "CC BY-SA 3.0",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Osteonecrosis_femur_1.jpg"
   },
-  "lcv": {
-   "file": "lcv.jpg",
-   "caption": "Skin biopsy: neutrophils and their debris around a small vessel",
-   "author": "Nephron",
+  "vte": {
+   "file": "vte.jpg",
+   "caption": "Swollen, red right leg from a deep vein clot",
+   "author": "James Heilman, MD",
    "licence": "CC BY-SA 3.0 (cropped)",
-   "source_page_url": "https://commons.wikimedia.org/wiki/File:Leukocytoclastic_vasculitis_--_intermed_mag.jpg"
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Deep_vein_thrombosis_of_the_right_leg.jpg"
+  },
+  "open": {
+   "file": "open.jpg",
+   "caption": "Bone ends through the skin: open (compound) fracture",
+   "author": "Saltanat",
+   "licence": "CC0",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Open_fracture_01.JPG"
+  },
+  "all": {
+   "file": "all.jpg",
+   "caption": "Closed fracture: X-ray shows the break, skin intact",
+   "author": "James Heilman, MD",
+   "licence": "CC BY-SA 3.0",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Spiral_fracture_of_the_tibia.PNG"
+  },
+  "ho": {
+   "file": "late.jpg",
+   "caption": "Heterotopic bone: cloud of new bone in front of the elbow",
+   "author": "Tdvorak",
+   "licence": "CC BY-SA 3.0",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Heterotopic_Ossification_Elbow1.JPG"
+  },
+  "pta": {
+   "file": "pta.jpg",
+   "caption": "Ankle X-ray: narrowed, worn joint years after a fracture",
+   "author": "Hellerhoff",
+   "licence": "CC BY-SA 4.0",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Posttraumatische_OSG-Arthrose_86W_-_CR_2_Ebenen_-_001.jpg"
   }
  },
- "msk-w12-01_2": {
-  "ana": {
-   "file": "ana.png",
-   "caption": "ANA staining patterns seen on immunofluorescence",
-   "author": "Al-Mughales JA, edited by Mikael Häggström",
-   "licence": "CC BY 4.0",
-   "source_page_url": "https://commons.wikimedia.org/wiki/File:Main_antinuclear_antibody_patterns_on_immunofluorescence.png"
+ "msk-w10-06_2": {
+  "noc": {
+   "file": "noc.jpg",
+   "caption": "Both knees: joint space narrowed, bone spurs at the edges",
+   "author": "NP2025",
+   "licence": "CC BY-SA 4.0",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Varus_Knee_Osteoarthritis_Xray.jpg"
+  }
+ },
+ "msk-w10-07_2": {
+  "bio": {
+   "file": "bio.jpg",
+   "caption": "TENS unit with four skin pads: electrical stimulation for pain",
+   "author": "Yeza",
+   "licence": "CC BY-SA 4.0",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Tens.jpg"
   },
-  "dna": {
-   "file": "dna.jpg",
-   "caption": "Anti-DNA lights the bright dot (kinetoplast) beside each nucleus",
-   "author": "Simon Caulton",
-   "licence": "CC BY-SA 3.0 (cropped)",
-   "source_page_url": "https://commons.wikimedia.org/wiki/File:DSDNA_ABS_CRITHIDIA.jpg"
-  },
-  "ena": {
-   "file": "ena.jpg",
-   "caption": "Fine speckled ANA from anti-Ro/La, two ENA antibodies",
-   "author": "Simon Caulton",
+  "psy": {
+   "file": "psy.png",
+   "caption": "Beliefs, emotions and behaviours feed each other: CBT breaks the loop",
+   "author": "Lisa Page",
    "licence": "CC BY-SA 3.0",
-   "source_page_url": "https://commons.wikimedia.org/wiki/File:SSA_SSB_ANA.jpg"
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:CBT_framework.png"
+  },
+  "reh": {
+   "file": "reh.jpg",
+   "caption": "Fear leads to avoidance and disability; no fear leads to recovery",
+   "author": "LittleT889",
+   "licence": "CC BY-SA 3.0",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Fear-avoidance_model.jpg"
   }
  },
  "msk-w10-08_2": {
   "frac": {
-   "file": "frac.png",
-   "caption": "Children's bone buckles, cracks on one side, or bows",
-   "author": "Drawn for this page",
-   "licence": "CC BY 4.0",
-   "source_page_url": ""
+   "file": "frac.jpg",
+   "caption": "Buckle fracture: cortex crumpled but not broken through",
+   "author": "Apaul291003",
+   "licence": "CC BY-SA 4.0",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Buckle_Fracture.jpg"
   },
   "sh": {
    "file": "sh.png",
@@ -336,57 +1004,87 @@
    "author": "BruceBlaus",
    "licence": "CC BY 3.0",
    "source_page_url": "https://commons.wikimedia.org/wiki/File:Blausen_0785_Scoliosis_01.png"
+  },
+  "club": {
+   "file": "club.jpg",
+   "caption": "Clubfoot: foot turned in and down at birth",
+   "author": "OpenStax College",
+   "licence": "CC BY 3.0",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:813_Clubfoot.jpg"
   }
  },
- "msk-w10-04_2": {
-  "loc": {
-   "file": "loc.png",
-   "caption": "Parts of a long bone: where is the fracture?",
-   "author": "Drawn for this page",
-   "licence": "CC BY 4.0",
-   "source_page_url": ""
+ "msk-w10-09_2": {
+  "sep": {
+   "file": "sep.jpg",
+   "caption": "Ultrasound: joint fluid lifts the capsule (red) off bone (blue)",
+   "author": "J. Lengerke",
+   "licence": "CC BY-SA 3.0 de (cropped, labelled)",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Coxitis.jpg"
   },
-  "type": {
-   "file": "type.png",
-   "caption": "Complete (both cortices) vs incomplete fracture patterns",
-   "author": "Drawn for this page",
-   "licence": "CC BY 4.0",
-   "source_page_url": ""
-  },
-  "desc": {
-   "file": "desc.png",
-   "caption": "Distal fragment: translated, angulated, or overriding",
-   "author": "Drawn for this page",
-   "licence": "CC BY 4.0",
-   "source_page_url": ""
-  },
-  "joint": {
-   "file": "joint.jpg",
-   "caption": "Fat-fluid level (red): hidden fracture into the knee",
-   "author": "James Heilman, MD",
-   "licence": "CC BY-SA 4.0 (cropped)",
-   "source_page_url": "https://commons.wikimedia.org/wiki/File:LipohemarthrosisMark.png"
-  },
-  "other": {
-   "file": "other.jpg",
-   "caption": "Lytic metastasis (circled), then a transverse pathological fracture",
+  "lcp": {
+   "file": "lcp.jpg",
+   "caption": "Flattened, fragmented femoral head (image left)",
    "author": "Hellerhoff",
-   "licence": "CC BY-SA 3.0",
-   "source_page_url": "https://commons.wikimedia.org/wiki/File:Pathologische_Femurfraktur_bei_Mamma-Ca.jpg"
+   "licence": "CC BY-SA 4.0 (cropped)",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Morbus_Perthes_rechts_6W_-_CR_ap_-_001.jpg"
   },
-  "heal": {
-   "file": "heal.jpg",
-   "caption": "Fluffy callus (arrow) bridging a healing humeral fracture",
-   "author": "Bill Rhodes",
-   "licence": "CC BY 2.0",
-   "source_page_url": "https://commons.wikimedia.org/wiki/File:Communitive_midshaft_humeral_fracture_callus.jpg"
+  "scfe": {
+   "file": "scfe.jpg",
+   "caption": "X-ray: the femoral head has slipped down off the neck",
+   "author": "Mikir at English Wikipedia",
+   "licence": "Public domain",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:SCFE_FROG_B%26W.jpg"
+  },
+  "ts": {
+   "file": "ts.jpg",
+   "caption": "Ultrasound: fluid in the inflamed hip (right) vs normal (left)",
+   "author": "J. Lengerke",
+   "licence": "CC BY-SA 3.0 de",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Coxitis.jpg"
+  }
+ },
+ "msk-w10-10_2": {
+  "htn": {
+   "file": "htn.jpg",
+   "caption": "Blood pressure monitor reading 158 systolic: hypertension",
+   "author": "Steven Fruitsmaak",
+   "licence": "CC BY 3.0",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Grade_1_hypertension.jpg"
+  },
+  "med": {
+   "file": "med.jpg",
+   "caption": "Combination blood pressure tablet (ACE inhibitor plus calcium blocker)",
+   "author": "Tomino de WS",
+   "licence": "CC BY-SA 4.0",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Prestance_10_mg-5_mg_tbl.jpg"
+  },
+  "fitt": {
+   "file": "fitt.jpg",
+   "caption": "Aerobic machines: 150 minutes a week at moderate-vigorous effort",
+   "author": "Wikideas1",
+   "licence": "CC0",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Treadmills.webp"
+  },
+  "ci": {
+   "file": "ci.jpg",
+   "caption": "Acute heart attack on the ECG: no exercise until treated",
+   "author": "Displaced",
+   "licence": "Public domain",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:12_Lead_EKG_ST_Elevation_tracing_only.jpg"
+  },
+  "risk": {
+   "file": "risk.jpg",
+   "caption": "Exercise stress test record: heart rate and blood pressure",
+   "author": "Correctorgrande",
+   "licence": "CC0",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Leistungsmessung-Beispiel-Durchfuehrung.jpg"
   }
  },
  "msk-w10-11_2": {
   "ben": {
    "file": "ben.jpg",
    "caption": "Benign lipoma: mature fat cells, no atypia",
-   "author": "Hyeree Kim, Sang Hyun Cho, Jeong Deuk Lee, Hei Sung Kim",
+   "author": "Hyeree Kim et al.",
    "licence": "CC BY 4.0",
    "source_page_url": "https://commons.wikimedia.org/wiki/File:Histopathology_of_lipoma.jpg"
   },
@@ -403,68 +1101,313 @@
    "author": "Hellerhoff",
    "licence": "CC BY-SA 4.0",
    "source_page_url": "https://commons.wikimedia.org/wiki/File:Lungenmetastasen_bei_Pankreaskarzinom_im_Roentgenbild_des_Thorax_001.jpg"
-  }
- },
- "msk-w10-05_2": {
-  "cs": {
-   "file": "cs.png",
-   "caption": "Leg compartments: fascia that cannot stretch when pressure rises",
-   "author": "Beckie Palmer",
-   "licence": "CC BY 4.0 (cropped)",
-   "source_page_url": "https://commons.wikimedia.org/wiki/File:Leg_compartments.jpg"
   },
-  "nu": {
-   "file": "nu.jpg",
-   "caption": "Hypertrophic non-union: bone bulges, gap never bridges",
-   "author": "Lindsaydavidson",
-   "licence": "CC BY 3.0",
-   "source_page_url": "https://commons.wikimedia.org/wiki/File:Nonunion.jpg"
-  },
-  "avn": {
-   "file": "avn.png",
-   "caption": "Artery enters distally: a waist fracture starves the proximal pole",
-   "author": "Drawn for this page",
-   "licence": "CC BY 4.0",
-   "source_page_url": ""
-  },
-  "ho": {
-   "file": "late.jpg",
-   "caption": "Heterotopic bone: cloud of new bone in front of the elbow",
-   "author": "Tdvorak",
+  "ex": {
+   "file": "ex.jpg",
+   "caption": "Small superficial lump: low risk, excise",
+   "author": "Jmarchn",
    "licence": "CC BY-SA 3.0",
-   "source_page_url": "https://commons.wikimedia.org/wiki/File:Heterotopic_Ossification_Elbow1.JPG"
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Superficial_subcutaneous_lipoma.jpg"
   }
  },
- "msk-w10-09_2": {
-  "sep": {
-   "file": "sep.jpg",
-   "caption": "Ultrasound: joint fluid lifts the capsule (red) off bone (blue)",
-   "author": "J. Lengerke (English labels added)",
-   "licence": "CC BY-SA 3.0 de (cropped, labelled)",
-   "source_page_url": "https://commons.wikimedia.org/wiki/File:Coxitis.jpg"
+ "msk-w11-01_2": {
+  "deep": {
+   "file": "deep.png",
+   "caption": "Flexor tendon sheaths (blue): pus tracks the whole finger",
+   "author": "Henry Vandyke Carter (Gray's Anatomy)",
+   "licence": "Public domain",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Gray1233.png"
   },
-  "lcp": {
-   "file": "lcp.jpg",
-   "caption": "Flattened, fragmented femoral head (image left)",
+  "om": {
+   "file": "om.jpg",
+   "caption": "MRI: two infected vertebrae and the disc between light up",
    "author": "Hellerhoff",
    "licence": "CC BY-SA 4.0 (cropped)",
-   "source_page_url": "https://commons.wikimedia.org/wiki/File:Morbus_Perthes_rechts_6W_-_CR_ap_-_001.jpg"
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Spondylodiscitis_LWK_34_82M_-_MR_und_CT_-_001.jpg"
   },
-  "scfe": {
-   "file": "scfe.png",
-   "caption": "Klein's line misses the slipped head",
-   "author": "Drawn for this page",
+  "dfi": {
+   "file": "dfi.jpg",
+   "caption": "Osteomyelitis eating away the big-toe joint on X-ray",
+   "author": "James Heilman, MD",
+   "licence": "CC BY-SA 4.0",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Osteomyelitis_of_the_1st_MTP.jpg"
+  },
+  "cel": {
+   "file": "cel.jpg",
+   "caption": "Cellulitis: spreading red, swollen, warm skin of the leg",
+   "author": "John Campbell",
+   "licence": "CC0",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Cellulitis_left_leg_(44699141152).jpg"
+  },
+  "oth": {
+   "file": "oth.jpg",
+   "caption": "Lyme arthritis: one swollen large joint, the knee",
+   "author": "Katherine E. Guardado and Shane Sergent",
    "licence": "CC BY 4.0",
-   "source_page_url": ""
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Right_knee_swelling_caused_by_Lyme_arthritis_in_a_3-year-old_girl.jpg"
+  }
+ },
+ "msk-w11-02_2": {
+  "ra": {
+   "file": "ra.jpg",
+   "caption": "Knuckles subluxed, fingers drifting ulnar, wrist eroded",
+   "author": "Bernd Brägelmann",
+   "licence": "CC BY 3.0",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:RheumatoideArthritisAP.jpg"
+  },
+  "psa": {
+   "file": "psa.jpg",
+   "caption": "Pencil-in-cup erosion at the end finger joint (DIP)",
+   "author": "Hellerhoff",
+   "licence": "CC BY-SA 4.0",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Psoriasisarthritis_distales_Interphalangealgelenk_79M_-_CR_seitlich_-_001.jpg"
+  },
+  "axs": {
+   "file": "axs.jpg",
+   "caption": "Bamboo spine: vertebrae fused by bony bridges",
+   "author": "Stevenfruitsmaak",
+   "licence": "CC BY-SA 3.0",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Bamboo_spine_ankylosing_spondylitis.jpg"
+  },
+  "oa": {
+   "file": "oa.jpg",
+   "caption": "DIP and thumb-base narrowing with bony spurs",
+   "author": "Hellerhoff",
+   "licence": "CC BY-SA 4.0",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Klassische_Heberden-Arthrose_82W_-_CR_ap_-_001.jpg"
+  },
+  "acu": {
+   "file": "acu.jpg",
+   "caption": "Needle-shaped urate crystals in joint fluid: gout (crystal arthritis)",
+   "author": "Bobjgalindo",
+   "licence": "CC BY-SA 4.0",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Fluorescent_uric_acid.JPG"
+  }
+ },
+ "msk-w11-03_2": {
+  "sys": {
+   "file": "sys.png",
+   "caption": "Fever chart: daily spikes, normal in between (Romanian labels)",
+   "author": "Hahn YS, Kim JG",
+   "licence": "Public domain",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:JIA_systemic_onset.png"
+  },
+  "oli": {
+   "file": "oli.jpg",
+   "caption": "Swollen, warm knee: the typical oligoarticular joint",
+   "author": "James Heilman, MD",
+   "licence": "CC BY-SA 4.0",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Knee_Effusion.jpg"
+  },
+  "pol": {
+   "file": "pol.jpg",
+   "caption": "Many swollen hand joints, like adult rheumatoid arthritis",
+   "author": "James Heilman, MD",
+   "licence": "CC BY-SA 3.0",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Rheumatoid_Arthritis.JPG"
+  },
+  "era": {
+   "file": "era.jpg",
+   "caption": "Bright, inflamed Achilles attachment on the heel (thick arrow)",
+   "author": "Fiona McQueen, Marissa Lassere, Mikkel Østergaard",
+   "licence": "CC BY 2.0 (cropped)",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Psoriatic_arthritis_ankle_ar1934-3.gif"
+  },
+  "pso": {
+   "file": "pso.jpg",
+   "caption": "Swollen toes with nail changes: psoriatic arthritis",
+   "author": "James Heilman, MD",
+   "licence": "CC BY-SA 3.0",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Psoriatic_arthritis2010.JPG"
+  }
+ },
+ "msk-w11-04_2": {
+  "oa": {
+   "file": "oa.png",
+   "caption": "Cartilage loss, joint-space narrowing and bone spurs",
+   "author": "InjuryMap",
+   "licence": "CC BY-SA 4.0",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Knee_Osteoarthritis.svg"
+  },
+  "surg": {
+   "file": "surg.jpg",
+   "caption": "Knee replacement on x-ray: the end-stage option",
+   "author": "Hiroshi Inui et al.",
+   "licence": "CC BY 2.0",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Radiograph_with_knee_angles.jpg"
+  },
+  "med": {
+   "file": "med.jpg",
+   "caption": "Anti-inflammatory gel and tablets ease pain; they do not stop OA",
+   "author": "Sciencia58",
+   "licence": "CC0",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Diclofenac_Schmerzgel_1.jpg"
+  },
+  "bio": {
+   "file": "bio.jpg",
+   "caption": "Gait lab: alignment, weakness and walking pattern are assessed",
+   "author": "D. Gordon E. Robertson",
+   "licence": "CC BY-SA 3.0",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Gait_laboratory.jpg"
+  },
+  "red": {
+   "file": "red.jpg",
+   "caption": "Hot, red, swollen joint (gout here): a red flag, not OA",
+   "author": "James Heilman, MD",
+   "licence": "CC BY-SA 3.0",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Gout2010.JPG"
+  }
+ },
+ "msk-w11-05_2": {
+  "as": {
+   "file": "as.jpg",
+   "caption": "'Bamboo spine': vertebrae fused by bony bridges",
+   "author": "Stevenfruitsmaak",
+   "licence": "CC BY-SA 3.0",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Bamboo_spine_ankylosing_spondylitis.jpg"
+  },
+  "psa": {
+   "file": "psa.jpg",
+   "caption": "Only ONE sacroiliac joint inflamed (arrow): asymmetric",
+   "author": "Fiona McQueen, Marissa Lassere, Mikkel Østergaard",
+   "licence": "CC BY 2.0 (cropped)",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Sacroiliitis_MRI_ar1934-5.gif"
+  },
+  "rea": {
+   "file": "rea.jpg",
+   "caption": "Scaly rash on the soles (keratoderma blennorrhagicum): reactive arthritis",
+   "author": "CDC / Dr. M. F. Rein",
+   "licence": "Public domain",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Feet-Reiters_syndrome.jpg"
+  }
+ },
+ "msk-w11-06_2": {
+  "sle": {
+   "file": "sle.jpg",
+   "caption": "Lupus nephritis: thick pink 'wire-loop' capillaries, lower left",
+   "author": "Kparavindan",
+   "licence": "CC BY-SA 4.0",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Wire-loop_lesion_in_SLE.png"
+  },
+  "sjo": {
+   "file": "sjo.jpg",
+   "caption": "Lip biopsy: dense lymphocytes crowding a salivary gland",
+   "author": "KGH",
+   "licence": "CC BY-SA 3.0",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Sjogren%27s_syndrome_1.jpg"
+  },
+  "myo": {
+   "file": "myo.jpg",
+   "caption": "Lymphocytes invading between and into muscle fibres",
+   "author": "Jensflorian",
+   "licence": "CC BY-SA 4.0",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Polymyositis_muscle_biopsy_HE.jpg"
+  },
+  "ssc": {
+   "file": "ssc.png",
+   "caption": "Anticentromere ANA: scattered discrete dots, points to limited disease",
+   "author": "Al-Mughales JA, edited by Mikael Häggström",
+   "licence": "CC BY 4.0 (cropped)",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Main_antinuclear_antibody_patterns_on_immunofluorescence.png"
+  },
+  "aps": {
+   "file": "aps.jpg",
+   "caption": "Livedo reticularis: net-like purple skin pattern seen in APS",
+   "author": "డా. గన్నవరపు నరసింహమూర్తి",
+   "licence": "CC0",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Livedo_reticularis.jpg"
+  }
+ },
+ "msk-w11-07_2": {
+  "gca": {
+   "file": "gca.jpg",
+   "caption": "Temporal artery biopsy: giant cells, lumen nearly shut",
+   "author": "Abhishek Lunagariya et al.",
+   "licence": "CC BY 3.0",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Histopathology_of_giant_cell_arteritis.png"
+  },
+  "anca": {
+   "file": "anca.jpg",
+   "caption": "c-ANCA: grainy stain in neutrophil cytoplasm (anti-PR3, GPA)",
+   "author": "Simon Caulton",
+   "licence": "CC BY-SA 3.0 (cropped)",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:C_ANCA.jpg"
+  },
+  "lcv": {
+   "file": "lcv.jpg",
+   "caption": "Skin biopsy: neutrophils and their debris around a small vessel",
+   "author": "Nephron",
+   "licence": "CC BY-SA 3.0 (cropped)",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Leukocytoclastic_vasculitis_--_intermed_mag.jpg"
+  },
+  "sec": {
+   "file": "sec.jpg",
+   "caption": "Purple skin spots: drug-triggered small-vessel vasculitis",
+   "author": "James Heilman, MD",
+   "licence": "CC BY-SA 3.0",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Leukocytoclastic_vasculitis_caused_by_reaction_to_minocycline.jpg"
+  }
+ },
+ "msk-w11-08_2": {
+  "sep": {
+   "file": "sep.jpg",
+   "caption": "Gram-positive cocci in clusters: Staphylococcus",
+   "author": "Dr Graham Beards",
+   "licence": "CC BY-SA 4.0 (cropped)",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Staphylococcus_aureus_Gram_stain.jpg"
+  },
+  "gout": {
+   "file": "gout.jpg",
+   "caption": "Needle crystals, yellow along the axis: negatively birefringent",
+   "author": "Mikael Häggström",
+   "licence": "CC0",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Birefringence_microscopy_of_gout,_annotated.jpg"
+  },
+  "cppd": {
+   "file": "cppd.jpg",
+   "caption": "Chondrocalcinosis: calcium lines in the knee cartilage (arrows)",
+   "author": "Taokinesis, annotated by Mikael Häggström",
+   "licence": "CC0 (cropped)",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Chondrocalcinosis_-_annotated.jpg"
+  }
+ },
+ "msk-w12-01_2": {
+  "ana": {
+   "file": "ana.png",
+   "caption": "ANA staining patterns seen on immunofluorescence",
+   "author": "Al-Mughales JA, edited by Mikael Häggström",
+   "licence": "CC BY 4.0",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Main_antinuclear_antibody_patterns_on_immunofluorescence.png"
+  },
+  "dna": {
+   "file": "dna.jpg",
+   "caption": "Anti-DNA lights the bright dot (kinetoplast) beside each nucleus",
+   "author": "Simon Caulton",
+   "licence": "CC BY-SA 3.0 (cropped)",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:DSDNA_ABS_CRITHIDIA.jpg"
+  },
+  "ena": {
+   "file": "ena.jpg",
+   "caption": "Fine speckled ANA from anti-Ro/La, two ENA antibodies",
+   "author": "Simon Caulton",
+   "licence": "CC BY-SA 3.0",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:SSA_SSB_ANA.jpg"
+  },
+  "cpl": {
+   "file": "cpl.png",
+   "caption": "Complement cascade: C3 and C4 are used up in active lupus",
+   "author": "ThatBio",
+   "licence": "CC0",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Simplified_overview_of_the_complement_cascade.png"
   }
  },
  "msk-w7-02.2_2": {
   "dis": {
-   "file": "dis.png",
-   "caption": "Nucleus pushes into tears, but the outer anulus holds",
-   "author": "Drawn for this page",
+   "file": "dis.jpg",
+   "caption": "Tears in the disc wall with the nucleus pushing into them",
+   "author": "Irina Nefedova",
    "licence": "CC BY 4.0",
-   "source_page_url": ""
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Annulus_fibrous_fissures.webp"
   },
   "her": {
    "file": "her.png",
@@ -486,6 +1429,13 @@
    "author": "BruceBlaus",
    "licence": "CC BY-SA 4.0",
    "source_page_url": "https://commons.wikimedia.org/wiki/File:Whiplash.png"
+  },
+  "mus": {
+   "file": "mus.jpg",
+   "caption": "Trigger point: a tight knot in a muscle band that hurts when pressed",
+   "author": "Davidparmenter",
+   "licence": "CC BY-SA 3.0",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Trigger_Point_Complex.jpg"
   }
  },
  "msk-w7-03.2_2": {
@@ -497,25 +1447,25 @@
    "source_page_url": "https://commons.wikimedia.org/wiki/File:Blausen_0484_HerniatedLumbarDisc.png"
   },
   "lss": {
-   "file": "lss.png",
-   "caption": "Disc, facets and ligament crowd the canal: roots squeezed",
-   "author": "Drawn for this page",
-   "licence": "CC BY 4.0",
-   "source_page_url": ""
+   "file": "lss.jpg",
+   "caption": "MRI: narrowed lumbar canal squeezing the nerve roots",
+   "author": "Jmarchn",
+   "licence": "CC BY-SA 3.0",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Lumbar_spinal_stenosis_1_8.png"
   },
   "ces": {
-   "file": "ces.png",
-   "caption": "Below the cord's end, a big disc squeezes ALL roots",
-   "author": "Drawn for this page",
+   "file": "ces.jpg",
+   "caption": "MRI: lumbar mass compressing the cauda equina nerve roots",
+   "author": "Jing Jing Chan and Jen Jen Oh",
    "licence": "CC BY 4.0",
-   "source_page_url": ""
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:MRI_of_the_lumbar_spine_with_abscess_in_the_posterior_epidural_space,_causing_cauda_equina_syndrome.jpg"
   },
   "myl": {
-   "file": "myl.png",
-   "caption": "Disc, spur and ligament pinch the cervical cord",
-   "author": "Drawn for this page",
-   "licence": "CC BY 4.0",
-   "source_page_url": ""
+   "file": "myl.jpg",
+   "caption": "MRI: cervical disc compressing and flattening the spinal cord",
+   "author": "Jmarchn",
+   "licence": "CC BY-SA 3.0",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Compressive_myeolopathy_C6C7.png"
   },
   "inf": {
    "file": "inf.jpg",
@@ -555,16 +1505,16 @@
    "source_page_url": "https://commons.wikimedia.org/wiki/File:UNILATERAL_FACET.JPG"
   },
   "par": {
-   "file": "par.png",
-   "caption": "Oblique view: a collar on the Scottie dog's neck",
-   "author": "Drawn for this page",
-   "licence": "CC BY 4.0",
-   "source_page_url": ""
+   "file": "par.jpg",
+   "caption": "Break in the pars interarticularis of a lumbar vertebra",
+   "author": "BruceBlaus",
+   "licence": "CC BY-SA 4.0",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Spondylolysis.png"
   },
   "sco": {
    "file": "sco.png",
    "caption": "Cobb angles drawn from the most tilted endplates",
-   "author": "HR Weiss, S Seibel, A Kleban; annotated by Mikael Häggström",
+   "author": "HR Weiss et al.",
    "licence": "CC BY 4.0",
    "source_page_url": "https://commons.wikimedia.org/wiki/File:X-ray_of_scoliosis,_annotated.png"
   },
@@ -576,11 +1526,11 @@
    "source_page_url": "https://commons.wikimedia.org/wiki/File:Bamboo_spine_ankylosing_spondylitis.jpg"
   },
   "pvs": {
-   "file": "pvs.png",
-   "caption": "Swelling in front of the spine pushes the airway forward",
-   "author": "Drawn for this page",
-   "licence": "CC BY 4.0",
-   "source_page_url": ""
+   "file": "pvs.jpg",
+   "caption": "Widened soft tissue in front of the neck bones (arrow)",
+   "author": "James Heilman, MD",
+   "licence": "CC BY-SA 3.0",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Retroabscess10.JPG"
   }
  },
  "msk-w7-05.2_2": {
@@ -594,14 +1544,14 @@
   "oa": {
    "file": "oa.jpg",
    "caption": "Shoulder OA: narrowed joint, osteophytes, sclerosis",
-   "author": "Vladimir V. Senatorov, Ramon Cuevas-Trisan, Francisco J. Garcia, Gabriel P. Suciu, Robert H. Parkes, Alina M. Alonso",
+   "author": "Vladimir V. Senatorov et al.",
    "licence": "CC BY 4.0",
    "source_page_url": "https://commons.wikimedia.org/wiki/File:X-ray_of_osteoarthritis_of_the_shoulder.jpg"
   },
   "inf": {
    "file": "inf.jpg",
    "caption": "Rheumatoid shoulder: erosions (arrows), joint space evenly narrowed",
-   "author": "Michele N Edison, Anthony Caram, Miguel A Flores, Kurt Scherer",
+   "author": "Michele N Edison et al.",
    "licence": "CC BY 3.0",
    "source_page_url": "https://commons.wikimedia.org/wiki/File:X-ray_of_rheumatoid_arthritis_of_the_shoulder.jpg"
   },
@@ -618,34 +1568,48 @@
    "author": "Spooriak",
    "licence": "CC BY-SA 4.0 (cropped, non-English labels removed)",
    "source_page_url": "https://commons.wikimedia.org/wiki/File:Frozen-shoulder-drebrahimzadeh.jpg"
+  },
+  "aco": {
+   "file": "aco.jpg",
+   "caption": "MRI: swelling and wear in the acromioclavicular joint (arrow)",
+   "author": "Chan H et al.",
+   "licence": "CC BY 3.0",
+   "source_page_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4181089/"
+  },
+  "atr": {
+   "file": "atr.jpg",
+   "caption": "Thumb touches forearm: 'born loose' joints (AMBRI)",
+   "author": "SamuelEDS94",
+   "licence": "CC BY-SA 3.0",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Hypermobile_(double_jointed)_thumb_reaches_forearm_backwards.JPG"
   }
  },
  "msk-w8-02.2_2": {
   "s1": {
-   "file": "s1.png",
-   "caption": "Stage I: tendon swollen and inflamed, no tear",
-   "author": "Drawn for this page",
-   "licence": "CC BY 4.0",
-   "source_page_url": ""
+   "file": "s1.jpg",
+   "caption": "X-ray: narrowed space under the acromion in shoulder impingement",
+   "author": "Jmarchn",
+   "licence": "CC0",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Shoulder_impingement_syndrome,_X-ray.jpg"
   },
   "s2": {
-   "file": "s2.png",
-   "caption": "Stage II: tendon torn part of the way",
-   "author": "Drawn for this page",
-   "licence": "CC BY 4.0",
-   "source_page_url": ""
+   "file": "s2.jpg",
+   "caption": "MRI: partial tear of the supraspinatus tendon",
+   "author": "RSatUSZ",
+   "licence": "CC BY-SA 4.0",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Subacromial_Impingement_with_Supraspinatus_Rupture.jpg"
   },
   "s3": {
-   "file": "s3.png",
-   "caption": "Stage III: tendon torn all the way through",
-   "author": "Drawn for this page",
-   "licence": "CC BY 4.0",
-   "source_page_url": ""
+   "file": "s3.jpg",
+   "caption": "MRI: full-thickness tear right through the supraspinatus tendon",
+   "author": "RSatUSZ",
+   "licence": "CC BY-SA 3.0 (cropped)",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:1_MRI._Complete_tear_and_rupture_of_the_supraspinatus_tendon._Wide_transmural_damage_(2.4_x_2.4_cm)..jpg"
   },
   "ar": {
    "file": "ar.jpg",
    "caption": "Humeral head ridden up against the acromion",
-   "author": "Micaela E.",
+   "author": "Micaela E",
    "licence": "Public domain",
    "source_page_url": "https://commons.wikimedia.org/wiki/File:Rot_cuff_tear_x-ray.jpg"
   }
@@ -653,10 +1617,10 @@
  "msk-w8-03.2_2": {
   "lhb": {
    "file": "lhb.png",
-   "caption": "Long head tendon inflamed in the intertubercular groove",
-   "author": "Drawn for this page",
-   "licence": "CC BY 4.0",
-   "source_page_url": ""
+   "caption": "Popeye sign: biceps bunched up after the long head tendon tears",
+   "author": "James Heilman, MD",
+   "licence": "CC BY-SA 4.0",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Rupturelongheadbiceps.png"
   },
   "rc": {
    "file": "rc.png",
@@ -666,11 +1630,18 @@
    "source_page_url": "https://commons.wikimedia.org/wiki/File:Shoulder_joint.svg"
   },
   "slap": {
-   "file": "slap.png",
-   "caption": "Labrum torn at the top, where the biceps anchors",
-   "author": "Drawn for this page",
-   "licence": "CC BY 4.0",
-   "source_page_url": ""
+   "file": "slap.jpg",
+   "caption": "MRI of a SLAP lesion: torn superior labrum at the biceps anchor",
+   "author": "RSatUSZ",
+   "licence": "CC BY-SA 3.0",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:MRI._1_SLAP_II_lesion.jpg"
+  },
+  "ref": {
+   "file": "ref.jpg",
+   "caption": "Neck MRI: C6-C7 disc herniation can refer pain to the shoulder",
+   "author": "user:Anthonp",
+   "licence": "CC BY-SA 3.0",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:C6-C7-disc-herniation-cevical-mri-scan-cropped.jpg"
   }
  },
  "msk-w8-05.2_2": {
@@ -733,25 +1704,25 @@
    "source_page_url": ""
   },
   "rup": {
-   "file": "rup.png",
-   "caption": "Tendon torn off the radius; muscle balls up",
-   "author": "Drawn for this page",
-   "licence": "CC BY 4.0",
-   "source_page_url": ""
+   "file": "rup.jpg",
+   "caption": "Ruptured distal biceps: muscle bunched up in the upper arm",
+   "author": "James Heilman, MD",
+   "licence": "CC BY-SA 3.0 (cropped)",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Bicepstendon10.JPG"
   }
  },
  "msk-w8-07.2_2": {
   "une": {
    "file": "une.png",
    "caption": "Ulnar nerve squeezed behind the medial epicondyle",
-   "author": "Mangi, M.D., Zadow, S. & Lim, W.",
+   "author": "Mangi et al.",
    "licence": "CC BY 4.0 (cropped)",
    "source_page_url": "https://commons.wikimedia.org/wiki/File:The_ulnar_nerve_is_shown._The_most_common_entrapment_neuropathies_of_the_ulnar_nerve_are_the_cubital_tunnel_syndrome_at_the_elbow,_and_the_ulnar_tunnel_syndrome_at_the_wrist.webp"
   },
   "pro": {
    "file": "pro.png",
    "caption": "Median nerve trapped between the two heads of pronator teres (red)",
-   "author": "Mangi, M.D., Zadow, S. & Lim, W.",
+   "author": "Mangi et al.",
    "licence": "CC BY 4.0",
    "source_page_url": "https://commons.wikimedia.org/wiki/File:The_median_nerve_is_shown._Entrapment_neuropathies_of_the_median_nerve_include_carpal_tunnel_syndrome,_pronator_teres_syndrome_and_supracondylar_process_syndrome.webp"
   }
@@ -777,6 +1748,13 @@
    "author": "Sjoehest",
    "licence": "CC BY-SA 3.0",
    "source_page_url": "https://commons.wikimedia.org/wiki/File:Scaphoidfraktur_1_postoperativ.jpg"
+  },
+  "drc": {
+   "file": "drc.jpg",
+   "caption": "Displaced wrist fracture: put back in place, then cast",
+   "author": "Ashish j29",
+   "licence": "CC BY 3.0",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Colles_fracture.JPG"
   }
  },
  "msk-w8-08.2_3": {
@@ -901,25 +1879,25 @@
    "source_page_url": "https://commons.wikimedia.org/wiki/File:Meniscus_tear_types.svg"
   },
   "pcl": {
-   "file": "pcl.png",
-   "caption": "Dashboard pushes the tibia back, tearing the PCL",
-   "author": "Drawn for this page",
-   "licence": "CC BY 4.0",
-   "source_page_url": ""
+   "file": "pcl.jpg",
+   "caption": "Knee MRI: arrow shows the PCL torn through",
+   "author": "Shevate I et al.",
+   "licence": "CC BY-NC 4.0",
+   "source_page_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8686511/"
   },
   "mcl": {
-   "file": "mcl.png",
-   "caption": "Valgus blow from outside opens the inside, tearing MCL",
-   "author": "Drawn for this page",
-   "licence": "CC BY 4.0",
-   "source_page_url": ""
+   "file": "mcl.jpg",
+   "caption": "Knee MRI: the MCL pulled off the tibia, a complete tear",
+   "author": "Shevate I et al.",
+   "licence": "CC BY-NC 4.0",
+   "source_page_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8686511/"
   },
   "lcl": {
    "file": "lcl.png",
-   "caption": "Varus force from inside opens the outside, tearing LCL",
-   "author": "Drawn for this page",
-   "licence": "CC BY 4.0",
-   "source_page_url": ""
+   "caption": "Lateral collateral ligament on the outer side of the knee",
+   "author": "InjuryMap",
+   "licence": "CC BY-SA 4.0",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Lateral_collateral_ligament.svg"
   }
  },
  "msk-w9-06.2_3": {
@@ -939,24 +1917,24 @@
   },
   "pcl": {
    "file": "pcl.png",
-   "caption": "Dashboard pushes the tibia back, tearing the PCL",
-   "author": "Drawn for this page",
-   "licence": "CC BY 4.0",
-   "source_page_url": ""
+   "caption": "Tibia from above: the posterior cruciate ligament (post. cruciate)",
+   "author": "Henry Vandyke Carter",
+   "licence": "Public domain",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Gray349.png"
   },
   "mcl": {
-   "file": "mcl.png",
-   "caption": "Valgus blow from outside opens the inside, tearing MCL",
-   "author": "Drawn for this page",
-   "licence": "CC BY 4.0",
-   "source_page_url": ""
+   "file": "mcl.jpg",
+   "caption": "Back of the knee: tibial (medial) collateral ligament on the right",
+   "author": "Henry Vandyke Carter",
+   "licence": "Public domain (cropped)",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Gray348-2.png"
   },
   "lcl": {
    "file": "lcl.png",
-   "caption": "Varus force from inside opens the outside, tearing LCL",
-   "author": "Drawn for this page",
-   "licence": "CC BY 4.0",
-   "source_page_url": ""
+   "caption": "Lateral collateral ligament: the outer-side stabiliser of the knee",
+   "author": "InjuryMap",
+   "licence": "CC BY-SA 4.0",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Lateral_collateral_ligament.svg"
   },
   "pfps": {
    "file": "pfps.png",
@@ -1017,36 +1995,2591 @@
    "source_page_url": "https://commons.wikimedia.org/wiki/File:Grosse_lobulierte_Baker-Zyste_an_typischer_Stelle_26W_-_MR_-_001.jpg"
   }
  },
- "msk-w10-07_2": {
-  "bio": {
-   "file": "bio.jpg",
-   "caption": "TENS unit with four skin pads: electrical stimulation for pain",
-   "author": "Yeza",
-   "licence": "CC BY-SA 4.0",
-   "source_page_url": "https://commons.wikimedia.org/wiki/File:Tens.jpg"
+ "neuro-w13-04_2": {
+  "vest": {
+   "file": "vest.png",
+   "caption": "Orange: the flocculonodular lobe, for balance and eye movements",
+   "author": "BodyParts3D is generated by DBCLS",
+   "licence": "CC BY-SA 2.1 jp",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Three_lobes_of_the_cerebellum_--_01.png"
   },
-  "psy": {
-   "file": "psy.png",
-   "caption": "Beliefs, emotions and behaviours feed each other: CBT breaks the loop",
-   "author": "Lisa Page",
+  "spin": {
+   "file": "spin.jpg",
+   "caption": "Midline vermis and nearby zone: posture and limb movement",
+   "author": "Nrets (Wikipedia)",
    "licence": "CC BY-SA 3.0",
-   "source_page_url": "https://commons.wikimedia.org/wiki/File:CBT_framework.png"
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:CerebellumDiv.png"
   },
-  "reh": {
-   "file": "reh.jpg",
-   "caption": "Fear leads to avoidance and disability; no fear leads to recovery",
-   "author": "LittleT889",
-   "licence": "CC BY-SA 3.0",
-   "source_page_url": "https://commons.wikimedia.org/wiki/File:Fear-avoidance_model.jpg"
+  "cereb": {
+   "file": "cereb.png",
+   "caption": "Lateral hemispheres: planning and timing of skilled movement",
+   "author": "BodyParts3D is generated by DBCLS",
+   "licence": "CC BY-SA 2.1 jp",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Three_lobes_of_the_cerebellum_--_05.png"
+  },
+  "pd": {
+   "file": "pd.jpg",
+   "caption": "Handwriting shrinks (micrographia): hypokinetic, slow small movement",
+   "author": "Unknown authorUnknown author",
+   "licence": "CC BY 4.0",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Consistent_and_progressive_micrographia.png"
+  },
+  "chor": {
+   "file": "chor.jpg",
+   "caption": "Chorea: sudden, irregular, dance-like jerks",
+   "author": "Wikimedia Commons contributor",
+   "licence": "Public domain",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Boys_afflicted_with_rheumatic_chorea.jpg"
   }
  },
- "msk-w10-06_2": {
-  "noc": {
-   "file": "noc.jpg",
-   "caption": "Both knees: joint space narrowed, bone spurs at the edges",
-   "author": "NP2025",
+ "neuro-w13-06_2": {
+  "ant": {
+   "file": "ant.jpg",
+   "caption": "Anterior cord lesion: motor and pain lost, back columns spared",
+   "author": "Rian Kabir",
+   "licence": "CC BY 4.0 (cropped)",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Kabir_Spinal_Cord_Lesions_and_Syndromes.jpg"
+  },
+  "post": {
+   "file": "post.jpg",
+   "caption": "Posterior cord lesion: position and vibration sense lost",
+   "author": "Rian Kabir",
+   "licence": "CC BY 4.0 (cropped)",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Kabir_Spinal_Cord_Lesions_and_Syndromes.jpg"
+  },
+  "bs": {
+   "file": "bs.jpg",
+   "caption": "Hemicord lesion (Brown-Sequard): sides lose different functions",
+   "author": "Rian Kabir",
+   "licence": "CC BY 4.0 (cropped)",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Kabir_Spinal_Cord_Lesions_and_Syndromes.jpg"
+  },
+  "cent": {
+   "file": "cent.jpg",
+   "caption": "Central cord lesion: pain and temperature lost in a cape over the arms",
+   "author": "Rian Kabir",
+   "licence": "CC BY 4.0 (cropped)",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Kabir_Spinal_Cord_Lesions_and_Syndromes.jpg"
+  },
+  "ce": {
+   "file": "ce.jpg",
+   "caption": "MRI: swelling squeezing the cauda equina nerve roots",
+   "author": "Jing Jing Chan and Jen Jen Oh",
+   "licence": "CC BY 4.0",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:MRI_of_the_lumbar_spine_with_abscess_in_the_posterior_epidural_space,_causing_cauda_equina_syndrome.jpg"
+  },
+  "rad": {
+   "file": "rad.jpg",
+   "caption": "MRI: disc bulge (circled) pressing into the spinal canal",
+   "author": "userUser:Tonbi_ko",
+   "licence": "CC BY-SA 3.0",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Spinal_disc_herniation_MRI.svg"
+  }
+ },
+ "neuro-w13-07_2": {
+  "cn3": {
+   "file": "cn3.jpg",
+   "caption": "Third nerve palsy: drooping lid, eye down and out",
+   "author": "Wang Y et al.",
+   "licence": "CC BY 4.0",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Oculomotor_nerve_palsy.png"
+  },
+  "cn6": {
+   "file": "cn6.jpg",
+   "caption": "Right sixth nerve palsy: right eye cannot look outward",
+   "author": "Farid MF et al.",
+   "licence": "CC BY (cropped)",
+   "source_page_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7818568/"
+  },
+  "para": {
+   "file": "para.jpg",
+   "caption": "Unequal pupils: the bigger pupil is the abnormal one",
+   "author": "Tair1978",
    "licence": "CC BY-SA 4.0",
-   "source_page_url": "https://commons.wikimedia.org/wiki/File:Varus_Knee_Osteoarthritis_Xray.jpg"
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Anisocoria0.jpg"
+  },
+  "symp": {
+   "file": "symp.jpg",
+   "caption": "Horner syndrome: small pupil and mild drooping lid",
+   "author": "Davplast",
+   "licence": "CC BY-SA 4.0",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Horner_syndrome.jpg"
+  },
+  "rapd": {
+   "file": "rapd.jpg",
+   "caption": "Light reflex pathway: optic nerve in, third nerve out",
+   "author": "OpenStax College",
+   "licence": "CC BY 3.0",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:1509_Pupillary_Reflex_Pathways.jpg"
+  },
+  "cn4": {
+   "file": "cn4.jpg",
+   "caption": "Superior oblique muscle (black arrow): moved by the fourth nerve",
+   "author": "Patrick.lynch",
+   "licence": "CC BY-SA 3.0",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Oblique_muscles.jpg"
+  }
+ },
+ "neuro-w13-08_2": {
+  "broca": {
+   "file": "broca.jpg",
+   "caption": "Broca area in the left frontal lobe: speech output",
+   "author": "OpenStax College",
+   "licence": "CC BY 3.0 (cropped)",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:1605_Brocas_and_Wernickes_Areas-02.jpg"
+  },
+  "glob": {
+   "file": "glob.png",
+   "caption": "Both Broca and Wernicke areas lost: global aphasia",
+   "author": "National Institute on Deafness and Other Communication Disorders (NIH)",
+   "licence": "Public domain",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:BrocasAreaSmall.png"
+  },
+  "cond": {
+   "file": "cond.jpg",
+   "caption": "Arcuate fasciculus: the cable joining the two language areas",
+   "author": "Yeh et al.",
+   "licence": "CC BY-SA 4.0",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Arcuate_Fasciculus.jpg"
+  },
+  "wern": {
+   "file": "wern.jpg",
+   "caption": "Wernicke area in the left temporal lobe: understanding",
+   "author": "OpenStax College",
+   "licence": "CC BY 3.0 (cropped)",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:1605_Brocas_and_Wernickes_Areas-02.jpg"
+  },
+  "tcm": {
+   "file": "tcm.jpg",
+   "caption": "Frontal-lobe stroke on MRI: damage in front of Broca's area",
+   "author": "Hellerhoff",
+   "licence": "CC BY-SA 4.0",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Unilateraler_Anteriorinfarkt_70M_-_MR_DWI_ADC_TOF_-_001.jpg"
+  }
+ },
+ "neuro-w13-09_2": {
+  "stem": {
+   "file": "stem.jpg",
+   "caption": "Midbrain, pons and medulla: the brainstem",
+   "author": "OpenStax",
+   "licence": "CC0",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Brain_stem_parts.png"
+  },
+  "cord": {
+   "file": "cord.jpg",
+   "caption": "Neck MRI: spinal cord (grey band) squeezed at disc levels",
+   "author": "Jmarchn",
+   "licence": "CC BY-SA 3.0 (cropped)",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Compressive_myeolopathy_C6C7.png"
+  },
+  "root": {
+   "file": "root.png",
+   "caption": "Cervical cord with its nerve roots and ganglia",
+   "author": "Cristiane Tilelli",
+   "licence": "CC BY-SA 4.0",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Medula_espinhal_cervical_com_ra%C3%ADzes.png"
+  },
+  "ahc": {
+   "file": "ahc.jpg",
+   "caption": "Motor neuron cell body and the muscle fibres it drives",
+   "author": "Daniel Walsh and Alan Sved",
+   "licence": "CC BY-SA 4.0",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Motor_unit.png"
+  },
+  "plex": {
+   "file": "plex.jpg",
+   "caption": "Brachial plexus: roots join and split on the way to the arm",
+   "author": "DrJanaOfficial",
+   "licence": "CC BY 4.0",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Brachial_Plexus.png"
+  },
+  "nmj": {
+   "file": "nmj.png",
+   "caption": "Nerve ending releasing acetylcholine onto muscle",
+   "author": "Doctor Jana",
+   "licence": "CC BY 4.0",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Neuro_Muscular_Junction.png"
+  },
+  "muscle": {
+   "file": "muscle.jpg",
+   "caption": "Muscle biopsy under the microscope: muscle disease (Becker dystrophy)",
+   "author": "Jensflorian",
+   "licence": "CC BY-SA 3.0",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:BMD_histology.jpg"
+  },
+  "brain": {
+   "file": "brain.jpg",
+   "caption": "Motor cortex map: which strip of brain moves which body part",
+   "author": "original artist unknown; modified by user:Looie496",
+   "licence": "Public domain",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Human_motor_cortex_topography.png"
+  },
+  "nerve": {
+   "file": "nerve.png",
+   "caption": "Signal jumping along a myelinated peripheral nerve fibre",
+   "author": "Helixitta",
+   "licence": "CC BY-SA 4.0",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Propagation_of_action_potential_along_myelinated_nerve_fiber_en.svg"
+  }
+ },
+ "neuro-w13-10_2": {
+  "cortex": {
+   "file": "cortex.png",
+   "caption": "Cerebral cortex: gyri of the brain surface",
+   "author": "Frank Gaillard",
+   "licence": "CC BY-SA 4.0",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Gyri_of_lateral_cortex.png"
+  },
+  "subcortex": {
+   "file": "subcortex.jpg",
+   "caption": "White matter tracts running beneath the cortex",
+   "author": "Moeller K, Willmes K and Klein E",
+   "licence": "CC BY 4.0",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Schematic_illustration_of_projection_fibers.jpg"
+  },
+  "stem": {
+   "file": "stem.png",
+   "caption": "Brainstem: midbrain, pons and medulla",
+   "author": "DataBase Center for Life Science (DBCLS)",
+   "licence": "CC BY 4.0",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:201405_brainstem.png"
+  },
+  "cereb": {
+   "file": "cereb.jpg",
+   "caption": "Cerebellum: coordinates movement and balance",
+   "author": "OpenStax College",
+   "licence": "CC BY 3.0",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:1613_Major_Regions_of_the_Cerebellum-02.jpg"
+  },
+  "legs": {
+   "file": "legs.png",
+   "caption": "Spinal cord level and the paralysis it causes",
+   "author": "Servier Medical Art",
+   "licence": "CC BY 2.0",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Neurological_Levels_%26_Types_of_Paralysis.png"
+  }
+ },
+ "neuro-w13-13_2": {
+  "xr": {
+   "file": "xr.jpg",
+   "caption": "Plain skull X-ray, side view: bone shows white",
+   "author": "ANUG",
+   "licence": "CC BY-SA 4.0",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Cephalometric_radiograph.JPG"
+  },
+  "fl": {
+   "file": "fl.jpg",
+   "caption": "C-arm fluoroscopy unit: real-time X-ray imaging",
+   "author": "Ben Stephenson from Beltsville, Maryland",
+   "licence": "CC BY 2.0",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Mobile_X-ray_machine.jpg"
+  },
+  "us": {
+   "file": "us.jpg",
+   "caption": "Ultrasound probe on the neck and its colour Doppler picture",
+   "author": "National Heart Lung and Blood Insitute (NIH)",
+   "licence": "Public domain",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Carotid_ultrasound.jpg"
+  },
+  "ct": {
+   "file": "ct.jpg",
+   "caption": "CT scanner: X-ray tube spins around the head",
+   "author": "Goleisureintl",
+   "licence": "CC BY 4.0",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:CT_Brain_Scan.jpg"
+  },
+  "mri": {
+   "file": "mri.jpg",
+   "caption": "MRI of the brain, T2 sequence: fluid looks bright",
+   "author": "511KeV",
+   "licence": "CC BY-SA 4.0",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:MRI_Brain_T2_Axial_(10).jpg"
+  }
+ },
+ "neuro-w14-01_2": {
+  "edh": {
+   "file": "edh.jpg",
+   "caption": "Lens-shaped bleed under the skull on CT: epidural hematoma",
+   "author": "Hellerhoff",
+   "licence": "CC BY-SA 3.0 (cropped)",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Epidurale_Blutung_-_CT_-_WT-KF.jpg"
+  },
+  "cont": {
+   "file": "cont.png",
+   "caption": "Brain hits the skull at the impact (coup) and the opposite side (contrecoup)",
+   "author": "Patrick J. Lynch, medical illustrator",
+   "licence": "CC BY 2.5",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Contrecoup.svg"
+  },
+  "ich": {
+   "file": "ich.jpg",
+   "caption": "Bright blood inside the brain tissue on CT: intracerebral hemorrhage",
+   "author": "Glitzy queen00 at English Wikipedia",
+   "licence": "Public domain",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Intracerebral_hemorrage_(CT_scan).jpg"
+  },
+  "dai": {
+   "file": "dai.jpg",
+   "caption": "Four MRI types of one brain: T2* shows the tiny shear bleeds",
+   "author": "Hellerhoff",
+   "licence": "CC BY-SA 3.0",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Diffuse_axonal_injury-_cMRT_nach_3_Tagen.jpg"
+  },
+  "sdh": {
+   "file": "sdh.jpg",
+   "caption": "Crescent of blood over the brain on CT: acute subdural hematoma",
+   "author": "Glitzy queen00 at English Wikipedia",
+   "licence": "Public domain",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Trauma_subdural_arrow.jpg"
+  },
+  "conc": {
+   "file": "conc.png",
+   "caption": "Jolt moves the brain inside the skull: the force behind concussion",
+   "author": "Patrick J. Lynch, medical illustrator",
+   "licence": "CC BY 2.5",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Concussion_mechanics.svg"
+  }
+ },
+ "neuro-w14-02_2": {
+  "mye": {
+   "file": "mye.jpg",
+   "caption": "Spinal cord lesion on MRI: myelitis",
+   "author": "Frank Gaillard",
+   "licence": "CC BY-SA 3.0 (cropped)",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Transverse_myelitis_MRI.jpg"
+  },
+  "on": {
+   "file": "on.jpg",
+   "caption": "Optic neuritis: swollen, blurred optic disc",
+   "author": "Pratik Y. Gogri et al.",
+   "licence": "CC BY 4.0",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Optic-neuritis-in-the-right-eye.jpg"
+  },
+  "bs": {
+   "file": "bs.jpg",
+   "caption": "MRI: demyelinating lesion (arrow) in the brainstem pons",
+   "author": "Kanchan Kanchan et al.",
+   "licence": "CC BY 4.0 (cropped)",
+   "source_page_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12743190/"
+  }
+ },
+ "neuro-w14-03_2": {
+  "ich": {
+   "file": "ich.png",
+   "caption": "CT: bright white blood inside the brain tissue",
+   "author": "Shazia Mirza and Sankalp Gokhale",
+   "licence": "CC BY 4.0",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:CT_of_basal_ganglionic_hemorrhage.png"
+  },
+  "sah": {
+   "file": "sah.png",
+   "caption": "CT: bright blood fills the spaces around the brain",
+   "author": "Shazia Mirza and Sankalp Gokhale",
+   "licence": "CC BY 4.0",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:CT_of_subarachnoid_hemorrhage.png"
+  },
+  "isch": {
+   "file": "isch.png",
+   "caption": "CT: a dark wedge of brain starved of blood (infarct)",
+   "author": "Shazia Mirza and Sankalp Gokhale",
+   "licence": "CC BY 4.0",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:CT_of_cerebral_infarction.png"
+  },
+  "tia": {
+   "file": "tia.jpg",
+   "caption": "Ultrasound: plaque narrowing the neck artery, a cause of TIA",
+   "author": "James Heilman, MD",
+   "licence": "CC BY-SA 4.0",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:70PerBlockedRtCarotidA.png"
+  }
+ },
+ "neuro-w14-04_2": {
+  "root": {
+   "file": "root.jpg",
+   "caption": "MRI: L5-S1 disc bulge pressing on a nerve root",
+   "author": "Davidjr74",
+   "licence": "CC0",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Herniated-Disc.jpg"
+  },
+  "poly": {
+   "file": "poly.jpg",
+   "caption": "Painless heel ulcer: diabetic neuropathy in the feet",
+   "author": "Jonathan Moore",
+   "licence": "CC BY 3.0",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Neuropathic_heel_ulcer_diabetic.jpg"
+  },
+  "mono": {
+   "file": "mono.jpg",
+   "caption": "Phalen test: wrists bent, median nerve squeezed in the carpal tunnel",
+   "author": "LittleT889",
+   "licence": "CC BY-SA 4.0",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Phalen%27s_Maneuver.jpg"
+  },
+  "cord": {
+   "file": "cord.jpg",
+   "caption": "Neck MRI: arrow marks a multiple sclerosis lesion in the cord",
+   "author": "Brown SP (Cureus 2024)",
+   "licence": "CC BY 4.0 (cropped)",
+   "source_page_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11185423/"
+  },
+  "gbs": {
+   "file": "gbs.jpg",
+   "caption": "Spine MRI with contrast: arrows show inflamed nerve roots (GBS)",
+   "author": "Carranza O et al.",
+   "licence": "CC BY 4.0",
+   "source_page_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9117845/"
+  },
+  "thal": {
+   "file": "thal.jpg",
+   "caption": "Head CT: bright blood in both thalami (arrows)",
+   "author": "Al-Shahwani ZA et al.",
+   "licence": "CC BY 4.0",
+   "source_page_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11411231/"
+  }
+ },
+ "neuro-w14-05_2": {
+  "tca": {
+   "file": "tca.jpg",
+   "caption": "Amitriptyline: three-ring (tricyclic) structure",
+   "author": "Ben Mills",
+   "licence": "Public domain",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Amitriptyline-2D-skeletal.png"
+  },
+  "snri": {
+   "file": "snri.png",
+   "caption": "Duloxetine structure (a serotonin-noradrenaline reuptake inhibitor)",
+   "author": "Jü",
+   "licence": "Public domain",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Duloxetine_Structural_Formulae.png"
+  },
+  "gab": {
+   "file": "gab.png",
+   "caption": "Pregabalin structure, a GABA look-alike",
+   "author": "Jü",
+   "licence": "Public domain",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Pregabalin_Structural_Formulae.png"
+  },
+  "carb": {
+   "file": "carb.png",
+   "caption": "Carbamazepine structure: blocks sodium channels",
+   "author": "Vyacheslav Nasretdinov",
+   "licence": "CC BY-SA 3.0",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Carbamazepine_Structure.svg"
+  },
+  "oth": {
+   "file": "oth.png",
+   "caption": "Capsaicin (chili pepper heat) structure: used in topical patches and creams",
+   "author": "Jürgen Martens (Jü)",
+   "licence": "Public domain",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Capsaicin_Formulae.png"
+  }
+ },
+ "neuro-w14-06_2": {
+  "sah": {
+   "file": "sah.jpg",
+   "caption": "Bright blood around the brain on CT: subarachnoid hemorrhage",
+   "author": "Dr. George Jallo",
+   "licence": "CC BY-SA 3.0",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:CT_scan_-_subarachnoid_hemorrhage.jpg"
+  },
+  "men": {
+   "file": "men.jpg",
+   "caption": "Star-shaped purple rash: meningococcal sepsis with meningitis",
+   "author": "Глей А.І., Шкурба А.В",
+   "licence": "Public domain",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:%D0%A2%D0%B8%D0%BF%D0%BE%D0%B2%D0%B8%D0%B9_%D0%B2%D0%B8%D1%81%D0%B8%D0%BF_%D0%BD%D0%B0_%D0%BA%D0%B8%D1%81%D1%82%D1%96_%D0%BF%D1%80%D0%B8_%D0%BC%D0%B5%D0%BD%D1%96%D0%BD%D0%B3%D0%BE%D0%BA%D0%BE%D0%BA%D1%86%D0%B5%D0%BC%D1%96%D1%97.jpg"
+  },
+  "gca": {
+   "file": "gca.jpg",
+   "caption": "Temporal artery biopsy: giant cells in the inflamed wall",
+   "author": "Nephron",
+   "licence": "CC BY-SA 3.0",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Giant_cell_arteritis_--_intermed_mag.jpg"
+  },
+  "tum": {
+   "file": "tum.jpg",
+   "caption": "MRI: a mass crossing the midline (glioblastoma)",
+   "author": "John H. Rossmeisl et al.",
+   "licence": "CC BY 4.0",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Butterfly_glioblastoma.png"
+  },
+  "iih": {
+   "file": "iih.jpg",
+   "caption": "Swollen optic disc (papilledema) from raised pressure",
+   "author": "Jonathan Trobe, M.D. - University of Michigan Kellogg Eye Center",
+   "licence": "CC BY 3.0",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Papilledema.jpg"
+  },
+  "mig": {
+   "file": "mig.png",
+   "caption": "Zigzag shimmering visual aura before migraine",
+   "author": "Mikael Häggström",
+   "licence": "CC0",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Scintillating_zigzag_scotoma.gif"
+  },
+  "tth": {
+   "file": "tth.jpg",
+   "caption": "Tension-type pain: a band around the whole head",
+   "author": "Jairo Hernandez et al.",
+   "licence": "CC BY 4.0",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Pain_distribution_primary_headache_types.png"
+  },
+  "clu": {
+   "file": "clu.jpg",
+   "caption": "Drooping eyelid during a cluster headache attack",
+   "author": "tB",
+   "licence": "CC BY-SA 4.0 (cropped)",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Ptosis_2018-08-31_17.41.20.jpg"
+  }
+ },
+ "neuro-w14-07_2": {
+  "bd": {
+   "file": "bd.jpg",
+   "caption": "Flat (isoelectric) EEG: no brain electrical activity",
+   "author": "Ericneuro",
+   "licence": "CC BY-SA 4.0",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Isoeletrico_EEG.jpg"
+  },
+  "lis": {
+   "file": "lis.jpg",
+   "caption": "MRI: stroke in the pons, the cause of locked-in syndrome",
+   "author": "Maffini F et al.",
+   "licence": "CC BY",
+   "source_page_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3869474/"
+  }
+ },
+ "neuro-w14-08_2": {
+  "single": {
+   "file": "single.jpg",
+   "caption": "MRI hunts for a cause: shrunken, scarred temporal lobe",
+   "author": "Uhomachinky",
+   "licence": "CC BY-SA 4.0",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Left_Hippocampal_Sclerosis_on_MRI.jpg"
+  },
+  "epi": {
+   "file": "epi.png",
+   "caption": "EEG: bursts of spike and wave during a seizure",
+   "author": "Bromfield EB et al.",
+   "licence": "CC BY-SA 4.0",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:EEG_Absence_seizure.png"
+  },
+  "prov": {
+   "file": "prov.jpg",
+   "caption": "Low blood sugar is one transient trigger of a seizure",
+   "author": "Roy Zuo",
+   "licence": "CC BY-SA 4.0",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:(20250417)_Blood_glucose_meter_09.jpg"
+  },
+  "ne": {
+   "file": "ne.jpg",
+   "caption": "Heart rhythm trace: faints from the heart can look like seizures",
+   "author": "Peterhcharlton",
+   "licence": "CC BY 4.0 (cropped)",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:12_lead_ECG.jpg"
+  },
+  "se": {
+   "file": "se.jpg",
+   "caption": "Lorazepam: first drug given to stop a prolonged seizure",
+   "author": "Tama998",
+   "licence": "CC0",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Lorazepam_0.5mg.JPG"
+  }
+ },
+ "neuro-w14-10_2": {
+  "edh": {
+   "file": "edh.jpg",
+   "caption": "CT: lens-shaped bright clot under the skull (epidural)",
+   "author": "James Heilman, MD",
+   "licence": "CC BY-SA 4.0",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:EpiduralHematoma.jpg"
+  },
+  "sdh": {
+   "file": "sdh.jpg",
+   "caption": "CT: crescent-shaped clot over the brain (acute subdural)",
+   "author": "Glitzy queen00 at English Wikipedia",
+   "licence": "Public domain",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Trauma_subdural.jpg"
+  },
+  "sah": {
+   "file": "sah.jpg",
+   "caption": "CT: bright blood in the basal cisterns (subarachnoid)",
+   "author": "Dr. George Jallo",
+   "licence": "CC BY-SA 3.0",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:CT_scan_-_subarachnoid_hemorrhage.jpg"
+  },
+  "hyd": {
+   "file": "hyd.jpg",
+   "caption": "CT: enlarged fluid-filled ventricles (hydrocephalus)",
+   "author": "Lucien Monfils",
+   "licence": "CC BY-SA 3.0",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Hydrocephalus_(cropped).jpg"
+  },
+  "tum": {
+   "file": "tum.jpg",
+   "caption": "FLAIR MRI: tumour with a bright wing of swelling (vasogenic edema)",
+   "author": "Bobjgalindo",
+   "licence": "CC BY-SA 4.0 (cropped)",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:MRI_brain_tumor.jpg"
+  }
+ },
+ "neuro-w14-11_2": {
+  "bac": {
+   "file": "bac.jpg",
+   "caption": "Spinal fluid Gram stain: bacteria and white cells",
+   "author": "Microman12345",
+   "licence": "CC BY-SA 4.0",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Neisseria_meningitidis_CSF_Gram_1000.jpg"
+  },
+  "asep": {
+   "file": "asep.jpg",
+   "caption": "Spinal fluid: a few lymphocytes, no bacteria (viral pattern)",
+   "author": "Jensflorian",
+   "licence": "CC BY-SA 4.0",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:HSV1_encephalitis_CSF_specimen.jpg"
+  },
+  "hsv": {
+   "file": "hsv.jpg",
+   "caption": "MRI: swelling of the temporal lobes (herpes encephalitis)",
+   "author": "dr Laughlin Dawes",
+   "licence": "CC BY 3.0",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Hsv_encephalitis.jpg"
+  }
+ },
+ "neuro-w15-02_2": {
+  "hgg": {
+   "file": "hgg.jpg",
+   "caption": "MRI: glioblastoma, ring-enhancing mass with surrounding swelling",
+   "author": "The Armed Forces Institute of Pathology",
+   "licence": "Public domain",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:AFIP-00405558-Glioblastoma-Radiology.jpg"
+  },
+  "pcl": {
+   "file": "pcl.jpg",
+   "caption": "MRI: primary CNS lymphoma, enhancing deep brain mass",
+   "author": "Tdvorak",
+   "licence": "CC BY-SA 3.0",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Tumor_PrimaryCNSLymphoma_T1Axial.JPG"
+  },
+  "met": {
+   "file": "met.jpg",
+   "caption": "MRI: brain metastasis, enhancing lesion with swelling",
+   "author": "Drahreg01",
+   "licence": "CC BY-SA 4.0",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:HirnmetastaseMR001.jpg"
+  },
+  "lgg": {
+   "file": "lgg.jpg",
+   "caption": "MRI: low-grade diffuse astrocytoma, slow-growing brain tumour",
+   "author": "The Armed Forces Institute of Pathology",
+   "licence": "Public domain",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:405518-FIBRILLARY_OR_DIFFUSE_ASTROCYTIC_NEOPLASM.jpg"
+  }
+ },
+ "neuro-w15-03_2": {
+  "oth": {
+   "file": "oth.jpg",
+   "caption": "MRI in progressive supranuclear palsy: shrunken midbrain",
+   "author": "Dr Laughlin Dawes",
+   "licence": "CC BY 3.0",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Steele-olszewski-richardson_disease.jpg"
+  },
+  "pd": {
+   "file": "pd.jpg",
+   "caption": "Parkinson disease: stooped posture, flexed arms (Gowers, 1886)",
+   "author": "William Gowers",
+   "licence": "Public domain",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Drawings_of_a_Parkinson_patient_by_William_Gowers.jpg"
+  },
+  "et": {
+   "file": "et.jpg",
+   "caption": "Spiral drawn by someone with essential tremor: shaky lines",
+   "author": "Undescribed",
+   "licence": "CC BY-SA 4.0",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Spiral_drawing_-_essential_tremor.jpg"
+  }
+ },
+ "neuro-w15-04_2": {
+  "mt": {
+   "file": "mt.png",
+   "caption": "Mother passes mutant mtDNA; the share in each child varies",
+   "author": "Jmarchn",
+   "licence": "CC BY-SA 3.0",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Inheritance_in_mitochondrial_diseases.svg"
+  },
+  "nu": {
+   "file": "nu.png",
+   "caption": "The small mtDNA ring: most mitochondrial proteins come from nuclear genes",
+   "author": "Shanel",
+   "licence": "CC BY-SA 3.0",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Mitochondrial_DNA_en.svg"
+  },
+  "dm": {
+   "file": "dm.jpg",
+   "caption": "Muscles weakened in myotonic dystrophy: face, neck, hands, legs",
+   "author": "Wenninger et al.",
+   "licence": "CC BY 4.0",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Myotonic_dystrophy_muscle_distribution.jpg"
+  },
+  "hd": {
+   "file": "hd.jpg",
+   "caption": "Neuron with a clump of mutant huntingtin protein (inclusion body)",
+   "author": "Dr. Steven Finkbeiner, Gladstone Institute of Neurological Disease, The Taube-Ko",
+   "licence": "CC BY 3.0",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Neuron_with_mHtt_inclusion.jpg"
+  }
+ },
+ "neuro-w15-05_2": {
+  "cen": {
+   "file": "cen.png",
+   "caption": "Trisomy 21 karyotype: an extra chromosome 21 (a cause of central hypotonia)",
+   "author": "National Human Genome Research Institute",
+   "licence": "CC BY-SA 4.0",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Down_Syndrome_karyotype.png"
+  },
+  "per": {
+   "file": "per.png",
+   "caption": "Motor unit: nerve cell, junction, muscle: weakness if any link fails",
+   "author": "ScholarJay",
+   "licence": "CC BY-SA 4.0",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Motor_Unit.png"
+  }
+ },
+ "neuro-w15-05_3": {
+  "cse": {
+   "file": "cse.png",
+   "caption": "EEG trace: seizure activity starting and spreading",
+   "author": "Velasco F, et al.",
+   "licence": "CC BY-SA 4.0",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Epilepsy-_right_hippocampal_seizure_onset.png"
+  },
+  "sfs": {
+   "file": "sfs.jpg",
+   "caption": "Fever thermometer: the seizure comes with a fever",
+   "author": "Stilfehler",
+   "licence": "CC BY-SA 3.0",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Digitales_Fieberthermometer.jpg"
+  },
+  "cfs": {
+   "file": "cfs.jpg",
+   "caption": "MRI: shrunken left hippocampus, linked to complex febrile seizures",
+   "author": "Uhomachinky",
+   "licence": "CC BY-SA 4.0",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Left_Hippocampal_Sclerosis_on_MRI.jpg"
+  }
+ },
+ "neuro-w15-05_4": {
+  "tum": {
+   "file": "tum.jpg",
+   "caption": "MRI: medulloblastoma, an enhancing mass in the cerebellum",
+   "author": "The Armed Forces Institute of Pathology",
+   "licence": "Public domain",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:AFIP405851R-MEDULLOBLASTOMA.jpg"
+  },
+  "men": {
+   "file": "men.png",
+   "caption": "Meningitis: inflamed membranes around the brain",
+   "author": "Laboratoires Servier",
+   "licence": "CC BY-SA 3.0",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Nervous_system_-_Meningitis_1_--_Smart-Servier.png"
+  },
+  "tox": {
+   "file": "tox.jpg",
+   "caption": "Sedative tablets (a benzodiazepine): a child may swallow them",
+   "author": "Żółwiciel",
+   "licence": "CC BY 3.0",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Lorafen_(lorazepamum)_tablets,_1_mg.jpg"
+  },
+  "str": {
+   "file": "str.jpg",
+   "caption": "CT: a bright bleed inside the brain (hemorrhagic stroke)",
+   "author": "Glitzy queen00 at English Wikipedia",
+   "licence": "Public domain",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Intracerebral_hemorrhage_2.jpg"
+  }
+ },
+ "neuro-w15-06_2": {
+  "crao": {
+   "file": "crao.jpg",
+   "caption": "Pale swollen retina with a cherry-red spot at the macula",
+   "author": "Achim Fieß et al.",
+   "licence": "CC BY 2.0",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Cherry_Red_Spot_Fiess.jpg"
+  },
+  "gca": {
+   "file": "gca.jpg",
+   "caption": "Temporal artery biopsy: giant cells in the inflamed wall",
+   "author": "Nephron",
+   "licence": "CC BY-SA 3.0",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Giant_cell_arteritis_--_intermed_mag.jpg"
+  },
+  "rd": {
+   "file": "rd.jpg",
+   "caption": "Retinal detachment: the retina lifts off, with a horseshoe tear",
+   "author": "Amaris5",
+   "licence": "CC BY-SA 4.0",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Rhegmatogene_amotio_retinae.jpg"
+  },
+  "amd": {
+   "file": "amd.jpg",
+   "caption": "Fundus photo: yellow drusen deposits at the macula",
+   "author": "Unknown authorUnknown author",
+   "licence": "Public domain (cropped)",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Intermediate_age_related_macular_degeneration.jpg"
+  },
+  "cat": {
+   "file": "cat.jpg",
+   "caption": "Cataract: the lens turns cloudy and white behind the pupil",
+   "author": "Rakesh Ahuja, MD",
+   "licence": "CC BY-SA 3.0",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Slit_lamp_view_of_Cataract_in_Human_Eye.png"
+  },
+  "gl": {
+   "file": "gl.png",
+   "caption": "Open-angle glaucoma: slow drainage, pressure harms the optic nerve",
+   "author": "Laboratoires Servier",
+   "licence": "CC BY-SA 3.0",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Visual_system_-_Open-angle_glaucoma_--_Smart-Servier.png"
+  },
+  "vh": {
+   "file": "vh.jpg",
+   "caption": "Diabetic eye: fragile new vessels that can bleed into the vitreous",
+   "author": "http://www.nei.nih.gov/photo/eyedis/index.asp",
+   "licence": "Public domain",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Fundus_Proliferative_retinopathy_EDA01.JPG"
+  },
+  "on": {
+   "file": "on.jpg",
+   "caption": "Optic neuritis: swollen, blurred optic disc",
+   "author": "Pratik Y. Gogri et al.",
+   "licence": "CC BY 4.0",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Optic-neuritis-in-the-right-eye.jpg"
+  }
+ },
+ "neuro-w15-07_2": {
+  "lid": {
+   "file": "lid.jpg",
+   "caption": "Stye (hordeolum): tender red lump on the eyelid margin",
+   "author": "Andre Riemann",
+   "licence": "Public domain",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Stye02.jpg"
+  },
+  "vir": {
+   "file": "vir.jpg",
+   "caption": "Viral conjunctivitis: red, watery eye without thick pus",
+   "author": "Microrao",
+   "licence": "CC BY-SA 4.0",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Viral_conjunctivitis.jpg"
+  },
+  "bac": {
+   "file": "bac.jpg",
+   "caption": "Bacterial conjunctivitis: red eye with sticky yellow-white discharge",
+   "author": "Gzzz",
+   "licence": "CC BY-SA 4.0 (cropped)",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Bacterial_conjunctivitis.jpg"
+  },
+  "gon": {
+   "file": "gon.jpg",
+   "caption": "Gonococcal conjunctivitis: severe pus and swollen lids",
+   "author": "Wikimedia Commons",
+   "licence": "Public domain",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Conjunctivitis_5174.jpg"
+  },
+  "all": {
+   "file": "all.jpg",
+   "caption": "Allergic conjunctivitis: itchy eye with swollen, clear conjunctiva",
+   "author": "James Heilman, MD",
+   "licence": "CC BY-SA 4.0",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Allergicconjunctivitis.jpg"
+  },
+  "abr": {
+   "file": "abr.jpg",
+   "caption": "Corneal abrasion: fluorescein dye glows green where the surface is scraped",
+   "author": "James Heilman, MD",
+   "licence": "CC BY-SA 4.0",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Corneal_Abrasion_with_Fluorescein_Staining.jpg"
+  },
+  "sch": {
+   "file": "sch.jpg",
+   "caption": "Subconjunctival hemorrhage: painless, sharply bright-red patch",
+   "author": "Daniel Flather",
+   "licence": "CC BY-SA 3.0",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Subconjunctival_hemorrhage_eye.JPG"
+  },
+  "uv": {
+   "file": "uv.jpg",
+   "caption": "Anterior uveitis: ring of redness around the cornea and a small pupil",
+   "author": "Jonathan Trobe, M.D.",
+   "licence": "CC BY 3.0 (cropped)",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Anterior-uveitis.jpg"
+  },
+  "aac": {
+   "file": "aac.jpg",
+   "caption": "Acute angle closure: red eye, cloudy cornea, fixed mid-dilated pupil",
+   "author": "Jonathan Trobe, M.D.",
+   "licence": "CC BY 3.0",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Acute_Angle_Closure-glaucoma.jpg"
+  },
+  "ker": {
+   "file": "ker.jpg",
+   "caption": "Hypopyon: a layer of pus in the eye, seen in severe bacterial keratitis",
+   "author": "Imrankabirhossain",
+   "licence": "CC BY-SA 4.0",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Hypopyon_1.jpg"
+  }
+ },
+ "neuro-w15-07_3": {
+  "hy": {
+   "file": "hy.jpg",
+   "caption": "Blood layering in the front of the eye (hyphema)",
+   "author": "Rakesh Ahuja, MD",
+   "licence": "CC BY-SA 2.5",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Hyphema_-_occupying_half_of_anterior_chamber_of_eye.jpg"
+  },
+  "fb": {
+   "file": "fb.jpg",
+   "caption": "Iron fleck on the cornea with a rust halo",
+   "author": "E van Herk",
+   "licence": "CC BY-SA 3.0",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Foreign_body_in_eye.jpg"
+  },
+  "cl": {
+   "file": "cl.jpg",
+   "caption": "Iris pushed out through the torn cornea: do not press on the eye",
+   "author": "Maria Sieglinda von Nudeldorf",
+   "licence": "CC BY-SA 4.0",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Blunt_ocular_trauma_-_iris_protrusion.jpg"
+  },
+  "ti": {
+   "file": "ti.jpg",
+   "caption": "Slit lamp view: inflammatory cells floating in the front chamber (iritis)",
+   "author": "Pratik Y. Gogri et al.",
+   "licence": "CC BY 4.0",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Anterior-uveitis2.jpg"
+  }
+ },
+ "neuro-w15-08_2": {
+  "white": {
+   "file": "white.jpg",
+   "caption": "White pupil reflex in a child: retinoblastoma until proven otherwise",
+   "author": "J Morley-Smith",
+   "licence": "Public domain",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Rb_whiteeye.PNG"
+  },
+  "amb": {
+   "file": "amb.jpg",
+   "caption": "Tumbling E chart: tests each eye's vision in young children",
+   "author": "Sarindam7",
+   "licence": "CC BY-SA 3.0",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Medical_Instrument_Eye_Visual_acuity_chart_E_chart.jpg"
+  },
+  "con": {
+   "file": "con.jpg",
+   "caption": "Same inward turn in every gaze: concomitant esotropia",
+   "author": "Sgfin",
+   "licence": "CC BY-SA 4.0",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Esotropia.jpg"
+  },
+  "inc": {
+   "file": "inc.jpg",
+   "caption": "Duane syndrome: left eye cannot turn out, so the angle changes",
+   "author": "Jmarchn",
+   "licence": "CC BY-SA 3.0",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Left_Duane_Type_I.jpg"
+  },
+  "dim": {
+   "file": "dim.jpg",
+   "caption": "Cataract at the slit lamp: an opacity in the pupil dims the reflex",
+   "author": "Iceclanl",
+   "licence": "CC BY-SA 4.0",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Congenital_Cataract_of_the_Eye.jpg"
+  },
+  "bright": {
+   "file": "bright.jpg",
+   "caption": "Ophthalmoscope: used to compare the two red reflexes",
+   "author": "James Heilman, MD",
+   "licence": "Public domain",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Ophthalmoscope_Otoscope08.JPG"
+  }
+ },
+ "neuro-w15-09_2": {
+  "eac": {
+   "file": "eac.jpg",
+   "caption": "Red, swollen ear canal: otitis externa",
+   "author": "Klaus D. Peter, Wiehl, Germany",
+   "licence": "CC BY 3.0 de",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Otitis_externa.jpg"
+  },
+  "om": {
+   "file": "om.jpg",
+   "caption": "Bulging, pus-filled eardrum: acute otitis media",
+   "author": "Michael Hawke MD",
+   "licence": "CC BY 4.0",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Acute_Otitis_Media_Stage_of_Resolution.jpg"
+  },
+  "fix": {
+   "file": "fix.jpg",
+   "caption": "Hole in the eardrum: a perforation",
+   "author": "Didier Descouens",
+   "licence": "CC BY-SA 4.0",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:PerforationTympan.jpg"
+  },
+  "ssnhl": {
+   "file": "ssnhl.jpg",
+   "caption": "Audiogram: hearing thresholds drop (sensorineural loss)",
+   "author": "Marekp",
+   "licence": "Public domain",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Audiogramma_sordit%C3%A0.jpg"
+  },
+  "vs": {
+   "file": "vs.jpg",
+   "caption": "MRI: vestibular schwannoma in the ear-brain canal (one side)",
+   "author": "see above",
+   "licence": "CC BY 2.0",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Acoustic_schwannoma.jpg"
+  },
+  "grad": {
+   "file": "grad.jpg",
+   "caption": "Audiogram: both ears lose high pitches first (noise notch shown)",
+   "author": "Christa L. Themann",
+   "licence": "Public domain",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Typical_audiometric_%22noise_notch%22.png"
+  }
+ },
+ "neuro-w15-10_2": {
+  "men": {
+   "file": "men.jpg",
+   "caption": "Audiogram in Meniere disease: low-pitch hearing loss that fluctuates",
+   "author": "Ijustam",
+   "licence": "Public domain",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Menieres-hearing-loss.png"
+  },
+  "scd": {
+   "file": "scd.png",
+   "caption": "CT of the temporal bone: a gap in the roof of the superior canal",
+   "author": "Han-Kuang Chen",
+   "licence": "CC BY 4.0",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Superior_semicircular_canal_dehiscence_syndrome_-_CT_scan.gif"
+  },
+  "bppv": {
+   "file": "bppv.jpg",
+   "caption": "Loose crystals in a canal: the cause of BPPV",
+   "author": "TnoXX",
+   "licence": "CC BY 4.0 (cropped)",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Canalolithiasis.jpg"
+  },
+  "ami": {
+   "file": "ami.jpg",
+   "caption": "Gentamicin injection vial: can poison the inner ear",
+   "author": "LHcheM",
+   "licence": "CC BY-SA 3.0",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Gentamicin_for_injection.jpg"
+  },
+  "neu": {
+   "file": "neu.png",
+   "caption": "Nystagmus: the eyes jerk, with the fast phase away from the bad ear",
+   "author": "Mr.Polaz",
+   "licence": "CC BY-SA 4.0",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Nystagmus_eye_movement.gif"
+  },
+  "diz": {
+   "file": "diz.jpg",
+   "caption": "Tilt table test: heart rate and blood pressure on standing up",
+   "author": "Salah AM Said",
+   "licence": "CC BY 4.0",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Tilt_table_test_showing_POTS.webp"
+  }
+ },
+ "neuro-w15-11_2": {
+  "onc": {
+   "file": "onc.jpg",
+   "caption": "Cancer spread to the brain on MRI: one of five routes to the nerves",
+   "author": "Nevit Dilmen",
+   "licence": "CC BY-SA 3.0",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Brain_MRI_131749_rgbcb-ce.png"
+  },
+  "nut": {
+   "file": "nut.jpg",
+   "caption": "Pellagra (niacin, B3 lack): sun-exposed neck rash, neurologic signs",
+   "author": "https://wellcomeimages.org/indexplus/obf_images/a8/25/dd3b2ac80c76f58c18642ac631",
+   "licence": "CC BY 4.0",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Dermatitis_on_the_back_of_a_man%27s_neck_caused_by_chronic_pel_Wellcome_V0022635.jpg"
+  },
+  "ce": {
+   "file": "ce.jpg",
+   "caption": "Atrial fibrillation: irregular rhythm that throws clots to the brain",
+   "author": "Ewingdo",
+   "licence": "CC BY-SA 4.0",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:ECG_Atrial_Fibrillation_90_bpm.jpg"
+  },
+  "wer": {
+   "file": "wer.jpg",
+   "caption": "MRI: bright midbrain around the aqueduct in Wernicke encephalopathy",
+   "author": "Jto410",
+   "licence": "CC BY-SA 3.0",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:MRI_FLAIR_sequence_showing_hyperintense_signal_in_the_periaqueducal_grey_matter_in_Wernicke_Encephalopathy.jpg"
+  },
+  "phr": {
+   "file": "phr.png",
+   "caption": "The phrenic nerve runs down to the diaphragm: both cut, it fails",
+   "author": "Henry Vandyke Carter",
+   "licence": "Public domain",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Gray806.png"
+  }
+ },
+ "neuro-w16-01_2": {
+  "pal": {
+   "file": "pal.jpg",
+   "caption": "Hydromorphone vial: opioids to ease pain in palliative care",
+   "author": "Vaprotan",
+   "licence": "CC BY-SA 3.0",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Hydromorphone_vial.JPG"
+  }
+ },
+ "neuro-w16-02_2": {
+  "hosp": {
+   "file": "hosp.jpg",
+   "caption": "Tissue slide on the microscope stage: the hospital pathologist's view",
+   "author": "Ed Uthman from Houston, TX, USA",
+   "licence": "CC BY-SA 2.0",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Histologic_Slide_under_MIcroscope.jpg"
+  }
+ },
+ "osteoporosis_pathway": {
+  "scan": {
+   "file": "scan.jpg",
+   "caption": "DXA scan of the hip and spine: bone density by X-ray",
+   "author": "Dr Caroline LEBRETON et al.",
+   "licence": "CC BY 2.0",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Morbus_Fabry_DXA_01.jpg"
+  },
+  "hip": {
+   "file": "hip.png",
+   "caption": "Alendronate: a bisphosphonate, first choice for hip fracture risk",
+   "author": "Yikrazuul",
+   "licence": "Public domain",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Alendronic_acid.svg"
+  },
+  "spine": {
+   "file": "spine.jpg",
+   "caption": "Spine X-ray: wedge-shaped (crushed) vertebrae from osteoporosis",
+   "author": "Glitzy queen00",
+   "licence": "Public domain",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:L1_2_vertebral_fracture.jpg"
+  }
+ },
+ "repro-w4-01_2": {
+  "mife": {
+   "file": "mife.jpg",
+   "caption": "Mifepristone pill plus misoprostol tablets in a blister pack",
+   "author": "Plancpills",
+   "licence": "CC BY-SA 4.0",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Abortion_Pill_Pack_MTP_Kit.jpg"
+  },
+  "mtx": {
+   "file": "mtx.png",
+   "caption": "Methotrexate structure (off-label with misoprostol)",
+   "author": "Yikrazuul",
+   "licence": "Public domain",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Methotrexate_skeletal.svg"
+  },
+  "mva": {
+   "file": "mva.jpg",
+   "caption": "Manual vacuum aspirator: a hand-held syringe for office aspiration",
+   "author": "FamPlanMD08",
+   "licence": "CC BY-SA 4.0",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Manual_vacuum_aspirator.jpg"
+  },
+  "dc": {
+   "file": "dc.jpg",
+   "caption": "Curettage instruments: curettes used to scrape the uterine lining",
+   "author": "S.Filonova",
+   "licence": "CC0",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Curettage_instruments.jpg"
+  }
+ },
+ "repro-w4-02_2": {
+  "tc": {
+   "file": "tc.jpg",
+   "caption": "Dye fills the womb cavity and both tubes: open tubes",
+   "author": "Jmarchn",
+   "licence": "CC BY-SA 3.0",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Hysterosalpingography_Normal.png"
+  },
+  "en": {
+   "file": "en.jpg",
+   "caption": "Endometriosis at keyhole surgery: spots and cysts in the pelvis",
+   "author": "Leibetseder et al.",
+   "licence": "CC BY 4.0",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Endometriosis_types_laparoscopy.webp"
+  },
+  "ov": {
+   "file": "ov.jpg",
+   "caption": "Ultrasound of a polycystic ovary: eggs not released",
+   "author": "Schomynv",
+   "licence": "CC0",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Polycystic_ovary.jpg"
+  },
+  "rs": {
+   "file": "rs.jpg",
+   "caption": "Egg follicle in the ovary: the stock that shrinks with age",
+   "author": "Ed Uthman",
+   "licence": "CC BY 2.0",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Graafian_follicle_of_human_ovary.jpg"
+  },
+  "ml": {
+   "file": "ml.jpg",
+   "caption": "Stained sperm under the microscope: count, motility, shape",
+   "author": "Bobjgalindo",
+   "licence": "CC BY-SA 4.0",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Sperm_stained.JPG"
+  }
+ },
+ "repro-w4-05_2": {
+  "ca": {
+   "file": "ca.jpg",
+   "caption": "Yeast under the microscope: budding cells and threads (KOH)",
+   "author": "Mikael Häggström",
+   "licence": "CC0",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Vaginal_wet_mount_of_candidal_vulvovaginitis_-_original.jpg"
+  },
+  "bv": {
+   "file": "bv.jpg",
+   "caption": "Clue cell: a vaginal cell covered in bacteria",
+   "author": "Dr Graham Beards",
+   "licence": "CC BY-SA 4.0",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Clue_cell_in_bacterial_vaginosis.jpg"
+  },
+  "tv": {
+   "file": "tv.jpg",
+   "caption": "Trichomonas under the microscope: pear-shaped, with flagella",
+   "author": "Dr Graham Beards",
+   "licence": "CC BY-SA 4.0",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Trichomonas_May-Gr%C3%BCnwald_staining.jpg"
+  },
+  "av": {
+   "file": "av.jpg",
+   "caption": "Thin, pale vaginal lining after menopause (right)",
+   "author": "BruceBlaus",
+   "licence": "CC BY-SA 4.0",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Vaginal_Mucosa_Normal_vs_Menopause.png"
+  }
+ },
+ "repro-w4-06_2": {
+  "neg": {
+   "file": "neg.jpg",
+   "caption": "Cervical brush used to collect cells for the HPV test",
+   "author": "Boggild AK et al.",
+   "licence": "CC BY 2.5",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Journal.pone.0026395.g001_cervical_cytology_brushes.png"
+  },
+  "h16": {
+   "file": "h16.jpg",
+   "caption": "Electron micrograph of HPV particles (types 16 and 18 cause most cancers)",
+   "author": "NIAID",
+   "licence": "CC BY 2.0",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Colorized_electron_micrograph_of_HPV_virus_particles_(teal).jpg"
+  },
+  "low": {
+   "file": "low.jpg",
+   "caption": "Pap smear: low-grade change (LSIL); most clear on their own",
+   "author": "Ed Uthman, MD",
+   "licence": "CC BY-SA 2.0",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Low-Grade_SIL_with_HPV_Effect.jpg"
+  },
+  "high": {
+   "file": "high.jpg",
+   "caption": "Pap smear: high-grade cells (HSIL), big dark crowded nuclei",
+   "author": "Nephron",
+   "licence": "CC BY-SA 3.0",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:High-grade_squamous_intraepithelial_lesion_-_2_--_high_mag.jpg"
+  },
+  "vac": {
+   "file": "vac.jpg",
+   "caption": "HPV vaccine (Gardasil 9) box",
+   "author": "Aveaoz",
+   "licence": "CC0",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:HPV_Vaccine_Gardasil_9_box.jpg"
+  }
+ },
+ "repro-w4-08_2": {
+  "ct": {
+   "file": "ct.jpg",
+   "caption": "Chlamydia inclusion bodies inside infected cells",
+   "author": "User Marcus007 on de.wikipedia",
+   "licence": "Public domain",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:ChlamydiaTrachomatisEinschlussk%C3%B6rperchen.jpg"
+  },
+  "ng": {
+   "file": "ng.jpg",
+   "caption": "Gram-negative diplococci inside white blood cells",
+   "author": "Dr Graham Beards",
+   "licence": "CC BY-SA 4.0",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Neisseria_gonorrhoeae_diplococci_inside_a_neutrophil.jpg"
+  },
+  "tp": {
+   "file": "tp.png",
+   "caption": "Secondary syphilis: rash on the palms",
+   "author": "Centers for Disease Control and Prevention (CDC)",
+   "licence": "Public domain",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Secondary_syphilis-palmar_rash.PNG"
+  },
+  "pid": {
+   "file": "pid.png",
+   "caption": "Tubo-ovarian abscess: pus-filled tube and ovary from PID",
+   "author": "Bfpage",
+   "licence": "CC BY-SA 4.0",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Sites_of_tubo_ovarian_abscess.PNG"
+  },
+  "hsv": {
+   "file": "hsv.jpg",
+   "caption": "Herpes simplex virus particles under the electron microscope",
+   "author": "CDC/ Dr. Fred Murphy",
+   "licence": "Public domain",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Herpes_simplex_virions,_TEM.jpg"
+  },
+  "ot": {
+   "file": "ot.jpg",
+   "caption": "Human papillomavirus particles under the electron microscope",
+   "author": "Unknown photographer/artist",
+   "licence": "Public domain",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Papilloma_Virus_(HPV)_EM.jpg"
+  }
+ },
+ "repro-w4-11_2": {
+  "cy": {
+   "file": "cy.jpg",
+   "caption": "Ultrasound: 5 cm hemorrhagic ovarian cyst",
+   "author": "Mikael Häggström",
+   "licence": "CC0",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Hemorrhagic_ovarian_cyst.jpg"
+  },
+  "en": {
+   "file": "en.jpg",
+   "caption": "Ultrasound: endometrioma, ground-glass cyst on the ovary",
+   "author": "Mikael Häggström",
+   "licence": "CC0",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Endometrioma.jpg"
+  },
+  "ad": {
+   "file": "ad.jpg",
+   "caption": "MRI: thickened uterine wall with endometrium deep in muscle",
+   "author": "Case courtesy of Dr Varun Babu, Radiopaedia.org, rID: 43504",
+   "licence": "CC BY-SA 4.0",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Adenomyosis_MRI.jpg"
+  },
+  "po": {
+   "file": "po.png",
+   "caption": "Endometrial polyp: soft growth from the uterine lining",
+   "author": "Drhan9394",
+   "licence": "CC0",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Endometrial_polyp.png"
+  },
+  "to": {
+   "file": "to.jpg",
+   "caption": "CT: twisted ovary on its stalk (whirlpool sign), torsion",
+   "author": "Livingston JK, Gonzales S, Langdorf MI",
+   "licence": "CC BY",
+   "source_page_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8610478/"
+  },
+  "le": {
+   "file": "le.jpg",
+   "caption": "MRI: huge fibroid enlarging the uterus to fill the pelvis",
+   "author": "Wilde S, Scott-Barrett S",
+   "licence": "CC BY",
+   "source_page_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2766886/"
+  }
+ },
+ "repro-w4-14_2": {
+  "lsc": {
+   "file": "lsc.jpg",
+   "caption": "Thick, leathery, scratched skin plaque (hand shown): lichen simplex chronicus",
+   "author": "kilbad",
+   "licence": "CC BY 3.0",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Lichen_simplex_chronicus_1.jpg"
+  },
+  "ls": {
+   "file": "ls.jpg",
+   "caption": "Skin biopsy: thin top layer, pale scarred band below: lichen sclerosus",
+   "author": "Ed Uthman from Houston, TX, USA",
+   "licence": "CC BY 2.0",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Lichen_Sclerosus,_Atrophic_(3704077045).jpg"
+  },
+  "ma": {
+   "file": "ma.jpg",
+   "caption": "MRI: bright fluid-filled Bartholin cyst beside the vaginal opening",
+   "author": "Hellerhoff",
+   "licence": "CC BY-SA 4.0",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Bartholin-Zyste_in_der_MRT_T2_SPAIR_68W_-_MR_T2_FS_axial_-_001.jpg"
+  },
+  "ca": {
+   "file": "ca.jpg",
+   "caption": "Abnormal cells through the whole skin thickness: VIN 3, precancer",
+   "author": "Ed Uthman, MD",
+   "licence": "CC BY-SA 2.0",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Vulvar_Intraepithelial_Neoplasia,_Grade_3_(VIN_3).jpg"
+  },
+  "ap": {
+   "file": "ap.jpg",
+   "caption": "Round, shallow, painful ulcer: aphthous ulcer (mouth shown)",
+   "author": "DermNetNZ",
+   "licence": "CC BY 4.0",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Aphthous_stomatitisNZ.jpg"
+  },
+  "lp": {
+   "file": "lp.jpg",
+   "caption": "Red erosions in the mouth lining: erosive lichen planus (mouth shown)",
+   "author": "Syed Wali Peeran",
+   "licence": "CC BY-SA 4.0 (cropped)",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Erosive_lichen_planus.jpg"
+  }
+ },
+ "repro-w4-16_2": {
+  "nt": {
+   "file": "nt.jpg",
+   "caption": "12-week ultrasound: fluid behind the fetal neck (nuchal)",
+   "author": "Wolfgang Moroder",
+   "licence": "CC BY-SA 3.0",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Nuchal_translucency_Dr._Wolfgang_Moroder.jpg"
+  },
+  "am": {
+   "file": "am.jpg",
+   "caption": "Amniocentesis: needle takes amniotic fluid under ultrasound",
+   "author": "BruceBlaus",
+   "licence": "CC BY-SA 4.0",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Amniocentesis.png"
+  },
+  "an": {
+   "file": "an.jpg",
+   "caption": "Mid-pregnancy anomaly scan: six detailed views of the fetus",
+   "author": "Goleisureintl",
+   "licence": "CC BY 4.0",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Fetal_Anomaly_Ultrasound_Scan_in_Navi_Mumbai.jpg"
+  },
+  "ni": {
+   "file": "ni.jpg",
+   "caption": "DNA sequencer reads fetal DNA fragments found in maternal blood",
+   "author": "Konrad Förstner",
+   "licence": "CC0",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Illumina_MiSeq_sequencer.jpg"
+  },
+  "ms": {
+   "file": "ms.jpg",
+   "caption": "Maternal blood sample: serum markers measured, no ultrasound",
+   "author": "Every1blowz",
+   "licence": "Public domain",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Vacutainer_01.jpg"
+  },
+  "cv": {
+   "file": "cv.jpg",
+   "caption": "Chorionic villi under the microscope: the tissue CVS samples",
+   "author": "Nephron",
+   "licence": "CC BY-SA 3.0",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Chorionic_villi_-_high_mag.jpg"
+  }
+ },
+ "repro-w5-01_2": {
+  "tlh": {
+   "file": "tlh.jpg",
+   "caption": "Laparoscopic view of the uterus during hysterectomy",
+   "author": "Hic et nunc",
+   "licence": "CC BY-SA 3.0",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Total_laparoscopical_hysterectomy.jpg"
+  },
+  "rob": {
+   "file": "rob.jpg",
+   "caption": "Robotic surgery arms used for hysterectomy",
+   "author": "Nimur at English Wikipedia",
+   "licence": "CC BY-SA 3.0",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Laproscopic_Surgery_Robot.jpg"
+  },
+  "lavh": {
+   "file": "lavh.jpg",
+   "caption": "Laparoscope view of the pelvis once the uterus is out",
+   "author": "Hic et nunc",
+   "licence": "CC BY-SA 3.0",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Hysterectomy3.jpg"
+  }
+ },
+ "repro-w5-02_2": {
+  "dil": {
+   "file": "dil.jpg",
+   "caption": "Hegar dilators: graduated rods, each 1 mm wider",
+   "author": "Citizen",
+   "licence": "CC BY-SA 3.0",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Dilatatoren-Hegar.jpg"
+  },
+  "cur": {
+   "file": "cur.jpg",
+   "caption": "Suction cannula and syringe aspirator for evacuating the uterus",
+   "author": "FamPlanMD08",
+   "licence": "CC BY-SA 4.0",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Manual_vacuum_aspirator.jpg"
+  },
+  "ash": {
+   "file": "ash.jpg",
+   "caption": "Uterine curette: the sharp loop for scraping the lining",
+   "author": "SnowBink",
+   "licence": "CC0",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Uterine_Curette_01.jpg"
+  },
+  "prep": {
+   "file": "prep.jpg",
+   "caption": "Misoprostol tablets, used to soften and open the cervix",
+   "author": "Plancpills",
+   "licence": "CC BY-SA 4.0",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Com_net_bottle_image.jpg"
+  }
+ },
+ "repro-w5-03_2": {
+  "my": {
+   "file": "my.jpg",
+   "caption": "Estradiol cuts hot flashes far more than placebo",
+   "author": "Medgirl131",
+   "licence": "CC BY-SA 4.0",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Hot_flashes_with_placebo_and_different_doses_of_oral_estradiol_in_menopausal_women.png"
+  },
+  "po": {
+   "file": "po.jpg",
+   "caption": "45,X karyotype (Turner syndrome): a cause of early ovarian failure",
+   "author": "No machine-readable author provided. The cat~commonswiki assumed (based on copyr",
+   "licence": "CC BY-SA 3.0",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:45,X.jpg"
+  },
+  "me": {
+   "file": "me.png",
+   "caption": "Common symptoms once periods have stopped for 12 months",
+   "author": "Mikael Häggström",
+   "licence": "CC0",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Symptoms_of_menopause_(raster).png"
+  },
+  "mn": {
+   "file": "mn.png",
+   "caption": "Paroxetine (an SSRI antidepressant): one non-hormonal option",
+   "author": "Wikimedia Commons",
+   "licence": "Public domain",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Paroxetine-2D-skeletal.svg"
+  },
+  "ea": {
+   "file": "ea.jpg",
+   "caption": "Bone density (DXA) scanner: earlier menopause, earlier bone loss",
+   "author": "Kevin Vrrrreeeeeeeeee",
+   "licence": "CC BY-SA 2.0",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Bone_density_scanner.jpg"
+  }
+ },
+ "repro-w5-04_2": {
+  "mct": {
+   "file": "mct.jpg",
+   "caption": "Dermoid cyst: skin, hair follicles and glands in one tumour",
+   "author": "Koumoutsea et al.",
+   "licence": "CC BY 3.0",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Histopathology_of_ovarian_dermoid_cyst.jpg"
+  },
+  "gct": {
+   "file": "gct.jpg",
+   "caption": "Dysgerminoma: uniform round cells with clear cytoplasm",
+   "author": "CoRus13",
+   "licence": "CC0",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Dysgerminoma,_high_mag.jpg"
+  },
+  "ben": {
+   "file": "ben.jpg",
+   "caption": "Serous cystadenoma: cyst lined by one layer of bland cells",
+   "author": "Nephron",
+   "licence": "CC BY-SA 3.0",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Ovarian_serous_cystadenoma_-_alt_--_intermed_mag.jpg"
+  },
+  "ca": {
+   "file": "ca.jpg",
+   "caption": "High-grade serous carcinoma: crowded, atypical, invasive cells",
+   "author": "Cobb et al.",
+   "licence": "CC BY 4.0",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Histopathology_of_a_high-grade_serous_carcinoma_arising_from_a_serous_borderline_tumor.jpg"
+  },
+  "gra": {
+   "file": "gra.jpg",
+   "caption": "Granulosa cell tumour: sheets of small cells in rosettes",
+   "author": "Nephron",
+   "licence": "CC BY-SA 3.0",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Granulosa_cell_tumour2.jpg"
+  },
+  "bdl": {
+   "file": "bdl.jpg",
+   "caption": "Serous borderline tumour: branching papillae, no invasion",
+   "author": "Mikael Häggström, M.D.",
+   "licence": "CC0",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Histopathology_of_ovarian_serous_borderline_tumor.jpg"
+  },
+  "met": {
+   "file": "met.jpg",
+   "caption": "Ovary replaced by firm knobbly tumour: spread from the stomach",
+   "author": "Nakamura et al.",
+   "licence": "CC BY 3.0 (cropped)",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Gross_pathology_and_histopathology_of_signet_ring_cell_carcinoma_metastasis_to_the_ovary.jpg"
+  }
+ },
+ "repro-w5-05_2": {
+  "pa": {
+   "file": "pa.png",
+   "caption": "Endometrial polyp: a growth hanging into the uterine cavity",
+   "author": "Drhan9394",
+   "licence": "CC0",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Endometrial_polyp.png"
+  },
+  "hy": {
+   "file": "hy.png",
+   "caption": "Crowded, irregular glands: endometrial hyperplasia",
+   "author": "Badary DM et al.",
+   "licence": "CC BY 4.0",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Histopathology_of_complex_endometrial_hyperplasia_with_atypia.png"
+  },
+  "ca": {
+   "file": "ca.jpg",
+   "caption": "Endometrial carcinoma under the microscope",
+   "author": "Mikael Häggström, M.D.",
+   "licence": "CC0",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Endometrial_endometrioid_carcinoma_with_squamous_differentiation_and_keratin_granulomas,_low_magnification.jpg"
+  },
+  "at": {
+   "file": "at.jpg",
+   "caption": "Ultrasound: thin, wasted womb lining (3 mm), the commonest cause",
+   "author": "Mikael Häggström",
+   "licence": "CC0",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Uterus_of_88_year_old_female.jpg"
+  },
+  "co": {
+   "file": "co.jpg",
+   "caption": "Polycystic ovaries: failed ovulation, the O in COEIN",
+   "author": "Stefano Di Michele et al.",
+   "licence": "CC BY-SA 4.0",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Ultrasound_scans_and_3D_rendering_of_polycystic_ovaries.png"
+  }
+ },
+ "repro-w5-07_2": {
+  "ben": {
+   "file": "ben.jpg",
+   "caption": "Ultrasound: smooth oval solid lump, a fibroadenoma",
+   "author": "Nevit Dilmen",
+   "licence": "CC BY-SA 3.0",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Breast_US_Fibroadenoma_0531092046875_Nevit.jpg"
+  },
+  "ca": {
+   "file": "ca.jpg",
+   "caption": "Cancer cells spreading through the surrounding tissue: invasive",
+   "author": "Endolysosome",
+   "licence": "CC BY-SA 4.0",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Invasive_lobular_carcinoma.jpg"
+  },
+  "cis": {
+   "file": "cis.jpg",
+   "caption": "Cancer cells filling a duct but still inside it: DCIS",
+   "author": "Ed Uthman from Houston, TX, USA",
+   "licence": "CC BY 2.0",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Breast_Ductal_Carcinoma_in_Situ_With_Calcifications_(5436471236).jpg"
+  },
+  "fn": {
+   "file": "fn.jpg",
+   "caption": "Fat necrosis: scarred, fat-filled lump that mimics cancer",
+   "author": "Department of Pathology, Calicut Medical College",
+   "licence": "CC BY-SA 4.0",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Breast_tissue_showing_fat_necrosis.jpg"
+  },
+  "cyc": {
+   "file": "cyc.jpg",
+   "caption": "Simple fluid cysts that swell and ache before periods",
+   "author": "Nevit Dilmen",
+   "licence": "CC BY-SA 3.0",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Breast_ultrasound_110302093640_0942031.jpg"
+  },
+  "mas": {
+   "file": "mas.jpg",
+   "caption": "Breast abscess under the microscope: pus and inflammation",
+   "author": "Netha Hussain",
+   "licence": "CC BY-SA 3.0",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Breast_Abscess.JPG"
+  },
+  "gal": {
+   "file": "gal.jpg",
+   "caption": "Prolactin-making pituitary tumour cells: milk without a baby",
+   "author": "Jensflorian",
+   "licence": "CC BY-SA 3.0",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:PRL_HE_histology.jpg"
+  },
+  "pap": {
+   "file": "pap.jpg",
+   "caption": "Papilloma: finger-like growth inside a milk duct",
+   "author": "Mikael Häggström, M.D.",
+   "licence": "CC0",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Histopathology_of_intraductal_papilloma.jpg"
+  },
+  "pg": {
+   "file": "pg.jpg",
+   "caption": "Paget cells: large pale cells in the nipple skin",
+   "author": "Wikimedia Commons contributor",
+   "licence": "CC BY-SA 2.0",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Paget-Karzinom_04.jpg"
+  }
+ },
+ "repro-w5-09_2": {
+  "ect": {
+   "file": "ect.png",
+   "caption": "Ultrasound: blob beside the ovary, outside the uterus",
+   "author": "Mikael Häggström",
+   "licence": "CC0",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Blob_sign_of_ectopic_pregnancy.png"
+  },
+  "opn": {
+   "file": "opn.jpg",
+   "caption": "Ultrasound after a complete miscarriage: empty uterus",
+   "author": "Mikael Häggström",
+   "licence": "CC0",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Complete_miscarriage.jpg"
+  },
+  "mol": {
+   "file": "mol.jpg",
+   "caption": "Ultrasound 'bunch of grapes' pattern: molar pregnancy",
+   "author": "Mikael Häggström",
+   "licence": "CC0",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Molar_pregnancy.jpg"
+  },
+  "thr": {
+   "file": "thr.png",
+   "caption": "Heartbeat seen on ultrasound at 7 weeks: baby alive",
+   "author": "Nevit Dilmen",
+   "licence": "CC BY-SA 3.0",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Doppler_heartbeat_0218103423_1038270_7w_3d.gif"
+  },
+  "pul": {
+   "file": "pul.png",
+   "caption": "Positive pregnancy test: hCG is there, but where is the pregnancy?",
+   "author": "Squirreltime",
+   "licence": "CC BY-SA 4.0",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Urine_pregnancy_test_(positive).png"
+  },
+  "mis": {
+   "file": "mis.png",
+   "caption": "Ultrasound: embryo in the uterus but no heartbeat",
+   "author": "Mikael Häggström",
+   "licence": "CC0",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Delayed_or_missed_miscarriage.gif"
+  }
+ },
+ "repro-w5-12_2": {
+  "chr": {
+   "file": "chr.jpg",
+   "caption": "Home blood pressure monitor reading 158/99: raised before pregnancy",
+   "author": "Steven Fruitsmaak",
+   "licence": "CC BY 3.0",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Grade_1_hypertension.jpg"
+  },
+  "ges": {
+   "file": "ges.jpg",
+   "caption": "Blood pressure of 140/90 or more, first seen after 20 weeks",
+   "author": "Jacek Halicki",
+   "licence": "CC BY-SA 4.0",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:2020_Sfigmomanometr_elektroniczny.jpg"
+  },
+  "pe": {
+   "file": "pe.jpg",
+   "caption": "Pre-eclampsia warning signs: high blood pressure, headache, swelling",
+   "author": "Hariadhi",
+   "licence": "CC BY-SA 4.0",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Preeclampsia_symptoms_svg_hariadhi.svg"
+  },
+  "ecl": {
+   "file": "ecl.jpg",
+   "caption": "Magnesium sulfate: the drug that stops and prevents eclamptic seizures",
+   "author": "Mark Oniffrey",
+   "licence": "CC BY-SA 4.0",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Magnesium_sulfate_(cropped).jpg"
+  },
+  "hel": {
+   "file": "hel.jpg",
+   "caption": "Fragmented red cells (schistocytes) on a blood film: the H in HELLP",
+   "author": "Paulo Henrique Orlandi Mourao",
+   "licence": "CC BY-SA 3.0",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Schizocyte_smear_2009-12-22.JPG"
+  }
+ },
+ "repro-w5-13_2": {
+  "gs": {
+   "file": "gs.png",
+   "caption": "Dark fluid sac in the uterus: the first sign of pregnancy",
+   "author": "Luis Goncalves",
+   "licence": "CC BY-SA 3.0",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:4_mm_gestational_sac.png"
+  },
+  "ys": {
+   "file": "ys.png",
+   "caption": "Yolk sac (round ring) beside the tiny embryo, inside the sac",
+   "author": "Derivative by Mikael Häggström",
+   "licence": "CC BY 2.5",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Ultrasound_of_embryo_at_5_weeks,_colored.png"
+  },
+  "crl": {
+   "file": "crl.jpg",
+   "caption": "Crown-rump length measured top of head to bottom",
+   "author": "Wolfgang Moroder",
+   "licence": "CC BY-SA 3.0",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:CRL_Crown_rump_length_12_weeks_ecografia_Dr._Wolfgang_Moroder.jpg"
+  },
+  "num": {
+   "file": "num.jpg",
+   "caption": "Two sacs on one scan: twin pregnancy (count the fetuses)",
+   "author": "Nevit Dilmen",
+   "licence": "CC BY-SA 3.0",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Ultrasound_Scan_ND_034.jpg"
+  },
+  "bio": {
+   "file": "bio.jpg",
+   "caption": "Mid-pregnancy views used to measure head, belly and thigh bone",
+   "author": "Goleisureintl",
+   "licence": "CC BY 4.0",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Fetal_Anomaly_Ultrasound_Scan_in_Navi_Mumbai.jpg"
+  },
+  "an": {
+   "file": "an.jpg",
+   "caption": "20-week scan: checking the face, brain, heart, spine and limbs",
+   "author": "Goleisureintl",
+   "licence": "CC BY 4.0",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Obstetric_ultrasound_scan_monitor_showing_20-week_human_fetus_profile_in_Navi_Mumbai_2015.jpg"
+  },
+  "pl": {
+   "file": "pl.jpg",
+   "caption": "Where the placenta sits: here low, covering the cervix (previa)",
+   "author": "BruceBlaus",
+   "licence": "CC BY-SA 4.0",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Placenta_Previa.png"
+  }
+ },
+ "repro-w5-15_2": {
+  "conf": {
+   "file": "conf.jpg",
+   "caption": "Positive urine test: suspect and confirm, then date by scan",
+   "author": "Ajay Kumar Chaurasiya",
+   "licence": "CC BY-SA 4.0",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Urine_Pregnancy_Test_-Positive.jpg"
+  },
+  "first": {
+   "file": "first.jpg",
+   "caption": "First-trimester scan: dating and neck-fold (nuchal) screening",
+   "author": "Wolfgang Moroder",
+   "licence": "CC BY-SA 3.0",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Nuchal_translucency_Dr._Wolfgang_Moroder.jpg"
+  },
+  "second": {
+   "file": "second.jpg",
+   "caption": "20-week anatomy scan: the main second-trimester check",
+   "author": "Goleisureintl",
+   "licence": "CC BY 4.0",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Obstetric_ultrasound_scan_monitor_showing_20-week_human_fetus_profile_in_Navi_Mumbai_2015.jpg"
+  },
+  "third": {
+   "file": "third.jpg",
+   "caption": "Fetal heart-rate trace (CTG): third-trimester wellbeing check",
+   "author": "PhantomSteve",
+   "licence": "CC BY-SA 3.0",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:CTG_Output.jpg"
+  },
+  "rhneg": {
+   "file": "rhneg.jpg",
+   "caption": "Rho(D) immunoglobulin (RhIG) ampoule: prevents antibody forming",
+   "author": "Sgroey",
+   "licence": "CC BY-SA 4.0",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Rhesus_Rho_(D)_immunoglobulin_ampoule.jpg"
+  },
+  "ab": {
+   "file": "ab.jpg",
+   "caption": "Mother's antibodies cross the placenta and attack Rh-positive fetal cells",
+   "author": "OpenStax College",
+   "licence": "CC BY 3.0",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:1910_Erythroblastosis_Fetalis.jpg"
+  }
+ },
+ "repro-w5-16_2": {
+  "aro": {
+   "file": "aro.png",
+   "caption": "Response cycle graph: excitement rises to the plateau",
+   "author": "Argenti Aertheri",
+   "licence": "CC BY-SA 4.0 (cropped)",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Sexual-response-cycle.svg"
+  },
+  "org": {
+   "file": "org.png",
+   "caption": "Response cycle graph: orgasm peak, then resolution",
+   "author": "Argenti Aertheri",
+   "licence": "CC BY-SA 4.0 (cropped)",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Sexual-response-cycle.svg"
+  }
+ },
+ "repro-w5-17_2": {
+  "car": {
+   "file": "car.jpg",
+   "caption": "Echocardiogram, four chambers: the heart works harder in pregnancy",
+   "author": "Wikimedia Commons",
+   "licence": "Public domain",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Echocardiogram_4chambers.jpg"
+  },
+  "end": {
+   "file": "end.jpg",
+   "caption": "Thyroid under the microscope: follicles filled with pink colloid",
+   "author": "Bhavya akula",
+   "licence": "CC BY-SA 4.0",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Histology_of_Thyroid_gland.jpg"
+  },
+  "ren": {
+   "file": "ren.jpg",
+   "caption": "Kidney: blood flow and filtration rise in pregnancy",
+   "author": "BruceBlaus",
+   "licence": "CC BY 3.0",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Blausen_0592_KidneyAnatomy_01.png"
+  },
+  "res": {
+   "file": "res.jpg",
+   "caption": "Lungs: progesterone makes each breath deeper",
+   "author": "BruceBlaus",
+   "licence": "CC BY-SA 4.0",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Heart_%26_Lungs.png"
+  },
+  "ane": {
+   "file": "ane.png",
+   "caption": "Blood smear: red cells in plasma; plasma grows faster in pregnancy",
+   "author": "RWhitwam",
+   "licence": "CC BY-SA 4.0",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Blood_smear_labelled.png"
+  },
+  "plt": {
+   "file": "plt.jpg",
+   "caption": "Platelets: small dot-like pieces between the red cells",
+   "author": "Ajay Kumar Chaurasiya",
+   "licence": "CC BY-SA 4.0",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:WBC_(neutrophil)_at_centre,_numerous_erythrocytes_and_platelets_(dot_like_bodies)_in_Wright%27s_stained_peripheral_blood_smear_(PBS)_microscopy.jpg"
+  },
+  "gi": {
+   "file": "gi.jpg",
+   "caption": "Gut: progesterone slows it, causing heartburn and constipation",
+   "author": "BruceBlaus",
+   "licence": "CC BY 3.0",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Blausen_0432_GastroIntestinalSystem.png"
+  }
+ },
+ "repro-w6-01_2": {
+  "abr": {
+   "file": "abr.jpg",
+   "caption": "Placenta peeling off: edge bleeds out, concealed bleeds behind",
+   "author": "Bonnie Urquhart Gruenberg",
+   "licence": "CC BY-SA 4.0 (cropped)",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Marginal_and_concealed_placental_abruption.jpg"
+  },
+  "prv": {
+   "file": "prv.jpg",
+   "caption": "Placenta sitting over the cervical opening",
+   "author": "OpenStax College",
+   "licence": "CC BY 3.0",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:2906_Placenta_Previa-02.jpg"
+  },
+  "acc": {
+   "file": "acc.jpg",
+   "caption": "Placenta grown into and through the uterine wall",
+   "author": "TheNewMessiah at English Wikipedia",
+   "licence": "Public domain",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Placenta_accreta.png"
+  },
+  "vas": {
+   "file": "vas.jpg",
+   "caption": "Fetal vessels crossing the cervix: two forms of vasa previa",
+   "author": "Sigrid de Rooij",
+   "licence": "CC BY-SA 4.0",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Vasa_Previa_-_English_Translation.jpg"
+  }
+ },
+ "repro-w6-02_2": {
+  "pla": {
+   "file": "pla.jpg",
+   "caption": "A delivered placenta: the organ that feeds the fetus",
+   "author": "Drscholarnick",
+   "licence": "CC0",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Healthy_Placenta.jpg"
+  },
+  "ge37": {
+   "file": "ge37.jpg",
+   "caption": "Cardiotocography (CTG): monitoring the fetal heart and contractions",
+   "author": "Eliran t",
+   "licence": "CC BY-SA 4.0",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Cardiotocography.jpg"
+  },
+  "fet": {
+   "file": "fet.jpg",
+   "caption": "Karyotype with an extra chromosome 18: abnormal genes, small fetus",
+   "author": "Serra Amoros",
+   "licence": "CC BY-SA 4.0",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Trisomia_18.jpg"
+  },
+  "mat": {
+   "file": "mat.jpg",
+   "caption": "Blood pressure monitor: maternal illness such as high blood pressure",
+   "author": "Albarubescens",
+   "licence": "CC BY-SA 4.0",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Sphygmomanometer,_automatic_blood_pressure_monitor._Oscillometric_measurements,_millimeter_of_mercury_(mmHg)_unit.jpg"
+  },
+  "lt32": {
+   "file": "lt32.jpg",
+   "caption": "Doppler ultrasound of the umbilical cord: blood flow to the fetus",
+   "author": "Wolfgang Moroder",
+   "licence": "CC BY-SA 3.0",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Human_placenta_umbilical_cord_Ultrasound_by_Dr._W._Moroder.jpg"
+  },
+  "mid": {
+   "file": "mid.jpg",
+   "caption": "Ultrasound scan views: measuring the fetus to track its growth",
+   "author": "Goleisureintl",
+   "licence": "CC BY 4.0",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Fetal_Anomaly_Ultrasound_Scan_in_Navi_Mumbai.jpg"
+  }
+ },
+ "repro-w6-03_2": {
+  "tptl": {
+   "file": "tptl.jpg",
+   "caption": "Cervical length on ultrasound: the thing to measure and watch",
+   "author": "Mikael Häggström",
+   "licence": "CC0",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Cervix_length_measurement.jpg"
+  },
+  "pprom": {
+   "file": "pprom.jpg",
+   "caption": "Fern pattern under the microscope: amniotic fluid has leaked",
+   "author": "Paul_012",
+   "licence": "CC BY-SA 2.0",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Positive_Fern_Test.jpg"
+  },
+  "imm": {
+   "file": "imm.jpg",
+   "caption": "Preterm babies need an incubator and a neonatal team",
+   "author": "Happi Raphael",
+   "licence": "CC BY-SA 4.0 (cropped)",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Twins_babies_in_an_incubator_Laquintinie_Douala.jpg"
+  },
+  "ptl": {
+   "file": "ptl.jpg",
+   "caption": "Fetal monitor strip: contractions are the lower trace",
+   "author": "Mariakeernik",
+   "licence": "CC BY-SA 3.0",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Kardiotokogramm.jpg"
+  }
+ },
+ "repro-w6-04_2": {
+  "s1": {
+   "file": "s1.jpg",
+   "caption": "Stage 1: the cervix thins and opens to 10 centimetres",
+   "author": "OpenStax College",
+   "licence": "CC BY 4.0 (cropped)",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:2920_Stages_of_Childbirth-02.jpg"
+  },
+  "fhr": {
+   "file": "fhr.jpg",
+   "caption": "Cardiotocograph: fetal heart rate (top) and contractions (bottom)",
+   "author": "PhantomSteve",
+   "licence": "CC BY-SA 3.0",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:CTG_Output.jpg"
+  },
+  "s2": {
+   "file": "s2.jpg",
+   "caption": "Stage 2: the baby's head turns and is born, then the body",
+   "author": "OpenStax College",
+   "licence": "CC BY 4.0 (cropped)",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:2920_Stages_of_Childbirth-02.jpg"
+  },
+  "s3": {
+   "file": "s3.jpg",
+   "caption": "Stage 3: the placenta separates and is delivered",
+   "author": "OpenStax College",
+   "licence": "CC BY 4.0 (cropped)",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:2920_Stages_of_Childbirth-02.jpg"
+  }
+ },
+ "repro-w6-05_6": {
+  "opv": {
+   "file": "opv.jpg",
+   "caption": "Vacuum cup on the baby's head to help the 2nd stage",
+   "author": "BruceBlaus",
+   "licence": "CC BY-SA 4.0",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Vacuum-assisted_Delivery.png"
+  },
+  "pph": {
+   "file": "pph.jpg",
+   "caption": "Uterine balloon (Foley and gauze) pressed on the bleeding womb",
+   "author": "Masato Kinugasa et al.",
+   "licence": "CC BY 4.0",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:UterusBallon1.jpg"
+  },
+  "cs": {
+   "file": "cs.jpg",
+   "caption": "Cesarean section: the baby is delivered through an abdominal incision",
+   "author": "Mat Honan from San Francisco, CA, USA",
+   "licence": "CC BY 2.0 (cropped)",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Caesarean_section_operation_-cutting_the_umbilical_cord-8Feb2011.jpg"
+  },
+  "ind": {
+   "file": "ind.jpg",
+   "caption": "IV drip: oxytocin is added to it to start labour",
+   "author": "Colin",
+   "licence": "CC BY 2.0",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Oxytocin_intravenous_bag.jpg"
+  },
+  "tol": {
+   "file": "tol.jpg",
+   "caption": "Old caesarean scar: trial of labour is still possible",
+   "author": "Azoreg",
+   "licence": "CC BY-SA 3.0",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Cesarean_section_scar_and_linea_nigra.JPG"
+  }
+ },
+ "repro-w6-06_2": {
+  "dec": {
+   "file": "dec.jpg",
+   "caption": "Unit of whole blood: heavy loss needs blood, not just fluid",
+   "author": "Vegasjon",
+   "licence": "CC BY-SA 4.0",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:A_unit_of_whole_blood.JPG"
+  },
+  "res": {
+   "file": "res.jpg",
+   "caption": "Fluid bags: replace the volume she has lost",
+   "author": "Philipp Lensing",
+   "licence": "CC BY-SA 3.0 de",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Kolloidale_Infusionsl%C3%B6sungen.jpg"
+  },
+  "abc": {
+   "file": "abc.jpg",
+   "caption": "Bag valve mask: breathes for her while help arrives",
+   "author": "Mike6271",
+   "licence": "CC BY-SA 4.0",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Ambu_Bag_valve_mask.jpg"
+  },
+  "cau": {
+   "file": "cau.png",
+   "caption": "Uterine balloon: pressure from inside stops womb bleeding",
+   "author": "Hariadhi",
+   "licence": "CC BY-SA 4.0",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Bakri_Balloon_Hariadhi.svg"
+  },
+  "tri": {
+   "file": "tri.jpg",
+   "caption": "Foil blanket: warmth fights hypothermia in the lethal triad",
+   "author": "Tobosha",
+   "licence": "Public domain",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Emergency_blanket_20110709.jpg"
+  }
+ },
+ "repro-w6-07_2": {
+  "prod": {
+   "file": "prod.jpg",
+   "caption": "Milk-making glands and ducts of the lactating breast",
+   "author": "Rajendra prabhune",
+   "licence": "CC BY-SA 4.0",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Lactating_Breast_Structure.jpg"
+  },
+  "extr": {
+   "file": "extr.jpg",
+   "caption": "Pump parts: getting milk out keeps supply up",
+   "author": "ParentingPatch",
+   "licence": "CC BY-SA 3.0",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Breast_Pump_Parts_1.JPG"
+  },
+  "pain": {
+   "file": "pain.png",
+   "caption": "Blocked milk duct: a common cause of a sore, hard breast",
+   "author": "Hariadhi",
+   "licence": "CC BY-SA 4.0",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Blocked_milk_duct_hariadhi.svg"
+  },
+  "contra": {
+   "file": "contra.jpg",
+   "caption": "HIV: a reason not to breastfeed where safe feeding exists",
+   "author": "C. Goldsmith",
+   "licence": "Public domain",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:HIV-budding-Color.jpg"
+  },
+  "wean": {
+   "file": "wean.jpg",
+   "caption": "Spoon and bowl: solid foods take over as milk tapers",
+   "author": "MAKY.OREL",
+   "licence": "CC0",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Baby_feeding_-_spoon_and_bowl.jpg"
+  }
+ },
+ "repro-w6-08_2": {
+  "inf": {
+   "file": "inf.jpg",
+   "caption": "Fever measured by thermometer: above 38.0 C after day 1",
+   "author": "Jacek Halicki",
+   "licence": "CC BY-SA 4.0",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:2023_Elektroniczny_termometr_lekarski.jpg"
+  }
+ },
+ "repro-w6-09_3": {
+  "glu": {
+   "file": "glu.jpg",
+   "caption": "Heel prick: checking a newborn's blood sugar",
+   "author": "Stevenfruitsmaak",
+   "licence": "CC BY 3.0",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Neonatal_heel_prick_Flanders.jpg"
+  },
+  "jaun": {
+   "file": "jaun.jpg",
+   "caption": "Newborn under phototherapy lights for jaundice",
+   "author": "Steph masih",
+   "licence": "CC BY-SA 4.0",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Phototherapy1.jpg"
+  },
+  "cold": {
+   "file": "cold.jpg",
+   "caption": "Newborn kept warm in an incubator",
+   "author": "Peter K Burian",
+   "licence": "CC BY-SA 4.0",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Mcmaster_NICU_infant_6978.jpg"
+  },
+  "res": {
+   "file": "res.jpg",
+   "caption": "Newborn mannequin, bag and mask: ventilation first",
+   "author": "U.S. Navy NMRTCS by Petty Officer 1st Class CARLOS VILLEGASMEJIA",
+   "licence": "Public domain (cropped)",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:U_S_Naval_Hospital_Sigonella_Enhances_Neonatal_Resuscitation_Training_with_Launch_of_Simulator_(8904904).jpg"
+  },
+  "resp": {
+   "file": "resp.png",
+   "caption": "Newborn chest X-ray: hazy lungs of respiratory distress syndrome",
+   "author": "Mikael Häggström, M.D.",
+   "licence": "CC0",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:X-ray_of_infant_respiratory_distress_syndrome_(IRDS).png"
+  },
+  "sep": {
+   "file": "sep.png",
+   "caption": "Group B Streptococcus: a leading cause of early newborn sepsis",
+   "author": "CDC",
+   "licence": "CC BY 2.5",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Streptococcus_agalactiae.tif"
+  }
+ },
+ "repro-w6-in-class-amenorrhea_2": {
+  "nu": {
+   "file": "nu.png",
+   "caption": "Absent uterus, cervix and upper vagina (Mullerian agenesis)",
+   "author": "Hariadhi",
+   "licence": "CC BY-SA 4.0",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Mullerian-agenesis_by_hariadhi.svg"
+  },
+  "pr": {
+   "file": "pr.jpg",
+   "caption": "Pituitary adenoma (arrow) on MRI: a common cause of high prolactin",
+   "author": "Yakafaucon",
+   "licence": "CC BY-SA 4.0",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Adenome_hypophyse_esp.jpg"
+  },
+  "ov": {
+   "file": "ov.png",
+   "caption": "Healthy ovary beside a streak gonad with no follicles left",
+   "author": "Digitiminimi99",
+   "licence": "CC BY-SA 4.0 (cropped)",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Ovary_as_compared_to_streak_gonad.png"
+  },
+  "hp": {
+   "file": "hp.jpg",
+   "caption": "Brain signals (GnRH, FSH, LH) drive the ovary: all low here",
+   "author": "Lu Kong et al.",
+   "licence": "CC BY 4.0",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Hypothalamic%E2%80%93pituitary%E2%80%93gonadal_axis_in_females.png"
+  },
+  "an": {
+   "file": "an.jpg",
+   "caption": "Ultrasound of a polycystic ovary: a common anovulation cause",
+   "author": "Schomynv",
+   "licence": "CC0",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Polycystic_ovary.jpg"
+  },
+  "of": {
+   "file": "of.jpg",
+   "caption": "Ultrasound: blood trapped in the uterus behind a blocked outflow",
+   "author": "Mikael Häggström",
+   "licence": "CC0",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Hematometra_-_postpartum.jpg"
+  }
+ },
+ "repro-w6-in-class-drugs-in-pregnancy-and-lactation_2": {
+  "ci": {
+   "file": "ci.png",
+   "caption": "Isotretinoin (acne drug): never in pregnancy",
+   "author": "Fvasconcellos",
+   "licence": "Public domain",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Isotretinoin_skeletal.svg"
+  },
+  "terat": {
+   "file": "terat.jpg",
+   "caption": "Thalidomide in pregnancy: malformed feet in the baby",
+   "author": "Not specified at the source. Uploaded to flickr by Otis Historical Archives Nati",
+   "licence": "CC BY 2.0",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:NCP14053.jpg"
+  },
+  "rid": {
+   "file": "rid.jpg",
+   "caption": "Paracetamol (acetaminophen): the usual safe pain drug",
+   "author": "Mk2010",
+   "licence": "CC BY-SA 3.0",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Medication_Paracetamol.JPG"
+  },
+  "soc": {
+   "file": "soc.jpg",
+   "caption": "Tobacco and cannabis: not banned, but advise quitting",
+   "author": "Chuck Grimmett from Amherst, Ohio, United States of America",
+   "licence": "CC BY-SA 2.0 (cropped)",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Smoking_(6307374507).jpg"
+  },
+  "safe": {
+   "file": "safe.jpg",
+   "caption": "Fetal ultrasound: baseline malformation risk is 2 to 4%",
+   "author": "Nevit Dilmen",
+   "licence": "CC BY-SA 3.0",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Ultrasound_Scan_ND_048.jpg"
+  }
+ },
+ "tree-calcium-bone-drugs": {
+  "c4": {
+   "file": "c4.png",
+   "caption": "Alendronate: a bisphosphonate that blocks osteoclasts",
+   "author": "Yikrazuul",
+   "licence": "Public domain",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Alendronic_acid.svg"
+  },
+  "c5": {
+   "file": "c5.jpg",
+   "caption": "Denosumab: antibody that blocks RANK ligand",
+   "author": "melvil",
+   "licence": "CC BY-SA 4.0",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Denosumab.jpg"
+  },
+  "c3": {
+   "file": "c3.png",
+   "caption": "Calcitriol: active vitamin D (1,25-dihydroxy)",
+   "author": "NEUROtiker",
+   "licence": "Public domain",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Calcitriol2.svg"
+  },
+  "c6": {
+   "file": "c6.jpg",
+   "caption": "Teriparatide boosts the bone-building step: osteoblasts lay new bone",
+   "author": "Laboratoires Servier",
+   "licence": "CC BY-SA 3.0",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Bone_regeneration-Bone_remodeling_cycle_II-Pre-Osteoblast_Osteoblast_Bone-lining_cell_etc_--Smart-Servie_cropped.jpg"
+  }
+ },
+ "tree-contraception": {
+  "c6": {
+   "file": "c6.jpg",
+   "caption": "Copper IUD (T-shaped), lasts years, no hormones",
+   "author": "Mikael Häggström, M.D.",
+   "licence": "CC0",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Copper_IUD.jpg"
+  },
+  "c11": {
+   "file": "c11.jpg",
+   "caption": "Combined oral contraceptive pill pack: one pill daily",
+   "author": "Béria Lima de Rodríguez",
+   "licence": "CC BY-SA 3.0",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Combined_oral_contraceptive_pill.JPG"
+  },
+  "c13": {
+   "file": "c13.jpg",
+   "caption": "Vaginal ring: left in place for weeks, releases hormones",
+   "author": "NIAID",
+   "licence": "CC BY 2.0",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Vaginal_Ring_(25153111944).jpg"
+  },
+  "c4": {
+   "file": "c4.jpg",
+   "caption": "Implant applicator: one rod goes under the skin of the upper arm",
+   "author": "User:Ciell",
+   "licence": "CC BY-SA 2.5",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Implanon.JPG"
+  }
+ },
+ "tree-drugs-used-in-gynecology": {
+  "c4": {
+   "file": "c4.jpg",
+   "caption": "Goserelin implant syringe (Zoladex): a continuous GnRH agonist",
+   "author": "Alison Cassidy",
+   "licence": "CC BY-SA 3.0 (cropped)",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Implantsyringe.JPG"
+  },
+  "c1": {
+   "file": "c1.png",
+   "caption": "Tranexamic acid: stops clot breakdown in heavy periods",
+   "author": "MarinaVladivostok",
+   "licence": "CC0",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Tranexamic_acid_ball-and-stick.png"
+  },
+  "c9": {
+   "file": "c9.jpg",
+   "caption": "Finasteride tablets: a 5-alpha-reductase inhibitor",
+   "author": "Kristoferb",
+   "licence": "CC BY-SA 3.0",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Generic_finasteride_tablets_cipla.jpg"
+  },
+  "c11": {
+   "file": "c11.jpg",
+   "caption": "Tamoxifen (Nolvadex): a selective estrogen receptor modulator",
+   "author": "Editor182",
+   "licence": "Public domain",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Nolvadex.jpg"
+  }
+ },
+ "tree-early-pregnancy-counselling": {
+  "c0": {
+   "file": "c0.jpg",
+   "caption": "One standard drink: beer, wine and spirits compared",
+   "author": "National Institutes of Health",
+   "licence": "Public domain",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:NIH_standard_drink_comparison.jpg"
+  },
+  "c8": {
+   "file": "c8.jpg",
+   "caption": "Coffee: a small amount of caffeine is fine",
+   "author": "Julius Schorzman",
+   "licence": "CC BY-SA 2.0",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:A_small_cup_of_coffee.JPG"
+  },
+  "c1": {
+   "file": "c1.jpg",
+   "caption": "Light exercise in pregnancy is safe and encouraged",
+   "author": "Wikimedia Commons",
+   "licence": "Public domain (cropped)",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Pregnant_Woman_With_Dumbells.JPG"
+  },
+  "c3": {
+   "file": "c3.png",
+   "caption": "Cigarette smoke: tobacco is a real risk to avoid",
+   "author": "Sémhur",
+   "licence": "CC BY-SA 4.0",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Cigarette-key.svg"
+  }
+ },
+ "tree-glucose-lowering-drugs": {
+  "c0": {
+   "file": "c0.png",
+   "caption": "Metformin: the biguanide that cuts liver glucose output",
+   "author": "Wostr",
+   "licence": "Public domain",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Metformin_structure.svg"
+  },
+  "c1": {
+   "file": "c1.png",
+   "caption": "Pioglitazone: a thiazolidinedione (insulin sensitizer)",
+   "author": "Pubchem",
+   "licence": "CC BY-SA 4.0",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Pioglitazone_2D.png"
+  },
+  "c2": {
+   "file": "c2.png",
+   "caption": "Glibenclamide: a sulfonylurea that triggers insulin release",
+   "author": "Vaccinationist",
+   "licence": "CC BY-SA 4.0",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Glibenclamide_ball-and-stick_model.png"
+  },
+  "c4": {
+   "file": "c4.jpg",
+   "caption": "Semaglutide pen: a GLP-1 receptor agonist injection",
+   "author": "HualinXMN",
+   "licence": "CC BY-SA 4.0",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Ozempic%C2%AE_3ml.jpg"
+  },
+  "c8": {
+   "file": "c8.png",
+   "caption": "Empagliflozin: an SGLT2 inhibitor, glucose lost in urine",
+   "author": "Boghog",
+   "licence": "Public domain",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Empagliflozin.png"
+  }
+ },
+ "tree-insulin-preparations": {
+  "c0": {
+   "file": "c0.jpg",
+   "caption": "Insulin lispro vial: rapid-acting, given with meals",
+   "author": "MallardTV",
+   "licence": "CC0",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Insulin_Admelog_Vial.jpg"
+  },
+  "c4": {
+   "file": "c4.jpg",
+   "caption": "Regular human insulin vial: short-acting",
+   "author": "Wesalius",
+   "licence": "CC BY 4.0",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Human_insulin_100IU-ml_vial_white_background.jpg"
+  },
+  "c10": {
+   "file": "c10.jpg",
+   "caption": "Premixed insulin pen (biphasic): rapid plus intermediate in one",
+   "author": "User:Wesalius, labeled by User:Berchanhimez",
+   "licence": "CC BY 4.0",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Insulin_pen_(labeled).jpg"
+  }
+ },
+ "tree-parathyroidectomy-indications": {
+  "c2": {
+   "file": "c2.jpg",
+   "caption": "Kidney stones: a reason to operate on the parathyroid",
+   "author": "Arconsoli",
+   "licence": "CC BY-SA 4.0",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Kidney_stones.jpg"
+  },
+  "c1": {
+   "file": "c1.jpg",
+   "caption": "24-hour urine collection container: measures urine calcium",
+   "author": "Johnson-Arbor K, Tefera E, Farrell J Jr.",
+   "licence": "CC BY 4.0",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Trace_metal-free_24_hour_urine_container.jpg"
+  },
+  "c4": {
+   "file": "c4.jpg",
+   "caption": "DXA scan of the spine in osteoporosis (T-score below -2.5)",
+   "author": "Jmarchn",
+   "licence": "CC BY-SA 3.0 (cropped)",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:DXA_lumbar_column_with_osteoporosi.png"
+  },
+  "c5": {
+   "file": "c5.jpg",
+   "caption": "Vertebral fracture on X-ray: a bone indication for surgery",
+   "author": "Glitzy queen00",
+   "licence": "Public domain",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:L1_2_vertebral_fracture.jpg"
+  }
+ },
+ "tree-rheumatology-treatments": {
+  "c8": {
+   "file": "c8.png",
+   "caption": "Methotrexate: the first-line conventional DMARD",
+   "author": "Wikimedia Commons",
+   "licence": "Public domain",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Methotrexate.svg"
+  },
+  "c9": {
+   "file": "c9.png",
+   "caption": "Hydroxychloroquine: a milder conventional DMARD",
+   "author": "Fvasconcellos",
+   "licence": "Public domain",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Hydroxychloroquine.svg"
+  },
+  "c12": {
+   "file": "c12.jpg",
+   "caption": "Adalimumab pen: a TNF inhibitor injected under the skin",
+   "author": "Black Stripe",
+   "licence": "CC BY-SA 3.0",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Components_of_an_Adalimumab-Humira_pen_-_annotated.jpg"
+  },
+  "c1": {
+   "file": "c1.jpg",
+   "caption": "Prednisone tablet: steroid, dose sets the effect",
+   "author": "NLM",
+   "licence": "Public domain",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:006035339lg_Prednisone_20_MG_Oral_Tablet.jpg"
   }
  }
 }

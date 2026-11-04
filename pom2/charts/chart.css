@@ -80,6 +80,7 @@ button{font-family:inherit}
 .grid{position:relative}
 .grid>.gap{height:22px}
 .col>.sp{height:10px;flex:none}
+.col.cont{margin-top:26px}
 .links{position:absolute;left:0;top:0;pointer-events:none;overflow:visible;color:var(--arrow)}
 .links path{fill:none;stroke:currentColor;stroke-width:2;transition:opacity .25s}
 .links marker path{fill:currentColor;stroke:none}

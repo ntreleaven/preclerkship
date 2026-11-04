@@ -1,570 +1,597 @@
 [
- {
-  "test": "CN II, optic: visual acuity",
-  "file": "cn-ii-optic-visual-acuity.jpg",
-  "slug": "cn-ii-optic-visual-acuity.jpg",
-  "source_page_url": "https://rsc.lib.uwo.ca/s/healthedu/item/1676",
-  "author": "Clinical Neurological Sciences, Schulich School of Medicine and Dentistry (Health Education Media Library, Western Libraries)",
-  "licence": "CC BY-NC 4.0",
-  "what_it_shows": "Visual Acuity - Using near card."
- },
- {
-  "test": "CN II: visual fields by confrontation",
-  "file": "cn-ii-visual-fields-by-confrontation.jpg",
-  "slug": "cn-ii-visual-fields-by-confrontation.jpg",
-  "source_page_url": "https://rsc.lib.uwo.ca/s/healthedu/item/1682",
-  "author": "Clinical Neurological Sciences, Schulich School of Medicine and Dentistry (Health Education Media Library, Western Libraries)",
-  "licence": "CC BY-NC 4.0",
-  "what_it_shows": "Testing visual fields"
- },
- {
-  "test": "CN II and III: pupillary light reflex",
-  "file": "cn-ii-and-iii-pupillary-light-reflex.jpg",
-  "slug": "cn-ii-and-iii-pupillary-light-reflex.jpg",
-  "source_page_url": "https://rsc.lib.uwo.ca/s/healthedu/item/1708",
-  "author": "Clinical Neurological Sciences, Schulich School of Medicine and Dentistry (Health Education Media Library, Western Libraries)",
-  "licence": "CC BY-NC 4.0, cropped",
-  "what_it_shows": "Testing pupillary light reflex: the penlight shone into one eye, the pupil constricting"
- },
- {
-  "test": "CN III, IV, VI: eye movements",
-  "file": "cn-iii-iv-vi-eye-movements.jpg",
-  "slug": "cn-iii-iv-vi-eye-movements.jpg",
-  "source_page_url": "https://rsc.lib.uwo.ca/s/healthedu/item/1692",
-  "author": "Clinical Neurological Sciences, Schulich School of Medicine and Dentistry (Health Education Media Library, Western Libraries)",
-  "licence": "CC BY-NC 4.0",
-  "what_it_shows": "Testing extraocular movements"
- },
- {
-  "test": "CN V, trigeminal: sensation",
-  "file": "cn-v-trigeminal-sensation.jpg",
-  "slug": "cn-v-trigeminal-sensation.jpg",
-  "source_page_url": "https://rsc.lib.uwo.ca/s/healthedu/item/1712",
-  "author": "Clinical Neurological Sciences, Schulich School of Medicine and Dentistry (Health Education Media Library, Western Libraries)",
-  "licence": "CC BY-NC 4.0",
-  "what_it_shows": "Testing sensation on face to pin (CN V maxillary division V2)"
- },
- {
-  "test": "CN VII, facial: motor",
-  "file": "cn-vii-facial-motor.jpg",
-  "slug": "cn-vii-facial-motor.jpg",
-  "source_page_url": "https://rsc.lib.uwo.ca/s/healthedu/item/1716",
-  "author": "Clinical Neurological Sciences, Schulich School of Medicine and Dentistry (Health Education Media Library, Western Libraries)",
-  "licence": "CC BY-NC 4.0",
-  "what_it_shows": "Examining facial power-cranial nerve VII \"big smile\""
- },
- {
-  "test": "CN IX and X: palate",
-  "file": "cn-ix-and-x-palate.jpg",
-  "slug": "cn-ix-and-x-palate.jpg",
-  "source_page_url": "https://rsc.lib.uwo.ca/s/healthedu/item/1732",
-  "author": "Clinical Neurological Sciences, Schulich School of Medicine and Dentistry (Health Education Media Library, Western Libraries)",
-  "licence": "CC BY-NC 4.0",
-  "what_it_shows": "Examining palatal elevation with patient saying \"ahhhh\" - cranial nerve IX and X"
- },
- {
-  "test": "CN XI, spinal accessory",
-  "file": "cn-xi-spinal-accessory.jpg",
-  "slug": "cn-xi-spinal-accessory.jpg",
-  "source_page_url": "https://rsc.lib.uwo.ca/s/healthedu/item/1740",
-  "author": "Clinical Neurological Sciences, Schulich School of Medicine and Dentistry (Health Education Media Library, Western Libraries)",
-  "licence": "CC BY-NC 4.0",
-  "what_it_shows": "Testing shoulder shrug-trapezius, cranial nerve XI"
- },
- {
-  "test": "CN XII, hypoglossal",
-  "file": "cn-xii-hypoglossal.jpg",
-  "slug": "cn-xii-hypoglossal.jpg",
-  "source_page_url": "https://rsc.lib.uwo.ca/s/healthedu/item/1734",
-  "author": "Clinical Neurological Sciences, Schulich School of Medicine and Dentistry (Health Education Media Library, Western Libraries)",
-  "licence": "CC BY-NC 4.0",
-  "what_it_shows": "Examining tongue extension- cranial nerve XII"
- },
- {
-  "test": "Shoulder abduction",
-  "file": "shoulder-abduction.jpg",
-  "slug": "shoulder-abduction.jpg",
-  "source_page_url": "https://rsc.lib.uwo.ca/s/healthedu/item/1582",
-  "author": "Clinical Neurological Sciences, Schulich School of Medicine and Dentistry (Health Education Media Library, Western Libraries)",
-  "licence": "CC BY-NC 4.0",
-  "what_it_shows": "Motor Testing: Arms; shoulder abduction"
- },
- {
-  "test": "Elbow flexion",
-  "file": "elbow-flexion.jpg",
-  "slug": "elbow-flexion.jpg",
-  "source_page_url": "https://rsc.lib.uwo.ca/s/healthedu/item/1588",
-  "author": "Clinical Neurological Sciences, Schulich School of Medicine and Dentistry (Health Education Media Library, Western Libraries)",
-  "licence": "CC BY-NC 4.0",
-  "what_it_shows": "Motor testing: Elbow flexion"
- },
- {
-  "test": "Elbow extension",
-  "file": "elbow-extension.jpg",
-  "slug": "elbow-extension.jpg",
-  "source_page_url": "https://rsc.lib.uwo.ca/s/healthedu/item/1592",
-  "author": "Clinical Neurological Sciences, Schulich School of Medicine and Dentistry (Health Education Media Library, Western Libraries)",
-  "licence": "CC BY-NC 4.0",
-  "what_it_shows": "Motor testing: Elbow extension"
- },
- {
-  "test": "Finger abduction",
-  "file": "finger-abduction.jpg",
-  "slug": "finger-abduction.jpg",
-  "source_page_url": "https://rsc.lib.uwo.ca/s/healthedu/item/1598",
-  "author": "Clinical Neurological Sciences, Schulich School of Medicine and Dentistry (Health Education Media Library, Western Libraries)",
-  "licence": "CC BY-NC 4.0",
-  "what_it_shows": "Motor Testing: Finger Abduction"
- },
- {
-  "test": "Hip flexion",
-  "file": "hip-flexion.jpg",
-  "slug": "hip-flexion.jpg",
-  "source_page_url": "https://rsc.lib.uwo.ca/s/healthedu/item/1548",
-  "author": "Clinical Neurological Sciences, Schulich School of Medicine and Dentistry (Health Education Media Library, Western Libraries)",
-  "licence": "CC BY-NC 4.0",
-  "what_it_shows": "Testing hip flexion (supine)"
- },
- {
-  "test": "Knee extension",
-  "file": "knee-extension.jpg",
-  "slug": "knee-extension.jpg",
-  "source_page_url": "https://rsc.lib.uwo.ca/s/healthedu/item/1552",
-  "author": "Clinical Neurological Sciences, Schulich School of Medicine and Dentistry (Health Education Media Library, Western Libraries)",
-  "licence": "CC BY-NC 4.0",
-  "what_it_shows": "Motor Testing: Knee extension (supine) - L3, L4"
- },
- {
-  "test": "Knee flexion",
-  "file": "knee-flexion.jpg",
-  "slug": "knee-flexion.jpg",
-  "source_page_url": "https://rsc.lib.uwo.ca/s/healthedu/item/1554",
-  "author": "Clinical Neurological Sciences, Schulich School of Medicine and Dentistry (Health Education Media Library, Western Libraries)",
-  "licence": "CC BY-NC 4.0",
-  "what_it_shows": "Motor Testing: Knee flexion (supine) - L5, S1"
- },
- {
-  "test": "Ankle dorsiflexion",
-  "file": "ankle-dorsiflexion.jpg",
-  "slug": "ankle-dorsiflexion.jpg",
-  "source_page_url": "https://rsc.lib.uwo.ca/s/healthedu/item/1558",
-  "author": "Clinical Neurological Sciences, Schulich School of Medicine and Dentistry (Health Education Media Library, Western Libraries)",
-  "licence": "CC BY-NC 4.0",
-  "what_it_shows": "Motor Testing: Ankle dorsiflexion (supine) - L4, L5"
- },
- {
-  "test": "Ankle plantar flexion",
-  "file": "ankle-plantar-flexion.jpg",
-  "slug": "ankle-plantar-flexion.jpg",
-  "source_page_url": "https://rsc.lib.uwo.ca/s/healthedu/item/1560",
-  "author": "Clinical Neurological Sciences, Schulich School of Medicine and Dentistry (Health Education Media Library, Western Libraries)",
-  "licence": "CC BY-NC 4.0",
-  "what_it_shows": "Motor testing: Plantar Flexion (supine) - S1, S2"
- },
- {
-  "test": "Pain (pinprick)",
-  "file": "pain-pinprick.jpg",
-  "slug": "pain-pinprick.jpg",
-  "source_page_url": "https://rsc.lib.uwo.ca/s/healthedu/item/1666",
-  "author": "Clinical Neurological Sciences, Schulich School of Medicine and Dentistry (Health Education Media Library, Western Libraries)",
-  "licence": "CC BY-NC 4.0",
-  "what_it_shows": "Upper Extremities Sensory Exam: Pin arm"
- },
- {
-  "test": "Vibration",
-  "file": "vibration.jpg",
-  "slug": "vibration.jpg",
-  "source_page_url": "https://rsc.lib.uwo.ca/s/healthedu/item/1794",
-  "author": "Clinical Neurological Sciences, Schulich School of Medicine and Dentistry (Health Education Media Library, Western Libraries)",
-  "licence": "CC BY-NC 4.0",
-  "what_it_shows": "Sensory exam: testing vibration toe"
- },
- {
-  "test": "Proprioception (joint position)",
-  "file": "proprioception-joint-position.jpg",
-  "slug": "proprioception-joint-position.jpg",
-  "source_page_url": "https://rsc.lib.uwo.ca/s/healthedu/item/1790",
-  "author": "Clinical Neurological Sciences, Schulich School of Medicine and Dentistry (Health Education Media Library, Western Libraries)",
-  "licence": "CC BY-NC 4.0",
-  "what_it_shows": "Sensory exam: testing joint position sense hand"
- },
- {
-  "test": "Biceps",
-  "file": "biceps.jpg",
-  "slug": "biceps.jpg",
-  "source_page_url": "https://rsc.lib.uwo.ca/s/healthedu/item/1504",
-  "author": "Clinical Neurological Sciences, Schulich School of Medicine and Dentistry (Health Education Media Library, Western Libraries)",
-  "licence": "CC BY-NC 4.0",
-  "what_it_shows": "Biceps reflex"
- },
- {
-  "test": "Brachioradialis",
-  "file": "brachioradialis.jpg",
-  "slug": "brachioradialis.jpg",
-  "source_page_url": "https://rsc.lib.uwo.ca/s/healthedu/item/1620",
-  "author": "Clinical Neurological Sciences, Schulich School of Medicine and Dentistry (Health Education Media Library, Western Libraries)",
-  "licence": "CC BY-NC 4.0",
-  "what_it_shows": "Deep tendon reflex testing: Brachioradialis"
- },
- {
-  "test": "Triceps",
-  "file": "triceps.jpg",
-  "slug": "triceps.jpg",
-  "source_page_url": "https://rsc.lib.uwo.ca/s/healthedu/item/1626",
-  "author": "Clinical Neurological Sciences, Schulich School of Medicine and Dentistry (Health Education Media Library, Western Libraries)",
-  "licence": "CC BY-NC 4.0",
-  "what_it_shows": "Deep tendon reflex testing: Triceps"
- },
- {
-  "test": "Knee (patellar)",
-  "file": "knee-patellar.jpg",
-  "slug": "knee-patellar.jpg",
-  "source_page_url": "https://rsc.lib.uwo.ca/s/healthedu/item/1636",
-  "author": "Clinical Neurological Sciences, Schulich School of Medicine and Dentistry (Health Education Media Library, Western Libraries)",
-  "licence": "CC BY-NC 4.0",
-  "what_it_shows": "Deep tendon reflex testing: knee"
- },
- {
-  "test": "Ankle (Achilles)",
-  "file": "ankle-achilles.jpg",
-  "slug": "ankle-achilles.jpg",
-  "source_page_url": "https://rsc.lib.uwo.ca/s/healthedu/item/1640",
-  "author": "Clinical Neurological Sciences, Schulich School of Medicine and Dentistry (Health Education Media Library, Western Libraries)",
-  "licence": "CC BY-NC 4.0",
-  "what_it_shows": "Deep tendon reflex testing: Ankle Jerks"
- },
- {
-  "test": "Plantar response",
-  "file": "plantar-response.jpg",
-  "slug": "plantar-response.jpg",
-  "source_page_url": "https://rsc.lib.uwo.ca/s/healthedu/item/1642",
-  "author": "Clinical Neurological Sciences, Schulich School of Medicine and Dentistry (Health Education Media Library, Western Libraries)",
-  "licence": "CC BY-NC 4.0",
-  "what_it_shows": "Testing plantar response (sitting)"
- },
- {
-  "test": "Rapid alternating movements",
-  "file": "rapid-alternating-movements.jpg",
-  "slug": "rapid-alternating-movements.jpg",
-  "source_page_url": "https://rsc.lib.uwo.ca/s/healthedu/item/1838",
-  "author": "Clinical Neurological Sciences, Schulich School of Medicine and Dentistry (Health Education Media Library, Western Libraries)",
-  "licence": "CC BY-NC 4.0",
-  "what_it_shows": "Coordination: rapid alternating movements"
- },
- {
-  "test": "Finger-nose",
-  "file": "finger-nose.jpg",
-  "slug": "finger-nose.jpg",
-  "source_page_url": "https://rsc.lib.uwo.ca/s/healthedu/item/1836",
-  "author": "Clinical Neurological Sciences, Schulich School of Medicine and Dentistry (Health Education Media Library, Western Libraries)",
-  "licence": "CC BY-NC 4.0",
-  "what_it_shows": "Coordination: finger to nose testing"
- },
- {
-  "test": "Heel-shin",
-  "file": "heel-shin.jpg",
-  "slug": "heel-shin.jpg",
-  "source_page_url": "https://rsc.lib.uwo.ca/s/healthedu/item/1844",
-  "author": "Clinical Neurological Sciences, Schulich School of Medicine and Dentistry (Health Education Media Library, Western Libraries)",
-  "licence": "CC BY-NC 4.0",
-  "what_it_shows": "Coordination: heel to shin"
- },
- {
-  "test": "CN I, olfactory: smell",
-  "file": "cn-i-olfactory-smell.jpg",
-  "slug": "cn-i-olfactory-smell.jpg",
-  "source_page_url": "https://commons.wikimedia.org/wiki/File:Sniffin%E2%80%99_Sticks_test.jpg",
-  "author": "Kosmider (Wikimedia Commons)",
-  "licence": "Public domain (cropped, date stamp removed, lower face blurred)",
-  "what_it_shows": "A blindfolded person sniffs an odour pen that the examiner holds under one nostril, with the rest of the pen set in front; it is a formal Sniffin' Sticks kit rather than coffee, and the other nostril is not shown blocked."
- },
- {
-  "test": "CN II: fundoscopy",
-  "file": "cn-ii-fundoscopy.jpg",
-  "slug": "cn-ii-fundoscopy.jpg",
-  "source_page_url": "https://europepmc.org/article/PMC/PMC13571928",
-  "author": "Shiokawa A, Monteiro MLR, Massuda R, et al., Clinics (Sao Paulo) 2026, Fig. 2B",
-  "licence": "CC BY 4.0 (cropped to panel B, examiner's face and name badge blurred; patient's eyes barred in the original)",
-  "what_it_shows": "The examiner, seated beside the patient, brings a direct ophthalmoscope close to her right eye from the side with his other hand steadying her forehead."
- },
- {
-  "test": "CN VIII, vestibulocochlear: hearing",
-  "file": "cn-viii-vestibulocochlear-hearing.jpg",
-  "slug": "cn-viii-vestibulocochlear-hearing.jpg",
-  "source_page_url": "https://commons.wikimedia.org/wiki/File:Weberversuch.png",
-  "source_page_url_2": "https://commons.wikimedia.org/wiki/File:Rinneversuch.png",
-  "author": "Ziyun518 (Wikimedia Commons)",
-  "licence": "CC0 (two drawings placed side by side)",
-  "what_it_shows": "Two unlabelled pencil drawings: left, a tuning fork stem on the top of the head (Weber); right, a tuning fork stem on the mastoid behind the ear (Rinne)."
- },
- {
-  "test": "Grip strength",
-  "file": "grip-strength.jpg",
-  "slug": "grip-strength.jpg",
-  "source_page_url": "https://commons.wikimedia.org/wiki/File:Hand_dynamometer.jpg",
-  "author": "Ashashyou (Wikimedia Commons)",
-  "licence": "CC0 (resized)",
-  "what_it_shows": "A hand squeezing a dial hand-grip dynamometer, the device version of the grip test, not the two-finger squeeze."
- },
- {
-  "test": "Tandem gait",
-  "file": "tandem-gait.jpg",
-  "slug": "tandem-gait.jpg",
-  "source_page_url": "https://europepmc.org/article/PMC/PMC11678946",
-  "author": "Wahlquist VE, Buckley TA, Caccese JB, Glutting JJ, Royer TD, Kaminski TW, Sports (Basel) 2024, Fig. 4",
-  "licence": "CC BY 4.0 (resized)",
-  "what_it_shows": "Legs from the knee down walking heel to toe along a straight tape line on the floor, the front heel touching the back toes."
- },
- {
-  "test": "Landmarks: lesion",
-  "file": "lesion-landmarks.jpg",
-  "slug": "lesion-landmarks.jpg",
-  "source_page_url": "https://github.com/schulichmed/medwiki",
-  "author": "Drawn for medwiki (own work)",
-  "licence": "CC0",
-  "what_it_shows": "Approach to a neurological problem: describe, localize, differential"
- },
- {
-  "test": "Language (aphasia screen)",
-  "file": "language-aphasia-screen.jpg",
-  "slug": "language-aphasia-screen.jpg",
-  "source_page_url": "https://rsc.lib.uwo.ca/s/healthedu/item/1780",
-  "author": "Clinical Neurological Sciences, Schulich School of Medicine and Dentistry (Health Education Media Library, Western Libraries)",
-  "licence": "CC BY-NC 4.0",
-  "what_it_shows": "Language testing stroke card: patient names the pictured objects."
- },
- {
-  "test": "Pronator drift",
-  "file": "pronator-drift.jpg",
-  "slug": "pronator-drift.jpg",
-  "source_page_url": "https://rsc.lib.uwo.ca/s/healthedu/item/1616",
-  "author": "Clinical Neurological Sciences, Schulich School of Medicine and Dentistry (Health Education Media Library, Western Libraries)",
-  "licence": "CC BY-NC 4.0",
-  "what_it_shows": "Sitting power exam: pronator drift. Arms held out, palms up, eyes closed, watching for a drift."
- },
- {
-  "test": "Wrist extension",
-  "file": "wrist-extension.jpg",
-  "slug": "wrist-extension.jpg",
-  "source_page_url": "https://rsc.lib.uwo.ca/s/healthedu/item/1594",
-  "author": "Clinical Neurological Sciences, Schulich School of Medicine and Dentistry (Health Education Media Library, Western Libraries)",
-  "licence": "CC BY-NC 4.0",
-  "what_it_shows": "Motor testing: wrist extension held against resistance, compared side to side."
- },
- {
-  "test": "Extinction (both sides at once)",
-  "file": "extinction-both-sides-at-once.jpg",
-  "slug": "extinction-both-sides-at-once.jpg",
-  "source_page_url": "https://rsc.lib.uwo.ca/s/healthedu/item/1828",
-  "author": "Clinical Neurological Sciences, Schulich School of Medicine and Dentistry (Health Education Media Library, Western Libraries)",
-  "licence": "CC BY-NC 4.0",
-  "what_it_shows": "NIHSS item 11: sensory extinction, both legs touched at once."
- },
- {
-  "test": "CN II: swinging light test",
-  "file": "cn-ii-swinging-light-test.jpg",
-  "slug": "cn-ii-swinging-light-test.jpg",
-  "source_page_url": "https://rsc.lib.uwo.ca/s/healthedu/item/2483",
-  "author": "Clinical Neurological Sciences, Schulich School of Medicine and Dentistry (Health Education Media Library, Western Libraries)",
-  "licence": "CC BY-NC 4.0 (frame from video)",
-  "what_it_shows": "Penlight on one eye with the other eye in view (frame at 1:04 of Pupillary Light Response and RAPD)."
- },
- {
-  "test": "CN V: motor",
-  "file": "cn-v-motor.jpg",
-  "slug": "cn-v-motor.jpg",
-  "source_page_url": "https://med.libretexts.org/Bookshelves/Nursing/Nursing_Skills_(OpenRN)/06%3A_Neurological_Assessment/6.05%3A_Assessing_Cranial_Nerves",
-  "author": "Meredith Pomietlo for Chippewa Valley Technical College, in Open RN Nursing Skills (Chippewa Valley Technical College / Wisconsin Technical College System)",
-  "licence": "CC BY 4.0 (cropped to two panels, eyes blurred)",
-  "what_it_shows": "Fingers on the jaw angle (masseter) and temple (temporalis) while the patient clenches the teeth; third panel, open mouth, omitted."
- },
- {
-  "test": "CN VII: sensory",
-  "file": "cn-vii-sensory-taste.jpg",
-  "slug": "cn-vii-sensory-taste.jpg",
-  "source_page_url": "https://med.libretexts.org/Bookshelves/Nursing/Nursing_Skills_(OpenRN)/06%3A_Neurological_Assessment/6.05%3A_Assessing_Cranial_Nerves",
-  "author": "Meredith Pomietlo for Chippewa Valley Technical College, in Open RN Nursing Skills (Chippewa Valley Technical College / Wisconsin Technical College System)",
-  "licence": "CC BY 4.0 (cropped, eyes blurred)",
-  "what_it_shows": "Taste testing: a moistened cotton applicator touched to the front of the tongue."
- },
- {
-  "test": "CN IX and X: gag reflex",
-  "file": "cn-ix-x-gag-reflex.jpg",
-  "slug": "cn-ix-x-gag-reflex.jpg",
-  "source_page_url": "https://med.libretexts.org/Bookshelves/Nursing/Nursing_Skills_(OpenRN)/06%3A_Neurological_Assessment/6.05%3A_Assessing_Cranial_Nerves",
-  "author": "Meredith Pomietlo for Chippewa Valley Technical College, in Open RN Nursing Skills (Chippewa Valley Technical College / Wisconsin Technical College System)",
-  "licence": "CC BY 4.0 (cropped, eyes blurred)",
-  "what_it_shows": "Observing the gag reflex: penlight and tongue depressor in the open mouth (Open RN Figure 6.5.13)."
- },
- {
-  "test": "Light touch",
-  "file": "light-touch.jpg",
-  "slug": "light-touch.jpg",
-  "source_page_url": "https://med.libretexts.org/Bookshelves/Nursing/Nursing_Skills_(OpenRN)/06%3A_Neurological_Assessment/6.06%3A_Assessing_Sensory_Function",
-  "author": "Meredith Pomietlo for Chippewa Valley Technical College, in Open RN Nursing Skills (Chippewa Valley Technical College / Wisconsin Technical College System)",
-  "licence": "CC BY 4.0 (cropped to the thigh and shin panels)",
-  "what_it_shows": "A cotton wisp touched to the thigh and to the shin, patient seated."
- },
- {
-  "test": "Stereognosis",
-  "file": "stereognosis.jpg",
-  "slug": "stereognosis.jpg",
-  "source_page_url": "https://med.libretexts.org/Bookshelves/Nursing/Nursing_Skills_(OpenRN)/06%3A_Neurological_Assessment/6.06%3A_Assessing_Sensory_Function",
-  "author": "Meredith Pomietlo for Chippewa Valley Technical College, in Open RN Nursing Skills (Chippewa Valley Technical College / Wisconsin Technical College System)",
-  "licence": "CC BY 4.0 (cropped to the hands)",
-  "what_it_shows": "A key placed in the open palm and explored by the other hand, eyes closed (Assessing Stereognosis)."
- },
- {
-  "test": "Ankle clonus",
-  "file": "ankle-clonus.jpg",
-  "slug": "ankle-clonus.jpg",
-  "source_page_url": "https://commons.wikimedia.org/wiki/File:ClonusfromSS_(edited).webm",
-  "author": "David Juurlink",
-  "licence": "CC BY-SA 4.0 (frame from video)",
-  "what_it_shows": "Examiner sharply dorsiflexing the foot with the palm on the sole to bring out clonus (frame from a case of serotonin syndrome)."
- },
- {
-  "test": "Cortex",
-  "file": "lesion-cortex.jpg",
-  "slug": "lesion-cortex.jpg",
-  "source_page_url": "https://github.com/schulichmed/medwiki",
-  "author": "Drawn for this page (Claude), concept diagram",
-  "licence": "CC0",
-  "what_it_shows": "Schematic of the nervous system (brain, brainstem, cerebellum, cord, root, plexus, nerve, junction, muscle) with this level highlighted, and its typical signs."
- },
- {
-  "test": "Subcortex (white matter, internal capsule)",
-  "file": "lesion-subcortex.jpg",
-  "slug": "lesion-subcortex.jpg",
-  "source_page_url": "https://github.com/schulichmed/medwiki",
-  "author": "Drawn for this page (Claude), concept diagram",
-  "licence": "CC0",
-  "what_it_shows": "Schematic of the nervous system (brain, brainstem, cerebellum, cord, root, plexus, nerve, junction, muscle) with this level highlighted, and its typical signs."
- },
- {
-  "test": "Brainstem",
-  "file": "lesion-brainstem.jpg",
-  "slug": "lesion-brainstem.jpg",
-  "source_page_url": "https://github.com/schulichmed/medwiki",
-  "author": "Drawn for this page (Claude), concept diagram",
-  "licence": "CC0",
-  "what_it_shows": "Schematic of the nervous system (brain, brainstem, cerebellum, cord, root, plexus, nerve, junction, muscle) with this level highlighted, and its typical signs."
- },
- {
-  "test": "Cerebellum",
-  "file": "lesion-cerebellum.jpg",
-  "slug": "lesion-cerebellum.jpg",
-  "source_page_url": "https://github.com/schulichmed/medwiki",
-  "author": "Drawn for this page (Claude), concept diagram",
-  "licence": "CC0",
-  "what_it_shows": "Schematic of the nervous system (brain, brainstem, cerebellum, cord, root, plexus, nerve, junction, muscle) with this level highlighted, and its typical signs."
- },
- {
-  "test": "Spinal cord",
-  "file": "lesion-spinal-cord.jpg",
-  "slug": "lesion-spinal-cord.jpg",
-  "source_page_url": "https://github.com/schulichmed/medwiki",
-  "author": "Drawn for this page (Claude), concept diagram",
-  "licence": "CC0",
-  "what_it_shows": "Schematic of the nervous system (brain, brainstem, cerebellum, cord, root, plexus, nerve, junction, muscle) with this level highlighted, and its typical signs."
- },
- {
-  "test": "Anterior horn cell",
-  "file": "lesion-anterior-horn-cell.jpg",
-  "slug": "lesion-anterior-horn-cell.jpg",
-  "source_page_url": "https://github.com/schulichmed/medwiki",
-  "author": "Drawn for this page (Claude), concept diagram",
-  "licence": "CC0",
-  "what_it_shows": "Schematic of the nervous system (brain, brainstem, cerebellum, cord, root, plexus, nerve, junction, muscle) with this level highlighted, and its typical signs."
- },
- {
-  "test": "Nerve root",
-  "file": "lesion-nerve-root.jpg",
-  "slug": "lesion-nerve-root.jpg",
-  "source_page_url": "https://github.com/schulichmed/medwiki",
-  "author": "Drawn for this page (Claude), concept diagram",
-  "licence": "CC0",
-  "what_it_shows": "Schematic of the nervous system (brain, brainstem, cerebellum, cord, root, plexus, nerve, junction, muscle) with this level highlighted, and its typical signs."
- },
- {
-  "test": "Plexus",
-  "file": "lesion-plexus.jpg",
-  "slug": "lesion-plexus.jpg",
-  "source_page_url": "https://github.com/schulichmed/medwiki",
-  "author": "Drawn for this page (Claude), concept diagram",
-  "licence": "CC0",
-  "what_it_shows": "Schematic of the nervous system (brain, brainstem, cerebellum, cord, root, plexus, nerve, junction, muscle) with this level highlighted, and its typical signs."
- },
- {
-  "test": "Peripheral nerve",
-  "file": "lesion-peripheral-nerve.jpg",
-  "slug": "lesion-peripheral-nerve.jpg",
-  "source_page_url": "https://github.com/schulichmed/medwiki",
-  "author": "Drawn for this page (Claude), concept diagram",
-  "licence": "CC0",
-  "what_it_shows": "Schematic of the nervous system (brain, brainstem, cerebellum, cord, root, plexus, nerve, junction, muscle) with this level highlighted, and its typical signs."
- },
- {
-  "test": "Neuromuscular junction",
-  "file": "lesion-neuromuscular-junction.jpg",
-  "slug": "lesion-neuromuscular-junction.jpg",
-  "source_page_url": "https://github.com/schulichmed/medwiki",
-  "author": "Drawn for this page (Claude), concept diagram",
-  "licence": "CC0",
-  "what_it_shows": "Schematic of the nervous system (brain, brainstem, cerebellum, cord, root, plexus, nerve, junction, muscle) with this level highlighted, and its typical signs."
- },
- {
-  "test": "Muscle",
-  "file": "lesion-muscle.jpg",
-  "slug": "lesion-muscle.jpg",
-  "source_page_url": "https://github.com/schulichmed/medwiki",
-  "author": "Drawn for this page (Claude), concept diagram",
-  "licence": "CC0",
-  "what_it_shows": "Schematic of the nervous system (brain, brainstem, cerebellum, cord, root, plexus, nerve, junction, muscle) with this level highlighted, and its typical signs."
- },
- {
-  "test": "Temperature",
-  "file": "temperature.jpg",
-  "slug": "temperature.jpg",
-  "source_page_url": "",
-  "author": "Drawn for this page (Claude), concept/technique diagram",
-  "licence": "Original drawing (not sourced)",
-  "what_it_shows": "Cool tuning fork touched to the forearm, patient eyes closed, compare sides."
- },
- {
-  "test": "Graphesthesia",
-  "file": "graphesthesia.jpg",
-  "slug": "graphesthesia.jpg",
-  "source_page_url": "",
-  "author": "Drawn for this page (Claude), concept/technique diagram",
-  "licence": "Original drawing (not sourced)",
-  "what_it_shows": "A number traced in the palm with a blunt point."
- },
- {
-  "test": "Two-point discrimination",
-  "file": "two-point-discrimination.jpg",
-  "slug": "two-point-discrimination.jpg",
-  "source_page_url": "",
-  "author": "Drawn for this page (Claude), concept/technique diagram",
-  "licence": "Original drawing (not sourced)",
-  "what_it_shows": "Caliper or paper-clip points on a fingertip pad, one or two points."
- },
- {
-  "test": "CN V and VII: corneal reflex",
-  "file": "cn-v-and-vii-corneal-reflex.jpg",
-  "slug": "cn-v-and-vii-corneal-reflex.jpg",
-  "source_page_url": "",
-  "author": "Drawn for this page (Claude), concept/technique diagram",
-  "licence": "Original drawing (not sourced)",
-  "what_it_shows": "Cotton wisp touching the cornea from the side while the patient looks up and away; both eyelids blink (V afferent, VII efferent)."
- },
- {
-  "test": "Romberg test",
-  "file": "romberg-test.jpg",
-  "slug": "romberg-test.jpg",
-  "source_page_url": "",
-  "author": "Drawn for this page (Claude), concept/technique diagram",
-  "licence": "Original drawing (not sourced)",
-  "what_it_shows": "Clothed patient standing feet together with eyes closed, swaying, examiner close by to catch."
- }
+  {
+    "test": "CN II, optic: visual acuity",
+    "file": "cn-ii-optic-visual-acuity.jpg",
+    "slug": "cn-ii-optic-visual-acuity.jpg",
+    "source_page_url": "https://rsc.lib.uwo.ca/s/healthedu/item/1676",
+    "author": "Clinical Neurological Sciences, Schulich School of Medicine and Dentistry (Health Education Media Library, Western Libraries)",
+    "licence": "CC BY-NC 4.0",
+    "what_it_shows": "Visual Acuity - Using near card."
+  },
+  {
+    "test": "CN II: visual fields by confrontation",
+    "file": "cn-ii-visual-fields-by-confrontation.jpg",
+    "slug": "cn-ii-visual-fields-by-confrontation.jpg",
+    "source_page_url": "https://rsc.lib.uwo.ca/s/healthedu/item/1682",
+    "author": "Clinical Neurological Sciences, Schulich School of Medicine and Dentistry (Health Education Media Library, Western Libraries)",
+    "licence": "CC BY-NC 4.0",
+    "what_it_shows": "Testing visual fields"
+  },
+  {
+    "test": "CN II and III: pupillary light reflex",
+    "file": "cn-ii-and-iii-pupillary-light-reflex.jpg",
+    "slug": "cn-ii-and-iii-pupillary-light-reflex.jpg",
+    "source_page_url": "https://rsc.lib.uwo.ca/s/healthedu/item/1708",
+    "author": "Clinical Neurological Sciences, Schulich School of Medicine and Dentistry (Health Education Media Library, Western Libraries)",
+    "licence": "CC BY-NC 4.0, cropped",
+    "what_it_shows": "Testing pupillary light reflex: the penlight shone into one eye, the pupil constricting"
+  },
+  {
+    "test": "CN III, IV, VI: eye movements",
+    "file": "cn-iii-iv-vi-eye-movements.jpg",
+    "slug": "cn-iii-iv-vi-eye-movements.jpg",
+    "source_page_url": "https://rsc.lib.uwo.ca/s/healthedu/item/1692",
+    "author": "Clinical Neurological Sciences, Schulich School of Medicine and Dentistry (Health Education Media Library, Western Libraries)",
+    "licence": "CC BY-NC 4.0",
+    "what_it_shows": "Testing extraocular movements"
+  },
+  {
+    "test": "CN V, trigeminal: sensation",
+    "file": "cn-v-trigeminal-sensation.jpg",
+    "slug": "cn-v-trigeminal-sensation.jpg",
+    "source_page_url": "https://rsc.lib.uwo.ca/s/healthedu/item/1712",
+    "author": "Clinical Neurological Sciences, Schulich School of Medicine and Dentistry (Health Education Media Library, Western Libraries)",
+    "licence": "CC BY-NC 4.0",
+    "what_it_shows": "Testing sensation on face to pin (CN V maxillary division V2)"
+  },
+  {
+    "test": "CN VII, facial: motor",
+    "file": "cn-vii-facial-motor.jpg",
+    "slug": "cn-vii-facial-motor.jpg",
+    "source_page_url": "https://rsc.lib.uwo.ca/s/healthedu/item/1716",
+    "author": "Clinical Neurological Sciences, Schulich School of Medicine and Dentistry (Health Education Media Library, Western Libraries)",
+    "licence": "CC BY-NC 4.0",
+    "what_it_shows": "Examining facial power-cranial nerve VII \"big smile\""
+  },
+  {
+    "test": "CN IX and X: palate",
+    "file": "cn-ix-and-x-palate.jpg",
+    "slug": "cn-ix-and-x-palate.jpg",
+    "source_page_url": "https://rsc.lib.uwo.ca/s/healthedu/item/1732",
+    "author": "Clinical Neurological Sciences, Schulich School of Medicine and Dentistry (Health Education Media Library, Western Libraries)",
+    "licence": "CC BY-NC 4.0",
+    "what_it_shows": "Examining palatal elevation with patient saying \"ahhhh\" - cranial nerve IX and X"
+  },
+  {
+    "test": "CN XI, spinal accessory",
+    "file": "cn-xi-spinal-accessory.jpg",
+    "slug": "cn-xi-spinal-accessory.jpg",
+    "source_page_url": "https://rsc.lib.uwo.ca/s/healthedu/item/1740",
+    "author": "Clinical Neurological Sciences, Schulich School of Medicine and Dentistry (Health Education Media Library, Western Libraries)",
+    "licence": "CC BY-NC 4.0",
+    "what_it_shows": "Testing shoulder shrug-trapezius, cranial nerve XI"
+  },
+  {
+    "test": "CN XII, hypoglossal",
+    "file": "cn-xii-hypoglossal.jpg",
+    "slug": "cn-xii-hypoglossal.jpg",
+    "source_page_url": "https://rsc.lib.uwo.ca/s/healthedu/item/1734",
+    "author": "Clinical Neurological Sciences, Schulich School of Medicine and Dentistry (Health Education Media Library, Western Libraries)",
+    "licence": "CC BY-NC 4.0",
+    "what_it_shows": "Examining tongue extension- cranial nerve XII"
+  },
+  {
+    "test": "Shoulder abduction",
+    "file": "shoulder-abduction.jpg",
+    "slug": "shoulder-abduction.jpg",
+    "source_page_url": "https://rsc.lib.uwo.ca/s/healthedu/item/1582",
+    "author": "Clinical Neurological Sciences, Schulich School of Medicine and Dentistry (Health Education Media Library, Western Libraries)",
+    "licence": "CC BY-NC 4.0",
+    "what_it_shows": "Motor Testing: Arms; shoulder abduction"
+  },
+  {
+    "test": "Elbow flexion",
+    "file": "elbow-flexion.jpg",
+    "slug": "elbow-flexion.jpg",
+    "source_page_url": "https://rsc.lib.uwo.ca/s/healthedu/item/1588",
+    "author": "Clinical Neurological Sciences, Schulich School of Medicine and Dentistry (Health Education Media Library, Western Libraries)",
+    "licence": "CC BY-NC 4.0",
+    "what_it_shows": "Motor testing: Elbow flexion"
+  },
+  {
+    "test": "Elbow extension",
+    "file": "elbow-extension.jpg",
+    "slug": "elbow-extension.jpg",
+    "source_page_url": "https://rsc.lib.uwo.ca/s/healthedu/item/1592",
+    "author": "Clinical Neurological Sciences, Schulich School of Medicine and Dentistry (Health Education Media Library, Western Libraries)",
+    "licence": "CC BY-NC 4.0",
+    "what_it_shows": "Motor testing: Elbow extension"
+  },
+  {
+    "test": "Finger abduction",
+    "file": "finger-abduction.jpg",
+    "slug": "finger-abduction.jpg",
+    "source_page_url": "https://rsc.lib.uwo.ca/s/healthedu/item/1598",
+    "author": "Clinical Neurological Sciences, Schulich School of Medicine and Dentistry (Health Education Media Library, Western Libraries)",
+    "licence": "CC BY-NC 4.0",
+    "what_it_shows": "Motor Testing: Finger Abduction"
+  },
+  {
+    "test": "Hip flexion",
+    "file": "hip-flexion.jpg",
+    "slug": "hip-flexion.jpg",
+    "source_page_url": "https://rsc.lib.uwo.ca/s/healthedu/item/1548",
+    "author": "Clinical Neurological Sciences, Schulich School of Medicine and Dentistry (Health Education Media Library, Western Libraries)",
+    "licence": "CC BY-NC 4.0",
+    "what_it_shows": "Testing hip flexion (supine)"
+  },
+  {
+    "test": "Knee extension",
+    "file": "knee-extension.jpg",
+    "slug": "knee-extension.jpg",
+    "source_page_url": "https://rsc.lib.uwo.ca/s/healthedu/item/1552",
+    "author": "Clinical Neurological Sciences, Schulich School of Medicine and Dentistry (Health Education Media Library, Western Libraries)",
+    "licence": "CC BY-NC 4.0",
+    "what_it_shows": "Motor Testing: Knee extension (supine) - L3, L4"
+  },
+  {
+    "test": "Knee flexion",
+    "file": "knee-flexion.jpg",
+    "slug": "knee-flexion.jpg",
+    "source_page_url": "https://rsc.lib.uwo.ca/s/healthedu/item/1554",
+    "author": "Clinical Neurological Sciences, Schulich School of Medicine and Dentistry (Health Education Media Library, Western Libraries)",
+    "licence": "CC BY-NC 4.0",
+    "what_it_shows": "Motor Testing: Knee flexion (supine) - L5, S1"
+  },
+  {
+    "test": "Ankle dorsiflexion",
+    "file": "ankle-dorsiflexion.jpg",
+    "slug": "ankle-dorsiflexion.jpg",
+    "source_page_url": "https://rsc.lib.uwo.ca/s/healthedu/item/1558",
+    "author": "Clinical Neurological Sciences, Schulich School of Medicine and Dentistry (Health Education Media Library, Western Libraries)",
+    "licence": "CC BY-NC 4.0",
+    "what_it_shows": "Motor Testing: Ankle dorsiflexion (supine) - L4, L5"
+  },
+  {
+    "test": "Ankle plantar flexion",
+    "file": "ankle-plantar-flexion.jpg",
+    "slug": "ankle-plantar-flexion.jpg",
+    "source_page_url": "https://rsc.lib.uwo.ca/s/healthedu/item/1560",
+    "author": "Clinical Neurological Sciences, Schulich School of Medicine and Dentistry (Health Education Media Library, Western Libraries)",
+    "licence": "CC BY-NC 4.0",
+    "what_it_shows": "Motor testing: Plantar Flexion (supine) - S1, S2"
+  },
+  {
+    "test": "Pain (pinprick)",
+    "file": "pain-pinprick.jpg",
+    "slug": "pain-pinprick.jpg",
+    "source_page_url": "https://rsc.lib.uwo.ca/s/healthedu/item/1666",
+    "author": "Clinical Neurological Sciences, Schulich School of Medicine and Dentistry (Health Education Media Library, Western Libraries)",
+    "licence": "CC BY-NC 4.0",
+    "what_it_shows": "Upper Extremities Sensory Exam: Pin arm"
+  },
+  {
+    "test": "Vibration",
+    "file": "vibration.jpg",
+    "slug": "vibration.jpg",
+    "source_page_url": "https://rsc.lib.uwo.ca/s/healthedu/item/1794",
+    "author": "Clinical Neurological Sciences, Schulich School of Medicine and Dentistry (Health Education Media Library, Western Libraries)",
+    "licence": "CC BY-NC 4.0",
+    "what_it_shows": "Sensory exam: testing vibration toe"
+  },
+  {
+    "test": "Proprioception (joint position)",
+    "file": "proprioception-joint-position.jpg",
+    "slug": "proprioception-joint-position.jpg",
+    "source_page_url": "https://rsc.lib.uwo.ca/s/healthedu/item/1790",
+    "author": "Clinical Neurological Sciences, Schulich School of Medicine and Dentistry (Health Education Media Library, Western Libraries)",
+    "licence": "CC BY-NC 4.0",
+    "what_it_shows": "Sensory exam: testing joint position sense hand"
+  },
+  {
+    "test": "Biceps",
+    "file": "biceps.jpg",
+    "slug": "biceps.jpg",
+    "source_page_url": "https://rsc.lib.uwo.ca/s/healthedu/item/1504",
+    "author": "Clinical Neurological Sciences, Schulich School of Medicine and Dentistry (Health Education Media Library, Western Libraries)",
+    "licence": "CC BY-NC 4.0",
+    "what_it_shows": "Biceps reflex"
+  },
+  {
+    "test": "Brachioradialis",
+    "file": "brachioradialis.jpg",
+    "slug": "brachioradialis.jpg",
+    "source_page_url": "https://rsc.lib.uwo.ca/s/healthedu/item/1620",
+    "author": "Clinical Neurological Sciences, Schulich School of Medicine and Dentistry (Health Education Media Library, Western Libraries)",
+    "licence": "CC BY-NC 4.0",
+    "what_it_shows": "Deep tendon reflex testing: Brachioradialis"
+  },
+  {
+    "test": "Triceps",
+    "file": "triceps.jpg",
+    "slug": "triceps.jpg",
+    "source_page_url": "https://rsc.lib.uwo.ca/s/healthedu/item/1626",
+    "author": "Clinical Neurological Sciences, Schulich School of Medicine and Dentistry (Health Education Media Library, Western Libraries)",
+    "licence": "CC BY-NC 4.0",
+    "what_it_shows": "Deep tendon reflex testing: Triceps"
+  },
+  {
+    "test": "Knee (patellar)",
+    "file": "knee-patellar.jpg",
+    "slug": "knee-patellar.jpg",
+    "source_page_url": "https://rsc.lib.uwo.ca/s/healthedu/item/1636",
+    "author": "Clinical Neurological Sciences, Schulich School of Medicine and Dentistry (Health Education Media Library, Western Libraries)",
+    "licence": "CC BY-NC 4.0",
+    "what_it_shows": "Deep tendon reflex testing: knee"
+  },
+  {
+    "test": "Ankle (Achilles)",
+    "file": "ankle-achilles.jpg",
+    "slug": "ankle-achilles.jpg",
+    "source_page_url": "https://rsc.lib.uwo.ca/s/healthedu/item/1640",
+    "author": "Clinical Neurological Sciences, Schulich School of Medicine and Dentistry (Health Education Media Library, Western Libraries)",
+    "licence": "CC BY-NC 4.0",
+    "what_it_shows": "Deep tendon reflex testing: Ankle Jerks"
+  },
+  {
+    "test": "Plantar response",
+    "file": "plantar-response.jpg",
+    "slug": "plantar-response.jpg",
+    "source_page_url": "https://rsc.lib.uwo.ca/s/healthedu/item/1642",
+    "author": "Clinical Neurological Sciences, Schulich School of Medicine and Dentistry (Health Education Media Library, Western Libraries)",
+    "licence": "CC BY-NC 4.0",
+    "what_it_shows": "Testing plantar response (sitting)"
+  },
+  {
+    "test": "Rapid alternating movements",
+    "file": "rapid-alternating-movements.jpg",
+    "slug": "rapid-alternating-movements.jpg",
+    "source_page_url": "https://rsc.lib.uwo.ca/s/healthedu/item/1838",
+    "author": "Clinical Neurological Sciences, Schulich School of Medicine and Dentistry (Health Education Media Library, Western Libraries)",
+    "licence": "CC BY-NC 4.0",
+    "what_it_shows": "Coordination: rapid alternating movements"
+  },
+  {
+    "test": "Finger-nose",
+    "file": "finger-nose.jpg",
+    "slug": "finger-nose.jpg",
+    "source_page_url": "https://rsc.lib.uwo.ca/s/healthedu/item/1836",
+    "author": "Clinical Neurological Sciences, Schulich School of Medicine and Dentistry (Health Education Media Library, Western Libraries)",
+    "licence": "CC BY-NC 4.0",
+    "what_it_shows": "Coordination: finger to nose testing"
+  },
+  {
+    "test": "Heel-shin",
+    "file": "heel-shin.jpg",
+    "slug": "heel-shin.jpg",
+    "source_page_url": "https://rsc.lib.uwo.ca/s/healthedu/item/1844",
+    "author": "Clinical Neurological Sciences, Schulich School of Medicine and Dentistry (Health Education Media Library, Western Libraries)",
+    "licence": "CC BY-NC 4.0",
+    "what_it_shows": "Coordination: heel to shin"
+  },
+  {
+    "test": "CN I, olfactory: smell",
+    "file": "cn-i-olfactory-smell.jpg",
+    "slug": "cn-i-olfactory-smell.jpg",
+    "source_page_url": "https://commons.wikimedia.org/wiki/File:Sniffin%E2%80%99_Sticks_test.jpg",
+    "author": "Kosmider (Wikimedia Commons)",
+    "licence": "Public domain (cropped, date stamp removed, lower face blurred)",
+    "what_it_shows": "A blindfolded person sniffs an odour pen that the examiner holds under one nostril, with the rest of the pen set in front; it is a formal Sniffin' Sticks kit rather than coffee, and the other nostril is not shown blocked."
+  },
+  {
+    "test": "CN II: fundoscopy",
+    "file": "cn-ii-fundoscopy.jpg",
+    "slug": "cn-ii-fundoscopy.jpg",
+    "source_page_url": "https://europepmc.org/article/PMC/PMC13571928",
+    "author": "Shiokawa A, Monteiro MLR, Massuda R, et al., Clinics (Sao Paulo) 2026, Fig. 2B",
+    "licence": "CC BY 4.0 (cropped to panel B, examiner's face and name badge blurred; patient's eyes barred in the original)",
+    "what_it_shows": "The examiner, seated beside the patient, brings a direct ophthalmoscope close to her right eye from the side with his other hand steadying her forehead."
+  },
+  {
+    "test": "CN VIII, vestibulocochlear: hearing",
+    "file": "cn-viii-vestibulocochlear-hearing.jpg",
+    "slug": "cn-viii-vestibulocochlear-hearing.jpg",
+    "source_page_url": "https://commons.wikimedia.org/wiki/File:Weberversuch.png",
+    "source_page_url_2": "https://commons.wikimedia.org/wiki/File:Rinneversuch.png",
+    "author": "Ziyun518 (Wikimedia Commons)",
+    "licence": "CC0 (two drawings placed side by side)",
+    "what_it_shows": "Two unlabelled pencil drawings: left, a tuning fork stem on the top of the head (Weber); right, a tuning fork stem on the mastoid behind the ear (Rinne)."
+  },
+  {
+    "test": "Grip strength",
+    "file": "grip-strength.jpg",
+    "slug": "grip-strength.jpg",
+    "source_page_url": "https://commons.wikimedia.org/wiki/File:Hand_dynamometer.jpg",
+    "author": "Ashashyou (Wikimedia Commons)",
+    "licence": "CC0 (resized)",
+    "what_it_shows": "A hand squeezing a dial hand-grip dynamometer, the device version of the grip test, not the two-finger squeeze."
+  },
+  {
+    "test": "Tandem gait",
+    "file": "tandem-gait.jpg",
+    "slug": "tandem-gait.jpg",
+    "source_page_url": "https://europepmc.org/article/PMC/PMC11678946",
+    "author": "Wahlquist VE, Buckley TA, Caccese JB, Glutting JJ, Royer TD, Kaminski TW, Sports (Basel) 2024, Fig. 4",
+    "licence": "CC BY 4.0 (resized)",
+    "what_it_shows": "Legs from the knee down walking heel to toe along a straight tape line on the floor, the front heel touching the back toes."
+  },
+  {
+    "test": "Landmarks: lesion",
+    "file": "lesion-landmarks.jpg",
+    "slug": "lesion-landmarks.jpg",
+    "source_page_url": "https://github.com/schulichmed/medwiki",
+    "author": "Drawn for medwiki (own work)",
+    "licence": "CC0",
+    "what_it_shows": "Approach to a neurological problem: describe, localize, differential"
+  },
+  {
+    "test": "Language (aphasia screen)",
+    "file": "language-aphasia-screen.jpg",
+    "slug": "language-aphasia-screen.jpg",
+    "source_page_url": "https://rsc.lib.uwo.ca/s/healthedu/item/1780",
+    "author": "Clinical Neurological Sciences, Schulich School of Medicine and Dentistry (Health Education Media Library, Western Libraries)",
+    "licence": "CC BY-NC 4.0",
+    "what_it_shows": "Language testing stroke card: patient names the pictured objects."
+  },
+  {
+    "test": "Pronator drift",
+    "file": "pronator-drift.jpg",
+    "slug": "pronator-drift.jpg",
+    "source_page_url": "https://rsc.lib.uwo.ca/s/healthedu/item/1616",
+    "author": "Clinical Neurological Sciences, Schulich School of Medicine and Dentistry (Health Education Media Library, Western Libraries)",
+    "licence": "CC BY-NC 4.0",
+    "what_it_shows": "Sitting power exam: pronator drift. Arms held out, palms up, eyes closed, watching for a drift."
+  },
+  {
+    "test": "Wrist extension",
+    "file": "wrist-extension.jpg",
+    "slug": "wrist-extension.jpg",
+    "source_page_url": "https://rsc.lib.uwo.ca/s/healthedu/item/1594",
+    "author": "Clinical Neurological Sciences, Schulich School of Medicine and Dentistry (Health Education Media Library, Western Libraries)",
+    "licence": "CC BY-NC 4.0",
+    "what_it_shows": "Motor testing: wrist extension held against resistance, compared side to side."
+  },
+  {
+    "test": "Extinction (both sides at once)",
+    "file": "extinction-both-sides-at-once.jpg",
+    "slug": "extinction-both-sides-at-once.jpg",
+    "source_page_url": "https://rsc.lib.uwo.ca/s/healthedu/item/1828",
+    "author": "Clinical Neurological Sciences, Schulich School of Medicine and Dentistry (Health Education Media Library, Western Libraries)",
+    "licence": "CC BY-NC 4.0",
+    "what_it_shows": "NIHSS item 11: sensory extinction, both legs touched at once."
+  },
+  {
+    "test": "CN II: swinging light test",
+    "file": "cn-ii-swinging-light-test.jpg",
+    "slug": "cn-ii-swinging-light-test.jpg",
+    "source_page_url": "https://rsc.lib.uwo.ca/s/healthedu/item/2483",
+    "author": "Clinical Neurological Sciences, Schulich School of Medicine and Dentistry (Health Education Media Library, Western Libraries)",
+    "licence": "CC BY-NC 4.0 (frame from video)",
+    "what_it_shows": "Penlight on one eye with the other eye in view (frame at 1:04 of Pupillary Light Response and RAPD)."
+  },
+  {
+    "test": "CN V: motor",
+    "file": "cn-v-motor.jpg",
+    "slug": "cn-v-motor.jpg",
+    "source_page_url": "https://med.libretexts.org/Bookshelves/Nursing/Nursing_Skills_(OpenRN)/06%3A_Neurological_Assessment/6.05%3A_Assessing_Cranial_Nerves",
+    "author": "Meredith Pomietlo for Chippewa Valley Technical College, in Open RN Nursing Skills (Chippewa Valley Technical College / Wisconsin Technical College System)",
+    "licence": "CC BY 4.0 (cropped to two panels, eyes blurred)",
+    "what_it_shows": "Fingers on the jaw angle (masseter) and temple (temporalis) while the patient clenches the teeth; third panel, open mouth, omitted."
+  },
+  {
+    "test": "CN VII: sensory",
+    "file": "cn-vii-sensory-taste.jpg",
+    "slug": "cn-vii-sensory-taste.jpg",
+    "source_page_url": "https://med.libretexts.org/Bookshelves/Nursing/Nursing_Skills_(OpenRN)/06%3A_Neurological_Assessment/6.05%3A_Assessing_Cranial_Nerves",
+    "author": "Meredith Pomietlo for Chippewa Valley Technical College, in Open RN Nursing Skills (Chippewa Valley Technical College / Wisconsin Technical College System)",
+    "licence": "CC BY 4.0 (cropped, eyes blurred)",
+    "what_it_shows": "Taste testing: a moistened cotton applicator touched to the front of the tongue."
+  },
+  {
+    "test": "CN IX and X: gag reflex",
+    "file": "cn-ix-x-gag-reflex.jpg",
+    "slug": "cn-ix-x-gag-reflex.jpg",
+    "source_page_url": "https://med.libretexts.org/Bookshelves/Nursing/Nursing_Skills_(OpenRN)/06%3A_Neurological_Assessment/6.05%3A_Assessing_Cranial_Nerves",
+    "author": "Meredith Pomietlo for Chippewa Valley Technical College, in Open RN Nursing Skills (Chippewa Valley Technical College / Wisconsin Technical College System)",
+    "licence": "CC BY 4.0 (cropped, eyes blurred)",
+    "what_it_shows": "Observing the gag reflex: penlight and tongue depressor in the open mouth (Open RN Figure 6.5.13)."
+  },
+  {
+    "test": "Light touch",
+    "file": "light-touch.jpg",
+    "slug": "light-touch.jpg",
+    "source_page_url": "https://med.libretexts.org/Bookshelves/Nursing/Nursing_Skills_(OpenRN)/06%3A_Neurological_Assessment/6.06%3A_Assessing_Sensory_Function",
+    "author": "Meredith Pomietlo for Chippewa Valley Technical College, in Open RN Nursing Skills (Chippewa Valley Technical College / Wisconsin Technical College System)",
+    "licence": "CC BY 4.0 (cropped to the thigh and shin panels)",
+    "what_it_shows": "A cotton wisp touched to the thigh and to the shin, patient seated."
+  },
+  {
+    "test": "Stereognosis",
+    "file": "stereognosis.jpg",
+    "slug": "stereognosis.jpg",
+    "source_page_url": "https://med.libretexts.org/Bookshelves/Nursing/Nursing_Skills_(OpenRN)/06%3A_Neurological_Assessment/6.06%3A_Assessing_Sensory_Function",
+    "author": "Meredith Pomietlo for Chippewa Valley Technical College, in Open RN Nursing Skills (Chippewa Valley Technical College / Wisconsin Technical College System)",
+    "licence": "CC BY 4.0 (cropped to the hands)",
+    "what_it_shows": "A key placed in the open palm and explored by the other hand, eyes closed (Assessing Stereognosis)."
+  },
+  {
+    "test": "Ankle clonus",
+    "file": "ankle-clonus.jpg",
+    "slug": "ankle-clonus.jpg",
+    "source_page_url": "https://commons.wikimedia.org/wiki/File:ClonusfromSS_(edited).webm",
+    "author": "David Juurlink",
+    "licence": "CC BY-SA 4.0 (frame from video)",
+    "what_it_shows": "Examiner sharply dorsiflexing the foot with the palm on the sole to bring out clonus (frame from a case of serotonin syndrome)."
+  },
+  {
+    "test": "Cortex",
+    "file": "lesion-cortex.jpg",
+    "slug": "lesion-cortex.jpg",
+    "source_page_url": "https://github.com/schulichmed/medwiki",
+    "author": "Drawn for this page (Claude), concept diagram",
+    "licence": "CC0",
+    "what_it_shows": "Schematic of the nervous system (brain, brainstem, cerebellum, cord, root, plexus, nerve, junction, muscle) with this level highlighted, and its typical signs."
+  },
+  {
+    "test": "Subcortex (white matter, internal capsule)",
+    "file": "lesion-subcortex.jpg",
+    "slug": "lesion-subcortex.jpg",
+    "source_page_url": "https://github.com/schulichmed/medwiki",
+    "author": "Drawn for this page (Claude), concept diagram",
+    "licence": "CC0",
+    "what_it_shows": "Schematic of the nervous system (brain, brainstem, cerebellum, cord, root, plexus, nerve, junction, muscle) with this level highlighted, and its typical signs."
+  },
+  {
+    "test": "Brainstem",
+    "file": "lesion-brainstem.jpg",
+    "slug": "lesion-brainstem.jpg",
+    "source_page_url": "https://github.com/schulichmed/medwiki",
+    "author": "Drawn for this page (Claude), concept diagram",
+    "licence": "CC0",
+    "what_it_shows": "Schematic of the nervous system (brain, brainstem, cerebellum, cord, root, plexus, nerve, junction, muscle) with this level highlighted, and its typical signs."
+  },
+  {
+    "test": "Cerebellum",
+    "file": "lesion-cerebellum.jpg",
+    "slug": "lesion-cerebellum.jpg",
+    "source_page_url": "https://github.com/schulichmed/medwiki",
+    "author": "Drawn for this page (Claude), concept diagram",
+    "licence": "CC0",
+    "what_it_shows": "Schematic of the nervous system (brain, brainstem, cerebellum, cord, root, plexus, nerve, junction, muscle) with this level highlighted, and its typical signs."
+  },
+  {
+    "test": "Spinal cord",
+    "file": "lesion-spinal-cord.jpg",
+    "slug": "lesion-spinal-cord.jpg",
+    "source_page_url": "https://github.com/schulichmed/medwiki",
+    "author": "Drawn for this page (Claude), concept diagram",
+    "licence": "CC0",
+    "what_it_shows": "Schematic of the nervous system (brain, brainstem, cerebellum, cord, root, plexus, nerve, junction, muscle) with this level highlighted, and its typical signs."
+  },
+  {
+    "test": "Anterior horn cell",
+    "file": "lesion-anterior-horn-cell.jpg",
+    "slug": "lesion-anterior-horn-cell.jpg",
+    "source_page_url": "https://github.com/schulichmed/medwiki",
+    "author": "Drawn for this page (Claude), concept diagram",
+    "licence": "CC0",
+    "what_it_shows": "Schematic of the nervous system (brain, brainstem, cerebellum, cord, root, plexus, nerve, junction, muscle) with this level highlighted, and its typical signs."
+  },
+  {
+    "test": "Nerve root",
+    "file": "lesion-nerve-root.jpg",
+    "slug": "lesion-nerve-root.jpg",
+    "source_page_url": "https://github.com/schulichmed/medwiki",
+    "author": "Drawn for this page (Claude), concept diagram",
+    "licence": "CC0",
+    "what_it_shows": "Schematic of the nervous system (brain, brainstem, cerebellum, cord, root, plexus, nerve, junction, muscle) with this level highlighted, and its typical signs."
+  },
+  {
+    "test": "Plexus",
+    "file": "lesion-plexus.jpg",
+    "slug": "lesion-plexus.jpg",
+    "source_page_url": "https://github.com/schulichmed/medwiki",
+    "author": "Drawn for this page (Claude), concept diagram",
+    "licence": "CC0",
+    "what_it_shows": "Schematic of the nervous system (brain, brainstem, cerebellum, cord, root, plexus, nerve, junction, muscle) with this level highlighted, and its typical signs."
+  },
+  {
+    "test": "Peripheral nerve",
+    "file": "lesion-peripheral-nerve.jpg",
+    "slug": "lesion-peripheral-nerve.jpg",
+    "source_page_url": "https://github.com/schulichmed/medwiki",
+    "author": "Drawn for this page (Claude), concept diagram",
+    "licence": "CC0",
+    "what_it_shows": "Schematic of the nervous system (brain, brainstem, cerebellum, cord, root, plexus, nerve, junction, muscle) with this level highlighted, and its typical signs."
+  },
+  {
+    "test": "Neuromuscular junction",
+    "file": "lesion-neuromuscular-junction.jpg",
+    "slug": "lesion-neuromuscular-junction.jpg",
+    "source_page_url": "https://github.com/schulichmed/medwiki",
+    "author": "Drawn for this page (Claude), concept diagram",
+    "licence": "CC0",
+    "what_it_shows": "Schematic of the nervous system (brain, brainstem, cerebellum, cord, root, plexus, nerve, junction, muscle) with this level highlighted, and its typical signs."
+  },
+  {
+    "test": "Muscle",
+    "file": "lesion-muscle.jpg",
+    "slug": "lesion-muscle.jpg",
+    "source_page_url": "https://github.com/schulichmed/medwiki",
+    "author": "Drawn for this page (Claude), concept diagram",
+    "licence": "CC0",
+    "what_it_shows": "Schematic of the nervous system (brain, brainstem, cerebellum, cord, root, plexus, nerve, junction, muscle) with this level highlighted, and its typical signs."
+  },
+  {
+    "test": "Temperature",
+    "file": "temperature.jpg",
+    "slug": "temperature.jpg",
+    "source_page_url": "",
+    "author": "Drawn for this page (Claude), concept/technique diagram",
+    "licence": "Original drawing (not sourced)",
+    "what_it_shows": "Cool tuning fork touched to the forearm, patient eyes closed, compare sides."
+  },
+  {
+    "test": "Graphesthesia",
+    "file": "graphesthesia.jpg",
+    "slug": "graphesthesia.jpg",
+    "source_page_url": "",
+    "author": "Drawn for this page (Claude), concept/technique diagram",
+    "licence": "Original drawing (not sourced)",
+    "what_it_shows": "A number traced in the palm with a blunt point."
+  },
+  {
+    "test": "Two-point discrimination",
+    "file": "two-point-discrimination.jpg",
+    "slug": "two-point-discrimination.jpg",
+    "source_page_url": "",
+    "author": "Drawn for this page (Claude), concept/technique diagram",
+    "licence": "Original drawing (not sourced)",
+    "what_it_shows": "Caliper or paper-clip points on a fingertip pad, one or two points."
+  },
+  {
+    "test": "CN V and VII: corneal reflex",
+    "file": "cn-v-and-vii-corneal-reflex.jpg",
+    "slug": "cn-v-and-vii-corneal-reflex.jpg",
+    "source_page_url": "",
+    "author": "Drawn for this page (Claude), concept/technique diagram",
+    "licence": "Original drawing (not sourced)",
+    "what_it_shows": "Cotton wisp touching the cornea from the side while the patient looks up and away; both eyelids blink (V afferent, VII efferent)."
+  },
+  {
+    "test": "Romberg test",
+    "file": "romberg-test.jpg",
+    "slug": "romberg-test.jpg",
+    "source_page_url": "",
+    "author": "Drawn for this page (Claude), concept/technique diagram",
+    "licence": "Original drawing (not sourced)",
+    "what_it_shows": "Clothed patient standing feet together with eyes closed, swaying, examiner close by to catch."
+  },
+  {
+    "test": "Landmarks: cranial",
+    "file": "cranial-landmarks.jpg",
+    "slug": "cranial-landmarks.jpg",
+    "source_page_url": "",
+    "author": "Textbook figure reproduced in student notes (Class of 2025 exam templates)",
+    "licence": "Copyright its publisher; used for non-commercial teaching",
+    "what_it_shows": "The six directions of gaze, each testing one eye muscle (right eye): lateral rectus is CN VI, superior oblique is CN IV, the rest CN III."
+  },
+  {
+    "test": "Landmarks: motor",
+    "file": "motor-landmarks.jpg",
+    "slug": "motor-landmarks.jpg",
+    "source_page_url": "",
+    "author": "Textbook figure reproduced in student notes (Class of 2025 exam templates)",
+    "licence": "Copyright its publisher; used for non-commercial teaching",
+    "what_it_shows": "Wasting to look for in the hands: (A) the interossei, (B) the hypothenar eminence."
+  },
+  {
+    "test": "Landmarks: sensory",
+    "file": "sensory-landmarks.jpg",
+    "slug": "sensory-landmarks.jpg",
+    "source_page_url": "",
+    "author": "Textbook figure reproduced in student notes (Class of 2025 exam templates)",
+    "licence": "Copyright its publisher; used for non-commercial teaching",
+    "what_it_shows": "Dermatomes front and back: C6 thumb, C8 little finger, T4 nipples, T10 umbilicus, L4 knee, L5 top of the foot, S1 heel."
+  }
 ]

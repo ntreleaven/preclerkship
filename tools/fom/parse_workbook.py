@@ -61,6 +61,10 @@ INSTR_RE = re.compile(u"^\\*|use the (options|following)|for questions", re.I)
 OPEN_RE = re.compile(u"^\\*?\\s*(use the options|use the following|for questions?\\s+\\d"
                      u"|match each|match the following)", re.I)
 ANS_RE = re.compile(u"^(?:Answer:\\s*)?([A-Z])((?:\\s*(?:,|;|and|&|/|or)\\s*[A-Z])*)\\s*[.,:]?(\\s|$)")
+# A stem that asks about a picture. Used only to move a picture off a question
+# that does not, onto the next one on its page that does (see rehome_figures).
+POINTS_RE = re.compile(u"to the right|on the right|\\bshown\\b|\\bsmear\\b|\\bfilm\\b"
+                       u"|\\bimage\\b|\\bpicture\\b|\\bgraph\\b|\\bdiagram\\b|\\bpedigree\\b", re.I)
 
 
 def esc(s):
@@ -236,7 +240,29 @@ def parse_questions(doc, a, b):
         else:
             cur.stem.append(raw)
 
-    return [qs[n] for n in order]
+    out = [qs[n] for n in order]
+    rehome_figures(out)
+    return out
+
+
+def rehome_figures(qs):
+    """Move a picture that floats beside the next question onto it.
+
+    The heme chapter sets its pictures to the right of the text, and a picture's
+    top can sit level with the end of the question BEFORE the one it illustrates:
+    the smear for 'the blood smear to the right' (Q51) landed on Q49, and the film
+    'shown on the right' (Q105) on Q104. A picture leaves a question whose stem
+    does not ask about one only for the nearest later question on the same page
+    whose stem does and that has no picture of its own."""
+    for i, q in enumerate(qs):
+        if not q.imgs or POINTS_RE.search(plain(join(q.stem))):
+            continue
+        for later in qs[i + 1:i + 4]:
+            if later.page != q.page or later.imgs:
+                continue
+            if POINTS_RE.search(plain(join(later.stem))):
+                later.imgs, q.imgs = q.imgs, []
+                break
 
 
 def parse_answers(doc, a, b):

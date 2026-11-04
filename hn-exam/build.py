@@ -117,6 +117,9 @@ EXAM.walk = {
 }
 EXAM.video_credit += ' Demonstration videos by Hamzah Algodi ("*Unofficial* Schulich Clinical Skills"), used with his permission.'
 
+# captions for the landmark diagrams taken from the upper-year student notes
+for _key, _cap in {'eye': 'Parts of the eye · tap to enlarge', 'ophth': 'Inside the eye · tap to enlarge'}.items():
+    EXAM.region_text.setdefault(_key, {})['landmark_caption'] = _cap
 
 if __name__ == "__main__":
     exam_page.build(EXAM)

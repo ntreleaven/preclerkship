@@ -689,6 +689,16 @@
     });
   }
 
+  /* the MSK skeleton, as a button above week 1 that opens it in its own tab:
+     framed inline it kept resizing itself and left a blank gap below it. */
+  function bodyMap(src) {
+    var box = el("section", "bodymap");
+    var open = el("a", "print-cta", "Where does it hurt? Open the body map");
+    open.href = src; open.target = "_blank"; open.rel = "noopener";
+    box.appendChild(open);
+    return box;
+  }
+
   function buildStream() {
     var stream = byId("note-stream"), frag = document.createDocumentFragment();
 
@@ -716,6 +726,7 @@
       head.appendChild(dr);
     }
     frag.appendChild(head);
+    if (BLOCK.bodymap) frag.appendChild(bodyMap(BLOCK.bodymap));
 
     WEEKS.forEach(function (w) {
       var wb = el("div", "weekbar");

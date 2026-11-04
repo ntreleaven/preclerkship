@@ -1,10 +1,10 @@
 {
- "bytes": 33380868,
- "cards": 2125,
+ "bytes": 37053096,
+ "cards": 2124,
  "deck": "PoM2::Block 2",
  "file": "anki/repro.apkg",
- "highyield": 283,
- "notes": 1363,
+ "highyield": 282,
+ "notes": 1362,
  "weeks": [
   {
    "lectures": [
@@ -15,10 +15,10 @@
      "notes": 24
     },
     {
-     "cards": 55,
-     "highyield": 6,
+     "cards": 54,
+     "highyield": 5,
      "name": "02 - Fertilization & Infertility",
-     "notes": 35
+     "notes": 34
     },
     {
      "cards": 93,
@@ -103,12 +103,6 @@
      "highyield": 2,
      "name": "16 - Genetic Screening for Pregnancy in Canada",
      "notes": 31
-    },
-    {
-     "cards": 64,
-     "highyield": 15,
-     "name": "In-Class - Amenorrhea",
-     "notes": 45
     }
    ],
    "week": "Week 4"
@@ -268,6 +262,12 @@
      "cards": 72,
      "highyield": 4,
      "name": "09 - Approach to Neonatal Care",
+     "notes": 45
+    },
+    {
+     "cards": 64,
+     "highyield": 15,
+     "name": "In-Class - Amenorrhea",
      "notes": 45
     }
    ],

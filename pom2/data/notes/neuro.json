@@ -4281,7 +4281,7 @@
   },
   {
    "n": 15,
-   "label": "Week 15 - Brain Tumours, Movement Disorders, Pediatrics & Ophthalmology",
+   "label": "Week 15 - Brain Tumours, Movement Disorders, Pediatrics, the Eye & the Ear",
    "lectures": [
     {
      "id": "neuro-w15-01",
@@ -4597,300 +4597,6 @@
     {
      "id": "neuro-w15-03",
      "num": "03",
-     "name": "Pediatric Neurology",
-     "hasNote": true,
-     "title": "Pediatric neurology: the floppy infant",
-     "keypoints": "<p>⭐ <strong>The commonest cause of a floppy infant is not neurologic (sepsis, electrolytes, dehydration, heart disease) - and when it is neurologic, it is usually central.</strong> <strong>Weak + floppy + low reflexes = peripheral; strong + floppy + brisk reflexes + isolated axial floppiness = central.</strong> <strong>Central hypotonia turns into hypertonia by age 2-3.</strong> <strong>SMA is treatable and screened at birth.</strong> <strong>Congenital myotonic dystrophy: examine the mother.</strong></p>",
-     "blocks": [
-      {
-       "t": "note",
-       "html": "<p><strong>A floppy (hypotonic) infant is usually sick rather than neurologically damaged - so rule out a non-neurologic cause first.</strong> <strong>If it is neurologic, decide central or peripheral: weakness with the floppiness points to the periphery, normal strength with brisk reflexes to the brain.</strong></p>"
-      },
-      {
-       "t": "note",
-       "html": "<h5>1. Tone and hypotonia</h5>"
-      },
-      {
-       "t": "list",
-       "html": "<ul><li><strong>Tone</strong> = resistance to passive movement around a joint<ul><li><strong>phasic tone</strong>: response to a <strong>rapid stretch</strong>, carried by the deep tendon reflexes</li><li><strong>postural tone</strong>: response to <strong>low-intensity forces such as gravity</strong></li><li>the two do not always go together</li></ul></li><li><strong><span class=\"wl\">Hypotonia</span></strong> = low tone on passive stretch · <strong>not the same as weakness</strong> (a baby can be weak with good tone, or floppy with good strength)</li><li><strong>Weakness + hypotonia almost always means a peripheral cause</strong></li><li>In <strong>infants a central (brain) problem causes low tone</strong>, because the motor pathways are immature · it <strong>evolves to <span class=\"wl\">high tone</span> by age 2-3</strong>, the pattern seen in adults</li></ul>"
-      },
-      {
-       "t": "note",
-       "html": "<h5>2. Sorting the causes</h5>"
-      },
-      {
-       "t": "pathway",
-       "mermaid": "flowchart TD\n    A[\"Floppy infant\"] --> B{\"Non-neurologic cause?<br/>sepsis · electrolytes · dehydration<br/>hypothyroidism · heart disease · failure to thrive\"}\n    B -->|Yes| C[\"MOST COMMON<br/>treat the underlying illness\"]\n    B -->|No| D{\"Weak? reflexes?\"}\n    D -->|\"Normal strength · brisk reflexes<br/>axial floppiness · seizures · poor cognition\"| E[\"CENTRAL (most neurologic cases)<br/>microarray · MRI · electroencephalogram (EEG)\"]\n    D -->|\"Weak · reflexes low or absent<br/>axial + limb floppiness · atrophy · normal cognition\"| F[\"PERIPHERAL<br/>creatine kinase · electromyography (EMG)<br/>and nerve conduction studies<br/>muscle biopsy · examine the mother\"]\n    F --> G[\"Localize: anterior horn cell · nerve<br/>neuromuscular junction · muscle\"]"
-      },
-      {
-       "t": "list",
-       "html": "<ul><li><strong>Most common overall: non-neurologic</strong> · when neurologic, <strong>most are central (80%)</strong></li></ul>"
-      },
-      {
-       "t": "note",
-       "html": "<h5>3. History and exam</h5>"
-      },
-      {
-       "t": "list",
-       "html": "<ul><li><strong>History</strong>: pregnancy (<strong>reduced fetal movement</strong>, breech, delivery problems) · <strong>missed <span class=\"wl\">milestones</span></strong>, <span class=\"wl\">seizures</span> · feeding, breathing or heart problems · family history</li><li><strong>Exam</strong>: resting posture (<strong>\"frog legs\"</strong>) · reflexes · tone · muscle bulk · <strong>joint contractures (<span class=\"wl\">arthrogryposis</span>)</strong> · sensation and visual awareness · <strong>dysmorphic features</strong> · <strong>undescended testes (<span class=\"wl\">cryptorchidism</span>)</strong></li><li><strong>Axial vs limb hypotonia</strong><ul><li><strong>axial</strong> (posture muscles): curved back, poor head control, hips rolled in → <strong>isolated axial = central</strong></li><li><strong>appendicular</strong> (limbs): flexed arms, frog legs → <strong>axial + appendicular = peripheral</strong></li></ul></li><li><strong>Traction response (pull-to-sit)</strong>: normal baby flexes arms and lifts head · abnormal = <strong>head lag, no arm flexion</strong></li><li><strong>Vertical suspension</strong>: normal baby holds head up and flexes hips, knees, ankles · abnormal = <strong>head falls forward, legs dangle, slips through the hands</strong></li></ul>"
-      },
-      {
-       "t": "note",
-       "html": "<h5>4. Central vs peripheral</h5>"
-      },
-      {
-       "t": "table",
-       "cols": [
-        "",
-        "<strong>Central (upper motor neuron)</strong>",
-        "<strong>Peripheral (lower motor neuron)</strong>"
-       ],
-       "rows": [
-        [
-         "<strong>Floppiness</strong>",
-         "<strong>Isolated axial</strong>",
-         "<strong>Axial + limbs</strong>"
-        ],
-        [
-         "<strong>Strength</strong>",
-         "<strong>Normal</strong>",
-         "<strong>Weak</strong> · atrophy · feeding trouble (facial weakness)"
-        ],
-        [
-         "<strong>Reflexes</strong>",
-         "<strong>Brisk (<span class=\"wl\">hyperreflexia</span>)</strong>",
-         "<strong>Low or absent (hyporeflexia)</strong>"
-        ],
-        [
-         "<strong>Cognition</strong>",
-         "<strong>Poor development</strong> · seizures · dysmorphic features",
-         "<strong>Normal</strong>"
-        ],
-        [
-         "<strong>Investigations</strong>",
-         "<strong><span class=\"wl\">microarray</span> · MRI</strong> · EEG",
-         "<strong><span class=\"wl\">creatine kinase</span> · EMG and nerve conduction · muscle biopsy · examine the mother</strong>"
-        ]
-       ]
-      },
-      {
-       "t": "note",
-       "html": "<h5>5. Central causes</h5>"
-      },
-      {
-       "t": "list",
-       "html": "<ul><li><strong><span class=\"wl\">Benign hypotonia of infancy</span></strong>: just lower tone, outgrown · later risk of joint dislocation</li><li><strong><span class=\"wl\">Hypoxic-ischemic encephalopathy</span></strong>: too little oxygen around birth (cord entanglement, placental insufficiency) → often permanent damage, can lead to <span class=\"wl\">cerebral palsy</span></li><li>Stroke, malformations, <strong>metabolic disorders</strong></li><li><strong>Chromosomal</strong>: <strong><span class=\"wl\">Down syndrome</span> · <span class=\"wl\">Prader-Willi syndrome</span></strong></li><li><strong>Spinal cord</strong>: rare (e.g. a congenitally narrow canal)</li></ul>"
-      },
-      {
-       "t": "note",
-       "html": "<h5>6. Peripheral causes, by site</h5>"
-      },
-      {
-       "t": "table",
-       "cols": [
-        "Site",
-        "Examples",
-        "Key point"
-       ],
-       "rows": [
-        [
-         "<strong>Anterior horn cell</strong>",
-         "<strong><span class=\"wl\">Spinal muscular atrophy (SMA)</span></strong>",
-         "<strong>SMN gene</strong>, autosomal recessive, ~1 in 10,000 · the \"ALS of childhood\" · <strong>treatable</strong> (alter splicing of the SMN2 copy) → <strong>on Ontario newborn screening</strong>"
-        ],
-        [
-         "<strong>Nerve</strong>",
-         "<span class=\"wl\">Guillain-Barré syndrome</span> (very rare in children) · <strong><span class=\"wl\">Charcot-Marie-Tooth disease</span></strong> (hypomyelinating forms)",
-         "Charcot-Marie-Tooth = <strong>most common inherited neurologic disorder</strong>"
-        ],
-        [
-         "<strong>Neuromuscular junction</strong>",
-         "<strong><span class=\"wl\">Transient neonatal myasthenia</span></strong> · <span class=\"wl\">congenital myasthenic syndrome</span> · <strong>infant botulism</strong>",
-         "Neonatal myasthenia = <strong>the mother's antibodies</strong> · botulism from spores → <strong>no honey</strong> for infants"
-        ],
-        [
-         "<strong>Muscle</strong>",
-         "<strong>Congenital <span class=\"wl\">myotonic dystrophy</span></strong> · <span class=\"wl\">congenital myopathies</span>",
-         "<strong>Most common muscular dystrophy diagnosed in children</strong> · baby worse than the mother, who may not know she has it → <strong>examine the mother</strong>"
-        ]
-       ]
-      },
-      {
-       "t": "list",
-       "html": "<ul><li><strong>Both central and peripheral</strong>: <span class=\"wl\">leukodystrophies</span> · storage diseases (<span class=\"wl\">Tay-Sachs disease</span>, glycogen storage disease)</li></ul>"
-      },
-      {
-       "t": "note",
-       "html": "<h5>7. Cerebral palsy</h5>"
-      },
-      {
-       "t": "list",
-       "html": "<ul><li><strong><span class=\"wl\">Cerebral palsy</span></strong> = disorders of <strong>movement and posture</strong> causing activity limitation, from a <strong>non-progressive</strong> disturbance of the developing fetal or infant brain</li><li><strong>More common at lower gestational ages</strong></li><li><strong>Diagnosis usually by age 2</strong> unless a clear insult is known · <strong>half of children with abnormal signs at 1 year outgrow them by 7</strong></li></ul>"
-      }
-     ]
-    },
-    {
-     "id": "neuro-w15-04",
-     "num": "04",
-     "name": "Non-Mendelian Genetics",
-     "hasNote": true,
-     "title": "Non-Mendelian genetics",
-     "keypoints": "<p>⭐ <strong>Mitochondrial DNA is inherited only from the mother, and heteroplasmy (a mix of normal and mutant copies, shared out at random) explains why the same mutation looks different in each tissue and worsens over time.</strong> <strong>Suspect mitochondrial disease when 2 or more high-energy organs are involved; lactate is raised.</strong> <strong>Anticipation = the repeat grows each generation, so onset is earlier and disease worse.</strong> <strong>Huntington's: CAG on chromosome 4, 40 or more repeats = full penetrance. Myotonic dystrophy: CTG in DMPK, cannot relax a grip.</strong></p>",
-     "blocks": [
-      {
-       "t": "note",
-       "html": "<p><strong>Two ways inheritance breaks Mendel's rules: mitochondrial DNA comes only from the mother and is mixed unevenly in each cell, and repeat expansions grow from one generation to the next.</strong> <strong>That is why mitochondrial disease is variable and progressive, and why repeat disorders start earlier and hit harder in each generation (anticipation).</strong></p>"
-      },
-      {
-       "t": "note",
-       "html": "<h5>1. Mitochondria and their DNA</h5>"
-      },
-      {
-       "t": "list",
-       "html": "<ul><li>Mitochondria are the cell's <strong>main energy source</strong>: the <strong>respiratory chain on the inner membrane (cristae)</strong> makes ATP by oxidative phosphorylation</li><li><strong>Dual control</strong>: their proteins come from <strong>both nuclear and mitochondrial genes</strong></li><li><strong>Mitochondrial DNA (mtDNA)</strong>: circular, <strong>37 genes</strong>, 1-10 copies per mitochondrion, in the <strong>matrix</strong></li><li><strong>Maternally inherited</strong>: the egg has many mitochondria; the sperm's are lost at fertilization</li></ul>"
-      },
-      {
-       "t": "note",
-       "html": "<h5>2. Heteroplasmy and why mitochondrial disease progresses</h5>"
-      },
-      {
-       "t": "list",
-       "html": "<ul><li><strong>Homoplasmy</strong> = every copy of mtDNA identical (healthy) · <strong>heteroplasmy</strong> = <strong>a mix of normal and mutant mtDNA</strong></li><li><strong>Point mutations</strong> are passed on by the mother · <strong>larger deletions and duplications</strong> are usually <strong>sporadic</strong></li><li>At each cell division mitochondria are <strong>shared out at random</strong>, so the mutant load differs between cells and tissues · disease appears once a <strong>threshold</strong> is passed</li><li>Mitochondria also <strong>replicate in non-dividing cells (muscle, neurons)</strong> → mutant mtDNA <strong>accumulates</strong> → <strong>symptoms worsen over time</strong></li><li><strong>Mitochondrial depletion syndromes</strong>: <strong>nuclear gene</strong> mutations affecting mitochondrial nucleotide synthesis or mtDNA replication → too few working mitochondria</li></ul>"
-      },
-      {
-       "t": "figure",
-       "src": "assets/figures/f33597e5b694.jpg",
-       "alt": "accumulation of mutated mitochondrial DNA.png",
-       "w": 900,
-       "h": 610,
-       "cap": "Replication and random segregation of mutant mtDNA: from homoplasmy through heteroplasmy, with the mutant phenotype appearing once a threshold is crossed"
-      },
-      {
-       "t": "note",
-       "html": "<h5>3. When to suspect mitochondrial disease</h5>"
-      },
-      {
-       "t": "list",
-       "html": "<ul><li><strong>High-energy tissues suffer first</strong>: brain, retina, skeletal muscle, heart</li><li><strong>Consider it when 2 or more of these are present:</strong></li></ul>"
-      },
-      {
-       "t": "table",
-       "cols": [
-        "System",
-        "Findings"
-       ],
-       "rows": [
-        [
-         "<strong>Brain and nerves</strong>",
-         "<span class=\"wl\">hypotonia</span> · <span class=\"wl\">ataxia</span> · <span class=\"wl\">seizures</span> · <span class=\"wl\">migraine</span> · <span class=\"wl\">dementia</span> · sensorineural hearing loss · intellectual disability"
-        ],
-        [
-         "<strong>Eyes</strong>",
-         "retinitis pigmentosa · <span class=\"wl\">optic neuropathy</span> · <span class=\"wl\">nystagmus</span> · eye muscle palsies"
-        ],
-        [
-         "<strong>Muscle</strong>",
-         "Weakness · <strong>exercise intolerance</strong>"
-        ],
-        [
-         "<strong>Heart</strong>",
-         "<span class=\"wl\">hypertrophic cardiomyopathy</span> · arrhythmias · heart block"
-        ],
-        [
-         "<strong>Blood</strong>",
-         "Macrocytic anemia · pancytopenia"
-        ],
-        [
-         "<strong>Endocrine</strong>",
-         "<span class=\"wl\">diabetes mellitus</span> · <span class=\"wl\">diabetes insipidus</span> · exocrine pancreatic insufficiency · short stature"
-        ],
-        [
-         "<strong>Gut and kidney</strong>",
-         "Liver failure · intestinal pseudo-obstruction · <span class=\"wl\">renal tubular acidosis</span> · <span class=\"wl\">Fanconi syndrome</span>"
-        ]
-       ]
-      },
-      {
-       "t": "note",
-       "html": "<h5>4. Investigations and treatment</h5>"
-      },
-      {
-       "t": "list",
-       "html": "<ul><li><strong>Raised <span class=\"wl\">lactate</span> in blood and cerebrospinal fluid</strong> · MRI: basal ganglia changes, white-matter disease, atrophy, a lactate peak</li><li><strong>Muscle biopsy</strong> with respiratory chain enzyme analysis · <strong>genetic panels</strong> (mtDNA and nuclear mitochondrial genes)</li><li><strong>No effective treatment</strong> - supportive · a \"mitochondrial cocktail\" of cofactors (<span class=\"wl\">riboflavin</span>, coenzyme Q10, <span class=\"wl\">thiamine</span>) has little evidence</li></ul>"
-      },
-      {
-       "t": "note",
-       "html": "<h5>5. Trinucleotide repeat disorders and anticipation</h5>"
-      },
-      {
-       "t": "list",
-       "html": "<ul><li><strong>Anticipation</strong> = the repeat is <strong>unstable and tends to lengthen when passed on</strong>, so the disease <strong>starts earlier or is more severe in each generation</strong></li><li><strong>Penetrance</strong> rises with repeat length</li></ul>"
-      },
-      {
-       "t": "table",
-       "cols": [
-        "",
-        "<strong><span class=\"wl\">Huntington's disease</span></strong>",
-        "<strong><span class=\"wl\">Myotonic dystrophy</span></strong>"
-       ],
-       "rows": [
-        [
-         "<strong>Repeat</strong>",
-         "<strong>CAG</strong> in the huntingtin gene, chromosome 4",
-         "<strong>CTG</strong> in the DMPK gene"
-        ],
-        [
-         "<strong>Inheritance</strong>",
-         "<strong>Autosomal dominant</strong> (90% inherited)",
-         "<strong>Autosomal dominant</strong>"
-        ],
-        [
-         "<strong>What goes wrong</strong>",
-         "<strong>Loss of striatal neurons</strong> (indirect pathway) → too much movement",
-         "<strong>Muscles cannot relax after contracting</strong>"
-        ],
-        [
-         "<strong>Features</strong>",
-         "<strong><span class=\"wl\">chorea</span></strong> · personality change, irritability, depression · <strong>cognitive decline to <span class=\"wl\">dementia</span></strong> · late: mute, rigid, dependent",
-         "<strong>All muscles, including the face</strong>: expressionless face, sunken cheeks, <strong>bilateral ptosis</strong> · heart and cognition can be affected · congenital form: respiratory failure, high infant death"
-        ],
-        [
-         "<strong>Onset and course</strong>",
-         "Usually <strong>30s-40s</strong> · survival 15-18 years · <strong>juvenile form</strong> (very large expansion): <strong>rigidity more than chorea</strong>, seizures, fast decline",
-         "Severity and age of onset track the repeat size"
-        ],
-        [
-         "<strong>Treatment</strong>",
-         "No cure · symptomatic drugs for movement and mood",
-         "Supportive"
-        ]
-       ]
-      },
-      {
-       "t": "list",
-       "html": "<ul><li><strong>Huntington's repeat length</strong> (CAG): <strong>26 or fewer normal</strong> · <strong>27-35 intermediate</strong> (not affected, but children may be at risk) · <strong>36-39 reduced penetrance</strong> · <strong>40 or more full penetrance</strong></li><li><strong>Testing</strong>: <strong>70-80% of at-risk relatives choose not to be tested</strong> · presymptomatic testing only <strong>after genetic counselling</strong> (support, coping, reasons for testing) - hasty counselling can harm</li></ul>"
-      },
-      {
-       "t": "figure",
-       "src": "assets/figures/f3ffc69e7795.jpg",
-       "alt": "Huntington's disease genetic penetrance.png",
-       "w": 900,
-       "h": 414,
-       "cap": "Huntington's CAG repeat length: 10-26 normal, 27-35 intermediate, 36-39 reduced penetrance, 40 or more full penetrance"
-      },
-      {
-       "t": "note",
-       "html": "<h5>6. Variant of uncertain significance (VUS)</h5>"
-      },
-      {
-       "t": "list",
-       "html": "<ul><li>An objective of this lecture, but <strong>not covered in the medwiki note or the upper-year notes</strong> - fill in from the slides</li></ul>"
-      }
-     ]
-    },
-    {
-     "id": "neuro-w15-05",
-     "num": "05",
      "name": "Movement Disorders",
      "hasNote": true,
      "title": "Movement disorders",
@@ -5089,6 +4795,300 @@
          "Death in <strong>6-9 years</strong>"
         ]
        ]
+      }
+     ]
+    },
+    {
+     "id": "neuro-w15-04",
+     "num": "04",
+     "name": "Non-Mendelian Genetics",
+     "hasNote": true,
+     "title": "Non-Mendelian genetics",
+     "keypoints": "<p>⭐ <strong>Mitochondrial DNA is inherited only from the mother, and heteroplasmy (a mix of normal and mutant copies, shared out at random) explains why the same mutation looks different in each tissue and worsens over time.</strong> <strong>Suspect mitochondrial disease when 2 or more high-energy organs are involved; lactate is raised.</strong> <strong>Anticipation = the repeat grows each generation, so onset is earlier and disease worse.</strong> <strong>Huntington's: CAG on chromosome 4, 40 or more repeats = full penetrance. Myotonic dystrophy: CTG in DMPK, cannot relax a grip.</strong></p>",
+     "blocks": [
+      {
+       "t": "note",
+       "html": "<p><strong>Two ways inheritance breaks Mendel's rules: mitochondrial DNA comes only from the mother and is mixed unevenly in each cell, and repeat expansions grow from one generation to the next.</strong> <strong>That is why mitochondrial disease is variable and progressive, and why repeat disorders start earlier and hit harder in each generation (anticipation).</strong></p>"
+      },
+      {
+       "t": "note",
+       "html": "<h5>1. Mitochondria and their DNA</h5>"
+      },
+      {
+       "t": "list",
+       "html": "<ul><li>Mitochondria are the cell's <strong>main energy source</strong>: the <strong>respiratory chain on the inner membrane (cristae)</strong> makes ATP by oxidative phosphorylation</li><li><strong>Dual control</strong>: their proteins come from <strong>both nuclear and mitochondrial genes</strong></li><li><strong>Mitochondrial DNA (mtDNA)</strong>: circular, <strong>37 genes</strong>, 1-10 copies per mitochondrion, in the <strong>matrix</strong></li><li><strong>Maternally inherited</strong>: the egg has many mitochondria; the sperm's are lost at fertilization</li></ul>"
+      },
+      {
+       "t": "note",
+       "html": "<h5>2. Heteroplasmy and why mitochondrial disease progresses</h5>"
+      },
+      {
+       "t": "list",
+       "html": "<ul><li><strong>Homoplasmy</strong> = every copy of mtDNA identical (healthy) · <strong>heteroplasmy</strong> = <strong>a mix of normal and mutant mtDNA</strong></li><li><strong>Point mutations</strong> are passed on by the mother · <strong>larger deletions and duplications</strong> are usually <strong>sporadic</strong></li><li>At each cell division mitochondria are <strong>shared out at random</strong>, so the mutant load differs between cells and tissues · disease appears once a <strong>threshold</strong> is passed</li><li>Mitochondria also <strong>replicate in non-dividing cells (muscle, neurons)</strong> → mutant mtDNA <strong>accumulates</strong> → <strong>symptoms worsen over time</strong></li><li><strong>Mitochondrial depletion syndromes</strong>: <strong>nuclear gene</strong> mutations affecting mitochondrial nucleotide synthesis or mtDNA replication → too few working mitochondria</li></ul>"
+      },
+      {
+       "t": "figure",
+       "src": "assets/figures/f33597e5b694.jpg",
+       "alt": "accumulation of mutated mitochondrial DNA.png",
+       "w": 900,
+       "h": 610,
+       "cap": "Replication and random segregation of mutant mtDNA: from homoplasmy through heteroplasmy, with the mutant phenotype appearing once a threshold is crossed"
+      },
+      {
+       "t": "note",
+       "html": "<h5>3. When to suspect mitochondrial disease</h5>"
+      },
+      {
+       "t": "list",
+       "html": "<ul><li><strong>High-energy tissues suffer first</strong>: brain, retina, skeletal muscle, heart</li><li><strong>Consider it when 2 or more of these are present:</strong></li></ul>"
+      },
+      {
+       "t": "table",
+       "cols": [
+        "System",
+        "Findings"
+       ],
+       "rows": [
+        [
+         "<strong>Brain and nerves</strong>",
+         "<span class=\"wl\">hypotonia</span> · <span class=\"wl\">ataxia</span> · <span class=\"wl\">seizures</span> · <span class=\"wl\">migraine</span> · <span class=\"wl\">dementia</span> · sensorineural hearing loss · intellectual disability"
+        ],
+        [
+         "<strong>Eyes</strong>",
+         "retinitis pigmentosa · <span class=\"wl\">optic neuropathy</span> · <span class=\"wl\">nystagmus</span> · eye muscle palsies"
+        ],
+        [
+         "<strong>Muscle</strong>",
+         "Weakness · <strong>exercise intolerance</strong>"
+        ],
+        [
+         "<strong>Heart</strong>",
+         "<span class=\"wl\">hypertrophic cardiomyopathy</span> · arrhythmias · heart block"
+        ],
+        [
+         "<strong>Blood</strong>",
+         "Macrocytic anemia · pancytopenia"
+        ],
+        [
+         "<strong>Endocrine</strong>",
+         "<span class=\"wl\">diabetes mellitus</span> · <span class=\"wl\">diabetes insipidus</span> · exocrine pancreatic insufficiency · short stature"
+        ],
+        [
+         "<strong>Gut and kidney</strong>",
+         "Liver failure · intestinal pseudo-obstruction · <span class=\"wl\">renal tubular acidosis</span> · <span class=\"wl\">Fanconi syndrome</span>"
+        ]
+       ]
+      },
+      {
+       "t": "note",
+       "html": "<h5>4. Investigations and treatment</h5>"
+      },
+      {
+       "t": "list",
+       "html": "<ul><li><strong>Raised <span class=\"wl\">lactate</span> in blood and cerebrospinal fluid</strong> · MRI: basal ganglia changes, white-matter disease, atrophy, a lactate peak</li><li><strong>Muscle biopsy</strong> with respiratory chain enzyme analysis · <strong>genetic panels</strong> (mtDNA and nuclear mitochondrial genes)</li><li><strong>No effective treatment</strong> - supportive · a \"mitochondrial cocktail\" of cofactors (<span class=\"wl\">riboflavin</span>, coenzyme Q10, <span class=\"wl\">thiamine</span>) has little evidence</li></ul>"
+      },
+      {
+       "t": "note",
+       "html": "<h5>5. Trinucleotide repeat disorders and anticipation</h5>"
+      },
+      {
+       "t": "list",
+       "html": "<ul><li><strong>Anticipation</strong> = the repeat is <strong>unstable and tends to lengthen when passed on</strong>, so the disease <strong>starts earlier or is more severe in each generation</strong></li><li><strong>Penetrance</strong> rises with repeat length</li></ul>"
+      },
+      {
+       "t": "table",
+       "cols": [
+        "",
+        "<strong><span class=\"wl\">Huntington's disease</span></strong>",
+        "<strong><span class=\"wl\">Myotonic dystrophy</span></strong>"
+       ],
+       "rows": [
+        [
+         "<strong>Repeat</strong>",
+         "<strong>CAG</strong> in the huntingtin gene, chromosome 4",
+         "<strong>CTG</strong> in the DMPK gene"
+        ],
+        [
+         "<strong>Inheritance</strong>",
+         "<strong>Autosomal dominant</strong> (90% inherited)",
+         "<strong>Autosomal dominant</strong>"
+        ],
+        [
+         "<strong>What goes wrong</strong>",
+         "<strong>Loss of striatal neurons</strong> (indirect pathway) → too much movement",
+         "<strong>Muscles cannot relax after contracting</strong>"
+        ],
+        [
+         "<strong>Features</strong>",
+         "<strong><span class=\"wl\">chorea</span></strong> · personality change, irritability, depression · <strong>cognitive decline to <span class=\"wl\">dementia</span></strong> · late: mute, rigid, dependent",
+         "<strong>All muscles, including the face</strong>: expressionless face, sunken cheeks, <strong>bilateral ptosis</strong> · heart and cognition can be affected · congenital form: respiratory failure, high infant death"
+        ],
+        [
+         "<strong>Onset and course</strong>",
+         "Usually <strong>30s-40s</strong> · survival 15-18 years · <strong>juvenile form</strong> (very large expansion): <strong>rigidity more than chorea</strong>, seizures, fast decline",
+         "Severity and age of onset track the repeat size"
+        ],
+        [
+         "<strong>Treatment</strong>",
+         "No cure · symptomatic drugs for movement and mood",
+         "Supportive"
+        ]
+       ]
+      },
+      {
+       "t": "list",
+       "html": "<ul><li><strong>Huntington's repeat length</strong> (CAG): <strong>26 or fewer normal</strong> · <strong>27-35 intermediate</strong> (not affected, but children may be at risk) · <strong>36-39 reduced penetrance</strong> · <strong>40 or more full penetrance</strong></li><li><strong>Testing</strong>: <strong>70-80% of at-risk relatives choose not to be tested</strong> · presymptomatic testing only <strong>after genetic counselling</strong> (support, coping, reasons for testing) - hasty counselling can harm</li></ul>"
+      },
+      {
+       "t": "figure",
+       "src": "assets/figures/f3ffc69e7795.jpg",
+       "alt": "Huntington's disease genetic penetrance.png",
+       "w": 900,
+       "h": 414,
+       "cap": "Huntington's CAG repeat length: 10-26 normal, 27-35 intermediate, 36-39 reduced penetrance, 40 or more full penetrance"
+      },
+      {
+       "t": "note",
+       "html": "<h5>6. Variant of uncertain significance (VUS)</h5>"
+      },
+      {
+       "t": "list",
+       "html": "<ul><li>An objective of this lecture, but <strong>not covered in the medwiki note or the upper-year notes</strong> - fill in from the slides</li></ul>"
+      }
+     ]
+    },
+    {
+     "id": "neuro-w15-05",
+     "num": "05",
+     "name": "Pediatric Neurology",
+     "hasNote": true,
+     "title": "Pediatric neurology: the floppy infant",
+     "keypoints": "<p>⭐ <strong>The commonest cause of a floppy infant is not neurologic (sepsis, electrolytes, dehydration, heart disease) - and when it is neurologic, it is usually central.</strong> <strong>Weak + floppy + low reflexes = peripheral; strong + floppy + brisk reflexes + isolated axial floppiness = central.</strong> <strong>Central hypotonia turns into hypertonia by age 2-3.</strong> <strong>SMA is treatable and screened at birth.</strong> <strong>Congenital myotonic dystrophy: examine the mother.</strong></p>",
+     "blocks": [
+      {
+       "t": "note",
+       "html": "<p><strong>A floppy (hypotonic) infant is usually sick rather than neurologically damaged - so rule out a non-neurologic cause first.</strong> <strong>If it is neurologic, decide central or peripheral: weakness with the floppiness points to the periphery, normal strength with brisk reflexes to the brain.</strong></p>"
+      },
+      {
+       "t": "note",
+       "html": "<h5>1. Tone and hypotonia</h5>"
+      },
+      {
+       "t": "list",
+       "html": "<ul><li><strong>Tone</strong> = resistance to passive movement around a joint<ul><li><strong>phasic tone</strong>: response to a <strong>rapid stretch</strong>, carried by the deep tendon reflexes</li><li><strong>postural tone</strong>: response to <strong>low-intensity forces such as gravity</strong></li><li>the two do not always go together</li></ul></li><li><strong><span class=\"wl\">Hypotonia</span></strong> = low tone on passive stretch · <strong>not the same as weakness</strong> (a baby can be weak with good tone, or floppy with good strength)</li><li><strong>Weakness + hypotonia almost always means a peripheral cause</strong></li><li>In <strong>infants a central (brain) problem causes low tone</strong>, because the motor pathways are immature · it <strong>evolves to <span class=\"wl\">high tone</span> by age 2-3</strong>, the pattern seen in adults</li></ul>"
+      },
+      {
+       "t": "note",
+       "html": "<h5>2. Sorting the causes</h5>"
+      },
+      {
+       "t": "pathway",
+       "mermaid": "flowchart TD\n    A[\"Floppy infant\"] --> B{\"Non-neurologic cause?<br/>sepsis · electrolytes · dehydration<br/>hypothyroidism · heart disease · failure to thrive\"}\n    B -->|Yes| C[\"MOST COMMON<br/>treat the underlying illness\"]\n    B -->|No| D{\"Weak? reflexes?\"}\n    D -->|\"Normal strength · brisk reflexes<br/>axial floppiness · seizures · poor cognition\"| E[\"CENTRAL (most neurologic cases)<br/>microarray · MRI · electroencephalogram (EEG)\"]\n    D -->|\"Weak · reflexes low or absent<br/>axial + limb floppiness · atrophy · normal cognition\"| F[\"PERIPHERAL<br/>creatine kinase · electromyography (EMG)<br/>and nerve conduction studies<br/>muscle biopsy · examine the mother\"]\n    F --> G[\"Localize: anterior horn cell · nerve<br/>neuromuscular junction · muscle\"]"
+      },
+      {
+       "t": "list",
+       "html": "<ul><li><strong>Most common overall: non-neurologic</strong> · when neurologic, <strong>most are central (80%)</strong></li></ul>"
+      },
+      {
+       "t": "note",
+       "html": "<h5>3. History and exam</h5>"
+      },
+      {
+       "t": "list",
+       "html": "<ul><li><strong>History</strong>: pregnancy (<strong>reduced fetal movement</strong>, breech, delivery problems) · <strong>missed <span class=\"wl\">milestones</span></strong>, <span class=\"wl\">seizures</span> · feeding, breathing or heart problems · family history</li><li><strong>Exam</strong>: resting posture (<strong>\"frog legs\"</strong>) · reflexes · tone · muscle bulk · <strong>joint contractures (<span class=\"wl\">arthrogryposis</span>)</strong> · sensation and visual awareness · <strong>dysmorphic features</strong> · <strong>undescended testes (<span class=\"wl\">cryptorchidism</span>)</strong></li><li><strong>Axial vs limb hypotonia</strong><ul><li><strong>axial</strong> (posture muscles): curved back, poor head control, hips rolled in → <strong>isolated axial = central</strong></li><li><strong>appendicular</strong> (limbs): flexed arms, frog legs → <strong>axial + appendicular = peripheral</strong></li></ul></li><li><strong>Traction response (pull-to-sit)</strong>: normal baby flexes arms and lifts head · abnormal = <strong>head lag, no arm flexion</strong></li><li><strong>Vertical suspension</strong>: normal baby holds head up and flexes hips, knees, ankles · abnormal = <strong>head falls forward, legs dangle, slips through the hands</strong></li></ul>"
+      },
+      {
+       "t": "note",
+       "html": "<h5>4. Central vs peripheral</h5>"
+      },
+      {
+       "t": "table",
+       "cols": [
+        "",
+        "<strong>Central (upper motor neuron)</strong>",
+        "<strong>Peripheral (lower motor neuron)</strong>"
+       ],
+       "rows": [
+        [
+         "<strong>Floppiness</strong>",
+         "<strong>Isolated axial</strong>",
+         "<strong>Axial + limbs</strong>"
+        ],
+        [
+         "<strong>Strength</strong>",
+         "<strong>Normal</strong>",
+         "<strong>Weak</strong> · atrophy · feeding trouble (facial weakness)"
+        ],
+        [
+         "<strong>Reflexes</strong>",
+         "<strong>Brisk (<span class=\"wl\">hyperreflexia</span>)</strong>",
+         "<strong>Low or absent (hyporeflexia)</strong>"
+        ],
+        [
+         "<strong>Cognition</strong>",
+         "<strong>Poor development</strong> · seizures · dysmorphic features",
+         "<strong>Normal</strong>"
+        ],
+        [
+         "<strong>Investigations</strong>",
+         "<strong><span class=\"wl\">microarray</span> · MRI</strong> · EEG",
+         "<strong><span class=\"wl\">creatine kinase</span> · EMG and nerve conduction · muscle biopsy · examine the mother</strong>"
+        ]
+       ]
+      },
+      {
+       "t": "note",
+       "html": "<h5>5. Central causes</h5>"
+      },
+      {
+       "t": "list",
+       "html": "<ul><li><strong><span class=\"wl\">Benign hypotonia of infancy</span></strong>: just lower tone, outgrown · later risk of joint dislocation</li><li><strong><span class=\"wl\">Hypoxic-ischemic encephalopathy</span></strong>: too little oxygen around birth (cord entanglement, placental insufficiency) → often permanent damage, can lead to <span class=\"wl\">cerebral palsy</span></li><li>Stroke, malformations, <strong>metabolic disorders</strong></li><li><strong>Chromosomal</strong>: <strong><span class=\"wl\">Down syndrome</span> · <span class=\"wl\">Prader-Willi syndrome</span></strong></li><li><strong>Spinal cord</strong>: rare (e.g. a congenitally narrow canal)</li></ul>"
+      },
+      {
+       "t": "note",
+       "html": "<h5>6. Peripheral causes, by site</h5>"
+      },
+      {
+       "t": "table",
+       "cols": [
+        "Site",
+        "Examples",
+        "Key point"
+       ],
+       "rows": [
+        [
+         "<strong>Anterior horn cell</strong>",
+         "<strong><span class=\"wl\">Spinal muscular atrophy (SMA)</span></strong>",
+         "<strong>SMN gene</strong>, autosomal recessive, ~1 in 10,000 · the \"ALS of childhood\" · <strong>treatable</strong> (alter splicing of the SMN2 copy) → <strong>on Ontario newborn screening</strong>"
+        ],
+        [
+         "<strong>Nerve</strong>",
+         "<span class=\"wl\">Guillain-Barré syndrome</span> (very rare in children) · <strong><span class=\"wl\">Charcot-Marie-Tooth disease</span></strong> (hypomyelinating forms)",
+         "Charcot-Marie-Tooth = <strong>most common inherited neurologic disorder</strong>"
+        ],
+        [
+         "<strong>Neuromuscular junction</strong>",
+         "<strong><span class=\"wl\">Transient neonatal myasthenia</span></strong> · <span class=\"wl\">congenital myasthenic syndrome</span> · <strong>infant botulism</strong>",
+         "Neonatal myasthenia = <strong>the mother's antibodies</strong> · botulism from spores → <strong>no honey</strong> for infants"
+        ],
+        [
+         "<strong>Muscle</strong>",
+         "<strong>Congenital <span class=\"wl\">myotonic dystrophy</span></strong> · <span class=\"wl\">congenital myopathies</span>",
+         "<strong>Most common muscular dystrophy diagnosed in children</strong> · baby worse than the mother, who may not know she has it → <strong>examine the mother</strong>"
+        ]
+       ]
+      },
+      {
+       "t": "list",
+       "html": "<ul><li><strong>Both central and peripheral</strong>: <span class=\"wl\">leukodystrophies</span> · storage diseases (<span class=\"wl\">Tay-Sachs disease</span>, glycogen storage disease)</li></ul>"
+      },
+      {
+       "t": "note",
+       "html": "<h5>7. Cerebral palsy</h5>"
+      },
+      {
+       "t": "list",
+       "html": "<ul><li><strong><span class=\"wl\">Cerebral palsy</span></strong> = disorders of <strong>movement and posture</strong> causing activity limitation, from a <strong>non-progressive</strong> disturbance of the developing fetal or infant brain</li><li><strong>More common at lower gestational ages</strong></li><li><strong>Diagnosis usually by age 2</strong> unless a clear insult is known · <strong>half of children with abnormal signs at 1 year outgrow them by 7</strong></li></ul>"
       }
      ]
     },
@@ -5524,461 +5524,8 @@
      ]
     },
     {
-     "id": "neuro-w15-in-class-approach-to-seizures",
-     "num": "—",
-     "name": "In-Class - Approach to Seizures",
-     "hasNote": true,
-     "inClass": true,
-     "title": "In-class: approach to seizures",
-     "keypoints": "<p>⭐ <strong>Seizure over syncope: unconscious for more than a minute, eyes turned to one side, side-of-tongue biting, and confusion lasting minutes to hours; a faint lasts under a minute with only brief confusion.</strong> <strong>Focal slowing or spikes on EEG mean MRI.</strong> <strong>Valproate is the worst teratogen; levetiracetam and lamotrigine are the safer choices, with folic acid.</strong> <strong>Never stop antiseizure drugs because of pregnancy.</strong> <strong>A posterior shoulder dislocation should make you think of a seizure.</strong></p>",
-     "blocks": [
-      {
-       "t": "note",
-       "html": "<p><strong>A case session built on the first-seizure approach (see the <span class=\"wl\">Week 14 approach to seizures chart</span> for the workup and when to treat).</strong> <strong>What it adds: telling a seizure from a faint, reading the EEG report, and choosing a drug for a young woman.</strong></p>"
-      },
-      {
-       "t": "note",
-       "html": "<h5>1. Seizure or syncope?</h5>"
-      },
-      {
-       "t": "list",
-       "html": "<ul><li><strong>Differential of a brief loss of consciousness</strong>: <strong>syncope</strong> (low brain perfusion, cardiac or blood pressure) · <strong>seizure</strong> · psychogenic · sudden <strong>raised intracranial pressure</strong> (acute hydrocephalus) · brainstem transient ischemic attack (rare)</li></ul>"
-      },
-      {
-       "t": "table",
-       "cols": [
-        "",
-        "<strong>Syncope</strong>",
-        "<strong>Seizure</strong>"
-       ],
-       "rows": [
-        [
-         "<strong>Warning</strong>",
-         "<strong>Lightheaded, nauseated, palpitations</strong>",
-         "Aura possible"
-        ],
-        [
-         "<strong>Length of unconsciousness</strong>",
-         "<strong>10-60 seconds</strong>",
-         "<strong>1 minute to several minutes</strong>"
-        ],
-        [
-         "<strong>Eyes</strong>",
-         "Open, may roll <strong>up</strong>",
-         "Open, may turn <strong>to one side</strong>"
-        ],
-        [
-         "<strong>Limb movements</strong>",
-         "None, tonic or clonic",
-         "None, tonic or clonic · <strong>may be asymmetric</strong>"
-        ],
-        [
-         "<strong>Afterwards</strong>",
-         "<strong>Brief confusion, up to 5 minutes</strong>",
-         "<strong>Confusion for minutes to hours</strong> · possible <strong><span class=\"wl\">Todd's paresis</span></strong>"
-        ],
-        [
-         "<strong>Incontinence</strong>",
-         "Rare",
-         "More common"
-        ],
-        [
-         "<strong>Tongue biting</strong>",
-         "None",
-         "<strong>Possible (side of the tongue)</strong>"
-        ]
-       ]
-      },
-      {
-       "t": "list",
-       "html": "<ul><li>Movements: <strong>clonic</strong> = shaking · <strong>tonic</strong> = stiff · <strong>myoclonic</strong> = jerks</li></ul>"
-      },
-      {
-       "t": "note",
-       "html": "<h5>2. History clues</h5>"
-      },
-      {
-       "t": "list",
-       "html": "<ul><li><strong>Earlier seizures</strong> → more likely a seizure</li><li><strong>Aura · asymmetric onset · deficit afterwards</strong> → <strong>focal seizure</strong></li><li><strong>Triggers</strong> (sleep loss, drugs or medications, head injury, illness, fever) → <strong>provoked vs unprovoked</strong></li><li><strong>Adults rarely present with a first <span class=\"wl\">generalized</span> seizure</strong> - they present with <strong><span class=\"wl\">focal</span></strong> ones · first generalized seizures are common in children</li><li><strong>Adult first seizure</strong>: electrolytes and CT head now, EEG and MRI as an outpatient (full workup in the Week 14 chart)</li></ul>"
-      },
-      {
-       "t": "note",
-       "html": "<h5>3. EEG and juvenile myoclonic epilepsy</h5>"
-      },
-      {
-       "t": "list",
-       "html": "<ul><li><strong>Focal slowing or focal spikes on the <span class=\"wl\">electroencephalogram (EEG)</span> = a focal lesion → MRI is required</strong> to look for cortical dysplasia, <strong><span class=\"wl\">mesial temporal sclerosis</span></strong>, tumour or old infarct</li><li><strong><span class=\"wl\">Juvenile myoclonic epilepsy</span></strong>: <strong>easily controlled</strong> - lifestyle (sleep, food, fluids) and low-dose drugs · a <strong>sleep-deprived EEG</strong> brings out the abnormality</li></ul>"
-      },
-      {
-       "t": "note",
-       "html": "<h5>4. Antiseizure drugs in young women</h5>"
-      },
-      {
-       "t": "list",
-       "html": "<ul><li><strong>Older <span class=\"wl\">antiseizure drugs</span> weaken <span class=\"wl\">oral contraceptives</span></strong> → check interactions</li><li><strong>Teratogens</strong>: always add <strong><span class=\"wl\">folic acid</span></strong> · avoid the worst drugs in anyone who could become pregnant</li></ul>"
-      },
-      {
-       "t": "table",
-       "cols": [
-        "<strong>Worst</strong>",
-        "<strong>Better options</strong>"
-       ],
-       "rows": [
-        [
-         "<strong><span class=\"wl\">Valproate</span> (highest malformation risk)</strong> · <span class=\"wl\">phenytoin</span> · <strong>several drugs together</strong>",
-         "<strong>Levetiracetam</strong> · <strong><span class=\"wl\">Lamotrigine</span></strong> · <span class=\"wl\">carbamazepine</span>"
-        ]
-       ]
-      },
-      {
-       "t": "list",
-       "html": "<ul><li>⚠ <strong>Do not stop antiseizure drugs for pregnancy</strong>: seizures risk <strong>fetal hypoxic injury</strong>, <strong>maternal <span class=\"wl\">status epilepticus</span></strong> and <strong><span class=\"wl\">sudden unexpected death in epilepsy (SUDEP)</span></strong></li></ul>"
-      },
-      {
-       "t": "note",
-       "html": "<h5>5. Complications of a seizure</h5>"
-      },
-      {
-       "t": "list",
-       "html": "<ul><li><strong>Posterior shoulder dislocation</strong> · injuries from falls · aspiration · <strong>status epilepticus</strong> (permanent brain injury) · <strong>SUDEP</strong></li></ul>"
-      }
-     ]
-    }
-   ]
-  },
-  {
-   "n": 16,
-   "label": "Week 16 - Hearing, Vertigo & Neurology in Medical Illness",
-   "lectures": [
-    {
-     "id": "neuro-w16-01",
-     "num": "01",
-     "name": "The Dying Patient and MAiD",
-     "hasNote": true,
-     "title": "The dying patient and medical assistance in dying (MAiD)",
-     "keypoints": "<p>⭐ <strong>Stream 2 (natural death not reasonably foreseeable) adds a 90-day wait, an expert physician, and forbids the waiver of final consent.</strong> <strong>Capacity is decision-specific and can fluctuate.</strong> <strong>Advance care planning wishes are not consent; code status is not goals of care.</strong> <strong>The SDM order starts with a court guardian and a Power of Attorney for Personal Care, then spouse, child, parent, sibling.</strong> <strong>A conscientious objector must still make an effective referral.</strong></p>",
-     "blocks": [
-      {
-       "t": "note",
-       "html": "<p><strong>Two questions run through the lecture:</strong> who gets to decide when the patient cannot (<strong>capacity → substitute decision maker</strong>), and, when the patient can and asks to die, <strong>are they eligible for MAiD and have the safeguards been met?</strong></p>"
-      },
-      {
-       "t": "note",
-       "html": "<h5>1. Capacity and the substitute decision maker</h5>"
-      },
-      {
-       "t": "list",
-       "html": "<ul><li><strong>Capacity</strong> has two parts<ul><li>① can <strong>understand</strong> the information relevant to the decision</li><li>② can <strong>appreciate the reasonably foreseeable consequences</strong> of deciding (or not deciding)</li><li><strong>specific to the decision</strong> (may be capable about meals but not about treatment) · <strong>can fluctuate</strong> over time</li></ul></li><li><strong>Substitute decision maker (SDM)</strong>: gives or refuses consent for an incapable patient, taken <strong>in this order</strong><ul><li>① court-appointed guardian · ② attorney under a <strong>Power of Attorney for Personal Care</strong> (not the one for property) · ③ representative appointed by the Consent and Capacity Board</li><li>④ spouse or partner · ⑤ child over 16 · ⑥ parent · ⑦ sibling · ⑧ any other relative · ⑨ the Public Guardian and Trustee</li></ul></li></ul>"
-      },
-      {
-       "t": "note",
-       "html": "<h5>2. Code status, goals of care, advance care planning</h5>"
-      },
-      {
-       "t": "table",
-       "cols": [
-        "",
-        "What it is",
-        "Key point"
-       ],
-       "rows": [
-        [
-         "<strong>Code status</strong>",
-         "Which resuscitation (if any) to give if the heart or breathing stops",
-         "Needs informed consent from the patient or SDM"
-        ],
-        [
-         "<strong>Goals of care</strong>",
-         "A conversation about who the patient is, their values, and how those fit the clinical picture and treatment options",
-         "<strong>Code status is not the same as goals of care</strong>"
-        ],
-        [
-         "<strong>Advance care planning</strong>",
-         "Wishes voiced ahead of time to guide a future SDM",
-         "<strong>Wishes, not decisions - not \"advance consent\"</strong> (the future is speculation)"
-        ]
-       ]
-      },
-      {
-       "t": "note",
-       "html": "<h5>3. Palliative care</h5>"
-      },
-      {
-       "t": "list",
-       "html": "<ul><li><strong>Definition</strong>: an approach that <strong>improves quality of life</strong> for patients and families facing life-threatening illness, by early identification, assessment and treatment of pain and other problems: <strong>physical, psychological, spiritual</strong><ul><li>also practical needs · dignity and comfort · bereavement counselling</li><li>most people would prefer to <strong>die at home</strong>, so it must be available in the community</li></ul></li><li><strong>Tools</strong><ul><li><span class=\"wl\">Palliative Performance Scale</span> (version 2): disease burden and progress toward end of life (the most used)</li><li><span class=\"wl\">Edmonton Symptom Assessment System</span>: screens for symptoms palliative care can manage</li></ul></li><li><strong>Routes in</strong>: the patient opts in · the physician judges treatment futile or too burdensome and suggests it · <strong>alongside active treatment</strong> for hard-to-control symptoms · after a <strong>severe irreversible disability</strong> (e.g. a stroke: choose comfort, no tube feeds or intravenous fluids)</li></ul>"
-      },
-      {
-       "t": "note",
-       "html": "<h5>4. Caring for the patient and family at the end</h5>"
-      },
-      {
-       "t": "list",
-       "html": "<ul><li><strong>Patient- and family-centred</strong>: speak to the patient <strong>even if comatose</strong> · look after the family's needs (rest, self-care) · answer questions honestly</li><li><strong>Uncertainty</strong>: outcomes fall on a spectrum; a family told to expect the worst may be angry when the patient does better</li><li><strong>Temporary improvement</strong> after stopping feeds, medications or fluids (hours to days) is <strong>common</strong>: reassure, use the time together, re-evaluate only if it lasts many days</li><li><strong>Moral distress</strong> when a family's choice clashes with your values: <strong>\"it is not my journey\"</strong> · trust the SDM to choose as the patient would</li><li><strong>Myths to answer</strong><ul><li><strong>not starving to death</strong>: organs shut down together, no hunger or thirst · offer sips and tastes if wanted</li><li><strong>turning the patient does not hasten death</strong>: it relieves pressure and lets staff check signs such as <strong>mottling</strong> (call the family)</li><li>patients often <strong>die as they lived</strong> (alone, or once the family has gathered) · give the family permission to step away</li></ul></li></ul>"
-      },
-      {
-       "t": "note",
-       "html": "<h5>5. Medical assistance in dying (MAiD)</h5>"
-      },
-      {
-       "t": "list",
-       "html": "<ul><li><strong>Legal in Canada since 2016</strong> · since 2021 <strong>two streams</strong>: ① <strong>natural death reasonably foreseeable</strong> · ② <strong>natural death not reasonably foreseeable</strong></li><li><strong>Eligibility</strong>: eligible for publicly funded health care (Ontario Health Insurance Plan, OHIP) · <strong>18 or older and capable</strong> · a <strong>grievous and irremediable medical condition</strong> · a <strong>voluntary request, free of coercion</strong> · <strong>informed consent</strong></li><li><strong>Safeguards (both streams)</strong>: written request <strong>witnessed by an independent person</strong> · <strong>two independent physicians</strong> confirm eligibility · consent again at the time of MAiD (stream 1 can waive this in advance)</li></ul>"
-      },
-      {
-       "t": "pathway",
-       "mermaid": "flowchart TD\n    A[\"Patient asks for MAiD\"] --> B{\"Eligible?<br/>publicly funded health care · 18 or older and capable<br/>grievous and irremediable condition<br/>voluntary request · informed consent\"}\n    B -->|\"Any no\"| X[\"Not eligible\"]\n    B -->|\"All yes\"| C[\"Written request, witnessed by an independent person\"]\n    C --> D[\"Two independent physicians confirm eligibility\"]\n    D --> E{\"Is natural death reasonably foreseeable?\"}\n    E -->|\"Yes: stream 1\"| F[\"Consent again at the time of MAiD<br/>OR a waiver of final consent signed in advance\"]\n    E -->|\"No: stream 2\"| G[\"One physician has expertise in the condition<br/>and has discussed all treatment options<br/>90-day waiting period<br/>NO waiver of final consent\"]\n    G --> H[\"Consent again at the time of MAiD\"]\n    F --> I[\"MAiD provided · in Ontario, reported to the coroner\"]\n    H --> I"
-      },
-      {
-       "t": "list",
-       "html": "<ul><li><strong>Practical points</strong><ul><li><strong>where</strong>: home, long-term care or hospital</li><li><strong>organ donation</strong> is still possible afterwards (usually in hospital)</li><li><strong>method</strong>: mostly intravenous <strong><span class=\"wl\">benzodiazepine</span> + high-dose propofol + a neuromuscular blocker</strong>, infused over 10 min, death within about 10 min · an oral lethal prescription is possible but rare</li><li><strong>reporting</strong>: to the coroner (Ontario)</li></ul></li></ul>"
-      },
-      {
-       "t": "note",
-       "html": "<h5>6. Conscientious objection</h5>"
-      },
-      {
-       "t": "list",
-       "html": "<ul><li>A physician <strong>need not provide MAiD</strong>, but the patient keeps the right to access it, so the physician must:<ul><li>act in a way that <strong>respects dignity and does not impede access</strong></li><li>tell the patient directly and sensitively that the reason is <strong>personal, not clinical</strong></li><li>make a <strong>timely effective referral</strong>, so delay does not harm the patient</li></ul></li></ul>"
-      }
-     ]
-    },
-    {
-     "id": "neuro-w16-02",
-     "num": "02",
-     "name": "Integration of Medicine and Neurology",
-     "hasNote": true,
-     "title": "Integration of medicine and neurology",
-     "keypoints": "<p>⭐ <strong>Stepwise multifocal strokes = cardioembolic until proven otherwise, and if it is endocarditis, no tPA - get two sets of blood cultures.</strong> <strong>Wernicke triad: ataxia, ophthalmoplegia, confusion - thiamine before glucose.</strong> <strong>B12 and copper deficiency both damage the posterior and lateral columns.</strong> <strong>Paraneoplastic symptoms often precede the cancer diagnosis.</strong></p>",
-     "blocks": [
-      {
-       "t": "note",
-       "html": "<p><strong>The nervous system is often where a disease of another system shows itself.</strong> The lecture walks four systems in turn (cancer, breathing, nutrition, the heart) and asks for each: <strong>how does it reach the nerves, the cord or the brain?</strong></p>"
-      },
-      {
-       "t": "note",
-       "html": "<h5>1. Oncology: how cancer hurts the nervous system</h5>"
-      },
-      {
-       "t": "table",
-       "cols": [
-        "Mechanism",
-        "What happens",
-        "Examples"
-       ],
-       "rows": [
-        [
-         "<strong>Mass effect</strong>",
-         "Tumour or metastasis <strong>compresses</strong> a structure",
-         "Spinal cord → <span class=\"wl\">myelopathy</span> · nerve root → <span class=\"wl\">radiculopathy</span> · peripheral nerve → mononeuropathy"
-        ],
-        [
-         "<strong>Direct invasion</strong>",
-         "Tumour grows into nerve, cord or brain",
-         "Metastases to the central nervous system, commonly from <strong>breast and lung</strong>"
-        ],
-        [
-         "<strong>Immune-mediated, at a distance</strong> (paraneoplastic)",
-         "Antibodies made against the tumour attack nervous tissue",
-         "Limbic encephalitis · <span class=\"wl\">myasthenia gravis</span> (acetylcholine receptor) · cerebellitis · dermatomyositis"
-        ],
-        [
-         "<strong>Toxic effects of treatment</strong>",
-         "Chemotherapy, radiation, surgery",
-         "<span class=\"wl\">Chemotherapy neuropathy</span> · radiation <span class=\"wl\">encephalopathy</span> · post-mastectomy pain syndrome"
-        ],
-        [
-         "<strong>Immune checkpoint inhibitor autoimmunity</strong>",
-         "The drug releases the brake on T cells so they attack the tumour, <strong>and the body</strong>",
-         "<span class=\"wl\">Myositis</span> · <span class=\"wl\">myasthenia gravis</span>"
-        ]
-       ]
-      },
-      {
-       "t": "list",
-       "html": "<ul><li><strong>Paraneoplastic syndromes</strong> (upper-year notes): rare, and the <strong>neurologic symptoms often come weeks to months before the cancer is found</strong> → recognise the syndrome and <strong>search for the tumour</strong> (repeat the search if the first is negative) · best treatment is to treat the tumour</li><li><strong>Checkpoint inhibitor autoimmunity</strong>: talk to oncology about <strong>stopping the drug and/or giving steroids</strong>, knowing this may weaken the cancer treatment</li></ul>"
-      },
-      {
-       "t": "note",
-       "html": "<h5>2. Respirology: weak breathing from a nerve or muscle problem</h5>"
-      },
-      {
-       "t": "list",
-       "html": "<ul><li><strong>Lying down, the diaphragm does most of the work</strong> (it pushes the abdomen down) · <strong>upright, the intercostal muscles do most of it</strong></li><li><strong>Bilateral <span class=\"wl\">phrenic neuropathy</span></strong> → <span class=\"wl\">diaphragmatic weakness</span></li><li>Other neurological causes of diaphragm weakness: <span class=\"wl\">amyotrophic lateral sclerosis</span> (ALS) · <span class=\"wl\">Guillain-Barré syndrome</span></li></ul>"
-      },
-      {
-       "t": "note",
-       "html": "<h5>3. Nutrition: deficiencies and excesses</h5>"
-      },
-      {
-       "t": "table",
-       "cols": [
-        "Nutrient",
-        "Neurological picture",
-        "Key point"
-       ],
-       "rows": [
-        [
-         "<strong>Thiamine (vitamin B1) deficiency</strong>",
-         "<span class=\"wl\">Wernicke's encephalopathy</span>: <strong>ataxia + eye-movement palsy (ophthalmoplegia) + confusion</strong> · <span class=\"wl\">dry beriberi</span> = sensorimotor peripheral neuropathy · <span class=\"wl\">wet beriberi</span> = heart failure, cardiomyopathy, edema (heart, not nerve)",
-         "<strong>Give thiamine before glucose</strong> in anyone whose nutrition is in doubt"
-        ],
-        [
-         "<strong><span class=\"wl\">Vitamin B12 deficiency</span></strong>",
-         "<strong>Subacute combined degeneration</strong> (<span class=\"wl\">funicular myelosis</span>): <strong>posterior and lateral columns</strong> of the cord · plus peripheral neuropathy and encephalopathy",
-         "The deficiency classically tied to neurological symptoms"
-        ],
-        [
-         "<strong>Copper deficiency</strong> (<span class=\"wl\">hypocupremia</span>)",
-         "<strong>Same cord picture as B12</strong>",
-         "Think of it after <strong>bariatric surgery</strong> (malabsorption)"
-        ],
-        [
-         "<strong>Vitamin B6 excess</strong> (<span class=\"wl\">vitamin B6 toxicity</span>)",
-         "Peripheral neuropathy",
-         "Too much, not too little"
-        ],
-        [
-         "<strong><span class=\"wl\">Refeeding syndrome</span></strong>",
-         "Encephalopathy, weakness, seizures, arrhythmias",
-         "After a long calorie deficit, <strong>refeed slowly and check electrolytes often</strong> (low sodium, calcium, magnesium, potassium)"
-        ]
-       ]
-      },
-      {
-       "t": "note",
-       "html": "<h5>4. Cardiology: strokes in more than one territory</h5>"
-      },
-      {
-       "t": "list",
-       "html": "<ul><li><strong>Multifocal deficits arriving step by step are almost always cardioembolic strokes</strong>: one or several clots from the heart spray into several brain arteries<ul><li>other multifocal causes: cerebral vasculitis · several tumours (metastases, <span class=\"wl\">primary central nervous system lymphoma</span>) · several abscesses · demyelination (<span class=\"wl\">multiple sclerosis</span>, acute disseminated encephalomyelitis)</li></ul></li><li><strong>Cardiac sources</strong>: <span class=\"wl\">atrial fibrillation</span> · <span class=\"wl\">endocarditis</span> (recall <span class=\"wl\">FROM JANE</span>) · cardiac tumours</li></ul>"
-      },
-      {
-       "t": "pathway",
-       "mermaid": "flowchart TD\n    A[\"Stepwise deficits in several brain territories\"] --> B[\"Think cardioembolic stroke\"]\n    B --> C{\"Signs of endocarditis?<br/>the FROM JANE features\"}\n    C -->|\"No\"| D[\"Look for atrial fibrillation or a cardiac tumour<br/>(upper-year notes: echocardiogram, heart-rhythm monitoring)\"]\n    C -->|\"Yes\"| E[\"Do NOT give tPA\"]\n    E --> F[\"Two sets of blood cultures<br/>Staph aureus #1 · streptococci · enterococci · HACEK\"]"
-      },
-      {
-       "t": "list",
-       "html": "<ul><li><strong>Endocarditis + stroke: no clot-busting drug</strong> (<span class=\"wl\">tissue plasminogen activator</span>, tPA) · upper-year notes: listen to the heart before giving tPA, because of the risk of <strong>infected (mycotic) aneurysms</strong></li><li><strong><span class=\"wl\">Staphylococcus aureus</span> is the #1 cause of endocarditis</strong> (31%)</li></ul>"
-      }
-     ]
-    },
-    {
-     "id": "neuro-w16-03",
-     "num": "03",
-     "name": "Autopsy Review",
-     "hasNote": true,
-     "title": "Autopsy review",
-     "keypoints": "<p>⭐ <strong>A medicolegal autopsy falls under the Coroner's Act, so the family cannot refuse it; a hospital autopsy needs informed authorization from the next of kin, who may restrict it.</strong> <strong>Part I runs backwards: each line is caused by the one below it; Part II holds contributors outside the chain.</strong> <strong>Never write a mechanism (\"cardiac arrest\", \"multisystem organ failure\", \"sepsis\") as the cause.</strong> <strong>Sudden and unexpected deaths are signed by the coroner, expected natural ones by the doctor.</strong></p>",
-     "blocks": [
-      {
-       "t": "note",
-       "html": "<p><strong>Two questions decide everything about a death:</strong> <strong>who has the authority</strong> (the family, or the coroner under the Coroner's Act), and <strong>what actually caused it</strong>, written as a chain of diseases, not as the way the body stopped.</p>"
-      },
-      {
-       "t": "note",
-       "html": "<h5>1. Two kinds of autopsy</h5>"
-      },
-      {
-       "t": "table",
-       "cols": [
-        "",
-        "<span class=\"wl\">Hospital autopsy</span>",
-        "<span class=\"wl\">Medicolegal autopsy</span>"
-       ],
-       "rows": [
-        [
-         "<strong>Done by</strong>",
-         "Hospital pathologist",
-         "<strong>Forensic pathologist</strong>"
-        ],
-        [
-         "<strong>Investigation</strong>",
-         "Medical",
-         "Medicolegal death investigation ± police"
-        ],
-        [
-         "<strong>Where the death happened</strong>",
-         "Hospital",
-         "Mostly outside hospital"
-        ],
-        [
-         "<strong>Kind of death</strong>",
-         "Natural (family request, teaching, quality assurance, genetics, research)",
-         "<strong>Falls under the Coroner's Act</strong>"
-        ],
-        [
-         "<strong>Who authorizes</strong>",
-         "<strong>Next of kin or estate trustee</strong>",
-         "<strong>The Coroner's Act - the family cannot refuse</strong>"
-        ]
-       ]
-      },
-      {
-       "t": "pathway",
-       "mermaid": "flowchart TD\n    A[\"A patient has died\"] --> B{\"Coroner's case?<br/>sudden and unexpected · unnatural (accident, suicide, homicide)<br/>family concerned about care · death on a psychiatry ward<br/>maternal death · seizure disorder<br/>child death with Children's Aid involvement\"}\n    B -->|\"Yes\"| C[\"Call the coroner<br/>Coroner or medical examiner signs the death certificate<br/>Medicolegal autopsy: family does NOT authorize\"]\n    B -->|\"No: expected natural death\"| D[\"Doctor (or certain nurses) signs the death certificate\"]\n    D --> E{\"Is a hospital autopsy wanted?\"}\n    E -->|\"Yes\"| F[\"Informed authorization from next of kin or estate trustee<br/>they may restrict it: limited internal exam, no organ retention\"]"
-      },
-      {
-       "t": "note",
-       "html": "<h5>2. The hospital autopsy</h5>"
-      },
-      {
-       "t": "list",
-       "html": "<ul><li><strong>Informed authorization</strong>: from the next of kin or estate trustee, who can <strong>limit</strong> it<ul><li>the pathologist may wish to <strong>keep organs</strong> for further study (most often <strong>brain and heart</strong>); the family can refuse</li></ul></li><li><strong>What it is for</strong><ul><li><strong>diagnose</strong> disease, its <strong>extent</strong>, and the <strong>effect of treatment</strong></li><li>check the <strong>accuracy of clinical tests</strong> · settle unanswered clinical questions · <strong>look for a suspected genetic disease</strong> (findings that matter to living relatives)</li><li>research and teaching · helps the <strong>family's grief</strong> · informs the death certificate</li></ul></li><li><strong>Steps</strong>: ① medical history (records, ambulance calls, clinicians) → ② <strong>external exam</strong> (nutrition, scars, tattoos) → ③ <strong>internal exam</strong> (Y-shaped incision, organs examined and weighed, brain) → ④ <strong>extra studies</strong> (histology, genetic testing, blood) → ⑤ <strong>synthesis of an opinion</strong> in the context of the case</li></ul>"
-      },
-      {
-       "t": "note",
-       "html": "<h5>3. The death certificate</h5>"
-      },
-      {
-       "t": "list",
-       "html": "<ul><li>A <strong>permanent record</strong> of what disease, injury or event led to the death · used for statistics, research, surveillance, funding and legal records</li><li>Contains identification · <strong>cause of death</strong> · <strong>manner of death</strong> · autopsy results if available · (a <strong>stillbirth uses a different form</strong>)</li><li><strong>Who signs</strong>: <strong>sudden and unexpected → coroner or medical examiner</strong> · <strong>expected natural → doctor or certain nurses</strong></li></ul>"
-      },
-      {
-       "t": "note",
-       "html": "<h5>4. Cause of death: the WHO format</h5>"
-      },
-      {
-       "t": "list",
-       "html": "<ul><li><strong>Cause of death</strong> = the disease or injury that ended life</li><li><strong>Part I</strong>: the chain of events, <strong>working backwards from the final condition</strong> - <strong>each line is caused by the line below it</strong> (1a ← 1b ← 1c, the last being the underlying cause)</li><li><strong>Part II</strong>: other conditions that <strong>contributed but are not in the chain</strong> (often risk factors)</li></ul>"
-      },
-      {
-       "t": "table",
-       "cols": [
-        "",
-        "Example 1",
-        "Example 2"
-       ],
-       "rows": [
-        [
-         "<strong>1a</strong> (immediate)",
-         "Hemopericardium",
-         "Upper gastrointestinal bleed"
-        ],
-        [
-         "<strong>1b</strong>",
-         "Ruptured myocardial infarct",
-         "Ruptured esophageal varix"
-        ],
-        [
-         "<strong>1c</strong> (underlying)",
-         "Coronary atherosclerosis and thrombosis",
-         "Alcoholic liver cirrhosis"
-        ],
-        [
-         "<strong>Part II</strong>",
-         "<span class=\"wl\">Diabetes mellitus</span>",
-         "Hemophilia"
-        ]
-       ]
-      },
-      {
-       "t": "list",
-       "html": "<ul><li><strong>Be specific</strong><ul><li><strong>infection</strong>: the disease and/or organism, and the site (COVID-19 pneumonia · <em>Haemophilus influenzae</em> meningoencephalitis)</li><li><strong>cancer</strong>: site of origin, site of spread, and type (pulmonary metastasis of colonic adenocarcinoma)</li></ul></li><li><strong>Leave out the mechanism of death</strong> - it adds nothing about the cause: <strong>cardiac arrest · arrhythmia · exsanguination · respiratory arrest · multisystem organ failure · sepsis</strong></li></ul>"
-      }
-     ]
-    },
-    {
-     "id": "neuro-w16-04",
-     "num": "04",
+     "id": "neuro-w15-09",
+     "num": "09",
      "name": "Hearing Loss",
      "hasNote": true,
      "title": "Hearing loss",
@@ -6116,8 +5663,8 @@
      ]
     },
     {
-     "id": "neuro-w16-05",
-     "num": "05",
+     "id": "neuro-w15-10",
+     "num": "10",
      "name": "Vertigo",
      "hasNote": true,
      "title": "Vertigo",
@@ -6370,6 +5917,459 @@
        "w": 900,
        "h": 900,
        "cap": "BPPV: otoconia, normally housed in the otolith organs, come loose and drift into the semicircular canals"
+      }
+     ]
+    },
+    {
+     "id": "neuro-w15-11",
+     "num": "11",
+     "name": "Integration of Medicine and Neurology",
+     "hasNote": true,
+     "title": "Integration of medicine and neurology",
+     "keypoints": "<p>⭐ <strong>Stepwise multifocal strokes = cardioembolic until proven otherwise, and if it is endocarditis, no tPA - get two sets of blood cultures.</strong> <strong>Wernicke triad: ataxia, ophthalmoplegia, confusion - thiamine before glucose.</strong> <strong>B12 and copper deficiency both damage the posterior and lateral columns.</strong> <strong>Paraneoplastic symptoms often precede the cancer diagnosis.</strong></p>",
+     "blocks": [
+      {
+       "t": "note",
+       "html": "<p><strong>The nervous system is often where a disease of another system shows itself.</strong> The lecture walks four systems in turn (cancer, breathing, nutrition, the heart) and asks for each: <strong>how does it reach the nerves, the cord or the brain?</strong></p>"
+      },
+      {
+       "t": "note",
+       "html": "<h5>1. Oncology: how cancer hurts the nervous system</h5>"
+      },
+      {
+       "t": "table",
+       "cols": [
+        "Mechanism",
+        "What happens",
+        "Examples"
+       ],
+       "rows": [
+        [
+         "<strong>Mass effect</strong>",
+         "Tumour or metastasis <strong>compresses</strong> a structure",
+         "Spinal cord → <span class=\"wl\">myelopathy</span> · nerve root → <span class=\"wl\">radiculopathy</span> · peripheral nerve → mononeuropathy"
+        ],
+        [
+         "<strong>Direct invasion</strong>",
+         "Tumour grows into nerve, cord or brain",
+         "Metastases to the central nervous system, commonly from <strong>breast and lung</strong>"
+        ],
+        [
+         "<strong>Immune-mediated, at a distance</strong> (paraneoplastic)",
+         "Antibodies made against the tumour attack nervous tissue",
+         "Limbic encephalitis · <span class=\"wl\">myasthenia gravis</span> (acetylcholine receptor) · cerebellitis · dermatomyositis"
+        ],
+        [
+         "<strong>Toxic effects of treatment</strong>",
+         "Chemotherapy, radiation, surgery",
+         "<span class=\"wl\">Chemotherapy neuropathy</span> · radiation <span class=\"wl\">encephalopathy</span> · post-mastectomy pain syndrome"
+        ],
+        [
+         "<strong>Immune checkpoint inhibitor autoimmunity</strong>",
+         "The drug releases the brake on T cells so they attack the tumour, <strong>and the body</strong>",
+         "<span class=\"wl\">Myositis</span> · <span class=\"wl\">myasthenia gravis</span>"
+        ]
+       ]
+      },
+      {
+       "t": "list",
+       "html": "<ul><li><strong>Paraneoplastic syndromes</strong> (upper-year notes): rare, and the <strong>neurologic symptoms often come weeks to months before the cancer is found</strong> → recognise the syndrome and <strong>search for the tumour</strong> (repeat the search if the first is negative) · best treatment is to treat the tumour</li><li><strong>Checkpoint inhibitor autoimmunity</strong>: talk to oncology about <strong>stopping the drug and/or giving steroids</strong>, knowing this may weaken the cancer treatment</li></ul>"
+      },
+      {
+       "t": "note",
+       "html": "<h5>2. Respirology: weak breathing from a nerve or muscle problem</h5>"
+      },
+      {
+       "t": "list",
+       "html": "<ul><li><strong>Lying down, the diaphragm does most of the work</strong> (it pushes the abdomen down) · <strong>upright, the intercostal muscles do most of it</strong></li><li><strong>Bilateral <span class=\"wl\">phrenic neuropathy</span></strong> → <span class=\"wl\">diaphragmatic weakness</span></li><li>Other neurological causes of diaphragm weakness: <span class=\"wl\">amyotrophic lateral sclerosis</span> (ALS) · <span class=\"wl\">Guillain-Barré syndrome</span></li></ul>"
+      },
+      {
+       "t": "note",
+       "html": "<h5>3. Nutrition: deficiencies and excesses</h5>"
+      },
+      {
+       "t": "table",
+       "cols": [
+        "Nutrient",
+        "Neurological picture",
+        "Key point"
+       ],
+       "rows": [
+        [
+         "<strong>Thiamine (vitamin B1) deficiency</strong>",
+         "<span class=\"wl\">Wernicke's encephalopathy</span>: <strong>ataxia + eye-movement palsy (ophthalmoplegia) + confusion</strong> · <span class=\"wl\">dry beriberi</span> = sensorimotor peripheral neuropathy · <span class=\"wl\">wet beriberi</span> = heart failure, cardiomyopathy, edema (heart, not nerve)",
+         "<strong>Give thiamine before glucose</strong> in anyone whose nutrition is in doubt"
+        ],
+        [
+         "<strong><span class=\"wl\">Vitamin B12 deficiency</span></strong>",
+         "<strong>Subacute combined degeneration</strong> (<span class=\"wl\">funicular myelosis</span>): <strong>posterior and lateral columns</strong> of the cord · plus peripheral neuropathy and encephalopathy",
+         "The deficiency classically tied to neurological symptoms"
+        ],
+        [
+         "<strong>Copper deficiency</strong> (<span class=\"wl\">hypocupremia</span>)",
+         "<strong>Same cord picture as B12</strong>",
+         "Think of it after <strong>bariatric surgery</strong> (malabsorption)"
+        ],
+        [
+         "<strong>Vitamin B6 excess</strong> (<span class=\"wl\">vitamin B6 toxicity</span>)",
+         "Peripheral neuropathy",
+         "Too much, not too little"
+        ],
+        [
+         "<strong><span class=\"wl\">Refeeding syndrome</span></strong>",
+         "Encephalopathy, weakness, seizures, arrhythmias",
+         "After a long calorie deficit, <strong>refeed slowly and check electrolytes often</strong> (low sodium, calcium, magnesium, potassium)"
+        ]
+       ]
+      },
+      {
+       "t": "note",
+       "html": "<h5>4. Cardiology: strokes in more than one territory</h5>"
+      },
+      {
+       "t": "list",
+       "html": "<ul><li><strong>Multifocal deficits arriving step by step are almost always cardioembolic strokes</strong>: one or several clots from the heart spray into several brain arteries<ul><li>other multifocal causes: cerebral vasculitis · several tumours (metastases, <span class=\"wl\">primary central nervous system lymphoma</span>) · several abscesses · demyelination (<span class=\"wl\">multiple sclerosis</span>, acute disseminated encephalomyelitis)</li></ul></li><li><strong>Cardiac sources</strong>: <span class=\"wl\">atrial fibrillation</span> · <span class=\"wl\">endocarditis</span> (recall <span class=\"wl\">FROM JANE</span>) · cardiac tumours</li></ul>"
+      },
+      {
+       "t": "pathway",
+       "mermaid": "flowchart TD\n    A[\"Stepwise deficits in several brain territories\"] --> B[\"Think cardioembolic stroke\"]\n    B --> C{\"Signs of endocarditis?<br/>the FROM JANE features\"}\n    C -->|\"No\"| D[\"Look for atrial fibrillation or a cardiac tumour<br/>(upper-year notes: echocardiogram, heart-rhythm monitoring)\"]\n    C -->|\"Yes\"| E[\"Do NOT give tPA\"]\n    E --> F[\"Two sets of blood cultures<br/>Staph aureus #1 · streptococci · enterococci · HACEK\"]"
+      },
+      {
+       "t": "list",
+       "html": "<ul><li><strong>Endocarditis + stroke: no clot-busting drug</strong> (<span class=\"wl\">tissue plasminogen activator</span>, tPA) · upper-year notes: listen to the heart before giving tPA, because of the risk of <strong>infected (mycotic) aneurysms</strong></li><li><strong><span class=\"wl\">Staphylococcus aureus</span> is the #1 cause of endocarditis</strong> (31%)</li></ul>"
+      }
+     ]
+    },
+    {
+     "id": "neuro-w15-in-class-approach-to-seizures",
+     "num": "—",
+     "name": "In-Class - Approach to Seizures",
+     "hasNote": true,
+     "inClass": true,
+     "title": "In-class: approach to seizures",
+     "keypoints": "<p>⭐ <strong>Seizure over syncope: unconscious for more than a minute, eyes turned to one side, side-of-tongue biting, and confusion lasting minutes to hours; a faint lasts under a minute with only brief confusion.</strong> <strong>Focal slowing or spikes on EEG mean MRI.</strong> <strong>Valproate is the worst teratogen; levetiracetam and lamotrigine are the safer choices, with folic acid.</strong> <strong>Never stop antiseizure drugs because of pregnancy.</strong> <strong>A posterior shoulder dislocation should make you think of a seizure.</strong></p>",
+     "blocks": [
+      {
+       "t": "note",
+       "html": "<p><strong>A case session built on the first-seizure approach (see the <span class=\"wl\">Week 14 approach to seizures chart</span> for the workup and when to treat).</strong> <strong>What it adds: telling a seizure from a faint, reading the EEG report, and choosing a drug for a young woman.</strong></p>"
+      },
+      {
+       "t": "note",
+       "html": "<h5>1. Seizure or syncope?</h5>"
+      },
+      {
+       "t": "list",
+       "html": "<ul><li><strong>Differential of a brief loss of consciousness</strong>: <strong>syncope</strong> (low brain perfusion, cardiac or blood pressure) · <strong>seizure</strong> · psychogenic · sudden <strong>raised intracranial pressure</strong> (acute hydrocephalus) · brainstem transient ischemic attack (rare)</li></ul>"
+      },
+      {
+       "t": "table",
+       "cols": [
+        "",
+        "<strong>Syncope</strong>",
+        "<strong>Seizure</strong>"
+       ],
+       "rows": [
+        [
+         "<strong>Warning</strong>",
+         "<strong>Lightheaded, nauseated, palpitations</strong>",
+         "Aura possible"
+        ],
+        [
+         "<strong>Length of unconsciousness</strong>",
+         "<strong>10-60 seconds</strong>",
+         "<strong>1 minute to several minutes</strong>"
+        ],
+        [
+         "<strong>Eyes</strong>",
+         "Open, may roll <strong>up</strong>",
+         "Open, may turn <strong>to one side</strong>"
+        ],
+        [
+         "<strong>Limb movements</strong>",
+         "None, tonic or clonic",
+         "None, tonic or clonic · <strong>may be asymmetric</strong>"
+        ],
+        [
+         "<strong>Afterwards</strong>",
+         "<strong>Brief confusion, up to 5 minutes</strong>",
+         "<strong>Confusion for minutes to hours</strong> · possible <strong><span class=\"wl\">Todd's paresis</span></strong>"
+        ],
+        [
+         "<strong>Incontinence</strong>",
+         "Rare",
+         "More common"
+        ],
+        [
+         "<strong>Tongue biting</strong>",
+         "None",
+         "<strong>Possible (side of the tongue)</strong>"
+        ]
+       ]
+      },
+      {
+       "t": "list",
+       "html": "<ul><li>Movements: <strong>clonic</strong> = shaking · <strong>tonic</strong> = stiff · <strong>myoclonic</strong> = jerks</li></ul>"
+      },
+      {
+       "t": "note",
+       "html": "<h5>2. History clues</h5>"
+      },
+      {
+       "t": "list",
+       "html": "<ul><li><strong>Earlier seizures</strong> → more likely a seizure</li><li><strong>Aura · asymmetric onset · deficit afterwards</strong> → <strong>focal seizure</strong></li><li><strong>Triggers</strong> (sleep loss, drugs or medications, head injury, illness, fever) → <strong>provoked vs unprovoked</strong></li><li><strong>Adults rarely present with a first <span class=\"wl\">generalized</span> seizure</strong> - they present with <strong><span class=\"wl\">focal</span></strong> ones · first generalized seizures are common in children</li><li><strong>Adult first seizure</strong>: electrolytes and CT head now, EEG and MRI as an outpatient (full workup in the Week 14 chart)</li></ul>"
+      },
+      {
+       "t": "note",
+       "html": "<h5>3. EEG and juvenile myoclonic epilepsy</h5>"
+      },
+      {
+       "t": "list",
+       "html": "<ul><li><strong>Focal slowing or focal spikes on the <span class=\"wl\">electroencephalogram (EEG)</span> = a focal lesion → MRI is required</strong> to look for cortical dysplasia, <strong><span class=\"wl\">mesial temporal sclerosis</span></strong>, tumour or old infarct</li><li><strong><span class=\"wl\">Juvenile myoclonic epilepsy</span></strong>: <strong>easily controlled</strong> - lifestyle (sleep, food, fluids) and low-dose drugs · a <strong>sleep-deprived EEG</strong> brings out the abnormality</li></ul>"
+      },
+      {
+       "t": "note",
+       "html": "<h5>4. Antiseizure drugs in young women</h5>"
+      },
+      {
+       "t": "list",
+       "html": "<ul><li><strong>Older <span class=\"wl\">antiseizure drugs</span> weaken <span class=\"wl\">oral contraceptives</span></strong> → check interactions</li><li><strong>Teratogens</strong>: always add <strong><span class=\"wl\">folic acid</span></strong> · avoid the worst drugs in anyone who could become pregnant</li></ul>"
+      },
+      {
+       "t": "table",
+       "cols": [
+        "<strong>Worst</strong>",
+        "<strong>Better options</strong>"
+       ],
+       "rows": [
+        [
+         "<strong><span class=\"wl\">Valproate</span> (highest malformation risk)</strong> · <span class=\"wl\">phenytoin</span> · <strong>several drugs together</strong>",
+         "<strong>Levetiracetam</strong> · <strong><span class=\"wl\">Lamotrigine</span></strong> · <span class=\"wl\">carbamazepine</span>"
+        ]
+       ]
+      },
+      {
+       "t": "list",
+       "html": "<ul><li>⚠ <strong>Do not stop antiseizure drugs for pregnancy</strong>: seizures risk <strong>fetal hypoxic injury</strong>, <strong>maternal <span class=\"wl\">status epilepticus</span></strong> and <strong><span class=\"wl\">sudden unexpected death in epilepsy (SUDEP)</span></strong></li></ul>"
+      },
+      {
+       "t": "note",
+       "html": "<h5>5. Complications of a seizure</h5>"
+      },
+      {
+       "t": "list",
+       "html": "<ul><li><strong>Posterior shoulder dislocation</strong> · injuries from falls · aspiration · <strong>status epilepticus</strong> (permanent brain injury) · <strong>SUDEP</strong></li></ul>"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": 16,
+   "label": "Week 16 - The Dying Patient & the Autopsy",
+   "lectures": [
+    {
+     "id": "neuro-w16-01",
+     "num": "01",
+     "name": "The Dying Patient and MAiD",
+     "hasNote": true,
+     "title": "The dying patient and medical assistance in dying (MAiD)",
+     "keypoints": "<p>⭐ <strong>Stream 2 (natural death not reasonably foreseeable) adds a 90-day wait, an expert physician, and forbids the waiver of final consent.</strong> <strong>Capacity is decision-specific and can fluctuate.</strong> <strong>Advance care planning wishes are not consent; code status is not goals of care.</strong> <strong>The SDM order starts with a court guardian and a Power of Attorney for Personal Care, then spouse, child, parent, sibling.</strong> <strong>A conscientious objector must still make an effective referral.</strong></p>",
+     "blocks": [
+      {
+       "t": "note",
+       "html": "<p><strong>Two questions run through the lecture:</strong> who gets to decide when the patient cannot (<strong>capacity → substitute decision maker</strong>), and, when the patient can and asks to die, <strong>are they eligible for MAiD and have the safeguards been met?</strong></p>"
+      },
+      {
+       "t": "note",
+       "html": "<h5>1. Capacity and the substitute decision maker</h5>"
+      },
+      {
+       "t": "list",
+       "html": "<ul><li><strong>Capacity</strong> has two parts<ul><li>① can <strong>understand</strong> the information relevant to the decision</li><li>② can <strong>appreciate the reasonably foreseeable consequences</strong> of deciding (or not deciding)</li><li><strong>specific to the decision</strong> (may be capable about meals but not about treatment) · <strong>can fluctuate</strong> over time</li></ul></li><li><strong>Substitute decision maker (SDM)</strong>: gives or refuses consent for an incapable patient, taken <strong>in this order</strong><ul><li>① court-appointed guardian · ② attorney under a <strong>Power of Attorney for Personal Care</strong> (not the one for property) · ③ representative appointed by the Consent and Capacity Board</li><li>④ spouse or partner · ⑤ child over 16 · ⑥ parent · ⑦ sibling · ⑧ any other relative · ⑨ the Public Guardian and Trustee</li></ul></li></ul>"
+      },
+      {
+       "t": "note",
+       "html": "<h5>2. Code status, goals of care, advance care planning</h5>"
+      },
+      {
+       "t": "table",
+       "cols": [
+        "",
+        "What it is",
+        "Key point"
+       ],
+       "rows": [
+        [
+         "<strong>Code status</strong>",
+         "Which resuscitation (if any) to give if the heart or breathing stops",
+         "Needs informed consent from the patient or SDM"
+        ],
+        [
+         "<strong>Goals of care</strong>",
+         "A conversation about who the patient is, their values, and how those fit the clinical picture and treatment options",
+         "<strong>Code status is not the same as goals of care</strong>"
+        ],
+        [
+         "<strong>Advance care planning</strong>",
+         "Wishes voiced ahead of time to guide a future SDM",
+         "<strong>Wishes, not decisions - not \"advance consent\"</strong> (the future is speculation)"
+        ]
+       ]
+      },
+      {
+       "t": "note",
+       "html": "<h5>3. Palliative care</h5>"
+      },
+      {
+       "t": "list",
+       "html": "<ul><li><strong>Definition</strong>: an approach that <strong>improves quality of life</strong> for patients and families facing life-threatening illness, by early identification, assessment and treatment of pain and other problems: <strong>physical, psychological, spiritual</strong><ul><li>also practical needs · dignity and comfort · bereavement counselling</li><li>most people would prefer to <strong>die at home</strong>, so it must be available in the community</li></ul></li><li><strong>Tools</strong><ul><li><span class=\"wl\">Palliative Performance Scale</span> (version 2): disease burden and progress toward end of life (the most used)</li><li><span class=\"wl\">Edmonton Symptom Assessment System</span>: screens for symptoms palliative care can manage</li></ul></li><li><strong>Routes in</strong>: the patient opts in · the physician judges treatment futile or too burdensome and suggests it · <strong>alongside active treatment</strong> for hard-to-control symptoms · after a <strong>severe irreversible disability</strong> (e.g. a stroke: choose comfort, no tube feeds or intravenous fluids)</li></ul>"
+      },
+      {
+       "t": "note",
+       "html": "<h5>4. Caring for the patient and family at the end</h5>"
+      },
+      {
+       "t": "list",
+       "html": "<ul><li><strong>Patient- and family-centred</strong>: speak to the patient <strong>even if comatose</strong> · look after the family's needs (rest, self-care) · answer questions honestly</li><li><strong>Uncertainty</strong>: outcomes fall on a spectrum; a family told to expect the worst may be angry when the patient does better</li><li><strong>Temporary improvement</strong> after stopping feeds, medications or fluids (hours to days) is <strong>common</strong>: reassure, use the time together, re-evaluate only if it lasts many days</li><li><strong>Moral distress</strong> when a family's choice clashes with your values: <strong>\"it is not my journey\"</strong> · trust the SDM to choose as the patient would</li><li><strong>Myths to answer</strong><ul><li><strong>not starving to death</strong>: organs shut down together, no hunger or thirst · offer sips and tastes if wanted</li><li><strong>turning the patient does not hasten death</strong>: it relieves pressure and lets staff check signs such as <strong>mottling</strong> (call the family)</li><li>patients often <strong>die as they lived</strong> (alone, or once the family has gathered) · give the family permission to step away</li></ul></li></ul>"
+      },
+      {
+       "t": "note",
+       "html": "<h5>5. Medical assistance in dying (MAiD)</h5>"
+      },
+      {
+       "t": "list",
+       "html": "<ul><li><strong>Legal in Canada since 2016</strong> · since 2021 <strong>two streams</strong>: ① <strong>natural death reasonably foreseeable</strong> · ② <strong>natural death not reasonably foreseeable</strong></li><li><strong>Eligibility</strong>: eligible for publicly funded health care (Ontario Health Insurance Plan, OHIP) · <strong>18 or older and capable</strong> · a <strong>grievous and irremediable medical condition</strong> · a <strong>voluntary request, free of coercion</strong> · <strong>informed consent</strong></li><li><strong>Safeguards (both streams)</strong>: written request <strong>witnessed by an independent person</strong> · <strong>two independent physicians</strong> confirm eligibility · consent again at the time of MAiD (stream 1 can waive this in advance)</li></ul>"
+      },
+      {
+       "t": "pathway",
+       "mermaid": "flowchart TD\n    A[\"Patient asks for MAiD\"] --> B{\"Eligible?<br/>publicly funded health care · 18 or older and capable<br/>grievous and irremediable condition<br/>voluntary request · informed consent\"}\n    B -->|\"Any no\"| X[\"Not eligible\"]\n    B -->|\"All yes\"| C[\"Written request, witnessed by an independent person\"]\n    C --> D[\"Two independent physicians confirm eligibility\"]\n    D --> E{\"Is natural death reasonably foreseeable?\"}\n    E -->|\"Yes: stream 1\"| F[\"Consent again at the time of MAiD<br/>OR a waiver of final consent signed in advance\"]\n    E -->|\"No: stream 2\"| G[\"One physician has expertise in the condition<br/>and has discussed all treatment options<br/>90-day waiting period<br/>NO waiver of final consent\"]\n    G --> H[\"Consent again at the time of MAiD\"]\n    F --> I[\"MAiD provided · in Ontario, reported to the coroner\"]\n    H --> I"
+      },
+      {
+       "t": "list",
+       "html": "<ul><li><strong>Practical points</strong><ul><li><strong>where</strong>: home, long-term care or hospital</li><li><strong>organ donation</strong> is still possible afterwards (usually in hospital)</li><li><strong>method</strong>: mostly intravenous <strong><span class=\"wl\">benzodiazepine</span> + high-dose propofol + a neuromuscular blocker</strong>, infused over 10 min, death within about 10 min · an oral lethal prescription is possible but rare</li><li><strong>reporting</strong>: to the coroner (Ontario)</li></ul></li></ul>"
+      },
+      {
+       "t": "note",
+       "html": "<h5>6. Conscientious objection</h5>"
+      },
+      {
+       "t": "list",
+       "html": "<ul><li>A physician <strong>need not provide MAiD</strong>, but the patient keeps the right to access it, so the physician must:<ul><li>act in a way that <strong>respects dignity and does not impede access</strong></li><li>tell the patient directly and sensitively that the reason is <strong>personal, not clinical</strong></li><li>make a <strong>timely effective referral</strong>, so delay does not harm the patient</li></ul></li></ul>"
+      }
+     ]
+    },
+    {
+     "id": "neuro-w16-02",
+     "num": "02",
+     "name": "Autopsy Review",
+     "hasNote": true,
+     "title": "Autopsy review",
+     "keypoints": "<p>⭐ <strong>A medicolegal autopsy falls under the Coroner's Act, so the family cannot refuse it; a hospital autopsy needs informed authorization from the next of kin, who may restrict it.</strong> <strong>Part I runs backwards: each line is caused by the one below it; Part II holds contributors outside the chain.</strong> <strong>Never write a mechanism (\"cardiac arrest\", \"multisystem organ failure\", \"sepsis\") as the cause.</strong> <strong>Sudden and unexpected deaths are signed by the coroner, expected natural ones by the doctor.</strong></p>",
+     "blocks": [
+      {
+       "t": "note",
+       "html": "<p><strong>Two questions decide everything about a death:</strong> <strong>who has the authority</strong> (the family, or the coroner under the Coroner's Act), and <strong>what actually caused it</strong>, written as a chain of diseases, not as the way the body stopped.</p>"
+      },
+      {
+       "t": "note",
+       "html": "<h5>1. Two kinds of autopsy</h5>"
+      },
+      {
+       "t": "table",
+       "cols": [
+        "",
+        "<span class=\"wl\">Hospital autopsy</span>",
+        "<span class=\"wl\">Medicolegal autopsy</span>"
+       ],
+       "rows": [
+        [
+         "<strong>Done by</strong>",
+         "Hospital pathologist",
+         "<strong>Forensic pathologist</strong>"
+        ],
+        [
+         "<strong>Investigation</strong>",
+         "Medical",
+         "Medicolegal death investigation ± police"
+        ],
+        [
+         "<strong>Where the death happened</strong>",
+         "Hospital",
+         "Mostly outside hospital"
+        ],
+        [
+         "<strong>Kind of death</strong>",
+         "Natural (family request, teaching, quality assurance, genetics, research)",
+         "<strong>Falls under the Coroner's Act</strong>"
+        ],
+        [
+         "<strong>Who authorizes</strong>",
+         "<strong>Next of kin or estate trustee</strong>",
+         "<strong>The Coroner's Act - the family cannot refuse</strong>"
+        ]
+       ]
+      },
+      {
+       "t": "pathway",
+       "mermaid": "flowchart TD\n    A[\"A patient has died\"] --> B{\"Coroner's case?<br/>sudden and unexpected · unnatural (accident, suicide, homicide)<br/>family concerned about care · death on a psychiatry ward<br/>maternal death · seizure disorder<br/>child death with Children's Aid involvement\"}\n    B -->|\"Yes\"| C[\"Call the coroner<br/>Coroner or medical examiner signs the death certificate<br/>Medicolegal autopsy: family does NOT authorize\"]\n    B -->|\"No: expected natural death\"| D[\"Doctor (or certain nurses) signs the death certificate\"]\n    D --> E{\"Is a hospital autopsy wanted?\"}\n    E -->|\"Yes\"| F[\"Informed authorization from next of kin or estate trustee<br/>they may restrict it: limited internal exam, no organ retention\"]"
+      },
+      {
+       "t": "note",
+       "html": "<h5>2. The hospital autopsy</h5>"
+      },
+      {
+       "t": "list",
+       "html": "<ul><li><strong>Informed authorization</strong>: from the next of kin or estate trustee, who can <strong>limit</strong> it<ul><li>the pathologist may wish to <strong>keep organs</strong> for further study (most often <strong>brain and heart</strong>); the family can refuse</li></ul></li><li><strong>What it is for</strong><ul><li><strong>diagnose</strong> disease, its <strong>extent</strong>, and the <strong>effect of treatment</strong></li><li>check the <strong>accuracy of clinical tests</strong> · settle unanswered clinical questions · <strong>look for a suspected genetic disease</strong> (findings that matter to living relatives)</li><li>research and teaching · helps the <strong>family's grief</strong> · informs the death certificate</li></ul></li><li><strong>Steps</strong>: ① medical history (records, ambulance calls, clinicians) → ② <strong>external exam</strong> (nutrition, scars, tattoos) → ③ <strong>internal exam</strong> (Y-shaped incision, organs examined and weighed, brain) → ④ <strong>extra studies</strong> (histology, genetic testing, blood) → ⑤ <strong>synthesis of an opinion</strong> in the context of the case</li></ul>"
+      },
+      {
+       "t": "note",
+       "html": "<h5>3. The death certificate</h5>"
+      },
+      {
+       "t": "list",
+       "html": "<ul><li>A <strong>permanent record</strong> of what disease, injury or event led to the death · used for statistics, research, surveillance, funding and legal records</li><li>Contains identification · <strong>cause of death</strong> · <strong>manner of death</strong> · autopsy results if available · (a <strong>stillbirth uses a different form</strong>)</li><li><strong>Who signs</strong>: <strong>sudden and unexpected → coroner or medical examiner</strong> · <strong>expected natural → doctor or certain nurses</strong></li></ul>"
+      },
+      {
+       "t": "note",
+       "html": "<h5>4. Cause of death: the WHO format</h5>"
+      },
+      {
+       "t": "list",
+       "html": "<ul><li><strong>Cause of death</strong> = the disease or injury that ended life</li><li><strong>Part I</strong>: the chain of events, <strong>working backwards from the final condition</strong> - <strong>each line is caused by the line below it</strong> (1a ← 1b ← 1c, the last being the underlying cause)</li><li><strong>Part II</strong>: other conditions that <strong>contributed but are not in the chain</strong> (often risk factors)</li></ul>"
+      },
+      {
+       "t": "table",
+       "cols": [
+        "",
+        "Example 1",
+        "Example 2"
+       ],
+       "rows": [
+        [
+         "<strong>1a</strong> (immediate)",
+         "Hemopericardium",
+         "Upper gastrointestinal bleed"
+        ],
+        [
+         "<strong>1b</strong>",
+         "Ruptured myocardial infarct",
+         "Ruptured esophageal varix"
+        ],
+        [
+         "<strong>1c</strong> (underlying)",
+         "Coronary atherosclerosis and thrombosis",
+         "Alcoholic liver cirrhosis"
+        ],
+        [
+         "<strong>Part II</strong>",
+         "<span class=\"wl\">Diabetes mellitus</span>",
+         "Hemophilia"
+        ]
+       ]
+      },
+      {
+       "t": "list",
+       "html": "<ul><li><strong>Be specific</strong><ul><li><strong>infection</strong>: the disease and/or organism, and the site (COVID-19 pneumonia · <em>Haemophilus influenzae</em> meningoencephalitis)</li><li><strong>cancer</strong>: site of origin, site of spread, and type (pulmonary metastasis of colonic adenocarcinoma)</li></ul></li><li><strong>Leave out the mechanism of death</strong> - it adds nothing about the cause: <strong>cardiac arrest · arrhythmia · exsanguination · respiratory arrest · multisystem organ failure · sepsis</strong></li></ul>"
       }
      ]
     }

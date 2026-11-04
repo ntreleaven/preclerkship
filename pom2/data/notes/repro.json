@@ -3318,163 +3318,6 @@
        "html": "<ul><li><strong>Constipation</strong>: 36-44% in the 2nd and 3rd trimester · progesterone slows the gut (weaker colonic smooth muscle, less motilin) · also less activity, oral iron and prenatal vitamins<ul><li><mark class=\"lo\">hydration, fibre, exercise, bulk-forming laxatives → then <strong>magnesium hydroxide</strong> (safe in pregnancy)</mark></li></ul></li><li><strong>Urinary frequency and nocturia</strong>: about 90%, normal (more urine, bladder changes)</li><li><mark class=\"lo\"><strong>Every pregnancy gets a routine midstream urine (MSU) for <span class=\"wl\">asymptomatic bacteriuria</span></strong></mark> (2-7% have it)<ul><li><mark class=\"lo\">untreated, it is linked to <strong>preterm birth, low birth weight and neonatal death</strong></mark></li><li>UTI symptoms beyond frequency: dysuria · urgency · blood in the urine</li></ul></li></ul>"
       }
      ]
-    },
-    {
-     "id": "repro-w4-in-class-amenorrhea",
-     "num": "—",
-     "name": "In-Class - Amenorrhea",
-     "hasNote": true,
-     "inClass": true,
-     "title": "Approach to Amenorrhea",
-     "framing": "<p><strong>Amenorrhea is a compartment problem</strong> — the block sits in the <strong>outflow tract, the ovary, the pituitary or the hypothalamus</strong> — and <strong>two numbers sort it</strong>: the <strong><span class=\"wl\">beta hCG</span> first, always</strong>, then <span class=\"wl\">follicle-stimulating hormone (FSH)</span>, which says whether the pituitary is <strong>shouting at a dead ovary (high FSH)</strong> or <strong>not shouting at all (low FSH)</strong>.</p>",
-     "keypoints": "<p>⭐ <strong>rule out pregnancy first, before any other test and whatever the story sounds like.</strong> <strong>High FSH means the ovary has failed; low FSH means the problem is above it</strong> - that one number splits the differential, and <strong>a normal FSH with normal prolactin and TSH points at anovulation, which is where PMOS lives.</strong> <strong>Turner is the commonest primary cause (27%); PMOS, the new name for PCOS, is the commonest secondary cause (28%)</strong> - and pregnancy is ruled out before either. <strong>A progesterone withdrawal bleed proves estrogen and a patent outflow tract.</strong> <strong>Pubarche and testosterone split MRKH (46,XX) from androgen insensitivity (46,XY).</strong></p>",
-     "blocks": [
-      {
-       "t": "figure",
-       "src": "assets/figures/830d7d1c3f88.svg",
-       "alt": "amenorrhea overview.svg",
-       "w": 1448,
-       "h": 1844,
-       "interactive": "charts/repro-w4-in-class-amenorrhea_2/"
-      },
-      {
-       "t": "note",
-       "html": "<h5>1. Primary and secondary amenorrhea</h5>"
-      },
-      {
-       "t": "list",
-       "html": "<ul><li><strong><span class=\"wl\">Primary</span></strong> = no menses ever<ul><li><mark class=\"lo\"><strong>no menses by 15</strong> with secondary sex characteristics, or <strong>none within 3 years of thelarche</strong> (breast development)</mark> · <mark class=\"lo\"><strong>no menses and no secondary sex characteristics by 13</strong></mark> is abnormal too</li><li>top 3: <mark class=\"lo\"><strong>gonadal dysgenesis 45,X (<span class=\"wl\">Turner syndrome</span>) 27%</strong> · Mullerian agenesis (Mayer-Rokitansky-Kuster-Hauser syndrome) 15% · constitutional delay 14%</mark></li></ul></li><li><strong><span class=\"wl\">Secondary</span></strong> = cessation of menses: <mark class=\"lo\"><strong>no menses for 3 months, or fewer than 9 cycles a year</strong></mark><ul><li>top 3: <mark class=\"lo\"><strong>polyendocrine metabolic ovarian syndrome (PMOS), previously polycystic ovary syndrome (PCOS), 28%</strong> · hypothalamic (eating disorder, stress, exercise) 15% · hyperprolactinemia 10%</mark></li><li><strong>pregnancy</strong> is the first thing to rule out, every time (the Child Health reading also calls it the commonest cause of secondary amenorrhea)</li><li>⚠ the PMOS name is new this year: the lecture says PMOS, older notes and questions say PCOS, and they are the same syndrome (<span class=\"wl\">10 - Polyendocrine Metabolic Ovarian Syndrome (PMOS)</span>)</li></ul></li><li>⚠ <strong>The workbook keys primary amenorrhea as \"no periods by 16\"</strong>; the lecture uses 13 and 15 — answer to the source in front of you</li></ul>"
-      },
-      {
-       "t": "note",
-       "html": "<h5>2. The compartments, side by side</h5>"
-      },
-      {
-       "t": "figure",
-       "src": "assets/figures/d3416e85676a.jpg",
-       "alt": "amenorrhea compartments - hypothalamus pituitary ovary uterus outflow tract - upper-year notes.jpg",
-       "w": 701,
-       "h": 462,
-       "cap": "The five compartments - hypothalamic, pituitary, ovarian, uterine, outflow tract - with the feedback questions for the top three and the anatomic questions for the bottom three"
-      },
-      {
-       "t": "list",
-       "html": "<ul><li>The lecture splits causes into <strong>anatomic</strong> (is the uterus, cervix, vagina and introitus present and patent?) and <strong>hormonal</strong> (hypothalamus, anterior pituitary, ovary, other)</li><li><mark class=\"lo\">Sort the hormonal ones by <strong>luteinizing hormone (LH) / FSH and estrogen</strong></mark>: <mark class=\"lo\"><strong>hypergonadotropic</strong> = high LH/FSH, low estrogen, the ovary</mark> · <mark class=\"lo\"><strong>hypogonadotropic</strong> = low LH/FSH, low estrogen, hypothalamus or pituitary</mark> · <mark class=\"lo\"><strong>eugonadotropic</strong> = both normal, causes varied</mark></li><li>Each column below is one place the block can sit:</li></ul>"
-      },
-      {
-       "t": "table",
-       "cols": [
-        "",
-        "<u>Outflow tract</u> — anatomic",
-        "<u>Ovarian</u> — <span class=\"wl\">hypergonadotropic</span>",
-        "<u>Pituitary</u>",
-        "<u>Hypothalamic</u> — <span class=\"wl\">hypogonadotropic</span>",
-        "<u>Eugonadotropic</u> — anovulation"
-       ],
-       "rows": [
-        [
-         "<strong><span class=\"wl\">FSH</span> / <span class=\"wl\">luteinizing hormone</span></strong>",
-         "<strong>Normal</strong>",
-         "<strong>HIGH</strong>",
-         "Low or inappropriately normal",
-         "<strong>LOW</strong>",
-         "<strong>Normal</strong>"
-        ],
-        [
-         "<strong><span class=\"wl\">estrogen</span></strong>",
-         "<strong>Normal</strong>",
-         "Low",
-         "Low",
-         "Low",
-         "<strong>Normal</strong> - and unopposed"
-        ],
-        [
-         "<strong>The lesion</strong>",
-         "Blood is made but <strong>cannot get out</strong>",
-         "<strong>No follicles left to answer</strong> the gonadotropins",
-         "Gonadotrophs crushed, destroyed or suppressed",
-         "<strong>Gonadotropin-releasing hormone pulses stop</strong>",
-         "<strong>No ovulation → no <span class=\"wl\">progesterone</span> → no withdrawal bleed</strong>"
-        ],
-        [
-         "<strong>Primary causes</strong>",
-         "<strong><span class=\"wl\">imperforate hymen</span></strong> - commonest outflow anomaly · <strong><span class=\"wl\">Mayer-Rokitansky-Kuster-Hauser syndrome (MRKH)</span> (15%)</strong> · <span class=\"wl\">transverse vaginal septum</span> · <span class=\"wl\">androgen insensitivity syndrome (AIS)</span>",
-         "<strong><span class=\"wl\">Turner syndrome</span> (27%)</strong> · <span class=\"wl\">gonadal dysgenesis</span> (<span class=\"wl\">XX</span> or <span class=\"wl\">XY</span>)",
-         "Congenital hypopituitarism · tumour, irradiation",
-         "<strong><span class=\"wl\">Constitutional delay</span> (14%)</strong> · <span class=\"wl\">Kallmann syndrome</span> (<strong>anosmia</strong>)",
-         "<span class=\"wl\">PMOS (previously PCOS)</span> - 7% of primary"
-        ],
-        [
-         "<strong>Secondary causes</strong>",
-         "<strong><span class=\"wl\">Asherman syndrome</span></strong> - after curettage · <span class=\"wl\">cervical stenosis</span>",
-         "<span class=\"wl\">primary ovarian insufficiency (POI)</span> <strong>before 40</strong> · <strong>autoimmune (40%)</strong> · chemotherapy, radiation, surgery",
-         "<strong><span class=\"wl\">hyperprolactinemia</span> (10%)</strong>, commonest from a <span class=\"wl\">prolactinoma</span> · <strong><span class=\"wl\">Sheehan's syndrome</span></strong>",
-         "<strong><span class=\"wl\">Functional</span> (15%)</strong> - eating disorder, exercise, stress",
-         "<strong><span class=\"wl\">PMOS</span> (28%)</strong> · late-onset <span class=\"wl\">congenital adrenal hyperplasia</span> · estrogen- or androgen-producing ovarian tumour · <span class=\"wl\">thyroid disease</span>"
-        ],
-        [
-         "<strong>Clues</strong>",
-         "<strong>Cyclical pain with no bleeding</strong>, a midline mass, a <strong>purplish bulge at the introitus (<span class=\"wl\">hematocolpos</span>)</strong>; trapped blood → soft enlarged uterus (<span class=\"wl\">hematometra</span>)",
-         "Vasomotor symptoms; <strong>short stature, webbed neck, shield chest</strong>",
-         "<strong><span class=\"wl\">Galactorrhoea</span></strong>, headache, <strong>bitemporal field loss</strong>; <strong>failure to lactate after postpartum hemorrhage</strong>",
-         "<strong>Low <span class=\"wl\">BMI</span></strong>, athlete, recent stressor; <strong>anosmia</strong>",
-         "<strong><span class=\"wl\">hirsutism</span>, acne, obesity</strong>; cycles <strong>irregular rather than absent</strong>"
-        ],
-        [
-         "<strong>Next test</strong>",
-         "Ultrasound and bimanual for a uterus (<strong>MRI is the gold standard for a septum</strong>); then <strong>pubarche and <span class=\"wl\">testosterone</span> split <span class=\"wl\">MRKH</span> (46,XX, female range, hair present) from <span class=\"wl\">AIS</span> (46,XY, male range, hair absent)</strong>",
-         "<strong>Karyotype</strong>",
-         "<strong><span class=\"wl\">Prolactin</span>, then MRI sella</strong>",
-         "<strong>MRI only once functional causes are excluded</strong>",
-         "<strong><span class=\"wl\">Testosterone</span>, <span class=\"wl\">dehydroepiandrosterone sulfate</span>, <span class=\"wl\">17-hydroxyprogesterone</span></strong>"
-        ],
-        [
-         "<strong>Treatment</strong>",
-         "Surgery to relieve the obstruction, cervical dilation, hysteroscopic adhesiolysis; <strong>excise the gonads in AIS - malignancy risk</strong>",
-         "<strong>Estrogen replacement to protect bone</strong> (plus progesterone if there is a uterus); <strong>in vitro fertilization (IVF) with a donor oocyte</strong>, since POI cannot be reversed; <strong>remove a streak gonad if a Y chromosome is present</strong>",
-         "<strong><span class=\"wl\">Dopamine agonist</span> (<span class=\"wl\">bromocriptine</span>, <span class=\"wl\">cabergoline</span>) first</strong>; surgery for a macroadenoma with secondary deficits; <span class=\"wl\">levothyroxine</span> if hypothyroid",
-         "<strong>Behaviour change, psychiatric support, restore energy availability</strong>; <strong>estrogen replacement for bone, started promptly</strong>; fertility: gonadotropins or pulsatile gonadotropin-releasing hormone (GnRH)",
-         "<strong>Protect the endometrium: <span class=\"wl\">combined hormonal contraceptive</span> or a progestin (cyclic, intrauterine device, depot)</strong>; <span class=\"wl\">metformin</span> if glucose intolerant; <span class=\"wl\">spironolactone</span> for hyperandrogenism"
-        ]
-       ]
-      },
-      {
-       "t": "figure",
-       "src": "assets/figures/a304adf3d5ba.jpg",
-       "alt": "Sheehan's syndrome visual map - Creative Med Doses.png",
-       "w": 900,
-       "h": 636,
-       "cap": "Sheehan's syndrome: postpartum hemorrhage → hypovolemic shock → ischemic necrosis of the enlarged pregnant pituitary → no lactation (earliest sign), then secondary amenorrhea and hypopituitarism. Visual map ©2019 Priyanga Singh, Creative Med Doses"
-      },
-      {
-       "t": "note",
-       "html": "<h5>3. Why thyroid and prolactin share a branch</h5>"
-      },
-      {
-       "t": "list",
-       "html": "<ul><li>↓ thyroxine → <strong>↑ thyrotropin-releasing hormone (TRH)</strong> → ↑ thyroid-stimulating hormone (TSH) <strong>and ↑ <span class=\"wl\">prolactin</span></strong> → <strong>compensatory ↑ dopamine</strong> (dopamine is the main brake on prolactin) → <strong>dopamine alters gonadotropin-releasing hormone (GnRH) secretion</strong> → anovulation</li><li><strong>Primary</strong> hyperprolactinemia = a prolactinoma · <strong>secondary</strong> = raised TRH from hypothyroidism</li><li><span class=\"wl\">hyperprolactinemia</span> is present in <strong>10% of amenorrhoeic women and 50% of those with galactorrhoea</strong><ul><li><strong>a prolactin-secreting adenoma is the commonest cause</strong>; then ask about drugs and herbs that cause galactorrhea, <strong>antipsychotics most often</strong></li></ul></li><li>Hypothyroidism → amenorrhea · hyperthyroidism → heavy periods (menorrhagia), possibly amenorrhea</li></ul>"
-      },
-      {
-       "t": "note",
-       "html": "<h5>4. The approach</h5>"
-      },
-      {
-       "t": "figure",
-       "src": "assets/figures/9e8f2ddcc6a0.jpg",
-       "alt": "Approach to Amenorrhea.png",
-       "w": 2400,
-       "h": 950,
-       "cap": "The full lab-based approach, from the beta human chorionic gonadotropin (beta hCG) down"
-      },
-      {
-       "t": "list",
-       "html": "<ul><li><strong>Rule out pregnancy first</strong>, then check for a uterus, then prolactin and TSH, then FSH:</li></ul>"
-      },
-      {
-       "t": "list",
-       "html": "<ul><li><strong>History</strong><ul><li><strong>ever bled? abdominal or pelvic pain?</strong> (primary) · age of menarche, last period, regularity, duration, flow, pain (secondary) · <strong>weight change, exercise load, stressors, eating pattern</strong> · galactorrhoea, headache, visual change, anosmia · hirsutism</li><li>heat or cold intolerance, palpitations (thyroid) · <strong>postpartum haemorrhage</strong> · <strong>instrumentation (dilation and curettage, ablation)</strong>, chemotherapy or radiation · ⚠ <span class=\"wl\">antipsychotics</span> and other dopamine antagonists, <span class=\"wl\">contraceptives</span></li></ul></li><li><strong>Physical exam</strong><ul><li><mark class=\"lo\"><strong>plot the growth chart</strong>: <strong>overweight and not growing → endocrinopathy (hypothyroidism, Cushing syndrome)</strong> · <strong>underweight → a calorie deficit (eating disorder, inflammatory bowel disease, celiac disease)</strong></mark></li><li><strong>height, weight, blood pressure</strong> and <span class=\"wl\">BMI</span> · syndromic features · acne, hirsutism · thyroid exam · Tanner staging, <strong>pubic hair</strong> · <strong>visual fields</strong> · breast and expressed galactorrhoea</li><li><strong>speculum and <span class=\"wl\">bimanual pelvic exam</span> for a cervix, a uterus, a septum or an imperforate hymen</strong>; is the hymen patent, and how deep is the vagina?</li></ul></li><li><strong>Investigations</strong><ul><li><mark class=\"lo\"><strong><span class=\"wl\">beta hCG</span> before anything else</strong></mark> · <mark class=\"lo\"><span class=\"wl\">serum FSH</span> / <span class=\"wl\">serum luteinizing hormone</span> and <span class=\"wl\">estradiol</span> · <span class=\"wl\">serum prolactin</span> · <span class=\"wl\">serum TSH</span></mark> and <span class=\"wl\">free thyroxine</span> · androgens (PMOS, androgen-secreting tumours) · <span class=\"wl\">17-hydroxyprogesterone</span> (congenital adrenal hyperplasia) · pelvic ultrasound ± MRI for structure</li><li><strong>karyotype when FSH is high</strong>, autoimmune testing as the story directs · ⚠ <strong>MRI is not first line</strong>: MRI head only if a pituitary adenoma is suspected</li></ul></li><li><strong><span class=\"wl\">Progesterone withdrawal (challenge) test</span></strong>: oral progesterone for <strong>10-14 days</strong>, then stop<ul><li><mark class=\"lo\"><strong>withdrawal bleed = adequate estrogen and a patent outflow tract</strong></mark></li><li><mark class=\"lo\"><strong>no bleed = too little estrogen OR an anatomic block</strong></mark></li></ul></li><li><strong>Treatment</strong> depends on the cause <strong>and on her goals</strong> (pregnancy, acne or hirsutism, a functional vagina)<ul><li><mark class=\"lo\"><strong>obstruction → surgery</strong> · <strong>hypothyroid → thyroid hormone</strong> · <strong>hyperprolactinemia → dopamine agonist</strong> · <strong>PMOS → protect the endometrium</strong></mark></li><li><mark class=\"lo\"><strong>infertility</strong>: fix the reversible (prolactin, thyroid, anatomy) · <strong>POI → IVF with a donor oocyte</strong> · hypogonadotropic → gonadotropins (more common) or pulsatile GnRH · PMOS → ovulatory assistance, IVF</mark></li></ul></li><li><strong>Follow-up</strong>: <mark class=\"lo\"><strong>estrogen deficiency costs bone whatever the compartment</strong>, so start estrogen replacement promptly</mark> (bone loss is fastest in the first few years), with progesterone if the uterus is intact</li></ul>"
-      }
-     ]
     }
    ]
   },
@@ -8247,6 +8090,163 @@
       {
        "t": "list",
        "html": "<ul><li><mark class=\"lo\">5.4 million under-5 deaths a year, <strong>44% neonatal</strong> (2,532,000)</mark></li><li>Biggest neonatal slices: <mark class=\"lo\"><strong>preterm complications 15%</strong>, intrapartum events 11%, sepsis 7%</mark></li><li>Helping Babies Survive (American Academy of Pediatrics, World Health Organization, United States Agency for International Development)<ul><li><strong>Helping Babies Breathe</strong>: ↓ early neonatal mortality <strong>47%</strong>, ↓ stillbirths <strong>24%</strong> · Essential Care for Every Baby (no breastmilk at all → <strong>7× more likely to die of infection</strong>) · <strong>Essential Care for Small Babies</strong>: skin-to-skin ↓ low-birthweight mortality <strong>36%</strong> · Improving Care for Mothers and Babies (quality improvement)</li></ul></li></ul>"
+      }
+     ]
+    },
+    {
+     "id": "repro-w6-in-class-amenorrhea",
+     "num": "—",
+     "name": "In-Class - Amenorrhea",
+     "hasNote": true,
+     "inClass": true,
+     "title": "Approach to Amenorrhea",
+     "framing": "<p><strong>Amenorrhea is a compartment problem</strong> — the block sits in the <strong>outflow tract, the ovary, the pituitary or the hypothalamus</strong> — and <strong>two numbers sort it</strong>: the <strong><span class=\"wl\">beta hCG</span> first, always</strong>, then <span class=\"wl\">follicle-stimulating hormone (FSH)</span>, which says whether the pituitary is <strong>shouting at a dead ovary (high FSH)</strong> or <strong>not shouting at all (low FSH)</strong>.</p>",
+     "keypoints": "<p>⭐ <strong>rule out pregnancy first, before any other test and whatever the story sounds like.</strong> <strong>High FSH means the ovary has failed; low FSH means the problem is above it</strong> - that one number splits the differential, and <strong>a normal FSH with normal prolactin and TSH points at anovulation, which is where PMOS lives.</strong> <strong>Turner is the commonest primary cause (27%); PMOS, the new name for PCOS, is the commonest secondary cause (28%)</strong> - and pregnancy is ruled out before either. <strong>A progesterone withdrawal bleed proves estrogen and a patent outflow tract.</strong> <strong>Pubarche and testosterone split MRKH (46,XX) from androgen insensitivity (46,XY).</strong></p>",
+     "blocks": [
+      {
+       "t": "figure",
+       "src": "assets/figures/830d7d1c3f88.svg",
+       "alt": "amenorrhea overview.svg",
+       "w": 1448,
+       "h": 1844,
+       "interactive": "charts/repro-w6-in-class-amenorrhea_2/"
+      },
+      {
+       "t": "note",
+       "html": "<h5>1. Primary and secondary amenorrhea</h5>"
+      },
+      {
+       "t": "list",
+       "html": "<ul><li><strong><span class=\"wl\">Primary</span></strong> = no menses ever<ul><li><mark class=\"lo\"><strong>no menses by 15</strong> with secondary sex characteristics, or <strong>none within 3 years of thelarche</strong> (breast development)</mark> · <mark class=\"lo\"><strong>no menses and no secondary sex characteristics by 13</strong></mark> is abnormal too</li><li>top 3: <mark class=\"lo\"><strong>gonadal dysgenesis 45,X (<span class=\"wl\">Turner syndrome</span>) 27%</strong> · Mullerian agenesis (Mayer-Rokitansky-Kuster-Hauser syndrome) 15% · constitutional delay 14%</mark></li></ul></li><li><strong><span class=\"wl\">Secondary</span></strong> = cessation of menses: <mark class=\"lo\"><strong>no menses for 3 months, or fewer than 9 cycles a year</strong></mark><ul><li>top 3: <mark class=\"lo\"><strong>polyendocrine metabolic ovarian syndrome (PMOS), previously polycystic ovary syndrome (PCOS), 28%</strong> · hypothalamic (eating disorder, stress, exercise) 15% · hyperprolactinemia 10%</mark></li><li><strong>pregnancy</strong> is the first thing to rule out, every time (the Child Health reading also calls it the commonest cause of secondary amenorrhea)</li><li>⚠ the PMOS name is new this year: the lecture says PMOS, older notes and questions say PCOS, and they are the same syndrome (<span class=\"wl\">10 - Polyendocrine Metabolic Ovarian Syndrome (PMOS)</span>)</li></ul></li><li>⚠ <strong>The workbook keys primary amenorrhea as \"no periods by 16\"</strong>; the lecture uses 13 and 15 — answer to the source in front of you</li></ul>"
+      },
+      {
+       "t": "note",
+       "html": "<h5>2. The compartments, side by side</h5>"
+      },
+      {
+       "t": "figure",
+       "src": "assets/figures/d3416e85676a.jpg",
+       "alt": "amenorrhea compartments - hypothalamus pituitary ovary uterus outflow tract - upper-year notes.jpg",
+       "w": 701,
+       "h": 462,
+       "cap": "The five compartments - hypothalamic, pituitary, ovarian, uterine, outflow tract - with the feedback questions for the top three and the anatomic questions for the bottom three"
+      },
+      {
+       "t": "list",
+       "html": "<ul><li>The lecture splits causes into <strong>anatomic</strong> (is the uterus, cervix, vagina and introitus present and patent?) and <strong>hormonal</strong> (hypothalamus, anterior pituitary, ovary, other)</li><li><mark class=\"lo\">Sort the hormonal ones by <strong>luteinizing hormone (LH) / FSH and estrogen</strong></mark>: <mark class=\"lo\"><strong>hypergonadotropic</strong> = high LH/FSH, low estrogen, the ovary</mark> · <mark class=\"lo\"><strong>hypogonadotropic</strong> = low LH/FSH, low estrogen, hypothalamus or pituitary</mark> · <mark class=\"lo\"><strong>eugonadotropic</strong> = both normal, causes varied</mark></li><li>Each column below is one place the block can sit:</li></ul>"
+      },
+      {
+       "t": "table",
+       "cols": [
+        "",
+        "<u>Outflow tract</u> — anatomic",
+        "<u>Ovarian</u> — <span class=\"wl\">hypergonadotropic</span>",
+        "<u>Pituitary</u>",
+        "<u>Hypothalamic</u> — <span class=\"wl\">hypogonadotropic</span>",
+        "<u>Eugonadotropic</u> — anovulation"
+       ],
+       "rows": [
+        [
+         "<strong><span class=\"wl\">FSH</span> / <span class=\"wl\">luteinizing hormone</span></strong>",
+         "<strong>Normal</strong>",
+         "<strong>HIGH</strong>",
+         "Low or inappropriately normal",
+         "<strong>LOW</strong>",
+         "<strong>Normal</strong>"
+        ],
+        [
+         "<strong><span class=\"wl\">estrogen</span></strong>",
+         "<strong>Normal</strong>",
+         "Low",
+         "Low",
+         "Low",
+         "<strong>Normal</strong> - and unopposed"
+        ],
+        [
+         "<strong>The lesion</strong>",
+         "Blood is made but <strong>cannot get out</strong>",
+         "<strong>No follicles left to answer</strong> the gonadotropins",
+         "Gonadotrophs crushed, destroyed or suppressed",
+         "<strong>Gonadotropin-releasing hormone pulses stop</strong>",
+         "<strong>No ovulation → no <span class=\"wl\">progesterone</span> → no withdrawal bleed</strong>"
+        ],
+        [
+         "<strong>Primary causes</strong>",
+         "<strong><span class=\"wl\">imperforate hymen</span></strong> - commonest outflow anomaly · <strong><span class=\"wl\">Mayer-Rokitansky-Kuster-Hauser syndrome (MRKH)</span> (15%)</strong> · <span class=\"wl\">transverse vaginal septum</span> · <span class=\"wl\">androgen insensitivity syndrome (AIS)</span>",
+         "<strong><span class=\"wl\">Turner syndrome</span> (27%)</strong> · <span class=\"wl\">gonadal dysgenesis</span> (<span class=\"wl\">XX</span> or <span class=\"wl\">XY</span>)",
+         "Congenital hypopituitarism · tumour, irradiation",
+         "<strong><span class=\"wl\">Constitutional delay</span> (14%)</strong> · <span class=\"wl\">Kallmann syndrome</span> (<strong>anosmia</strong>)",
+         "<span class=\"wl\">PMOS (previously PCOS)</span> - 7% of primary"
+        ],
+        [
+         "<strong>Secondary causes</strong>",
+         "<strong><span class=\"wl\">Asherman syndrome</span></strong> - after curettage · <span class=\"wl\">cervical stenosis</span>",
+         "<span class=\"wl\">primary ovarian insufficiency (POI)</span> <strong>before 40</strong> · <strong>autoimmune (40%)</strong> · chemotherapy, radiation, surgery",
+         "<strong><span class=\"wl\">hyperprolactinemia</span> (10%)</strong>, commonest from a <span class=\"wl\">prolactinoma</span> · <strong><span class=\"wl\">Sheehan's syndrome</span></strong>",
+         "<strong><span class=\"wl\">Functional</span> (15%)</strong> - eating disorder, exercise, stress",
+         "<strong><span class=\"wl\">PMOS</span> (28%)</strong> · late-onset <span class=\"wl\">congenital adrenal hyperplasia</span> · estrogen- or androgen-producing ovarian tumour · <span class=\"wl\">thyroid disease</span>"
+        ],
+        [
+         "<strong>Clues</strong>",
+         "<strong>Cyclical pain with no bleeding</strong>, a midline mass, a <strong>purplish bulge at the introitus (<span class=\"wl\">hematocolpos</span>)</strong>; trapped blood → soft enlarged uterus (<span class=\"wl\">hematometra</span>)",
+         "Vasomotor symptoms; <strong>short stature, webbed neck, shield chest</strong>",
+         "<strong><span class=\"wl\">Galactorrhoea</span></strong>, headache, <strong>bitemporal field loss</strong>; <strong>failure to lactate after postpartum hemorrhage</strong>",
+         "<strong>Low <span class=\"wl\">BMI</span></strong>, athlete, recent stressor; <strong>anosmia</strong>",
+         "<strong><span class=\"wl\">hirsutism</span>, acne, obesity</strong>; cycles <strong>irregular rather than absent</strong>"
+        ],
+        [
+         "<strong>Next test</strong>",
+         "Ultrasound and bimanual for a uterus (<strong>MRI is the gold standard for a septum</strong>); then <strong>pubarche and <span class=\"wl\">testosterone</span> split <span class=\"wl\">MRKH</span> (46,XX, female range, hair present) from <span class=\"wl\">AIS</span> (46,XY, male range, hair absent)</strong>",
+         "<strong>Karyotype</strong>",
+         "<strong><span class=\"wl\">Prolactin</span>, then MRI sella</strong>",
+         "<strong>MRI only once functional causes are excluded</strong>",
+         "<strong><span class=\"wl\">Testosterone</span>, <span class=\"wl\">dehydroepiandrosterone sulfate</span>, <span class=\"wl\">17-hydroxyprogesterone</span></strong>"
+        ],
+        [
+         "<strong>Treatment</strong>",
+         "Surgery to relieve the obstruction, cervical dilation, hysteroscopic adhesiolysis; <strong>excise the gonads in AIS - malignancy risk</strong>",
+         "<strong>Estrogen replacement to protect bone</strong> (plus progesterone if there is a uterus); <strong>in vitro fertilization (IVF) with a donor oocyte</strong>, since POI cannot be reversed; <strong>remove a streak gonad if a Y chromosome is present</strong>",
+         "<strong><span class=\"wl\">Dopamine agonist</span> (<span class=\"wl\">bromocriptine</span>, <span class=\"wl\">cabergoline</span>) first</strong>; surgery for a macroadenoma with secondary deficits; <span class=\"wl\">levothyroxine</span> if hypothyroid",
+         "<strong>Behaviour change, psychiatric support, restore energy availability</strong>; <strong>estrogen replacement for bone, started promptly</strong>; fertility: gonadotropins or pulsatile gonadotropin-releasing hormone (GnRH)",
+         "<strong>Protect the endometrium: <span class=\"wl\">combined hormonal contraceptive</span> or a progestin (cyclic, intrauterine device, depot)</strong>; <span class=\"wl\">metformin</span> if glucose intolerant; <span class=\"wl\">spironolactone</span> for hyperandrogenism"
+        ]
+       ]
+      },
+      {
+       "t": "figure",
+       "src": "assets/figures/a304adf3d5ba.jpg",
+       "alt": "Sheehan's syndrome visual map - Creative Med Doses.png",
+       "w": 900,
+       "h": 636,
+       "cap": "Sheehan's syndrome: postpartum hemorrhage → hypovolemic shock → ischemic necrosis of the enlarged pregnant pituitary → no lactation (earliest sign), then secondary amenorrhea and hypopituitarism. Visual map ©2019 Priyanga Singh, Creative Med Doses"
+      },
+      {
+       "t": "note",
+       "html": "<h5>3. Why thyroid and prolactin share a branch</h5>"
+      },
+      {
+       "t": "list",
+       "html": "<ul><li>↓ thyroxine → <strong>↑ thyrotropin-releasing hormone (TRH)</strong> → ↑ thyroid-stimulating hormone (TSH) <strong>and ↑ <span class=\"wl\">prolactin</span></strong> → <strong>compensatory ↑ dopamine</strong> (dopamine is the main brake on prolactin) → <strong>dopamine alters gonadotropin-releasing hormone (GnRH) secretion</strong> → anovulation</li><li><strong>Primary</strong> hyperprolactinemia = a prolactinoma · <strong>secondary</strong> = raised TRH from hypothyroidism</li><li><span class=\"wl\">hyperprolactinemia</span> is present in <strong>10% of amenorrhoeic women and 50% of those with galactorrhoea</strong><ul><li><strong>a prolactin-secreting adenoma is the commonest cause</strong>; then ask about drugs and herbs that cause galactorrhea, <strong>antipsychotics most often</strong></li></ul></li><li>Hypothyroidism → amenorrhea · hyperthyroidism → heavy periods (menorrhagia), possibly amenorrhea</li></ul>"
+      },
+      {
+       "t": "note",
+       "html": "<h5>4. The approach</h5>"
+      },
+      {
+       "t": "figure",
+       "src": "assets/figures/9e8f2ddcc6a0.jpg",
+       "alt": "Approach to Amenorrhea.png",
+       "w": 2400,
+       "h": 950,
+       "cap": "The full lab-based approach, from the beta human chorionic gonadotropin (beta hCG) down"
+      },
+      {
+       "t": "list",
+       "html": "<ul><li><strong>Rule out pregnancy first</strong>, then check for a uterus, then prolactin and TSH, then FSH:</li></ul>"
+      },
+      {
+       "t": "list",
+       "html": "<ul><li><strong>History</strong><ul><li><strong>ever bled? abdominal or pelvic pain?</strong> (primary) · age of menarche, last period, regularity, duration, flow, pain (secondary) · <strong>weight change, exercise load, stressors, eating pattern</strong> · galactorrhoea, headache, visual change, anosmia · hirsutism</li><li>heat or cold intolerance, palpitations (thyroid) · <strong>postpartum haemorrhage</strong> · <strong>instrumentation (dilation and curettage, ablation)</strong>, chemotherapy or radiation · ⚠ <span class=\"wl\">antipsychotics</span> and other dopamine antagonists, <span class=\"wl\">contraceptives</span></li></ul></li><li><strong>Physical exam</strong><ul><li><mark class=\"lo\"><strong>plot the growth chart</strong>: <strong>overweight and not growing → endocrinopathy (hypothyroidism, Cushing syndrome)</strong> · <strong>underweight → a calorie deficit (eating disorder, inflammatory bowel disease, celiac disease)</strong></mark></li><li><strong>height, weight, blood pressure</strong> and <span class=\"wl\">BMI</span> · syndromic features · acne, hirsutism · thyroid exam · Tanner staging, <strong>pubic hair</strong> · <strong>visual fields</strong> · breast and expressed galactorrhoea</li><li><strong>speculum and <span class=\"wl\">bimanual pelvic exam</span> for a cervix, a uterus, a septum or an imperforate hymen</strong>; is the hymen patent, and how deep is the vagina?</li></ul></li><li><strong>Investigations</strong><ul><li><mark class=\"lo\"><strong><span class=\"wl\">beta hCG</span> before anything else</strong></mark> · <mark class=\"lo\"><span class=\"wl\">serum FSH</span> / <span class=\"wl\">serum luteinizing hormone</span> and <span class=\"wl\">estradiol</span> · <span class=\"wl\">serum prolactin</span> · <span class=\"wl\">serum TSH</span></mark> and <span class=\"wl\">free thyroxine</span> · androgens (PMOS, androgen-secreting tumours) · <span class=\"wl\">17-hydroxyprogesterone</span> (congenital adrenal hyperplasia) · pelvic ultrasound ± MRI for structure</li><li><strong>karyotype when FSH is high</strong>, autoimmune testing as the story directs · ⚠ <strong>MRI is not first line</strong>: MRI head only if a pituitary adenoma is suspected</li></ul></li><li><strong><span class=\"wl\">Progesterone withdrawal (challenge) test</span></strong>: oral progesterone for <strong>10-14 days</strong>, then stop<ul><li><mark class=\"lo\"><strong>withdrawal bleed = adequate estrogen and a patent outflow tract</strong></mark></li><li><mark class=\"lo\"><strong>no bleed = too little estrogen OR an anatomic block</strong></mark></li></ul></li><li><strong>Treatment</strong> depends on the cause <strong>and on her goals</strong> (pregnancy, acne or hirsutism, a functional vagina)<ul><li><mark class=\"lo\"><strong>obstruction → surgery</strong> · <strong>hypothyroid → thyroid hormone</strong> · <strong>hyperprolactinemia → dopamine agonist</strong> · <strong>PMOS → protect the endometrium</strong></mark></li><li><mark class=\"lo\"><strong>infertility</strong>: fix the reversible (prolactin, thyroid, anatomy) · <strong>POI → IVF with a donor oocyte</strong> · hypogonadotropic → gonadotropins (more common) or pulsatile GnRH · PMOS → ovulatory assistance, IVF</mark></li></ul></li><li><strong>Follow-up</strong>: <mark class=\"lo\"><strong>estrogen deficiency costs bone whatever the compartment</strong>, so start estrogen replacement promptly</mark> (bone loss is fastest in the first few years), with progesterone if the uterus is intact</li></ul>"
       }
      ]
     },

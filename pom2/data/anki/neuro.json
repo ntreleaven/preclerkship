@@ -1,131 +1,72 @@
 {
- "bytes": 33030633,
- "cards": 923,
+ "bytes": 26265535,
+ "cards": 620,
  "deck": "PoM2::Block 4",
  "draft": "Built from upper-year Christina's Anki deck. Not yet checked against this year's lecture slides.",
  "file": "anki/neuro.apkg",
- "highyield": 195,
- "notes": 837,
+ "highyield": 157,
+ "notes": 566,
  "weeks": [
   {
    "lectures": [
     {
-     "cards": 18,
-     "highyield": 1,
-     "name": "01 - Understanding and Managing Chronic Pain",
-     "notes": 16
-    },
-    {
-     "cards": 3,
-     "highyield": 0,
-     "name": "02 - Psychological Factors in Managing Chronic Pain",
-     "notes": 3
-    },
-    {
-     "cards": 16,
-     "highyield": 1,
-     "name": "04 - Introduction to Neuroanatomy",
-     "notes": 15
-    },
-    {
-     "cards": 57,
-     "highyield": 7,
-     "name": "05 - Cranial Nerve Anatomy and Function",
-     "notes": 46
-    },
-    {
-     "cards": 30,
-     "highyield": 5,
-     "name": "06 - Facial Anatomy",
-     "notes": 29
-    },
-    {
-     "cards": 72,
-     "highyield": 5,
-     "name": "07 - Anatomy of the Cranial Cavity",
-     "notes": 61
-    },
-    {
-     "cards": 42,
-     "highyield": 7,
-     "name": "08 - Neuroanatomy of the Cortex",
-     "notes": 40
-    },
-    {
-     "cards": 30,
-     "highyield": 5,
-     "name": "09 - Introduction to Neurophysiology",
-     "notes": 27
-    }
-   ],
-   "week": "Week 12"
-  },
-  {
-   "lectures": [
-    {
-     "cards": 34,
-     "highyield": 6,
-     "name": "01 - Orbital Anatomy",
-     "notes": 33
-    },
-    {
      "cards": 42,
      "highyield": 6,
-     "name": "03 - Neuroanatomy of the Brainstem, Basal Ganglia, and Diencephalon",
+     "name": "01 - Neuroanatomy of the Brainstem, Basal Ganglia, and Diencephalon",
      "notes": 41
     },
     {
      "cards": 48,
      "highyield": 8,
-     "name": "04 - Neuroanatomy of the Spinal Tracts and Cerebellum",
+     "name": "02 - Neuroanatomy of the Spinal Tracts and Cerebellum",
      "notes": 41
     },
     {
      "cards": 9,
      "highyield": 0,
-     "name": "05 - Neurophysiology of Sensation",
+     "name": "03 - Neurophysiology of Sensation",
      "notes": 9
     },
     {
      "cards": 11,
      "highyield": 1,
-     "name": "07 - Neurophysiology of Reflexes",
+     "name": "05 - Neurophysiology of Reflexes",
      "notes": 6
     },
     {
      "cards": 32,
      "highyield": 22,
-     "name": "09 - Neurophthalmology",
+     "name": "07 - Neurophthalmology",
      "notes": 30
     },
     {
      "cards": 19,
      "highyield": 5,
-     "name": "10 - Cortical Syndromes",
+     "name": "08 - Cortical Syndromes",
      "notes": 19
     },
     {
      "cards": 27,
      "highyield": 21,
-     "name": "11 - Approach to Weakness",
+     "name": "09 - Approach to Weakness",
      "notes": 26
     },
     {
      "cards": 20,
      "highyield": 15,
-     "name": "12 - Approach to Localization",
+     "name": "10 - Approach to Localization",
      "notes": 20
     },
     {
      "cards": 13,
      "highyield": 1,
-     "name": "13 - Neuroembryology",
+     "name": "11 - Neuroembryology",
      "notes": 12
     },
     {
      "cards": 28,
      "highyield": 0,
-     "name": "14 - Autonomic Nervous System",
+     "name": "12 - Autonomic Nervous System",
      "notes": 17
     }
    ],
@@ -211,16 +152,16 @@
      "notes": 13
     },
     {
-     "cards": 25,
-     "highyield": 6,
+     "cards": 24,
+     "highyield": 5,
      "name": "02 - Brain Tumors",
-     "notes": 22
+     "notes": 21
     },
     {
-     "cards": 22,
-     "highyield": 0,
-     "name": "03 - Pediatric Neurology",
-     "notes": 20
+     "cards": 30,
+     "highyield": 6,
+     "name": "03 - Movement Disorders",
+     "notes": 27
     },
     {
      "cards": 12,
@@ -229,10 +170,10 @@
      "notes": 12
     },
     {
-     "cards": 30,
-     "highyield": 6,
-     "name": "05 - Movement Disorders",
-     "notes": 27
+     "cards": 22,
+     "highyield": 0,
+     "name": "05 - Pediatric Neurology",
+     "notes": 20
     },
     {
      "cards": 16,
@@ -251,32 +192,27 @@
      "highyield": 1,
      "name": "08 - Pediatric Ophthalmology",
      "notes": 14
-    }
-   ],
-   "week": "Week 15"
-  },
-  {
-   "lectures": [
-    {
-     "cards": 3,
-     "highyield": 3,
-     "name": "02 - Integration of Medicine and Neurology",
-     "notes": 3
     },
     {
      "cards": 17,
      "highyield": 0,
-     "name": "04 - Hearing Loss",
+     "name": "09 - Hearing Loss",
      "notes": 15
     },
     {
      "cards": 10,
      "highyield": 0,
-     "name": "05 - Vertigo",
+     "name": "10 - Vertigo",
      "notes": 8
+    },
+    {
+     "cards": 3,
+     "highyield": 3,
+     "name": "11 - Integration of Medicine and Neurology",
+     "notes": 3
     }
    ],
-   "week": "Week 16"
+   "week": "Week 15"
   }
  ]
 }

@@ -5998,6 +5998,13 @@
      "keypoints": "<p>⭐ <strong>Weber type is set by the fibular fracture's level against the syndesmosis: A below (usually stable, boot), B at (depends on the medial side), C above (unstable, surgery).</strong> <strong>The mortise view is the one that shows the syndesmosis.</strong> <strong>Order an AP pelvis with a hip X-ray to compare sides.</strong> <strong>Osteoarthritis looks the same at every joint: lost joint space, osteophytes, subchondral cysts and sclerosis.</strong> <strong>Three malleoli broken = a dislocated ankle.</strong></p>",
      "blocks": [
       {
+       "t": "figure",
+       "src": "assets/figures/aa07881616f0.svg",
+       "alt": "lower extremity radiology overview.svg",
+       "w": 1240,
+       "h": 3159
+      },
+      {
        "t": "table",
        "lead": "<p><strong>At a glance:</strong></p>",
        "cols": [

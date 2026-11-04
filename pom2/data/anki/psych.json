@@ -1,11 +1,11 @@
 {
- "bytes": 30347667,
- "cards": 630,
+ "bytes": 34363491,
+ "cards": 629,
  "deck": "PoM2::Block 5",
  "draft": "Built from upper-year Christina's Anki deck. Not yet checked against this year's lecture slides.",
  "file": "anki/psych.apkg",
  "highyield": 121,
- "notes": 581,
+ "notes": 580,
  "weeks": [
   {
    "lectures": [
@@ -117,16 +117,10 @@
      "notes": 21
     },
     {
-     "cards": 23,
+     "cards": 22,
      "highyield": 2,
      "name": "09 - Autism Spectrum Disorder & Intellectual Disabilities",
-     "notes": 20
-    },
-    {
-     "cards": 8,
-     "highyield": 0,
-     "name": "10 - Disruptive Behavior Disorders",
-     "notes": 8
+     "notes": 19
     }
    ],
    "week": "Week 18"
@@ -134,40 +128,52 @@
   {
    "lectures": [
     {
-     "cards": 35,
-     "highyield": 2,
-     "name": "01 - Eating Disorders",
-     "notes": 31
-    },
-    {
-     "cards": 13,
-     "highyield": 1,
-     "name": "02 - The Child Welfare System",
-     "notes": 12
+     "cards": 8,
+     "highyield": 0,
+     "name": "01 - Disruptive Behavior Disorders",
+     "notes": 8
     },
     {
      "cards": 45,
      "highyield": 18,
-     "name": "03 - Psychotic Disorders & Schizophrenia",
+     "name": "02 - Psychotic Disorders & Schizophrenia",
      "notes": 32
     },
     {
      "cards": 14,
      "highyield": 8,
-     "name": "04 - Treatment of Psychotic Disorders",
+     "name": "03 - Treatment of Psychotic Disorders",
      "notes": 14
     },
     {
      "cards": 6,
      "highyield": 0,
-     "name": "05 - Consent, Capacity, and the Mental Health Act",
+     "name": "04 - Consent, Capacity, and the Mental Health Act",
      "notes": 6
     },
     {
-     "cards": 49,
-     "highyield": 9,
-     "name": "06 - Substance Use Disorders",
-     "notes": 48
+     "cards": 35,
+     "highyield": 2,
+     "name": "05 - Eating Disorders",
+     "notes": 31
+    },
+    {
+     "cards": 42,
+     "highyield": 2,
+     "name": "06 - Sleep Disorders",
+     "notes": 38
+    },
+    {
+     "cards": 3,
+     "highyield": 3,
+     "name": "07 - Sexual Disorders and Paraphilias",
+     "notes": 3
+    },
+    {
+     "cards": 13,
+     "highyield": 1,
+     "name": "08 - The Child Welfare System",
+     "notes": 12
     }
    ],
    "week": "Week 19"
@@ -175,40 +181,34 @@
   {
    "lectures": [
     {
-     "cards": 42,
-     "highyield": 2,
-     "name": "01 - Sleep Disorders",
-     "notes": 38
-    },
-    {
-     "cards": 13,
-     "highyield": 0,
-     "name": "02 - Somatic Symptom Disorders",
-     "notes": 12
-    },
-    {
      "cards": 17,
      "highyield": 8,
-     "name": "04 - Delirium",
+     "name": "01 - Delirium",
      "notes": 17
     },
     {
      "cards": 59,
      "highyield": 14,
-     "name": "05 - Cognitive Disorders in the Elderly",
+     "name": "02 - Cognitive Disorders in the Elderly",
      "notes": 56
-    },
-    {
-     "cards": 3,
-     "highyield": 3,
-     "name": "06 - Sexual Disorders and Paraphilias",
-     "notes": 3
     },
     {
      "cards": 10,
      "highyield": 0,
-     "name": "08 - Pharmacotherapy of Cognitive Enhancers",
+     "name": "05 - Pharmacotherapy of Cognitive Enhancers",
      "notes": 6
+    },
+    {
+     "cards": 49,
+     "highyield": 9,
+     "name": "06 - Substance Use Disorders",
+     "notes": 48
+    },
+    {
+     "cards": 13,
+     "highyield": 0,
+     "name": "08 - Somatic Symptom Disorders",
+     "notes": 12
     }
    ],
    "week": "Week 20"

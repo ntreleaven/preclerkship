@@ -1,0 +1,759 @@
+{
+ "name": "psychological factors in chronic pain overview",
+ "width": 1700,
+ "title": "A patient with chronic pain: assess everyone, then decide whether the distress is more than chronic pain. If not, manage biologically, psychologically and by rehabilitation. If so, tell somatic symptom disorder, conversion disorder, factitious disorder and malingering apart by whether the behaviour is conscious and whether the gain is external, and assess and manage each",
+ "kinds": {
+  "bio_h": [
+   "#1f6f8b",
+   "#1f6f8b",
+   "#ffffff",
+   "#ffffff"
+  ],
+  "bio_t": [
+   "#dceef4",
+   "#1f6f8b",
+   "#1f6f8b",
+   "#18212e"
+  ],
+  "bio_w": [
+   "#ffffff",
+   "#1f6f8b",
+   "#1f6f8b",
+   "#18212e"
+  ],
+  "psy_h": [
+   "#6a4aa8",
+   "#6a4aa8",
+   "#ffffff",
+   "#ffffff"
+  ],
+  "psy_t": [
+   "#ebe4f7",
+   "#6a4aa8",
+   "#6a4aa8",
+   "#18212e"
+  ],
+  "psy_w": [
+   "#ffffff",
+   "#6a4aa8",
+   "#6a4aa8",
+   "#18212e"
+  ],
+  "reh_h": [
+   "#b5600f",
+   "#b5600f",
+   "#ffffff",
+   "#ffffff"
+  ],
+  "reh_t": [
+   "#fbe8d3",
+   "#b5600f",
+   "#b5600f",
+   "#18212e"
+  ],
+  "reh_w": [
+   "#ffffff",
+   "#b5600f",
+   "#b5600f",
+   "#18212e"
+  ],
+  "ssd_h": [
+   "#1f5f9e",
+   "#1f5f9e",
+   "#ffffff",
+   "#ffffff"
+  ],
+  "ssd_t": [
+   "#dde9f7",
+   "#1f5f9e",
+   "#1f5f9e",
+   "#18212e"
+  ],
+  "ssd_w": [
+   "#ffffff",
+   "#1f5f9e",
+   "#1f5f9e",
+   "#18212e"
+  ],
+  "cnv_h": [
+   "#a3336b",
+   "#a3336b",
+   "#ffffff",
+   "#ffffff"
+  ],
+  "cnv_t": [
+   "#f8e0ec",
+   "#a3336b",
+   "#a3336b",
+   "#18212e"
+  ],
+  "cnv_w": [
+   "#ffffff",
+   "#a3336b",
+   "#a3336b",
+   "#18212e"
+  ],
+  "fac_h": [
+   "#8a5a2b",
+   "#8a5a2b",
+   "#ffffff",
+   "#ffffff"
+  ],
+  "fac_t": [
+   "#f3e6d8",
+   "#8a5a2b",
+   "#8a5a2b",
+   "#18212e"
+  ],
+  "fac_w": [
+   "#ffffff",
+   "#8a5a2b",
+   "#8a5a2b",
+   "#18212e"
+  ],
+  "mal_h": [
+   "#4f6d1f",
+   "#4f6d1f",
+   "#ffffff",
+   "#ffffff"
+  ],
+  "mal_t": [
+   "#e7eed9",
+   "#4f6d1f",
+   "#4f6d1f",
+   "#18212e"
+  ],
+  "mal_w": [
+   "#ffffff",
+   "#4f6d1f",
+   "#4f6d1f",
+   "#18212e"
+  ]
+ },
+ "bands": [
+  {
+   "x": 40,
+   "y": 444,
+   "w": 230,
+   "h": 640,
+   "fill": "#eef7fa",
+   "stroke": "#1f6f8b"
+  },
+  {
+   "x": 272,
+   "y": 444,
+   "w": 230,
+   "h": 640,
+   "fill": "#f5f1fb",
+   "stroke": "#6a4aa8"
+  },
+  {
+   "x": 504,
+   "y": 444,
+   "w": 230,
+   "h": 640,
+   "fill": "#fdf4ea",
+   "stroke": "#b5600f"
+  },
+  {
+   "x": 764,
+   "y": 444,
+   "w": 230,
+   "h": 422,
+   "fill": "#eff5fc",
+   "stroke": "#1f5f9e"
+  },
+  {
+   "x": 996,
+   "y": 444,
+   "w": 230,
+   "h": 422,
+   "fill": "#fcf0f6",
+   "stroke": "#a3336b"
+  },
+  {
+   "x": 1228,
+   "y": 444,
+   "w": 230,
+   "h": 422,
+   "fill": "#faf4ee",
+   "stroke": "#8a5a2b"
+  },
+  {
+   "x": 1460,
+   "y": 444,
+   "w": 230,
+   "h": 422,
+   "fill": "#f4f7ee",
+   "stroke": "#4f6d1f"
+  }
+ ],
+ "row_labels": [
+  {
+   "x": 23,
+   "y": 570,
+   "h": 132,
+   "text": "WHAT"
+  },
+  {
+   "x": 23,
+   "y": 742,
+   "h": 116,
+   "text": "KEY"
+  },
+  {
+   "x": 23,
+   "y": 898,
+   "h": 178,
+   "text": "DO NEXT"
+  }
+ ],
+ "nodes": [
+  {
+   "id": "root",
+   "x": 485,
+   "y": 10,
+   "w": 760,
+   "kind": "dark",
+   "title": "Chronic pain: is the distress MORE than chronic pain? (distressing symptoms with abnormal thoughts, feelings or behaviours)",
+   "lines": [
+    "ASSESS EVERY patient first:",
+    "history: duration, nature, physical AND psychological symptoms incl. SUICIDAL THOUGHTS, what was tried, effect on function",
+    "review past investigations, new only if indicated · pain diary: rate the sensation and the distress SEPARATELY"
+   ]
+  },
+  {
+   "id": "g_no",
+   "x": 45,
+   "y": 176,
+   "w": 684,
+   "h": 96,
+   "kind": "plain",
+   "title": "NO: chronic pain",
+   "lines": [
+    "multimodal, multidisciplinary",
+    "realistic, measurable goals · MANAGE, not cure",
+    "start EARLY, before 12 weeks"
+   ]
+  },
+  {
+   "id": "g_yes",
+   "x": 769,
+   "y": 176,
+   "w": 916,
+   "h": 96,
+   "kind": "plain",
+   "title": "YES: which fits?",
+   "lines": [
+    "unconscious or conscious? external gain?"
+   ]
+  },
+  {
+   "id": "t1",
+   "x": 1233,
+   "y": 312,
+   "w": 452,
+   "h": 60,
+   "kind": "plain",
+   "title": "Motivated by EXTERNAL gain?",
+   "lines": [
+    "presents self or another as ill"
+   ]
+  },
+  {
+   "id": "bio_head_0_0",
+   "x": 45,
+   "y": 452,
+   "w": 220,
+   "h": 78,
+   "kind": "bio_h",
+   "title": "Biological",
+   "lines": [
+    "drugs + physical"
+   ]
+  },
+  {
+   "id": "psy_head_0_0",
+   "x": 277,
+   "y": 452,
+   "w": 220,
+   "h": 78,
+   "kind": "psy_h",
+   "title": "Psychological",
+   "lines": [
+    "thoughts, feelings, behaviours"
+   ]
+  },
+  {
+   "id": "reh_head_0_0",
+   "x": 509,
+   "y": 452,
+   "w": 220,
+   "h": 78,
+   "kind": "reh_h",
+   "title": "Rehabilitation",
+   "lines": [
+    "stay active, return to work"
+   ]
+  },
+  {
+   "id": "ssd_head_0_0",
+   "x": 769,
+   "y": 452,
+   "w": 220,
+   "h": 78,
+   "kind": "ssd_h",
+   "title": "Somatic symptom disorder",
+   "lines": [
+    "unconscious inner gain"
+   ]
+  },
+  {
+   "id": "cnv_head_0_0",
+   "x": 1001,
+   "y": 452,
+   "w": 220,
+   "h": 78,
+   "kind": "cnv_h",
+   "title": "Conversion disorder",
+   "lines": [
+    "functional neurological symptom disorder"
+   ]
+  },
+  {
+   "id": "fac_head_0_0",
+   "x": 1233,
+   "y": 452,
+   "w": 220,
+   "h": 78,
+   "kind": "fac_h",
+   "title": "Factitious disorder",
+   "lines": [
+    "the sick role"
+   ]
+  },
+  {
+   "id": "mal_head_0_0",
+   "x": 1465,
+   "y": 452,
+   "w": 220,
+   "h": 78,
+   "kind": "mal_h",
+   "title": "Malingering",
+   "lines": [
+    "for external gain"
+   ]
+  },
+  {
+   "id": "bio_pres_0_0",
+   "x": 45,
+   "y": 570,
+   "w": 220,
+   "h": 132,
+   "kind": "bio_t",
+   "title": "WHO pain ladder",
+   "lines": [
+    "1 · non-opioid ± adjuvant",
+    "2 · weak opioid + non-opioid ± adjuvant",
+    "3 · strong opioid + non-opioid ± adjuvant"
+   ]
+  },
+  {
+   "id": "psy_pres_0_0",
+   "x": 277,
+   "y": 570,
+   "w": 220,
+   "h": 132,
+   "kind": "psy_t",
+   "title": "Cognitive behavioural therapy (CBT)",
+   "lines": [
+    "links thoughts, feelings and behaviours to pain",
+    "individual or group"
+   ]
+  },
+  {
+   "id": "reh_pres_0_0",
+   "x": 509,
+   "y": 570,
+   "w": 220,
+   "h": 132,
+   "kind": "reh_t",
+   "title": "Pacing",
+   "lines": [
+    "education and adaptation"
+   ]
+  },
+  {
+   "id": "ssd_pres_0_0",
+   "x": 769,
+   "y": 570,
+   "w": 220,
+   "h": 132,
+   "kind": "ssd_t",
+   "title": "Distressing symptoms plus",
+   "lines": [
+    "• EXCESSIVE thoughts, feelings, behaviours",
+    "• lasting over 6 months"
+   ]
+  },
+  {
+   "id": "cnv_pres_0_0",
+   "x": 1001,
+   "y": 570,
+   "w": 220,
+   "h": 132,
+   "kind": "cnv_t",
+   "title": "Altered voluntary motor or sensory function",
+   "lines": []
+  },
+  {
+   "id": "fac_pres_0_0",
+   "x": 1233,
+   "y": 570,
+   "w": 220,
+   "h": 132,
+   "kind": "fac_t",
+   "title": "Presents self or another as ill",
+   "lines": [
+    "deception even without obvious external reward"
+   ]
+  },
+  {
+   "id": "mal_pres_0_0",
+   "x": 1465,
+   "y": 570,
+   "w": 220,
+   "h": 132,
+   "kind": "mal_t",
+   "title": "Deception",
+   "lines": [
+    "presents self or another as ill"
+   ]
+  },
+  {
+   "id": "bio_inv_0_0",
+   "x": 45,
+   "y": 742,
+   "w": 220,
+   "h": 116,
+   "kind": "bio_w",
+   "title": "Adjuvants",
+   "lines": [
+    "• analgesic antidepressants",
+    "• anticonvulsants",
+    "drug choices: see the CHRONIC PAIN chart"
+   ]
+  },
+  {
+   "id": "psy_inv_0_0",
+   "x": 277,
+   "y": 742,
+   "w": 220,
+   "h": 116,
+   "kind": "psy_w",
+   "title": "CBT targets",
+   "lines": [
+    "• MENTAL FILTER",
+    "• CATASTROPHIZING",
+    "• EMOTIONAL REASONING"
+   ]
+  },
+  {
+   "id": "reh_inv_0_0",
+   "x": 509,
+   "y": 742,
+   "w": 220,
+   "h": 116,
+   "kind": "reh_w",
+   "title": "Why avoidance hurts",
+   "lines": [
+    "catastrophizing → fear → AVOIDANCE → disuse, disability",
+    "no fear → confrontation → recovery"
+   ]
+  },
+  {
+   "id": "ssd_inv_0_0",
+   "x": 769,
+   "y": 742,
+   "w": 220,
+   "h": 116,
+   "kind": "ssd_w",
+   "title": "Unconscious",
+   "lines": [
+    "inner psychic gain"
+   ]
+  },
+  {
+   "id": "cnv_inv_0_0",
+   "x": 1001,
+   "y": 742,
+   "w": 220,
+   "h": 116,
+   "kind": "cnv_w",
+   "title": "INCOMPATIBLE with disease",
+   "lines": [
+    "findings fit no recognized neurological or medical condition",
+    "gain unconscious"
+   ]
+  },
+  {
+   "id": "fac_inv_0_0",
+   "x": 1233,
+   "y": 742,
+   "w": 220,
+   "h": 116,
+   "kind": "fac_w",
+   "title": "Behaviour CONSCIOUS",
+   "lines": [
+    "gain UNCONSCIOUS"
+   ]
+  },
+  {
+   "id": "mal_inv_0_0",
+   "x": 1465,
+   "y": 742,
+   "w": 220,
+   "h": 116,
+   "kind": "mal_w",
+   "title": "Behaviour CONSCIOUS",
+   "lines": [
+    "EXTERNAL gain, conscious"
+   ]
+  },
+  {
+   "id": "bio_tx_0_0",
+   "x": 45,
+   "y": 898,
+   "w": 220,
+   "h": 178,
+   "kind": "ok",
+   "title": "Physical",
+   "lines": [
+    "• transcutaneous electrical nerve stimulation (TENS)",
+    "• heat and cold · physiotherapy",
+    "• injections, nerve blocks"
+   ]
+  },
+  {
+   "id": "psy_tx_0_0",
+   "x": 277,
+   "y": 898,
+   "w": 220,
+   "h": 96,
+   "kind": "ok",
+   "title": "Relaxation, meditation",
+   "lines": [
+    "refocus from pain to the breath",
+    "use breathing, mindfulness, visualization"
+   ]
+  },
+  {
+   "id": "psy_tx_1_0",
+   "x": 277,
+   "y": 1016,
+   "w": 220,
+   "h": 60,
+   "kind": "bad",
+   "title": "AVOID",
+   "lines": [
+    "progressive muscle relaxation"
+   ]
+  },
+  {
+   "id": "reh_tx_0_0",
+   "x": 509,
+   "y": 898,
+   "w": 220,
+   "h": 178,
+   "kind": "ok",
+   "title": "Adapt and return",
+   "lines": [
+    "• ergonomic design, new ways to do old things",
+    "• vocational: service coordination, work modification"
+   ]
+  },
+  {
+   "id": "span0_tx_0_0",
+   "x": 769,
+   "y": 898,
+   "w": 452,
+   "h": 178,
+   "kind": "ok",
+   "title": "General strategies (all chronic pain)",
+   "lines": [
+    "• ONE physician, regular visits",
+    "• LIMIT investigations and operations",
+    "• goal-directed, monitor yourself"
+   ]
+  },
+  {
+   "id": "span1_tx_0_0",
+   "x": 1233,
+   "y": 898,
+   "w": 452,
+   "h": 178,
+   "kind": "warn",
+   "title": "Before labelling: look for",
+   "lines": [
+    "• timeline with inconsistent or misleading information",
+    "• symptoms out of proportion · collateral information",
+    "• inconsistent exam · neuropsychological testing"
+   ]
+  }
+ ],
+ "edges": [
+  {
+   "from": "root",
+   "to": "g_no",
+   "path": "M865.0 126V151H387.0V176"
+  },
+  {
+   "from": "root",
+   "to": "g_yes",
+   "path": "M865.0 126V151H1227.0V176"
+  },
+  {
+   "from": "g_yes",
+   "to": "t1",
+   "from_dx": 232
+  },
+  {
+   "from": "psy_tx_0_0",
+   "to": "psy_tx_1_0"
+  },
+  {
+   "from": "bio_head_0_0",
+   "to": "bio_pres_0_0"
+  },
+  {
+   "from": "bio_pres_0_0",
+   "to": "bio_inv_0_0"
+  },
+  {
+   "from": "bio_inv_0_0",
+   "to": "bio_tx_0_0"
+  },
+  {
+   "from": "g_no",
+   "to": "bio_head_0_0",
+   "from_dx": -232
+  },
+  {
+   "from": "psy_head_0_0",
+   "to": "psy_pres_0_0"
+  },
+  {
+   "from": "psy_pres_0_0",
+   "to": "psy_inv_0_0"
+  },
+  {
+   "from": "psy_inv_0_0",
+   "to": "psy_tx_0_0"
+  },
+  {
+   "from": "g_no",
+   "to": "psy_head_0_0",
+   "from_dx": 0
+  },
+  {
+   "from": "reh_head_0_0",
+   "to": "reh_pres_0_0"
+  },
+  {
+   "from": "reh_pres_0_0",
+   "to": "reh_inv_0_0"
+  },
+  {
+   "from": "reh_inv_0_0",
+   "to": "reh_tx_0_0"
+  },
+  {
+   "from": "g_no",
+   "to": "reh_head_0_0",
+   "from_dx": 232
+  },
+  {
+   "from": "ssd_head_0_0",
+   "to": "ssd_pres_0_0"
+  },
+  {
+   "from": "ssd_pres_0_0",
+   "to": "ssd_inv_0_0"
+  },
+  {
+   "from": "ssd_inv_0_0",
+   "to": "span0_tx_0_0",
+   "to_dx": -116.0
+  },
+  {
+   "from": "g_yes",
+   "to": "ssd_head_0_0",
+   "from_dx": -348
+  },
+  {
+   "from": "cnv_head_0_0",
+   "to": "cnv_pres_0_0"
+  },
+  {
+   "from": "cnv_pres_0_0",
+   "to": "cnv_inv_0_0"
+  },
+  {
+   "from": "cnv_inv_0_0",
+   "to": "span0_tx_0_0",
+   "to_dx": 116.0
+  },
+  {
+   "from": "g_yes",
+   "to": "cnv_head_0_0",
+   "from_dx": -116
+  },
+  {
+   "from": "fac_head_0_0",
+   "to": "fac_pres_0_0"
+  },
+  {
+   "from": "fac_pres_0_0",
+   "to": "fac_inv_0_0"
+  },
+  {
+   "from": "fac_inv_0_0",
+   "to": "span1_tx_0_0",
+   "to_dx": -116.0
+  },
+  {
+   "from": "t1",
+   "to": "fac_head_0_0",
+   "from_dx": -116,
+   "label": "NO",
+   "label_at": [
+    1343.0,
+    412
+   ]
+  },
+  {
+   "from": "mal_head_0_0",
+   "to": "mal_pres_0_0"
+  },
+  {
+   "from": "mal_pres_0_0",
+   "to": "mal_inv_0_0"
+  },
+  {
+   "from": "mal_inv_0_0",
+   "to": "span1_tx_0_0",
+   "to_dx": 116.0
+  },
+  {
+   "from": "t1",
+   "to": "mal_head_0_0",
+   "from_dx": 116,
+   "label": "YES",
+   "label_at": [
+    1575.0,
+    412
+   ]
+  }
+ ],
+ "panels": []
+}

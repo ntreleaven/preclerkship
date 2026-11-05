@@ -1016,5 +1016,37 @@
    "licence": "CC BY-SA 4.0 (cropped)",
    "source_page_url": "https://commons.wikimedia.org/wiki/File:Grosse_lobulierte_Baker-Zyste_an_typischer_Stelle_26W_-_MR_-_001.jpg"
   }
+ },
+ "msk-w10-07_2": {
+  "bio": {
+   "file": "bio.jpg",
+   "caption": "TENS unit with four skin pads: electrical stimulation for pain",
+   "author": "Yeza",
+   "licence": "CC BY-SA 4.0",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Tens.jpg"
+  },
+  "psy": {
+   "file": "psy.png",
+   "caption": "Beliefs, emotions and behaviours feed each other: CBT breaks the loop",
+   "author": "Lisa Page",
+   "licence": "CC BY-SA 3.0",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:CBT_framework.png"
+  },
+  "reh": {
+   "file": "reh.jpg",
+   "caption": "Fear leads to avoidance and disability; no fear leads to recovery",
+   "author": "LittleT889",
+   "licence": "CC BY-SA 3.0",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Fear-avoidance_model.jpg"
+  }
+ },
+ "msk-w10-06_2": {
+  "noc": {
+   "file": "noc.jpg",
+   "caption": "Both knees: joint space narrowed, bone spurs at the edges",
+   "author": "NP2025",
+   "licence": "CC BY-SA 4.0",
+   "source_page_url": "https://commons.wikimedia.org/wiki/File:Varus_Knee_Osteoarthritis_Xray.jpg"
+  }
  }
 }

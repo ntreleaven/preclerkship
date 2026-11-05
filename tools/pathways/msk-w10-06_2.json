@@ -1,0 +1,711 @@
+{
+ "name": "chronic pain overview",
+ "width": 1296,
+ "title": "Chronic pain: pain over 3 months is mostly a processing problem, so everyone gets education and supervised exercise first; then the drug is matched to what the pain looks like (tissue source, neuropathic, poor sleep, low mood), adjuvants come before opioids, and a patient who is not responding is referred and gets an opioid trial only under the START principle",
+ "kinds": {
+  "noc_h": [
+   "#1f6f8b",
+   "#1f6f8b",
+   "#ffffff",
+   "#ffffff"
+  ],
+  "noc_t": [
+   "#dceef4",
+   "#1f6f8b",
+   "#1f6f8b",
+   "#18212e"
+  ],
+  "noc_w": [
+   "#ffffff",
+   "#1f6f8b",
+   "#1f6f8b",
+   "#18212e"
+  ],
+  "neu_h": [
+   "#6a4aa8",
+   "#6a4aa8",
+   "#ffffff",
+   "#ffffff"
+  ],
+  "neu_t": [
+   "#ebe4f7",
+   "#6a4aa8",
+   "#6a4aa8",
+   "#18212e"
+  ],
+  "neu_w": [
+   "#ffffff",
+   "#6a4aa8",
+   "#6a4aa8",
+   "#18212e"
+  ],
+  "slp_h": [
+   "#b5600f",
+   "#b5600f",
+   "#ffffff",
+   "#ffffff"
+  ],
+  "slp_t": [
+   "#fbe8d3",
+   "#b5600f",
+   "#b5600f",
+   "#18212e"
+  ],
+  "slp_w": [
+   "#ffffff",
+   "#b5600f",
+   "#b5600f",
+   "#18212e"
+  ],
+  "mood_h": [
+   "#a3336b",
+   "#a3336b",
+   "#ffffff",
+   "#ffffff"
+  ],
+  "mood_t": [
+   "#f8e0ec",
+   "#a3336b",
+   "#a3336b",
+   "#18212e"
+  ],
+  "mood_w": [
+   "#ffffff",
+   "#a3336b",
+   "#a3336b",
+   "#18212e"
+  ],
+  "ref_h": [
+   "#46607a",
+   "#46607a",
+   "#ffffff",
+   "#ffffff"
+  ],
+  "ref_t": [
+   "#e2e8ee",
+   "#46607a",
+   "#46607a",
+   "#18212e"
+  ],
+  "ref_w": [
+   "#ffffff",
+   "#46607a",
+   "#46607a",
+   "#18212e"
+  ]
+ },
+ "bands": [
+  {
+   "x": 40,
+   "y": 442,
+   "w": 242,
+   "h": 1030,
+   "fill": "#eef7fa",
+   "stroke": "#1f6f8b"
+  },
+  {
+   "x": 284,
+   "y": 442,
+   "w": 242,
+   "h": 1030,
+   "fill": "#f5f1fb",
+   "stroke": "#6a4aa8"
+  },
+  {
+   "x": 528,
+   "y": 442,
+   "w": 242,
+   "h": 1030,
+   "fill": "#fdf4ea",
+   "stroke": "#b5600f"
+  },
+  {
+   "x": 772,
+   "y": 442,
+   "w": 242,
+   "h": 1030,
+   "fill": "#fcf0f6",
+   "stroke": "#a3336b"
+  },
+  {
+   "x": 1044,
+   "y": 442,
+   "w": 242,
+   "h": 1030,
+   "fill": "#f2f5f8",
+   "stroke": "#46607a"
+  }
+ ],
+ "row_labels": [
+  {
+   "x": 23,
+   "y": 238,
+   "h": 132,
+   "text": "FOR EVERYONE"
+  },
+  {
+   "x": 23,
+   "y": 550,
+   "h": 132,
+   "text": "PRESENTS AS"
+  },
+  {
+   "x": 23,
+   "y": 722,
+   "h": 306,
+   "text": "FIRST CHOICE"
+  },
+  {
+   "x": 23,
+   "y": 1068,
+   "h": 396,
+   "text": "DOSE · WATCH"
+  }
+ ],
+ "nodes": [
+  {
+   "id": "root",
+   "x": 283,
+   "y": 10,
+   "w": 760,
+   "kind": "dark",
+   "title": "Pain over 3 months: which treatment matches THIS patient?",
+   "lines": [
+    "mostly a PROCESSING problem (sensitized nervous system) · goal = manage pain and function, NOT cure",
+    "acute phase first: fully investigate and treat the injury, then early return to low-impact activity"
+   ]
+  },
+  {
+   "id": "g_all",
+   "x": 45,
+   "y": 138,
+   "w": 964,
+   "h": 60,
+   "kind": "plain",
+   "title": "Pick the drug by what the pain looks like",
+   "lines": [
+    "adjuvants before opioids · multimodal · start low, go slow · short trials"
+   ]
+  },
+  {
+   "id": "g_ref",
+   "x": 1049,
+   "y": 138,
+   "w": 232,
+   "h": 60,
+   "kind": "plain",
+   "title": "NOT working",
+   "lines": [
+    "the family physician refers on"
+   ]
+  },
+  {
+   "id": "p_all",
+   "x": 45,
+   "y": 238,
+   "w": 964,
+   "h": 132,
+   "kind": "info",
+   "title": "FIRST, for EVERYONE",
+   "lines": [
+    "• EDUCATE: hurt does NOT equal harm; the injury has healed, so activity desensitizes",
+    "• EXERCISE, individualized and SUPERVISED: strength + flexibility + cardio (yoga, tai chi for back pain); good evidence",
+    "• passive modalities (transcutaneous electrical nerve stimulation (TENS), ultrasound, laser, heat): very little evidence",
+    "• massage only WITH exercise and education",
+    "• psychology: see the PSYCHOLOGICAL FACTORS chart"
+   ]
+  },
+  {
+   "id": "noc_head_0_0",
+   "x": 45,
+   "y": 450,
+   "w": 232,
+   "h": 60,
+   "kind": "noc_h",
+   "title": "Ongoing tissue source",
+   "lines": [
+    "the minority: chronic nociceptive"
+   ]
+  },
+  {
+   "id": "neu_head_0_0",
+   "x": 289,
+   "y": 450,
+   "w": 232,
+   "h": 60,
+   "kind": "neu_h",
+   "title": "Neuropathic or centralized",
+   "lines": [
+    "the majority"
+   ]
+  },
+  {
+   "id": "slp_head_0_0",
+   "x": 533,
+   "y": 450,
+   "w": 232,
+   "h": 60,
+   "kind": "slp_h",
+   "title": "Pain + poor sleep",
+   "lines": []
+  },
+  {
+   "id": "mood_head_0_0",
+   "x": 777,
+   "y": 450,
+   "w": 232,
+   "h": 60,
+   "kind": "mood_h",
+   "title": "Pain + depression or anxiety",
+   "lines": []
+  },
+  {
+   "id": "ref_head_0_0",
+   "x": 1049,
+   "y": 450,
+   "w": 232,
+   "h": 60,
+   "kind": "ref_h",
+   "title": "Refer to a pain clinic",
+   "lines": [
+    "multidisciplinary chronic pain clinic"
+   ]
+  },
+  {
+   "id": "noc_feat_0_0",
+   "x": 45,
+   "y": 550,
+   "w": 232,
+   "h": 132,
+   "kind": "noc_t",
+   "title": "Mild to moderate pain",
+   "lines": [
+    "• osteoarthritis",
+    "• inflammatory disease"
+   ]
+  },
+  {
+   "id": "neu_feat_0_0",
+   "x": 289,
+   "y": 550,
+   "w": 232,
+   "h": 132,
+   "kind": "neu_t",
+   "title": "Described as",
+   "lines": [
+    "• burning, electric",
+    "• pins and needles, numbness"
+   ]
+  },
+  {
+   "id": "slp_feat_0_0",
+   "x": 533,
+   "y": 550,
+   "w": 232,
+   "h": 132,
+   "kind": "slp_t",
+   "title": "Pain AND poor sleep",
+   "lines": [
+    "nociceptive or neuropathic"
+   ]
+  },
+  {
+   "id": "mood_feat_0_0",
+   "x": 777,
+   "y": 550,
+   "w": 232,
+   "h": 132,
+   "kind": "mood_t",
+   "title": "Pain AND low mood or anxiety",
+   "lines": []
+  },
+  {
+   "id": "ref_feat_0_0",
+   "x": 1049,
+   "y": 550,
+   "w": 232,
+   "h": 132,
+   "kind": "ref_t",
+   "title": "ANY of these",
+   "lines": [
+    "• not responding to standard analgesics",
+    "• activity, mood, isolation getting WORSE",
+    "• leaning on medication"
+   ]
+  },
+  {
+   "id": "noc_tx_0_0",
+   "x": 45,
+   "y": 722,
+   "w": 232,
+   "h": 160,
+   "kind": "ok",
+   "title": "NSAID",
+   "lines": [
+    "non-steroidal anti-inflammatory drug",
+    "• cyclooxygenase-2 (COX-2) inhibitor: less gastrointestinal bleeding"
+   ]
+  },
+  {
+   "id": "noc_tx_1_0",
+   "x": 45,
+   "y": 904,
+   "w": 232,
+   "h": 124,
+   "kind": "ok",
+   "title": "OR acetaminophen",
+   "lines": [
+    "alone, or combined with tramadol or another opioid"
+   ]
+  },
+  {
+   "id": "neu_tx_0_0",
+   "x": 289,
+   "y": 722,
+   "w": 232,
+   "h": 306,
+   "kind": "ok",
+   "title": "Gabapentin or pregabalin",
+   "lines": [
+    "radiculopathy, nerve injury, central pain"
+   ]
+  },
+  {
+   "id": "slp_tx_0_0",
+   "x": 533,
+   "y": 722,
+   "w": 232,
+   "h": 306,
+   "kind": "ok",
+   "title": "Tricyclic antidepressant",
+   "lines": [
+    "• amitriptyline",
+    "• nortriptyline"
+   ]
+  },
+  {
+   "id": "mood_tx_0_0",
+   "x": 777,
+   "y": 722,
+   "w": 232,
+   "h": 141,
+   "kind": "ok",
+   "title": "SNRI",
+   "lines": [
+    "serotonin-norepinephrine reuptake inhibitor",
+    "• duloxetine · venlafaxine"
+   ]
+  },
+  {
+   "id": "mood_tx_1_0",
+   "x": 777,
+   "y": 885,
+   "w": 232,
+   "h": 143,
+   "kind": "bad",
+   "title": "SSRI: no significant effect on pain alone",
+   "lines": [
+    "selective serotonin reuptake inhibitor"
+   ]
+  },
+  {
+   "id": "ref_tx_0_0",
+   "x": 1049,
+   "y": 722,
+   "w": 232,
+   "h": 188,
+   "kind": "bad",
+   "title": "Opioid ONLY after adjuvants: START",
+   "lines": [
+    "S · Should I start?",
+    "• high risk (Opioid Risk Tool): male, age 16-45, personal or family substance use, psychiatric history",
+    "• urine drug screen · taper benzodiazepines · signed agreement"
+   ]
+  },
+  {
+   "id": "ref_tx_1_0",
+   "x": 1049,
+   "y": 932,
+   "w": 232,
+   "h": 96,
+   "kind": "ok",
+   "title": "T · Trial",
+   "lines": [
+    "• start low, go slow",
+    "• aim 30% less pain or better function"
+   ]
+  },
+  {
+   "id": "noc_watch_0_0",
+   "x": 45,
+   "y": 1068,
+   "w": 232,
+   "h": 205,
+   "kind": "warn",
+   "title": "NSAID: 2-3 week trial",
+   "lines": [
+    "longer: monitor kidney function + blood pressure"
+   ]
+  },
+  {
+   "id": "noc_watch_1_0",
+   "x": 45,
+   "y": 1295,
+   "w": 232,
+   "h": 169,
+   "kind": "bad",
+   "title": "Acetaminophen max 4 g/day",
+   "lines": []
+  },
+  {
+   "id": "neu_watch_0_0",
+   "x": 289,
+   "y": 1068,
+   "w": 232,
+   "h": 187,
+   "kind": "bad",
+   "title": "SEDATION: start low",
+   "lines": [
+    "• gabapentin 100 mg/day",
+    "• pregabalin 25 mg/day"
+   ]
+  },
+  {
+   "id": "neu_watch_1_0",
+   "x": 289,
+   "y": 1277,
+   "w": 232,
+   "h": 187,
+   "kind": "warn",
+   "title": "Raise every 4-7 days",
+   "lines": [
+    "1-2 weeks to work after each change"
+   ]
+  },
+  {
+   "id": "slp_watch_0_0",
+   "x": 533,
+   "y": 1068,
+   "w": 232,
+   "h": 168,
+   "kind": "warn",
+   "title": "10-50 mg daily",
+   "lines": [
+    "for pain and sleep (mood needs 100-150 mg)"
+   ]
+  },
+  {
+   "id": "slp_watch_1_0",
+   "x": 533,
+   "y": 1258,
+   "w": 232,
+   "h": 206,
+   "kind": "info",
+   "title": "Cannabinoid (pain, sleep, anxiety)",
+   "lines": [
+    "• high cannabidiol (CBD) to tetrahydrocannabinol (THC) ratio",
+    "• do NOT smoke or vape"
+   ]
+  },
+  {
+   "id": "mood_watch_0_0",
+   "x": 777,
+   "y": 1068,
+   "w": 232,
+   "h": 396,
+   "kind": "warn",
+   "title": "Duloxetine 60 mg/day for pain",
+   "lines": [
+    "mood: up to 120 mg"
+   ]
+  },
+  {
+   "id": "ref_watch_0_0",
+   "x": 1049,
+   "y": 1068,
+   "w": 232,
+   "h": 78,
+   "kind": "warn",
+   "title": "A · Monitor",
+   "lines": [
+    "• analgesia, activity, side effects",
+    "• aberrant behaviour"
+   ]
+  },
+  {
+   "id": "ref_watch_1_0",
+   "x": 1049,
+   "y": 1168,
+   "w": 232,
+   "h": 96,
+   "kind": "bad",
+   "title": "R · Restrict",
+   "lines": [
+    "history of addiction: strong recommendation AGAINST (under 20 mg morphine equivalent if used)"
+   ]
+  },
+  {
+   "id": "ref_watch_2_0",
+   "x": 1049,
+   "y": 1286,
+   "w": 232,
+   "h": 96,
+   "kind": "bad",
+   "title": "T · Terminate",
+   "lines": [
+    "addiction, misuse, poor effect",
+    "• taper 10%; slow by half once a third is left"
+   ]
+  },
+  {
+   "id": "ref_watch_3_0",
+   "x": 1049,
+   "y": 1404,
+   "w": 232,
+   "h": 60,
+   "kind": "warn",
+   "title": "Watchful dose",
+   "lines": [
+    "90 mg morphine equivalent/day"
+   ]
+  }
+ ],
+ "edges": [
+  {
+   "from": "root",
+   "to": "g_all",
+   "path": "M663.0 88V113H527.0V138"
+  },
+  {
+   "from": "root",
+   "to": "g_ref",
+   "path": "M663.0 88V113H1165.0V138"
+  },
+  {
+   "from": "g_all",
+   "to": "p_all"
+  },
+  {
+   "from": "noc_tx_0_0",
+   "to": "noc_tx_1_0"
+  },
+  {
+   "from": "mood_tx_0_0",
+   "to": "mood_tx_1_0"
+  },
+  {
+   "from": "ref_tx_0_0",
+   "to": "ref_tx_1_0"
+  },
+  {
+   "from": "noc_watch_0_0",
+   "to": "noc_watch_1_0"
+  },
+  {
+   "from": "neu_watch_0_0",
+   "to": "neu_watch_1_0"
+  },
+  {
+   "from": "slp_watch_0_0",
+   "to": "slp_watch_1_0"
+  },
+  {
+   "from": "ref_watch_0_0",
+   "to": "ref_watch_1_0"
+  },
+  {
+   "from": "ref_watch_1_0",
+   "to": "ref_watch_2_0"
+  },
+  {
+   "from": "ref_watch_2_0",
+   "to": "ref_watch_3_0"
+  },
+  {
+   "from": "noc_head_0_0",
+   "to": "noc_feat_0_0"
+  },
+  {
+   "from": "noc_feat_0_0",
+   "to": "noc_tx_0_0"
+  },
+  {
+   "from": "noc_tx_1_0",
+   "to": "noc_watch_0_0"
+  },
+  {
+   "from": "p_all",
+   "to": "noc_head_0_0",
+   "from_dx": -366
+  },
+  {
+   "from": "neu_head_0_0",
+   "to": "neu_feat_0_0"
+  },
+  {
+   "from": "neu_feat_0_0",
+   "to": "neu_tx_0_0"
+  },
+  {
+   "from": "neu_tx_0_0",
+   "to": "neu_watch_0_0"
+  },
+  {
+   "from": "p_all",
+   "to": "neu_head_0_0",
+   "from_dx": -122
+  },
+  {
+   "from": "slp_head_0_0",
+   "to": "slp_feat_0_0"
+  },
+  {
+   "from": "slp_feat_0_0",
+   "to": "slp_tx_0_0"
+  },
+  {
+   "from": "slp_tx_0_0",
+   "to": "slp_watch_0_0"
+  },
+  {
+   "from": "p_all",
+   "to": "slp_head_0_0",
+   "from_dx": 122
+  },
+  {
+   "from": "mood_head_0_0",
+   "to": "mood_feat_0_0"
+  },
+  {
+   "from": "mood_feat_0_0",
+   "to": "mood_tx_0_0"
+  },
+  {
+   "from": "mood_tx_1_0",
+   "to": "mood_watch_0_0"
+  },
+  {
+   "from": "p_all",
+   "to": "mood_head_0_0",
+   "from_dx": 366
+  },
+  {
+   "from": "ref_head_0_0",
+   "to": "ref_feat_0_0"
+  },
+  {
+   "from": "ref_feat_0_0",
+   "to": "ref_tx_0_0"
+  },
+  {
+   "from": "ref_tx_1_0",
+   "to": "ref_watch_0_0"
+  },
+  {
+   "from": "g_ref",
+   "to": "ref_head_0_0",
+   "from_dx": 0
+  }
+ ],
+ "panels": []
+}

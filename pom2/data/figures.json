@@ -24,11 +24,6 @@
   "src": "assets/figures/9e8f2ddcc6a0.jpg",
   "w": 2400
  },
- "Approach to CNS Infections (meningitis & encephalitis).png": {
-  "h": 1749,
-  "src": "assets/figures/50469dcf86fe.jpg",
-  "w": 2400
- },
  "Approach to Hypocalcemia and Hypercalcemia.png": {
   "h": 1364,
   "src": "assets/figures/c8525faf2e38.jpg",
@@ -73,11 +68,6 @@
   "h": 1890,
   "src": "assets/figures/8e3b139fd018.jpg",
   "w": 2400
- },
- "Cushing's triad mechanism.png": {
-  "h": 854,
-  "src": "assets/figures/ad77d6d61b11.jpg",
-  "w": 900
  },
  "Diagnosis of Adrenal Insufficiency.png": {
   "h": 1353,
@@ -474,11 +464,6 @@
   "src": "assets/figures/9f53c7c719a4.jpg",
   "w": 900
  },
- "basal ganglia indirect pathway - upper-year notes.jpg": {
-  "h": 532,
-  "src": "assets/figures/38cd87fcaf6d.jpg",
-  "w": 758
- },
  "basal-bolus insulin concept - mimicking the normal pancreas.png": {
   "h": 497,
   "src": "assets/figures/a392467bd1f1.jpg",
@@ -624,11 +609,6 @@
   "src": "assets/figures/97c74e409a2d.jpg",
   "w": 900
  },
- "cerebellar dysmetria finger-to-nose - upper-year notes.jpg": {
-  "h": 302,
-  "src": "assets/figures/860d7c88a5c0.jpg",
-  "w": 330
- },
  "cerebellum and basal ganglia overview.svg": {
   "h": 812,
   "src": "assets/figures/e11bc4aebfca.svg",
@@ -683,6 +663,11 @@
   "h": 553,
   "src": "assets/figures/fd6b76f9f397.jpg",
   "w": 900
+ },
+ "chronic pain overview.svg": {
+  "h": 1486,
+  "src": "assets/figures/3ee22e9156a1.svg",
+  "w": 1296
  },
  "circle of Willis - upper-year notes.jpg": {
   "h": 457,
@@ -748,11 +733,6 @@
   "h": 1408,
   "src": "assets/figures/25df0286a4cc.svg",
   "w": 1372
- },
- "consciousness spectrum.png": {
-  "h": 509,
-  "src": "assets/figures/f5b6307dcff4.jpg",
-  "w": 592
  },
  "contraception overview.svg": {
   "h": 1881,
@@ -1124,11 +1104,6 @@
   "src": "assets/figures/7315974375ac.svg",
   "w": 1460
  },
- "flexion and crossed extension reflex - upper-year notes.jpg": {
-  "h": 575,
-  "src": "assets/figures/8f51ca483e93.jpg",
-  "w": 342
- },
  "focal vs. generalized vs. unkown onset seizures.png": {
   "h": 504,
   "src": "assets/figures/ffd6bfcab153.jpg",
@@ -1439,11 +1414,6 @@
   "src": "assets/figures/95ab8b24f73d.jpg",
   "w": 900
  },
- "lateral corticospinal tract somatotopy.png": {
-  "h": 918,
-  "src": "assets/figures/9ae2f9676b33.jpg",
-  "w": 664
- },
  "leiomyoma sites and symptoms - submucosal anterior posterior.png": {
   "h": 634,
   "src": "assets/figures/69908c116e6a.jpg",
@@ -1498,11 +1468,6 @@
   "h": 272,
   "src": "assets/figures/89c1a0b73dec.jpg",
   "w": 738
- },
- "management of seizure.png": {
-  "h": 621,
-  "src": "assets/figures/0943d4fae85b.jpg",
-  "w": 900
  },
  "mechanical back and neck pain overview.svg": {
   "h": 1116,
@@ -1633,11 +1598,6 @@
   "h": 518,
   "src": "assets/figures/1906924516ad.jpg",
   "w": 900
- },
- "multiple ring-enhancing brain metastases on contrast MRI - upper-year notes.jpg": {
-  "h": 317,
-  "src": "assets/figures/47af9107ee08.jpg",
-  "w": 278
  },
  "multiple sclerosis lesions on T2 FLAIR and T1 MRI - upper-year notes.jpg": {
   "h": 331,
@@ -2109,6 +2069,11 @@
   "src": "assets/figures/6e62a499f8a4.jpg",
   "w": 700
  },
+ "psychological factors in chronic pain overview.svg": {
+  "h": 1098,
+  "src": "assets/figures/297c8ca3b121.svg",
+  "w": 1700
+ },
  "pupillary light reflex pathway - upper-year notes.jpg": {
   "h": 497,
   "src": "assets/figures/1d50873a3974.jpg",
@@ -2163,11 +2128,6 @@
   "h": 1050,
   "src": "assets/figures/57350725e375.svg",
   "w": 1124
- },
- "ring-enhancing brain metastases MRI - upper-year notes.jpg": {
-  "h": 317,
-  "src": "assets/figures/47af9107ee08.jpg",
-  "w": 278
  },
  "rotator cuff disease overview.svg": {
   "h": 1098,
@@ -2359,11 +2319,6 @@
   "src": "assets/figures/c525f1887fd4.jpg",
   "w": 640
  },
- "stepped approach for opioid trial.png": {
-  "h": 774,
-  "src": "assets/figures/c9eb01646f12.jpg",
-  "w": 900
- },
  "stocking and glove distribution.png": {
   "h": 1328,
   "src": "assets/figures/53fe2f699ece.jpg",
@@ -2428,11 +2383,6 @@
   "h": 483,
   "src": "assets/figures/685829a871ec.jpg",
   "w": 621
- },
- "thalamic nuclei.png": {
-  "h": 930,
-  "src": "assets/figures/b03604730a18.jpg",
-  "w": 900
  },
  "three sources of thyrotoxicosis - production, release of preformed hormone, exogenous - upper-year notes.jpg": {
   "h": 301,
@@ -2598,11 +2548,6 @@
   "h": 1828,
   "src": "assets/figures/9967944db99f.svg",
   "w": 1284
- },
- "vascular localization of stroke.png": {
-  "h": 1243,
-  "src": "assets/figures/8295e16ef818.jpg",
-  "w": 900
  },
  "vasculitis overview.svg": {
   "h": 1552,

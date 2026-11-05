@@ -2415,17 +2415,6 @@ body.has-dialog{overflow:hidden;}
 
 .figblock:hover .fig-open{border-color:var(--muted);}
 .fig-live{right:auto;left:8px;text-decoration:none;}
-
-/* an MSK chart is its interactive page, in a frame: the drawn chart behind it
-   is what prints and what "Open full size" opens */
-.fig-tools{display:flex;flex-wrap:wrap;justify-content:flex-end;gap:6px;margin:0 0 6px;}
-.has-live .fig-open{position:static;}
-.fig-frame{display:block;width:100%;border:0;background:transparent;}
-.has-live .fig{display:none;}
-@media print{
-    .has-live .fig-frame,.fig-tools{display:none;}
-    .has-live .fig{display:block;}
-}
 .fig-open:hover{color:var(--q-accent-text);border-color:var(--q-accent);}
 
 .workup{
@@ -3722,3 +3711,67 @@ select.ps:disabled{cursor:default;opacity:1;}
 @media print{
     .insights{display:none !important;}
 }
+
+/* ---------- the landing page's search of the whole portal (search.js) ---------- */
+
+.hub-search{margin:0 0 24px;}
+/* the placeholder says what the box is; the label stays for screen readers */
+.hs-label{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap;}
+.hub-search input[type="search"]{
+    width:100%;
+    padding:11px 14px;
+    font:inherit;
+    font-size:1rem;
+    color:var(--text);
+    background:var(--bg);
+    border:1px solid var(--border);
+    border-radius:8px;
+}
+.hub-search input[type="search"]:focus{border-color:var(--q-accent);outline:none;box-shadow:0 0 0 3px var(--q-accent-soft);}
+.hs-filters{display:flex;flex-wrap:wrap;align-items:flex-start;gap:14px 26px;margin-top:16px;}
+.hs-group[hidden]{display:none;}
+.hs-group .panel-h{margin-bottom:6px;}
+.hs-group .chip[hidden]{display:none;}
+.hs-reset{
+    align-self:flex-end;
+    padding:6px 0;
+    font:inherit;
+    font-size:.8rem;
+    color:var(--q-accent-text);
+    background:none;
+    border:0;
+    text-decoration:underline;
+    cursor:pointer;
+}
+.hs-reset[hidden]{display:none;}
+.hs-count{margin:14px 0 0;color:var(--muted);font-size:.85rem;}
+.hs-count:empty{display:none;}
+.hs-results{list-style:none;margin:10px 0 0;padding:0;}
+.hs-hit + .hs-hit{border-top:1px solid var(--border);}
+.hs-hit a{display:block;padding:11px 4px;color:var(--text);text-decoration:none;}
+.hs-hit a:hover .hs-title{color:var(--q-accent-text);text-decoration:underline;}
+.hs-meta{display:block;font-size:.75rem;color:var(--muted);margin-bottom:3px;}
+.hs-src{
+    display:inline-block;
+    padding:1px 7px;
+    margin-right:4px;
+    font-size:.68rem;
+    font-weight:600;
+    letter-spacing:.04em;
+    text-transform:uppercase;
+    color:var(--q-accent-ink);
+    background:var(--q-accent-soft);
+    border-radius:999px;
+}
+.hs-title{display:block;font-weight:600;line-height:1.35;}
+.hs-snip{display:block;margin-top:3px;font-size:.86rem;line-height:1.5;color:var(--muted);overflow-wrap:anywhere;}
+.hs-hit mark{background:var(--q-accent-soft);color:inherit;padding:0 1px;border-radius:2px;}
+.hs-more{margin-top:12px;text-align:center;}
+.hs-more[hidden]{display:none;}
+
+/* the question a link from the landing page's search landed on */
+.q.is-linked{box-shadow:0 0 0 2px var(--q-accent);}
+
+/* "Save every note as one PDF", in the corner of the notes' heading */
+.fam-title{display:flex;align-items:baseline;flex-wrap:wrap;gap:8px 14px;}
+.fam-title h2{flex:1;}

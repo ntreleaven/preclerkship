@@ -92,6 +92,7 @@ tools/portal.py       the course roster: blocks, families, accents, store keys; 
 tools/roman_items.py  a repair pass: item lists read as options, put back in the stem
 tools/build_pages.py  every course's block pages AND its question bank
 tools/build_index.py  every course's landing page
+tools/build_search.py the index behind the front door's search of everything (search.json, read by search.js)
 tools/build_hub.py    the front door
 tools/build_anki.py   a block's deck out of Anki, plus the manifest its tab reads
 tools/question_figures.py  question pictures out of the JSON and into assets/figures/
@@ -162,7 +163,8 @@ python tools/note_links.py               # terms in each explanation -> the note
 
 python tools/build_pages.py             # every course's block pages + question bank
 python tools/build_index.py             # every course's landing page
-python tools/build_hub.py               # the hub and its totals
+python tools/build_search.py            # search.json: every question, note, chart, clinical skills card
+python tools/build_hub.py               # the hub and its totals (after build_search.py)
 
 python tools/vault_backup.py charts      # FoM/PoM 1 curated notes -> vault charts (new ones only)
 python tools/vault_backup.py questions   # every bank the vault lacks -> 00 - Practice Questions

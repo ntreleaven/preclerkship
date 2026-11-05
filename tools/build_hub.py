@@ -4,10 +4,11 @@
 Purpose: the root landing page of the pre-clerkship portal.
 Author:  Noor Sims
 Date:    2026-09-21
-Input:   tools/portal.py and each course's data/
+Input:   tools/portal.py, each course's data/, and search.json (tools/build_search.py)
 Output:  index.html
 
-Run from the repo root, last. A course's card opens its first block, not a course page:
+Run from the repo root, last, after build_search.py (the search box's index is stamped
+with that file's hash). A course's card opens its first block, not a course page:
 every block page's bar reaches the other blocks and the question bank, so a course page
 was one more click with nothing on it the bar does not already give. A course with
 nothing in it still gets a card,
@@ -88,7 +89,7 @@ TEMPLATE = u"""<!DOCTYPE html>
 
 <main id="content" tabindex="-1">
 
-<div class="page-hero">
+<div class="page-hero compact">
 <div class="hero-corner">
 {presence}
 {toggle}
@@ -99,6 +100,16 @@ A centralized, dynamic, up-to-date resource for all Schulich med students in
 pre-clerkship.
 </p>
 </div>
+
+<section class="hub-search" id="hub-search" data-index="{search_json}" aria-label="Search the whole portal">
+<label class="hs-label" for="hs-q">Search everything</label>
+<input type="search" id="hs-q" placeholder="Search everything: questions, lecture notes, charts, clinical skills" autocomplete="off" spellcheck="false" title="Every word must appear. Press / to jump here, Escape to clear.">
+<div class="hs-filters" id="hs-filters" hidden></div>
+<p class="hs-count" id="hs-count" aria-live="polite"></p>
+<ol class="hs-results" id="hs-results"></ol>
+<button class="print-cta hs-more" id="hs-more" type="button" hidden>Show more</button>
+</section>
+<script defer src="{search_js}"></script>
 
 <div class="block-grid hub-grid">
 {cards}
@@ -270,6 +281,8 @@ def main():
         favicon=portal.favicon("PC", "4f2683", ""), fonts=portal.FONTS, nocache=portal.NOCACHE,
         base_css="base.css?v=" + portal.digest("base.css"),
         portal_css="portal.css?v=" + portal.digest("portal.css"),
+        search_json="search.json?v=" + portal.digest("search.json"),
+        search_js="search.js?v=" + portal.digest("search.js"),
         cf=portal.CF + portal.sync_tag(""), cards=cards(), footer=portal.footer(),
         theme=portal.THEME_SCRIPT, toggle=portal.THEME_BTN, still=portal.STILL_URL,
         presence=portal.PRESENCE_SLOT if portal.PRESENCE_URL else "")

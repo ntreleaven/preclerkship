@@ -2011,12 +2011,59 @@
       });
       if (want.length) filters.block = want;
     }
+    /* one question, from the landing page's search of the whole portal: the
+       block comes along in the same address, and start() lands on it */
+    var q = /(?:^|[#&])q=([A-Za-z0-9_.:-]+)/.exec(h);
+    LINKED = q ? q[1] : null;
     var l = /(?:^|[#&])lecture=([w0-9.,-]+)/i.exec(h);
     if (l) {
       filters.lecture = l[1].split(",").filter(function (k) {
         return /^w\d+-\d+(\.\d+)?$/i.test(k);
       }).map(function (k) { return k.replace("-", ":"); });
     }
+  }
+
+  var LINKED = null;                 // the question a link asked for
+
+  /* Called once the stream is built. A question the filters hide (a status
+     filter kept from last time) is let through by clearing them; one the
+     bank no longer has leaves the page as it was. */
+  function landOnLinked() {
+    var qid = LINKED;
+    LINKED = null;
+    if (!qid || !QMAP[qid]) return;
+    if (!matches(qid)) {
+      var blocks = filters.block;
+      clearFilters();
+      filters.block = blocks;
+      applyFilters();
+    }
+    if (VIEW === "paged") {
+      pageIdx = Math.max(0, inPlayIds().indexOf(qid));
+      applyFilters();
+    }
+    ANCHOR = qid; RESUMING = false;
+    var art = byId("q-" + qid);
+    if (!art) return;
+    art.classList.add("is-linked");
+    CURRENT = qid;
+    /* The stream is still growing under the jump (pictures and diagrams
+       arriving above the question push it down), so one scroll lands short.
+       It jumps rather than glides, and re-aims until the question holds
+       still, for a few seconds at most; the reader scrolling or pressing a
+       key ends it at once. */
+    var tries = 0, stop = false;
+    function quit() { stop = true; }
+    ["wheel", "touchstart", "keydown", "mousedown"].forEach(function (ev) {
+      window.addEventListener(ev, quit, { once: true, passive: true });
+    });
+    (function aim() {
+      if (stop) return;
+      var top = art.getBoundingClientRect().top;
+      if (Math.abs(top - 16) > 2) window.scrollTo(0, top + window.pageYOffset - 16);
+      if (++tries < 16) window.setTimeout(aim, 250);
+      else paintPos();
+    })();
   }
 
   function writeHash() {
@@ -4014,6 +4061,7 @@
     applyFilters();
     QUESTIONS.forEach(function (q) { paintQuestion(q.qid); });
     initPos();
+    landOnLinked();
     /* An edit still inside its pause is saved when the page goes away.
        visibilitychange as well as pagehide: a phone can discard a tab it
        has hidden without ever firing pagehide. */

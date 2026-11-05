@@ -6452,10 +6452,10 @@
      "blocks": [
       {
        "t": "figure",
-       "src": "assets/figures/5e2040753ddc.svg",
+       "src": "assets/figures/33b8d61f09b8.svg",
        "alt": "fracture management overview.svg",
-       "w": 1700,
-       "h": 1428,
+       "w": 1928,
+       "h": 1442,
        "interactive": "charts/msk-w10-05_2/"
       },
       {
@@ -6517,7 +6517,7 @@
         [
          "<mark class=\"lo\"><strong>Post-traumatic arthritis</strong></mark>",
          "Arthritis after a peri-articular fracture",
-         "Uncommon in hip and knee, <strong>over 50% after ankle fractures</strong> · pain on weight-bearing, less motion · managed like osteoarthritis: pain control, physiotherapy to keep mobility, surgery if all else fails"
+         "Uncommon in hip and knee, <strong>over 50% after ankle fractures</strong>, the <strong>most common cause of ankle arthritis</strong> · pain on weight-bearing, less motion · managed like osteoarthritis: pain control, physiotherapy to keep mobility, surgery if all else fails"
         ],
         [
          "<mark class=\"lo\"><strong>Heterotopic ossification</strong></mark>",

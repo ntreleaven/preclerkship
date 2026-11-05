@@ -1,12 +1,12 @@
 {
- "bytes": 24022821,
- "cards": 652,
+ "bytes": 22351245,
+ "cards": 591,
  "deck": "PoM2::Block 3",
- "draft": "Weeks 10-11, split from the Weeks 7-9 deck to keep each file under GitHub's size limit. Both import as PoM2::Block 3, so they sit together in Anki. Week 10 follows this year's lectures and is checked against this year's slides, with AI-made cards for gaps (tagged AI_added) and a deck for the Soft Tissue Syndromes & Nerve Injuries DSSG (tagged dssg). Week 11 (rheumatology) is Christina's cards sorted into this year's lectures, not yet checked against the slides; Rheumatology Treatments sits there until it is scheduled. Marks: nice_to_know (greyed out on the slides), not_in_2026_slides (lower priority), slide_mismatch (a note says what the slides say).",
+ "draft": "Weeks 10-11, split from the Weeks 7-9 deck to keep each file under GitHub's size limit. Both import as PoM2::Block 3, so they sit together in Anki. Week 10 follows this year's lectures and is checked against this year's slides, with AI-made cards for gaps (tagged AI_added) and a deck for the Soft Tissue Syndromes & Nerve Injuries DSSG (tagged dssg). Week 11 (rheumatology) is Christina's cards sorted into this year's lectures, not yet checked against the slides. Rheumatology investigations, treatments and body pain (fibromyalgia) are in the Week 12 download, not here. Marks: nice_to_know (greyed out on the slides), not_in_2026_slides (lower priority), slide_mismatch (a note says what the slides say).",
  "file": "anki/msk-2.apkg",
- "highyield": 155,
+ "highyield": 143,
  "label": "weeks 10-11",
- "notes": 580,
+ "notes": 525,
  "weeks": [
   {
    "lectures": [
@@ -47,10 +47,10 @@
      "notes": 21
     },
     {
-     "cards": 63,
-     "highyield": 24,
+     "cards": 52,
+     "highyield": 21,
      "name": "07 - Understanding & Managing Chronic Pain",
-     "notes": 51
+     "notes": 43
     },
     {
      "cards": 31,
@@ -94,10 +94,10 @@
      "notes": 34
     },
     {
-     "cards": 30,
-     "highyield": 9,
+     "cards": 25,
+     "highyield": 7,
      "name": "03 - Approach to Polyarthritis",
-     "notes": 25
+     "notes": 21
     },
     {
      "cards": 25,
@@ -118,22 +118,16 @@
      "notes": 16
     },
     {
-     "cards": 55,
-     "highyield": 24,
+     "cards": 44,
+     "highyield": 23,
      "name": "07 - Connective Tissue Disorders",
-     "notes": 45
+     "notes": 35
     },
     {
      "cards": 46,
      "highyield": 13,
      "name": "08 - Vasculitis",
      "notes": 40
-    },
-    {
-     "cards": 34,
-     "highyield": 6,
-     "name": "09 - Rheumatology Treatments",
-     "notes": 33
     }
    ],
    "week": "Week 11"

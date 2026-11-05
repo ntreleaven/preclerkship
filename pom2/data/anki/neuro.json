@@ -1,11 +1,11 @@
 {
- "bytes": 26265535,
- "cards": 620,
+ "bytes": 23407991,
+ "cards": 615,
  "deck": "PoM2::Block 4",
  "draft": "Built from upper-year Christina's Anki deck. Not yet checked against this year's lecture slides.",
  "file": "anki/neuro.apkg",
- "highyield": 157,
- "notes": 566,
+ "highyield": 152,
+ "notes": 561,
  "weeks": [
   {
    "lectures": [
@@ -46,10 +46,10 @@
      "notes": 19
     },
     {
-     "cards": 27,
-     "highyield": 21,
+     "cards": 22,
+     "highyield": 16,
      "name": "09 - Approach to Weakness",
-     "notes": 26
+     "notes": 21
     },
     {
      "cards": 20,

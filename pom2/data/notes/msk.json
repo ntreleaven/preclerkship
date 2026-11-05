@@ -6511,6 +6511,14 @@
      "keypoints": "<p>⭐ <strong>Chronic pain is mostly sensitized (neuropathic) pain that outlasts the injury, so \"hurt does not equal harm\" and the treatment with good evidence is individualized, supervised exercise, not passive therapy.</strong> <strong>Massage helps only alongside exercise and education.</strong> <strong>SSRIs do little for pain; tricyclics and SNRIs (norepinephrine) do.</strong> <strong>Gabapentin and pregabalin are for neuropathic pain; their main side effect is sedation.</strong> <strong>NSAIDs: a 2-3 week trial.</strong> <strong>Adjuvants before opioids; watchful opioid dose 90 mg morphine equivalent per day; strong recommendation against opioids after addiction.</strong></p>",
      "blocks": [
       {
+       "t": "figure",
+       "src": "assets/figures/3ee22e9156a1.svg",
+       "alt": "chronic pain overview.svg",
+       "w": 1296,
+       "h": 1486,
+       "interactive": "charts/msk-w10-06_2/"
+      },
+      {
        "t": "note",
        "html": "<h5>1. How pain normally travels and is turned up or down</h5>"
       },
@@ -6618,15 +6626,7 @@
       },
       {
        "t": "note",
-       "html": "<h5>4. The approach to chronic pain</h5>"
-      },
-      {
-       "t": "pathway",
-       "mermaid": "flowchart TD\n    A[\"Pain lasting over 3 months\"] --> B[\"Acute phase: fully investigate and treat the injury<br/>then early return to low-impact activity, daily activities and walking\"]\n    B --> C{\"Ongoing nociceptive source?<br/>e.g. inflammatory disease, osteoarthritis\"}\n    C -->|\"Yes - chronic nociceptive (minority)\"| D[\"Investigate and manage it<br/>prevent further nociceptive activation\"]\n    C -->|\"No - sensitized or neuropathic (majority)\"| E[\"Educate: HURT DOES NOT EQUAL HARM<br/>active therapy: exercise, pacing, cognitive behavioural therapy\"]\n    D --> F[\"Multimodal drug plan, short trials<br/>adjuvant drugs before opioids<br/>start low, go slow, monitor side effects and effect\"]\n    E --> F\n    F --> G{\"Not responding · activity limited<br/>socially isolated · leaning on medication?\"}\n    G -->|No| H[\"Family physician continues<br/>keep educating about pain and activity\"]\n    G -->|Yes| I[\"Refer to a multidisciplinary chronic pain clinic\"]\n    I --> J[\"Opioid trial only after adjuvants<br/>START principle\"]"
-      },
-      {
-       "t": "note",
-       "html": "<h5>5. The team</h5>"
+       "html": "<h5>4. The team</h5>"
       },
       {
        "t": "list",
@@ -6634,7 +6634,7 @@
       },
       {
        "t": "note",
-       "html": "<h5>6. Non-drug management</h5>"
+       "html": "<h5>5. Non-drug management</h5>"
       },
       {
        "t": "list",
@@ -6642,7 +6642,7 @@
       },
       {
        "t": "note",
-       "html": "<h5>7. Drugs for chronic pain</h5>"
+       "html": "<h5>6. Drugs for chronic pain</h5>"
       },
       {
        "t": "table",
@@ -6718,7 +6718,7 @@
       },
       {
        "t": "note",
-       "html": "<h5>8. Opioids: the START principle</h5>"
+       "html": "<h5>7. Opioids: the START principle</h5>"
       },
       {
        "t": "list",
@@ -6735,6 +6735,14 @@
      "title": "Psychological factors in managing chronic pain",
      "keypoints": "<p>⭐ <strong>Factitious disorder: behaviour conscious, gain unconscious (the sick role); malingering: conscious, for external gain; somatic symptom disorders: unconscious inner gain.</strong> <strong>Somatic symptom disorder = distressing symptoms + excessive thoughts, feelings or behaviours, over 6 months.</strong> <strong>Conversion disorder needs findings incompatible with known disease.</strong> <strong>Medically unexplained symptoms reach over 60% in neurology.</strong> <strong>CBT for pain targets mental filter, catastrophizing and emotional reasoning; avoid progressive muscle relaxation.</strong> <strong>Intervene before 12 weeks.</strong></p>",
      "blocks": [
+      {
+       "t": "figure",
+       "src": "assets/figures/297c8ca3b121.svg",
+       "alt": "psychological factors in chronic pain overview.svg",
+       "w": 1700,
+       "h": 1098,
+       "interactive": "charts/msk-w10-07_2/"
+      },
       {
        "t": "note",
        "html": "<h5>1. Assessing chronic pain</h5>"
@@ -6774,10 +6782,6 @@
       {
        "t": "list",
        "html": "<ul><li>Pain links to: emotional and cognitive aspects of pain · <strong>comorbid psychological symptoms</strong> · <span class=\"wl\">adjustment disorder</span> · <strong>psychological factors affecting other medical conditions</strong> · <strong>somatic symptom disorder</strong></li><li><strong>Medically unexplained symptoms</strong> = persistent bodily complaints that adequate examination does not explain with structural or other specific disease<ul><li>common: <strong>15-25% in primary care · 39-52% in specialist clinics · over 60% in neurology</strong></li><li>three kinds: pain in different places · disturbed organ function · fatigue or exhaustion</li><li>causes: physiological disturbance · emotional problems · disease not yet diagnosed</li></ul></li><li><strong>Functional somatic syndromes</strong>: <span class=\"wl\">irritable bowel syndrome</span>, chronic fatigue syndrome, <span class=\"wl\">fibromyalgia</span> · more often <strong>female</strong> · overlap with anxiety and depression</li><li><strong>Somatic symptom and related disorders</strong> (Diagnostic and Statistical Manual of Mental Disorders, 5th edition (DSM-5)): more accurate diagnosis (old categories overlapped) · usable outside psychiatry · <strong>moves away from mind-body dualism and the idea that symptoms are \"not real\"</strong> · focus on distressing symptoms with abnormal thoughts, feelings and behaviours<ul><li>the group: somatic symptom disorder · illness anxiety disorder · conversion disorder (functional neurological symptom disorder) · psychological factors affecting other medical conditions · factitious disorder</li></ul></li></ul>"
-      },
-      {
-       "t": "pathway",
-       "mermaid": "flowchart TD\n    A[\"Patient with chronic pain\"] --> B{\"Distressing symptoms with<br/>abnormal thoughts, feelings, behaviours?\"}\n    B -->|No| C[\"Chronic pain<br/>multimodal, multidisciplinary care\"]\n    B -->|Yes| D{\"What fits?\"}\n    D -->|\"Excessive thoughts, feelings or behaviours<br/>about symptoms, over 6 months\"| G[\"Somatic symptom disorder\"]\n    D -->|\"Altered motor or sensory function<br/>incompatible with known disease\"| H[\"Conversion disorder<br/>(functional neurological symptom disorder)\"]\n    D -->|\"Presents self or another as ill\"| I{\"Motivated by external gain?\"}\n    I -->|No - sick role| J[\"Factitious disorder\"]\n    I -->|Yes| K[\"Malingering\"]"
       },
       {
        "t": "table",

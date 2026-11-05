@@ -230,7 +230,9 @@
 
   function href(r) {
     if (r[0] === "q") return r[1] + "/qbank.html#block=" + r[2] + "&q=" + encodeURIComponent(r[7]);
-    if (r[0] === "n") return r[1] + "/" + r[2] + ".html#n-" + encodeURIComponent(r[7]);
+    // the words ride along so the note opens on the first place they appear, highlighted
+    if (r[0] === "n") return r[1] + "/" + r[2] + ".html#n-" + encodeURIComponent(r[7]) +
+      "&q=" + encodeURIComponent(words().join(" "));
     return r[7];
   }
 

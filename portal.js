@@ -18,13 +18,11 @@
     notes: {
       tab: "tab-notes",
       panel: "panel-notes",
-      board: "sb-notes",
       boot: function () { if (window.POM2_NOTES) window.POM2_NOTES.boot(); }
     },
     anki: {
       tab: "tab-anki",
       panel: "panel-anki",
-      board: null,          /* the scoreboard counts answers; a deck has none */
       boot: function () {}
     }
   };
@@ -1222,13 +1220,7 @@
          between them (see init) */
       byId(t.tab).tabIndex = on ? 0 : -1;
       byId(t.panel).hidden = !on;
-      if (t.board) byId(t.board).hidden = !on;
     });
-    if (!TABS[key].board) {
-      Object.keys(TABS).forEach(function (k) {
-        if (TABS[k].board) byId(TABS[k].board).hidden = true;
-      });
-    }
     TABS[key].boot();
   }
 

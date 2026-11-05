@@ -18,7 +18,7 @@ A row is a list, not an object, because the keys would be most of the file:
 source is "q" (question), "n" (lecture note), "c" (interactive chart) or "k" (clinical
 skills). text is what the search reads; the page cuts its snippet from it. target is the
 question's id or the note's key, which search.js builds the link from, and for a chart or a
-clinical skills card the address itself.
+clinical skills card the address itself (a card's lands on its heading).
 """
 
 import html
@@ -27,6 +27,7 @@ import json
 import os
 import re
 import sys
+from urllib.parse import quote
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import portal
@@ -147,8 +148,12 @@ def clinical_skills():
             h = re.search(r"<h4>(.*?)</h4>", card, re.S)
             if not h:
                 continue
-            title = "%s · %s" % (exam, plain(h.group(1)))
-            rows.append(["k", "cs", page, 0, "", title, plain(card)[:1500], "%s/" % page])
+            name = plain(h.group(1))
+            title = "%s · %s" % (exam, name)
+            # a text fragment: the browser scrolls to the card's heading and highlights it
+            # (a dash is the fragment's own separator, so it is escaped too)
+            spot = quote(name, safe="").replace("-", "%2D")
+            rows.append(["k", "cs", page, 0, "", title, plain(card)[:1500], "%s/#:~:text=%s" % (page, spot)])
     return rows
 
 

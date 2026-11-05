@@ -244,16 +244,22 @@
 
   /* the same scroll the questions tab does, so a jump from the rail and a jump
      from the position bar put a note in the same place */
-  function goTo(id) {
+  /* spot, when given, is a word inside the note to land on instead of the
+     note's top, held mid-screen so the sentence around it is in view */
+  function goTo(id, spot) {
     var art = byId("n-" + id);
     if (!art) return;
+    var at = spot || art;
+    function gap() {
+      return spot ? (window.innerHeight - spot.getBoundingClientRect().height) / 2 : 16;
+    }
     PENDING = id;
     mark(id);
     var still = window.matchMedia &&
       window.matchMedia("(prefers-reduced-motion: reduce)").matches;
 
     function aim(smooth) {
-      var top = art.getBoundingClientRect().top + window.pageYOffset - 16;
+      var top = Math.max(0, at.getBoundingClientRect().top + window.pageYOffset - gap());
       try { window.scrollTo({ top: top, behavior: smooth ? "smooth" : "auto" }); }
       catch (e) { window.scrollTo(0, top); }
     }
@@ -272,7 +278,7 @@
       var y = window.pageYOffset;
       if (y !== lastY) { lastY = y; quiet = 0; }
       else if (++quiet >= 6) {
-        var off = art.getBoundingClientRect().top - 16;
+        var off = at.getBoundingClientRect().top - gap();
         var atEnd = off > 0 &&
           y + window.innerHeight >= document.documentElement.scrollHeight - 1;
         if (Math.abs(off) < 2 || atEnd || ++tries > 8) { SETTLE = null; return; }
@@ -593,15 +599,6 @@
 
   function paintCoverage() {
     var c = counts();
-    var weeksWith = WEEKS.filter(function (w) {
-      return (w.lectures || []).some(written);
-    }).length;
-
-    byId("cv-notes").textContent = c.written;
-    byId("cv-of").textContent = "/" + c.all;
-    byId("cv-weeks").textContent = weeksWith;
-    byId("cv-weeks-of").textContent = "/" + WEEKS.length;
-
     var tc = byId("tc-notes");
     if (tc) tc.textContent = c.written + "/" + c.all;
 
@@ -706,8 +703,6 @@
        open by saying what they are rather than dropping straight into week 1 */
     var c = counts();
     var head = el("div", "fam-head");
-    head.appendChild(el("p", "fam-meta",
-      c.written ? c.written + " of " + c.all + " lectures" : "nothing written yet"));
     /* the whole block as one PDF, in the heading's corner where the eye goes
        looking for it, rather than at the foot of the sidebar */
     var title = el("div", "fam-title");
@@ -827,7 +822,9 @@
 
   /* ---------- a link straight to one note ---------- */
 
-  /* b1.html#n-b1-w1-02 lands on that lecture. Read once the stream is built,
+  /* b1.html#n-b1-w1-02 lands on that lecture, and b1.html#n-b1-w1-02&q=thyroid
+     storm (the landing page's search) on the first place in it those words
+     appear, highlighted. Read once the stream is built,
      again once the pathways have drawn because drawing swaps text for taller
      diagrams and moves everything below them, and again on every hashchange,
      because a same-document hash change never reloads the page and boot runs
@@ -835,17 +832,53 @@
      better than a scroll to nowhere. */
   function wantedNote() {
     var h = window.location.hash || "";
-    return h.indexOf("#n-") === 0 ? h.slice(3) : null;
+    if (h.indexOf("#n-") !== 0) return null;
+    var parts = h.slice(3).split("&q=");
+    var q = "";
+    try { q = parts[1] ? decodeURIComponent(parts[1]) : ""; } catch (e) {}
+    return { id: parts[0], q: q };
+  }
+
+  var LANDED = { hash: null, spot: null };   // the word a search link was marked on, once per link
+
+  /* the search link's words painted inside the one note, and the first of them;
+     the next search in the sidebar clears them like any other marks */
+  function spotFor(art, q) {
+    if (LANDED.hash === window.location.hash) return LANDED.spot;
+    LANDED.hash = window.location.hash;
+    LANDED.spot = null;
+    var s = search();
+    if (!q || !s) return null;
+    unmark();
+    markHits(art, s.words(q.toLowerCase()), s.MARK_BUDGET);
+    HITS = [].slice.call(art.querySelectorAll("mark.hit"));
+    /* the first place the words sit together (one sentence, list item or table
+       row), else simply the first of them */
+    var words = s.words(q.toLowerCase());
+    AT_HIT = HITS.length ? 0 : -1;
+    for (var i = 0; i < HITS.length; i++) {
+      var near = HITS[i].closest("p, li, tr, h3, h4, figcaption") || HITS[i].parentNode;
+      var text = (near.textContent || "").toLowerCase();
+      if (words.every(function (w) { return text.indexOf(w) !== -1; })) { AT_HIT = i; break; }
+    }
+    if (AT_HIT >= 0) {
+      HITS[AT_HIT].classList.add("on");
+      LANDED.spot = HITS[AT_HIT];
+    }
+    return LANDED.spot;
   }
 
   function goToWanted() {
-    var id = wantedNote();
-    var art = id ? byId("n-" + id) : null;
+    var want = wantedNote();
+    var art = want ? byId("n-" + want.id) : null;
     if (!art) return;
-    /* 16 is the offset goTo aims for; already there means the earlier scroll
-       landed, and scrolling again would only restart it */
-    if (Math.abs(art.getBoundingClientRect().top - 16) < 2) return;
-    goTo(id);
+    var spot = spotFor(art, want.q);
+    /* already where goTo aims means the earlier scroll landed, and scrolling
+       again would only restart it */
+    var at = spot || art;
+    var gap = spot ? (window.innerHeight - spot.getBoundingClientRect().height) / 2 : 16;
+    if (Math.abs(at.getBoundingClientRect().top - gap) < 2) return;
+    goTo(want.id, spot);
   }
 
   function start(data) {

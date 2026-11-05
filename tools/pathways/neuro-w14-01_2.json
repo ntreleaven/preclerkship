@@ -1,0 +1,725 @@
+{
+ "name": "head injury overview",
+ "width": 1384,
+ "title": "A head injury is a trauma patient first: the primary survey and the Glasgow Coma Scale grade it; a severe injury is acted on for herniation and sent for a STAT CT, which tells epidural, acute subdural, contusion, intracerebral hemorrhage and diffuse axonal injury or traumatic subarachnoid hemorrhage apart, each with its own surgical rule; a concussion is a clinical diagnosis managed by removal, rest and a graded return",
+ "kinds": {
+  "edh_h": [
+   "#1f6f8b",
+   "#1f6f8b",
+   "#ffffff",
+   "#ffffff"
+  ],
+  "edh_t": [
+   "#dceef4",
+   "#1f6f8b",
+   "#1f6f8b",
+   "#18212e"
+  ],
+  "edh_w": [
+   "#ffffff",
+   "#1f6f8b",
+   "#1f6f8b",
+   "#18212e"
+  ],
+  "sdh_h": [
+   "#6a4aa8",
+   "#6a4aa8",
+   "#ffffff",
+   "#ffffff"
+  ],
+  "sdh_t": [
+   "#ebe4f7",
+   "#6a4aa8",
+   "#6a4aa8",
+   "#18212e"
+  ],
+  "sdh_w": [
+   "#ffffff",
+   "#6a4aa8",
+   "#6a4aa8",
+   "#18212e"
+  ],
+  "cont_h": [
+   "#b5600f",
+   "#b5600f",
+   "#ffffff",
+   "#ffffff"
+  ],
+  "cont_t": [
+   "#fbe8d3",
+   "#b5600f",
+   "#b5600f",
+   "#18212e"
+  ],
+  "cont_w": [
+   "#ffffff",
+   "#b5600f",
+   "#b5600f",
+   "#18212e"
+  ],
+  "ich_h": [
+   "#1f5f9e",
+   "#1f5f9e",
+   "#ffffff",
+   "#ffffff"
+  ],
+  "ich_t": [
+   "#dde9f7",
+   "#1f5f9e",
+   "#1f5f9e",
+   "#18212e"
+  ],
+  "ich_w": [
+   "#ffffff",
+   "#1f5f9e",
+   "#1f5f9e",
+   "#18212e"
+  ],
+  "dai_h": [
+   "#a3336b",
+   "#a3336b",
+   "#ffffff",
+   "#ffffff"
+  ],
+  "dai_t": [
+   "#f8e0ec",
+   "#a3336b",
+   "#a3336b",
+   "#18212e"
+  ],
+  "dai_w": [
+   "#ffffff",
+   "#a3336b",
+   "#a3336b",
+   "#18212e"
+  ],
+  "conc_h": [
+   "#4f6d1f",
+   "#4f6d1f",
+   "#ffffff",
+   "#ffffff"
+  ],
+  "conc_t": [
+   "#e7eed9",
+   "#4f6d1f",
+   "#4f6d1f",
+   "#18212e"
+  ],
+  "conc_w": [
+   "#ffffff",
+   "#4f6d1f",
+   "#4f6d1f",
+   "#18212e"
+  ]
+ },
+ "bands": [
+  {
+   "x": 40,
+   "y": 460,
+   "w": 216,
+   "h": 688,
+   "fill": "#eef7fa",
+   "stroke": "#1f6f8b"
+  },
+  {
+   "x": 258,
+   "y": 460,
+   "w": 216,
+   "h": 688,
+   "fill": "#f5f1fb",
+   "stroke": "#6a4aa8"
+  },
+  {
+   "x": 476,
+   "y": 460,
+   "w": 216,
+   "h": 688,
+   "fill": "#fdf4ea",
+   "stroke": "#b5600f"
+  },
+  {
+   "x": 694,
+   "y": 460,
+   "w": 216,
+   "h": 688,
+   "fill": "#eff5fc",
+   "stroke": "#1f5f9e"
+  },
+  {
+   "x": 912,
+   "y": 460,
+   "w": 216,
+   "h": 688,
+   "fill": "#fcf0f6",
+   "stroke": "#a3336b"
+  },
+  {
+   "x": 1158,
+   "y": 460,
+   "w": 216,
+   "h": 688,
+   "fill": "#f4f7ee",
+   "stroke": "#4f6d1f"
+  }
+ ],
+ "row_labels": [
+  {
+   "x": 23,
+   "y": 256,
+   "h": 132,
+   "text": "ACT FIRST"
+  },
+  {
+   "x": 23,
+   "y": 622,
+   "h": 116,
+   "text": "PRESENTS AS"
+  },
+  {
+   "x": 23,
+   "y": 778,
+   "h": 170,
+   "text": "CT"
+  },
+  {
+   "x": 23,
+   "y": 988,
+   "h": 152,
+   "text": "TREATMENT"
+  }
+ ],
+ "nodes": [
+  {
+   "id": "root",
+   "x": 327,
+   "y": 10,
+   "w": 760,
+   "kind": "dark",
+   "title": "Head injury: a TRAUMA patient first",
+   "lines": [
+    "A airway + C-spine precautions · B breathing · C circulation: large-bore IV, bloods for coagulopathy · D disability: neurological exam + Glasgow Coma Scale (GCS) · E expose other injuries",
+    "GCS grades it: SEVERE 3-8 · MODERATE 9-12 · MILD 13-14 · MINOR 15"
+   ]
+  },
+  {
+   "id": "g_sev",
+   "x": 45,
+   "y": 156,
+   "w": 1078,
+   "h": 60,
+   "kind": "plain",
+   "title": "SEVERE traumatic brain injury",
+   "lines": [
+    "edema, vasodilation, vascular congestion, hematoma → ↑ intracranial pressure → HERNIATION"
+   ]
+  },
+  {
+   "id": "g_mild",
+   "x": 1163,
+   "y": 156,
+   "w": 206,
+   "h": 60,
+   "kind": "plain",
+   "title": "CONCUSSION",
+   "lines": [
+    "= mild traumatic brain injury"
+   ]
+  },
+  {
+   "id": "p_sev",
+   "x": 45,
+   "y": 256,
+   "w": 1078,
+   "h": 132,
+   "kind": "info",
+   "title": "Herniating? Act, then a STAT CT",
+   "lines": [
+    "• UNCAL: same-side fixed dilated pupil (third nerve) + opposite-side weakness",
+    "• TONSILLAR: medulla compressed → Cushing's triad (hypertension, bradycardia, apnea) · fatal",
+    "• intubate · head of the bed up · IV mannitol or 3% saline"
+   ]
+  },
+  {
+   "id": "p_mild",
+   "x": 1163,
+   "y": 256,
+   "w": 206,
+   "h": 132,
+   "kind": "info",
+   "title": "To the ER if ANY",
+   "lines": [
+    "• GCS under 15 · worsening mental status",
+    "• possible spinal injury",
+    "• worse symptoms, new neuro signs"
+   ]
+  },
+  {
+   "id": "edh_head_0_0",
+   "x": 45,
+   "y": 468,
+   "w": 206,
+   "h": 114,
+   "kind": "edh_h",
+   "title": "Epidural hematoma",
+   "lines": [
+    "skull ↔ dura",
+    "middle meningeal ARTERY"
+   ]
+  },
+  {
+   "id": "sdh_head_0_0",
+   "x": 263,
+   "y": 468,
+   "w": 206,
+   "h": 114,
+   "kind": "sdh_h",
+   "title": "Acute subdural hematoma",
+   "lines": [
+    "dura ↔ arachnoid",
+    "torn BRIDGING VEINS"
+   ]
+  },
+  {
+   "id": "cont_head_0_0",
+   "x": 481,
+   "y": 468,
+   "w": 206,
+   "h": 114,
+   "kind": "cont_h",
+   "title": "Cerebral contusion",
+   "lines": [
+    "COUP under the impact",
+    "CONTRECOUP opposite it"
+   ]
+  },
+  {
+   "id": "ich_head_0_0",
+   "x": 699,
+   "y": 468,
+   "w": 206,
+   "h": 114,
+   "kind": "ich_h",
+   "title": "Intracerebral hemorrhage",
+   "lines": [
+    "deceleration or contact",
+    "frontal, temporal lobes"
+   ]
+  },
+  {
+   "id": "dai_head_0_0",
+   "x": 917,
+   "y": 468,
+   "w": 206,
+   "h": 114,
+   "kind": "dai_h",
+   "title": "Diffuse axonal injury · traumatic SAH",
+   "lines": [
+    "ACCELERATION injury",
+    "often co-exist"
+   ]
+  },
+  {
+   "id": "conc_head_0_0",
+   "x": 1163,
+   "y": 468,
+   "w": 206,
+   "h": 114,
+   "kind": "conc_h",
+   "title": "Concussion",
+   "lines": [
+    "rotational acceleration · NO impact needed",
+    "81-92% no LOC · helmets don't prevent it"
+   ]
+  },
+  {
+   "id": "edh_clue_0_0",
+   "x": 45,
+   "y": 622,
+   "w": 206,
+   "h": 116,
+   "kind": "edh_t",
+   "title": "CONTACT injury + fracture",
+   "lines": [
+    "• LOC → LUCID interval → coma",
+    "• skull fracture in 75-90%"
+   ]
+  },
+  {
+   "id": "sdh_clue_0_0",
+   "x": 263,
+   "y": 622,
+   "w": 206,
+   "h": 116,
+   "kind": "sdh_t",
+   "title": "Acceleration-deceleration",
+   "lines": [
+    "• a fall, head strikes a broad surface",
+    "• comatose from the scene"
+   ]
+  },
+  {
+   "id": "cont_clue_0_0",
+   "x": 481,
+   "y": 622,
+   "w": 206,
+   "h": 116,
+   "kind": "cont_t",
+   "title": "Depends on size and site",
+   "lines": [
+    "• e.g. confusion, personality change, loss of smell",
+    "• mass effect, ↑ pressure"
+   ]
+  },
+  {
+   "id": "ich_clue_0_0",
+   "x": 699,
+   "y": 622,
+   "w": 206,
+   "h": 116,
+   "kind": "ich_t",
+   "title": "A confluent bleed in the brain",
+   "lines": [
+    "• blood dissects the brain around it"
+   ]
+  },
+  {
+   "id": "dai_clue_0_0",
+   "x": 917,
+   "y": 622,
+   "w": 206,
+   "h": 116,
+   "kind": "dai_t",
+   "title": "LOC at the scene → PERSISTENT coma",
+   "lines": [
+    "• axonal injury is 50% of severe brain injury"
+   ]
+  },
+  {
+   "id": "conc_clue_0_0",
+   "x": 1163,
+   "y": 622,
+   "w": 206,
+   "h": 116,
+   "kind": "conc_t",
+   "title": "No focal deficit",
+   "lines": [
+    "• headache, dizziness, nausea",
+    "• imbalance, 'seeing stars'"
+   ]
+  },
+  {
+   "id": "edh_inv_0_0",
+   "x": 45,
+   "y": 778,
+   "w": 206,
+   "h": 170,
+   "kind": "edh_w",
+   "title": "LENS-shaped",
+   "lines": [
+    "frontal or temporal"
+   ]
+  },
+  {
+   "id": "sdh_inv_0_0",
+   "x": 263,
+   "y": 778,
+   "w": 206,
+   "h": 170,
+   "kind": "sdh_w",
+   "title": "CRESCENT-shaped",
+   "lines": [
+    "often with diffuse axonal injury"
+   ]
+  },
+  {
+   "id": "cont_inv_0_0",
+   "x": 481,
+   "y": 778,
+   "w": 206,
+   "h": 170,
+   "kind": "cont_w",
+   "title": "MIXED high + low density",
+   "lines": [
+    "usually several · repeat CT at 24-48 h: 20% bleed later"
+   ]
+  },
+  {
+   "id": "ich_inv_0_0",
+   "x": 699,
+   "y": 778,
+   "w": 206,
+   "h": 170,
+   "kind": "ich_w",
+   "title": "HOMOGENEOUS, well-defined",
+   "lines": [
+    "hyperdense"
+   ]
+  },
+  {
+   "id": "dai_inv_0_0",
+   "x": 917.0,
+   "y": 778,
+   "w": 98.0,
+   "h": 170,
+   "kind": "dai_w",
+   "title": "Axonal: petechiae",
+   "lines": [
+    "grey-white junction, corpus callosum, pons · hard to see"
+   ]
+  },
+  {
+   "id": "dai_inv_0_1",
+   "x": 1025.0,
+   "y": 778,
+   "w": 98.0,
+   "h": 170,
+   "kind": "dai_w",
+   "title": "SAH",
+   "lines": [
+    "pial vessels rupture"
+   ]
+  },
+  {
+   "id": "conc_inv_0_0",
+   "x": 1163,
+   "y": 778,
+   "w": 206,
+   "h": 170,
+   "kind": "conc_w",
+   "title": "CLINICAL diagnosis",
+   "lines": [
+    "no CT, MRI, blood test or EEG · SCAT5: 1 of 22 symptoms"
+   ]
+  },
+  {
+   "id": "edh_tx_0_0",
+   "x": 45,
+   "y": 988,
+   "w": 206,
+   "h": 152,
+   "kind": "bad",
+   "title": "CRANIOTOMY if ANY",
+   "lines": [
+    "• symptomatic",
+    "• asymptomatic over 1 cm",
+    "• a child",
+    "~ conservative only if very small"
+   ]
+  },
+  {
+   "id": "sdh_tx_0_0",
+   "x": 263,
+   "y": 988,
+   "w": 206,
+   "h": 152,
+   "kind": "bad",
+   "title": "SURGERY within 4 HOURS",
+   "lines": [
+    "• within 4 h: 30% mortality",
+    "• after 4 h: 90%",
+    "• over 65: 82% mortality"
+   ]
+  },
+  {
+   "id": "cont_tx_0_0",
+   "x": 481.0,
+   "y": 988,
+   "w": 98.0,
+   "h": 152,
+   "kind": "ok",
+   "title": "Small or deep",
+   "lines": [
+    "no surgery"
+   ]
+  },
+  {
+   "id": "cont_tx_0_1",
+   "x": 589.0,
+   "y": 988,
+   "w": 98.0,
+   "h": 152,
+   "kind": "bad",
+   "title": "Large + mass effect",
+   "lines": [
+    "SURGERY"
+   ]
+  },
+  {
+   "id": "ich_tx_0_0",
+   "x": 699,
+   "y": 988,
+   "w": 206,
+   "h": 152,
+   "kind": "bad",
+   "title": "SURGERY if large",
+   "lines": [
+    "with shift + ↓ consciousness + focal deficits"
+   ]
+  },
+  {
+   "id": "dai_tx_0_0",
+   "x": 917,
+   "y": 988,
+   "w": 206,
+   "h": 152,
+   "kind": "warn",
+   "title": "High morbidity and mortality",
+   "lines": []
+  },
+  {
+   "id": "conc_tx_0_0",
+   "x": 1163,
+   "y": 988,
+   "w": 206,
+   "h": 152,
+   "kind": "ok",
+   "title": "RECOGNISE and REMOVE",
+   "lines": [
+    "1 · rest 24-48 h, not longer",
+    "2 · return to LEARN once symptom-free",
+    "3 · return to PLAY after full-time school + medical clearance"
+   ]
+  }
+ ],
+ "edges": [
+  {
+   "from": "root",
+   "to": "g_sev",
+   "path": "M707.0 106V131H584.0V156"
+  },
+  {
+   "from": "root",
+   "to": "g_mild",
+   "path": "M707.0 106V131H1266.0V156"
+  },
+  {
+   "from": "g_sev",
+   "to": "p_sev"
+  },
+  {
+   "from": "g_mild",
+   "to": "p_mild"
+  },
+  {
+   "from": "edh_head_0_0",
+   "to": "edh_clue_0_0"
+  },
+  {
+   "from": "edh_clue_0_0",
+   "to": "edh_inv_0_0"
+  },
+  {
+   "from": "edh_inv_0_0",
+   "to": "edh_tx_0_0"
+  },
+  {
+   "from": "p_sev",
+   "to": "edh_head_0_0",
+   "from_dx": -436
+  },
+  {
+   "from": "sdh_head_0_0",
+   "to": "sdh_clue_0_0"
+  },
+  {
+   "from": "sdh_clue_0_0",
+   "to": "sdh_inv_0_0"
+  },
+  {
+   "from": "sdh_inv_0_0",
+   "to": "sdh_tx_0_0"
+  },
+  {
+   "from": "p_sev",
+   "to": "sdh_head_0_0",
+   "from_dx": -218
+  },
+  {
+   "from": "cont_head_0_0",
+   "to": "cont_clue_0_0"
+  },
+  {
+   "from": "cont_clue_0_0",
+   "to": "cont_inv_0_0"
+  },
+  {
+   "from": "cont_inv_0_0",
+   "to": "cont_tx_0_0",
+   "from_dx": -54.0
+  },
+  {
+   "from": "cont_inv_0_0",
+   "to": "cont_tx_0_1",
+   "from_dx": 54.0
+  },
+  {
+   "from": "p_sev",
+   "to": "cont_head_0_0",
+   "from_dx": 0
+  },
+  {
+   "from": "ich_head_0_0",
+   "to": "ich_clue_0_0"
+  },
+  {
+   "from": "ich_clue_0_0",
+   "to": "ich_inv_0_0"
+  },
+  {
+   "from": "ich_inv_0_0",
+   "to": "ich_tx_0_0"
+  },
+  {
+   "from": "p_sev",
+   "to": "ich_head_0_0",
+   "from_dx": 218
+  },
+  {
+   "from": "dai_head_0_0",
+   "to": "dai_clue_0_0"
+  },
+  {
+   "from": "dai_clue_0_0",
+   "to": "dai_inv_0_0",
+   "from_dx": -54.0
+  },
+  {
+   "from": "dai_clue_0_0",
+   "to": "dai_inv_0_1",
+   "from_dx": 54.0
+  },
+  {
+   "from": "dai_inv_0_0",
+   "to": "dai_tx_0_0",
+   "to_dx": -54.0
+  },
+  {
+   "from": "dai_inv_0_1",
+   "to": "dai_tx_0_0",
+   "to_dx": 54.0
+  },
+  {
+   "from": "p_sev",
+   "to": "dai_head_0_0",
+   "from_dx": 436
+  },
+  {
+   "from": "conc_head_0_0",
+   "to": "conc_clue_0_0"
+  },
+  {
+   "from": "conc_clue_0_0",
+   "to": "conc_inv_0_0"
+  },
+  {
+   "from": "conc_inv_0_0",
+   "to": "conc_tx_0_0"
+  },
+  {
+   "from": "p_mild",
+   "to": "conc_head_0_0",
+   "from_dx": 0
+  }
+ ],
+ "panels": []
+}

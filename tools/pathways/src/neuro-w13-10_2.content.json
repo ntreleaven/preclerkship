@@ -1,0 +1,294 @@
+{
+ "name": "neurological localization overview",
+ "title": "Approach to a neurological problem: describe it (onset, course, deficits), localize the lesion (cortex, subcortex or brainstem from the brain pearls; the list of places that weaken both legs; dysarthria and the cerebellar system for slurred speech), then let the tempo predict the type of lesion for the differential",
+ "col_w": 196,
+ "root": {
+  "title": "1 · DESCRIBE → 2 · LOCALIZE → 3 · DIFFERENTIAL",
+  "lines": [
+   "describe: onset (acute, subacute, chronic) · progressive, intermittent or stable · deficits (cognitive, motor, sensory, coordination)",
+   "the TEMPO predicts the lesion: hyperacute → ischemic stroke, hemorrhage · acute → trauma · subacute → inflammation, infection, tumour · chronic → tumour",
+   "localizing helps plan the right investigations · upper or lower motor neuron (UMN, LMN) weakness: see the WEAKNESS chart"
+  ]
+ },
+ "groups": [
+  {
+   "id": "g_brain",
+   "cols": [
+    0,
+    2
+   ],
+   "title": "BRAIN SIGNS: which part of the brain?",
+   "lines": []
+  },
+  {
+   "id": "g_legs",
+   "cols": [
+    3,
+    3
+   ],
+   "title": "BOTH LEGS WEAK",
+   "lines": []
+  },
+  {
+   "id": "g_speech",
+   "cols": [
+    4,
+    5
+   ],
+   "title": "DIFFICULTY SPEAKING",
+   "lines": [
+    "dysarthria or aphasia?"
+   ]
+  }
+ ],
+ "sections": [
+  "head",
+  "look",
+  "where"
+ ],
+ "row_names": {
+  "look": "LOOK FOR",
+  "where": "WHERE · NEXT"
+ },
+ "columns": [
+  {
+   "id": "cortex",
+   "colour": "purple",
+   "head": [
+    [
+     [
+      "h",
+      "Cortex",
+      [
+       "cortical signs"
+      ]
+     ]
+    ]
+   ],
+   "look": [
+    [
+     [
+      "t",
+      "Any ONE of",
+      [
+       "• aphasia",
+       "• neglect",
+       "• homonymous hemianopia"
+      ]
+     ]
+    ]
+   ],
+   "where": [
+    [
+     [
+      "w",
+      "Middle cerebral artery (MCA): face + arm >> leg",
+      [
+       "• frontal → mostly motor",
+       "• parietal → mostly sensory",
+       "• no speech, follows commands, right face + arm weak → LEFT frontal lobe"
+      ]
+     ]
+    ]
+   ]
+  },
+  {
+   "id": "subcortex",
+   "colour": "blue",
+   "head": [
+    [
+     [
+      "h",
+      "Subcortex",
+      [
+       "white matter tracts"
+      ]
+     ]
+    ]
+   ],
+   "look": [
+    [
+     [
+      "t",
+      "NO cortical signs",
+      [
+       "• PURE motor hemiparesis, or",
+       "• PURE sensory hemibody (face, arm, leg)",
+       "• ataxic hemiparesis"
+      ]
+     ]
+    ]
+   ],
+   "where": [
+    [
+     [
+      "w",
+      "Internal capsule",
+      [
+       "motor AND sensory both possible"
+      ]
+     ]
+    ]
+   ]
+  },
+  {
+   "id": "stem",
+   "colour": "magenta",
+   "head": [
+    [
+     [
+      "h",
+      "Brainstem",
+      [
+       "intrinsic brainstem lesion"
+      ]
+     ]
+    ]
+   ],
+   "look": [
+    [
+     [
+      "t",
+      "NO cortical signs",
+      [
+       "• vertigo + another symptom",
+       "• diplopia + another symptom",
+       "• CROSSED: face vs body"
+      ]
+     ]
+    ]
+   ],
+   "where": [
+    [
+     [
+      "w",
+      "With weakness",
+      [
+       "hemiparesis + cranial nerve or cerebellar findings: see the WEAKNESS chart"
+      ]
+     ]
+    ]
+   ]
+  },
+  {
+   "id": "legs",
+   "colour": "olive",
+   "head": [
+    [
+     [
+      "h",
+      "Bilateral leg weakness",
+      []
+     ]
+    ]
+   ],
+   "look": [
+    [
+     [
+      "t",
+      "Could be any of",
+      [
+       "• parasagittal cortex (meningioma)",
+       "• spinal cord",
+       "• anterior horn cell",
+       "• multilevel lumbosacral roots (stenosis)",
+       "• polyneuropathy · myopathy"
+      ]
+     ]
+    ]
+   ],
+   "where": [
+    [
+     [
+      "w",
+      "UMN signs → spinal cord",
+      [
+       "• examine for a SENSORY LEVEL to aim the imaging"
+      ]
+     ]
+    ]
+   ]
+  },
+  {
+   "id": "dys",
+   "colour": "orange",
+   "head": [
+    [
+     [
+      "h",
+      "Dysarthria",
+      [
+       "slurred speech"
+      ]
+     ]
+    ]
+   ],
+   "look": [
+    [
+     [
+      "t",
+      "Language NORMAL",
+      [
+       "• naming, comprehension, repetition, fluency intact",
+       "• any lost → APHASIA"
+      ]
+     ]
+    ]
+   ],
+   "where": [
+    [
+     [
+      "w",
+      "Anywhere on the speech path",
+      [
+       "• CNS: cortex (mouth area), subcortex, thalamus, brainstem, cerebellum",
+       "• PNS: nerve (recurrent laryngeal), neuromuscular junction (myasthenia), muscle",
+       "• the company decides: cranial nerves, UMN or LMN, weakness, ataxia, sensory"
+      ]
+     ]
+    ]
+   ]
+  },
+  {
+   "id": "cereb",
+   "colour": "teal",
+   "head": [
+    [
+     [
+      "h",
+      "Cerebellar system",
+      [
+       "coordinates all movement"
+      ]
+     ]
+    ]
+   ],
+   "look": [
+    [
+     [
+      "t",
+      "Think alcohol intoxication",
+      [
+       "• nystagmus",
+       "• dysarthria, dysphagia",
+       "• finger-to-nose, heel-to-shin ataxia",
+       "• rapid alternating movements",
+       "• gait, tandem walking"
+      ]
+     ]
+    ]
+   ],
+   "where": [
+    [
+     [
+      "w",
+      "Slurred speech + right finger-to-nose ataxia",
+      [
+       "→ right cerebellum, or its pathway (internal capsule, thalamus, pons)"
+      ]
+     ]
+    ]
+   ]
+  }
+ ]
+}

@@ -1,0 +1,618 @@
+{
+ "name": "medicine and neurology overview",
+ "width": 1267,
+ "title": "Neurological problems from other systems: cancer (five mechanisms, including checkpoint inhibitor autoimmunity), breathlessness from bilateral phrenic nerve palsies, thiamine deficiency (Wernicke encephalopathy), other nutritional syndromes and refeeding, and multiple cardioembolic strokes from endocarditis; each column gives presentation, investigations and management",
+ "kinds": {
+  "onc_h": [
+   "#a3336b",
+   "#a3336b",
+   "#ffffff",
+   "#ffffff"
+  ],
+  "onc_t": [
+   "#f8e0ec",
+   "#a3336b",
+   "#a3336b",
+   "#18212e"
+  ],
+  "onc_w": [
+   "#ffffff",
+   "#a3336b",
+   "#a3336b",
+   "#18212e"
+  ],
+  "phr_h": [
+   "#1f6f8b",
+   "#1f6f8b",
+   "#ffffff",
+   "#ffffff"
+  ],
+  "phr_t": [
+   "#dceef4",
+   "#1f6f8b",
+   "#1f6f8b",
+   "#18212e"
+  ],
+  "phr_w": [
+   "#ffffff",
+   "#1f6f8b",
+   "#1f6f8b",
+   "#18212e"
+  ],
+  "wer_h": [
+   "#b5600f",
+   "#b5600f",
+   "#ffffff",
+   "#ffffff"
+  ],
+  "wer_t": [
+   "#fbe8d3",
+   "#b5600f",
+   "#b5600f",
+   "#18212e"
+  ],
+  "wer_w": [
+   "#ffffff",
+   "#b5600f",
+   "#b5600f",
+   "#18212e"
+  ],
+  "nut_h": [
+   "#4f6d1f",
+   "#4f6d1f",
+   "#ffffff",
+   "#ffffff"
+  ],
+  "nut_t": [
+   "#e7eed9",
+   "#4f6d1f",
+   "#4f6d1f",
+   "#18212e"
+  ],
+  "nut_w": [
+   "#ffffff",
+   "#4f6d1f",
+   "#4f6d1f",
+   "#18212e"
+  ],
+  "ce_h": [
+   "#1f5f9e",
+   "#1f5f9e",
+   "#ffffff",
+   "#ffffff"
+  ],
+  "ce_t": [
+   "#dde9f7",
+   "#1f5f9e",
+   "#1f5f9e",
+   "#18212e"
+  ],
+  "ce_w": [
+   "#ffffff",
+   "#1f5f9e",
+   "#1f5f9e",
+   "#18212e"
+  ]
+ },
+ "bands": [
+  {
+   "x": 40,
+   "y": 270,
+   "w": 225,
+   "h": 1042,
+   "fill": "#fcf0f6",
+   "stroke": "#a3336b"
+  },
+  {
+   "x": 295,
+   "y": 270,
+   "w": 225,
+   "h": 1042,
+   "fill": "#eef7fa",
+   "stroke": "#1f6f8b"
+  },
+  {
+   "x": 550,
+   "y": 270,
+   "w": 225,
+   "h": 1042,
+   "fill": "#fdf4ea",
+   "stroke": "#b5600f"
+  },
+  {
+   "x": 777,
+   "y": 270,
+   "w": 225,
+   "h": 1042,
+   "fill": "#f4f7ee",
+   "stroke": "#4f6d1f"
+  },
+  {
+   "x": 1032,
+   "y": 270,
+   "w": 225,
+   "h": 1042,
+   "fill": "#eff5fc",
+   "stroke": "#1f5f9e"
+  }
+ ],
+ "row_labels": [
+  {
+   "x": 23,
+   "y": 434,
+   "h": 396,
+   "text": "PRESENTS AS"
+  },
+  {
+   "x": 23,
+   "y": 870,
+   "h": 224,
+   "text": "INVESTIGATIONS"
+  },
+  {
+   "x": 23,
+   "y": 1134,
+   "h": 170,
+   "text": "MANAGEMENT"
+  }
+ ],
+ "nodes": [
+  {
+   "id": "root",
+   "x": 268,
+   "y": 10,
+   "w": 760,
+   "kind": "dark",
+   "title": "A neurological problem in a medically ill patient: how is the illness reaching the nervous system?",
+   "lines": [
+    "localize first, as for any weakness: muscle · neuromuscular junction · nerve · root · anterior horn cell · spinal cord · brain"
+   ]
+  },
+  {
+   "id": "g_onc",
+   "x": 45,
+   "y": 120,
+   "w": 215,
+   "h": 78,
+   "kind": "plain",
+   "title": "Cancer",
+   "lines": []
+  },
+  {
+   "id": "g_resp",
+   "x": 300,
+   "y": 120,
+   "w": 215,
+   "h": 78,
+   "kind": "plain",
+   "title": "Breathless",
+   "lines": [
+    "cardiac · pulmonary · anemia · NEUROLOGICAL"
+   ]
+  },
+  {
+   "id": "g_nut",
+   "x": 555,
+   "y": 120,
+   "w": 442,
+   "h": 78,
+   "kind": "plain",
+   "title": "Nutrition",
+   "lines": []
+  },
+  {
+   "id": "g_card",
+   "x": 1037,
+   "y": 120,
+   "w": 215,
+   "h": 78,
+   "kind": "plain",
+   "title": "Heart",
+   "lines": []
+  },
+  {
+   "id": "onc_head_0_0",
+   "x": 45,
+   "y": 278,
+   "w": 215,
+   "h": 116,
+   "kind": "onc_h",
+   "title": "Five ways cancer reaches the nerves",
+   "lines": []
+  },
+  {
+   "id": "phr_head_0_0",
+   "x": 300,
+   "y": 278,
+   "w": 215,
+   "h": 116,
+   "kind": "phr_h",
+   "title": "Bilateral phrenic nerve palsies",
+   "lines": [
+    "weak diaphragm"
+   ]
+  },
+  {
+   "id": "wer_head_0_0",
+   "x": 555,
+   "y": 278,
+   "w": 215,
+   "h": 116,
+   "kind": "wer_h",
+   "title": "Thiamine (B1) deficiency: Wernicke encephalopathy",
+   "lines": []
+  },
+  {
+   "id": "nut_head_0_0",
+   "x": 782,
+   "y": 278,
+   "w": 215,
+   "h": 116,
+   "kind": "nut_h",
+   "title": "Other nutrition",
+   "lines": []
+  },
+  {
+   "id": "ce_head_0_0",
+   "x": 1037,
+   "y": 278,
+   "w": 215,
+   "h": 116,
+   "kind": "ce_h",
+   "title": "Multiple cardioembolic strokes",
+   "lines": [
+    "atrial fibrillation · endocarditis (infective, cancer, Libman-Sacks) · cardiac tumours"
+   ]
+  },
+  {
+   "id": "onc_pres_0_0",
+   "x": 45,
+   "y": 434,
+   "w": 215,
+   "h": 258,
+   "kind": "onc_t",
+   "title": "Which mechanism?",
+   "lines": [
+    "• compression: cord, root, nerve",
+    "• invasion: nerve, plexus, brain, cord",
+    "• paraneoplastic antibodies: limbic encephalitis, dermatomyositis, myasthenia gravis, cerebellitis",
+    "• treatment toxicity: chemotherapy, radiation, surgery",
+    "• CHECKPOINT INHIBITOR autoimmunity"
+   ]
+  },
+  {
+   "id": "onc_pres_1_0",
+   "x": 45,
+   "y": 714,
+   "w": 215,
+   "h": 116,
+   "kind": "onc_w",
+   "title": "Checkpoint inhibitor (ipilimumab, nivolumab)",
+   "lines": [
+    "ptosis, neck and proximal weakness, normal reflexes and sensation"
+   ]
+  },
+  {
+   "id": "phr_pres_0_0",
+   "x": 300,
+   "y": 434,
+   "w": 215,
+   "h": 396,
+   "kind": "phr_t",
+   "title": "Dyspnea WORSE LYING DOWN",
+   "lines": [
+    "• sleeps upright in a chair",
+    "• normal heart, chest, limbs, cranial nerves",
+    "~lying down the diaphragm does the work; upright, the intercostals"
+   ]
+  },
+  {
+   "id": "wer_pres_0_0",
+   "x": 555,
+   "y": 434,
+   "w": 215,
+   "h": 396,
+   "kind": "wer_t",
+   "title": "Triad",
+   "lines": [
+    "• ataxia",
+    "• ophthalmoplegia (e.g. both 6th nerves)",
+    "• confusion",
+    "~poor intake, then REFEEDING without thiamine"
+   ]
+  },
+  {
+   "id": "nut_pres_0_0",
+   "x": 782,
+   "y": 434,
+   "w": 215,
+   "h": 396,
+   "kind": "nut_t",
+   "title": "Deficiency or excess",
+   "lines": [
+    "• B1: dry beriberi = neuropathy · wet = cardiomyopathy",
+    "• B12: subacute combined degeneration",
+    "• copper (after bariatric surgery): myelopathy",
+    "• B6 EXCESS: sensory neuropathy"
+   ]
+  },
+  {
+   "id": "ce_pres_0_0",
+   "x": 1037,
+   "y": 434,
+   "w": 215,
+   "h": 198,
+   "kind": "ce_t",
+   "title": "Deficits in SEVERAL territories, ACUTE and STEPWISE",
+   "lines": [
+    "~subacute, slowly progressive → metastases or abscesses",
+    "~else: vasculitis · tumours · abscesses · demyelination"
+   ]
+  },
+  {
+   "id": "ce_pres_1_0",
+   "x": 1037,
+   "y": 654,
+   "w": 215,
+   "h": 176,
+   "kind": "ce_w",
+   "title": "Endocarditis?",
+   "lines": [
+    "• fever, tachycardia",
+    "• murmur",
+    "• splinter hemorrhages, Janeway lesions, Osler nodes, Roth spots"
+   ]
+  },
+  {
+   "id": "onc_inv_0_0",
+   "x": 45,
+   "y": 870,
+   "w": 215,
+   "h": 224,
+   "kind": "onc_w",
+   "title": "Junction or muscle?",
+   "lines": [
+    "• CK",
+    "• acetylcholine receptor antibody",
+    "• EMG / nerve conduction studies"
+   ]
+  },
+  {
+   "id": "phr_inv_0_0",
+   "x": 300,
+   "y": 870,
+   "w": 215,
+   "h": 224,
+   "kind": "phr_w",
+   "title": "Confirm and find the cause",
+   "lines": [
+    "1 · chest X-ray",
+    "2 · diaphragm fluoroscopy in and out",
+    "3 · lung function seated vs supine",
+    "4 · phrenic nerve conduction studies",
+    "5 · image the neck and mediastinum"
+   ]
+  },
+  {
+   "id": "wer_inv_0_0",
+   "x": 555,
+   "y": 870,
+   "w": 215,
+   "h": 224,
+   "kind": "wer_w",
+   "title": "Will not localize to one place",
+   "lines": [
+    "global dysfunction + strong pons involvement"
+   ]
+  },
+  {
+   "id": "nut_inv_0_0",
+   "x": 782,
+   "y": 870,
+   "w": 215,
+   "h": 224,
+   "kind": "bad",
+   "title": "Refeeding syndrome",
+   "lines": [
+    "after long starvation, electrolytes shift into cells: ↓ sodium, potassium, calcium, magnesium, phosphate",
+    "→ confusion → weakness → seizures, arrhythmias"
+   ]
+  },
+  {
+   "id": "ce_inv_0_0",
+   "x": 1037,
+   "y": 870,
+   "w": 215,
+   "h": 224,
+   "kind": "ce_w",
+   "title": "Suspected endocarditis",
+   "lines": [
+    "1 · blood cultures × 2 (keep for HACEK)",
+    "2 · transthoracic ± transesophageal echo",
+    "3 · find the source (dental)",
+    "~cultures negative → non-bacterial endocarditis of cancer"
+   ]
+  },
+  {
+   "id": "onc_tx_0_0",
+   "x": 45,
+   "y": 1134,
+   "w": 215,
+   "h": 170,
+   "kind": "ok",
+   "title": "With oncology: STOP the inhibitor and/or STEROIDS",
+   "lines": [
+    "~steroids may blunt the tumour treatment"
+   ]
+  },
+  {
+   "id": "phr_tx_0_0",
+   "x": 300,
+   "y": 1134,
+   "w": 215,
+   "h": 170,
+   "kind": "phr_w",
+   "title": "Other levels of breathing weakness",
+   "lines": [
+    "• muscle: myopathies",
+    "• junction: myasthenia gravis",
+    "• nerve: Guillain-Barré",
+    "• roots: multilevel C3-5",
+    "• anterior horn: ALS",
+    "• cord: high cervical myelopathy"
+   ]
+  },
+  {
+   "id": "wer_tx_0_0",
+   "x": 555,
+   "y": 1134,
+   "w": 215,
+   "h": 170,
+   "kind": "ok",
+   "title": "THIAMINE",
+   "lines": [
+    "give it BEFORE glucose if nutrition is in doubt"
+   ]
+  },
+  {
+   "id": "nut_tx_0_0",
+   "x": 782,
+   "y": 1134,
+   "w": 215,
+   "h": 170,
+   "kind": "ok",
+   "title": "Refeed SLOWLY",
+   "lines": [
+    "check electrolytes often"
+   ]
+  },
+  {
+   "id": "ce_tx_0_0",
+   "x": 1037,
+   "y": 1134,
+   "w": 215,
+   "h": 170,
+   "kind": "bad",
+   "title": "NO tPA",
+   "lines": [
+    "~cultures and echo instead"
+   ]
+  }
+ ],
+ "edges": [
+  {
+   "from": "root",
+   "to": "g_onc",
+   "path": "M648.5 70V95H152.5V120"
+  },
+  {
+   "from": "root",
+   "to": "g_resp",
+   "path": "M648.5 70V95H407.5V120"
+  },
+  {
+   "from": "root",
+   "to": "g_nut",
+   "path": "M648.5 70V95H776.0V120"
+  },
+  {
+   "from": "root",
+   "to": "g_card",
+   "path": "M648.5 70V95H1144.5V120"
+  },
+  {
+   "from": "onc_pres_0_0",
+   "to": "onc_pres_1_0"
+  },
+  {
+   "from": "ce_pres_0_0",
+   "to": "ce_pres_1_0"
+  },
+  {
+   "from": "onc_head_0_0",
+   "to": "onc_pres_0_0"
+  },
+  {
+   "from": "onc_pres_1_0",
+   "to": "onc_inv_0_0"
+  },
+  {
+   "from": "onc_inv_0_0",
+   "to": "onc_tx_0_0"
+  },
+  {
+   "from": "g_onc",
+   "to": "onc_head_0_0",
+   "from_dx": 0
+  },
+  {
+   "from": "phr_head_0_0",
+   "to": "phr_pres_0_0"
+  },
+  {
+   "from": "phr_pres_0_0",
+   "to": "phr_inv_0_0"
+  },
+  {
+   "from": "phr_inv_0_0",
+   "to": "phr_tx_0_0"
+  },
+  {
+   "from": "g_resp",
+   "to": "phr_head_0_0",
+   "from_dx": 0
+  },
+  {
+   "from": "wer_head_0_0",
+   "to": "wer_pres_0_0"
+  },
+  {
+   "from": "wer_pres_0_0",
+   "to": "wer_inv_0_0"
+  },
+  {
+   "from": "wer_inv_0_0",
+   "to": "wer_tx_0_0"
+  },
+  {
+   "from": "g_nut",
+   "to": "wer_head_0_0",
+   "from_dx": -114
+  },
+  {
+   "from": "nut_head_0_0",
+   "to": "nut_pres_0_0"
+  },
+  {
+   "from": "nut_pres_0_0",
+   "to": "nut_inv_0_0"
+  },
+  {
+   "from": "nut_inv_0_0",
+   "to": "nut_tx_0_0"
+  },
+  {
+   "from": "g_nut",
+   "to": "nut_head_0_0",
+   "from_dx": 114
+  },
+  {
+   "from": "ce_head_0_0",
+   "to": "ce_pres_0_0"
+  },
+  {
+   "from": "ce_pres_1_0",
+   "to": "ce_inv_0_0"
+  },
+  {
+   "from": "ce_inv_0_0",
+   "to": "ce_tx_0_0"
+  },
+  {
+   "from": "g_card",
+   "to": "ce_head_0_0",
+   "from_dx": 0
+  }
+ ],
+ "panels": []
+}

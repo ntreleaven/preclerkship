@@ -1,0 +1,75 @@
+{
+ "name": "aphasia syndromes overview",
+ "title": "Aphasia syndromes: test comprehension first, then fluency and repetition; the pattern names the aphasia and localizes it in the dominant hemisphere (Broca's inferior frontal, Wernicke's posterior temporal, global full MCA territory; conduction and the transcortical aphasias for keeners)",
+ "col_w": 150,
+ "root": {
+  "title": "Trouble with LANGUAGE (aphasia), not articulation (dysarthria)?",
+  "lines": [
+   "aphasia = DOMINANT hemisphere (left in right-handers)",
+   "test naming · comprehension · fluency · repetition · reading · writing"
+  ]
+ },
+ "groups": [
+  {
+   "id": "g_int",
+   "cols": [0, 2],
+   "title": "COMPREHENSION INTACT",
+   "lines": ["follows motor commands"]
+  },
+  {
+   "id": "g_low",
+   "cols": [3, 5],
+   "title": "COMPREHENSION ↓",
+   "lines": ["cannot follow commands"]
+  }
+ ],
+ "sections": ["head", "clue", "inv"],
+ "row_names": {
+  "clue": "FLUENCY · REPETITION",
+  "inv": "LESION"
+ },
+ "columns": [
+  {
+   "id": "broca",
+   "colour": "teal",
+   "head": [[["h", "Broca's", ["expressive aphasia"]]]],
+   "clue": [[["t", "Fluency ↓", ["• slow, halting", "• none if severe", "• repetition ↓", "• naming ↓"]]]],
+   "inv": [[["w", "Inferior frontal lobe", []]]]
+  },
+  {
+   "id": "tcm",
+   "colour": "slate",
+   "head": [[["h", "Transcortical motor", ["keeners only"]]]],
+   "clue": [[["t", "Fluency ↓", ["• repetition NORMAL", "• naming ↓"]]]],
+   "inv": [[["w", "Parasagittal mid frontal", []]]]
+  },
+  {
+   "id": "cond",
+   "colour": "olive",
+   "head": [[["h", "Conduction", ["keeners only"]]]],
+   "clue": [[["t", "Fluency normal", ["• repetition ↓", "• naming variable"]]]],
+   "inv": [[["w", "Arcuate fasciculus", []]]]
+  },
+  {
+   "id": "wern",
+   "colour": "purple",
+   "head": [[["h", "Wernicke's", ["receptive aphasia"]]]],
+   "clue": [[["t", "Fluent nonsense", ["• like a foreign language if severe", "• repetition ↓", "• naming ↓"]]]],
+   "inv": [[["w", "Posterior temporal lobe", []]]]
+  },
+  {
+   "id": "glob",
+   "colour": "orange",
+   "head": [[["h", "Global", ["cannot understand or express"]]]],
+   "clue": [[["t", "No verbal output", ["• repetition ↓", "• naming ↓"]]]],
+   "inv": [[["w", "Full middle cerebral artery (MCA) territory", []]]]
+  },
+  {
+   "id": "tcs",
+   "colour": "blue",
+   "head": [[["h", "Transcortical sensory", ["keeners only"]]]],
+   "clue": [[["t", "Fluent", ["• repetition NORMAL", "• naming ↓"]]]],
+   "inv": [[["w", "Parasagittal parietal", []]]]
+  }
+ ]
+}

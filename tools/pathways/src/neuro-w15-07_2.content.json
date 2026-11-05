@@ -1,0 +1,559 @@
+{
+ "name": "red eye overview",
+ "title": "Red eye: red flags decide whether it is vision threatening. Without them it is the lids, a conjunctivitis told apart by its discharge and itch, a subconjunctival hemorrhage or a corneal abrasion; with them it is keratitis, anterior uveitis or acute angle closure glaucoma and needs urgent ophthalmology; each column gives the presentation, the exam finding that decides it and the treatment",
+ "col_w": 170,
+ "root": {
+  "title": "Red eye: is it VISION THREATENING?",
+  "lines": [
+   "red flag symptoms: blurred vision that does not clear with blinking · SEVERE pain · photophobia · coloured halos",
+   "red flag signs: ↓ acuity · ciliary flush · corneal opacity · abnormal pupil · shallow chamber · ↑ pressure · proptosis",
+   "ask: contact lenses (swim, sleep, shower in them?) · discharge · itch · recent cold · trauma"
+  ]
+ },
+ "groups": [
+  {
+   "id": "g_ok",
+   "cols": [
+    0,
+    6
+   ],
+   "title": "NO red flags: lids, conjunctiva, surface",
+   "lines": [
+    "acuity and pressure normal: treat or reassure"
+   ]
+  },
+  {
+   "id": "g_bad",
+   "cols": [
+    7,
+    9
+   ],
+   "title": "RED FLAGS: vision threatening",
+   "lines": [
+    "URGENT referral to ophthalmology"
+   ]
+  }
+ ],
+ "sections": [
+  "head",
+  "pres",
+  "inv",
+  "tx"
+ ],
+ "row_names": {
+  "pres": "PRESENTS AS",
+  "inv": "EXAM",
+  "tx": "TREATMENT"
+ },
+ "columns": [
+  {
+   "id": "lid",
+   "colour": "brown",
+   "drop_label": "lid",
+   "head": [
+    [
+     [
+      "h",
+      "Stye · chalazion · entropion",
+      []
+     ]
+    ]
+   ],
+   "pres": [
+    [
+     [
+      "t",
+      "Eyelid problem",
+      [
+       "• tender red lump, days: STYE",
+       "• painless nodule: CHALAZION",
+       "• lashes rub the eye: ENTROPION"
+      ]
+     ]
+    ]
+   ],
+   "inv": [
+    [
+     [
+      "w",
+      "Look at the lid",
+      [
+       "• stye: tender, red, raised",
+       "• entropion: lid turned in, hazy cornea"
+      ]
+     ]
+    ]
+   ],
+   "tx": [
+    [
+     [
+      "ok",
+      "Warm compresses, lid massage",
+      [
+       "• stye or chalazion: refer if not gone in 3-4 weeks",
+       "• ENTROPION: artificial tears + refer for lid surgery"
+      ]
+     ]
+    ]
+   ]
+  },
+  {
+   "id": "vir",
+   "colour": "teal",
+   "drop_label": "watery",
+   "head": [
+    [
+     [
+      "h",
+      "Viral conjunctivitis",
+      [
+       "usually adenovirus"
+      ]
+     ]
+    ]
+   ],
+   "pres": [
+    [
+     [
+      "t",
+      "Watery, after a cold",
+      [
+       "• one eye, then the other",
+       "• itch, burning, gritty"
+      ]
+     ]
+    ]
+   ],
+   "inv": [
+    [
+     [
+      "w",
+      "Follicles, chemosis",
+      [
+       "• node in front of the ear",
+       "• acuity, pressure normal"
+      ]
+     ]
+    ]
+   ],
+   "tx": [
+    [
+     [
+      "ok",
+      "NO antibiotics",
+      [
+       "• contagious 10-12 days: hand hygiene",
+       "• preservative-free drops, cool compresses"
+      ]
+     ]
+    ]
+   ]
+  },
+  {
+   "id": "bac",
+   "colour": "blue",
+   "drop_label": "mucopurulent",
+   "head": [
+    [
+     [
+      "h",
+      "Bacterial conjunctivitis",
+      []
+     ]
+    ]
+   ],
+   "pres": [
+    [
+     [
+      "t",
+      "Lids GLUED on waking",
+      [
+       "• yellow-white discharge",
+       "• no photophobia, no itch"
+      ]
+     ]
+    ]
+   ],
+   "inv": [
+    [
+     [
+      "w",
+      "Hyperemia, lid edema",
+      [
+       "• diagnosis is clinical",
+       "~culture rarely needed"
+      ]
+     ]
+    ]
+   ],
+   "tx": [
+    [
+     [
+      "ok",
+      "Fluoroquinolone drops",
+      [
+       "4 times a day × 7 days"
+      ]
+     ]
+    ]
+   ]
+  },
+  {
+   "id": "gon",
+   "colour": "magenta",
+   "drop_label": "hyperacute pus",
+   "head": [
+    [
+     [
+      "h",
+      "Gonococcal conjunctivitis",
+      []
+     ]
+    ]
+   ],
+   "pres": [
+    [
+     [
+      "t",
+      "SEVERE pus",
+      [
+       "• hyperacute: 12-24 hours",
+       "• sexual history"
+      ]
+     ]
+    ]
+   ],
+   "inv": [
+    [
+     [
+      "w",
+      "Suspect gonorrhea or chlamydia",
+      []
+     ]
+    ]
+   ],
+   "tx": [
+    [
+     [
+      "bad",
+      "Treat + refer",
+      [
+       "• ceftriaxone 1 g IM + azithromycin 1 g by mouth, once",
+       "• treat partners"
+      ]
+     ]
+    ]
+   ]
+  },
+  {
+   "id": "all",
+   "colour": "olive",
+   "drop_label": "itch",
+   "head": [
+    [
+     [
+      "h",
+      "Allergic conjunctivitis",
+      []
+     ]
+    ]
+   ],
+   "pres": [
+    [
+     [
+      "t",
+      "ITCH, both eyes",
+      [
+       "• seasonal",
+       "• sneezing, runny nose"
+      ]
+     ]
+    ]
+   ],
+   "inv": [
+    [
+     [
+      "w",
+      "Chemosis, watery",
+      [
+       "• atopy: asthma, eczema"
+      ]
+     ]
+    ]
+   ],
+   "tx": [
+    [
+     [
+      "ok",
+      "Avoid the allergen",
+      [
+       "• antihistamine or mast-cell stabilizer drops",
+       "• oral 2nd-generation if severe"
+      ]
+     ]
+    ]
+   ]
+  },
+  {
+   "id": "sch",
+   "colour": "slate",
+   "drop_label": "solid patch",
+   "head": [
+    [
+     [
+      "h",
+      "Subconjunctival hemorrhage",
+      []
+     ]
+    ]
+   ],
+   "pres": [
+    [
+     [
+      "t",
+      "Painless red patch",
+      [
+       "• straining, trauma",
+       "• warfarin, hypertension"
+      ]
+     ]
+    ]
+   ],
+   "inv": [
+    [
+     [
+      "w",
+      "Solid red sector",
+      [
+       "• no conjunctival injection",
+       "• chamber deep and quiet"
+      ]
+     ]
+    ]
+   ],
+   "tx": [
+    [
+     [
+      "ok",
+      "Reassure",
+      [
+       "benign, self-limiting"
+      ]
+     ]
+    ]
+   ]
+  },
+  {
+   "id": "abr",
+   "colour": "purple",
+   "drop_label": "trauma",
+   "head": [
+    [
+     [
+      "h",
+      "Corneal abrasion",
+      []
+     ]
+    ]
+   ],
+   "pres": [
+    [
+     [
+      "t",
+      "Sudden sharp pain",
+      [
+       "• fingernail, branch",
+       "• foreign-body feeling, tearing"
+      ]
+     ]
+    ]
+   ],
+   "inv": [
+    [
+     [
+      "w",
+      "STAINS with fluorescein",
+      [
+       "• cornea CLEAR",
+       "• Seidel negative"
+      ]
+     ]
+    ]
+   ],
+   "tx": [
+    [
+     [
+      "ok",
+      "Antibiotic drops",
+      [
+       "• 4 times a day × 7 days",
+       "• contact lens: fluoroquinolone (Pseudomonas)"
+      ]
+     ]
+    ],
+    [
+     [
+      "bad",
+      "NEVER anesthetic drops",
+      []
+     ]
+    ]
+   ]
+  },
+  {
+   "id": "ker",
+   "colour": "orange",
+   "drop_label": "contact lens",
+   "head": [
+    [
+     [
+      "h",
+      "Bacterial keratitis",
+      [
+       "contact lens-related"
+      ]
+     ]
+    ]
+   ],
+   "pres": [
+    [
+     [
+      "t",
+      "Worsening pain",
+      [
+       "• photophobia, ↓ vision",
+       "• slept or showered in lenses"
+      ]
+     ]
+    ]
+   ],
+   "inv": [
+    [
+     [
+      "w",
+      "WHITE infiltrate",
+      [
+       "• HAZY cornea, ciliary flush",
+       "• cells in the chamber"
+      ]
+     ]
+    ]
+   ],
+   "tx": [
+    [
+     [
+      "bad",
+      "URGENT referral",
+      [
+       "• STOP contact lenses",
+       "• intensive antibiotics"
+      ]
+     ]
+    ]
+   ]
+  },
+  {
+   "id": "uv",
+   "colour": "teal",
+   "drop_label": "photophobia",
+   "head": [
+    [
+     [
+      "h",
+      "Anterior uveitis (iritis)",
+      [
+       "HLA-B27; ~50% idiopathic"
+      ]
+     ]
+    ]
+   ],
+   "pres": [
+    [
+     [
+      "t",
+      "PHOTOPHOBIA, pain",
+      [
+       "• age 20-40, men",
+       "• recurrent, alternating eyes",
+       "• inflammatory back pain"
+      ]
+     ]
+    ]
+   ],
+   "inv": [
+    [
+     [
+      "w",
+      "Cells + flare",
+      [
+       "• ciliary flush, hypopyon",
+       "• pressure normal or LOW"
+      ]
+     ]
+    ]
+   ],
+   "tx": [
+    [
+     [
+      "bad",
+      "URGENT referral",
+      [
+       "• steroid + cycloplegic drops: ophthalmologist ONLY",
+       "• HLA-B27, sacroiliac x-ray, rheumatology"
+      ]
+     ]
+    ]
+   ]
+  },
+  {
+   "id": "aac",
+   "colour": "blue",
+   "drop_label": "halos, vomiting",
+   "head": [
+    [
+     [
+      "h",
+      "Acute angle closure glaucoma",
+      []
+     ]
+    ]
+   ],
+   "pres": [
+    [
+     [
+      "t",
+      "Pain, brow ache, vomiting",
+      [
+       "• blurred vision",
+       "• female, Asian or Inuit, hyperopia"
+      ]
+     ]
+    ]
+   ],
+   "inv": [
+    [
+     [
+      "w",
+      "ROCK HARD eye",
+      [
+       "• pressure ↑↑, hazy cornea",
+       "• mid-dilated pupil",
+       "• SHALLOW chamber"
+      ]
+     ]
+    ]
+   ],
+   "tx": [
+    [
+     [
+      "bad",
+      "URGENT referral",
+      [
+       "topical beta-blocker, alpha-agonist, carbonic anhydrase inhibitor"
+      ]
+     ]
+    ]
+   ]
+  }
+ ]
+}

@@ -1,0 +1,39 @@
+{
+ "name": "neuropathic pain overview",
+ "title": "Neuropathic pain has a neurological cause and is recognized by its descriptors; after the cause is evaluated, one agent is chosen by the co-existing problem (amitriptyline for poor sleep or low cost, duloxetine for depression, carbamazepine for trigeminal neuralgia, gabapentinoids, topicals) with narcotics only as a last resort, and titrated by trial and error",
+ "col_w": 214,
+ "root": {"title": "NEUROPATHIC pain: a neurological cause, peripheral or central",
+  "lines": ["sounds like: electrical · shooting · burning, hot or cold · pins and needles",
+            "allodynia: a non-painful touch hurts · hyperpathia: a painful stimulus hurts far too much · dysesthesia: uncomfortable sensations (burning)",
+            "EVALUATE THE CAUSE and examine: some are reversible · nociceptive pain (tissue injury) takes acetaminophen, NSAIDs, opioids instead"]},
+ "groups": [
+  {"id": "g_ad", "cols": [0, 1], "title": "ANTIDEPRESSANTS", "lines": ["↑ norepinephrine and serotonin → stronger descending pain inhibition"]},
+  {"id": "g_ac", "cols": [2, 3], "title": "ANTICONVULSANTS", "lines": ["in specific situations a sodium-channel drug"]},
+  {"id": "g_ot", "cols": [4, 4], "title": "OTHERS", "lines": []}
+ ],
+ "sections": ["head", "clue", "tx"],
+ "row_names": {"clue": "CHOOSE IT FOR", "tx": "THEN"},
+ "columns": [
+  {"id": "tca", "colour": "teal",
+   "head": [[["h", "Tricyclics (TCAs)", ["amitriptyline · nortriptyline"]]]],
+   "clue": [[["ok", "Poor SLEEP or COST", ["• sleep disorder → amitriptyline", "• amitriptyline is the cheapest"]]]]},
+  {"id": "snri", "colour": "purple",
+   "head": [[["h", "SNRIs", ["duloxetine · venlafaxine"]]]],
+   "clue": [[["ok", "DEPRESSION", ["• depression → duloxetine"]]]]},
+  {"id": "gab", "colour": "orange",
+   "head": [[["h", "Gabapentinoids", ["gabapentin · pregabalin"]]]],
+   "clue": [[["ok", "No deciding issue", ["• trial one agent"]]]]},
+  {"id": "carb", "colour": "blue",
+   "head": [[["h", "Sodium-channel anticonvulsant", ["carbamazepine"]]]],
+   "clue": [[["ok", "A classic SYNDROME", ["• TRIGEMINAL NEURALGIA → carbamazepine"]]]]},
+  {"id": "oth", "colour": "slate",
+   "head": [[["h", "Topicals · cannabinoids", ["capsaicin · lidocaine gel or patch"]]]],
+   "clue": [[["bad", "NARCOTICS", ["ONLY as a last resort"]]]]}
+ ],
+ "spans": [
+  {"section": "tx", "cols": [0, 4], "rows": [
+   [["plain", "TRIAL AND ERROR: one agent, titrated up SLOWLY to the maximum dose", []]],
+   [["warn", "Side effects before an effect?", ["→ change the drug"]], ["warn", "1 month at the highest dose, no effect?", ["→ change the drug"]]]
+  ]}
+ ]
+}

@@ -1,0 +1,651 @@
+{
+ "name": "neuro-ophthalmology overview",
+ "width": 1168,
+ "title": "Visual symptoms not from the eyeball: double vision sorts by which nerve palsy (third, fourth or sixth), a gaze-evoked nystagmus points to the cerebellum or brainstem, unequal pupils sort by whether the difference is worse in light (parasympathetic) or dark (sympathetic, Horner), and a relative afferent pupillary defect points to one optic nerve",
+ "kinds": {
+  "cn3_h": [
+   "#8a5a2b",
+   "#8a5a2b",
+   "#ffffff",
+   "#ffffff"
+  ],
+  "cn3_t": [
+   "#f3e6d8",
+   "#8a5a2b",
+   "#8a5a2b",
+   "#18212e"
+  ],
+  "cn3_w": [
+   "#ffffff",
+   "#8a5a2b",
+   "#8a5a2b",
+   "#18212e"
+  ],
+  "cn4_h": [
+   "#4f6d1f",
+   "#4f6d1f",
+   "#ffffff",
+   "#ffffff"
+  ],
+  "cn4_t": [
+   "#e7eed9",
+   "#4f6d1f",
+   "#4f6d1f",
+   "#18212e"
+  ],
+  "cn4_w": [
+   "#ffffff",
+   "#4f6d1f",
+   "#4f6d1f",
+   "#18212e"
+  ],
+  "cn6_h": [
+   "#1f6f8b",
+   "#1f6f8b",
+   "#ffffff",
+   "#ffffff"
+  ],
+  "cn6_t": [
+   "#dceef4",
+   "#1f6f8b",
+   "#1f6f8b",
+   "#18212e"
+  ],
+  "cn6_w": [
+   "#ffffff",
+   "#1f6f8b",
+   "#1f6f8b",
+   "#18212e"
+  ],
+  "nys_h": [
+   "#6a4aa8",
+   "#6a4aa8",
+   "#ffffff",
+   "#ffffff"
+  ],
+  "nys_t": [
+   "#ebe4f7",
+   "#6a4aa8",
+   "#6a4aa8",
+   "#18212e"
+  ],
+  "nys_w": [
+   "#ffffff",
+   "#6a4aa8",
+   "#6a4aa8",
+   "#18212e"
+  ],
+  "para_h": [
+   "#1f5f9e",
+   "#1f5f9e",
+   "#ffffff",
+   "#ffffff"
+  ],
+  "para_t": [
+   "#dde9f7",
+   "#1f5f9e",
+   "#1f5f9e",
+   "#18212e"
+  ],
+  "para_w": [
+   "#ffffff",
+   "#1f5f9e",
+   "#1f5f9e",
+   "#18212e"
+  ],
+  "symp_h": [
+   "#b5600f",
+   "#b5600f",
+   "#ffffff",
+   "#ffffff"
+  ],
+  "symp_t": [
+   "#fbe8d3",
+   "#b5600f",
+   "#b5600f",
+   "#18212e"
+  ],
+  "symp_w": [
+   "#ffffff",
+   "#b5600f",
+   "#b5600f",
+   "#18212e"
+  ],
+  "rapd_h": [
+   "#a3336b",
+   "#a3336b",
+   "#ffffff",
+   "#ffffff"
+  ],
+  "rapd_t": [
+   "#f8e0ec",
+   "#a3336b",
+   "#a3336b",
+   "#18212e"
+  ],
+  "rapd_w": [
+   "#ffffff",
+   "#a3336b",
+   "#a3336b",
+   "#18212e"
+  ]
+ },
+ "bands": [
+  {
+   "x": 40,
+   "y": 390,
+   "w": 150,
+   "h": 570,
+   "fill": "#faf4ee",
+   "stroke": "#8a5a2b"
+  },
+  {
+   "x": 192,
+   "y": 390,
+   "w": 150,
+   "h": 570,
+   "fill": "#f4f7ee",
+   "stroke": "#4f6d1f"
+  },
+  {
+   "x": 344,
+   "y": 390,
+   "w": 150,
+   "h": 570,
+   "fill": "#eef7fa",
+   "stroke": "#1f6f8b"
+  },
+  {
+   "x": 524,
+   "y": 390,
+   "w": 150,
+   "h": 570,
+   "fill": "#f5f1fb",
+   "stroke": "#6a4aa8"
+  },
+  {
+   "x": 704,
+   "y": 390,
+   "w": 150,
+   "h": 570,
+   "fill": "#eff5fc",
+   "stroke": "#1f5f9e"
+  },
+  {
+   "x": 856,
+   "y": 390,
+   "w": 150,
+   "h": 570,
+   "fill": "#fdf4ea",
+   "stroke": "#b5600f"
+  },
+  {
+   "x": 1008,
+   "y": 390,
+   "w": 150,
+   "h": 570,
+   "fill": "#fcf0f6",
+   "stroke": "#a3336b"
+  }
+ ],
+ "row_labels": [
+  {
+   "x": 23,
+   "y": 554,
+   "h": 170,
+   "text": "PRESENTS AS"
+  },
+  {
+   "x": 23,
+   "y": 764,
+   "h": 188,
+   "text": "CAUSE · MEANING"
+  }
+ ],
+ "nodes": [
+  {
+   "id": "root",
+   "x": 219,
+   "y": 10,
+   "w": 760,
+   "kind": "dark",
+   "title": "A visual symptom NOT from the eyeball: which kind?",
+   "lines": [
+    "each one localizes to a nerve or a pathway"
+   ]
+  },
+  {
+   "id": "g_dip",
+   "x": 45,
+   "y": 120,
+   "w": 444,
+   "h": 78,
+   "kind": "plain",
+   "title": "DOUBLE VISION (diplopia)",
+   "lines": [
+    "the eyes are not aligned",
+    "lateral rectus = VI · superior oblique = IV · the rest = III"
+   ]
+  },
+  {
+   "id": "g_nys",
+   "x": 529,
+   "y": 120,
+   "w": 140,
+   "h": 78,
+   "kind": "plain",
+   "title": "EYES DRIFT",
+   "lines": [
+    "nystagmus"
+   ]
+  },
+  {
+   "id": "g_pup",
+   "x": 709,
+   "y": 120,
+   "w": 444,
+   "h": 78,
+   "kind": "plain",
+   "title": "THE PUPILS",
+   "lines": [
+    "parasympathetic constricts",
+    "sympathetic dilates"
+   ]
+  },
+  {
+   "id": "t_aniso",
+   "x": 709,
+   "y": 238,
+   "w": 292,
+   "h": 80,
+   "kind": "plain",
+   "title": "UNEQUAL pupils: worse in light or dark?",
+   "lines": [
+    "is one big, or the other small?"
+   ]
+  },
+  {
+   "id": "cn3_head_0_0",
+   "x": 45,
+   "y": 398,
+   "w": 140,
+   "h": 116,
+   "kind": "cn3_h",
+   "title": "Third nerve palsy",
+   "lines": [
+    "oculomotor"
+   ]
+  },
+  {
+   "id": "cn4_head_0_0",
+   "x": 197,
+   "y": 398,
+   "w": 140,
+   "h": 116,
+   "kind": "cn4_h",
+   "title": "Fourth nerve palsy",
+   "lines": [
+    "trochlear · superior oblique"
+   ]
+  },
+  {
+   "id": "cn6_head_0_0",
+   "x": 349,
+   "y": 398,
+   "w": 140,
+   "h": 116,
+   "kind": "cn6_h",
+   "title": "Sixth nerve palsy",
+   "lines": [
+    "abducens · lateral rectus"
+   ]
+  },
+  {
+   "id": "nys_head_0_0",
+   "x": 529,
+   "y": 398,
+   "w": 140,
+   "h": 116,
+   "kind": "nys_h",
+   "title": "Gaze-evoked nystagmus",
+   "lines": [
+    "the commonest form"
+   ]
+  },
+  {
+   "id": "para_head_0_0",
+   "x": 709,
+   "y": 398,
+   "w": 140,
+   "h": 116,
+   "kind": "para_h",
+   "title": "Parasympathetic paresis",
+   "lines": [
+    "the BIG pupil is abnormal"
+   ]
+  },
+  {
+   "id": "symp_head_0_0",
+   "x": 861,
+   "y": 398,
+   "w": 140,
+   "h": 116,
+   "kind": "symp_h",
+   "title": "Horner syndrome",
+   "lines": [
+    "sympathetic paresis",
+    "the SMALL pupil is abnormal"
+   ]
+  },
+  {
+   "id": "rapd_head_0_0",
+   "x": 1013,
+   "y": 398,
+   "w": 140,
+   "h": 116,
+   "kind": "rapd_h",
+   "title": "Relative afferent pupillary defect",
+   "lines": [
+    "swinging light test"
+   ]
+  },
+  {
+   "id": "cn3_pres_0_0",
+   "x": 45,
+   "y": 554,
+   "w": 140,
+   "h": 170,
+   "kind": "cn3_t",
+   "title": "Down and out",
+   "lines": [
+    "• ptosis",
+    "• pupil SPARED or involved"
+   ]
+  },
+  {
+   "id": "cn4_pres_0_0",
+   "x": 197,
+   "y": 554,
+   "w": 140,
+   "h": 170,
+   "kind": "cn4_t",
+   "title": "HEAD TILT",
+   "lines": [
+    "vertical double vision"
+   ]
+  },
+  {
+   "id": "cn6_pres_0_0",
+   "x": 349,
+   "y": 554,
+   "w": 140,
+   "h": 170,
+   "kind": "cn6_t",
+   "title": "Can't ABDUCT",
+   "lines": [
+    "• eye turned in",
+    "• head turn to the weak side"
+   ]
+  },
+  {
+   "id": "nys_pres_0_0",
+   "x": 529,
+   "y": 554,
+   "w": 140,
+   "h": 170,
+   "kind": "nys_t",
+   "title": "Beats TOWARD gaze",
+   "lines": [
+    "• left-beating on left gaze",
+    "• up-beating on upgaze",
+    "• slow drift back, fast snap out"
+   ]
+  },
+  {
+   "id": "para_pres_0_0",
+   "x": 709,
+   "y": 554,
+   "w": 140,
+   "h": 170,
+   "kind": "para_t",
+   "title": "Won't CONSTRICT",
+   "lines": [
+    "difference worse in bright light"
+   ]
+  },
+  {
+   "id": "symp_pres_0_0",
+   "x": 861,
+   "y": 554,
+   "w": 140,
+   "h": 170,
+   "kind": "symp_t",
+   "title": "Won't DILATE",
+   "lines": [
+    "• difference worse in the dark",
+    "• mild ptosis"
+   ]
+  },
+  {
+   "id": "rapd_pres_0_0",
+   "x": 1013,
+   "y": 554,
+   "w": 140,
+   "h": 170,
+   "kind": "rapd_t",
+   "title": "Light to the BAD eye",
+   "lines": [
+    "• BOTH pupils dilate",
+    "• light to the good eye: both constrict"
+   ]
+  },
+  {
+   "id": "cn3_cause_0_0",
+   "x": 45,
+   "y": 764,
+   "w": 140,
+   "h": 188,
+   "kind": "bad",
+   "title": "Is the PUPIL involved?",
+   "lines": [
+    "• BLOWN (large, unreactive) → COMPRESSIVE: aneurysm on the surface pupil fibres",
+    "• spared → MICROVASCULAR"
+   ]
+  },
+  {
+   "id": "cn4_cause_0_0",
+   "x": 197,
+   "y": 764,
+   "w": 140,
+   "h": 188,
+   "kind": "cn4_w",
+   "title": "Often congenital",
+   "lines": []
+  },
+  {
+   "id": "cn6_cause_0_0",
+   "x": 349,
+   "y": 764,
+   "w": 140,
+   "h": 188,
+   "kind": "bad",
+   "title": "Raised intracranial pressure?",
+   "lines": [
+    "look for papilledema"
+   ]
+  },
+  {
+   "id": "nys_cause_0_0",
+   "x": 529,
+   "y": 764,
+   "w": 140,
+   "h": 188,
+   "kind": "nys_w",
+   "title": "Cerebellum or brainstem",
+   "lines": [
+    "• stroke, bleed, tumour",
+    "• demyelination",
+    "• hereditary ataxia",
+    "• alcohol, phenytoin, lithium"
+   ]
+  },
+  {
+   "id": "para_cause_0_0",
+   "x": 709,
+   "y": 764,
+   "w": 140,
+   "h": 188,
+   "kind": "bad",
+   "title": "e.g. compressive third nerve palsy",
+   "lines": [
+    "blown pupil"
+   ]
+  },
+  {
+   "id": "symp_cause_0_0",
+   "x": 861,
+   "y": 764,
+   "w": 140,
+   "h": 188,
+   "kind": "bad",
+   "title": "Rule out internal carotid dissection",
+   "lines": []
+  },
+  {
+   "id": "rapd_cause_0_0",
+   "x": 1013,
+   "y": 764,
+   "w": 140,
+   "h": 188,
+   "kind": "rapd_w",
+   "title": "That optic nerve",
+   "lines": [
+    "the afferent arm of the light reflex"
+   ]
+  }
+ ],
+ "edges": [
+  {
+   "from": "root",
+   "to": "g_dip",
+   "path": "M599.0 70V95H267.0V120"
+  },
+  {
+   "from": "root",
+   "to": "g_nys",
+   "path": "M599.0 70V95H599.0V120"
+  },
+  {
+   "from": "root",
+   "to": "g_pup",
+   "path": "M599.0 70V95H931.0V120"
+  },
+  {
+   "from": "g_pup",
+   "to": "t_aniso",
+   "from_dx": -76
+  },
+  {
+   "from": "cn3_head_0_0",
+   "to": "cn3_pres_0_0"
+  },
+  {
+   "from": "cn3_pres_0_0",
+   "to": "cn3_cause_0_0"
+  },
+  {
+   "from": "g_dip",
+   "to": "cn3_head_0_0",
+   "from_dx": -152
+  },
+  {
+   "from": "cn4_head_0_0",
+   "to": "cn4_pres_0_0"
+  },
+  {
+   "from": "cn4_pres_0_0",
+   "to": "cn4_cause_0_0"
+  },
+  {
+   "from": "g_dip",
+   "to": "cn4_head_0_0",
+   "from_dx": 0
+  },
+  {
+   "from": "cn6_head_0_0",
+   "to": "cn6_pres_0_0"
+  },
+  {
+   "from": "cn6_pres_0_0",
+   "to": "cn6_cause_0_0"
+  },
+  {
+   "from": "g_dip",
+   "to": "cn6_head_0_0",
+   "from_dx": 152
+  },
+  {
+   "from": "nys_head_0_0",
+   "to": "nys_pres_0_0"
+  },
+  {
+   "from": "nys_pres_0_0",
+   "to": "nys_cause_0_0"
+  },
+  {
+   "from": "g_nys",
+   "to": "nys_head_0_0",
+   "from_dx": 0
+  },
+  {
+   "from": "para_head_0_0",
+   "to": "para_pres_0_0"
+  },
+  {
+   "from": "para_pres_0_0",
+   "to": "para_cause_0_0"
+  },
+  {
+   "from": "t_aniso",
+   "to": "para_head_0_0",
+   "from_dx": -76,
+   "label": "LIGHT",
+   "label_at": [
+    779.0,
+    358
+   ]
+  },
+  {
+   "from": "symp_head_0_0",
+   "to": "symp_pres_0_0"
+  },
+  {
+   "from": "symp_pres_0_0",
+   "to": "symp_cause_0_0"
+  },
+  {
+   "from": "t_aniso",
+   "to": "symp_head_0_0",
+   "from_dx": 76,
+   "label": "DARK",
+   "label_at": [
+    931.0,
+    358
+   ]
+  },
+  {
+   "from": "rapd_head_0_0",
+   "to": "rapd_pres_0_0"
+  },
+  {
+   "from": "rapd_pres_0_0",
+   "to": "rapd_cause_0_0"
+  },
+  {
+   "from": "g_pup",
+   "to": "rapd_head_0_0",
+   "from_dx": 152
+  }
+ ],
+ "panels": []
+}

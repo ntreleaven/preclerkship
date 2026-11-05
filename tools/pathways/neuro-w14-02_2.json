@@ -1,0 +1,385 @@
+{
+ "name": "multiple sclerosis overview",
+ "width": 930,
+ "title": "Multiple sclerosis: a relapse is new neurological dysfunction lasting 24 hours or more with no other cause; the typical relapses are myelitis, optic neuritis and brainstem or cerebellar syndromes; the diagnosis needs dissemination in space and time on MRI, with CSF oligoclonal bands able to stand in for time, once better explanations are ruled out; treatment is disease-modifying therapy by category plus symptomatic therapy",
+ "kinds": {
+  "mye_h": [
+   "#1f6f8b",
+   "#1f6f8b",
+   "#ffffff",
+   "#ffffff"
+  ],
+  "mye_t": [
+   "#dceef4",
+   "#1f6f8b",
+   "#1f6f8b",
+   "#18212e"
+  ],
+  "mye_w": [
+   "#ffffff",
+   "#1f6f8b",
+   "#1f6f8b",
+   "#18212e"
+  ],
+  "on_h": [
+   "#6a4aa8",
+   "#6a4aa8",
+   "#ffffff",
+   "#ffffff"
+  ],
+  "on_t": [
+   "#ebe4f7",
+   "#6a4aa8",
+   "#6a4aa8",
+   "#18212e"
+  ],
+  "on_w": [
+   "#ffffff",
+   "#6a4aa8",
+   "#6a4aa8",
+   "#18212e"
+  ],
+  "bs_h": [
+   "#b5600f",
+   "#b5600f",
+   "#ffffff",
+   "#ffffff"
+  ],
+  "bs_t": [
+   "#fbe8d3",
+   "#b5600f",
+   "#b5600f",
+   "#18212e"
+  ],
+  "bs_w": [
+   "#ffffff",
+   "#b5600f",
+   "#b5600f",
+   "#18212e"
+  ]
+ },
+ "bands": [
+  {
+   "x": 40,
+   "y": 306,
+   "w": 292,
+   "h": 212,
+   "fill": "#eef7fa",
+   "stroke": "#1f6f8b"
+  },
+  {
+   "x": 334,
+   "y": 306,
+   "w": 292,
+   "h": 212,
+   "fill": "#f5f1fb",
+   "stroke": "#6a4aa8"
+  },
+  {
+   "x": 628,
+   "y": 306,
+   "w": 292,
+   "h": 212,
+   "fill": "#fdf4ea",
+   "stroke": "#b5600f"
+  }
+ ],
+ "row_labels": [
+  {
+   "x": 23,
+   "y": 414,
+   "h": 96,
+   "text": "PRESENTS AS"
+  },
+  {
+   "x": 23,
+   "y": 550,
+   "h": 260,
+   "text": "DIAGNOSIS"
+  },
+  {
+   "x": 23,
+   "y": 850,
+   "h": 214,
+   "text": "TREATMENT"
+  }
+ ],
+ "nodes": [
+  {
+   "id": "root",
+   "x": 100,
+   "y": 10,
+   "w": 760,
+   "kind": "dark",
+   "title": "Could it be MULTIPLE SCLEROSIS (MS)?",
+   "lines": [
+    "an immune attack (B and T cells) on central nervous system myelin → axonal damage, then loss",
+    "most common disabling neurological disease of young adults in Canada · women 3:1 · age 20-40",
+    "risk: Epstein-Barr virus (EBV, 32-fold) · adolescent obesity · smoking · low vitamin D or sunlight · shift work"
+   ]
+  },
+  {
+   "id": "g_rel",
+   "x": 45,
+   "y": 156,
+   "w": 870,
+   "h": 78,
+   "kind": "plain",
+   "title": "A RELAPSE: which kind?",
+   "lines": [
+    "NEW neurological symptoms · acute or subacute onset · lasting 24 HOURS or more · no other cause · not a pseudo-relapse",
+    "other features: sensory disturbances · fatigue · Lhermitte's sign (an electric shock down the back on bending the neck)"
+   ]
+  },
+  {
+   "id": "mye_head_0_0",
+   "x": 45,
+   "y": 314,
+   "w": 282,
+   "h": 60,
+   "kind": "mye_h",
+   "title": "Myelitis",
+   "lines": [
+    "spinal cord lesion · about 50% at onset"
+   ]
+  },
+  {
+   "id": "on_head_0_0",
+   "x": 339,
+   "y": 314,
+   "w": 282,
+   "h": 60,
+   "kind": "on_h",
+   "title": "Optic neuritis",
+   "lines": [
+    "about 25% at onset"
+   ]
+  },
+  {
+   "id": "bs_head_0_0",
+   "x": 633,
+   "y": 314,
+   "w": 282,
+   "h": 60,
+   "kind": "bs_h",
+   "title": "Brainstem or cerebellar syndrome",
+   "lines": [
+    "about 15% at onset"
+   ]
+  },
+  {
+   "id": "mye_clue_0_0",
+   "x": 45,
+   "y": 414,
+   "w": 282,
+   "h": 96,
+   "kind": "mye_t",
+   "title": "Below the lesion",
+   "lines": [
+    "• sensory changes",
+    "• weakness",
+    "• bladder and bowel dysfunction"
+   ]
+  },
+  {
+   "id": "on_clue_0_0",
+   "x": 339,
+   "y": 414,
+   "w": 282,
+   "h": 96,
+   "kind": "on_t",
+   "title": "Vision",
+   "lines": [
+    "• vision loss",
+    "• PAIN with eye movement"
+   ]
+  },
+  {
+   "id": "bs_clue_0_0",
+   "x": 633,
+   "y": 414,
+   "w": 282,
+   "h": 96,
+   "kind": "bs_t",
+   "title": "Eyes and balance",
+   "lines": [
+    "• double vision · vertigo",
+    "• ataxia · slurred speech (dysarthria)"
+   ]
+  },
+  {
+   "id": "span0_inv_0_0",
+   "x": 45,
+   "y": 550,
+   "w": 870,
+   "h": 60,
+   "kind": "plain",
+   "title": "MRI is central · lumbar puncture supports",
+   "lines": [
+    "2017 McDonald criteria: clinical attacks + MRI or CSF findings, combined"
+   ]
+  },
+  {
+   "id": "span0_inv_1_0",
+   "x": 45.0,
+   "y": 632,
+   "w": 430.0,
+   "h": 96,
+   "kind": "warn",
+   "title": "Disseminated in SPACE",
+   "lines": [
+    "lesions in 2 or more typical regions:",
+    "• periventricular · cortical or juxtacortical",
+    "• infratentorial · spinal cord"
+   ]
+  },
+  {
+   "id": "span0_inv_1_1",
+   "x": 485.0,
+   "y": 632,
+   "w": 430.0,
+   "h": 96,
+   "kind": "warn",
+   "title": "Disseminated in TIME",
+   "lines": [
+    "• a NEW lesion on follow-up MRI",
+    "• OR enhancing + non-enhancing lesions at once",
+    "• CSF oligoclonal bands can stand in for time"
+   ]
+  },
+  {
+   "id": "span0_inv_2_0",
+   "x": 45,
+   "y": 750,
+   "w": 870,
+   "h": 60,
+   "kind": "bad",
+   "title": "ALWAYS rule out a better explanation",
+   "lines": [
+    "neuromyelitis optica (NMO) · myelin oligodendrocyte glycoprotein disease (MOGAD) · vascular · infection · metabolic (B12)"
+   ]
+  },
+  {
+   "id": "span1_tx_0_0",
+   "x": 45,
+   "y": 850,
+   "w": 870,
+   "h": 60,
+   "kind": "plain",
+   "title": "Course: relapsing-remitting (85% at onset) → secondary progressive · or primary progressive from the start",
+   "lines": [
+    "score disability on the Expanded Disability Status Scale (EDSS, 0-10)"
+   ]
+  },
+  {
+   "id": "span1_tx_1_0",
+   "x": 45.0,
+   "y": 932,
+   "w": 430.0,
+   "h": 132,
+   "kind": "ok",
+   "title": "Disease-modifying therapy: think in CATEGORIES",
+   "lines": [
+    "• injectable platforms: interferons, glatiramer (Copaxone)",
+    "• standard orals: dimethyl fumarate, teriflunomide, fingolimod",
+    "• induction: cladribine",
+    "• high efficacy: natalizumab, B-cell therapies (ocrelizumab, ofatumumab, rituximab)"
+   ]
+  },
+  {
+   "id": "span1_tx_1_1",
+   "x": 485.0,
+   "y": 932,
+   "w": 430.0,
+   "h": 132,
+   "kind": "ok",
+   "title": "Treat the symptoms too",
+   "lines": [
+    "• spasticity: baclofen, tizanidine",
+    "• pain, tingling: amitriptyline, gabapentin, duloxetine",
+    "• bladder: solifenacin · erections: sildenafil",
+    "• fatigue: amantadine, modafinil · walking: fampridine"
+   ]
+  }
+ ],
+ "edges": [
+  {
+   "from": "root",
+   "to": "g_rel",
+   "path": "M480.0 106V131H480.0V156"
+  },
+  {
+   "from": "span0_inv_0_0",
+   "to": "span0_inv_1_0",
+   "from_dx": -220.0
+  },
+  {
+   "from": "span0_inv_0_0",
+   "to": "span0_inv_1_1",
+   "from_dx": 220.0
+  },
+  {
+   "from": "span0_inv_1_0",
+   "to": "span0_inv_2_0",
+   "to_dx": -220.0
+  },
+  {
+   "from": "span0_inv_1_1",
+   "to": "span0_inv_2_0",
+   "to_dx": 220.0
+  },
+  {
+   "from": "span1_tx_0_0",
+   "to": "span1_tx_1_0",
+   "from_dx": -220.0
+  },
+  {
+   "from": "span1_tx_0_0",
+   "to": "span1_tx_1_1",
+   "from_dx": 220.0
+  },
+  {
+   "from": "mye_head_0_0",
+   "to": "mye_clue_0_0"
+  },
+  {
+   "from": "mye_clue_0_0",
+   "to": "span0_inv_0_0",
+   "to_dx": -294.0
+  },
+  {
+   "from": "g_rel",
+   "to": "mye_head_0_0",
+   "from_dx": -294
+  },
+  {
+   "from": "on_head_0_0",
+   "to": "on_clue_0_0"
+  },
+  {
+   "from": "on_clue_0_0",
+   "to": "span0_inv_0_0",
+   "to_dx": 0.0
+  },
+  {
+   "from": "g_rel",
+   "to": "on_head_0_0",
+   "from_dx": 0
+  },
+  {
+   "from": "bs_head_0_0",
+   "to": "bs_clue_0_0"
+  },
+  {
+   "from": "bs_clue_0_0",
+   "to": "span0_inv_0_0",
+   "to_dx": 294.0
+  },
+  {
+   "from": "g_rel",
+   "to": "bs_head_0_0",
+   "from_dx": 294
+  }
+ ],
+ "panels": []
+}

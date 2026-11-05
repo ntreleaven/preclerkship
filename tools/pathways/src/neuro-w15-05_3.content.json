@@ -1,0 +1,232 @@
+{
+ "name": "pediatric seizures overview",
+ "title": "A child with a seizure: ABCDE and a bedside glucose and blood gas for every child, then fever and the seizure's features sort a simple from a complex febrile seizure, and a seizure past 5 minutes is convulsive status epilepticus treated by the clock with benzodiazepines, then a second-line load, then the intensive care unit",
+ "col_w": 270,
+ "root": {
+  "title": "Child seizing: ABCDE + time it",
+  "lines": [
+   "EVERY child: bedside GLUCOSE + blood GAS with electrolytes",
+   "low glucose → IV dextrose (D10 5 mL/kg) · low sodium → 3% saline 3-5 mL/kg",
+   "subtle in newborns: lip smacking, eye deviation, bicycling, apnea, vital sign changes"
+  ]
+ },
+ "groups": [
+  {
+   "id": "g_feb",
+   "cols": [
+    0,
+    1
+   ],
+   "title": "FEVER, age 6 months-5 years: FEBRILE seizure",
+   "lines": [
+    "only if NO CNS infection, NO acute electrolyte problem, NO past afebrile seizure",
+    "WORRY: not back to baseline · meningeal signs or toxic look · delay or neurologic condition"
+   ]
+  },
+  {
+   "id": "g_se",
+   "cols": [
+    2,
+    2
+   ],
+   "title": "Still seizing at 5 MINUTES",
+   "lines": [
+    "or no return to baseline between seizures"
+   ]
+  }
+ ],
+ "sections": [
+  "head",
+  "pres",
+  "inv",
+  "tx"
+ ],
+ "row_names": {
+  "pres": "PRESENTS AS",
+  "inv": "WORKUP",
+  "tx": "TREATMENT"
+ },
+ "dashed_sections": [
+  "pres"
+ ],
+ "columns": [
+  {
+   "id": "sfs",
+   "colour": "teal",
+   "drop_label": "ALL of these",
+   "head": [
+    [
+     [
+      "h",
+      "Simple febrile seizure",
+      []
+     ]
+    ]
+   ],
+   "pres": [
+    [
+     [
+      "t",
+      "Typical",
+      [
+       "• GENERALIZED",
+       "• < 15 minutes",
+       "• ONCE in 24 hours",
+       "• no neurologic or developmental problem"
+      ]
+     ]
+    ]
+   ],
+   "inv": [
+    [
+     [
+      "w",
+      "Often NO further workup",
+      [
+       "if back to baseline, no other concern"
+      ]
+     ]
+    ]
+   ],
+   "tx": [
+    [
+     [
+      "ok",
+      "Discharge + reassure",
+      [
+       "• recurrence 30-40%",
+       "• epilepsy risk < 2%"
+      ]
+     ]
+    ]
+   ]
+  },
+  {
+   "id": "cfs",
+   "colour": "orange",
+   "drop_label": "ANY one",
+   "head": [
+    [
+     [
+      "h",
+      "Complex febrile seizure",
+      []
+     ]
+    ]
+   ],
+   "pres": [
+    [
+     [
+      "t",
+      "Any ONE of",
+      [
+       "• FOCAL (one limb or side)",
+       "• > 15 minutes",
+       "• RECURS within 24 hours",
+       "• focal signs after the seizure",
+       "• known neurologic condition"
+      ]
+     ]
+    ]
+   ],
+   "inv": [
+    [
+     [
+      "w",
+      "Observe or admit",
+      [
+       "by time back to baseline, neurologic signs, family comfort"
+      ]
+     ]
+    ]
+   ],
+   "tx": [
+    [
+     [
+      "warn",
+      "Consider NEUROLOGY referral",
+      [
+       "counsel: can recur and become epilepsy"
+      ]
+     ]
+    ]
+   ]
+  },
+  {
+   "id": "cse",
+   "colour": "magenta",
+   "drop_label": "> 5 min",
+   "head": [
+    [
+     [
+      "h",
+      "Convulsive status epilepticus",
+      [
+       "> 30 min, or 2+ seizures without recovery"
+      ]
+     ]
+    ]
+   ],
+   "pres": [
+    [
+     [
+      "t",
+      "Tonic-clonic, not stopping",
+      [
+       "• most seizures stop within 5 minutes",
+       "• longer = more brain injury: time matters"
+      ]
+     ]
+    ]
+   ],
+   "inv": [
+    [
+     [
+      "w",
+      "Stepwise, by the differential",
+      [
+       "• calcium, magnesium, drug levels",
+       "• infection: blood count, CRP, cultures, CSF if stable",
+       "• head CT: head injury, focal signs, raised pressure",
+       "• EEG: subtle or non-convulsive"
+      ]
+     ]
+    ]
+   ],
+   "tx": [
+    [
+     [
+      "ok",
+      "1 · BENZODIAZEPINE",
+      [
+       "• IV lorazepam or midazolam",
+       "• no IV access: sublingual lorazepam or intranasal midazolam",
+       "• repeat every 3-5 min, 2-3 doses"
+      ]
+     ]
+    ],
+    [
+     [
+      "warn",
+      "2 · Second-line IV load",
+      [
+       "~given over 20-30 minutes",
+       "• LEVETIRACETAM (most used)",
+       "• PHENOBARBITAL if < 30 days old",
+       "• or phenytoin / fosphenytoin"
+      ]
+     ]
+    ],
+    [
+     [
+      "bad",
+      "3 · Refractory → ICU",
+      [
+       "benzodiazepine infusion · ketamine"
+      ]
+     ]
+    ]
+   ]
+  }
+ ]
+}

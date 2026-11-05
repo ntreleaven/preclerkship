@@ -1,0 +1,260 @@
+{
+ "name": "non-mendelian genetics overview",
+ "title": "Non-Mendelian inheritance: mitochondrial DNA disease passes only through the mother and varies by heteroplasmy and threshold, nuclear mitochondrial disease follows Mendelian patterns, and triple nucleotide repeat disorders (Huntington disease, myotonic dystrophy) are autosomal dominant with anticipation, read by repeat size; each column gives inheritance, presentation, testing and treatment",
+ "col_w": 262,
+ "root": {
+  "title": "Non-Mendelian inheritance: WHAT does the family tree and the patient show?",
+  "lines": [
+   "• high-energy tissues (brain, retina, skeletal muscle, heart) in 2 or more systems → MITOCHONDRIAL",
+   "• worse and EARLIER in each generation → triple nucleotide REPEAT (anticipation)"
+  ]
+ },
+ "groups": [
+  {
+   "id": "g_mito",
+   "cols": [
+    0,
+    1
+   ],
+   "title": "MITOCHONDRIAL disorders",
+   "lines": [
+    "↓ ATP · dual control by nuclear + mitochondrial genes"
+   ]
+  },
+  {
+   "id": "g_rep",
+   "cols": [
+    2,
+    3
+   ],
+   "title": "Triple nucleotide REPEAT disorders",
+   "lines": [
+    "autosomal dominant · bigger repeat = earlier, more severe"
+   ]
+  }
+ ],
+ "sections": [
+  "head",
+  "pres",
+  "inv",
+  "tx"
+ ],
+ "row_names": {
+  "pres": "PRESENTS AS",
+  "inv": "INVESTIGATIONS",
+  "tx": "TREATMENT"
+ },
+ "columns": [
+  {
+   "id": "mt",
+   "colour": "teal",
+   "drop_label": "mother only",
+   "head": [
+    [
+     [
+      "h",
+      "Mitochondrial DNA disease",
+      [
+       "point mutations: MATERNAL · deletions, duplications: sporadic"
+      ]
+     ]
+    ]
+   ],
+   "pres": [
+    [
+     [
+      "t",
+      "Varies by tissue and worsens",
+      [
+       "• HETEROPLASMY: mutant + normal mtDNA, shared out at random",
+       "• symptoms once a tissue passes its THRESHOLD",
+       "• mutant mtDNA accumulates → progressive"
+      ]
+     ]
+    ]
+   ]
+  },
+  {
+   "id": "nu",
+   "colour": "blue",
+   "drop_label": "AR · XL · AD",
+   "head": [
+    [
+     [
+      "h",
+      "Nuclear-gene mitochondrial disease",
+      [
+       "follows MENDELIAN inheritance"
+      ]
+     ]
+    ]
+   ],
+   "pres": [
+    [
+     [
+      "t",
+      "e.g. depletion syndromes",
+      [
+       "• nuclear genes for mtDNA nucleotides or replication",
+       "• too little mtDNA → too little energy"
+      ]
+     ]
+    ]
+   ]
+  },
+  {
+   "id": "hd",
+   "colour": "purple",
+   "drop_label": "CAG in HTT",
+   "head": [
+    [
+     [
+      "h",
+      "Huntington disease",
+      [
+       "polyglutamine huntingtin aggregates in neurons"
+      ]
+     ]
+    ]
+   ],
+   "pres": [
+    [
+     [
+      "t",
+      "Onset 35-44 years",
+      [
+       "• 2/3 neurologic (chorea), 1/3 psychiatric",
+       "• MRI: caudate atrophy",
+       "• JUVENILE (60-100 repeats): rigidity, seizures, little chorea"
+      ]
+     ]
+    ]
+   ],
+   "inv": [
+    [
+     [
+      "w",
+      "CAG repeat count",
+      [
+       "• 26 or fewer: normal",
+       "• 27-35: premutation, child at risk",
+       "• 36-39: reduced penetrance",
+       "• 40 or more: WILL develop HD"
+      ]
+     ]
+    ],
+    [
+     [
+      "warn",
+      "Pre-symptomatic test",
+      [
+       "• only after counselling by a geneticist or genetic counsellor",
+       "• 70-80% of relatives decline"
+      ]
+     ]
+    ]
+   ]
+  },
+  {
+   "id": "dm",
+   "colour": "orange",
+   "drop_label": "CTG in DMPK",
+   "head": [
+    [
+     [
+      "h",
+      "Myotonic dystrophy",
+      [
+       "myotonia: cannot relax after contracting"
+      ]
+     ]
+    ]
+   ],
+   "pres": [
+    [
+     [
+      "t",
+      "Grip will not let go",
+      [
+       "• ptosis · narrow face · balding · cataracts · arrhythmia",
+       "• CONGENITAL: floppy newborn, respiratory failure"
+      ]
+     ]
+    ]
+   ],
+   "inv": [
+    [
+     [
+      "w",
+      "CTG repeat count",
+      [
+       "• 35-49: premutation, no signs",
+       "• 50-150: mild, cataracts",
+       "• about 100-1000: classic, onset 10-30",
+       "• over 1000: congenital"
+      ]
+     ]
+    ]
+   ]
+  }
+ ],
+ "spans": [
+  {
+   "section": "inv",
+   "cols": [
+    0,
+    1
+   ],
+   "rows": [
+    [
+     [
+      "plain",
+      "Suspect it: 2 or more systems",
+      [
+       "• ↑ blood and cerebrospinal fluid lactate",
+       "• MRI or spectroscopy: lactate peak, basal ganglia, leukodystrophy",
+       "• muscle biopsy · mtDNA and nuclear gene panels"
+      ]
+     ]
+    ]
+   ]
+  },
+  {
+   "section": "tx",
+   "cols": [
+    0,
+    1
+   ],
+   "rows": [
+    [
+     [
+      "bad",
+      "No effective treatment",
+      [
+       "• mitochondrial cocktail: riboflavin, coenzyme Q10, thiamine"
+      ]
+     ]
+    ]
+   ]
+  },
+  {
+   "section": "tx",
+   "cols": [
+    2,
+    3
+   ],
+   "rows": [
+    [
+     [
+      "ok",
+      "Supportive",
+      [
+       "• genetic counselling · family planning",
+       "• prenatal and preimplantation diagnosis"
+      ]
+     ]
+    ]
+   ]
+  }
+ ]
+}

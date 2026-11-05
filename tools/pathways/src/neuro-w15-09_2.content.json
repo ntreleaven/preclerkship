@@ -1,0 +1,68 @@
+{
+ "name": "hearing loss overview",
+ "title": "Hearing loss: the Weber and Rinne together split conductive (ear canal; otitis media; a fixed or broken middle ear) from sensorineural (sudden, an emergency; gradual and symmetric; one-sided and progressive, a vestibular schwannoma until proven otherwise); each column gives presentation, investigations and treatment",
+ "col_w": 205,
+ "root": {
+  "title": "Hearing loss: is sound BLOCKED before the cochlea, or is the cochlea or nerve DAMAGED?",
+  "lines": [
+   "512 Hz tuning forks, ALWAYS both: Weber on the midline (where is it loudest?) + Rinne (mastoid, then beside the ear)",
+   "a SUDDEN conductive loss can wait; a SUDDEN sensorineural loss is an EMERGENCY"
+  ]
+ },
+ "groups": [
+  {"id": "g_c", "cols": [0, 2], "title": "CONDUCTIVE", "lines": ["Weber → the AFFECTED ear · Rinne there: bone > air", "audiogram: bone normal, air down (an air-bone gap)", "often fixable, medically or surgically"]},
+  {"id": "g_s", "cols": [3, 5], "title": "SENSORINEURAL", "lines": ["Weber → the NORMAL ear · Rinne: air > bone", "audiogram: bone down, air the same as bone", "damage to cochlea or nerve cannot be repaired"]}
+ ],
+ "sections": ["head", "pres", "inv", "tx"],
+ "row_names": {"pres": "PRESENTS AS", "inv": "INVESTIGATIONS", "tx": "TREATMENT"},
+ "columns": [
+  {
+   "id": "eac", "colour": "teal",
+   "head": [[["h", "Ear canal", ["wax · foreign body · exostoses · otitis externa"]]]],
+   "pres": [[["t", "Otitis externa", ["• bacterial: itchy, painful, swollen, sore on pulling the pinna", "• fungal: severe itch, less pain, after antibiotics", "~fungal and recurrent → think diabetes"]]]],
+   "inv": [[["w", "Otoscopy", ["• bacterial: Pseudomonas, then Staph aureus", "• fungal: black spores (Aspergillus), white (Candida)"]]]],
+   "tx": [[["ok", "Clean it", ["• debride, acidify, stop Q-tips", "• antibiotic + steroid drops", "• fungal: antifungal drops"]]],
+          [["bad", "Perforation? NO ototoxic drops", ["ciprofloxacin + dexamethasone is non-ototoxic"]]]]
+  },
+  {
+   "id": "om", "colour": "blue",
+   "head": [[["h", "Otitis media", ["the commonest middle ear cause"]]]],
+   "pres": [[["t", "Acute: after a cold", ["pain, fever, irritability · bulging drum", "~overdiagnosed"]]],
+            [["w", "With effusion: no infection signs", ["hearing loss, speech delay", "~underdiagnosed"]]]],
+   "inv": [[["w", "Pneumatic otoscopy", ["drum does not move = fluid"]]],
+           [["w", "Fluid in BOTH ears for 3 months", ["→ hearing test (speech, development)"]]]],
+   "tx": [[["ok", "Acute: high-dose amoxicillin", ["or watch 48-72 h in lower-risk children · treat pain"]]],
+          [["warn", "Tubes", ["• effusion both ears > 3 months + > 20 dB loss in the better ear", "• fluid with speech delay", "• symptoms despite > 6 weeks of antibiotics"]]]]
+  },
+  {
+   "id": "fix", "colour": "purple",
+   "head": [[["h", "Drum or ossicles", ["perforation · otosclerosis · longitudinal fracture"]]]],
+   "pres": [[["t", "Which one?", ["• perforation: infection, tubes, trauma, barotrauma", "• otosclerosis: NORMAL drum, no trauma or infection", "• fracture (80%, side blow): unconscious, bleeding from or behind the drum"]]]],
+   "inv": [[["w", "Audiogram", ["otosclerosis: conductive or mixed, Carhart's notch"]]],
+           [["w", "CT", ["bone and ossicles"]]]],
+   "tx": [[["ok", "Fix or bypass", ["• perforation: keep dry, 80% heal; else tympanoplasty", "• ossiculoplasty · stapedectomy", "• aids: air, or bone-conduction (implanted)"]]]]
+  },
+  {
+   "id": "ssnhl", "colour": "magenta",
+   "head": [[["h", "SUDDEN sensorineural", ["onset < 3 days · EMERGENCY"]]]],
+   "pres": [[["t", "Hearing loss, tinnitus, fullness", ["± vertigo", "~mostly idiopathic"]]]],
+   "inv": [[["w", "Workup", ["1 · tuning forks", "2 · ENT referral", "3 · audiogram", "4 · MRI: 2% are an acoustic neuroma"]]]],
+   "tx": [[["ok", "Steroids by mouth or into the ear", ["START WITHIN 10 DAYS", "~60-80% recover"]]]]
+  },
+  {
+   "id": "grad", "colour": "olive",
+   "head": [[["h", "Gradual, symmetric", ["presbycusis · noise · ototoxic drugs"]]]],
+   "pres": [[["t", "Which one?", ["• presbycusis: commonest, HIGH pitches first, 30% over 65, 50% over 75", "• noise > 85 dB: work, guns (asymmetric)", "• aminoglycosides, cisplatin, carboplatin, vincristine, loop diuretics", "~ASA and quinine: reversible"]]]],
+   "inv": [[["w", "Audiogram", ["• presbycusis: high-frequency loss", "• noise: a 4,000 Hz NOTCH"]]]],
+   "tx": [[["ok", "Protect, then amplify", ["• hearing protection", "• hearing aid: volume, NOT clarity"]]],
+          [["ok", "Severe to profound, aids failing", ["cochlear implant (needs a working nerve)"]]]]
+  },
+  {
+   "id": "vs", "colour": "orange",
+   "head": [[["h", "ONE-sided, progressive", ["vestibular schwannoma (acoustic neuroma)"]]]],
+   "pres": [[["t", "Unilateral loss + tinnitus", ["• imbalance (rarely vertigo)", "• trigeminal or facial nerve symptoms", "~commonest cerebellopontine angle mass · both sides = NF2"]]]],
+   "inv": [[["w", "MRI ± gadolinium", ["soft tissue, cerebellopontine angle tumours"]]]],
+   "tx": [[["ok", "Slow, benign", ["observe · stereotactic radiation · microsurgery"]]]]
+  }
+ ]
+}

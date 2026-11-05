@@ -1,0 +1,534 @@
+{
+ "name": "seizures overview",
+ "width": 1262,
+ "title": "First seizure: history decides whether it was a seizure, then whether it was provoked; for an unprovoked seizure, MRI and EEG estimate the recurrence risk, which decides between discussing treatment for a single seizure and recommending it for epilepsy; drug-resistant epilepsy goes to an epilepsy centre; status epilepticus is an emergency",
+ "kinds": {
+  "ne_h": [
+   "#46607a",
+   "#46607a",
+   "#ffffff",
+   "#ffffff"
+  ],
+  "ne_t": [
+   "#e2e8ee",
+   "#46607a",
+   "#46607a",
+   "#18212e"
+  ],
+  "ne_w": [
+   "#ffffff",
+   "#46607a",
+   "#46607a",
+   "#18212e"
+  ],
+  "prov_h": [
+   "#1f6f8b",
+   "#1f6f8b",
+   "#ffffff",
+   "#ffffff"
+  ],
+  "prov_t": [
+   "#dceef4",
+   "#1f6f8b",
+   "#1f6f8b",
+   "#18212e"
+  ],
+  "prov_w": [
+   "#ffffff",
+   "#1f6f8b",
+   "#1f6f8b",
+   "#18212e"
+  ],
+  "single_h": [
+   "#b5600f",
+   "#b5600f",
+   "#ffffff",
+   "#ffffff"
+  ],
+  "single_t": [
+   "#fbe8d3",
+   "#b5600f",
+   "#b5600f",
+   "#18212e"
+  ],
+  "single_w": [
+   "#ffffff",
+   "#b5600f",
+   "#b5600f",
+   "#18212e"
+  ],
+  "epi_h": [
+   "#6a4aa8",
+   "#6a4aa8",
+   "#ffffff",
+   "#ffffff"
+  ],
+  "epi_t": [
+   "#ebe4f7",
+   "#6a4aa8",
+   "#6a4aa8",
+   "#18212e"
+  ],
+  "epi_w": [
+   "#ffffff",
+   "#6a4aa8",
+   "#6a4aa8",
+   "#18212e"
+  ],
+  "se_h": [
+   "#a3336b",
+   "#a3336b",
+   "#ffffff",
+   "#ffffff"
+  ],
+  "se_t": [
+   "#f8e0ec",
+   "#a3336b",
+   "#a3336b",
+   "#18212e"
+  ],
+  "se_w": [
+   "#ffffff",
+   "#a3336b",
+   "#a3336b",
+   "#18212e"
+  ]
+ },
+ "bands": [
+  {
+   "x": 40,
+   "y": 442,
+   "w": 224,
+   "h": 654,
+   "fill": "#f2f5f8",
+   "stroke": "#46607a"
+  },
+  {
+   "x": 294,
+   "y": 442,
+   "w": 224,
+   "h": 654,
+   "fill": "#eef7fa",
+   "stroke": "#1f6f8b"
+  },
+  {
+   "x": 548,
+   "y": 442,
+   "w": 224,
+   "h": 654,
+   "fill": "#fdf4ea",
+   "stroke": "#b5600f"
+  },
+  {
+   "x": 774,
+   "y": 442,
+   "w": 224,
+   "h": 654,
+   "fill": "#f5f1fb",
+   "stroke": "#6a4aa8"
+  },
+  {
+   "x": 1028,
+   "y": 442,
+   "w": 224,
+   "h": 654,
+   "fill": "#fcf0f6",
+   "stroke": "#a3336b"
+  }
+ ],
+ "row_labels": [
+  {
+   "x": 23,
+   "y": 256,
+   "h": 114,
+   "text": "WORKUP"
+  },
+  {
+   "x": 23,
+   "y": 570,
+   "h": 132,
+   "text": "WHAT DECIDES IT"
+  },
+  {
+   "x": 23,
+   "y": 742,
+   "h": 346,
+   "text": "TREATMENT"
+  }
+ ],
+ "nodes": [
+  {
+   "id": "root",
+   "x": 266,
+   "y": 10,
+   "w": 760,
+   "kind": "dark",
+   "title": "A first seizure: HISTORY is the key",
+   "lines": [
+    "details of the event · witnesses · ambulance records · risk factors: febrile seizures, head trauma, meningitis or encephalitis, family history",
+    "URGENT evaluation if fever, trauma, enduring confusion or low consciousness, or a persistent focal deficit"
+   ]
+  },
+  {
+   "id": "g_ne",
+   "x": 45,
+   "y": 156,
+   "w": 214,
+   "h": 60,
+   "kind": "plain",
+   "title": "Was it a seizure?",
+   "lines": [
+    "NO"
+   ]
+  },
+  {
+   "id": "g_prov",
+   "x": 299,
+   "y": 156,
+   "w": 214,
+   "h": 60,
+   "kind": "plain",
+   "title": "Was it PROVOKED?",
+   "lines": [
+    "YES"
+   ]
+  },
+  {
+   "id": "g_unprov",
+   "x": 553,
+   "y": 156,
+   "w": 440,
+   "h": 60,
+   "kind": "plain",
+   "title": "UNPROVOKED: how likely is ANOTHER?",
+   "lines": [
+    "an enduring abnormality: genetic, old stroke, old trauma, tumour"
+   ]
+  },
+  {
+   "id": "g_se",
+   "x": 1033,
+   "y": 156,
+   "w": 214,
+   "h": 60,
+   "kind": "plain",
+   "title": "Still seizing?",
+   "lines": [
+    "YES"
+   ]
+  },
+  {
+   "id": "p_unprov",
+   "x": 553,
+   "y": 256,
+   "w": 440,
+   "h": 114,
+   "kind": "info",
+   "title": "Work up to estimate the RECURRENCE RISK",
+   "lines": [
+    "1 · electrolytes (extended) · CT in the emergency department: bleed, tumour?",
+    "2 · MRI, epilepsy protocol: a STRUCTURAL lesion ↑ risk",
+    "3 · EEG: EPILEPTIFORM discharges ↑ risk"
+   ]
+  },
+  {
+   "id": "ne_head_0_0",
+   "x": 45,
+   "y": 450,
+   "w": 214,
+   "h": 80,
+   "kind": "ne_h",
+   "title": "Non-epileptic event",
+   "lines": [
+    "not a seizure"
+   ]
+  },
+  {
+   "id": "prov_head_0_0",
+   "x": 299,
+   "y": 450,
+   "w": 214,
+   "h": 80,
+   "kind": "prov_h",
+   "title": "Provoked seizure",
+   "lines": [
+    "a TRANSIENT factor on an otherwise normal brain"
+   ]
+  },
+  {
+   "id": "single_head_0_0",
+   "x": 553,
+   "y": 450,
+   "w": 214,
+   "h": 80,
+   "kind": "single_h",
+   "title": "Single unprovoked seizure",
+   "lines": [
+    "risk BELOW 60%"
+   ]
+  },
+  {
+   "id": "epi_head_0_0",
+   "x": 779,
+   "y": 450,
+   "w": 214,
+   "h": 80,
+   "kind": "epi_h",
+   "title": "Epilepsy",
+   "lines": [
+    "ANY one of these"
+   ]
+  },
+  {
+   "id": "se_head_0_0",
+   "x": 1033,
+   "y": 450,
+   "w": 214,
+   "h": 80,
+   "kind": "se_h",
+   "title": "Status epilepticus",
+   "lines": []
+  },
+  {
+   "id": "ne_clue_0_0",
+   "x": 45,
+   "y": 570,
+   "w": 214,
+   "h": 132,
+   "kind": "ne_t",
+   "title": "The history does not fit a seizure",
+   "lines": [
+    "look for another cause"
+   ]
+  },
+  {
+   "id": "prov_clue_0_0",
+   "x": 299,
+   "y": 570,
+   "w": 214,
+   "h": 132,
+   "kind": "prov_t",
+   "title": "A trigger was present",
+   "lines": [
+    "• immediate post-traumatic",
+    "• fever",
+    "• glucose or sodium",
+    "• alcohol"
+   ]
+  },
+  {
+   "id": "single_clue_0_0",
+   "x": 553,
+   "y": 570,
+   "w": 214,
+   "h": 132,
+   "kind": "single_t",
+   "title": "No lesion, no discharges",
+   "lines": [
+    "only one seizure"
+   ]
+  },
+  {
+   "id": "epi_clue_0_0",
+   "x": 779,
+   "y": 570,
+   "w": 214,
+   "h": 132,
+   "kind": "epi_t",
+   "title": "Defined by",
+   "lines": [
+    "• 2 unprovoked seizures > 24 h apart",
+    "• 1 unprovoked + recurrence risk ≥ 60% over 10 years",
+    "• an epilepsy SYNDROME"
+   ]
+  },
+  {
+   "id": "se_clue_0_0",
+   "x": 1033,
+   "y": 570,
+   "w": 214,
+   "h": 132,
+   "kind": "se_t",
+   "title": "Seizure does not stop",
+   "lines": []
+  },
+  {
+   "id": "ne_tx_0_0",
+   "x": 45,
+   "y": 742,
+   "w": 214,
+   "h": 346,
+   "kind": "ok",
+   "title": "Do NOT treat",
+   "lines": [
+    "treat the underlying cause"
+   ]
+  },
+  {
+   "id": "prov_tx_0_0",
+   "x": 299,
+   "y": 742,
+   "w": 214,
+   "h": 346,
+   "kind": "ok",
+   "title": "Do NOT treat",
+   "lines": [
+    "treat the underlying cause"
+   ]
+  },
+  {
+   "id": "single_tx_0_0",
+   "x": 553,
+   "y": 742,
+   "w": 214,
+   "h": 346,
+   "kind": "warn",
+   "title": "DISCUSS options with the patient",
+   "lines": [
+    "a second unprovoked seizure > 24 h apart = epilepsy"
+   ]
+  },
+  {
+   "id": "epi_tx_0_0",
+   "x": 779,
+   "y": 742,
+   "w": 214,
+   "h": 134,
+   "kind": "ok",
+   "title": "RECOMMEND an antiseizure drug",
+   "lines": [
+    "• 1st drug → 2nd drug (switch or combine)",
+    "• monitor side effects, interactions, levels"
+   ]
+  },
+  {
+   "id": "epi_tx_1_0",
+   "x": 779,
+   "y": 898,
+   "w": 214,
+   "h": 190,
+   "kind": "bad",
+   "title": "2 tolerated, appropriate drugs FAILED = drug-resistant",
+   "lines": [
+    "→ REFER to a comprehensive EPILEPSY CENTRE (a 3rd drug alongside)",
+    "→ rule out pseudoresistance → presurgical workup → surgery, neurostimulation"
+   ]
+  },
+  {
+   "id": "se_tx_0_0",
+   "x": 1033,
+   "y": 742,
+   "w": 214,
+   "h": 346,
+   "kind": "bad",
+   "title": "Treat as a NEUROLOGIC EMERGENCY",
+   "lines": []
+  }
+ ],
+ "edges": [
+  {
+   "from": "root",
+   "to": "g_ne",
+   "path": "M646.0 106V131H152.0V156"
+  },
+  {
+   "from": "root",
+   "to": "g_prov",
+   "path": "M646.0 106V131H406.0V156"
+  },
+  {
+   "from": "root",
+   "to": "g_unprov",
+   "path": "M646.0 106V131H773.0V156"
+  },
+  {
+   "from": "root",
+   "to": "g_se",
+   "path": "M646.0 106V131H1140.0V156"
+  },
+  {
+   "from": "g_unprov",
+   "to": "p_unprov"
+  },
+  {
+   "from": "epi_tx_0_0",
+   "to": "epi_tx_1_0"
+  },
+  {
+   "from": "ne_head_0_0",
+   "to": "ne_clue_0_0"
+  },
+  {
+   "from": "ne_clue_0_0",
+   "to": "ne_tx_0_0"
+  },
+  {
+   "from": "g_ne",
+   "to": "ne_head_0_0",
+   "from_dx": 0
+  },
+  {
+   "from": "prov_head_0_0",
+   "to": "prov_clue_0_0"
+  },
+  {
+   "from": "prov_clue_0_0",
+   "to": "prov_tx_0_0"
+  },
+  {
+   "from": "g_prov",
+   "to": "prov_head_0_0",
+   "from_dx": 0
+  },
+  {
+   "from": "single_head_0_0",
+   "to": "single_clue_0_0"
+  },
+  {
+   "from": "single_clue_0_0",
+   "to": "single_tx_0_0"
+  },
+  {
+   "from": "p_unprov",
+   "to": "single_head_0_0",
+   "from_dx": -113,
+   "label": "normal MRI + EEG",
+   "label_at": [
+    660.0,
+    410
+   ]
+  },
+  {
+   "from": "epi_head_0_0",
+   "to": "epi_clue_0_0"
+  },
+  {
+   "from": "epi_clue_0_0",
+   "to": "epi_tx_0_0"
+  },
+  {
+   "from": "p_unprov",
+   "to": "epi_head_0_0",
+   "from_dx": 113,
+   "label": "lesion or discharges",
+   "label_at": [
+    886.0,
+    410
+   ]
+  },
+  {
+   "from": "se_head_0_0",
+   "to": "se_clue_0_0"
+  },
+  {
+   "from": "se_clue_0_0",
+   "to": "se_tx_0_0"
+  },
+  {
+   "from": "g_se",
+   "to": "se_head_0_0",
+   "from_dx": 0
+  }
+ ],
+ "panels": []
+}

@@ -1,0 +1,466 @@
+{
+ "name": "cerebellum and basal ganglia overview",
+ "width": 996,
+ "title": "Movement disorders with normal power: a cerebellar lesion lets movement start but makes it inaccurate, on the same side, with the subdivision deciding the signs; a basal ganglia imbalance either blocks starting (Parkinson disease, hypokinetic) or releases unwanted movement (chorea, hyperkinetic); each column gives the signs and the circuit that failed",
+ "kinds": {
+  "vest_h": [
+   "#1f6f8b",
+   "#1f6f8b",
+   "#ffffff",
+   "#ffffff"
+  ],
+  "vest_t": [
+   "#dceef4",
+   "#1f6f8b",
+   "#1f6f8b",
+   "#18212e"
+  ],
+  "vest_w": [
+   "#ffffff",
+   "#1f6f8b",
+   "#1f6f8b",
+   "#18212e"
+  ],
+  "spin_h": [
+   "#1f5f9e",
+   "#1f5f9e",
+   "#ffffff",
+   "#ffffff"
+  ],
+  "spin_t": [
+   "#dde9f7",
+   "#1f5f9e",
+   "#1f5f9e",
+   "#18212e"
+  ],
+  "spin_w": [
+   "#ffffff",
+   "#1f5f9e",
+   "#1f5f9e",
+   "#18212e"
+  ],
+  "cereb_h": [
+   "#6a4aa8",
+   "#6a4aa8",
+   "#ffffff",
+   "#ffffff"
+  ],
+  "cereb_t": [
+   "#ebe4f7",
+   "#6a4aa8",
+   "#6a4aa8",
+   "#18212e"
+  ],
+  "cereb_w": [
+   "#ffffff",
+   "#6a4aa8",
+   "#6a4aa8",
+   "#18212e"
+  ],
+  "pd_h": [
+   "#b5600f",
+   "#b5600f",
+   "#ffffff",
+   "#ffffff"
+  ],
+  "pd_t": [
+   "#fbe8d3",
+   "#b5600f",
+   "#b5600f",
+   "#18212e"
+  ],
+  "pd_w": [
+   "#ffffff",
+   "#b5600f",
+   "#b5600f",
+   "#18212e"
+  ],
+  "chor_h": [
+   "#a3336b",
+   "#a3336b",
+   "#ffffff",
+   "#ffffff"
+  ],
+  "chor_t": [
+   "#f8e0ec",
+   "#a3336b",
+   "#a3336b",
+   "#18212e"
+  ],
+  "chor_w": [
+   "#ffffff",
+   "#a3336b",
+   "#a3336b",
+   "#18212e"
+  ]
+ },
+ "bands": [
+  {
+   "x": 40,
+   "y": 288,
+   "w": 182,
+   "h": 510,
+   "fill": "#eef7fa",
+   "stroke": "#1f6f8b"
+  },
+  {
+   "x": 224,
+   "y": 288,
+   "w": 182,
+   "h": 510,
+   "fill": "#eff5fc",
+   "stroke": "#1f5f9e"
+  },
+  {
+   "x": 408,
+   "y": 288,
+   "w": 182,
+   "h": 510,
+   "fill": "#f5f1fb",
+   "stroke": "#6a4aa8"
+  },
+  {
+   "x": 620,
+   "y": 288,
+   "w": 182,
+   "h": 510,
+   "fill": "#fdf4ea",
+   "stroke": "#b5600f"
+  },
+  {
+   "x": 804,
+   "y": 288,
+   "w": 182,
+   "h": 510,
+   "fill": "#fcf0f6",
+   "stroke": "#a3336b"
+  }
+ ],
+ "row_labels": [
+  {
+   "x": 23,
+   "y": 414,
+   "h": 168,
+   "text": "PRESENTS AS"
+  },
+  {
+   "x": 23,
+   "y": 622,
+   "h": 168,
+   "text": "WHAT FAILED"
+  }
+ ],
+ "nodes": [
+  {
+   "id": "root",
+   "x": 133,
+   "y": 10,
+   "w": 760,
+   "kind": "dark",
+   "title": "Abnormal movement, power NORMAL: cerebellum or basal ganglia?",
+   "lines": [
+    "both are SIDE LOOPS: cortex → loop → thalamus → cortex",
+    "no upper motor neurons of their own, so NOT an upper motor neuron disorder"
+   ]
+  },
+  {
+   "id": "g_cb",
+   "x": 45,
+   "y": 138,
+   "w": 540,
+   "h": 78,
+   "kind": "plain",
+   "title": "CEREBELLUM: movement starts, but is INACCURATE",
+   "lines": [
+    "signs on the SAME side as the lesion",
+    "stable or slowly improve"
+   ]
+  },
+  {
+   "id": "g_bg",
+   "x": 625,
+   "y": 138,
+   "w": 356,
+   "h": 78,
+   "kind": "plain",
+   "title": "BASAL GANGLIA: release vs suppress is off",
+   "lines": [
+    "dopamine: direct pathway UP, indirect DOWN"
+   ]
+  },
+  {
+   "id": "vest_head_0_0",
+   "x": 45,
+   "y": 296,
+   "w": 172,
+   "h": 78,
+   "kind": "vest_h",
+   "title": "Vestibulocerebellum",
+   "lines": [
+    "flocculonodular lobe"
+   ]
+  },
+  {
+   "id": "spin_head_0_0",
+   "x": 229,
+   "y": 296,
+   "w": 172,
+   "h": 78,
+   "kind": "spin_h",
+   "title": "Spinocerebellum",
+   "lines": [
+    "vermis + intermediate zone"
+   ]
+  },
+  {
+   "id": "cereb_head_0_0",
+   "x": 413,
+   "y": 296,
+   "w": 172,
+   "h": 78,
+   "kind": "cereb_h",
+   "title": "Cerebrocerebellum",
+   "lines": [
+    "lateral hemispheres"
+   ]
+  },
+  {
+   "id": "pd_head_0_0",
+   "x": 625,
+   "y": 296,
+   "w": 172,
+   "h": 78,
+   "kind": "pd_h",
+   "title": "Parkinson disease",
+   "lines": [
+    "HYPOKINETIC"
+   ]
+  },
+  {
+   "id": "chor_head_0_0",
+   "x": 809,
+   "y": 296,
+   "w": 172,
+   "h": 78,
+   "kind": "chor_h",
+   "title": "Chorea",
+   "lines": [
+    "HYPERKINETIC"
+   ]
+  },
+  {
+   "id": "vest_sign_0_0",
+   "x": 45,
+   "y": 414,
+   "w": 172,
+   "h": 168,
+   "kind": "vest_t",
+   "title": "Balance",
+   "lines": [
+    "• wide-based gait, looks drunk",
+    "• Romberg: WORSE with eyes closed",
+    "• nystagmus"
+   ]
+  },
+  {
+   "id": "spin_sign_0_0",
+   "x": 229,
+   "y": 414,
+   "w": 172,
+   "h": 168,
+   "kind": "spin_t",
+   "title": "Gait + tone",
+   "lines": [
+    "• ataxic gait, poor leg control",
+    "• falls walking heel-to-toe",
+    "• hypotonia: LOW tone"
+   ]
+  },
+  {
+   "id": "cereb_sign_0_0",
+   "x": 413,
+   "y": 414,
+   "w": 172,
+   "h": 168,
+   "kind": "cereb_t",
+   "title": "Skilled movement",
+   "lines": [
+    "• dysmetria: misses the target",
+    "• dyssynergia: segments uncoordinated",
+    "• INTENTION tremor, near the end",
+    "• fails finger-to-nose"
+   ]
+  },
+  {
+   "id": "pd_sign_0_0",
+   "x": 625,
+   "y": 414,
+   "w": 172,
+   "h": 168,
+   "kind": "pd_t",
+   "title": "Can't START",
+   "lines": [
+    "• akinesia: needs an outside cue",
+    "• slow (bradykinesia), freezing",
+    "• tremor at REST, eases with movement",
+    "• RIGIDITY: HIGH tone"
+   ]
+  },
+  {
+   "id": "chor_sign_0_0",
+   "x": 809,
+   "y": 414,
+   "w": 172,
+   "h": 168,
+   "kind": "chor_t",
+   "title": "Can't SUPPRESS",
+   "lines": [
+    "• spontaneous, unwanted movements"
+   ]
+  },
+  {
+   "id": "vest_circuit_0_0",
+   "x": 45,
+   "y": 622,
+   "w": 172,
+   "h": 168,
+   "kind": "vest_w",
+   "title": "Tunes balance + the vestibulo-ocular reflex",
+   "lines": [
+    "in: vestibular organs",
+    "out: vestibular nuclei → eye, limb, trunk muscles"
+   ]
+  },
+  {
+   "id": "spin_circuit_0_0",
+   "x": 229,
+   "y": 622,
+   "w": 172,
+   "h": 168,
+   "kind": "spin_w",
+   "title": "Tunes ongoing movement + tone",
+   "lines": [
+    "out: fastigial and interposed nuclei → spinal cord"
+   ]
+  },
+  {
+   "id": "cereb_circuit_0_0",
+   "x": 413,
+   "y": 622,
+   "w": 172,
+   "h": 168,
+   "kind": "cereb_w",
+   "title": "Adds skill + coordination",
+   "lines": [
+    "out: dentate nucleus → motor and premotor cortex",
+    "no tremor at rest"
+   ]
+  },
+  {
+   "id": "pd_circuit_0_0",
+   "x": 625,
+   "y": 622,
+   "w": 172,
+   "h": 168,
+   "kind": "pd_w",
+   "title": "Pars compacta dopamine cells die",
+   "lines": [
+    "→ too much inhibition of the thalamus",
+    "WORSENS over time",
+    "treat: L-dopa"
+   ]
+  },
+  {
+   "id": "chor_circuit_0_0",
+   "x": 809,
+   "y": 622,
+   "w": 172,
+   "h": 168,
+   "kind": "chor_w",
+   "title": "Either cause",
+   "lines": [
+    "• Huntington disease: indirect pathway degraded",
+    "• too much L-dopa: direct pathway over-driven",
+    "→ too little inhibition of the thalamus"
+   ]
+  }
+ ],
+ "edges": [
+  {
+   "from": "root",
+   "to": "g_cb",
+   "path": "M513.0 88V113H315.0V138"
+  },
+  {
+   "from": "root",
+   "to": "g_bg",
+   "path": "M513.0 88V113H803.0V138"
+  },
+  {
+   "from": "vest_head_0_0",
+   "to": "vest_sign_0_0"
+  },
+  {
+   "from": "vest_sign_0_0",
+   "to": "vest_circuit_0_0"
+  },
+  {
+   "from": "g_cb",
+   "to": "vest_head_0_0",
+   "from_dx": -184
+  },
+  {
+   "from": "spin_head_0_0",
+   "to": "spin_sign_0_0"
+  },
+  {
+   "from": "spin_sign_0_0",
+   "to": "spin_circuit_0_0"
+  },
+  {
+   "from": "g_cb",
+   "to": "spin_head_0_0",
+   "from_dx": 0
+  },
+  {
+   "from": "cereb_head_0_0",
+   "to": "cereb_sign_0_0"
+  },
+  {
+   "from": "cereb_sign_0_0",
+   "to": "cereb_circuit_0_0"
+  },
+  {
+   "from": "g_cb",
+   "to": "cereb_head_0_0",
+   "from_dx": 184
+  },
+  {
+   "from": "pd_head_0_0",
+   "to": "pd_sign_0_0"
+  },
+  {
+   "from": "pd_sign_0_0",
+   "to": "pd_circuit_0_0"
+  },
+  {
+   "from": "g_bg",
+   "to": "pd_head_0_0",
+   "from_dx": -92
+  },
+  {
+   "from": "chor_head_0_0",
+   "to": "chor_sign_0_0"
+  },
+  {
+   "from": "chor_sign_0_0",
+   "to": "chor_circuit_0_0"
+  },
+  {
+   "from": "g_bg",
+   "to": "chor_head_0_0",
+   "from_dx": 92
+  }
+ ],
+ "panels": []
+}

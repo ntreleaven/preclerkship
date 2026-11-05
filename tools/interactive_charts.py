@@ -4,7 +4,7 @@ Purpose: Build the portal's interactive overview charts (Look / Walk / Test): on
          the svg-name -> page map that points each lecture's chart figure at its page.
 Author: nsimsam (with Claude Code)
 Date: 2026-10-18
-Input: <preclerkship>/tools/pathways/src/*.content.json (endo, repro, msk), the portal's
+Input: <preclerkship>/tools/pathways/src/*.content.json (endo, repro, msk, neuro), the portal's
        pom2/data/notes/<block>.json for lecture names, and the vault's rendered
        "<name>.svg" for the "compare with the chart" panel. Every other drawn chart in those
        notes (a pathway_svg flow or a class_tree_svg drug tree, matched to its spec in
@@ -38,7 +38,7 @@ import column_pathway  # noqa: E402
 import pathway_svg  # noqa: E402
 from interactive_flows import flow_model, tree_model  # noqa: E402
 HERE = REPO / "pom2/charts"
-BLOCKS = {"endo": "Endocrinology", "repro": "Reproduction", "msk": "Musculoskeletal"}
+BLOCKS = {"endo": "Endocrinology", "repro": "Reproduction", "msk": "Musculoskeletal", "neuro": "Neurology"}
 
 log = logging.getLogger("charts")
 
@@ -58,7 +58,7 @@ def notes_embedding(vault: Path, svg_name: str) -> list:
     """Lecture notes (file stems) that embed the chart's SVG."""
     lectures = vault / "01 - Lectures/99 - PoM 2"
     needle = f"![[{svg_name}"
-    return sorted(p.stem for p in lectures.glob("0[1-3]*/Week */*.md") if needle in p.read_text(errors="ignore"))
+    return sorted(p.stem for p in lectures.glob("0[1-4]*/Week */*.md") if needle in p.read_text(errors="ignore"))
 
 
 def page(spec: dict, title: str, covers: list, svg: str, block: str, model: dict = None) -> str:
@@ -152,7 +152,7 @@ def index(entries: list) -> str:
 <header>
 <p class="eyebrow"><a href="../../index.html">PoM 2</a></p>
 <h1>Interactive overview charts</h1>
-<p class="lead">Every overview chart from the endocrinology, reproduction and musculoskeletal notes, with three ways to use it: Look (focus one column), Walk (answer the chart's questions from the top), and Test (each column starts as its name; tap to reveal the next row).</p>
+<p class="lead">Every overview chart from the endocrinology, reproduction, musculoskeletal and neurology notes, with three ways to use it: Look (focus one column), Walk (answer the chart's questions from the top), and Test (each column starts as its name; tap to reveal the next row).</p>
 </header>
 {body}
 </div>

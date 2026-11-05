@@ -1,0 +1,345 @@
+{
+ "name": "sensory symptoms overview",
+ "title": "Numbness and tingling are localized first, central or peripheral: a thalamic lesion gives opposite-side clumsiness and burning pain, a spinal cord lesion a truncal sensory level with brisk reflexes, a root a dermatomal pattern with a lost reflex, a mononeuropathy one nerve's territory, a length-dependent polyneuropathy symmetric distal sensory loss, and Guillain-Barre syndrome weakness ascending over days with lost reflexes; each column gives what it looks like, the test that settles it and what to do",
+ "col_w": 212,
+ "root": {
+  "title": "Numbness and tingling: WHERE is the lesion?",
+  "lines": [
+   "first: CENTRAL or PERIPHERAL?",
+   "characterize a neuropathy: sensory, motor or autonomic · acute (days-6 weeks), subacute (to 6 months) or chronic · its pattern · axonal or demyelinating (EMG)"
+  ]
+ },
+ "groups": [
+  {
+   "id": "g_cns",
+   "cols": [
+    0,
+    1
+   ],
+   "title": "CENTRAL",
+   "lines": [
+    "cortex · subcortical · brainstem · spinal cord"
+   ]
+  },
+  {
+   "id": "g_pns",
+   "cols": [
+    2,
+    5
+   ],
+   "title": "PERIPHERAL",
+   "lines": [
+    "dorsal root ganglion · root · one nerve · many nerves"
+   ]
+  }
+ ],
+ "sections": [
+  "head",
+  "clue",
+  "inv",
+  "tx"
+ ],
+ "row_names": {
+  "clue": "PRESENTS AS",
+  "inv": "THE TELL",
+  "tx": "NEXT STEP"
+ },
+ "columns": [
+  {
+   "id": "thal",
+   "colour": "slate",
+   "head": [
+    [
+     [
+      "h",
+      "Brain: thalamus",
+      [
+       "e.g. a thalamic hemorrhage"
+      ]
+     ]
+    ]
+   ],
+   "clue": [
+    [
+     [
+      "t",
+      "The OPPOSITE side",
+      [
+       "• a clumsy hand",
+       "• burning pain"
+      ]
+     ]
+    ]
+   ],
+   "inv": [
+    [
+     [
+      "w",
+      "Not neglect or atrophy",
+      [
+       "neglect = cortex · atrophy = nerve"
+      ]
+     ]
+    ]
+   ],
+   "tx": [
+    [
+     [
+      "warn",
+      "Expect it as he recovers",
+      [
+       "central pain: see the NEUROPATHIC PAIN chart"
+      ]
+     ]
+    ]
+   ]
+  },
+  {
+   "id": "cord",
+   "colour": "purple",
+   "head": [
+    [
+     [
+      "h",
+      "Spinal cord",
+      [
+       "e.g. MS myelitis"
+      ]
+     ]
+    ]
+   ],
+   "clue": [
+    [
+     [
+      "t",
+      "Below a level on the trunk",
+      [
+       "• tingling from mid-chest down",
+       "• bladder urgency"
+      ]
+     ]
+    ]
+   ],
+   "inv": [
+    [
+     [
+      "w",
+      "A TRUNCAL SENSORY LEVEL",
+      [
+       "• BRISK reflexes below it",
+       "• Babinski signs · Romberg can be positive"
+      ]
+     ]
+    ]
+   ],
+   "tx": [
+    [
+     [
+      "warn",
+      "MRI of the cord",
+      [
+       "suspect MS? brain AND spinal cord, within 6 weeks"
+      ]
+     ]
+    ]
+   ]
+  },
+  {
+   "id": "root",
+   "colour": "orange",
+   "head": [
+    [
+     [
+      "h",
+      "Root (radiculopathy)",
+      [
+       "e.g. S1 after lifting"
+      ]
+     ]
+    ]
+   ],
+   "clue": [
+    [
+     [
+      "t",
+      "Back pain down one leg",
+      [
+       "• SHOOTING pain",
+       "• S1: little toe and sole"
+      ]
+     ]
+    ]
+   ],
+   "inv": [
+    [
+     [
+      "w",
+      "One root's pattern",
+      [
+       "• S1: ABSENT ankle (Achilles) reflex"
+      ]
+     ]
+    ]
+   ],
+   "tx": [
+    [
+     [
+      "warn",
+      "Not a diabetic neuropathy",
+      [
+       "shooting leg pain is a root, even in a diabetic"
+      ]
+     ]
+    ]
+   ]
+  },
+  {
+   "id": "mono",
+   "colour": "teal",
+   "head": [
+    [
+     [
+      "h",
+      "Mononeuropathy",
+      [
+       "e.g. carpal tunnel (median nerve)"
+      ]
+     ]
+    ]
+   ],
+   "clue": [
+    [
+     [
+      "t",
+      "One nerve's territory",
+      [
+       "• hands: intermittent, NOCTURNAL",
+       "• relieved by shaking the hands"
+      ]
+     ]
+    ]
+   ],
+   "inv": [
+    [
+     [
+      "w",
+      "Exam can be NORMAL",
+      [
+       "it is not MS"
+      ]
+     ]
+    ]
+   ],
+   "tx": [
+    [
+     [
+      "ok",
+      "Reassure · no imaging",
+      [
+       "nocturnal wrist splints"
+      ]
+     ]
+    ]
+   ]
+  },
+  {
+   "id": "poly",
+   "colour": "blue",
+   "head": [
+    [
+     [
+      "h",
+      "Length-dependent polyneuropathy",
+      [
+       "DIABETES: the most common cause in Canada"
+      ]
+     ]
+    ]
+   ],
+   "clue": [
+    [
+     [
+      "t",
+      "Distal, symmetric, years",
+      [
+       "• painful, BURNING feet (stocking-glove)",
+       "• autonomic: postural light-headedness, urinary hesitancy, constipation"
+      ]
+     ]
+    ]
+   ],
+   "inv": [
+    [
+     [
+      "w",
+      "Axonal, sensorimotor",
+      [
+       "large and small fibres · distal dying back"
+      ]
+     ]
+    ]
+   ],
+   "tx": [
+    [
+     [
+      "ok",
+      "Treat the PAIN",
+      [
+       "an analgesic or an antidepressant for neuropathic pain"
+      ]
+     ]
+    ]
+   ]
+  },
+  {
+   "id": "gbs",
+   "colour": "magenta",
+   "head": [
+    [
+     [
+      "h",
+      "Guillain-Barré syndrome",
+      [
+       "acute inflammatory demyelinating polyneuropathy"
+      ]
+     ]
+    ]
+   ],
+   "clue": [
+    [
+     [
+      "t",
+      "ASCENDING over DAYS",
+      [
+       "• after an infection (a cold)",
+       "• toes → knees, then fingertips → legs give out"
+      ]
+     ]
+    ]
+   ],
+   "inv": [
+    [
+     [
+      "w",
+      "WEAKNESS >> sensory loss",
+      [
+       "• AREFLEXIA, down-going toes",
+       "• EMG: demyelinating (some axonal)"
+      ]
+     ]
+    ]
+   ],
+   "tx": [
+    [
+     [
+      "bad",
+      "IVIG · a neurologist",
+      [
+       "can reach the cranial nerves and breathing muscles → intubation"
+      ]
+     ]
+    ]
+   ]
+  }
+ ]
+}

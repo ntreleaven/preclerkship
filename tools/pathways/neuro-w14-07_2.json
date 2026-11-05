@@ -1,0 +1,683 @@
+{
+ "name": "altered level of consciousness overview",
+ "width": 1376,
+ "title": "Altered level of consciousness: treat the reversible causes first, then the exam (brainstem reflexes, breathing, motor response, eye opening and signs of awareness) places the patient as brain death, coma, vegetative state, minimally conscious state minus or plus, or a locked-in coma mimic",
+ "kinds": {
+  "bd_h": [
+   "#46607a",
+   "#46607a",
+   "#ffffff",
+   "#ffffff"
+  ],
+  "bd_t": [
+   "#e2e8ee",
+   "#46607a",
+   "#46607a",
+   "#18212e"
+  ],
+  "bd_w": [
+   "#ffffff",
+   "#46607a",
+   "#46607a",
+   "#18212e"
+  ],
+  "coma_h": [
+   "#1f5f9e",
+   "#1f5f9e",
+   "#ffffff",
+   "#ffffff"
+  ],
+  "coma_t": [
+   "#dde9f7",
+   "#1f5f9e",
+   "#1f5f9e",
+   "#18212e"
+  ],
+  "coma_w": [
+   "#ffffff",
+   "#1f5f9e",
+   "#1f5f9e",
+   "#18212e"
+  ],
+  "vs_h": [
+   "#1f6f8b",
+   "#1f6f8b",
+   "#ffffff",
+   "#ffffff"
+  ],
+  "vs_t": [
+   "#dceef4",
+   "#1f6f8b",
+   "#1f6f8b",
+   "#18212e"
+  ],
+  "vs_w": [
+   "#ffffff",
+   "#1f6f8b",
+   "#1f6f8b",
+   "#18212e"
+  ],
+  "mcsm_h": [
+   "#b5600f",
+   "#b5600f",
+   "#ffffff",
+   "#ffffff"
+  ],
+  "mcsm_t": [
+   "#fbe8d3",
+   "#b5600f",
+   "#b5600f",
+   "#18212e"
+  ],
+  "mcsm_w": [
+   "#ffffff",
+   "#b5600f",
+   "#b5600f",
+   "#18212e"
+  ],
+  "mcsp_h": [
+   "#6a4aa8",
+   "#6a4aa8",
+   "#ffffff",
+   "#ffffff"
+  ],
+  "mcsp_t": [
+   "#ebe4f7",
+   "#6a4aa8",
+   "#6a4aa8",
+   "#18212e"
+  ],
+  "mcsp_w": [
+   "#ffffff",
+   "#6a4aa8",
+   "#6a4aa8",
+   "#18212e"
+  ],
+  "lis_h": [
+   "#a3336b",
+   "#a3336b",
+   "#ffffff",
+   "#ffffff"
+  ],
+  "lis_t": [
+   "#f8e0ec",
+   "#a3336b",
+   "#a3336b",
+   "#18212e"
+  ],
+  "lis_w": [
+   "#ffffff",
+   "#a3336b",
+   "#a3336b",
+   "#18212e"
+  ]
+ },
+ "bands": [
+  {
+   "x": 40,
+   "y": 308,
+   "w": 210,
+   "h": 646,
+   "fill": "#f2f5f8",
+   "stroke": "#46607a"
+  },
+  {
+   "x": 252,
+   "y": 308,
+   "w": 210,
+   "h": 646,
+   "fill": "#eff5fc",
+   "stroke": "#1f5f9e"
+  },
+  {
+   "x": 464,
+   "y": 308,
+   "w": 210,
+   "h": 646,
+   "fill": "#eef7fa",
+   "stroke": "#1f6f8b"
+  },
+  {
+   "x": 704,
+   "y": 308,
+   "w": 210,
+   "h": 646,
+   "fill": "#fdf4ea",
+   "stroke": "#b5600f"
+  },
+  {
+   "x": 916,
+   "y": 308,
+   "w": 210,
+   "h": 646,
+   "fill": "#f5f1fb",
+   "stroke": "#6a4aa8"
+  },
+  {
+   "x": 1156,
+   "y": 308,
+   "w": 210,
+   "h": 646,
+   "fill": "#fcf0f6",
+   "stroke": "#a3336b"
+  }
+ ],
+ "row_labels": [
+  {
+   "x": 23,
+   "y": 452,
+   "h": 114,
+   "text": "AWAKE? AWARE?"
+  },
+  {
+   "x": 23,
+   "y": 606,
+   "h": 186,
+   "text": "EXAM SHOWS"
+  },
+  {
+   "x": 23,
+   "y": 832,
+   "h": 114,
+   "text": "EEG · OUTLOOK"
+  }
+ ],
+ "nodes": [
+  {
+   "id": "root",
+   "x": 323,
+   "y": 10,
+   "w": 760,
+   "kind": "dark",
+   "title": "Not responding: FIRST look for the TREATABLE causes",
+   "lines": [
+    "shock or low blood pressure · low glucose · diabetic ketoacidosis · hypertensive encephalopathy · drug intoxication",
+    "bacterial or fungal meningitis · herpes simplex encephalitis · brain abscess · epidural or subdural hematoma",
+    "then EXAMINE: is the patient AWAKE (alertness) and AWARE (awareness)?"
+   ]
+  },
+  {
+   "id": "g_none",
+   "x": 45,
+   "y": 156,
+   "w": 624,
+   "h": 80,
+   "kind": "plain",
+   "title": "NOT aware",
+   "lines": [
+    "brainstem reflexes and eye opening decide"
+   ]
+  },
+  {
+   "id": "g_some",
+   "x": 709,
+   "y": 156,
+   "w": 412,
+   "h": 80,
+   "kind": "plain",
+   "title": "SOME awareness: minimally conscious",
+   "lines": [
+    "does the patient FOLLOW COMMANDS?"
+   ]
+  },
+  {
+   "id": "g_mimic",
+   "x": 1161,
+   "y": 156,
+   "w": 200,
+   "h": 80,
+   "kind": "plain",
+   "title": "FULLY aware, cannot show it",
+   "lines": [
+    "a COMA MIMIC"
+   ]
+  },
+  {
+   "id": "bd_head_0_0",
+   "x": 45,
+   "y": 316,
+   "w": 200,
+   "h": 96,
+   "kind": "bd_h",
+   "title": "Brain death",
+   "lines": [
+    "Canadian criteria: ALL of"
+   ]
+  },
+  {
+   "id": "coma_head_0_0",
+   "x": 257,
+   "y": 316,
+   "w": 200,
+   "h": 96,
+   "kind": "coma_h",
+   "title": "Coma",
+   "lines": [
+    "both hemispheres, both thalami, or brainstem above the mid-pons"
+   ]
+  },
+  {
+   "id": "vs_head_0_0",
+   "x": 469,
+   "y": 316,
+   "w": 200,
+   "h": 96,
+   "kind": "vs_h",
+   "title": "Vegetative state",
+   "lines": [
+    "aka UNRESPONSIVE WAKEFULNESS syndrome"
+   ]
+  },
+  {
+   "id": "mcsm_head_0_0",
+   "x": 709,
+   "y": 316,
+   "w": 200,
+   "h": 96,
+   "kind": "mcsm_h",
+   "title": "Minimally conscious MINUS",
+   "lines": [
+    "MCS-"
+   ]
+  },
+  {
+   "id": "mcsp_head_0_0",
+   "x": 921,
+   "y": 316,
+   "w": 200,
+   "h": 96,
+   "kind": "mcsp_h",
+   "title": "Minimally conscious PLUS",
+   "lines": [
+    "MCS+"
+   ]
+  },
+  {
+   "id": "lis_head_0_0",
+   "x": 1161,
+   "y": 316,
+   "w": 200,
+   "h": 96,
+   "kind": "lis_h",
+   "title": "Locked-in syndrome",
+   "lines": [
+    "NOT a disorder of consciousness"
+   ]
+  },
+  {
+   "id": "bd_awake_0_0",
+   "x": 45,
+   "y": 452,
+   "w": 200,
+   "h": 114,
+   "kind": "bd_t",
+   "title": "Not awake, not aware",
+   "lines": [
+    "• known cause that can cause it",
+    "• NO reversible mimic or confounder"
+   ]
+  },
+  {
+   "id": "coma_awake_0_0",
+   "x": 257,
+   "y": 452,
+   "w": 200,
+   "h": 114,
+   "kind": "coma_t",
+   "title": "Not awake, not aware",
+   "lines": [
+    "• NO eye opening",
+    "• NO sleep-wake cycles"
+   ]
+  },
+  {
+   "id": "vs_awake_0_0",
+   "x": 469,
+   "y": 452,
+   "w": 200,
+   "h": 114,
+   "kind": "vs_t",
+   "title": "AWAKE, not aware",
+   "lines": [
+    "• eyes open, SLEEP-WAKE cycles",
+    "• autonomic function kept"
+   ]
+  },
+  {
+   "id": "mcsm_awake_0_0",
+   "x": 709,
+   "y": 452,
+   "w": 200,
+   "h": 114,
+   "kind": "mcsm_t",
+   "title": "Awake, UNCOMMON periods of awareness",
+   "lines": []
+  },
+  {
+   "id": "mcsp_awake_0_0",
+   "x": 921,
+   "y": 452,
+   "w": 200,
+   "h": 114,
+   "kind": "mcsp_t",
+   "title": "Awake, INTERMITTENT awareness",
+   "lines": []
+  },
+  {
+   "id": "lis_awake_0_0",
+   "x": 1161,
+   "y": 452,
+   "w": 200,
+   "h": 114,
+   "kind": "lis_t",
+   "title": "Awake AND fully aware",
+   "lines": [
+    "cognition preserved"
+   ]
+  },
+  {
+   "id": "bd_exam_0_0",
+   "x": 45,
+   "y": 606,
+   "w": 200,
+   "h": 186,
+   "kind": "bd_w",
+   "title": "Nothing above the cord",
+   "lines": [
+    "• deep coma, no motor response (spinal reflexes allowed)",
+    "• NO pupil (mid-size or larger), corneal, vestibulo-ocular, gag, cough",
+    "• APNEA test: no breathing effort"
+   ]
+  },
+  {
+   "id": "coma_exam_0_0",
+   "x": 257,
+   "y": 606,
+   "w": 200,
+   "h": 186,
+   "kind": "coma_w",
+   "title": "Primitive reflexes only",
+   "lines": [
+    "• decorticate: arms FLEX, legs extend → above the red nucleus",
+    "• decerebrate: all EXTEND → below the red nucleus",
+    "• GCS ≤ 8 = severe brain injury"
+   ]
+  },
+  {
+   "id": "vs_exam_0_0",
+   "x": 469,
+   "y": 606,
+   "w": 200,
+   "h": 186,
+   "kind": "vs_w",
+   "title": "Reflexive, never purposeful",
+   "lines": [
+    "• grimace, yawn, roving eyes, flexion withdrawal",
+    "• brief, UNSUSTAINED pursuit only",
+    "• no words, no commands"
+   ]
+  },
+  {
+   "id": "mcsm_exam_0_0",
+   "x": 709,
+   "y": 606,
+   "w": 200,
+   "h": 186,
+   "kind": "mcsm_w",
+   "title": "Responds, but NO commands",
+   "lines": [
+    "• visual pursuit",
+    "• localizes pain",
+    "• smiles or cries to stimuli"
+   ]
+  },
+  {
+   "id": "mcsp_exam_0_0",
+   "x": 921,
+   "y": 606,
+   "w": 200,
+   "h": 186,
+   "kind": "mcsp_w",
+   "title": "FOLLOWS COMMANDS",
+   "lines": [
+    "• intelligible words",
+    "• handles objects"
+   ]
+  },
+  {
+   "id": "lis_exam_0_0",
+   "x": 1161,
+   "y": 606,
+   "w": 200,
+   "h": 186,
+   "kind": "lis_w",
+   "title": "Only UPWARD GAZE + eye opening",
+   "lines": [
+    "• quadriplegia, pseudobulbar palsy",
+    "• breathing intact"
+   ]
+  },
+  {
+   "id": "bd_eeg_0_0",
+   "x": 45,
+   "y": 832,
+   "w": 200,
+   "h": 114,
+   "kind": "bad",
+   "title": "Electrocerebral silence",
+   "lines": [
+    "legally dead"
+   ]
+  },
+  {
+   "id": "coma_eeg_0_0",
+   "x": 257,
+   "y": 832,
+   "w": 200,
+   "h": 114,
+   "kind": "warn",
+   "title": "Polymorphic delta, burst-suppression",
+   "lines": [
+    "prognosis variable"
+   ]
+  },
+  {
+   "id": "vs_eeg_0_0",
+   "x": 469,
+   "y": 832,
+   "w": 200,
+   "h": 114,
+   "kind": "warn",
+   "title": "Delta, theta or silence",
+   "lines": [
+    "prognosis variable"
+   ]
+  },
+  {
+   "id": "mcsm_eeg_0_0",
+   "x": 709,
+   "y": 832,
+   "w": 200,
+   "h": 114,
+   "kind": "warn",
+   "title": "Non-specific slowing",
+   "lines": [
+    "prognosis variable"
+   ]
+  },
+  {
+   "id": "mcsp_eeg_0_0",
+   "x": 921,
+   "y": 832,
+   "w": 200,
+   "h": 114,
+   "kind": "ok",
+   "title": "EMERGED when it communicates",
+   "lines": [
+    "functional communication + object use"
+   ]
+  },
+  {
+   "id": "lis_eeg_0_0",
+   "x": 1161,
+   "y": 832,
+   "w": 200,
+   "h": 114,
+   "kind": "ok",
+   "title": "EEG usually normal",
+   "lines": [
+    "other mimics: Guillain-Barré, myasthenia, neuromuscular blockade, akinetic mutism, psychogenic"
+   ]
+  }
+ ],
+ "edges": [
+  {
+   "from": "root",
+   "to": "g_none",
+   "path": "M703.0 106V131H357.0V156"
+  },
+  {
+   "from": "root",
+   "to": "g_some",
+   "path": "M703.0 106V131H915.0V156"
+  },
+  {
+   "from": "root",
+   "to": "g_mimic",
+   "path": "M703.0 106V131H1261.0V156"
+  },
+  {
+   "from": "bd_head_0_0",
+   "to": "bd_awake_0_0"
+  },
+  {
+   "from": "bd_awake_0_0",
+   "to": "bd_exam_0_0"
+  },
+  {
+   "from": "bd_exam_0_0",
+   "to": "bd_eeg_0_0"
+  },
+  {
+   "from": "g_none",
+   "to": "bd_head_0_0",
+   "from_dx": -212,
+   "label": "no reflexes",
+   "label_at": [
+    145.0,
+    276
+   ]
+  },
+  {
+   "from": "coma_head_0_0",
+   "to": "coma_awake_0_0"
+  },
+  {
+   "from": "coma_awake_0_0",
+   "to": "coma_exam_0_0"
+  },
+  {
+   "from": "coma_exam_0_0",
+   "to": "coma_eeg_0_0"
+  },
+  {
+   "from": "g_none",
+   "to": "coma_head_0_0",
+   "from_dx": 0,
+   "label": "eyes closed",
+   "label_at": [
+    357.0,
+    276
+   ]
+  },
+  {
+   "from": "vs_head_0_0",
+   "to": "vs_awake_0_0"
+  },
+  {
+   "from": "vs_awake_0_0",
+   "to": "vs_exam_0_0"
+  },
+  {
+   "from": "vs_exam_0_0",
+   "to": "vs_eeg_0_0"
+  },
+  {
+   "from": "g_none",
+   "to": "vs_head_0_0",
+   "from_dx": 212,
+   "label": "eyes open",
+   "label_at": [
+    569.0,
+    276
+   ]
+  },
+  {
+   "from": "mcsm_head_0_0",
+   "to": "mcsm_awake_0_0"
+  },
+  {
+   "from": "mcsm_awake_0_0",
+   "to": "mcsm_exam_0_0"
+  },
+  {
+   "from": "mcsm_exam_0_0",
+   "to": "mcsm_eeg_0_0"
+  },
+  {
+   "from": "g_some",
+   "to": "mcsm_head_0_0",
+   "from_dx": -106,
+   "label": "no",
+   "label_at": [
+    809.0,
+    276
+   ]
+  },
+  {
+   "from": "mcsp_head_0_0",
+   "to": "mcsp_awake_0_0"
+  },
+  {
+   "from": "mcsp_awake_0_0",
+   "to": "mcsp_exam_0_0"
+  },
+  {
+   "from": "mcsp_exam_0_0",
+   "to": "mcsp_eeg_0_0"
+  },
+  {
+   "from": "g_some",
+   "to": "mcsp_head_0_0",
+   "from_dx": 106,
+   "label": "yes",
+   "label_at": [
+    1021.0,
+    276
+   ]
+  },
+  {
+   "from": "lis_head_0_0",
+   "to": "lis_awake_0_0"
+  },
+  {
+   "from": "lis_awake_0_0",
+   "to": "lis_exam_0_0"
+  },
+  {
+   "from": "lis_exam_0_0",
+   "to": "lis_eeg_0_0"
+  },
+  {
+   "from": "g_mimic",
+   "to": "lis_head_0_0",
+   "from_dx": 0,
+   "label": "can't move",
+   "label_at": [
+    1261.0,
+    276
+   ]
+  }
+ ],
+ "panels": []
+}

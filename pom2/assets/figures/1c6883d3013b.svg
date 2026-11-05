@@ -1,0 +1,104 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="922" height="1148" viewBox="0 0 922 1148" role="img" aria-labelledby="t"><title id="t">A child with a seizure: ABCDE and a bedside glucose and blood gas for every child, then fever and the seizure's features sort a simple from a complex febrile seizure, and a seizure past 5 minutes is convulsive status epilepticus treated by the clock with benzodiazepines, then a second-line load, then the intensive care unit</title><defs><marker id="ah" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#5a6577"/></marker></defs><rect width="100%" height="100%" rx="14" fill="#f6f7f9"/>
+<rect x="40" y="324" width="280" height="810" rx="16" fill="#eef7fa" stroke="#1f6f8b" stroke-opacity="0.25"/>
+<rect x="322" y="324" width="280" height="810" rx="16" fill="#fdf4ea" stroke="#b5600f" stroke-opacity="0.25"/>
+<rect x="632" y="324" width="280" height="810" rx="16" fill="#fcf0f6" stroke="#a3336b" stroke-opacity="0.25"/>
+<path d="M33 432H29V564H33" fill="none" stroke="#c9d0db" stroke-width="1.5"/>
+<text x="0" y="0" transform="translate(23 498.0) rotate(-90)" text-anchor="middle" font-family="Arial, 'Segoe UI Symbol', 'Liberation Sans', Helvetica, sans-serif" font-size="12" font-weight="700" letter-spacing="1.5" fill="#5a6577">PRESENTS AS</text>
+<path d="M33 604H29V754H33" fill="none" stroke="#c9d0db" stroke-width="1.5"/>
+<text x="0" y="0" transform="translate(23 679.0) rotate(-90)" text-anchor="middle" font-family="Arial, 'Segoe UI Symbol', 'Liberation Sans', Helvetica, sans-serif" font-size="12" font-weight="700" letter-spacing="1.5" fill="#5a6577">WORKUP</text>
+<path d="M33 794H29V1126H33" fill="none" stroke="#c9d0db" stroke-width="1.5"/>
+<text x="0" y="0" transform="translate(23 960.0) rotate(-90)" text-anchor="middle" font-family="Arial, 'Segoe UI Symbol', 'Liberation Sans', Helvetica, sans-serif" font-size="12" font-weight="700" letter-spacing="1.5" fill="#5a6577">TREATMENT</text>
+<path d="M772.0 252.0L772.0 330.0" fill="none" stroke="#5a6577" stroke-width="2" marker-end="url(#ah)"/>
+<path d="M772.0 754.0L772.0 792.0" fill="none" stroke="#5a6577" stroke-width="2" marker-end="url(#ah)"/>
+<path d="M772.0 564.0L772.0 602.0" fill="none" stroke="#5a6577" stroke-width="2" marker-end="url(#ah)"/>
+<path d="M772.0 392.0L772.0 430.0" fill="none" stroke="#5a6577" stroke-width="2" marker-end="url(#ah)"/>
+<path d="M462.0 252.0L462.0 330.0" fill="none" stroke="#5a6577" stroke-width="2" marker-end="url(#ah)"/>
+<path d="M462.0 754.0L462.0 792.0" fill="none" stroke="#5a6577" stroke-width="2" marker-end="url(#ah)"/>
+<path d="M462.0 564.0L462.0 602.0" fill="none" stroke="#5a6577" stroke-width="2" marker-end="url(#ah)"/>
+<path d="M462.0 392.0L462.0 430.0" fill="none" stroke="#5a6577" stroke-width="2" marker-end="url(#ah)"/>
+<path d="M180.0 252.0L180.0 330.0" fill="none" stroke="#5a6577" stroke-width="2" marker-end="url(#ah)"/>
+<path d="M180.0 754.0L180.0 792.0" fill="none" stroke="#5a6577" stroke-width="2" marker-end="url(#ah)"/>
+<path d="M180.0 564.0L180.0 602.0" fill="none" stroke="#5a6577" stroke-width="2" marker-end="url(#ah)"/>
+<path d="M180.0 392.0L180.0 430.0" fill="none" stroke="#5a6577" stroke-width="2" marker-end="url(#ah)"/>
+<path d="M772.0 1044.0L772.0 1064.0" fill="none" stroke="#5a6577" stroke-width="2" marker-end="url(#ah)"/>
+<path d="M772.0 908.0L772.0 928.0" fill="none" stroke="#5a6577" stroke-width="2" marker-end="url(#ah)"/>
+<path d="M476.0 106V131H772.0V156" fill="none" stroke="#5a6577" stroke-width="2" marker-end="url(#ah)"/>
+<path d="M476.0 106V131H321.0V156" fill="none" stroke="#5a6577" stroke-width="2" marker-end="url(#ah)"/>
+<rect x="96.0" y="10.0" width="760.0" height="96.0" rx="10" fill="#18212e" stroke="#18212e" stroke-width="1.5"/>
+<text x="476.0" y="35.4" font-family="Arial, 'Segoe UI Symbol', 'Liberation Sans', Helvetica, sans-serif" font-size="14.5" font-weight="700" fill="#f6f7f9" text-anchor="middle">Child seizing: ABCDE + time it</text>
+<text x="476.0" y="55.4" font-family="Arial, 'Segoe UI Symbol', 'Liberation Sans', Helvetica, sans-serif" font-size="12.5" font-weight="400" fill="#f6f7f9" text-anchor="middle">EVERY child: bedside GLUCOSE + blood GAS with electrolytes</text>
+<text x="476.0" y="73.3" font-family="Arial, 'Segoe UI Symbol', 'Liberation Sans', Helvetica, sans-serif" font-size="12.5" font-weight="400" fill="#f6f7f9" text-anchor="middle">low glucose → IV dextrose (D10 5 mL/kg) · low sodium → 3% saline 3-5 mL/kg</text>
+<text x="476.0" y="91.3" font-family="Arial, 'Segoe UI Symbol', 'Liberation Sans', Helvetica, sans-serif" font-size="12.5" font-weight="400" fill="#f6f7f9" text-anchor="middle">subtle in newborns: lip smacking, eye deviation, bicycling, apnea, vital sign changes</text>
+<rect x="45.0" y="156.0" width="552.0" height="96.0" rx="10" fill="#ffffff" stroke="#c9d0db" stroke-width="1.5"/>
+<text x="321.0" y="181.3" font-family="Arial, 'Segoe UI Symbol', 'Liberation Sans', Helvetica, sans-serif" font-size="14.5" font-weight="700" fill="#18212e" text-anchor="middle">FEVER, age 6 months-5 years: FEBRILE seizure</text>
+<text x="321.0" y="201.3" font-family="Arial, 'Segoe UI Symbol', 'Liberation Sans', Helvetica, sans-serif" font-size="12.5" font-weight="400" fill="#18212e" text-anchor="middle">only if NO CNS infection, NO acute electrolyte problem, NO past afebrile seizure</text>
+<text x="321.0" y="219.3" font-family="Arial, 'Segoe UI Symbol', 'Liberation Sans', Helvetica, sans-serif" font-size="12.5" font-weight="400" fill="#18212e" text-anchor="middle">WORRY: not back to baseline · meningeal signs or toxic look · delay or neurologic</text>
+<text x="321.0" y="237.3" font-family="Arial, 'Segoe UI Symbol', 'Liberation Sans', Helvetica, sans-serif" font-size="12.5" font-weight="400" fill="#18212e" text-anchor="middle">condition</text>
+<rect x="637.0" y="156.0" width="270.0" height="96.0" rx="10" fill="#ffffff" stroke="#c9d0db" stroke-width="1.5"/>
+<text x="772.0" y="199.3" font-family="Arial, 'Segoe UI Symbol', 'Liberation Sans', Helvetica, sans-serif" font-size="14.5" font-weight="700" fill="#18212e" text-anchor="middle">Still seizing at 5 MINUTES</text>
+<text x="772.0" y="219.3" font-family="Arial, 'Segoe UI Symbol', 'Liberation Sans', Helvetica, sans-serif" font-size="12.5" font-weight="400" fill="#18212e" text-anchor="middle">or no return to baseline between seizures</text>
+<rect x="45.0" y="332.0" width="270.0" height="60.0" rx="10" fill="#1f6f8b" stroke="#1f6f8b" stroke-width="1.5"/>
+<text x="180.0" y="366.4" font-family="Arial, 'Segoe UI Symbol', 'Liberation Sans', Helvetica, sans-serif" font-size="14.5" font-weight="700" fill="#ffffff" text-anchor="middle">Simple febrile seizure</text>
+<rect x="327.0" y="332.0" width="270.0" height="60.0" rx="10" fill="#b5600f" stroke="#b5600f" stroke-width="1.5"/>
+<text x="462.0" y="366.4" font-family="Arial, 'Segoe UI Symbol', 'Liberation Sans', Helvetica, sans-serif" font-size="14.5" font-weight="700" fill="#ffffff" text-anchor="middle">Complex febrile seizure</text>
+<rect x="637.0" y="332.0" width="270.0" height="60.0" rx="10" fill="#a3336b" stroke="#a3336b" stroke-width="1.5"/>
+<text x="772.0" y="357.4" font-family="Arial, 'Segoe UI Symbol', 'Liberation Sans', Helvetica, sans-serif" font-size="14.5" font-weight="700" fill="#ffffff" text-anchor="middle">Convulsive status epilepticus</text>
+<text x="772.0" y="377.4" font-family="Arial, 'Segoe UI Symbol', 'Liberation Sans', Helvetica, sans-serif" font-size="12.5" font-weight="400" fill="#ffffff" text-anchor="middle">&gt; 30 min, or 2+ seizures without recovery</text>
+<rect x="45.0" y="432.0" width="270.0" height="132.0" rx="10" fill="#dceef4" stroke="#1f6f8b" stroke-width="1.5"/>
+<text x="180.0" y="466.4" font-family="Arial, 'Segoe UI Symbol', 'Liberation Sans', Helvetica, sans-serif" font-size="14.5" font-weight="700" fill="#1f6f8b" text-anchor="middle">Typical</text>
+<text x="55.0" y="486.4" font-family="Arial, 'Segoe UI Symbol', 'Liberation Sans', Helvetica, sans-serif" font-size="12.5" font-weight="400" fill="#18212e" text-anchor="start">• GENERALIZED</text>
+<text x="55.0" y="504.4" font-family="Arial, 'Segoe UI Symbol', 'Liberation Sans', Helvetica, sans-serif" font-size="12.5" font-weight="400" fill="#18212e" text-anchor="start">• &lt; 15 minutes</text>
+<text x="55.0" y="522.4" font-family="Arial, 'Segoe UI Symbol', 'Liberation Sans', Helvetica, sans-serif" font-size="12.5" font-weight="400" fill="#18212e" text-anchor="start">• ONCE in 24 hours</text>
+<text x="55.0" y="540.4" font-family="Arial, 'Segoe UI Symbol', 'Liberation Sans', Helvetica, sans-serif" font-size="12.5" font-weight="400" fill="#18212e" text-anchor="start">• no neurologic or developmental problem</text>
+<rect x="327.0" y="432.0" width="270.0" height="132.0" rx="10" fill="#fbe8d3" stroke="#b5600f" stroke-width="1.5"/>
+<text x="462.0" y="457.4" font-family="Arial, 'Segoe UI Symbol', 'Liberation Sans', Helvetica, sans-serif" font-size="14.5" font-weight="700" fill="#b5600f" text-anchor="middle">Any ONE of</text>
+<text x="337.0" y="477.4" font-family="Arial, 'Segoe UI Symbol', 'Liberation Sans', Helvetica, sans-serif" font-size="12.5" font-weight="400" fill="#18212e" text-anchor="start">• FOCAL (one limb or side)</text>
+<text x="337.0" y="495.4" font-family="Arial, 'Segoe UI Symbol', 'Liberation Sans', Helvetica, sans-serif" font-size="12.5" font-weight="400" fill="#18212e" text-anchor="start">• &gt; 15 minutes</text>
+<text x="337.0" y="513.4" font-family="Arial, 'Segoe UI Symbol', 'Liberation Sans', Helvetica, sans-serif" font-size="12.5" font-weight="400" fill="#18212e" text-anchor="start">• RECURS within 24 hours</text>
+<text x="337.0" y="531.4" font-family="Arial, 'Segoe UI Symbol', 'Liberation Sans', Helvetica, sans-serif" font-size="12.5" font-weight="400" fill="#18212e" text-anchor="start">• focal signs after the seizure</text>
+<text x="337.0" y="549.4" font-family="Arial, 'Segoe UI Symbol', 'Liberation Sans', Helvetica, sans-serif" font-size="12.5" font-weight="400" fill="#18212e" text-anchor="start">• known neurologic condition</text>
+<rect x="637.0" y="432.0" width="270.0" height="132.0" rx="10" fill="#f8e0ec" stroke="#a3336b" stroke-width="1.5"/>
+<text x="772.0" y="484.4" font-family="Arial, 'Segoe UI Symbol', 'Liberation Sans', Helvetica, sans-serif" font-size="14.5" font-weight="700" fill="#a3336b" text-anchor="middle">Tonic-clonic, not stopping</text>
+<text x="647.0" y="504.4" font-family="Arial, 'Segoe UI Symbol', 'Liberation Sans', Helvetica, sans-serif" font-size="12.5" font-weight="400" fill="#18212e" text-anchor="start">• most seizures stop within 5 minutes</text>
+<text x="647.0" y="522.4" font-family="Arial, 'Segoe UI Symbol', 'Liberation Sans', Helvetica, sans-serif" font-size="12.5" font-weight="400" fill="#18212e" text-anchor="start">• longer = more brain injury: time matters</text>
+<rect x="45.0" y="604.0" width="270.0" height="150.0" rx="10" fill="#ffffff" stroke="#1f6f8b" stroke-width="1.5"/>
+<text x="180.0" y="674.4" font-family="Arial, 'Segoe UI Symbol', 'Liberation Sans', Helvetica, sans-serif" font-size="14.5" font-weight="700" fill="#1f6f8b" text-anchor="middle">Often NO further workup</text>
+<text x="180.0" y="694.4" font-family="Arial, 'Segoe UI Symbol', 'Liberation Sans', Helvetica, sans-serif" font-size="12.5" font-weight="400" fill="#18212e" text-anchor="middle">if back to baseline, no other concern</text>
+<rect x="327.0" y="604.0" width="270.0" height="150.0" rx="10" fill="#ffffff" stroke="#b5600f" stroke-width="1.5"/>
+<text x="462.0" y="665.4" font-family="Arial, 'Segoe UI Symbol', 'Liberation Sans', Helvetica, sans-serif" font-size="14.5" font-weight="700" fill="#b5600f" text-anchor="middle">Observe or admit</text>
+<text x="462.0" y="685.4" font-family="Arial, 'Segoe UI Symbol', 'Liberation Sans', Helvetica, sans-serif" font-size="12.5" font-weight="400" fill="#18212e" text-anchor="middle">by time back to baseline, neurologic signs,</text>
+<text x="462.0" y="703.4" font-family="Arial, 'Segoe UI Symbol', 'Liberation Sans', Helvetica, sans-serif" font-size="12.5" font-weight="400" fill="#18212e" text-anchor="middle">family comfort</text>
+<rect x="637.0" y="604.0" width="270.0" height="150.0" rx="10" fill="#ffffff" stroke="#a3336b" stroke-width="1.5"/>
+<text x="772.0" y="629.4" font-family="Arial, 'Segoe UI Symbol', 'Liberation Sans', Helvetica, sans-serif" font-size="14.5" font-weight="700" fill="#a3336b" text-anchor="middle">Stepwise, by the differential</text>
+<text x="647.0" y="649.4" font-family="Arial, 'Segoe UI Symbol', 'Liberation Sans', Helvetica, sans-serif" font-size="12.5" font-weight="400" fill="#18212e" text-anchor="start">• calcium, magnesium, drug levels</text>
+<text x="647.0" y="667.4" font-family="Arial, 'Segoe UI Symbol', 'Liberation Sans', Helvetica, sans-serif" font-size="12.5" font-weight="400" fill="#18212e" text-anchor="start">• infection: blood count, CRP, cultures,</text>
+<text x="654.8" y="685.4" font-family="Arial, 'Segoe UI Symbol', 'Liberation Sans', Helvetica, sans-serif" font-size="12.5" font-weight="400" fill="#18212e" text-anchor="start">CSF if stable</text>
+<text x="647.0" y="703.4" font-family="Arial, 'Segoe UI Symbol', 'Liberation Sans', Helvetica, sans-serif" font-size="12.5" font-weight="400" fill="#18212e" text-anchor="start">• head CT: head injury, focal signs, raised</text>
+<text x="654.8" y="721.4" font-family="Arial, 'Segoe UI Symbol', 'Liberation Sans', Helvetica, sans-serif" font-size="12.5" font-weight="400" fill="#18212e" text-anchor="start">pressure</text>
+<text x="647.0" y="739.4" font-family="Arial, 'Segoe UI Symbol', 'Liberation Sans', Helvetica, sans-serif" font-size="12.5" font-weight="400" fill="#18212e" text-anchor="start">• EEG: subtle or non-convulsive</text>
+<rect x="45.0" y="794.0" width="270.0" height="332.0" rx="10" fill="#e2f2ea" stroke="#2f7d5b" stroke-width="1.5"/>
+<text x="180.0" y="946.4" font-family="Arial, 'Segoe UI Symbol', 'Liberation Sans', Helvetica, sans-serif" font-size="14.5" font-weight="700" fill="#2f7d5b" text-anchor="middle">Discharge + reassure</text>
+<text x="55.0" y="966.4" font-family="Arial, 'Segoe UI Symbol', 'Liberation Sans', Helvetica, sans-serif" font-size="12.5" font-weight="400" fill="#18212e" text-anchor="start">• recurrence 30-40%</text>
+<text x="55.0" y="984.4" font-family="Arial, 'Segoe UI Symbol', 'Liberation Sans', Helvetica, sans-serif" font-size="12.5" font-weight="400" fill="#18212e" text-anchor="start">• epilepsy risk &lt; 2%</text>
+<rect x="327.0" y="794.0" width="270.0" height="332.0" rx="10" fill="#fbeedd" stroke="#a45a12" stroke-width="1.5"/>
+<text x="462.0" y="955.4" font-family="Arial, 'Segoe UI Symbol', 'Liberation Sans', Helvetica, sans-serif" font-size="14.5" font-weight="700" fill="#a45a12" text-anchor="middle">Consider NEUROLOGY referral</text>
+<text x="462.0" y="975.4" font-family="Arial, 'Segoe UI Symbol', 'Liberation Sans', Helvetica, sans-serif" font-size="12.5" font-weight="400" fill="#18212e" text-anchor="middle">counsel: can recur and become epilepsy</text>
+<rect x="637.0" y="794.0" width="270.0" height="114.0" rx="10" fill="#e2f2ea" stroke="#2f7d5b" stroke-width="1.5"/>
+<text x="772.0" y="819.4" font-family="Arial, 'Segoe UI Symbol', 'Liberation Sans', Helvetica, sans-serif" font-size="14.5" font-weight="700" fill="#2f7d5b" text-anchor="middle">1 · BENZODIAZEPINE</text>
+<text x="647.0" y="839.4" font-family="Arial, 'Segoe UI Symbol', 'Liberation Sans', Helvetica, sans-serif" font-size="12.5" font-weight="400" fill="#18212e" text-anchor="start">• IV lorazepam or midazolam</text>
+<text x="647.0" y="857.4" font-family="Arial, 'Segoe UI Symbol', 'Liberation Sans', Helvetica, sans-serif" font-size="12.5" font-weight="400" fill="#18212e" text-anchor="start">• no IV access: sublingual lorazepam or</text>
+<text x="654.8" y="875.4" font-family="Arial, 'Segoe UI Symbol', 'Liberation Sans', Helvetica, sans-serif" font-size="12.5" font-weight="400" fill="#18212e" text-anchor="start">intranasal midazolam</text>
+<text x="647.0" y="893.4" font-family="Arial, 'Segoe UI Symbol', 'Liberation Sans', Helvetica, sans-serif" font-size="12.5" font-weight="400" fill="#18212e" text-anchor="start">• repeat every 3-5 min, 2-3 doses</text>
+<rect x="637.0" y="930.0" width="270.0" height="114.0" rx="10" fill="#fbeedd" stroke="#a45a12" stroke-width="1.5"/>
+<text x="772.0" y="955.4" font-family="Arial, 'Segoe UI Symbol', 'Liberation Sans', Helvetica, sans-serif" font-size="14.5" font-weight="700" fill="#a45a12" text-anchor="middle">2 · Second-line IV load</text>
+<text x="772.0" y="975.4" font-family="Arial, 'Segoe UI Symbol', 'Liberation Sans', Helvetica, sans-serif" font-size="12.5" font-weight="400" fill="#5a6577" text-anchor="middle" font-style="italic">given over 20-30 minutes</text>
+<text x="647.0" y="993.4" font-family="Arial, 'Segoe UI Symbol', 'Liberation Sans', Helvetica, sans-serif" font-size="12.5" font-weight="400" fill="#18212e" text-anchor="start">• LEVETIRACETAM (most used)</text>
+<text x="647.0" y="1011.4" font-family="Arial, 'Segoe UI Symbol', 'Liberation Sans', Helvetica, sans-serif" font-size="12.5" font-weight="400" fill="#18212e" text-anchor="start">• PHENOBARBITAL if &lt; 30 days old</text>
+<text x="647.0" y="1029.3" font-family="Arial, 'Segoe UI Symbol', 'Liberation Sans', Helvetica, sans-serif" font-size="12.5" font-weight="400" fill="#18212e" text-anchor="start">• or phenytoin / fosphenytoin</text>
+<rect x="637.0" y="1066.0" width="270.0" height="60.0" rx="10" fill="#fbe5e3" stroke="#b3261e" stroke-width="1.5"/>
+<text x="772.0" y="1091.3" font-family="Arial, 'Segoe UI Symbol', 'Liberation Sans', Helvetica, sans-serif" font-size="14.5" font-weight="700" fill="#b3261e" text-anchor="middle">3 · Refractory → ICU</text>
+<text x="772.0" y="1111.3" font-family="Arial, 'Segoe UI Symbol', 'Liberation Sans', Helvetica, sans-serif" font-size="12.5" font-weight="400" fill="#18212e" text-anchor="middle">benzodiazepine infusion · ketamine</text>
+<text x="180.0" y="292.0" font-family="Arial, 'Segoe UI Symbol', 'Liberation Sans', Helvetica, sans-serif" font-size="13" font-weight="700" fill="#5a6577" text-anchor="middle" stroke="#f6f7f9" stroke-width="5" stroke-linejoin="round" paint-order="stroke">ALL of these</text>
+<text x="462.0" y="292.0" font-family="Arial, 'Segoe UI Symbol', 'Liberation Sans', Helvetica, sans-serif" font-size="13" font-weight="700" fill="#5a6577" text-anchor="middle" stroke="#f6f7f9" stroke-width="5" stroke-linejoin="round" paint-order="stroke">ANY one</text>
+<text x="772.0" y="292.0" font-family="Arial, 'Segoe UI Symbol', 'Liberation Sans', Helvetica, sans-serif" font-size="13" font-weight="700" fill="#5a6577" text-anchor="middle" stroke="#f6f7f9" stroke-width="5" stroke-linejoin="round" paint-order="stroke">&gt; 5 min</text>
+</svg>

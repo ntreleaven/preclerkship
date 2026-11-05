@@ -1,0 +1,238 @@
+{
+ "name": "neuroinfections overview",
+ "title": "Suspected meningitis or encephalitis: blood culture and empiric treatment first, CT before the lumbar puncture only with focal signs or a decreased level of consciousness, then the CSF separates bacterial meningitis, aseptic (viral) meningitis and herpes simplex encephalitis, each with its organisms and treatment",
+ "col_w": 290,
+ "root": {
+  "title": "Fever · headache · stiff neck · altered mental status: think MENINGITIS",
+  "lines": [
+   "classic triad: FEVER, ALTERED MENTAL STATUS, NUCHAL RIGIDITY (Kernig's, Brudzinski's)",
+   "language trouble, confusion, focal seizures → think ENCEPHALITIS (the brain itself)"
+  ]
+ },
+ "groups": [
+  {
+   "id": "g",
+   "cols": [
+    0,
+    2
+   ],
+   "title": "Suspected CNS infection: treat FIRST, then let the CSF decide",
+   "lines": []
+  }
+ ],
+ "pres": [
+  {
+   "id": "p",
+   "group": "g",
+   "title": "Plan",
+   "lines": [
+    "1 · CULTURE a blood sample",
+    "2 · START EMPIRIC treatment now: never wait for the CT or the tap",
+    "3 · CT/MRI FIRST only if focal signs or ↓ consciousness (PUNISH: Papilledema, Unconscious, Neurologic deficit, Immunocompromised, Seizure, History of CNS disease) → mass = NEUROSURGERY",
+    "4 · LUMBAR PUNCTURE → adjust treatment to the CSF"
+   ]
+  }
+ ],
+ "row_names": {
+  "pres": "WORKUP",
+  "clue": "PRESENTS AS",
+  "csf": "CSF",
+  "tx": "TREATMENT"
+ },
+ "sections": [
+  "head",
+  "clue",
+  "csf",
+  "tx"
+ ],
+ "dashed_sections": [],
+ "columns": [
+  {
+   "id": "bac",
+   "colour": "magenta",
+   "drop_label": "neutrophils, low glucose",
+   "head": [
+    [
+     [
+      "h",
+      "Bacterial meningitis",
+      [
+       "any age · a clinical EMERGENCY"
+      ]
+     ]
+    ]
+   ],
+   "clue": [
+    [
+     [
+      "t",
+      "Very sick",
+      [
+       "• fever, stiff neck, ↓ awareness",
+       "• RASH can occur (meningococcus)",
+       "• no language disturbance"
+      ]
+     ]
+    ]
+   ],
+   "csf": [
+    [
+     [
+      "w",
+      "Cloudy, PUS",
+      [
+       "• ↑ pressure",
+       "• white cells > 500, NEUTROPHILS",
+       "• protein HIGH · glucose LOW (CSF:serum < 0.3-0.4)",
+       "• Gram stain POSITIVE"
+      ]
+     ]
+    ],
+    [
+     [
+      "w",
+      "Organisms",
+      [
+       "• adults: S. pneumoniae, N. meningitidis, H. influenzae",
+       "• > 50 or immunocompromised: LISTERIA",
+       "• neonates: E. coli, group B strep",
+       "• after surgery: Staphylococcus"
+      ]
+     ]
+    ]
+   ],
+   "tx": [
+    [
+     [
+      "ok",
+      "Empiric, IV",
+      [
+       "• CEFTRIAXONE 2 g q12h",
+       "• + VANCOMYCIN 1 g q8h",
+       "• + AMPICILLIN 2 g q4h if > 50 or immunocompromised",
+       "• + ACYCLOVIR 10 mg/kg q8h (herpes)"
+      ]
+     ]
+    ],
+    [
+     [
+      "ok",
+      "+ DEXAMETHASONE 10 mg IV",
+      [
+       "with the FIRST antibiotic dose, then q6h for 4 days",
+       "~ most benefit in S. pneumoniae"
+      ]
+     ]
+    ]
+   ]
+  },
+  {
+   "id": "asep",
+   "colour": "teal",
+   "drop_label": "lymphocytes, normal glucose",
+   "head": [
+    [
+     [
+      "h",
+      "Aseptic (viral) meningitis",
+      [
+       "no organism isolated"
+      ]
+     ]
+    ]
+   ],
+   "clue": [
+    [
+     [
+      "t",
+      "Uncomfortable, not very sick",
+      [
+       "• headache, fever, photophobia, rash",
+       "• MILD meningeal signs",
+       "• neuro exam normal"
+      ]
+     ]
+    ]
+   ],
+   "csf": [
+    [
+     [
+      "w",
+      "Clear",
+      [
+       "• pressure normal or mildly ↑",
+       "• white cells ↑ but < 1000, LYMPHOCYTES",
+       "• protein mildly ↑ · glucose NORMAL",
+       "• Gram stain negative"
+      ]
+     ]
+    ]
+   ],
+   "tx": [
+    [
+     [
+      "ok",
+      "Supportive: REHYDRATION",
+      [
+       "~ self-limiting"
+      ]
+     ]
+    ]
+   ]
+  },
+  {
+   "id": "hsv",
+   "colour": "purple",
+   "drop_label": "lymphocytes + red cells",
+   "head": [
+    [
+     [
+      "h",
+      "Herpes simplex encephalitis",
+      [
+       "the BRAIN itself · MESIAL TEMPORAL lobes"
+      ]
+     ]
+    ]
+   ],
+   "clue": [
+    [
+     [
+      "t",
+      "Cortical signs",
+      [
+       "• LANGUAGE trouble (word salad), confusion",
+       "• focal seizures, impaired memory, focal deficits",
+       "• fever, ↓ awareness · usually NO stiff neck"
+      ]
+     ]
+    ]
+   ],
+   "csf": [
+    [
+     [
+      "w",
+      "Lymphocytes, red cells, glucose normal",
+      [
+       "• CONFIRM: CSF HSV PCR",
+       "• MRI: temporal lobe signal change",
+       "• EEG: temporal spikes"
+      ]
+     ]
+    ]
+   ],
+   "tx": [
+    [
+     [
+      "ok",
+      "IV ACYCLOVIR 10 mg/kg q8h",
+      [
+       "dosed on IDEAL body weight",
+       "started empirically, with the antibiotics"
+      ]
+     ]
+    ]
+   ]
+  }
+ ]
+}

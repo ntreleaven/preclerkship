@@ -1,0 +1,304 @@
+{
+ "name": "infant hypotonia overview",
+ "width": 672,
+ "title": "The floppy infant: stabilize an unstable infant with ABCDE first, confirm low tone with the suspension and pull-to-sit tests, then sort central from peripheral hypotonia by consciousness, development, strength and reflexes; each column gives its causes, investigations, and shared treatment by referral and supportive care",
+ "kinds": {
+  "cen_h": [
+   "#6a4aa8",
+   "#6a4aa8",
+   "#ffffff",
+   "#ffffff"
+  ],
+  "cen_t": [
+   "#ebe4f7",
+   "#6a4aa8",
+   "#6a4aa8",
+   "#18212e"
+  ],
+  "cen_w": [
+   "#ffffff",
+   "#6a4aa8",
+   "#6a4aa8",
+   "#18212e"
+  ],
+  "per_h": [
+   "#1f6f8b",
+   "#1f6f8b",
+   "#ffffff",
+   "#ffffff"
+  ],
+  "per_t": [
+   "#dceef4",
+   "#1f6f8b",
+   "#1f6f8b",
+   "#18212e"
+  ],
+  "per_w": [
+   "#ffffff",
+   "#1f6f8b",
+   "#1f6f8b",
+   "#18212e"
+  ]
+ },
+ "bands": [
+  {
+   "x": 40,
+   "y": 306,
+   "w": 310,
+   "h": 592,
+   "fill": "#f5f1fb",
+   "stroke": "#6a4aa8"
+  },
+  {
+   "x": 352,
+   "y": 306,
+   "w": 310,
+   "h": 592,
+   "fill": "#eef7fa",
+   "stroke": "#1f6f8b"
+  }
+ ],
+ "row_labels": [
+  {
+   "x": 23,
+   "y": 414,
+   "h": 150,
+   "text": "PRESENTS AS"
+  },
+  {
+   "x": 23,
+   "y": 604,
+   "h": 132,
+   "text": "CAUSES"
+  },
+  {
+   "x": 23,
+   "y": 776,
+   "h": 114,
+   "text": "INVESTIGATIONS"
+  },
+  {
+   "x": 23,
+   "y": 930,
+   "h": 78,
+   "text": "TREATMENT"
+  }
+ ],
+ "nodes": [
+  {
+   "id": "root",
+   "x": 60,
+   "y": 10,
+   "w": 582,
+   "kind": "dark",
+   "title": "Floppy infant: UNSTABLE? → ABCDE first",
+   "lines": [
+    "hypotonia = less resistance to PASSIVE stretch · NOT the same as weakness",
+    "Dextrose: check glucose, treat hypoglycemia NOW · Expose: injury or bleeding",
+    "acute onset: most often INFECTION · always consider non-accidental trauma"
+   ]
+  },
+  {
+   "id": "g",
+   "x": 45,
+   "y": 156,
+   "w": 612,
+   "h": 78,
+   "kind": "plain",
+   "title": "Stable: confirm LOW TONE, then CENTRAL or PERIPHERAL?",
+   "lines": [
+    "vertical suspension: slips through your hands · horizontal: drapes in a U",
+    "pull to sit: big head lag (normal head lag gone by 2-6 months)"
+   ]
+  },
+  {
+   "id": "cen_head_0_0",
+   "x": 45,
+   "y": 314,
+   "w": 300,
+   "h": 60,
+   "kind": "cen_h",
+   "title": "Central hypotonia",
+   "lines": [
+    "most common in NEWBORNS"
+   ]
+  },
+  {
+   "id": "per_head_0_0",
+   "x": 357,
+   "y": 314,
+   "w": 300,
+   "h": 60,
+   "kind": "per_h",
+   "title": "Peripheral hypotonia",
+   "lines": [
+    "motor neuron · junction · muscle"
+   ]
+  },
+  {
+   "id": "cen_pres_0_0",
+   "x": 45,
+   "y": 414,
+   "w": 300,
+   "h": 150,
+   "kind": "cen_t",
+   "title": "Brain is affected",
+   "lines": [
+    "• ↓ level of consciousness",
+    "• GLOBAL developmental delay",
+    "• NORMAL strength",
+    "• NORMAL or BRISK reflexes, ± clonus",
+    "• primitive reflexes persist",
+    "• dysmorphic features (trisomy 21)"
+   ]
+  },
+  {
+   "id": "per_pres_0_0",
+   "x": 357,
+   "y": 414,
+   "w": 300,
+   "h": 150,
+   "kind": "per_t",
+   "title": "ALERT, but WEAK",
+   "lines": [
+    "• normal speech and cognition",
+    "• delayed gross + fine MOTOR only",
+    "• can't lift limbs against gravity",
+    "• ↓ or ABSENT reflexes",
+    "• facial weakness: feeding, breathing trouble"
+   ]
+  },
+  {
+   "id": "cen_cause_0_0",
+   "x": 45,
+   "y": 604,
+   "w": 300,
+   "h": 132,
+   "kind": "cen_w",
+   "title": "Central causes",
+   "lines": [
+    "• AT BIRTH: hypoxic-ischemic encephalopathy, trisomy 21, Prader-Willi",
+    "• AFTER DAY 1: metabolic disorder",
+    "• infection: sepsis, meningitis, herpes simplex, TORCH"
+   ]
+  },
+  {
+   "id": "per_cause_0_0",
+   "x": 357,
+   "y": 604,
+   "w": 300,
+   "h": 132,
+   "kind": "per_w",
+   "title": "By site",
+   "lines": [
+    "• motor neuron: spinal muscular atrophy",
+    "• junction: congenital myasthenic syndrome, infant botulism",
+    "• drug: aminoglycosides",
+    "• muscle: congenital muscular dystrophy"
+   ]
+  },
+  {
+   "id": "cen_inv_0_0",
+   "x": 45,
+   "y": 776,
+   "w": 300,
+   "h": 114,
+   "kind": "cen_w",
+   "title": "Brain + blood",
+   "lines": [
+    "• CT or MRI of the brain",
+    "• electrolytes, TSH, AMMONIA, metabolic tests",
+    "• karyotype, genetic tests"
+   ]
+  },
+  {
+   "id": "per_inv_0_0",
+   "x": 357,
+   "y": 776,
+   "w": 300,
+   "h": 114,
+   "kind": "per_w",
+   "title": "Nerve + muscle",
+   "lines": [
+    "• CREATINE KINASE: ↑ in most muscle disorders",
+    "• electromyography (EMG)",
+    "• muscle biopsy"
+   ]
+  },
+  {
+   "id": "span0_tx_0_0",
+   "x": 45,
+   "y": 930,
+   "w": 612,
+   "h": 78,
+   "kind": "ok",
+   "title": "Treat the CAUSE",
+   "lines": [
+    "• EARLY referral: pediatric neurology, metabolics, genetics",
+    "• physiotherapy · occupational therapy · nutrition · psychology · speech-language pathology"
+   ]
+  }
+ ],
+ "edges": [
+  {
+   "from": "root",
+   "to": "g",
+   "path": "M351.0 106V131H351.0V156"
+  },
+  {
+   "from": "cen_head_0_0",
+   "to": "cen_pres_0_0"
+  },
+  {
+   "from": "cen_pres_0_0",
+   "to": "cen_cause_0_0"
+  },
+  {
+   "from": "cen_cause_0_0",
+   "to": "cen_inv_0_0"
+  },
+  {
+   "from": "cen_inv_0_0",
+   "to": "span0_tx_0_0",
+   "to_dx": -156.0
+  },
+  {
+   "from": "g",
+   "to": "cen_head_0_0",
+   "from_dx": -156,
+   "label": "strong, brisk reflexes",
+   "label_at": [
+    195.0,
+    274
+   ]
+  },
+  {
+   "from": "per_head_0_0",
+   "to": "per_pres_0_0"
+  },
+  {
+   "from": "per_pres_0_0",
+   "to": "per_cause_0_0"
+  },
+  {
+   "from": "per_cause_0_0",
+   "to": "per_inv_0_0"
+  },
+  {
+   "from": "per_inv_0_0",
+   "to": "span0_tx_0_0",
+   "to_dx": 156.0
+  },
+  {
+   "from": "g",
+   "to": "per_head_0_0",
+   "from_dx": 156,
+   "label": "weak, no reflexes",
+   "label_at": [
+    507.0,
+    274
+   ]
+  }
+ ],
+ "panels": []
+}

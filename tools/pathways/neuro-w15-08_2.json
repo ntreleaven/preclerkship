@@ -1,0 +1,721 @@
+{
+ "name": "pediatric ophthalmology overview",
+ "width": 1592,
+ "title": "A child's eyes: the red reflex sorts a dim or different reflex (refractive error or media opacity), a brighter one (the turned eye in strabismus) and a white one (leukocoria, retinoblastoma first); misaligned eyes are concomitant or incomitant by whether the angle changes with gaze; reduced acuity in one eye without disease is amblyopia; each column gives what is seen, what to think of and what to do",
+ "kinds": {
+  "dim_h": [
+   "#1f5f9e",
+   "#1f5f9e",
+   "#ffffff",
+   "#ffffff"
+  ],
+  "dim_t": [
+   "#dde9f7",
+   "#1f5f9e",
+   "#1f5f9e",
+   "#18212e"
+  ],
+  "dim_w": [
+   "#ffffff",
+   "#1f5f9e",
+   "#1f5f9e",
+   "#18212e"
+  ],
+  "bright_h": [
+   "#1f6f8b",
+   "#1f6f8b",
+   "#ffffff",
+   "#ffffff"
+  ],
+  "bright_t": [
+   "#dceef4",
+   "#1f6f8b",
+   "#1f6f8b",
+   "#18212e"
+  ],
+  "bright_w": [
+   "#ffffff",
+   "#1f6f8b",
+   "#1f6f8b",
+   "#18212e"
+  ],
+  "white_h": [
+   "#a3336b",
+   "#a3336b",
+   "#ffffff",
+   "#ffffff"
+  ],
+  "white_t": [
+   "#f8e0ec",
+   "#a3336b",
+   "#a3336b",
+   "#18212e"
+  ],
+  "white_w": [
+   "#ffffff",
+   "#a3336b",
+   "#a3336b",
+   "#18212e"
+  ],
+  "con_h": [
+   "#6a4aa8",
+   "#6a4aa8",
+   "#ffffff",
+   "#ffffff"
+  ],
+  "con_t": [
+   "#ebe4f7",
+   "#6a4aa8",
+   "#6a4aa8",
+   "#18212e"
+  ],
+  "con_w": [
+   "#ffffff",
+   "#6a4aa8",
+   "#6a4aa8",
+   "#18212e"
+  ],
+  "inc_h": [
+   "#b5600f",
+   "#b5600f",
+   "#ffffff",
+   "#ffffff"
+  ],
+  "inc_t": [
+   "#fbe8d3",
+   "#b5600f",
+   "#b5600f",
+   "#18212e"
+  ],
+  "inc_w": [
+   "#ffffff",
+   "#b5600f",
+   "#b5600f",
+   "#18212e"
+  ],
+  "amb_h": [
+   "#4f6d1f",
+   "#4f6d1f",
+   "#ffffff",
+   "#ffffff"
+  ],
+  "amb_t": [
+   "#e7eed9",
+   "#4f6d1f",
+   "#4f6d1f",
+   "#18212e"
+  ],
+  "amb_w": [
+   "#ffffff",
+   "#4f6d1f",
+   "#4f6d1f",
+   "#18212e"
+  ]
+ },
+ "bands": [
+  {
+   "x": 40,
+   "y": 306,
+   "w": 246,
+   "h": 620,
+   "fill": "#eff5fc",
+   "stroke": "#1f5f9e"
+  },
+  {
+   "x": 288,
+   "y": 306,
+   "w": 246,
+   "h": 620,
+   "fill": "#eef7fa",
+   "stroke": "#1f6f8b"
+  },
+  {
+   "x": 536,
+   "y": 306,
+   "w": 246,
+   "h": 620,
+   "fill": "#fcf0f6",
+   "stroke": "#a3336b"
+  },
+  {
+   "x": 812,
+   "y": 306,
+   "w": 246,
+   "h": 620,
+   "fill": "#f5f1fb",
+   "stroke": "#6a4aa8"
+  },
+  {
+   "x": 1060,
+   "y": 306,
+   "w": 246,
+   "h": 620,
+   "fill": "#fdf4ea",
+   "stroke": "#b5600f"
+  },
+  {
+   "x": 1336,
+   "y": 306,
+   "w": 246,
+   "h": 620,
+   "fill": "#f4f7ee",
+   "stroke": "#4f6d1f"
+  }
+ ],
+ "row_labels": [
+  {
+   "x": 23,
+   "y": 414,
+   "h": 132,
+   "text": "SEEN AS"
+  },
+  {
+   "x": 23,
+   "y": 586,
+   "h": 114,
+   "text": "THINK OF"
+  },
+  {
+   "x": 23,
+   "y": 740,
+   "h": 178,
+   "text": "WHAT TO DO"
+  }
+ ],
+ "nodes": [
+  {
+   "id": "root",
+   "x": 431,
+   "y": 10,
+   "w": 760,
+   "kind": "dark",
+   "title": "A child's eyes: acuity in EACH eye, alignment, red reflex",
+   "lines": [
+    "anything that blurs, blocks or misaligns one eye while vision develops → AMBLYOPIA",
+    "early detection and early treatment are what restore vision"
+   ]
+  },
+  {
+   "id": "g_rr",
+   "x": 45,
+   "y": 138,
+   "w": 732,
+   "h": 96,
+   "kind": "plain",
+   "title": "RED REFLEX (Brückner): both eyes at once",
+   "lines": [
+    "dim room · 1/3 m or more · child looking far away",
+    "compare brightness, colour, alignment, symmetry",
+    "~disease in both eyes is easy to miss if they match"
+   ]
+  },
+  {
+   "id": "g_al",
+   "x": 817,
+   "y": 138,
+   "w": 484,
+   "h": 96,
+   "kind": "plain",
+   "title": "MISALIGNED: does the angle change with gaze?",
+   "lines": [
+    "corneal light reflexes · cover test (from 6-7 months) · cardinal gazes"
+   ]
+  },
+  {
+   "id": "g_am",
+   "x": 1341,
+   "y": 138,
+   "w": 236,
+   "h": 96,
+   "kind": "plain",
+   "title": "ACUITY ↓ in one eye",
+   "lines": [
+    "no eye disease to explain it"
+   ]
+  },
+  {
+   "id": "dim_head_0_0",
+   "x": 45,
+   "y": 314,
+   "w": 236,
+   "h": 60,
+   "kind": "dim_h",
+   "title": "Dim or different reflex",
+   "lines": []
+  },
+  {
+   "id": "bright_head_0_0",
+   "x": 293,
+   "y": 314,
+   "w": 236,
+   "h": 60,
+   "kind": "bright_h",
+   "title": "Brighter reflex",
+   "lines": []
+  },
+  {
+   "id": "white_head_0_0",
+   "x": 541,
+   "y": 314,
+   "w": 236,
+   "h": 60,
+   "kind": "white_h",
+   "title": "Leukocoria",
+   "lines": [
+    "a WHITE pupillary reflex"
+   ]
+  },
+  {
+   "id": "con_head_0_0",
+   "x": 817,
+   "y": 314,
+   "w": 236,
+   "h": 60,
+   "kind": "con_h",
+   "title": "Concomitant strabismus",
+   "lines": [
+    "non-paralytic"
+   ]
+  },
+  {
+   "id": "inc_head_0_0",
+   "x": 1065,
+   "y": 314,
+   "w": 236,
+   "h": 60,
+   "kind": "inc_h",
+   "title": "Incomitant strabismus",
+   "lines": [
+    "paralytic or restrictive"
+   ]
+  },
+  {
+   "id": "amb_head_0_0",
+   "x": 1341,
+   "y": 314,
+   "w": 236,
+   "h": 60,
+   "kind": "amb_h",
+   "title": "Amblyopia",
+   "lines": [
+    "usually one eye"
+   ]
+  },
+  {
+   "id": "dim_pres_0_0",
+   "x": 45,
+   "y": 414,
+   "w": 236,
+   "h": 132,
+   "kind": "dim_t",
+   "title": "One reflex DIMMER",
+   "lines": [
+    "• or a visible opacity in it",
+    "• the eye with the larger refractive error is dimmer"
+   ]
+  },
+  {
+   "id": "bright_pres_0_0",
+   "x": 293,
+   "y": 414,
+   "w": 236,
+   "h": 132,
+   "kind": "bright_t",
+   "title": "One reflex BRIGHTER",
+   "lines": [
+    "• its pupil looks slightly larger",
+    "• finds turns as small as 3 prism dioptres"
+   ]
+  },
+  {
+   "id": "white_pres_0_0",
+   "x": 541,
+   "y": 414,
+   "w": 236,
+   "h": 132,
+   "kind": "white_t",
+   "title": "White reflex",
+   "lines": [
+    "• may be the first sign of a life-threatening disease",
+    "~physiologic white reflex ~15° off axis: still refer"
+   ]
+  },
+  {
+   "id": "con_pres_0_0",
+   "x": 817,
+   "y": 414,
+   "w": 236,
+   "h": 132,
+   "kind": "con_t",
+   "title": "SAME angle in every gaze",
+   "lines": [
+    "• muscles work, eyes not aimed together",
+    "• starts in childhood"
+   ]
+  },
+  {
+   "id": "inc_pres_0_0",
+   "x": 1065,
+   "y": 414,
+   "w": 236,
+   "h": 132,
+   "kind": "inc_t",
+   "title": "Angle CHANGES with gaze",
+   "lines": [
+    "a muscle or nerve not working, or tethered"
+   ]
+  },
+  {
+   "id": "amb_pres_0_0",
+   "x": 1341,
+   "y": 414,
+   "w": 236,
+   "h": 132,
+   "kind": "amb_t",
+   "title": "Test EACH eye",
+   "lines": [
+    "• newborn: light reflexes, pupils, fundus",
+    "• to age 2: fusses when the GOOD eye is covered",
+    "• 2-5: HOTV, tumbling E charts"
+   ]
+  },
+  {
+   "id": "dim_inv_0_0",
+   "x": 45,
+   "y": 586,
+   "w": 236,
+   "h": 114,
+   "kind": "dim_w",
+   "title": "Refractive error or opacity",
+   "lines": [
+    "• myopia, hyperopia, astigmatism",
+    "• cataract (not always white)",
+    "• cornea, chamber, vitreous, retina"
+   ]
+  },
+  {
+   "id": "bright_inv_0_0",
+   "x": 293,
+   "y": 586,
+   "w": 236,
+   "h": 114,
+   "kind": "bright_w",
+   "title": "Strabismus",
+   "lines": [
+    "the BRIGHTER eye is the turned eye"
+   ]
+  },
+  {
+   "id": "white_inv_0_0",
+   "x": 541,
+   "y": 586,
+   "w": 236,
+   "h": 114,
+   "kind": "white_w",
+   "title": "RETINOBLASTOMA first",
+   "lines": [
+    "• retinopathy of prematurity",
+    "• congenital cataract",
+    "• Coats' disease, toxocariasis, coloboma"
+   ]
+  },
+  {
+   "id": "con_inv_0_0",
+   "x": 817,
+   "y": 586,
+   "w": 236,
+   "h": 114,
+   "kind": "con_w",
+   "title": "Name the direction",
+   "lines": [
+    "• eso- in · exo- out",
+    "• hyper- up · hypo- down",
+    "~epicanthal folds: pseudostrabismus"
+   ]
+  },
+  {
+   "id": "inc_inv_0_0",
+   "x": 1065,
+   "y": 586,
+   "w": 236,
+   "h": 114,
+   "kind": "inc_w",
+   "title": "Look for",
+   "lines": [
+    "• 3rd, 4th or 6th nerve palsy",
+    "• orbital blowout fracture",
+    "• thyroid eye disease"
+   ]
+  },
+  {
+   "id": "amb_inv_0_0",
+   "x": 1341,
+   "y": 586,
+   "w": 236,
+   "h": 114,
+   "kind": "amb_w",
+   "title": "Three causes",
+   "lines": [
+    "• strabismic: turned eye suppressed",
+    "• refractive: unequal refractive error",
+    "• deprivation: cataract, corneal scar, ptosis"
+   ]
+  },
+  {
+   "id": "dim_tx_0_0",
+   "x": 45,
+   "y": 740,
+   "w": 236,
+   "h": 178,
+   "kind": "warn",
+   "title": "Timely referral",
+   "lines": [
+    "amblyopia risk"
+   ]
+  },
+  {
+   "id": "bright_tx_0_0",
+   "x": 293,
+   "y": 740,
+   "w": 236,
+   "h": 178,
+   "kind": "warn",
+   "title": "Refer",
+   "lines": [
+    "amblyopia risk in the turned eye"
+   ]
+  },
+  {
+   "id": "white_tx_0_0",
+   "x": 541,
+   "y": 740,
+   "w": 236,
+   "h": 178,
+   "kind": "bad",
+   "title": "IMMEDIATE referral",
+   "lines": [
+    "• family history of eye disease",
+    "• bring old photographs",
+    "~without needless alarm"
+   ]
+  },
+  {
+   "id": "con_tx_0_0",
+   "x": 817,
+   "y": 740,
+   "w": 236,
+   "h": 96,
+   "kind": "warn",
+   "title": "Refer if",
+   "lines": [
+    "• constant turn at any age",
+    "• occasional turn beyond 3-4 months",
+    "• any nystagmus"
+   ]
+  },
+  {
+   "id": "con_tx_1_0",
+   "x": 817,
+   "y": 858,
+   "w": 236,
+   "h": 60,
+   "kind": "ok",
+   "title": "Patching, glasses, surgery",
+   "lines": [
+    "no role for eye exercises"
+   ]
+  },
+  {
+   "id": "inc_tx_0_0",
+   "x": 1065,
+   "y": 740,
+   "w": 236,
+   "h": 178,
+   "kind": "warn",
+   "title": "Refer to ophthalmology",
+   "lines": []
+  },
+  {
+   "id": "amb_tx_0_0",
+   "x": 1341,
+   "y": 740,
+   "w": 236,
+   "h": 69,
+   "kind": "bad",
+   "title": "IMMEDIATE referral",
+   "lines": [
+    "pediatric ophthalmologist"
+   ]
+  },
+  {
+   "id": "amb_tx_1_0",
+   "x": 1341,
+   "y": 831,
+   "w": 236,
+   "h": 87,
+   "kind": "ok",
+   "title": "Patch the GOOD eye",
+   "lines": [
+    "+ glasses, or surgery for cataract or strabismus"
+   ]
+  }
+ ],
+ "edges": [
+  {
+   "from": "root",
+   "to": "g_rr",
+   "path": "M811.0 88V113H411.0V138"
+  },
+  {
+   "from": "root",
+   "to": "g_al",
+   "path": "M811.0 88V113H1059.0V138"
+  },
+  {
+   "from": "root",
+   "to": "g_am",
+   "path": "M811.0 88V113H1459.0V138"
+  },
+  {
+   "from": "con_tx_0_0",
+   "to": "con_tx_1_0"
+  },
+  {
+   "from": "amb_tx_0_0",
+   "to": "amb_tx_1_0"
+  },
+  {
+   "from": "dim_head_0_0",
+   "to": "dim_pres_0_0"
+  },
+  {
+   "from": "dim_pres_0_0",
+   "to": "dim_inv_0_0"
+  },
+  {
+   "from": "dim_inv_0_0",
+   "to": "dim_tx_0_0"
+  },
+  {
+   "from": "g_rr",
+   "to": "dim_head_0_0",
+   "from_dx": -248,
+   "label": "dimmer",
+   "label_at": [
+    163.0,
+    274
+   ]
+  },
+  {
+   "from": "bright_head_0_0",
+   "to": "bright_pres_0_0"
+  },
+  {
+   "from": "bright_pres_0_0",
+   "to": "bright_inv_0_0"
+  },
+  {
+   "from": "bright_inv_0_0",
+   "to": "bright_tx_0_0"
+  },
+  {
+   "from": "g_rr",
+   "to": "bright_head_0_0",
+   "from_dx": 0,
+   "label": "brighter",
+   "label_at": [
+    411.0,
+    274
+   ]
+  },
+  {
+   "from": "white_head_0_0",
+   "to": "white_pres_0_0"
+  },
+  {
+   "from": "white_pres_0_0",
+   "to": "white_inv_0_0"
+  },
+  {
+   "from": "white_inv_0_0",
+   "to": "white_tx_0_0"
+  },
+  {
+   "from": "g_rr",
+   "to": "white_head_0_0",
+   "from_dx": 248,
+   "label": "white",
+   "label_at": [
+    659.0,
+    274
+   ]
+  },
+  {
+   "from": "con_head_0_0",
+   "to": "con_pres_0_0"
+  },
+  {
+   "from": "con_pres_0_0",
+   "to": "con_inv_0_0"
+  },
+  {
+   "from": "con_inv_0_0",
+   "to": "con_tx_0_0"
+  },
+  {
+   "from": "g_al",
+   "to": "con_head_0_0",
+   "from_dx": -124,
+   "label": "same angle",
+   "label_at": [
+    935.0,
+    274
+   ]
+  },
+  {
+   "from": "inc_head_0_0",
+   "to": "inc_pres_0_0"
+  },
+  {
+   "from": "inc_pres_0_0",
+   "to": "inc_inv_0_0"
+  },
+  {
+   "from": "inc_inv_0_0",
+   "to": "inc_tx_0_0"
+  },
+  {
+   "from": "g_al",
+   "to": "inc_head_0_0",
+   "from_dx": 124,
+   "label": "angle changes",
+   "label_at": [
+    1183.0,
+    274
+   ]
+  },
+  {
+   "from": "amb_head_0_0",
+   "to": "amb_pres_0_0"
+  },
+  {
+   "from": "amb_pres_0_0",
+   "to": "amb_inv_0_0"
+  },
+  {
+   "from": "amb_inv_0_0",
+   "to": "amb_tx_0_0"
+  },
+  {
+   "from": "g_am",
+   "to": "amb_head_0_0",
+   "from_dx": 0,
+   "label": "amblyopia",
+   "label_at": [
+    1459.0,
+    274
+   ]
+  }
+ ],
+ "panels": []
+}

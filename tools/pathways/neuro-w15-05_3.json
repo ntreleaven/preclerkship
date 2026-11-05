@@ -1,0 +1,415 @@
+{
+ "name": "pediatric seizures overview",
+ "width": 922,
+ "title": "A child with a seizure: ABCDE and a bedside glucose and blood gas for every child, then fever and the seizure's features sort a simple from a complex febrile seizure, and a seizure past 5 minutes is convulsive status epilepticus treated by the clock with benzodiazepines, then a second-line load, then the intensive care unit",
+ "kinds": {
+  "sfs_h": [
+   "#1f6f8b",
+   "#1f6f8b",
+   "#ffffff",
+   "#ffffff"
+  ],
+  "sfs_t": [
+   "#dceef4",
+   "#1f6f8b",
+   "#1f6f8b",
+   "#18212e"
+  ],
+  "sfs_w": [
+   "#ffffff",
+   "#1f6f8b",
+   "#1f6f8b",
+   "#18212e"
+  ],
+  "cfs_h": [
+   "#b5600f",
+   "#b5600f",
+   "#ffffff",
+   "#ffffff"
+  ],
+  "cfs_t": [
+   "#fbe8d3",
+   "#b5600f",
+   "#b5600f",
+   "#18212e"
+  ],
+  "cfs_w": [
+   "#ffffff",
+   "#b5600f",
+   "#b5600f",
+   "#18212e"
+  ],
+  "cse_h": [
+   "#a3336b",
+   "#a3336b",
+   "#ffffff",
+   "#ffffff"
+  ],
+  "cse_t": [
+   "#f8e0ec",
+   "#a3336b",
+   "#a3336b",
+   "#18212e"
+  ],
+  "cse_w": [
+   "#ffffff",
+   "#a3336b",
+   "#a3336b",
+   "#18212e"
+  ]
+ },
+ "bands": [
+  {
+   "x": 40,
+   "y": 324,
+   "w": 280,
+   "h": 810,
+   "fill": "#eef7fa",
+   "stroke": "#1f6f8b"
+  },
+  {
+   "x": 322,
+   "y": 324,
+   "w": 280,
+   "h": 810,
+   "fill": "#fdf4ea",
+   "stroke": "#b5600f"
+  },
+  {
+   "x": 632,
+   "y": 324,
+   "w": 280,
+   "h": 810,
+   "fill": "#fcf0f6",
+   "stroke": "#a3336b"
+  }
+ ],
+ "row_labels": [
+  {
+   "x": 23,
+   "y": 432,
+   "h": 132,
+   "text": "PRESENTS AS"
+  },
+  {
+   "x": 23,
+   "y": 604,
+   "h": 150,
+   "text": "WORKUP"
+  },
+  {
+   "x": 23,
+   "y": 794,
+   "h": 332,
+   "text": "TREATMENT"
+  }
+ ],
+ "nodes": [
+  {
+   "id": "root",
+   "x": 96,
+   "y": 10,
+   "w": 760,
+   "kind": "dark",
+   "title": "Child seizing: ABCDE + time it",
+   "lines": [
+    "EVERY child: bedside GLUCOSE + blood GAS with electrolytes",
+    "low glucose → IV dextrose (D10 5 mL/kg) · low sodium → 3% saline 3-5 mL/kg",
+    "subtle in newborns: lip smacking, eye deviation, bicycling, apnea, vital sign changes"
+   ]
+  },
+  {
+   "id": "g_feb",
+   "x": 45,
+   "y": 156,
+   "w": 552,
+   "h": 96,
+   "kind": "plain",
+   "title": "FEVER, age 6 months-5 years: FEBRILE seizure",
+   "lines": [
+    "only if NO CNS infection, NO acute electrolyte problem, NO past afebrile seizure",
+    "WORRY: not back to baseline · meningeal signs or toxic look · delay or neurologic condition"
+   ]
+  },
+  {
+   "id": "g_se",
+   "x": 637,
+   "y": 156,
+   "w": 270,
+   "h": 96,
+   "kind": "plain",
+   "title": "Still seizing at 5 MINUTES",
+   "lines": [
+    "or no return to baseline between seizures"
+   ]
+  },
+  {
+   "id": "sfs_head_0_0",
+   "x": 45,
+   "y": 332,
+   "w": 270,
+   "h": 60,
+   "kind": "sfs_h",
+   "title": "Simple febrile seizure",
+   "lines": []
+  },
+  {
+   "id": "cfs_head_0_0",
+   "x": 327,
+   "y": 332,
+   "w": 270,
+   "h": 60,
+   "kind": "cfs_h",
+   "title": "Complex febrile seizure",
+   "lines": []
+  },
+  {
+   "id": "cse_head_0_0",
+   "x": 637,
+   "y": 332,
+   "w": 270,
+   "h": 60,
+   "kind": "cse_h",
+   "title": "Convulsive status epilepticus",
+   "lines": [
+    "> 30 min, or 2+ seizures without recovery"
+   ]
+  },
+  {
+   "id": "sfs_pres_0_0",
+   "x": 45,
+   "y": 432,
+   "w": 270,
+   "h": 132,
+   "kind": "sfs_t",
+   "title": "Typical",
+   "lines": [
+    "• GENERALIZED",
+    "• < 15 minutes",
+    "• ONCE in 24 hours",
+    "• no neurologic or developmental problem"
+   ]
+  },
+  {
+   "id": "cfs_pres_0_0",
+   "x": 327,
+   "y": 432,
+   "w": 270,
+   "h": 132,
+   "kind": "cfs_t",
+   "title": "Any ONE of",
+   "lines": [
+    "• FOCAL (one limb or side)",
+    "• > 15 minutes",
+    "• RECURS within 24 hours",
+    "• focal signs after the seizure",
+    "• known neurologic condition"
+   ]
+  },
+  {
+   "id": "cse_pres_0_0",
+   "x": 637,
+   "y": 432,
+   "w": 270,
+   "h": 132,
+   "kind": "cse_t",
+   "title": "Tonic-clonic, not stopping",
+   "lines": [
+    "• most seizures stop within 5 minutes",
+    "• longer = more brain injury: time matters"
+   ]
+  },
+  {
+   "id": "sfs_inv_0_0",
+   "x": 45,
+   "y": 604,
+   "w": 270,
+   "h": 150,
+   "kind": "sfs_w",
+   "title": "Often NO further workup",
+   "lines": [
+    "if back to baseline, no other concern"
+   ]
+  },
+  {
+   "id": "cfs_inv_0_0",
+   "x": 327,
+   "y": 604,
+   "w": 270,
+   "h": 150,
+   "kind": "cfs_w",
+   "title": "Observe or admit",
+   "lines": [
+    "by time back to baseline, neurologic signs, family comfort"
+   ]
+  },
+  {
+   "id": "cse_inv_0_0",
+   "x": 637,
+   "y": 604,
+   "w": 270,
+   "h": 150,
+   "kind": "cse_w",
+   "title": "Stepwise, by the differential",
+   "lines": [
+    "• calcium, magnesium, drug levels",
+    "• infection: blood count, CRP, cultures, CSF if stable",
+    "• head CT: head injury, focal signs, raised pressure",
+    "• EEG: subtle or non-convulsive"
+   ]
+  },
+  {
+   "id": "sfs_tx_0_0",
+   "x": 45,
+   "y": 794,
+   "w": 270,
+   "h": 332,
+   "kind": "ok",
+   "title": "Discharge + reassure",
+   "lines": [
+    "• recurrence 30-40%",
+    "• epilepsy risk < 2%"
+   ]
+  },
+  {
+   "id": "cfs_tx_0_0",
+   "x": 327,
+   "y": 794,
+   "w": 270,
+   "h": 332,
+   "kind": "warn",
+   "title": "Consider NEUROLOGY referral",
+   "lines": [
+    "counsel: can recur and become epilepsy"
+   ]
+  },
+  {
+   "id": "cse_tx_0_0",
+   "x": 637,
+   "y": 794,
+   "w": 270,
+   "h": 114,
+   "kind": "ok",
+   "title": "1 · BENZODIAZEPINE",
+   "lines": [
+    "• IV lorazepam or midazolam",
+    "• no IV access: sublingual lorazepam or intranasal midazolam",
+    "• repeat every 3-5 min, 2-3 doses"
+   ]
+  },
+  {
+   "id": "cse_tx_1_0",
+   "x": 637,
+   "y": 930,
+   "w": 270,
+   "h": 114,
+   "kind": "warn",
+   "title": "2 · Second-line IV load",
+   "lines": [
+    "~given over 20-30 minutes",
+    "• LEVETIRACETAM (most used)",
+    "• PHENOBARBITAL if < 30 days old",
+    "• or phenytoin / fosphenytoin"
+   ]
+  },
+  {
+   "id": "cse_tx_2_0",
+   "x": 637,
+   "y": 1066,
+   "w": 270,
+   "h": 60,
+   "kind": "bad",
+   "title": "3 · Refractory → ICU",
+   "lines": [
+    "benzodiazepine infusion · ketamine"
+   ]
+  }
+ ],
+ "edges": [
+  {
+   "from": "root",
+   "to": "g_feb",
+   "path": "M476.0 106V131H321.0V156"
+  },
+  {
+   "from": "root",
+   "to": "g_se",
+   "path": "M476.0 106V131H772.0V156"
+  },
+  {
+   "from": "cse_tx_0_0",
+   "to": "cse_tx_1_0"
+  },
+  {
+   "from": "cse_tx_1_0",
+   "to": "cse_tx_2_0"
+  },
+  {
+   "from": "sfs_head_0_0",
+   "to": "sfs_pres_0_0"
+  },
+  {
+   "from": "sfs_pres_0_0",
+   "to": "sfs_inv_0_0"
+  },
+  {
+   "from": "sfs_inv_0_0",
+   "to": "sfs_tx_0_0"
+  },
+  {
+   "from": "g_feb",
+   "to": "sfs_head_0_0",
+   "from_dx": -141,
+   "label": "ALL of these",
+   "label_at": [
+    180.0,
+    292
+   ]
+  },
+  {
+   "from": "cfs_head_0_0",
+   "to": "cfs_pres_0_0"
+  },
+  {
+   "from": "cfs_pres_0_0",
+   "to": "cfs_inv_0_0"
+  },
+  {
+   "from": "cfs_inv_0_0",
+   "to": "cfs_tx_0_0"
+  },
+  {
+   "from": "g_feb",
+   "to": "cfs_head_0_0",
+   "from_dx": 141,
+   "label": "ANY one",
+   "label_at": [
+    462.0,
+    292
+   ]
+  },
+  {
+   "from": "cse_head_0_0",
+   "to": "cse_pres_0_0"
+  },
+  {
+   "from": "cse_pres_0_0",
+   "to": "cse_inv_0_0"
+  },
+  {
+   "from": "cse_inv_0_0",
+   "to": "cse_tx_0_0"
+  },
+  {
+   "from": "g_se",
+   "to": "cse_head_0_0",
+   "from_dx": 0,
+   "label": "> 5 min",
+   "label_at": [
+    772.0,
+    292
+   ]
+  }
+ ],
+ "panels": []
+}

@@ -1,0 +1,521 @@
+{
+ "name": "aphasia syndromes overview",
+ "width": 1048,
+ "title": "Aphasia syndromes: test comprehension first, then fluency and repetition; the pattern names the aphasia and localizes it in the dominant hemisphere (Broca's inferior frontal, Wernicke's posterior temporal, global full MCA territory; conduction and the transcortical aphasias for keeners)",
+ "kinds": {
+  "broca_h": [
+   "#1f6f8b",
+   "#1f6f8b",
+   "#ffffff",
+   "#ffffff"
+  ],
+  "broca_t": [
+   "#dceef4",
+   "#1f6f8b",
+   "#1f6f8b",
+   "#18212e"
+  ],
+  "broca_w": [
+   "#ffffff",
+   "#1f6f8b",
+   "#1f6f8b",
+   "#18212e"
+  ],
+  "tcm_h": [
+   "#46607a",
+   "#46607a",
+   "#ffffff",
+   "#ffffff"
+  ],
+  "tcm_t": [
+   "#e2e8ee",
+   "#46607a",
+   "#46607a",
+   "#18212e"
+  ],
+  "tcm_w": [
+   "#ffffff",
+   "#46607a",
+   "#46607a",
+   "#18212e"
+  ],
+  "cond_h": [
+   "#4f6d1f",
+   "#4f6d1f",
+   "#ffffff",
+   "#ffffff"
+  ],
+  "cond_t": [
+   "#e7eed9",
+   "#4f6d1f",
+   "#4f6d1f",
+   "#18212e"
+  ],
+  "cond_w": [
+   "#ffffff",
+   "#4f6d1f",
+   "#4f6d1f",
+   "#18212e"
+  ],
+  "wern_h": [
+   "#6a4aa8",
+   "#6a4aa8",
+   "#ffffff",
+   "#ffffff"
+  ],
+  "wern_t": [
+   "#ebe4f7",
+   "#6a4aa8",
+   "#6a4aa8",
+   "#18212e"
+  ],
+  "wern_w": [
+   "#ffffff",
+   "#6a4aa8",
+   "#6a4aa8",
+   "#18212e"
+  ],
+  "glob_h": [
+   "#b5600f",
+   "#b5600f",
+   "#ffffff",
+   "#ffffff"
+  ],
+  "glob_t": [
+   "#fbe8d3",
+   "#b5600f",
+   "#b5600f",
+   "#18212e"
+  ],
+  "glob_w": [
+   "#ffffff",
+   "#b5600f",
+   "#b5600f",
+   "#18212e"
+  ],
+  "tcs_h": [
+   "#1f5f9e",
+   "#1f5f9e",
+   "#ffffff",
+   "#ffffff"
+  ],
+  "tcs_t": [
+   "#dde9f7",
+   "#1f5f9e",
+   "#1f5f9e",
+   "#18212e"
+  ],
+  "tcs_w": [
+   "#ffffff",
+   "#1f5f9e",
+   "#1f5f9e",
+   "#18212e"
+  ]
+ },
+ "bands": [
+  {
+   "x": 40,
+   "y": 270,
+   "w": 160,
+   "h": 372,
+   "fill": "#eef7fa",
+   "stroke": "#1f6f8b"
+  },
+  {
+   "x": 202,
+   "y": 270,
+   "w": 160,
+   "h": 372,
+   "fill": "#f2f5f8",
+   "stroke": "#46607a"
+  },
+  {
+   "x": 364,
+   "y": 270,
+   "w": 160,
+   "h": 372,
+   "fill": "#f4f7ee",
+   "stroke": "#4f6d1f"
+  },
+  {
+   "x": 554,
+   "y": 270,
+   "w": 160,
+   "h": 372,
+   "fill": "#f5f1fb",
+   "stroke": "#6a4aa8"
+  },
+  {
+   "x": 716,
+   "y": 270,
+   "w": 160,
+   "h": 372,
+   "fill": "#fdf4ea",
+   "stroke": "#b5600f"
+  },
+  {
+   "x": 878,
+   "y": 270,
+   "w": 160,
+   "h": 372,
+   "fill": "#eff5fc",
+   "stroke": "#1f5f9e"
+  }
+ ],
+ "row_labels": [
+  {
+   "x": 23,
+   "y": 398,
+   "h": 114,
+   "text": "FLUENCY · REPETITION"
+  },
+  {
+   "x": 23,
+   "y": 552,
+   "h": 82,
+   "text": "LESION"
+  }
+ ],
+ "nodes": [
+  {
+   "id": "root",
+   "x": 159,
+   "y": 10,
+   "w": 760,
+   "kind": "dark",
+   "title": "Trouble with LANGUAGE (aphasia), not articulation (dysarthria)?",
+   "lines": [
+    "aphasia = DOMINANT hemisphere (left in right-handers)",
+    "test naming · comprehension · fluency · repetition · reading · writing"
+   ]
+  },
+  {
+   "id": "g_int",
+   "x": 45,
+   "y": 138,
+   "w": 474,
+   "h": 60,
+   "kind": "plain",
+   "title": "COMPREHENSION INTACT",
+   "lines": [
+    "follows motor commands"
+   ]
+  },
+  {
+   "id": "g_low",
+   "x": 559,
+   "y": 138,
+   "w": 474,
+   "h": 60,
+   "kind": "plain",
+   "title": "COMPREHENSION ↓",
+   "lines": [
+    "cannot follow commands"
+   ]
+  },
+  {
+   "id": "broca_head_0_0",
+   "x": 45,
+   "y": 278,
+   "w": 150,
+   "h": 80,
+   "kind": "broca_h",
+   "title": "Broca's",
+   "lines": [
+    "expressive aphasia"
+   ]
+  },
+  {
+   "id": "tcm_head_0_0",
+   "x": 207,
+   "y": 278,
+   "w": 150,
+   "h": 80,
+   "kind": "tcm_h",
+   "title": "Transcortical motor",
+   "lines": [
+    "keeners only"
+   ]
+  },
+  {
+   "id": "cond_head_0_0",
+   "x": 369,
+   "y": 278,
+   "w": 150,
+   "h": 80,
+   "kind": "cond_h",
+   "title": "Conduction",
+   "lines": [
+    "keeners only"
+   ]
+  },
+  {
+   "id": "wern_head_0_0",
+   "x": 559,
+   "y": 278,
+   "w": 150,
+   "h": 80,
+   "kind": "wern_h",
+   "title": "Wernicke's",
+   "lines": [
+    "receptive aphasia"
+   ]
+  },
+  {
+   "id": "glob_head_0_0",
+   "x": 721,
+   "y": 278,
+   "w": 150,
+   "h": 80,
+   "kind": "glob_h",
+   "title": "Global",
+   "lines": [
+    "cannot understand or express"
+   ]
+  },
+  {
+   "id": "tcs_head_0_0",
+   "x": 883,
+   "y": 278,
+   "w": 150,
+   "h": 80,
+   "kind": "tcs_h",
+   "title": "Transcortical sensory",
+   "lines": [
+    "keeners only"
+   ]
+  },
+  {
+   "id": "broca_clue_0_0",
+   "x": 45,
+   "y": 398,
+   "w": 150,
+   "h": 114,
+   "kind": "broca_t",
+   "title": "Fluency ↓",
+   "lines": [
+    "• slow, halting",
+    "• none if severe",
+    "• repetition ↓",
+    "• naming ↓"
+   ]
+  },
+  {
+   "id": "tcm_clue_0_0",
+   "x": 207,
+   "y": 398,
+   "w": 150,
+   "h": 114,
+   "kind": "tcm_t",
+   "title": "Fluency ↓",
+   "lines": [
+    "• repetition NORMAL",
+    "• naming ↓"
+   ]
+  },
+  {
+   "id": "cond_clue_0_0",
+   "x": 369,
+   "y": 398,
+   "w": 150,
+   "h": 114,
+   "kind": "cond_t",
+   "title": "Fluency normal",
+   "lines": [
+    "• repetition ↓",
+    "• naming variable"
+   ]
+  },
+  {
+   "id": "wern_clue_0_0",
+   "x": 559,
+   "y": 398,
+   "w": 150,
+   "h": 114,
+   "kind": "wern_t",
+   "title": "Fluent nonsense",
+   "lines": [
+    "• like a foreign language if severe",
+    "• repetition ↓",
+    "• naming ↓"
+   ]
+  },
+  {
+   "id": "glob_clue_0_0",
+   "x": 721,
+   "y": 398,
+   "w": 150,
+   "h": 114,
+   "kind": "glob_t",
+   "title": "No verbal output",
+   "lines": [
+    "• repetition ↓",
+    "• naming ↓"
+   ]
+  },
+  {
+   "id": "tcs_clue_0_0",
+   "x": 883,
+   "y": 398,
+   "w": 150,
+   "h": 114,
+   "kind": "tcs_t",
+   "title": "Fluent",
+   "lines": [
+    "• repetition NORMAL",
+    "• naming ↓"
+   ]
+  },
+  {
+   "id": "broca_inv_0_0",
+   "x": 45,
+   "y": 552,
+   "w": 150,
+   "h": 82,
+   "kind": "broca_w",
+   "title": "Inferior frontal lobe",
+   "lines": []
+  },
+  {
+   "id": "tcm_inv_0_0",
+   "x": 207,
+   "y": 552,
+   "w": 150,
+   "h": 82,
+   "kind": "tcm_w",
+   "title": "Parasagittal mid frontal",
+   "lines": []
+  },
+  {
+   "id": "cond_inv_0_0",
+   "x": 369,
+   "y": 552,
+   "w": 150,
+   "h": 82,
+   "kind": "cond_w",
+   "title": "Arcuate fasciculus",
+   "lines": []
+  },
+  {
+   "id": "wern_inv_0_0",
+   "x": 559,
+   "y": 552,
+   "w": 150,
+   "h": 82,
+   "kind": "wern_w",
+   "title": "Posterior temporal lobe",
+   "lines": []
+  },
+  {
+   "id": "glob_inv_0_0",
+   "x": 721,
+   "y": 552,
+   "w": 150,
+   "h": 82,
+   "kind": "glob_w",
+   "title": "Full middle cerebral artery (MCA) territory",
+   "lines": []
+  },
+  {
+   "id": "tcs_inv_0_0",
+   "x": 883,
+   "y": 552,
+   "w": 150,
+   "h": 82,
+   "kind": "tcs_w",
+   "title": "Parasagittal parietal",
+   "lines": []
+  }
+ ],
+ "edges": [
+  {
+   "from": "root",
+   "to": "g_int",
+   "path": "M539.0 88V113H282.0V138"
+  },
+  {
+   "from": "root",
+   "to": "g_low",
+   "path": "M539.0 88V113H796.0V138"
+  },
+  {
+   "from": "broca_head_0_0",
+   "to": "broca_clue_0_0"
+  },
+  {
+   "from": "broca_clue_0_0",
+   "to": "broca_inv_0_0"
+  },
+  {
+   "from": "g_int",
+   "to": "broca_head_0_0",
+   "from_dx": -162
+  },
+  {
+   "from": "tcm_head_0_0",
+   "to": "tcm_clue_0_0"
+  },
+  {
+   "from": "tcm_clue_0_0",
+   "to": "tcm_inv_0_0"
+  },
+  {
+   "from": "g_int",
+   "to": "tcm_head_0_0",
+   "from_dx": 0
+  },
+  {
+   "from": "cond_head_0_0",
+   "to": "cond_clue_0_0"
+  },
+  {
+   "from": "cond_clue_0_0",
+   "to": "cond_inv_0_0"
+  },
+  {
+   "from": "g_int",
+   "to": "cond_head_0_0",
+   "from_dx": 162
+  },
+  {
+   "from": "wern_head_0_0",
+   "to": "wern_clue_0_0"
+  },
+  {
+   "from": "wern_clue_0_0",
+   "to": "wern_inv_0_0"
+  },
+  {
+   "from": "g_low",
+   "to": "wern_head_0_0",
+   "from_dx": -162
+  },
+  {
+   "from": "glob_head_0_0",
+   "to": "glob_clue_0_0"
+  },
+  {
+   "from": "glob_clue_0_0",
+   "to": "glob_inv_0_0"
+  },
+  {
+   "from": "g_low",
+   "to": "glob_head_0_0",
+   "from_dx": 0
+  },
+  {
+   "from": "tcs_head_0_0",
+   "to": "tcs_clue_0_0"
+  },
+  {
+   "from": "tcs_clue_0_0",
+   "to": "tcs_inv_0_0"
+  },
+  {
+   "from": "g_low",
+   "to": "tcs_head_0_0",
+   "from_dx": 162
+  }
+ ],
+ "panels": []
+}

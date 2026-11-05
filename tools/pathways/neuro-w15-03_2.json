@@ -1,0 +1,433 @@
+{
+ "name": "movement disorders overview",
+ "width": 1012,
+ "title": "Tremor or slowness: a symmetric postural or action tremor that improves with alcohol is essential tremor; asymmetric rest tremor with rigidity, bradykinesia and postural instability is parkinsonism, which is Parkinson's disease only once drugs, basal ganglia lesions, head trauma, toxins, PSP and MSA are excluded; each with its treatment",
+ "kinds": {
+  "et_h": [
+   "#1f6f8b",
+   "#1f6f8b",
+   "#ffffff",
+   "#ffffff"
+  ],
+  "et_t": [
+   "#dceef4",
+   "#1f6f8b",
+   "#1f6f8b",
+   "#18212e"
+  ],
+  "et_w": [
+   "#ffffff",
+   "#1f6f8b",
+   "#1f6f8b",
+   "#18212e"
+  ],
+  "pd_h": [
+   "#6a4aa8",
+   "#6a4aa8",
+   "#ffffff",
+   "#ffffff"
+  ],
+  "pd_t": [
+   "#ebe4f7",
+   "#6a4aa8",
+   "#6a4aa8",
+   "#18212e"
+  ],
+  "pd_w": [
+   "#ffffff",
+   "#6a4aa8",
+   "#6a4aa8",
+   "#18212e"
+  ],
+  "oth_h": [
+   "#b5600f",
+   "#b5600f",
+   "#ffffff",
+   "#ffffff"
+  ],
+  "oth_t": [
+   "#fbe8d3",
+   "#b5600f",
+   "#b5600f",
+   "#18212e"
+  ],
+  "oth_w": [
+   "#ffffff",
+   "#b5600f",
+   "#b5600f",
+   "#18212e"
+  ]
+ },
+ "bands": [
+  {
+   "x": 40,
+   "y": 270,
+   "w": 310,
+   "h": 888,
+   "fill": "#eef7fa",
+   "stroke": "#1f6f8b"
+  },
+  {
+   "x": 380,
+   "y": 270,
+   "w": 310,
+   "h": 888,
+   "fill": "#f5f1fb",
+   "stroke": "#6a4aa8"
+  },
+  {
+   "x": 692,
+   "y": 270,
+   "w": 310,
+   "h": 888,
+   "fill": "#fdf4ea",
+   "stroke": "#b5600f"
+  }
+ ],
+ "row_labels": [
+  {
+   "x": 23,
+   "y": 396,
+   "h": 344,
+   "text": "PRESENTS AS"
+  },
+  {
+   "x": 23,
+   "y": 780,
+   "h": 370,
+   "text": "TREATMENT"
+  }
+ ],
+ "nodes": [
+  {
+   "id": "root",
+   "x": 141,
+   "y": 10,
+   "w": 760,
+   "kind": "dark",
+   "title": "Tremor or slowness: WHEN is the tremor worst, and is it on ONE side?",
+   "lines": [
+    "• hyperkinetic (too much movement): ballismus · chorea · athetosis · tremor · dystonia · tics",
+    "• hypokinetic (too little): parkinsonism, with bradykinesia (slow) and akinesia (hard to start)"
+   ]
+  },
+  {
+   "id": "g_et",
+   "x": 45,
+   "y": 138,
+   "w": 300,
+   "h": 60,
+   "kind": "plain",
+   "title": "Tremor with POSTURE or ACTION",
+   "lines": [
+    "SYMMETRIC"
+   ]
+  },
+  {
+   "id": "g_pk",
+   "x": 385,
+   "y": 138,
+   "w": 612,
+   "h": 60,
+   "kind": "plain",
+   "title": "PARKINSONISM: a syndrome",
+   "lines": [
+    "tremor · rigidity · bradykinesia · postural instability, in any mix"
+   ]
+  },
+  {
+   "id": "et_head_0_0",
+   "x": 45,
+   "y": 278,
+   "w": 300,
+   "h": 78,
+   "kind": "et_h",
+   "title": "Essential tremor",
+   "lines": [
+    "may be hereditary · worsens over time"
+   ]
+  },
+  {
+   "id": "pd_head_0_0",
+   "x": 385,
+   "y": 278,
+   "w": 300,
+   "h": 78,
+   "kind": "pd_h",
+   "title": "Parkinson's disease",
+   "lines": [
+    "dopamine neurons of the substantia nigra die · onset about 60"
+   ]
+  },
+  {
+   "id": "oth_head_0_0",
+   "x": 697,
+   "y": 278,
+   "w": 300,
+   "h": 78,
+   "kind": "oth_h",
+   "title": "Parkinsonism from ANOTHER cause",
+   "lines": [
+    "Parkinson's disease is only ONE cause"
+   ]
+  },
+  {
+   "id": "et_pres_0_0",
+   "x": 45,
+   "y": 396,
+   "w": 300,
+   "h": 344,
+   "kind": "et_t",
+   "title": "Postural or action tremor",
+   "lines": [
+    "• both sides alike",
+    "• arms most, also head and voice",
+    "• improves with ALCOHOL",
+    "• LARGE, shaky handwriting"
+   ]
+  },
+  {
+   "id": "pd_pres_0_0",
+   "x": 385,
+   "y": 396,
+   "w": 300,
+   "h": 344,
+   "kind": "pd_t",
+   "title": "T.R.A.P., ASYMMETRIC",
+   "lines": [
+    "• Tremor at REST, pill-rolling",
+    "• Rigidity: same at any speed, ↑ with augmentation",
+    "• Akinesia / bradykinesia",
+    "• Postural instability",
+    "• small handwriting · masked face · soft voice · less arm swing · stooped, turns en bloc"
+   ]
+  },
+  {
+   "id": "oth_pres_0_0",
+   "x": 697,
+   "y": 396,
+   "w": 300,
+   "h": 132,
+   "kind": "oth_t",
+   "title": "Ask about",
+   "lines": [
+    "• antipsychotics, antiemetics (prochlorperazine, metoclopramide)",
+    "• basal ganglia stroke, bleed, tumour, infection",
+    "• repeated head trauma · carbon monoxide, cyanide"
+   ]
+  },
+  {
+   "id": "oth_pres_1_0",
+   "x": 697.0,
+   "y": 550,
+   "w": 145.0,
+   "h": 190,
+   "kind": "oth_w",
+   "title": "Progressive supranuclear palsy (PSP)",
+   "lines": [
+    "• VERTICAL gaze palsy, overcome by vestibular reflexes",
+    "• EARLY falls",
+    "• axial tone > limb tone"
+   ]
+  },
+  {
+   "id": "oth_pres_1_1",
+   "x": 852.0,
+   "y": 550,
+   "w": 145.0,
+   "h": 190,
+   "kind": "oth_w",
+   "title": "Multiple system atrophy (MSA)",
+   "lines": [
+    "• AUTONOMIC dysfunction",
+    "• + parkinsonism (MSA-P) OR cerebellar signs (MSA-C)"
+   ]
+  },
+  {
+   "id": "et_tx_0_0",
+   "x": 45,
+   "y": 780,
+   "w": 300,
+   "h": 97,
+   "kind": "ok",
+   "title": "Mild → no treatment",
+   "lines": []
+  },
+  {
+   "id": "et_tx_1_0",
+   "x": 45,
+   "y": 899,
+   "w": 300,
+   "h": 115,
+   "kind": "ok",
+   "title": "Beta-blocker or primidone",
+   "lines": [
+    "other anticonvulsants are options"
+   ]
+  },
+  {
+   "id": "et_tx_2_0",
+   "x": 45,
+   "y": 1036,
+   "w": 300,
+   "h": 115,
+   "kind": "warn",
+   "title": "Refractory → deep brain stimulation",
+   "lines": [
+    "targets in the basal ganglia"
+   ]
+  },
+  {
+   "id": "pd_tx_0_0",
+   "x": 385,
+   "y": 780,
+   "w": 300,
+   "h": 62,
+   "kind": "plain",
+   "title": "Not functionally limiting → no treatment yet",
+   "lines": []
+  },
+  {
+   "id": "pd_tx_1_0",
+   "x": 385,
+   "y": 864,
+   "w": 300,
+   "h": 150,
+   "kind": "ok",
+   "title": "Limiting → LEVODOPA + carbidopa",
+   "lines": [
+    "• most effective: bradykinesia, rigidity best · tremor variable",
+    "• start low, titrate slowly",
+    "• NEVER stop suddenly",
+    "• watch: on-off, wearing off · dyskinesia (50% by 5 years)"
+   ]
+  },
+  {
+   "id": "pd_tx_2_0",
+   "x": 385,
+   "y": 1036,
+   "w": 300,
+   "h": 114,
+   "kind": "ok",
+   "title": "Other options",
+   "lines": [
+    "• early: MAO-B inhibitor",
+    "• dopamine agonist (pramipexole, ropinirole)",
+    "• tremor: anticholinergic",
+    "• severe: deep brain stimulation"
+   ]
+  },
+  {
+   "id": "oth_tx_0_0",
+   "x": 697,
+   "y": 780,
+   "w": 300,
+   "h": 370,
+   "kind": "bad",
+   "title": "Do NOT call it Parkinson's disease",
+   "lines": [
+    "• other neurodegenerative causes: MSA, PSP, diffuse Lewy body disease",
+    "• MSA: death within 6-9 years of onset"
+   ]
+  }
+ ],
+ "edges": [
+  {
+   "from": "root",
+   "to": "g_et",
+   "path": "M521.0 88V113H195.0V138"
+  },
+  {
+   "from": "root",
+   "to": "g_pk",
+   "path": "M521.0 88V113H691.0V138"
+  },
+  {
+   "from": "oth_pres_0_0",
+   "to": "oth_pres_1_0",
+   "from_dx": -77.5
+  },
+  {
+   "from": "oth_pres_0_0",
+   "to": "oth_pres_1_1",
+   "from_dx": 77.5
+  },
+  {
+   "from": "et_tx_0_0",
+   "to": "et_tx_1_0"
+  },
+  {
+   "from": "et_tx_1_0",
+   "to": "et_tx_2_0"
+  },
+  {
+   "from": "pd_tx_0_0",
+   "to": "pd_tx_1_0"
+  },
+  {
+   "from": "pd_tx_1_0",
+   "to": "pd_tx_2_0"
+  },
+  {
+   "from": "et_head_0_0",
+   "to": "et_pres_0_0"
+  },
+  {
+   "from": "et_pres_0_0",
+   "to": "et_tx_0_0"
+  },
+  {
+   "from": "g_et",
+   "to": "et_head_0_0",
+   "from_dx": 0,
+   "label": "better with alcohol",
+   "label_at": [
+    195.0,
+    238
+   ]
+  },
+  {
+   "from": "pd_head_0_0",
+   "to": "pd_pres_0_0"
+  },
+  {
+   "from": "pd_pres_0_0",
+   "to": "pd_tx_0_0"
+  },
+  {
+   "from": "g_pk",
+   "to": "pd_head_0_0",
+   "from_dx": -156,
+   "label": "no other cause",
+   "label_at": [
+    535.0,
+    238
+   ]
+  },
+  {
+   "from": "oth_head_0_0",
+   "to": "oth_pres_0_0"
+  },
+  {
+   "from": "oth_pres_1_0",
+   "to": "oth_tx_0_0",
+   "to_dx": -77.5
+  },
+  {
+   "from": "oth_pres_1_1",
+   "to": "oth_tx_0_0",
+   "to_dx": 77.5
+  },
+  {
+   "from": "g_pk",
+   "to": "oth_head_0_0",
+   "from_dx": 156,
+   "label": "a cause, or red flags",
+   "label_at": [
+    847.0,
+    238
+   ]
+  }
+ ],
+ "panels": []
+}

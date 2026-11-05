@@ -7,7 +7,7 @@
  "groups": [
   {"id": "g_all", "cols": [0, 0], "title": "EVERY fracture", "lines": []},
   {"id": "g_open", "cols": [1, 1], "title": "A WOUND anywhere", "lines": []},
-  {"id": "g_comp", "cols": [2, 6], "title": "COMPLICATIONS", "lines": ["compartment syndrome is the emergency"]}
+  {"id": "g_comp", "cols": [2, 7], "title": "COMPLICATIONS", "lines": ["compartment syndrome is the emergency"]}
  ],
  "sections": ["head", "pres", "inv", "tx"],
  "row_names": {"pres": "RECOGNISE", "inv": "SORT IT", "tx": "MANAGE"},
@@ -49,13 +49,17 @@
    "pres": [[["t", "Pain", ["• femoral head", "• talus", "• scaphoid"]]]],
    "inv": [[["w", "Bone cell death", ["lack of blood supply after the fracture"]]]],
    "tx": [[["ok", "Surgical", []]]]},
-  {"id": "late", "colour": "olive",
-   "head": [[["h", "Post-traumatic arthritis · heterotopic bone", []]]],
-   "pres": [[["t", "Arthritis after a peri-articular fracture", ["• ANKLE > 50% · rare at hip, knee", "• pain on weight-bearing, less motion"]]],
-            [["w", "Heterotopic ossification", ["• polytrauma · head injury · burns > 30%", "• hip, knee, elbow: stiffness → ankylosis"]]]],
-   "inv": [[["w", "Early ossification: x-ray, CT NEGATIVE", ["bone scan instead"]]]],
-   "tx": [[["ok", "Arthritis: as for osteoarthritis", ["pain control · physiotherapy · surgery last"]]],
-          [["ok", "Ossification: settle inflammation", ["excise once MATURE if it is a problem"]]]]}
+  {"id": "pta", "colour": "olive",
+   "head": [[["h", "Post-traumatic arthritis", ["arthritis after a peri-articular fracture"]]]],
+   "pres": [[["t", "Pain, worse weight-bearing", ["• less range of motion"]]]],
+   "inv": [[["w", "Where", ["• ANKLE: over 50% of ankle fractures", "• the most common cause of ankle arthritis", "• uncommon at hip, knee"]]]],
+   "tx": [[["ok", "As for osteoarthritis", ["pain control · physiotherapy · surgery last"]]]]},
+  {"id": "ho", "colour": "slate",
+   "head": [[["h", "Heterotopic ossification", ["bone forming where it should not"]]]],
+   "pres": [[["t", "Stiffness → ankylosis", ["• hip, knee, elbow"]]],
+            [["w", "Risk", ["• polytrauma · head injury · burns > 30%"]]]],
+   "inv": [[["w", "Early: x-ray, CT NEGATIVE", ["bone scan instead"]]]],
+   "tx": [[["ok", "Settle inflammation", ["excise once MATURE if it is a problem"]]]]}
  ],
  "panels": [
   {"title": "How a fracture heals", "items": ["the healing stages, timelines and how they look on x-ray: see the FRACTURE RADIOLOGY chart"]}

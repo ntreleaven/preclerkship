@@ -1,6 +1,6 @@
 {
  "name": "fracture management overview",
- "width": 1700,
+ "width": 1928,
  "title": "Managing a fracture: the five steps for every fracture, what changes when it is open, and the seven complications (compartment syndrome, venous thromboembolism, non-union and malunion, avascular necrosis, post-traumatic arthritis, heterotopic ossification) with how each is recognised, sorted and managed",
  "kinds": {
   "all_h": [
@@ -111,22 +111,40 @@
    "#8a5a2b",
    "#18212e"
   ],
-  "late_h": [
+  "pta_h": [
    "#4f6d1f",
    "#4f6d1f",
    "#ffffff",
    "#ffffff"
   ],
-  "late_t": [
+  "pta_t": [
    "#e7eed9",
    "#4f6d1f",
    "#4f6d1f",
    "#18212e"
   ],
-  "late_w": [
+  "pta_w": [
    "#ffffff",
    "#4f6d1f",
    "#4f6d1f",
+   "#18212e"
+  ],
+  "ho_h": [
+   "#46607a",
+   "#46607a",
+   "#ffffff",
+   "#ffffff"
+  ],
+  "ho_t": [
+   "#e2e8ee",
+   "#46607a",
+   "#46607a",
+   "#18212e"
+  ],
+  "ho_w": [
+   "#ffffff",
+   "#46607a",
+   "#46607a",
    "#18212e"
   ]
  },
@@ -135,7 +153,7 @@
    "x": 40,
    "y": 272,
    "w": 226,
-   "h": 1032,
+   "h": 1046,
    "fill": "#eef7fa",
    "stroke": "#1f6f8b"
   },
@@ -143,7 +161,7 @@
    "x": 296,
    "y": 272,
    "w": 226,
-   "h": 1032,
+   "h": 1046,
    "fill": "#fdf4ea",
    "stroke": "#b5600f"
   },
@@ -151,7 +169,7 @@
    "x": 552,
    "y": 272,
    "w": 226,
-   "h": 1032,
+   "h": 1046,
    "fill": "#fcf0f6",
    "stroke": "#a3336b"
   },
@@ -159,7 +177,7 @@
    "x": 780,
    "y": 272,
    "w": 226,
-   "h": 1032,
+   "h": 1046,
    "fill": "#eff5fc",
    "stroke": "#1f5f9e"
   },
@@ -167,7 +185,7 @@
    "x": 1008,
    "y": 272,
    "w": 226,
-   "h": 1032,
+   "h": 1046,
    "fill": "#f5f1fb",
    "stroke": "#6a4aa8"
   },
@@ -175,7 +193,7 @@
    "x": 1236,
    "y": 272,
    "w": 226,
-   "h": 1032,
+   "h": 1046,
    "fill": "#faf4ee",
    "stroke": "#8a5a2b"
   },
@@ -183,27 +201,35 @@
    "x": 1464,
    "y": 272,
    "w": 226,
-   "h": 1032,
+   "h": 1046,
    "fill": "#f4f7ee",
    "stroke": "#4f6d1f"
+  },
+  {
+   "x": 1692,
+   "y": 272,
+   "w": 226,
+   "h": 1046,
+   "fill": "#f2f5f8",
+   "stroke": "#46607a"
   }
  ],
  "row_labels": [
   {
    "x": 23,
    "y": 416,
-   "h": 270,
+   "h": 268,
    "text": "RECOGNISE"
   },
   {
    "x": 23,
-   "y": 726,
-   "h": 116,
+   "y": 724,
+   "h": 132,
    "text": "SORT IT"
   },
   {
    "x": 23,
-   "y": 882,
+   "y": 896,
    "h": 414,
    "text": "MANAGE"
   }
@@ -211,7 +237,7 @@
  "nodes": [
   {
    "id": "root",
-   "x": 485,
+   "x": 599,
    "y": 10,
    "w": 760,
    "kind": "dark",
@@ -244,7 +270,7 @@
    "id": "g_comp",
    "x": 557,
    "y": 140,
-   "w": 1128,
+   "w": 1356,
    "h": 60,
    "kind": "plain",
    "title": "COMPLICATIONS",
@@ -326,21 +352,35 @@
    ]
   },
   {
-   "id": "late_head_0_0",
+   "id": "pta_head_0_0",
    "x": 1469,
    "y": 280,
    "w": 216,
    "h": 96,
-   "kind": "late_h",
-   "title": "Post-traumatic arthritis · heterotopic bone",
-   "lines": []
+   "kind": "pta_h",
+   "title": "Post-traumatic arthritis",
+   "lines": [
+    "arthritis after a peri-articular fracture"
+   ]
+  },
+  {
+   "id": "ho_head_0_0",
+   "x": 1697,
+   "y": 280,
+   "w": 216,
+   "h": 96,
+   "kind": "ho_h",
+   "title": "Heterotopic ossification",
+   "lines": [
+    "bone forming where it should not"
+   ]
   },
   {
    "id": "all_pres_0_0",
    "x": 45,
    "y": 416,
    "w": 216,
-   "h": 270,
+   "h": 268,
    "kind": "all_t",
    "title": "1 · Resuscitate",
    "lines": [
@@ -352,7 +392,7 @@
    "x": 301,
    "y": 416,
    "w": 216,
-   "h": 270,
+   "h": 268,
    "kind": "open_t",
    "title": "ANY wound, even distant",
    "lines": [
@@ -364,7 +404,7 @@
    "x": 557,
    "y": 416,
    "w": 216,
-   "h": 133,
+   "h": 132,
    "kind": "cs_t",
    "title": "A CLINICAL diagnosis",
    "lines": [
@@ -376,9 +416,9 @@
   {
    "id": "cs_pres_1_0",
    "x": 557,
-   "y": 571,
+   "y": 570,
    "w": 216,
-   "h": 115,
+   "h": 114,
    "kind": "cs_w",
    "title": "Causes",
    "lines": [
@@ -391,7 +431,7 @@
    "x": 785,
    "y": 416,
    "w": 216,
-   "h": 270,
+   "h": 268,
    "kind": "vte_t",
    "title": "Highest risk",
    "lines": [
@@ -405,7 +445,7 @@
    "x": 1013,
    "y": 416,
    "w": 216,
-   "h": 270,
+   "h": 268,
    "kind": "nu_t",
    "title": "Non-union type",
    "lines": [
@@ -419,7 +459,7 @@
    "x": 1241,
    "y": 416,
    "w": 216,
-   "h": 270,
+   "h": 268,
    "kind": "avn_t",
    "title": "Pain",
    "lines": [
@@ -429,37 +469,47 @@
    ]
   },
   {
-   "id": "late_pres_0_0",
+   "id": "pta_pres_0_0",
    "x": 1469,
    "y": 416,
    "w": 216,
-   "h": 134,
-   "kind": "late_t",
-   "title": "Arthritis after a peri-articular fracture",
+   "h": 268,
+   "kind": "pta_t",
+   "title": "Pain, worse weight-bearing",
    "lines": [
-    "• ANKLE > 50% · rare at hip, knee",
-    "• pain on weight-bearing, less motion"
+    "• less range of motion"
    ]
   },
   {
-   "id": "late_pres_1_0",
-   "x": 1469,
-   "y": 572,
+   "id": "ho_pres_0_0",
+   "x": 1697,
+   "y": 416,
    "w": 216,
    "h": 114,
-   "kind": "late_w",
-   "title": "Heterotopic ossification",
+   "kind": "ho_t",
+   "title": "Stiffness → ankylosis",
    "lines": [
-    "• polytrauma · head injury · burns > 30%",
-    "• hip, knee, elbow: stiffness → ankylosis"
+    "• hip, knee, elbow"
+   ]
+  },
+  {
+   "id": "ho_pres_1_0",
+   "x": 1697,
+   "y": 552,
+   "w": 216,
+   "h": 132,
+   "kind": "ho_w",
+   "title": "Risk",
+   "lines": [
+    "• polytrauma · head injury · burns > 30%"
    ]
   },
   {
    "id": "all_inv_0_0",
    "x": 45,
-   "y": 726,
+   "y": 724,
    "w": 216,
-   "h": 116,
+   "h": 132,
    "kind": "all_w",
    "title": "2 · Choose the reduction by",
    "lines": [
@@ -471,9 +521,9 @@
   {
    "id": "open_inv_0_0",
    "x": 301,
-   "y": 726,
+   "y": 724,
    "w": 216,
-   "h": 116,
+   "h": 132,
    "kind": "open_w",
    "title": "More energy = worse",
    "lines": [
@@ -484,9 +534,9 @@
   {
    "id": "cs_inv_0_0",
    "x": 557,
-   "y": 726,
+   "y": 724,
    "w": 216,
-   "h": 116,
+   "h": 132,
    "kind": "cs_w",
    "title": "Cannot tell you? MEASURE",
    "lines": [
@@ -497,9 +547,9 @@
   {
    "id": "vte_inv_0_0",
    "x": 785,
-   "y": 726,
+   "y": 724,
    "w": 216,
-   "h": 116,
+   "h": 132,
    "kind": "vte_w",
    "title": "Choose by the patient",
    "lines": [
@@ -509,9 +559,9 @@
   {
    "id": "nu_inv_0_0",
    "x": 1013,
-   "y": 726,
+   "y": 724,
    "w": 216,
-   "h": 116,
+   "h": 132,
    "kind": "nu_w",
    "title": "Malunion",
    "lines": [
@@ -521,9 +571,9 @@
   {
    "id": "avn_inv_0_0",
    "x": 1241,
-   "y": 726,
+   "y": 724,
    "w": 216,
-   "h": 116,
+   "h": 132,
    "kind": "avn_w",
    "title": "Bone cell death",
    "lines": [
@@ -531,13 +581,27 @@
    ]
   },
   {
-   "id": "late_inv_0_0",
+   "id": "pta_inv_0_0",
    "x": 1469,
-   "y": 726,
+   "y": 724,
    "w": 216,
-   "h": 116,
-   "kind": "late_w",
-   "title": "Early ossification: x-ray, CT NEGATIVE",
+   "h": 132,
+   "kind": "pta_w",
+   "title": "Where",
+   "lines": [
+    "• ANKLE: over 50% of ankle fractures",
+    "• the most common cause of ankle arthritis",
+    "• uncommon at hip, knee"
+   ]
+  },
+  {
+   "id": "ho_inv_0_0",
+   "x": 1697,
+   "y": 724,
+   "w": 216,
+   "h": 132,
+   "kind": "ho_w",
+   "title": "Early: x-ray, CT NEGATIVE",
    "lines": [
     "bone scan instead"
    ]
@@ -545,7 +609,7 @@
   {
    "id": "all_tx_0_0",
    "x": 45,
-   "y": 882,
+   "y": 896,
    "w": 216,
    "h": 114,
    "kind": "ok",
@@ -558,7 +622,7 @@
   {
    "id": "all_tx_1_0",
    "x": 45,
-   "y": 1018,
+   "y": 1032,
    "w": 216,
    "h": 96,
    "kind": "ok",
@@ -571,7 +635,7 @@
   {
    "id": "all_tx_2_0",
    "x": 45,
-   "y": 1136,
+   "y": 1150,
    "w": 216,
    "h": 60,
    "kind": "warn",
@@ -583,7 +647,7 @@
   {
    "id": "all_tx_3_0",
    "x": 45,
-   "y": 1218,
+   "y": 1232,
    "w": 216,
    "h": 78,
    "kind": "ok",
@@ -595,7 +659,7 @@
   {
    "id": "open_tx_0_0",
    "x": 301,
-   "y": 882,
+   "y": 896,
    "w": 216,
    "h": 118,
    "kind": "bad",
@@ -607,7 +671,7 @@
   {
    "id": "open_tx_1_0",
    "x": 301,
-   "y": 1022,
+   "y": 1036,
    "w": 216,
    "h": 136,
    "kind": "ok",
@@ -620,7 +684,7 @@
   {
    "id": "open_tx_2_0",
    "x": 301,
-   "y": 1180,
+   "y": 1194,
    "w": 216,
    "h": 116,
    "kind": "ok",
@@ -632,7 +696,7 @@
   {
    "id": "cs_tx_0_0",
    "x": 557,
-   "y": 882,
+   "y": 896,
    "w": 216,
    "h": 414,
    "kind": "bad",
@@ -645,7 +709,7 @@
   {
    "id": "vte_tx_0_0",
    "x": 785,
-   "y": 882,
+   "y": 896,
    "w": 216,
    "h": 414,
    "kind": "ok",
@@ -659,7 +723,7 @@
   {
    "id": "nu_tx_0_0",
    "x": 1013,
-   "y": 882,
+   "y": 896,
    "w": 216,
    "h": 214,
    "kind": "ok",
@@ -672,7 +736,7 @@
   {
    "id": "nu_tx_1_0",
    "x": 1013,
-   "y": 1118,
+   "y": 1132,
    "w": 216,
    "h": 178,
    "kind": "ok",
@@ -684,7 +748,7 @@
   {
    "id": "avn_tx_0_0",
    "x": 1241,
-   "y": 882,
+   "y": 896,
    "w": 216,
    "h": 414,
    "kind": "ok",
@@ -692,25 +756,25 @@
    "lines": []
   },
   {
-   "id": "late_tx_0_0",
+   "id": "pta_tx_0_0",
    "x": 1469,
-   "y": 882,
+   "y": 896,
    "w": 216,
-   "h": 196,
+   "h": 414,
    "kind": "ok",
-   "title": "Arthritis: as for osteoarthritis",
+   "title": "As for osteoarthritis",
    "lines": [
     "pain control · physiotherapy · surgery last"
    ]
   },
   {
-   "id": "late_tx_1_0",
-   "x": 1469,
-   "y": 1100,
+   "id": "ho_tx_0_0",
+   "x": 1697,
+   "y": 896,
    "w": 216,
-   "h": 196,
+   "h": 414,
    "kind": "ok",
-   "title": "Ossification: settle inflammation",
+   "title": "Settle inflammation",
    "lines": [
     "excise once MATURE if it is a problem"
    ]
@@ -720,25 +784,25 @@
   {
    "from": "root",
    "to": "g_all",
-   "path": "M865.0 90V115H153.0V140"
+   "path": "M979.0 90V115H153.0V140"
   },
   {
    "from": "root",
    "to": "g_open",
-   "path": "M865.0 90V115H409.0V140"
+   "path": "M979.0 90V115H409.0V140"
   },
   {
    "from": "root",
    "to": "g_comp",
-   "path": "M865.0 90V115H1121.0V140"
+   "path": "M979.0 90V115H1235.0V140"
   },
   {
    "from": "cs_pres_0_0",
    "to": "cs_pres_1_0"
   },
   {
-   "from": "late_pres_0_0",
-   "to": "late_pres_1_0"
+   "from": "ho_pres_0_0",
+   "to": "ho_pres_1_0"
   },
   {
    "from": "all_tx_0_0",
@@ -763,10 +827,6 @@
   {
    "from": "nu_tx_0_0",
    "to": "nu_tx_1_0"
-  },
-  {
-   "from": "late_tx_0_0",
-   "to": "late_tx_1_0"
   },
   {
    "from": "all_head_0_0",
@@ -817,7 +877,7 @@
   {
    "from": "g_comp",
    "to": "cs_head_0_0",
-   "from_dx": -456
+   "from_dx": -570
   },
   {
    "from": "vte_head_0_0",
@@ -834,7 +894,7 @@
   {
    "from": "g_comp",
    "to": "vte_head_0_0",
-   "from_dx": -228
+   "from_dx": -342
   },
   {
    "from": "nu_head_0_0",
@@ -851,7 +911,7 @@
   {
    "from": "g_comp",
    "to": "nu_head_0_0",
-   "from_dx": 0
+   "from_dx": -114
   },
   {
    "from": "avn_head_0_0",
@@ -868,31 +928,48 @@
   {
    "from": "g_comp",
    "to": "avn_head_0_0",
-   "from_dx": 228
+   "from_dx": 114
   },
   {
-   "from": "late_head_0_0",
-   "to": "late_pres_0_0"
+   "from": "pta_head_0_0",
+   "to": "pta_pres_0_0"
   },
   {
-   "from": "late_pres_1_0",
-   "to": "late_inv_0_0"
+   "from": "pta_pres_0_0",
+   "to": "pta_inv_0_0"
   },
   {
-   "from": "late_inv_0_0",
-   "to": "late_tx_0_0"
+   "from": "pta_inv_0_0",
+   "to": "pta_tx_0_0"
   },
   {
    "from": "g_comp",
-   "to": "late_head_0_0",
-   "from_dx": 456
+   "to": "pta_head_0_0",
+   "from_dx": 342
+  },
+  {
+   "from": "ho_head_0_0",
+   "to": "ho_pres_0_0"
+  },
+  {
+   "from": "ho_pres_1_0",
+   "to": "ho_inv_0_0"
+  },
+  {
+   "from": "ho_inv_0_0",
+   "to": "ho_tx_0_0"
+  },
+  {
+   "from": "g_comp",
+   "to": "ho_head_0_0",
+   "from_dx": 570
   }
  ],
  "panels": [
   {
    "x": 45,
-   "y": 1330,
-   "w": 1640,
+   "y": 1344,
+   "w": 1868,
    "title": "How a fracture heals",
    "items": [
     "the healing stages, timelines and how they look on x-ray: see the FRACTURE RADIOLOGY chart"

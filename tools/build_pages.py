@@ -632,13 +632,6 @@ PAGE = u"""<!DOCTYPE html>
 <section>
 <p class="panel-h">Lectures</p>
 <nav class="lecindex" id="note-index" aria-label="Jump to a lecture"></nav>
-</section>{hurts}
-
-<section>
-<p class="panel-h">Save as PDF</p>
-<button class="print-cta" id="print-all" type="button" disabled>Save every note as one PDF</button>
-<p class="railnote">Each note has its own <strong>PDF</strong> button, and each week can be
-saved in one go. Print it, annotate it, keep it.</p>
 </section>
 
 </aside>
@@ -799,15 +792,8 @@ def build_qbank(course):
 
 
 # Where it hurts: a 3D body to tap, each region opening its MSK charts. Only the MSK block has one.
-# BODY_MAP puts it under the notes' heading as well; HURTS keeps the sidebar link to the full page.
+# notes.js puts its button under the notes' heading; the sidebar no longer repeats it.
 BODY_MAP = {("pom2", "msk"): "body-map/"}
-HURTS = {("pom2", "msk"): u"""
-
-<section>
-<p class="panel-h">Where it hurts</p>
-<p class="railnote">Tap the body where the patient points and get that region&rsquo;s charts.</p>
-<a class="print-cta" href="body-map/" target="_blank" rel="noopener">Open the body map</a>
-</section>"""}
 
 
 def main():
@@ -835,7 +821,7 @@ def main():
                 name=name, course=course["short"], weeks=weeks, lead=lead, desc=desc, accent=accent,
                 fonts=portal.FONTS, nocache=portal.NOCACHE, cf=portal.CF + portal.sync_tag(), footer=portal.footer(), howto=HOWTO, favicon=portal.favicon(label, fill),
                 theme=portal.THEME_SCRIPT, toggle=portal.THEME_BTN,
-                blocknav=blocknav(course, slug), questions=q, slug=slug, hurts=HURTS.get((d, slug), u""),
+                blocknav=blocknav(course, slug), questions=q, slug=slug,
                 anki=anki_panel(course, slug, weeks), ankitc=anki_tc(course, slug),
                 written=written, lectures=lectures, weeks_with=weeks_with, nweeks=nweeks,
                 eyebrow=html_escape(u"Schulich %s \u00b7 Block %s \u00b7 Weeks %s" % (course["short"], n, weeks)),

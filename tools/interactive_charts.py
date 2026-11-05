@@ -13,11 +13,17 @@ Input: <preclerkship>/tools/pathways/src/*.content.json (endo, repro, msk, neuro
 Output: pom2/charts/<chart id>/index.html, pom2/charts/index.html, pom2/charts/charts.json,
         and an "interactive" link on each matching figure block in pom2/data/notes/<block>.json
         (tools/charts_from_vault.py adds the same link on every rebuild, from charts.json).
+        A content-file chart's picture in the notes is redrawn from that same content file
+        on every run (its tools/pathways/<id>.json spec, the vault's Attachments svg, a
+        pom2/assets/figures file and its figures.json row, and the note's figure block), so
+        the notes and the body map always show the same chart: edit the content file, run
+        this, and both change together.
         The pages share pom2/charts/chart.js, flow.js and chart.css, which are hand-written.
 
 Usage: python3 tools/interactive_charts.py [--vault /mnt/c/Users/nsims/medwiki]
 """
 import argparse
+import hashlib
 import html
 import json
 import logging
@@ -28,6 +34,7 @@ from pathlib import Path
 REPO = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(REPO / "tools"))
 import class_tree_svg  # noqa: E402
+import column_pathway  # noqa: E402
 import pathway_svg  # noqa: E402
 from interactive_flows import flow_model, tree_model  # noqa: E402
 HERE = REPO / "pom2/charts"
@@ -154,12 +161,64 @@ def index(entries: list) -> str:
 """
 
 
-def stamp_notes(repo: Path, links: dict) -> int:
-    """Point each lecture's overview figure at its interactive page, in place.
+SVG_SIZE = re.compile(r'<svg\b[^>]*?\bwidth="([\d.]+)"[^>]*?\bheight="([\d.]+)"')
 
-    Only the "interactive" key of matching figure blocks changes, so the notes JSON
-    diff is that and nothing else; a full charts_from_vault.py rebuild adds the same key.
+
+def draw(repo: Path, chart_id: str, content: dict, vault: Path) -> tuple:
+    """Draw the notes' picture of a content-file chart from the same content its page is
+    built from, so the picture in the notes and the chart the body map pops up cannot
+    disagree. Writes the layout spec (tools/pathways/<id>.json), the vault's
+    Attachments/<name>.svg when the vault is reachable (figures.py copies from there on a
+    full rebuild), and the portal's content-hashed asset with its figures.json row.
+    Returns (svg text, figure row)."""
+    spec = column_pathway.build(content)
+    spec_path = repo / "tools/pathways" / f"{chart_id}.json"
+    spec_text = json.dumps(spec, indent=1, ensure_ascii=False)
+    if not spec_path.exists() or spec_path.read_text(encoding="utf-8") != spec_text:
+        spec_path.write_text(spec_text, encoding="utf-8")
+    chart = pathway_svg.Chart(spec)
+    svg = chart.build()
+    for e in chart.errors:
+        log.error("%s: %s", chart_id, e)
+    name = content["name"] + ".svg"
+    attach = vault / "Attachments"
+    if attach.is_dir():
+        target = attach / name
+        if not target.exists() or target.read_text(encoding="utf-8") != svg:
+            target.write_text(svg, encoding="utf-8", newline="\n")
+            log.info("%s: redrew %s in the vault", chart_id, name)
+    raw = svg.encode("utf-8")
+    digest = hashlib.md5(raw).hexdigest()[:12]
+    asset = repo / "pom2/assets/figures" / f"{digest}.svg"
+    if not asset.exists():
+        asset.write_bytes(raw)
+        log.info("%s: new picture %s", chart_id, asset.name)
+    w, h = SVG_SIZE.search(svg).groups()
+    return svg, {"src": f"assets/figures/{digest}.svg", "w": int(float(w)), "h": int(float(h))}
+
+
+def stamp_figures(repo: Path, rows: dict) -> None:
+    """Record each redrawn picture in figures.json, the manifest charts_from_vault.py reads.
+    Only pictures a note already shows: figures.py adds a new one when a note embeds it."""
+    path = repo / "pom2/data/figures.json"
+    raw = path.read_text()
+    manifest = json.loads(raw)
+    rows = {k: v for k, v in rows.items() if k in manifest}
+    if all(manifest.get(k) == v for k, v in rows.items()):
+        return
+    manifest.update(rows)
+    out = json.dumps(manifest, ensure_ascii=False, indent=1, sort_keys=True)
+    path.write_text(out + ("\n" if raw.endswith("\n") else ""))
+
+
+def stamp_notes(repo: Path, links: dict, drawn: dict = None) -> int:
+    """Point each lecture's overview figure at its interactive page, in place, and (drawn
+    maps svg name -> figure row) at the picture drawn from the same content.
+
+    Only those keys of matching figure blocks change, so the notes JSON diff is that and
+    nothing else; a full charts_from_vault.py rebuild adds the same keys.
     """
+    drawn = drawn or {}
     count = 0
     for block in BLOCKS:
         path = repo / "pom2/data/notes" / f"{block}.json"
@@ -170,6 +229,7 @@ def stamp_notes(repo: Path, links: dict) -> int:
                 for b in lec.get("blocks", []):
                     if b.get("t") == "figure" and b.get("alt") in links:
                         b["interactive"] = links[b["alt"]]
+                        b.update(drawn.get(b["alt"], {}))
                         count += 1
         compact = "\n" not in raw.strip()
         out = json.dumps(data, ensure_ascii=False, separators=(",", ":")) if compact else json.dumps(data, ensure_ascii=False, indent=1)
@@ -217,6 +277,7 @@ def main() -> None:
     args.repo = REPO
     names = lecture_names(args.repo)
     links = {}
+    drawn = {}
     entries = []
     for src in sorted((args.repo / "tools/pathways/src").glob("*.content.json")):
         chart_id = src.name.replace(".content.json", "")
@@ -227,9 +288,7 @@ def main() -> None:
         lec_id = re.sub(r"_\d+$", "", chart_id)
         week, num, name = names.get(lec_id, (int(re.search(r"-w(\d+)", lec_id).group(1)), "", lec_id))
         svg_name = spec["name"] + ".svg"
-        svg_path = args.vault / "Attachments" / svg_name
-        svg = svg_path.read_text() if svg_path.exists() else ""
-        svg = re.sub(r"<\?xml[^>]*>", "", svg)
+        svg, drawn[svg_name] = draw(args.repo, chart_id, spec, args.vault)
         covers = notes_embedding(args.vault, svg_name)
         if not covers:
             log.warning("%s: no note embeds %s", chart_id, svg_name)
@@ -259,7 +318,8 @@ def main() -> None:
     entries.sort(key=lambda e: (order.index(e["block"]), e["week"], e["num"]))
     (HERE / "index.html").write_text(index(entries))
     (HERE / "charts.json").write_text(json.dumps(links, ensure_ascii=False, indent=1, sort_keys=True) + "\n")
-    stamped = stamp_notes(args.repo, links)
+    stamp_figures(args.repo, drawn)
+    stamped = stamp_notes(args.repo, links, drawn)
     log.info("built %d chart pages; linked %d chart figures in the notes", len(entries), stamped)
 
 

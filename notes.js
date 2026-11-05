@@ -605,7 +605,8 @@
     var tc = byId("tc-notes");
     if (tc) tc.textContent = c.written + "/" + c.all;
 
-    byId("print-all").disabled = c.written === 0;
+    var all = byId("print-all");
+    if (all) all.disabled = c.written === 0;
   }
 
   /* ---------- boot ---------- */
@@ -628,7 +629,6 @@
 
     buildSearch();
     buildIndex();
-    byId("print-all").addEventListener("click", printAll);
   }
 
   function buildSearch() {
@@ -708,7 +708,15 @@
     var head = el("div", "fam-head");
     head.appendChild(el("p", "fam-meta",
       c.written ? c.written + " of " + c.all + " lectures" : "nothing written yet"));
-    head.appendChild(el("h2", null, "Lecture notes"));
+    /* the whole block as one PDF, in the heading's corner where the eye goes
+       looking for it, rather than at the foot of the sidebar */
+    var title = el("div", "fam-title");
+    title.appendChild(el("h2", null, "Lecture notes"));
+    var all = pdfButton("Save all as PDF", "Save every note as one PDF: print it, annotate it, keep it", printAll);
+    all.id = "print-all";
+    all.disabled = c.written === 0;
+    title.appendChild(all);
+    head.appendChild(title);
     /* the key to the objectives highlighter, on a block whose notes carry it */
     if (JSON.stringify(WEEKS).indexOf('class=\\"lo\\"') !== -1) {
       var key = el("p", "fam-key");

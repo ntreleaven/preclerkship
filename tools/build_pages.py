@@ -212,18 +212,6 @@ def lecture_counts(course, slug):
     return out
 
 
-def week_counts(course, slug):
-    """(weeks with a written note, weeks): the second scoreboard as notes.js
-    paints it, written in at build time so the masthead does not change width
-    when the notes arrive."""
-    nt = json.load(io.open(os.path.join(course["slug"], "data", "notes", "%s.json" % slug),
-                           encoding="utf-8"))
-    weeks = nt["weeks"]
-    return (sum(1 for w in weeks
-                if any(l.get("hasNote") or l.get("coveredBy") for l in w.get("lectures") or [])),
-            len(weeks))
-
-
 ANKI_EMPTY = u"""<div class="tab-empty">
 <h2>The decks are not up yet.</h2>
 <p>This is where the {course} Anki cards for weeks {weeks} will live, filed by week and
@@ -587,10 +575,6 @@ PAGE = u"""<!DOCTYPE html>
 <h1>{name}</h1>
 <p class="lead">{lead}</p>
 </div>
-<div class="scoreboard" id="sb-notes">
-<div class="score"><b><span id="cv-notes">{written}</span><span class="of" id="cv-of">/{lectures}</span></b><span>Notes written</span></div>
-<div class="score"><b><span id="cv-weeks">{weeks_with}</span><span class="of" id="cv-weeks-of">/{nweeks}</span></b><span>Weeks covered</span></div>
-</div>
 </header>
 
 <main>
@@ -801,7 +785,6 @@ def main():
         for slug, n, name, weeks in course["blocks"]:
             lead, desc, accent = existing(course, slug)
             q, written, lectures = block_counts(course, slug)
-            weeks_with, nweeks = week_counts(course, slug)
             d = course["slug"]
             cfg = {
                 "slug": slug, "n": n, "name": name, "weeks": weeks,
@@ -823,7 +806,7 @@ def main():
                 theme=portal.THEME_SCRIPT, toggle=portal.THEME_BTN,
                 blocknav=blocknav(course, slug), questions=q, slug=slug,
                 anki=anki_panel(course, slug, weeks), ankitc=anki_tc(course, slug),
-                written=written, lectures=lectures, weeks_with=weeks_with, nweeks=nweeks,
+                written=written, lectures=lectures,
                 eyebrow=html_escape(u"Schulich %s \u00b7 Block %s \u00b7 Weeks %s" % (course["short"], n, weeks)),
                 block_json=json.dumps(cfg, ensure_ascii=False))
             io.open(os.path.join(d, "%s.html" % slug), "w",

@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="739" height="722" viewBox="0 0 739 722" role="img" aria-labelledby="t"><title id="t">Low mood in a medically ill patient: screen, exclude hypoactive delirium, then separate major depression from an adjustment disorder</title><defs><marker id="ah" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#5a6577"/></marker></defs><rect width="100%" height="100%" rx="14" fill="#f6f7f9"/>
+<path d="M247.0 52.0L247.0 88.0" fill="none" stroke="#5a6577" stroke-width="2" marker-end="url(#ah)"/>
+<path d="M247.0 132.0L247.0 168.0" fill="none" stroke="#5a6577" stroke-width="2" marker-end="url(#ah)"/>
+<path d="M247.0 230.0L247.0 246.0L123.5 246.0L123.5 296.0" fill="none" stroke="#5a6577" stroke-width="2" marker-end="url(#ah)"/>
+<path d="M247.0 230.0L247.0 246.0L370.5 246.0L370.5 296.0" fill="none" stroke="#5a6577" stroke-width="2" marker-end="url(#ah)"/>
+<path d="M370.5 358.0L370.5 374.0L220.6 374.0L220.6 424.0" fill="none" stroke="#5a6577" stroke-width="2" marker-end="url(#ah)"/>
+<path d="M370.5 358.0L370.5 374.0L484.1 374.0L484.1 424.0" fill="none" stroke="#5a6577" stroke-width="2" marker-end="url(#ah)"/>
+<path d="M484.1 486.0L484.1 502.0L335.4 502.0L335.4 568.0" fill="none" stroke="#5a6577" stroke-width="2" marker-end="url(#ah)"/>
+<path d="M484.1 486.0L484.1 502.0L616.4 502.0L616.4 568.0" fill="none" stroke="#5a6577" stroke-width="2" marker-end="url(#ah)"/>
+<path d="M335.4 630.0L335.4 666.0" fill="none" stroke="#5a6577" stroke-width="2" marker-end="url(#ah)"/>
+<rect x="168.0" y="10.0" width="158.0" height="42.0" rx="10" fill="#18212e" stroke="#18212e" stroke-width="1.5"/>
+<text x="247.0" y="35.4" font-family="Arial, 'Segoe UI Symbol', 'Liberation Sans', Helvetica, sans-serif" font-size="14.5" font-weight="700" fill="#f6f7f9" text-anchor="middle">Medically ill patient</text>
+<rect x="119.0" y="90.0" width="256.0" height="42.0" rx="10" fill="#ffffff" stroke="#c9d0db" stroke-width="1.5"/>
+<text x="247.0" y="115.4" font-family="Arial, 'Segoe UI Symbol', 'Liberation Sans', Helvetica, sans-serif" font-size="14.5" font-weight="700" fill="#18212e" text-anchor="middle">Screen: 'Do you feel depressed?'</text>
+<rect x="110.0" y="170.0" width="274.0" height="60.0" rx="10" fill="#ffffff" stroke="#c9d0db" stroke-width="1.5"/>
+<text x="247.0" y="195.4" font-family="Arial, 'Segoe UI Symbol', 'Liberation Sans', Helvetica, sans-serif" font-size="14.5" font-weight="700" fill="#18212e" text-anchor="middle">Hopelessness, worthlessness, guilt,</text>
+<text x="247.0" y="215.4" font-family="Arial, 'Segoe UI Symbol', 'Liberation Sans', Helvetica, sans-serif" font-size="12.5" font-weight="400" fill="#18212e" text-anchor="middle">anhedonia or suicidal ideation?</text>
+<rect x="14.0" y="298.0" width="219.0" height="42.0" rx="10" fill="#e2f2ea" stroke="#2f7d5b" stroke-width="1.5"/>
+<text x="123.5" y="323.4" font-family="Arial, 'Segoe UI Symbol', 'Liberation Sans', Helvetica, sans-serif" font-size="14.5" font-weight="700" fill="#2f7d5b" text-anchor="middle">Keep screening at follow-up</text>
+<rect x="259.0" y="298.0" width="223.0" height="60.0" rx="10" fill="#ffffff" stroke="#c9d0db" stroke-width="1.5"/>
+<text x="370.5" y="323.4" font-family="Arial, 'Segoe UI Symbol', 'Liberation Sans', Helvetica, sans-serif" font-size="14.5" font-weight="700" fill="#18212e" text-anchor="middle">Acute confusion, inattention,</text>
+<text x="370.5" y="343.4" font-family="Arial, 'Segoe UI Symbol', 'Liberation Sans', Helvetica, sans-serif" font-size="12.5" font-weight="400" fill="#18212e" text-anchor="middle">slowed and lethargic?</text>
+<rect x="117.6" y="426.0" width="206.0" height="60.0" rx="10" fill="#e0f0f5" stroke="#1f6f8b" stroke-width="1.5"/>
+<text x="220.6" y="451.4" font-family="Arial, 'Segoe UI Symbol', 'Liberation Sans', Helvetica, sans-serif" font-size="14.5" font-weight="700" fill="#1f6f8b" text-anchor="middle">HYPOACTIVE DELIRIUM</text>
+<text x="220.6" y="471.4" font-family="Arial, 'Segoe UI Symbol', 'Liberation Sans', Helvetica, sans-serif" font-size="12.5" font-weight="400" fill="#18212e" text-anchor="middle">treat the underlying cause</text>
+<rect x="349.6" y="426.0" width="269.0" height="60.0" rx="10" fill="#ffffff" stroke="#c9d0db" stroke-width="1.5"/>
+<text x="484.1" y="451.4" font-family="Arial, 'Segoe UI Symbol', 'Liberation Sans', Helvetica, sans-serif" font-size="14.5" font-weight="700" fill="#18212e" text-anchor="middle">Low mood or anhedonia most days</text>
+<text x="484.1" y="471.4" font-family="Arial, 'Segoe UI Symbol', 'Liberation Sans', Helvetica, sans-serif" font-size="12.5" font-weight="400" fill="#18212e" text-anchor="middle">for at least 2 weeks, meeting criteria?</text>
+<rect x="189.4" y="570.0" width="292.0" height="60.0" rx="10" fill="#eee8f8" stroke="#6a4aa8" stroke-width="1.5"/>
+<text x="335.4" y="595.4" font-family="Arial, 'Segoe UI Symbol', 'Liberation Sans', Helvetica, sans-serif" font-size="14.5" font-weight="700" fill="#6a4aa8" text-anchor="middle">MAJOR DEPRESSION</text>
+<text x="335.4" y="615.4" font-family="Arial, 'Segoe UI Symbol', 'Liberation Sans', Helvetica, sans-serif" font-size="12.5" font-weight="400" fill="#18212e" text-anchor="middle">antidepressant · psychotherapy · ECT if needed</text>
+<rect x="507.4" y="570.0" width="218.0" height="60.0" rx="10" fill="#e3edf8" stroke="#1f5f9e" stroke-width="1.5"/>
+<text x="616.4" y="595.4" font-family="Arial, 'Segoe UI Symbol', 'Liberation Sans', Helvetica, sans-serif" font-size="14.5" font-weight="700" fill="#1f5f9e" text-anchor="middle">ADJUSTMENT DISORDER</text>
+<text x="616.4" y="615.4" font-family="Arial, 'Segoe UI Symbol', 'Liberation Sans', Helvetica, sans-serif" font-size="12.5" font-weight="400" fill="#18212e" text-anchor="middle">supportive psychotherapy</text>
+<rect x="186.9" y="668.0" width="297.0" height="42.0" rx="10" fill="#fff4c2" stroke="#6b5200" stroke-width="1.5"/>
+<text x="335.4" y="693.4" font-family="Arial, 'Segoe UI Symbol', 'Liberation Sans', Helvetica, sans-serif" font-size="14.5" font-weight="700" fill="#6b5200" text-anchor="middle">Unsure? consultation-liaison psychiatry</text>
+<text x="123.5" y="275.5" font-family="Arial, 'Segoe UI Symbol', 'Liberation Sans', Helvetica, sans-serif" font-size="13" font-weight="700" fill="#5a6577" text-anchor="middle" stroke="#f6f7f9" stroke-width="5" stroke-linejoin="round" paint-order="stroke">No</text>
+<text x="370.5" y="275.5" font-family="Arial, 'Segoe UI Symbol', 'Liberation Sans', Helvetica, sans-serif" font-size="13" font-weight="700" fill="#5a6577" text-anchor="middle" stroke="#f6f7f9" stroke-width="5" stroke-linejoin="round" paint-order="stroke">Yes</text>
+<text x="220.6" y="403.5" font-family="Arial, 'Segoe UI Symbol', 'Liberation Sans', Helvetica, sans-serif" font-size="13" font-weight="700" fill="#5a6577" text-anchor="middle" stroke="#f6f7f9" stroke-width="5" stroke-linejoin="round" paint-order="stroke">Yes</text>
+<text x="484.1" y="403.5" font-family="Arial, 'Segoe UI Symbol', 'Liberation Sans', Helvetica, sans-serif" font-size="13" font-weight="700" fill="#5a6577" text-anchor="middle" stroke="#f6f7f9" stroke-width="5" stroke-linejoin="round" paint-order="stroke">No</text>
+<text x="335.4" y="539.5" font-family="Arial, 'Segoe UI Symbol', 'Liberation Sans', Helvetica, sans-serif" font-size="13" font-weight="700" fill="#5a6577" text-anchor="middle" stroke="#f6f7f9" stroke-width="5" stroke-linejoin="round" paint-order="stroke">Yes</text>
+<text x="616.4" y="531.5" font-family="Arial, 'Segoe UI Symbol', 'Liberation Sans', Helvetica, sans-serif" font-size="13" font-weight="700" fill="#5a6577" text-anchor="middle" stroke="#f6f7f9" stroke-width="5" stroke-linejoin="round" paint-order="stroke">No, a reaction to an identifiable</text>
+<text x="616.4" y="547.5" font-family="Arial, 'Segoe UI Symbol', 'Liberation Sans', Helvetica, sans-serif" font-size="13" font-weight="700" fill="#5a6577" text-anchor="middle" stroke="#f6f7f9" stroke-width="5" stroke-linejoin="round" paint-order="stroke">stressor within 3 months</text>
+</svg>

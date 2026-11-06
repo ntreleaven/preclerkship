@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="750" height="748" viewBox="0 0 750 748" role="img" aria-labelledby="t"><title id="t">Cognitive enhancer course: start low and monitor, switch for poor tolerability or no response, expect gradual loss of effect, and deprescribe with a restart if decline follows</title><defs><marker id="ah" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#5a6577"/></marker></defs><rect width="100%" height="100%" rx="14" fill="#f6f7f9"/>
+<path d="M374.3 90.0L374.3 126.0" fill="none" stroke="#5a6577" stroke-width="2" marker-end="url(#ah)"/>
+<path d="M374.3 188.0L374.3 224.0" fill="none" stroke="#5a6577" stroke-width="2" marker-end="url(#ah)"/>
+<path d="M374.3 286.0L374.3 322.0" fill="none" stroke="#5a6577" stroke-width="2" marker-end="url(#ah)"/>
+<path d="M374.3 366.0L374.3 382.0L132.0 382.0L132.0 448.0" fill="none" stroke="#5a6577" stroke-width="2" marker-end="url(#ah)"/>
+<path d="M374.3 366.0L374.3 382.0L381.5 382.0L381.5 448.0" fill="none" stroke="#5a6577" stroke-width="2" marker-end="url(#ah)"/>
+<path d="M374.3 366.0L374.3 382.0L609.5 382.0L609.5 448.0" fill="none" stroke="#5a6577" stroke-width="2" marker-end="url(#ah)"/>
+<path d="M609.5 510.0L609.5 546.0" fill="none" stroke="#5a6577" stroke-width="2" marker-end="url(#ah)"/>
+<path d="M609.5 608.0L609.5 624.0L499.0 624.0L499.0 674.0" fill="none" stroke="#5a6577" stroke-width="2" marker-end="url(#ah)"/>
+<path d="M609.5 608.0L609.5 624.0L673.5 624.0L673.5 674.0" fill="none" stroke="#5a6577" stroke-width="2" marker-end="url(#ah)"/>
+<rect x="279.8" y="10.0" width="189.0" height="80.0" rx="10" fill="#18212e" stroke="#18212e" stroke-width="1.5"/>
+<text x="374.3" y="35.4" font-family="Arial, 'Segoe UI Symbol', 'Liberation Sans', Helvetica, sans-serif" font-size="14.5" font-weight="700" fill="#f6f7f9" text-anchor="middle">Confirmed major</text>
+<text x="374.3" y="55.4" font-family="Arial, 'Segoe UI Symbol', 'Liberation Sans', Helvetica, sans-serif" font-size="14.5" font-weight="700" fill="#f6f7f9" text-anchor="middle">neurocognitive disorder</text>
+<text x="374.3" y="75.4" font-family="Arial, 'Segoe UI Symbol', 'Liberation Sans', Helvetica, sans-serif" font-size="12.5" font-weight="400" fill="#f6f7f9" text-anchor="middle">right diagnosis and stage</text>
+<rect x="294.8" y="128.0" width="159.0" height="60.0" rx="10" fill="#ffffff" stroke="#c9d0db" stroke-width="1.5"/>
+<text x="374.3" y="153.4" font-family="Arial, 'Segoe UI Symbol', 'Liberation Sans', Helvetica, sans-serif" font-size="14.5" font-weight="700" fill="#18212e" text-anchor="middle">Start lowest dose</text>
+<text x="374.3" y="173.4" font-family="Arial, 'Segoe UI Symbol', 'Liberation Sans', Helvetica, sans-serif" font-size="12.5" font-weight="400" fill="#18212e" text-anchor="middle">increase every 4 weeks</text>
+<rect x="267.8" y="226.0" width="213.0" height="60.0" rx="10" fill="#ffffff" stroke="#c9d0db" stroke-width="1.5"/>
+<text x="374.3" y="251.4" font-family="Arial, 'Segoe UI Symbol', 'Liberation Sans', Helvetica, sans-serif" font-size="14.5" font-weight="700" fill="#18212e" text-anchor="middle">Monitor cognition, function,</text>
+<text x="374.3" y="271.4" font-family="Arial, 'Segoe UI Symbol', 'Liberation Sans', Helvetica, sans-serif" font-size="12.5" font-weight="400" fill="#18212e" text-anchor="middle">heart rate, ECG, weight</text>
+<rect x="314.3" y="324.0" width="120.0" height="42.0" rx="10" fill="#ffffff" stroke="#c9d0db" stroke-width="1.5"/>
+<text x="374.3" y="349.4" font-family="Arial, 'Segoe UI Symbol', 'Liberation Sans', Helvetica, sans-serif" font-size="14.5" font-weight="700" fill="#18212e" text-anchor="middle">Problem?</text>
+<rect x="14.0" y="450.0" width="236.0" height="60.0" rx="10" fill="#e0f0f5" stroke="#1f6f8b" stroke-width="1.5"/>
+<text x="132.0" y="475.4" font-family="Arial, 'Segoe UI Symbol', 'Liberation Sans', Helvetica, sans-serif" font-size="14.5" font-weight="700" fill="#1f6f8b" text-anchor="middle">SWITCH to another agent</text>
+<text x="132.0" y="495.4" font-family="Arial, 'Segoe UI Symbol', 'Liberation Sans', Helvetica, sans-serif" font-size="12.5" font-weight="400" fill="#18212e" text-anchor="middle">stop first, wait for side effects to settle</text>
+<rect x="276.0" y="450.0" width="211.0" height="60.0" rx="10" fill="#fbeedd" stroke="#a45a12" stroke-width="1.5"/>
+<text x="381.5" y="475.4" font-family="Arial, 'Segoe UI Symbol', 'Liberation Sans', Helvetica, sans-serif" font-size="14.5" font-weight="700" fill="#a45a12" text-anchor="middle">Likely disease progression</text>
+<text x="381.5" y="495.4" font-family="Arial, 'Segoe UI Symbol', 'Liberation Sans', Helvetica, sans-serif" font-size="12.5" font-weight="400" fill="#18212e" text-anchor="middle">do not switch</text>
+<rect x="513.0" y="450.0" width="193.0" height="60.0" rx="10" fill="#eee8f8" stroke="#6a4aa8" stroke-width="1.5"/>
+<text x="609.5" y="475.4" font-family="Arial, 'Segoe UI Symbol', 'Liberation Sans', Helvetica, sans-serif" font-size="14.5" font-weight="700" fill="#6a4aa8" text-anchor="middle">DEPRESCRIBE</text>
+<text x="609.5" y="495.4" font-family="Arial, 'Segoe UI Symbol', 'Liberation Sans', Helvetica, sans-serif" font-size="12.5" font-weight="400" fill="#18212e" text-anchor="middle">halve the dose every 4 weeks</text>
+<rect x="483.0" y="548.0" width="253.0" height="60.0" rx="10" fill="#ffffff" stroke="#c9d0db" stroke-width="1.5"/>
+<text x="609.5" y="573.4" font-family="Arial, 'Segoe UI Symbol', 'Liberation Sans', Helvetica, sans-serif" font-size="14.5" font-weight="700" fill="#18212e" text-anchor="middle">Rapid decline or new behaviours</text>
+<text x="609.5" y="593.4" font-family="Arial, 'Segoe UI Symbol', 'Liberation Sans', Helvetica, sans-serif" font-size="12.5" font-weight="400" fill="#18212e" text-anchor="middle">in the following 1-3 months?</text>
+<rect x="410.5" y="676.0" width="177.0" height="60.0" rx="10" fill="#e3edf8" stroke="#1f5f9e" stroke-width="1.5"/>
+<text x="499.0" y="701.4" font-family="Arial, 'Segoe UI Symbol', 'Liberation Sans', Helvetica, sans-serif" font-size="14.5" font-weight="700" fill="#1f5f9e" text-anchor="middle">Restart low</text>
+<text x="499.0" y="721.4" font-family="Arial, 'Segoe UI Symbol', 'Liberation Sans', Helvetica, sans-serif" font-size="12.5" font-weight="400" fill="#18212e" text-anchor="middle">titrate to last effective dose</text>
+<rect x="613.5" y="676.0" width="120.0" height="42.0" rx="10" fill="#e2f2ea" stroke="#2f7d5b" stroke-width="1.5"/>
+<text x="673.5" y="701.4" font-family="Arial, 'Segoe UI Symbol', 'Liberation Sans', Helvetica, sans-serif" font-size="14.5" font-weight="700" fill="#2f7d5b" text-anchor="middle">Stay off</text>
+<text x="132.0" y="411.5" font-family="Arial, 'Segoe UI Symbol', 'Liberation Sans', Helvetica, sans-serif" font-size="13" font-weight="700" fill="#5a6577" text-anchor="middle" stroke="#f6f7f9" stroke-width="5" stroke-linejoin="round" paint-order="stroke">Poor tolerability</text>
+<text x="132.0" y="427.5" font-family="Arial, 'Segoe UI Symbol', 'Liberation Sans', Helvetica, sans-serif" font-size="13" font-weight="700" fill="#5a6577" text-anchor="middle" stroke="#f6f7f9" stroke-width="5" stroke-linejoin="round" paint-order="stroke">or no initial response</text>
+<text x="381.5" y="411.5" font-family="Arial, 'Segoe UI Symbol', 'Liberation Sans', Helvetica, sans-serif" font-size="13" font-weight="700" fill="#5a6577" text-anchor="middle" stroke="#f6f7f9" stroke-width="5" stroke-linejoin="round" paint-order="stroke">Gradual loss of effect</text>
+<text x="381.5" y="427.5" font-family="Arial, 'Segoe UI Symbol', 'Liberation Sans', Helvetica, sans-serif" font-size="13" font-weight="700" fill="#5a6577" text-anchor="middle" stroke="#f6f7f9" stroke-width="5" stroke-linejoin="round" paint-order="stroke">after years</text>
+<text x="609.5" y="419.5" font-family="Arial, 'Segoe UI Symbol', 'Liberation Sans', Helvetica, sans-serif" font-size="13" font-weight="700" fill="#5a6577" text-anchor="middle" stroke="#f6f7f9" stroke-width="5" stroke-linejoin="round" paint-order="stroke">Stopping criterion met</text>
+<text x="499.0" y="653.5" font-family="Arial, 'Segoe UI Symbol', 'Liberation Sans', Helvetica, sans-serif" font-size="13" font-weight="700" fill="#5a6577" text-anchor="middle" stroke="#f6f7f9" stroke-width="5" stroke-linejoin="round" paint-order="stroke">Yes</text>
+<text x="673.5" y="653.5" font-family="Arial, 'Segoe UI Symbol', 'Liberation Sans', Helvetica, sans-serif" font-size="13" font-weight="700" fill="#5a6577" text-anchor="middle" stroke="#f6f7f9" stroke-width="5" stroke-linejoin="round" paint-order="stroke">No</text>
+</svg>

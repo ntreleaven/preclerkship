@@ -1,0 +1,279 @@
+{
+ "name": "neonatal sepsis risk pathway",
+ "title": "Term infant at risk of sepsis: an unwell baby is investigated and given empirical antibiotics; a well baby is sorted by maternal group B streptococcus status, other risk factors and adequate intrapartum prophylaxis into routine care, close observation or individualized care",
+ "width": 900,
+ "nodes": [
+  {
+   "id": "A",
+   "x": 182,
+   "y": 10,
+   "w": 271,
+   "h": 42,
+   "kind": "dark",
+   "title": "≥ 37-week infant at risk for sepsis",
+   "lines": []
+  },
+  {
+   "id": "B",
+   "x": 234,
+   "y": 90,
+   "w": 168,
+   "h": 42,
+   "kind": "plain",
+   "title": "Is the baby unwell?",
+   "lines": []
+  },
+  {
+   "id": "C",
+   "x": 14,
+   "y": 200,
+   "w": 303,
+   "h": 96,
+   "kind": "bad",
+   "title": "Investigate promptly",
+   "lines": [
+    "CBC, blood culture, LP",
+    "chest x-ray if respiratory symptoms",
+    "start empirical IV ampicillin + aminoglycoside"
+   ]
+  },
+  {
+   "id": "D",
+   "x": 343,
+   "y": 200,
+   "w": 255,
+   "h": 42,
+   "kind": "plain",
+   "title": "Is mother colonized with GBS?",
+   "lines": []
+  },
+  {
+   "id": "E",
+   "x": 172,
+   "y": 364,
+   "w": 225,
+   "h": 42,
+   "kind": "plain",
+   "title": "Other risk factors present?",
+   "lines": []
+  },
+  {
+   "id": "F",
+   "x": 102,
+   "y": 474,
+   "w": 215,
+   "h": 78,
+   "kind": "warn",
+   "title": "Individualize",
+   "lines": [
+    "at minimum observe closely, vital signs every 3-4 h, for 24 h"
+   ]
+  },
+  {
+   "id": "G",
+   "x": 408,
+   "y": 632,
+   "w": 237,
+   "h": 60,
+   "kind": "plain",
+   "title": "Did mother receive adequate",
+   "lines": [
+    "intrapartum antibiotic prophylaxis?"
+   ]
+  },
+  {
+   "id": "H",
+   "x": 490,
+   "y": 364,
+   "w": 225,
+   "h": 42,
+   "kind": "plain",
+   "title": "Other risk factors present?",
+   "lines": []
+  },
+  {
+   "id": "I",
+   "x": 403,
+   "y": 474,
+   "w": 189,
+   "h": 42,
+   "kind": "ok",
+   "title": "Routine newborn care",
+   "lines": []
+  },
+  {
+   "id": "J",
+   "x": 618,
+   "y": 474,
+   "w": 181,
+   "h": 42,
+   "kind": "plain",
+   "title": "One risk factor only?",
+   "lines": []
+  },
+  {
+   "id": "K",
+   "x": 690,
+   "y": 632,
+   "w": 172,
+   "h": 78,
+   "kind": "warn",
+   "title": "Individualize",
+   "lines": [
+    "observe closely for 24 h",
+    "consider CBC after 4 h"
+   ]
+  },
+  {
+   "id": "L",
+   "x": 275,
+   "y": 778,
+   "w": 231,
+   "h": 60,
+   "kind": "ok",
+   "title": "Routine newborn care",
+   "lines": [
+    "discharge after 24 h if criteria met"
+   ]
+  },
+  {
+   "id": "M",
+   "x": 532,
+   "y": 778,
+   "w": 272,
+   "h": 60,
+   "kind": "warn",
+   "title": "Examine at birth",
+   "lines": [
+    "observe, vital signs every 3-4 h, for 24 h"
+   ]
+  }
+ ],
+ "edges": [
+  {
+   "from": "A",
+   "to": "B",
+   "path": "M318 52V88"
+  },
+  {
+   "from": "B",
+   "to": "C",
+   "path": "M318 132V148H166V198",
+   "label": "Yes",
+   "label_at": [
+    166,
+    178
+   ]
+  },
+  {
+   "from": "B",
+   "to": "D",
+   "path": "M318 132V148H470V198",
+   "label": "No",
+   "label_at": [
+    470,
+    178
+   ]
+  },
+  {
+   "from": "D",
+   "to": "E",
+   "path": "M470 242V312H285V362",
+   "label": "Yes",
+   "label_at": [
+    285,
+    342
+   ]
+  },
+  {
+   "from": "D",
+   "to": "H",
+   "path": "M470 242V312H603V362",
+   "label": "No: GBS-negative or unknown",
+   "label_at": [
+    603,
+    342
+   ]
+  },
+  {
+   "from": "E",
+   "to": "F",
+   "path": "M285 406V422H209V472",
+   "label": "Yes",
+   "label_at": [
+    209,
+    452
+   ]
+  },
+  {
+   "from": "E",
+   "to": "G",
+   "path": "M285 406V422H360V568H527V630",
+   "label": "No",
+   "label_at": [
+    360,
+    500
+   ]
+  },
+  {
+   "from": "G",
+   "to": "L",
+   "path": "M527 692V726H390V776",
+   "label": "Yes",
+   "label_at": [
+    390,
+    756
+   ]
+  },
+  {
+   "from": "G",
+   "to": "M",
+   "path": "M527 692V726H668V776",
+   "label": "No",
+   "label_at": [
+    668,
+    756
+   ]
+  },
+  {
+   "from": "H",
+   "to": "I",
+   "path": "M603 406V422H497V472",
+   "label": "No",
+   "label_at": [
+    497,
+    452
+   ]
+  },
+  {
+   "from": "H",
+   "to": "J",
+   "path": "M603 406V422H708V472",
+   "label": "Yes",
+   "label_at": [
+    708,
+    452
+   ]
+  },
+  {
+   "from": "J",
+   "to": "G",
+   "path": "M708 516V580H527V630",
+   "label": "Yes",
+   "label_at": [
+    546,
+    610
+   ]
+  },
+  {
+   "from": "J",
+   "to": "K",
+   "path": "M708 516V580H776V630",
+   "label": "No: several, or chorioamnionitis",
+   "label_at": [
+    776,
+    610
+   ]
+  }
+ ]
+}

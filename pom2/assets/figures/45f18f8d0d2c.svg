@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="684" height="658" viewBox="0 0 684 658" role="img" aria-labelledby="t"><title id="t">Sleep complaint sorted by the main problem into insomnia, obstructive sleep apnea, narcolepsy, parasomnia, restless legs or a circadian rhythm disorder, with the test each needs</title><defs><marker id="ah" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#5a6577"/></marker></defs><rect width="100%" height="100%" rx="14" fill="#f6f7f9"/>
+<path d="M143.5 70.0L143.5 106.0" fill="none" stroke="#5a6577" stroke-width="2" marker-end="url(#ah)"/>
+<path d="M143.5 150.0L143.5 188.0" fill="none" stroke="#5a6577" stroke-width="2"/>
+<path d="M143.5 227.0H398.3" fill="none" stroke="#5a6577" stroke-width="2" marker-end="url(#ah)"/>
+<path d="M143.5 318.0H398.3" fill="none" stroke="#5a6577" stroke-width="2" marker-end="url(#ah)"/>
+<path d="M143.5 400.0H398.3" fill="none" stroke="#5a6577" stroke-width="2" marker-end="url(#ah)"/>
+<path d="M143.5 472.0H398.3" fill="none" stroke="#5a6577" stroke-width="2" marker-end="url(#ah)"/>
+<path d="M143.5 544.0H398.3" fill="none" stroke="#5a6577" stroke-width="2" marker-end="url(#ah)"/>
+<path d="M143.5 616.0H398.3" fill="none" stroke="#5a6577" stroke-width="2" marker-end="url(#ah)"/>
+<path d="M143.5 188.0V616.0" fill="none" stroke="#5a6577" stroke-width="2"/>
+<rect x="14.0" y="10.0" width="259.0" height="60.0" rx="10" fill="#18212e" stroke="#18212e" stroke-width="1.5"/>
+<text x="143.5" y="35.4" font-family="Arial, 'Segoe UI Symbol', 'Liberation Sans', Helvetica, sans-serif" font-size="14.5" font-weight="700" fill="#f6f7f9" text-anchor="middle">Sleep complaint</text>
+<text x="143.5" y="55.4" font-family="Arial, 'Segoe UI Symbol', 'Liberation Sans', Helvetica, sans-serif" font-size="12.5" font-weight="400" fill="#f6f7f9" text-anchor="middle">history, sleep diary, bed partner's account</text>
+<rect x="78.0" y="108.0" width="131.0" height="42.0" rx="10" fill="#ffffff" stroke="#c9d0db" stroke-width="1.5"/>
+<text x="143.5" y="133.4" font-family="Arial, 'Segoe UI Symbol', 'Liberation Sans', Helvetica, sans-serif" font-size="14.5" font-weight="700" fill="#18212e" text-anchor="middle">Main problem?</text>
+<rect x="400.3" y="188.0" width="270.0" height="78.0" rx="10" fill="#e0f0f5" stroke="#1f6f8b" stroke-width="1.5"/>
+<text x="535.3" y="213.4" font-family="Arial, 'Segoe UI Symbol', 'Liberation Sans', Helvetica, sans-serif" font-size="14.5" font-weight="700" fill="#1f6f8b" text-anchor="middle">INSOMNIA</text>
+<text x="535.3" y="233.4" font-family="Arial, 'Segoe UI Symbol', 'Liberation Sans', Helvetica, sans-serif" font-size="12.5" font-weight="400" fill="#18212e" text-anchor="middle">clinical diagnosis, no sleep study</text>
+<text x="535.3" y="251.4" font-family="Arial, 'Segoe UI Symbol', 'Liberation Sans', Helvetica, sans-serif" font-size="12.5" font-weight="400" fill="#18212e" text-anchor="middle">CBT for insomnia first</text>
+<rect x="400.3" y="278.0" width="270.0" height="80.0" rx="10" fill="#eee8f8" stroke="#6a4aa8" stroke-width="1.5"/>
+<text x="535.3" y="303.4" font-family="Arial, 'Segoe UI Symbol', 'Liberation Sans', Helvetica, sans-serif" font-size="14.5" font-weight="700" fill="#6a4aa8" text-anchor="middle">Suspect OBSTRUCTIVE</text>
+<text x="535.3" y="323.4" font-family="Arial, 'Segoe UI Symbol', 'Liberation Sans', Helvetica, sans-serif" font-size="14.5" font-weight="700" fill="#6a4aa8" text-anchor="middle">SLEEP APNEA</text>
+<text x="535.3" y="343.4" font-family="Arial, 'Segoe UI Symbol', 'Liberation Sans', Helvetica, sans-serif" font-size="12.5" font-weight="400" fill="#18212e" text-anchor="middle">sleep study, apnea-hypopnea index</text>
+<rect x="400.3" y="370.0" width="270.0" height="60.0" rx="10" fill="#e3edf8" stroke="#1f5f9e" stroke-width="1.5"/>
+<text x="535.3" y="395.4" font-family="Arial, 'Segoe UI Symbol', 'Liberation Sans', Helvetica, sans-serif" font-size="14.5" font-weight="700" fill="#1f5f9e" text-anchor="middle">Suspect NARCOLEPSY</text>
+<text x="535.3" y="415.4" font-family="Arial, 'Segoe UI Symbol', 'Liberation Sans', Helvetica, sans-serif" font-size="12.5" font-weight="400" fill="#18212e" text-anchor="middle">sleep study + multiple sleep latency test</text>
+<rect x="400.3" y="442.0" width="270.0" height="60.0" rx="10" fill="#fff4c2" stroke="#6b5200" stroke-width="1.5"/>
+<text x="535.3" y="467.4" font-family="Arial, 'Segoe UI Symbol', 'Liberation Sans', Helvetica, sans-serif" font-size="14.5" font-weight="700" fill="#6b5200" text-anchor="middle">PARASOMNIA</text>
+<text x="535.3" y="487.4" font-family="Arial, 'Segoe UI Symbol', 'Liberation Sans', Helvetica, sans-serif" font-size="12.5" font-weight="400" fill="#18212e" text-anchor="middle">collateral history, sleep study if unclear</text>
+<rect x="400.3" y="514.0" width="270.0" height="60.0" rx="10" fill="#f6ece2" stroke="#8a5a2b" stroke-width="1.5"/>
+<text x="535.3" y="539.4" font-family="Arial, 'Segoe UI Symbol', 'Liberation Sans', Helvetica, sans-serif" font-size="14.5" font-weight="700" fill="#8a5a2b" text-anchor="middle">RESTLESS LEGS</text>
+<text x="535.3" y="559.4" font-family="Arial, 'Segoe UI Symbol', 'Liberation Sans', Helvetica, sans-serif" font-size="12.5" font-weight="400" fill="#18212e" text-anchor="middle">clinical diagnosis, check ferritin</text>
+<rect x="400.3" y="586.0" width="270.0" height="60.0" rx="10" fill="#e0f0f5" stroke="#1f6f8b" stroke-width="1.5"/>
+<text x="535.3" y="611.4" font-family="Arial, 'Segoe UI Symbol', 'Liberation Sans', Helvetica, sans-serif" font-size="14.5" font-weight="700" fill="#1f6f8b" text-anchor="middle">CIRCADIAN RHYTHM DISORDER</text>
+<text x="535.3" y="631.4" font-family="Arial, 'Segoe UI Symbol', 'Liberation Sans', Helvetica, sans-serif" font-size="12.5" font-weight="400" fill="#18212e" text-anchor="middle">history, sleep diary or actigraphy</text>
+<text x="155.5" y="219.0" font-family="Arial, 'Segoe UI Symbol', 'Liberation Sans', Helvetica, sans-serif" font-size="13" font-weight="700" fill="#5a6577" text-anchor="start" stroke="#f6f7f9" stroke-width="5" stroke-linejoin="round" paint-order="stroke">Can't fall or stay asleep</text>
+<text x="155.5" y="294.0" font-family="Arial, 'Segoe UI Symbol', 'Liberation Sans', Helvetica, sans-serif" font-size="13" font-weight="700" fill="#5a6577" text-anchor="start" stroke="#f6f7f9" stroke-width="5" stroke-linejoin="round" paint-order="stroke">Snoring, witnessed apneas,</text>
+<text x="155.5" y="310.0" font-family="Arial, 'Segoe UI Symbol', 'Liberation Sans', Helvetica, sans-serif" font-size="13" font-weight="700" fill="#5a6577" text-anchor="start" stroke="#f6f7f9" stroke-width="5" stroke-linejoin="round" paint-order="stroke">daytime sleepiness</text>
+<text x="155.5" y="392.0" font-family="Arial, 'Segoe UI Symbol', 'Liberation Sans', Helvetica, sans-serif" font-size="13" font-weight="700" fill="#5a6577" text-anchor="start" stroke="#f6f7f9" stroke-width="5" stroke-linejoin="round" paint-order="stroke">Sleep attacks, cataplexy</text>
+<text x="155.5" y="464.0" font-family="Arial, 'Segoe UI Symbol', 'Liberation Sans', Helvetica, sans-serif" font-size="13" font-weight="700" fill="#5a6577" text-anchor="start" stroke="#f6f7f9" stroke-width="5" stroke-linejoin="round" paint-order="stroke">Behaviour during sleep</text>
+<text x="155.5" y="536.0" font-family="Arial, 'Segoe UI Symbol', 'Liberation Sans', Helvetica, sans-serif" font-size="13" font-weight="700" fill="#5a6577" text-anchor="start" stroke="#f6f7f9" stroke-width="5" stroke-linejoin="round" paint-order="stroke">Urge to move legs at rest, evenings</text>
+<text x="155.5" y="608.0" font-family="Arial, 'Segoe UI Symbol', 'Liberation Sans', Helvetica, sans-serif" font-size="13" font-weight="700" fill="#5a6577" text-anchor="start" stroke="#f6f7f9" stroke-width="5" stroke-linejoin="round" paint-order="stroke">Sleep at the wrong times</text>
+</svg>

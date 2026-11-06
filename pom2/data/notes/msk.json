@@ -6287,6 +6287,13 @@
        "interactive": "charts/msk-w10-04_2/"
       },
       {
+       "t": "figure",
+       "src": "assets/figures/0d9fd7dae227.svg",
+       "alt": "fracture radiology map.svg",
+       "w": 1240,
+       "h": 6868
+      },
+      {
        "t": "note",
        "html": "<h5>1. Get the right films</h5>"
       },
@@ -9047,8 +9054,12 @@
        "html": "<h5>1. The approach</h5>"
       },
       {
-       "t": "pathway",
-       "mermaid": "flowchart TD\n    A[\"Widespread body pain<br/>no swollen joints\"] --> B{\"Over 50 · shoulder and hip girdle<br/>pain and stiffness · raised ESR / CRP?\"}\n    B -->|\"Yes\"| C[\"POLYMYALGIA RHEUMATICA likely<br/>rule out cancer and infection first<br/>prednisone 15-20 mg a day\"]\n    C --> D{\"Dramatic improvement<br/>within about 3 days?\"}\n    D -->|\"Yes\"| E[\"Confirms PMR<br/>slow taper over 1-2 years + bone protection\"]\n    D -->|\"No\"| F[\"RECONSIDER THE DIAGNOSIS\"]\n    B -->|\"No\"| G{\"What is the pain like?\"}\n    G -->|\"Proximal WEAKNESS\"| H[\"Myositis<br/>check creatine kinase\"]\n    G -->|\"Burning, tingling, numbness<br/>in a nerve pattern\"| I[\"Neuropathic pain<br/>check for diabetes\"]\n    G -->|\"Diffuse, migratory, 'hurts everywhere'<br/>fatigue · unrefreshing sleep · fog\"| J{\"2010 criteria met?<br/>pain index + symptom severity<br/>for 3 months or more\"}\n    J -->|\"Yes\"| K[\"FIBROMYALGIA<br/>even if another disease is present\"]"
+       "t": "figure",
+       "src": "assets/figures/d26163cfb629.svg",
+       "alt": "widespread body pain pathway.svg",
+       "w": 1116,
+       "h": 646,
+       "interactive": "charts/msk-w12-03_1/"
       },
       {
        "t": "list",
@@ -9391,8 +9402,12 @@
        "html": "<p>- <strong>Four steps</strong>: <mark class=\"lo\">describe the problem (summarize symptoms and signs) → <strong>localize the lesion</strong> → differential diagnosis → plan investigations and management</mark></p><p>- <strong>How to localize</strong></p><p>1. <mark class=\"lo\">CNS or PNS? Upper motor neuron features point to the CNS, lower motor neuron features to the PNS</mark></p><p>2. Narrow it down: signs of cortex (language, neglect)? sensation affected or spared? painful or painless? distribution? bladder symptoms?</p><p>- <strong>Why localize</strong>: it decides what to image, or whether it can be imaged at all (no computed tomography (CT) of the head for a spinal cord problem)</p><p>- <mark class=\"lo\"><strong>Spinal cord ends at about L1</strong>: lesions at L1 and above give an upper motor neuron pattern, below L1 a lower motor neuron pattern</mark></p>"
       },
       {
-       "t": "pathway",
-       "mermaid": "flowchart TD\n    A[\"Patient with weakness\"] --> B{\"Upper or lower motor neuron signs?\"}\n    B -->|\"Upper\"| C{\"Pattern?\"}\n    C -->|\"Hemibody, with face or cranial nerves\"| D[\"BRAIN\"]\n    C -->|\"Hemibody, no face or cranial nerves\"| D2[\"SPINAL CORD\"]\n    C -->|\"All four limbs\"| E[\"CERVICAL SPINAL CORD\"]\n    C -->|\"Both legs\"| F[\"THORACIC SPINAL CORD<br/>or lumbar roots\"]\n    B -->|\"Lower\"| G{\"Pattern?\"}\n    G -->|\"One myotome\"| H[\"NERVE ROOT\"]\n    G -->|\"One nerve, or several nerves\"| J[\"PERIPHERAL NERVE(S)\"]\n    G -->|\"Eyes and swallowing\"| K[\"NEUROMUSCULAR JUNCTION\"]\n    G -->|\"Generalized, proximal\"| L[\"MUSCLE\"]"
+       "t": "figure",
+       "src": "assets/figures/2d07c4b4077b.svg",
+       "alt": "localizing weakness pathway.svg",
+       "w": 1092,
+       "h": 524,
+       "interactive": "charts/msk-w12-04_1/"
       },
       {
        "t": "list",
@@ -10895,8 +10910,12 @@
        ]
       },
       {
-       "t": "pathway",
-       "mermaid": "flowchart TD\n    A[\"Visual field loss\"] --> B{\"One eye only?\"}\n    B -->|Yes| C[\"OPTIC NERVE<br/>on that side\"]\n    B -->|\"No, both eyes\"| D{\"Which halves?\"}\n    D -->|\"Both outer (temporal) halves\"| E[\"OPTIC CHIASM<br/>bitemporal hemianopia\"]\n    D -->|\"Same side in both eyes\"| F[\"OPTIC TRACT on the OPPOSITE side<br/>homonymous hemianopia\"]"
+       "t": "figure",
+       "src": "assets/figures/74eb1b34edf1.svg",
+       "alt": "visual field loss pathway.svg",
+       "w": 548,
+       "h": 410,
+       "interactive": "charts/msk-w12-11_1/"
       },
       {
        "t": "figure",

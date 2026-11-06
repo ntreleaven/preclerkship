@@ -560,8 +560,11 @@
        "html": "<ul><li>The brain dies when starved of oxygen, three ways: <strong>① injury and swelling cut off its blood flow · ② the heart stops · ③ breathing stops</strong></li><li><strong>Refer to Trillium</strong> when a <strong>GIFT trigger</strong> is present:<ul><li><strong>G</strong>rave prognosis (Glasgow Coma Scale under 3, as written in the note - check the threshold on the slides) · <strong>I</strong>njured brain with no recovery expected · <strong>F</strong>amily raises donation · <strong>T</strong>herapy being limited</li></ul></li></ul>"
       },
       {
-       "t": "pathway",
-       "mermaid": "flowchart TD\n    A[\"Patient with a GIFT trigger<br/>grave prognosis · injured brain · family discussion · therapy limited\"] --> B[\"Refer to Trillium Gift of Life Network\"]\n    B --> C{\"Brain death:<br/>no consciousness + no brainstem reflexes + apnea<br/>with a known cause and no confounders?\"}\n    C -->|Yes| D[\"DONATION AFTER DEATH BY<br/>NEUROLOGIC CRITERIA\"]\n    C -->|No| E{\"Withdrawal of life support,<br/>medical assistance in dying,<br/>or failed resuscitation?\"}\n    E -->|Yes| F[\"DONATION AFTER DEATH BY<br/>CIRCULATORY CRITERIA\"]\n    F --> G[\"Arterial line: circulation stops<br/>when pressure under 5 mmHg\"]\n    G --> H[\"5-minute hands-off period<br/>2 physicians declare death\"]\n    H --> I[\"Organ procurement in the operating room\"]\n    D --> I\n    J[\"Every patient who dies\"] --> K[\"Referred for TISSUE donation<br/>skin · bone · heart valves · veins · corneas\"]"
+       "t": "figure",
+       "src": "assets/figures/a9313ebf09b0.svg",
+       "alt": "organ donation pathway.svg",
+       "w": 702,
+       "h": 914
       },
       {
        "t": "note",
@@ -831,8 +834,11 @@
        "html": "<h5>6. Approach to a depressed patient</h5>"
       },
       {
-       "t": "pathway",
-       "mermaid": "flowchart TD\n    A[\"Low mood or loss of interest\"] --> B{\"SAFETY FIRST<br/>suicidal or homicidal thoughts?<br/>not eating · urgent need to treat?\"}\n    B -->|\"Yes\"| C[\"Urgent care · consider ECT,<br/>first line when there is an urgent need to treat\"]\n    B -->|\"No\"| D{\"Ever a manic or<br/>hypomanic episode?\"}\n    D -->|\"Yes\"| E[\"BIPOLAR, not a depressive disorder<br/>no antidepressants\"]\n    D -->|\"No\"| F{\"Explained by a substance,<br/>medication or medical illness?<br/>history · exam · labs\"}\n    F -->|\"Yes\"| G[\"Substance-induced, or due to<br/>another medical condition\"]\n    F -->|\"No\"| H{\"5 of 9 symptoms for 2 weeks,<br/>incl. low mood or anhedonia?\"}\n    H -->|\"Yes\"| I[\"MAJOR DEPRESSIVE DISORDER<br/>add specifiers\"]\n    H -->|\"No\"| J{\"Low mood most days<br/>for 2 years?\"}\n    J -->|\"Yes\"| K[\"PERSISTENT DEPRESSIVE DISORDER\"]\n    J -->|\"No\"| L[\"Other specified or unspecified\"]\n    I --> M{\"Psychotic or catatonic features,<br/>or past good response to ECT?\"}\n    M -->|\"Yes\"| N[\"ECT first line\"]\n    M -->|\"No\"| O[\"FIRST LINE: SSRI + psychotherapy<br/>(cognitive behavioural or interpersonal)<br/>light therapy if seasonal pattern\"]\n    O --> P[\"Wait 4-6 weeks for a response\"]\n    P --> Q{\"Responded?\"}\n    Q -->|\"No\"| R[\"Raise the dose → add a second class<br/>or augment → switch class\"]\n    Q -->|\"Remission\"| S[\"Continue at least 6 months,<br/>then taper slowly\"]"
+       "t": "figure",
+       "src": "assets/figures/24cea0a022de.svg",
+       "alt": "depressive disorders pathway.svg",
+       "w": 1052,
+       "h": 1274
       },
       {
        "t": "note",
@@ -1377,8 +1383,11 @@
        "html": "<h5>5. Disposition and management</h5>"
       },
       {
-       "t": "pathway",
-       "mermaid": "flowchart TD\n    A[\"Patient with suicidal ideation\"] --> B[\"Build rapport · private setting<br/>collateral if possible\"]\n    B --> C[\"Assess: risk factors · warning signs (IS PATH WARM)<br/>protective factors · plan · means · past attempts\"]\n    C --> D{\"Red flags? active threat · seeking means<br/>hopelessness · egosyntonic active ideation\"}\n    D -->|\"Yes, acute high risk\"| E{\"Safety net outside hospital?<br/>acuity · severity\"}\n    D -->|\"No\"| G[\"OUTPATIENT<br/>coping plan + safety plan<br/>treat the underlying cause\"]\n    E -->|\"Inadequate\"| F[\"ADMIT<br/>voluntary, or involuntary<br/>(Form 1 = 72-hour hold)\"]\n    E -->|\"Adequate\"| G\n    F --> H[\"Acute stabilization only<br/>then treat the cause\"]\n    G --> I[\"Ongoing monitoring of ideation<br/>normalize the topic · document\"]\n    H --> I"
+       "t": "figure",
+       "src": "assets/figures/1687f6f58d80.svg",
+       "alt": "suicide risk disposition pathway.svg",
+       "w": 435,
+       "h": 892
       },
       {
        "t": "table",
@@ -1553,8 +1562,11 @@
        "html": "<h5>5. Treatment</h5>"
       },
       {
-       "t": "pathway",
-       "mermaid": "flowchart TD\n    A[\"Bipolar disorder - which phase?\"] --> B{\"Phase\"}\n    B -->|\"Acute mania\"| C[\"Assess safety, suicide, insight, labs<br/>STOP antidepressants and stimulants\"]\n    C --> D[\"First-line: lithium, quetiapine, divalproex,<br/>asenapine, aripiprazole, paliperidone, risperidone<br/>or an antipsychotic + lithium/divalproex\"]\n    D --> E{\"No response or not tolerated<br/>after 1-2 weeks?\"}\n    E -->|\"Yes\"| F[\"Add on or switch: olanzapine, carbamazepine,<br/>ziprasidone, haloperidol, ECT\"]\n    B -->|\"Bipolar depression\"| G[\"First-line: quetiapine, lurasidone ± lithium/divalproex,<br/>lithium, lamotrigine<br/>NO antidepressant monotherapy\"]\n    B -->|\"Maintenance\"| H[\"Continue what worked acutely<br/>(lower dose if side effects)<br/>+ psychoeducation\"]"
+       "t": "figure",
+       "src": "assets/figures/693f4201066a.svg",
+       "alt": "bipolar treatment pathway.svg",
+       "w": 842,
+       "h": 692
       },
       {
        "t": "list",
@@ -1865,8 +1877,11 @@
        "html": "<ul><li><strong>Under-diagnosed and under-treated</strong> because of four myths:<ul><li>\"anyone sick will be depressed\" - <strong>still a minority</strong>, and depressed patients do worse and have <strong>far higher suicide rates</strong></li><li>\"depression in the sick is untreatable\" · \"<strong>the sick can't tolerate antidepressants</strong>\" - trials show efficacy and tolerability</li><li>\"<strong>you can't tell depression from the illness</strong>\" - DSM criteria still work if you <strong>weigh psychological symptoms over neurovegetative ones</strong> · screening tools are validated (Beck, Hospital Anxiety and Depression Scale, Patient Health Questionnaire)</li></ul></li><li><strong>Screen everyone</strong>: \"<strong>Do you feel depressed?</strong>\"</li><li><strong>Red-flag symptoms - not normal in medical illness</strong>: <strong>hopelessness · worthlessness · guilt · anhedonia · suicidal ideation</strong></li><li><strong>Risk factors</strong>: family or personal psychiatric history · <strong>poorly controlled pain</strong> · more comorbidity and functional impairment</li><li><strong>Inclusive approach, low threshold</strong> · when in doubt, <strong>consultation-liaison psychiatry</strong> (psychiatric care for medical inpatients)</li></ul>"
       },
       {
-       "t": "pathway",
-       "mermaid": "flowchart TD\n    A[\"Medically ill patient\"] --> B[\"Screen: 'Do you feel depressed?'\"]\n    B --> C{\"Hopelessness, worthlessness, guilt,<br/>anhedonia or suicidal ideation?\"}\n    C -->|\"No\"| D[\"Keep screening at follow-up\"]\n    C -->|\"Yes\"| E{\"Acute confusion, inattention,<br/>slowed and lethargic?\"}\n    E -->|\"Yes\"| F[\"HYPOACTIVE DELIRIUM<br/>treat the underlying cause\"]\n    E -->|\"No\"| G{\"Low mood or anhedonia most days<br/>for at least 2 weeks, meeting criteria?\"}\n    G -->|\"Yes\"| H[\"MAJOR DEPRESSION<br/>antidepressant · psychotherapy · ECT if needed\"]\n    G -->|\"No, a reaction to an identifiable<br/>stressor within 3 months\"| I[\"ADJUSTMENT DISORDER<br/>supportive psychotherapy\"]\n    H --> J[\"Unsure? consultation-liaison psychiatry\"]"
+       "t": "figure",
+       "src": "assets/figures/a78cddb64c75.svg",
+       "alt": "depression in medical illness pathway.svg",
+       "w": 739,
+       "h": 722
       },
       {
        "t": "table",
@@ -2013,8 +2028,11 @@
        "html": "<ul><li>Estrogen and progesterone affect monoamine metabolism and serotonin receptors · <strong>stressors pile up from pregnancy to 1 year postpartum</strong></li></ul>"
       },
       {
-       "t": "pathway",
-       "mermaid": "flowchart TD\n    A[\"Low or abnormal mood in pregnancy<br/>or after delivery\"] --> B{\"Psychotic features? confusion,<br/>delusions about the baby, hallucinations\"}\n    B -->|\"Yes\"| C[\"POSTPARTUM PSYCHOSIS<br/>EMERGENCY - admit<br/>think bipolar disorder\"]\n    B -->|\"No\"| D{\"Mild, starts a few days after birth,<br/>resolves within a few weeks?\"}\n    D -->|\"Yes\"| E[\"POSTPARTUM BLUES<br/>supportive care only\"]\n    D -->|\"No\"| F{\"Depressive episode with onset in pregnancy<br/>or within 4 weeks of delivery?\"}\n    F -->|\"Yes\"| G[\"PERIPARTUM DEPRESSION<br/>screen (Edinburgh scale) · psychotherapy · SSRI\"]\n    G --> H{\"Preceded by agitation<br/>and high energy?\"}\n    H -->|\"Yes\"| I[\"Suspect a BIPOLAR switch\"]"
+       "t": "figure",
+       "src": "assets/figures/f12f7e50b3f1.svg",
+       "alt": "perinatal mood disorders pathway.svg",
+       "w": 662,
+       "h": 810
       },
       {
        "t": "table",
@@ -2306,8 +2324,11 @@
        "html": "<h5>4. Telling them apart</h5>"
       },
       {
-       "t": "pathway",
-       "mermaid": "flowchart TD\n    A[\"Anxiety that impairs function<br/>substances and medical causes ruled out\"] --> B{\"What is the fear about?\"}\n    B -->|\"Many everyday things\"| C[\"GENERALIZED ANXIETY DISORDER<br/>uncontrollable worry, 6+ months\"]\n    B -->|\"The attacks themselves\"| D[\"PANIC DISORDER<br/>2+ unexpected attacks\"]\n    B -->|\"Places hard to escape\"| E[\"AGORAPHOBIA<br/>2 of 5 situations\"]\n    B -->|\"Being judged\"| F[\"SOCIAL ANXIETY DISORDER\"]\n    B -->|\"One object or situation\"| G[\"SPECIFIC PHOBIA\"]\n    B -->|\"Intrusive thoughts + rituals\"| H[\"Obsessive-compulsive disorder\"]\n    B -->|\"Reminders of a trauma\"| I[\"Post-traumatic stress disorder\"]"
+       "t": "figure",
+       "src": "assets/figures/f5d97d5b68a0.svg",
+       "alt": "anxiety disorders pathway.svg",
+       "w": 651,
+       "h": 620
       },
       {
        "t": "list",
@@ -2401,8 +2422,11 @@
        "html": "<ul><li><strong>Psychotherapy: CBT with <span class=\"wl\">exposure and response prevention</span> (ERP)</strong><ul><li><strong>exposure</strong> to the cue that triggers the obsession</li><li><strong>response prevention</strong>: resist the compulsion so the anxiety fades on its own (habituation)</li><li>cognitive work on: thought-action fusion (\"thinking it makes it more likely\") · overvaluing thoughts · intolerance of uncertainty · emotional reasoning · inflated responsibility</li></ul></li><li><strong>Medication</strong><ul><li>first line: <strong>SSRIs - paroxetine, fluvoxamine, fluoxetine, sertraline, escitalopram</strong></li><li>doses are <strong>higher than for depression</strong> · a fair trial is <strong>8-12 weeks</strong></li><li>continue <strong>6 months to 2 years</strong> after response; some need it for life</li></ul></li></ul>"
       },
       {
-       "t": "pathway",
-       "mermaid": "flowchart TD\n    A[\"OCD diagnosed\"] --> B[\"CBT with exposure and response prevention<br/>+ SSRI at high dose\"]\n    B --> C{\"Response after 8-12 weeks?\"}\n    C -->|Yes| D[\"Continue 6 months to 2 years<br/>lifelong for some\"]\n    C -->|No| E[\"Try a second SSRI\"]\n    E --> F{\"Response?\"}\n    F -->|Yes| D\n    F -->|No| G[\"CLOMIPRAMINE<br/>other second line: venlafaxine, citalopram, mirtazapine\"]\n    G --> H{\"Still no response,<br/>or absent insight?\"}\n    H -->|Yes| I[\"Add an antipsychotic<br/>aripiprazole or risperidone\"]\n    I --> J[\"Refractory (at least 10%):<br/>deep brain stimulation · transcranial magnetic stimulation · psychosurgery\"]"
+       "t": "figure",
+       "src": "assets/figures/232fa60616a9.svg",
+       "alt": "OCD treatment pathway.svg",
+       "w": 500,
+       "h": 952
       },
       {
        "t": "list",
@@ -2705,8 +2729,11 @@
        "html": "<h5>3. Timing and the differential</h5>"
       },
       {
-       "t": "pathway",
-       "mermaid": "flowchart TD\n    A[\"Symptoms after an event\"] --> B{\"Did the event meet criterion A?<br/>death, serious injury or sexual violence\"}\n    B -->|No| C[\"ADJUSTMENT DISORDER\"]\n    B -->|Yes| D{\"Full PTSD criteria met?\"}\n    D -->|No| C\n    D -->|Yes| E{\"How long since the trauma?\"}\n    E -->|\"3 days to 1 month\"| F[\"ACUTE STRESS DISORDER\"]\n    E -->|\"More than 1 month\"| G[\"PTSD\"]\n    G --> H{\"Criteria first met 6+ months after?\"}\n    H -->|Yes| I[\"PTSD WITH DELAYED EXPRESSION\"]"
+       "t": "figure",
+       "src": "assets/figures/aaecaf459ed1.svg",
+       "alt": "trauma and stressor disorders pathway.svg",
+       "w": 628,
+       "h": 694
       },
       {
        "t": "table",
@@ -3006,8 +3033,11 @@
        "html": "<h5>4. Approach to a patient with dissociation</h5>"
       },
       {
-       "t": "pathway",
-       "mermaid": "flowchart TD\n    A[\"Patient with dissociation<br/>memory gaps · detachment · unreality · identity disruption\"] --> B{\"Substance, medication,<br/>or medical cause?\"}\n    B -->|Yes| C[\"Treat the cause<br/>intoxication · seizures · head injury<br/>transient global amnesia · dementia\"]\n    B -->|No| D{\"Reality testing intact?\"}\n    D -->|No| E[\"PSYCHOTIC DISORDER\"]\n    D -->|Yes| F{\"Linked to a trauma<br/>with intrusion and avoidance?\"}\n    F -->|Yes| G[\"PTSD, DISSOCIATIVE SUBTYPE<br/>or acute stress disorder\"]\n    F -->|No| H{\"Only during panic attacks?\"}\n    H -->|Yes| I[\"PANIC DISORDER\"]\n    H -->|No| J{\"Brief, stress-related, with unstable<br/>relationships and self-image?\"}\n    J -->|Yes| K[\"BORDERLINE PERSONALITY DISORDER\"]\n    J -->|No| L{\"Which is the main problem?\"}\n    L -->|\"Lost personal memories\"| M[\"DISSOCIATIVE AMNESIA<br/>± fugue\"]\n    L -->|\"2+ identities + everyday memory gaps\"| N[\"DISSOCIATIVE IDENTITY DISORDER\"]\n    L -->|\"Detachment or unreality\"| O[\"DEPERSONALIZATION-<br/>DEREALIZATION DISORDER\"]"
+       "t": "figure",
+       "src": "assets/figures/ba73ba46247e.svg",
+       "alt": "dissociation pathway.svg",
+       "w": 1153,
+       "h": 986
       },
       {
        "t": "list",
@@ -3073,8 +3103,11 @@
        "html": "<h5>3. Approach</h5>"
       },
       {
-       "t": "pathway",
-       "mermaid": "flowchart TD\n    A[\"Concern about attention, activity or impulsivity<br/>school, work or behaviour problems\"] --> B[\"History from several sources<br/>parent + teacher + report cards · development · family history\"]\n    B --> C[\"Rating scales<br/>SNAP-IV (parent, teacher) · Weiss functional impairment · adult self-report scale\"]\n    C --> D{\"6+ symptoms in a domain (5 if 17+)<br/>6 months · before 12 · 2+ settings · impairment?\"}\n    D -->|No| E[\"Not ADHD<br/>look for another cause\"]\n    D -->|Yes| F{\"Mimic or better explanation?<br/>hearing, vision · thyroid · low blood sugar<br/>lead · sleep · seizures · mood, anxiety · learning disorder\"}\n    F -->|Yes| G[\"Treat that - ADHD may still coexist\"]\n    F -->|No| H[\"ADHD - name the subtype<br/>screen comorbidities · check heart health\"]\n    H --> I[\"Psychoeducation + parent training<br/>+ school accommodations\"]\n    I --> J[\"FIRST LINE: long-acting STIMULANT<br/>methylphenidate or amphetamine based\"]\n    J --> K{\"Side effects, poor response,<br/>or no access?\"}\n    K -->|No| L[\"Continue every day, all year<br/>monitor heart rate and blood pressure\"]\n    K -->|Yes| M[\"SECOND LINE: NON-STIMULANT<br/>atomoxetine · guanfacine extended release\"]\n    M --> N[\"Third line, off label:<br/>bupropion · clonidine · tricyclics · modafinil · antipsychotics\"]"
+       "t": "figure",
+       "src": "assets/figures/cd50a8e22006.svg",
+       "alt": "ADHD pathway.svg",
+       "w": 727,
+       "h": 1262
       },
       {
        "t": "list",
@@ -3305,8 +3338,11 @@
        "html": "<h5>6. Workup and referral</h5>"
       },
       {
-       "t": "pathway",
-       "mermaid": "flowchart TD\n    A[\"Red flag: missed milestone · parent concern<br/>school or behaviour problems · hard to understand\"] --> B[\"HEARING ASSESSMENT first<br/>conductive or sensorineural loss?\"]\n    B --> C{\"Language or speech?\"}\n    C -->|\"Language - vocabulary, sentences, understanding\"| D[\"Language disorder<br/>look for autism, intellectual disability, ADHD\"]\n    C -->|\"Speech - sounds, fluency, voice\"| E[\"Speech sound, fluency or voice disorder\"]\n    D --> F{\"Preschool or school age?\"}\n    E --> F\n    F -->|Preschool| G[\"Ontario Preschool Speech and Language Program<br/>e.g. tykeTALK\"]\n    F -->|\"School age\"| H[\"Referral within the school board<br/>or private speech-language pathologist\"]"
+       "t": "figure",
+       "src": "assets/figures/86bb8ce052ea.svg",
+       "alt": "speech and language disorders pathway.svg",
+       "w": 683,
+       "h": 666
       },
       {
        "t": "list",
@@ -3555,8 +3591,11 @@
        "html": "<h5>4. Telling them apart</h5>"
       },
       {
-       "t": "pathway",
-       "mermaid": "flowchart TD\n    A[\"Child with persistent disruptive behaviour\"] --> B{\"Aggression to people or animals, property<br/>destruction, theft or serious rule-breaking?<br/>3+ in 12 months\"}\n    B -->|Yes| C{\"Age 18 or over?\"}\n    C -->|\"Yes, antisocial criteria met\"| D[\"ANTISOCIAL PERSONALITY DISORDER\"]\n    C -->|No| E[\"CONDUCT DISORDER<br/>onset before or after age 10\"]\n    B -->|No| F{\"Angry or irritable, defiant, vindictive<br/>4+ of 8 for 6+ months?\"}\n    F -->|Yes| G{\"Severe temper outbursts with<br/>chronic negative mood?\"}\n    G -->|Yes| H[\"DISRUPTIVE MOOD DYSREGULATION DISORDER\"]\n    G -->|No| I[\"OPPOSITIONAL DEFIANT DISORDER<br/>severity = number of settings\"]\n    F -->|No| J[\"Look for ADHD, a mood or anxiety disorder,<br/>language disorder or hearing loss, intellectual disability\"]"
+       "t": "figure",
+       "src": "assets/figures/cc0c049cece0.svg",
+       "alt": "disruptive behaviour disorders pathway.svg",
+       "w": 944,
+       "h": 644
       },
       {
        "t": "table",
@@ -3724,8 +3763,11 @@
        ]
       },
       {
-       "t": "pathway",
-       "mermaid": "flowchart TD\n    A[\"Hallucinations or delusions\"] --> B{\"Substance, medication,<br/>medical cause or delirium?\"}\n    B -->|Yes| C[\"SUBSTANCE- OR MEDICALLY-INDUCED<br/>settles within about 1 month of stopping\"]\n    B -->|No| D{\"How does it line up<br/>with mood episodes?\"}\n    D -->|\"Psychosis only during mood episodes\"| E[\"MOOD DISORDER<br/>WITH PSYCHOTIC FEATURES\"]\n    D -->|\"Mood most of the time AND<br/>2+ weeks of psychosis without mood\"| F[\"SCHIZOAFFECTIVE DISORDER\"]\n    D -->|\"No mood episodes, or only briefly\"| G{\"Delusions alone,<br/>function largely intact?\"}\n    G -->|\"Yes, 1+ month\"| H[\"DELUSIONAL DISORDER\"]\n    G -->|\"No - full core symptoms\"| I{\"How long?\"}\n    I -->|\"1 day to under 1 month\"| J[\"BRIEF PSYCHOTIC DISORDER<br/>full recovery\"]\n    I -->|\"1 to 6 months\"| K[\"SCHIZOPHRENIFORM DISORDER\"]\n    I -->|\"6 months or more\"| L[\"SCHIZOPHRENIA\"]"
+       "t": "figure",
+       "src": "assets/figures/53d68317015a.svg",
+       "alt": "psychotic disorders pathway.svg",
+       "w": 1100,
+       "h": 692
       },
       {
        "t": "figure",
@@ -4125,8 +4167,11 @@
        "html": "<ul><li>The medwiki note labels the two parts a \"past/present test\" and a \"future test\" but maps them the other way round (sources differ - check the slides)</li></ul>"
       },
       {
-       "t": "pathway",
-       "mermaid": "flowchart TD\n    A[\"Concern about a person's mental state and safety\"] --> B{\"Have you examined them<br/>in the past 7 days?\"}\n    B -->|\"No - e.g. family calls\"| C[\"Family goes to a JUSTICE OF THE PEACE<br/>FORM 2: police bring them in<br/>or call the police\"]\n    C --> E\n    B -->|Yes| E{\"Mental disorder + Box A or Box B<br/>+ will not or cannot be voluntary?\"}\n    E -->|No| F[\"Voluntary admission<br/>or discharge\"]\n    E -->|Yes| G[\"FORM 1 + Form 42<br/>held up to 72 hours for assessment\"]\n    G --> H{\"A DIFFERENT physician:<br/>criteria for admission met?\"}\n    H -->|No| F\n    H -->|Yes| I[\"FORM 3: involuntary, up to 14 days<br/>Form 30 + rights advisor\"]\n    I --> J{\"Still met when it ends?\"}\n    J -->|Yes| K[\"FORM 4: renewal, 1 month<br/>same physician allowed\"]\n    J -->|No| F"
+       "t": "figure",
+       "src": "assets/figures/90d1651d3e5d.svg",
+       "alt": "mental health act forms pathway.svg",
+       "w": 520,
+       "h": 1032
       },
       {
        "t": "note",
@@ -4145,8 +4190,11 @@
        "html": "<ul><li>Applies to <strong>all treatment</strong> (even physiotherapy) · valid consent is ① <strong>voluntary</strong> ② <strong>informed</strong> ③ <strong>capable</strong></li><li><strong>Voluntary</strong>: no deception or coercion</li><li><strong>Informed</strong>: what a <strong>reasonable person would want to know</strong> - the nature of the treatment · expected benefits · risks, <strong>including rare but serious ones</strong> · side effects · alternatives · likely result of no treatment · and answers to all questions</li><li><strong>Capable - the two-part test</strong>: the patient must be able to<ul><li><strong>understand</strong> the information relevant to the decision, and</li><li><strong>appreciate</strong> the reasonably foreseeable consequences of a decision, or of not deciding</li></ul></li><li><strong>Who judges capacity</strong>: the clinician proposing the treatment · <strong>who consents for an incapable patient</strong>: the substitute decision maker (SDM)</li></ul>"
       },
       {
-       "t": "pathway",
-       "mermaid": "flowchart TD\n    A[\"Treatment proposed\"] --> B{\"Can the patient UNDERSTAND<br/>the information relevant to the decision?\"}\n    B -->|No| X[\"INCAPABLE for this treatment<br/>patient can ask the Consent and Capacity Board to review\"]\n    B -->|Yes| C{\"Can they APPRECIATE the foreseeable<br/>consequences of deciding, or not deciding?\"}\n    C -->|No| X\n    C -->|Yes| D[\"CAPABLE<br/>their own voluntary, informed decision stands\"]\n    X --> E{\"Emergency? delay would prolong suffering<br/>or risk serious bodily harm\"}\n    E -->|\"Yes, and no known prior capable wish against it\"| F[\"TREAT WITHOUT CONSENT<br/>record the reasons, find an SDM quickly\"]\n    E -->|No| G[\"SDM DECIDES<br/>follows a known prior capable wish,<br/>otherwise best interests, values and beliefs\"]"
+       "t": "figure",
+       "src": "assets/figures/f89b3c6f6e5e.svg",
+       "alt": "treatment capacity pathway.svg",
+       "w": 756,
+       "h": 712
       },
       {
        "t": "note",
@@ -4272,8 +4320,11 @@
        "html": "<ul><li><strong>Admit an adolescent with any of</strong> (one is enough):<ul><li>weight: <strong>75% of median BMI</strong> for age and sex · arrested growth</li><li>vital signs: <strong>heart rate under 50 by day or under 45 at night</strong> · blood pressure under 90/45 · temperature under 35.5 °C · orthostatic change over 20 systolic or 10 diastolic, or pulse rise over 20</li><li>labs and ECG: dehydration · low potassium, sodium or phosphate · ECG changes such as a long QT</li><li>behaviour: acute food refusal · uncontrollable bingeing and purging · failed outpatient treatment · family cannot supervise meals</li><li>complications: syncope, seizure, cardiac arrest, pancreatitis · comorbidity that blocks outpatient care (severe depression, suicidal thoughts, obsessive-compulsive disorder, type 1 diabetes) · concern about refeeding · needs a nasogastric tube</li></ul></li></ul>"
       },
       {
-       "t": "pathway",
-       "mermaid": "flowchart TD\n    A[\"Suspected eating disorder\"] --> B[\"History, collateral, exam<br/>labs and ECG\"]\n    B --> C{\"Any admission criterion?\"}\n    C -->|No| D[\"OUTPATIENT<br/>family-based treatment or therapy<br/>regular medical monitoring\"]\n    D -->|\"Outpatient treatment fails\"| E\n    C -->|Yes| E[\"ADMIT for medical stabilization\"]\n    E --> F[\"Nutritional rehabilitation<br/>set meals at set times, meal support\"]\n    F --> G{\"Severely malnourished<br/>or refed quickly?\"}\n    G -->|Yes| H[\"HIGH REFEEDING RISK<br/>frequent electrolytes, especially phosphate<br/>replace electrolytes and thiamine<br/>raise calories and fluids gradually\"]\n    G -->|No| I[\"Weight restoration<br/>2-3 lb/week inpatient<br/>0.5-1 lb/week outpatient\"]\n    H --> I"
+       "t": "figure",
+       "src": "assets/figures/ef408c12049a.svg",
+       "alt": "eating disorders admission pathway.svg",
+       "w": 368,
+       "h": 998
       },
       {
        "t": "list",
@@ -4326,8 +4377,11 @@
        "html": "<ul><li><strong><span class=\"wl\">Polysomnography</span> (overnight sleep study)</strong>: brain waves (EEG) · eye movements · chin and leg muscle activity (tibialis anterior, for leg movements) · airflow and chest and abdominal effort · oxygen saturation · ECG · snoring microphone · body position · rarely video</li><li><strong>Order it for</strong>: <strong>obstructive sleep apnea (90-95% of referrals)</strong> · narcolepsy · parasomnias</li><li><strong>Do not order it for insomnia</strong> or as a general look at sleep - only to rule out another sleep disorder</li></ul>"
       },
       {
-       "t": "pathway",
-       "mermaid": "flowchart TD\n    A[\"Sleep complaint<br/>history, sleep diary, bed partner's account\"] --> B{\"Main problem?\"}\n    B -->|\"Can't fall or stay asleep\"| C[\"INSOMNIA<br/>clinical diagnosis, no sleep study<br/>CBT for insomnia first\"]\n    B -->|\"Snoring, witnessed apneas,<br/>daytime sleepiness\"| D[\"Suspect OBSTRUCTIVE SLEEP APNEA<br/>sleep study, apnea-hypopnea index\"]\n    B -->|\"Sleep attacks, cataplexy\"| E[\"Suspect NARCOLEPSY<br/>sleep study + multiple sleep latency test\"]\n    B -->|\"Behaviour during sleep\"| F[\"PARASOMNIA<br/>collateral history, sleep study if unclear\"]\n    B -->|\"Urge to move legs at rest, evenings\"| G[\"RESTLESS LEGS<br/>clinical diagnosis, check ferritin\"]\n    B -->|\"Sleep at the wrong times\"| H[\"CIRCADIAN RHYTHM DISORDER<br/>history, sleep diary or actigraphy\"]"
+       "t": "figure",
+       "src": "assets/figures/45f18f8d0d2c.svg",
+       "alt": "sleep disorders pathway.svg",
+       "w": 684,
+       "h": 658
       },
       {
        "t": "note",
@@ -4467,8 +4521,11 @@
        "html": "<ul><li><strong>Paraphilia</strong>: any intense, persistent sexual interest other than in genital stimulation or fondling with physically mature, consenting human partners</li><li><strong><span class=\"wl\">Paraphilic disorder</span> (DSM-5)</strong>, over <strong>at least 6 months</strong>, either:<ul><li><strong>personal distress</strong> about the interest (not merely from society's disapproval), <strong>or</strong></li><li>desire or behaviour involving <strong>another person's distress, injury or death</strong>, or <strong>unwilling persons or those unable to consent</strong></li></ul></li></ul>"
       },
       {
-       "t": "pathway",
-       "mermaid": "flowchart TD\n    A[\"Intense, persistent atypical sexual interest\"] --> B{\"Present for 6 months or more?\"}\n    B -->|No| N[\"Not a paraphilic disorder\"]\n    B -->|Yes| C{\"Personal distress about it<br/>(not just society's disapproval)?\"}\n    C -->|Yes| D[\"PARAPHILIC DISORDER\"]\n    C -->|No| E{\"Involves another's distress, injury or death<br/>or unwilling or non-consenting persons?\"}\n    E -->|Yes| D\n    E -->|No| F[\"PARAPHILIA ONLY<br/>not a disorder\"]\n    D --> G[\"Psychological therapy first<br/>CBT, Good Lives Model<br/>± anti-androgen, LHRH agonist, SSRI\"]"
+       "t": "figure",
+       "src": "assets/figures/a3cff4a1974e.svg",
+       "alt": "paraphilic disorders pathway.svg",
+       "w": 611,
+       "h": 696
       },
       {
        "t": "table",
@@ -4566,8 +4623,11 @@
        "html": "<h5>3. How a child comes into care</h5>"
       },
       {
-       "t": "pathway",
-       "mermaid": "flowchart TD\n    A[\"Report made to CAS\"] --> B{\"Is the child legally<br/>at risk?\"}\n    B -->|\"Concerns, but not at risk\"| C{\"Will the parent accept<br/>CAS involvement?\"}\n    C -->|No| D[\"CAS must CLOSE the case\"]\n    C -->|\"Yes - written voluntary agreement\"| E[\"CAS follows the child and family\"]\n    E -->|\"Risk rises or does not fall\"| F[\"ORDER OF SUPERVISION<br/>child stays with parent, kin or friend\"]\n    F -->|\"Risk rises or does not fall\"| G[\"Protection application\"]\n    B -->|\"Yes - child in need of protection\"| G\n    T[\"TEMPORARY CARE AGREEMENT<br/>voluntary: parent briefly unable to care\"] --> H\n    G --> H[\"Child enters CAS care\"]\n    H --> I[\"TEMPORARY CARE AND CUSTODY ORDER<br/>up to 1 year if under 6, 2 years if over 6<br/>foster home, group home, kin home, hospital\"]\n    I -->|\"Family able again\"| J[\"Returned home<br/>follow-up continues\"]\n    I -->|\"Cannot return\"| K[\"CROWN WARDSHIP\"]\n    K --> L[\"Long-term care with an access order<br/>usually not adoptable\"]\n    K --> M[\"ADOPTION<br/>6 months of adoption probation\"]\n    L -->|\"Access order removed\"| M\n    L --> N[\"Leaves care at 18<br/>extended support to 21 for many\"]"
+       "t": "figure",
+       "src": "assets/figures/c8d6f89bcf91.svg",
+       "alt": "child welfare system pathway.svg",
+       "w": 829,
+       "h": 1262
       },
       {
        "t": "note",
@@ -4720,8 +4780,11 @@
        "html": "<h5>1. Approach</h5>"
       },
       {
-       "t": "pathway",
-       "mermaid": "flowchart TD\n    A[\"Acute confusion, drowsiness or agitation<br/>especially an older or post-operative patient\"] --> B[\"Screen: Confusion Assessment Method (CAM)<br/>or 4AT at the bedside\"]\n    B --> C{\"CAM positive?<br/>1 acute onset + fluctuating AND 2 inattention<br/>PLUS 3 disorganized thinking OR 4 altered consciousness\"}\n    C -->|No| D[\"Consider the other Ds<br/>dementia, depression\"]\n    C -->|Yes| E[\"DELIRIUM<br/>history with collateral, medication review<br/>exam, focused cognitive testing\"]\n    E --> F[\"Find the triggers: DIMES + 3 Ps<br/>Drugs · Infection · Metabolic<br/>Environment · Structural<br/>Pee · Poop · Pain\"]\n    F --> G[\"Investigations<br/>blood count, electrolytes, creatinine, urea, glucose<br/>liver tests, urine, chest X-ray, toxicology<br/>then CSF, EEG, MRI, B12, folate if needed\"]\n    G --> H[\"Treat every cause found<br/>keep looking for new triggers\"]\n    H --> I[\"Non-drug care for everyone\"]\n    I --> J{\"Distressing psychosis or<br/>dangerous agitation?\"}\n    J -->|\"Yes, hyperactive\"| K[\"Low-dose antipsychotic<br/>haloperidol or risperidone<br/>monitor QT on ECG\"]\n    J -->|\"Alcohol withdrawal\"| L[\"BENZODIAZEPINE instead\"]\n    J -->|\"Anticholinergic toxidrome\"| M[\"PHYSOSTIGMINE\"]"
+       "t": "figure",
+       "src": "assets/figures/1e3f129afc99.svg",
+       "alt": "delirium pathway.svg",
+       "w": 660,
+       "h": 1208
       },
       {
        "t": "note",
@@ -4929,8 +4992,11 @@
        "html": "<h5>4. Workup</h5>"
       },
       {
-       "t": "pathway",
-       "mermaid": "flowchart TD\n    A[\"Memory or cognitive concern<br/>from patient, family or clinician\"] --> B[\"History with COLLATERAL<br/>time course: gradual, stepwise, fluctuating?<br/>function: basic and instrumental activities<br/>mood, personality, psychosis, gait, falls, continence\"]\n    B --> C[\"Medication review<br/>anticholinergics, sedatives\"]\n    C --> D[\"Physical and neurological exam\"]\n    D --> E[\"Cognitive screen at the first visit<br/>MoCA, MMSE or Mini-Cog\"]\n    E --> F[\"Labs: blood count, TSH, B12<br/>electrolytes, calcium, glucose<br/>urea, liver tests, ESR or CRP\"]\n    F --> G{\"Reversible cause?<br/>depression, hypothyroidism<br/>delirium, medication, B12\"}\n    G -->|Yes| H[\"Treat it and reassess\"]\n    G -->|No| I{\"Independence affected?\"}\n    I -->|No| J[\"MILD neurocognitive disorder<br/>vascular and lifestyle risk reduction<br/>follow up\"]\n    I -->|Yes| K[\"MAJOR neurocognitive disorder<br/>CT or MRI if indicated<br/>name the type by its pattern\"]"
+       "t": "figure",
+       "src": "assets/figures/d4c7e2c73872.svg",
+       "alt": "cognitive impairment workup pathway.svg",
+       "w": 574,
+       "h": 998
       },
       {
        "t": "list",
@@ -5020,8 +5086,11 @@
        "html": "<h5>4. Mandatory reporting</h5>"
       },
       {
-       "t": "pathway",
-       "mermaid": "flowchart TD\n    A[\"In the course of practice you learn<br/>a health professional may have<br/>sexually abused a patient\"] --> B{\"Reasonable grounds?<br/>(you do not decide if it is true)\"}\n    B -->|Yes| C[\"MUST REPORT<br/>to that professional's college<br/>any college, including your own\"]\n    C --> D[\"Written report within 30 days<br/>professional's name + description of the abuse\"]\n    D --> E[\"Patient's name only with their consent\"]\n    E --> F[\"College Investigations reviews it<br/>even without the patient's name\"]\n    F --> G[\"Failure to report: fine up to $25,000<br/>suspension up to 6 months\"]"
+       "t": "figure",
+       "src": "assets/figures/0954db7f1651.svg",
+       "alt": "sexual abuse reporting pathway.svg",
+       "w": 316,
+       "h": 718
       },
       {
        "t": "list",
@@ -5062,8 +5131,11 @@
        "html": "<h5>3. Assessment and approach</h5>"
       },
       {
-       "t": "pathway",
-       "mermaid": "flowchart TD\n    A[\"New or worsening behaviour<br/>in a person with dementia\"] --> B[\"DESCRIBE<br/>what, when, where, with whom<br/>immediate safety risk?\"]\n    B --> C[\"INVESTIGATE causes<br/>patient: pain, infection, delirium, constipation,<br/>retention, hearing or vision, depression, medications<br/>caregiver: stress, communication<br/>environment: noise, routine, isolation\"]\n    C --> D[\"CREATE a plan with the caregiver<br/>treat causes · non-drug approaches first\"]\n    D --> E{\"Severe agitation, aggression or psychosis<br/>or a safety risk?\"}\n    E -->|No| F{\"Depression or anxiety?\"}\n    F -->|Yes| G[\"LOW-RISK: antidepressant<br/>citalopram best supported\"]\n    F -->|No| H[\"Continue non-drug care\"]\n    E -->|Yes| I[\"HIGH-RISK: low-dose antipsychotic<br/>risperidone best for BPSD\"]\n    G --> J[\"EVALUATE<br/>did it work? adverse effects?<br/>can the drug be stopped?\"]\n    H --> J\n    I --> J"
+       "t": "figure",
+       "src": "assets/figures/c520719ee298.svg",
+       "alt": "behaviour in dementia pathway.svg",
+       "w": 641,
+       "h": 980
       },
       {
        "t": "list",
@@ -5265,8 +5337,11 @@
        "html": "<h5>4. Switching and stopping</h5>"
       },
       {
-       "t": "pathway",
-       "mermaid": "flowchart TD\n    A[\"Confirmed major neurocognitive disorder<br/>right diagnosis and stage\"] --> B[\"Start lowest dose<br/>increase every 4 weeks\"]\n    B --> C[\"Monitor cognition, function,<br/>heart rate, ECG, weight\"]\n    C --> D{\"Problem?\"}\n    D -->|\"Poor tolerability<br/>or no initial response\"| E[\"SWITCH to another agent<br/>stop first, wait for side effects to settle\"]\n    D -->|\"Gradual loss of effect<br/>after years\"| F[\"Likely disease progression<br/>do not switch\"]\n    D -->|\"Stopping criterion met\"| G[\"DEPRESCRIBE<br/>halve the dose every 4 weeks\"]\n    G --> H{\"Rapid decline or new behaviours<br/>in the following 1-3 months?\"}\n    H -->|Yes| I[\"Restart low<br/>titrate to last effective dose\"]\n    H -->|No| J[\"Stay off\"]"
+       "t": "figure",
+       "src": "assets/figures/570fed0a942c.svg",
+       "alt": "cognitive enhancers pathway.svg",
+       "w": 750,
+       "h": 748
       },
       {
        "t": "list",
@@ -5376,8 +5451,11 @@
        "html": "<ul><li>Labs: point-of-care glucose · electrolytes with calcium, magnesium, phosphate · complete blood count · clotting · liver tests · blood alcohol</li></ul>"
       },
       {
-       "t": "pathway",
-       "mermaid": "flowchart TD\n    A[\"Alcohol withdrawal<br/>4-12 h after the last drink\"] --> B[\"Everyone: thiamine 100 mg IM daily for 3 days<br/>+ folic acid 1 mg\"]\n    B --> C{\"Complicated? past withdrawal seizures,<br/>delirium tremens, pregnancy, older age\"}\n    C -->|Yes| D[\"FRONT-LOAD a benzodiazepine<br/>e.g. diazepam 20 mg hourly x 3\"]\n    C -->|No| E{\"CIWA-Ar score\"}\n    E -->|\"0-9\"| F[\"No medication<br/>keep re-scoring\"]\n    E -->|\"10-14\"| G[\"Lorazepam 1-2 mg or diazepam 5-10 mg<br/>every 2 h as needed\"]\n    E -->|\"15-19\"| H[\"Same doses<br/>every 1 h\"]\n    E -->|\"20 or more\"| I[\"Lorazepam 2 mg or diazepam 10 mg<br/>every 1 h\"]"
+       "t": "figure",
+       "src": "assets/figures/d7c323b2ac0d.svg",
+       "alt": "alcohol withdrawal pathway.svg",
+       "w": 762,
+       "h": 760
       },
       {
        "t": "list",
@@ -5435,8 +5513,11 @@
        "cap": "Opioid effect rises with dose for a full agonist (methadone), plateaus for a partial agonist (buprenorphine) and stays flat for an antagonist (naloxone)"
       },
       {
-       "t": "pathway",
-       "mermaid": "flowchart TD\n    A[\"Person who uses opioids\"] --> B{\"Overdose?<br/>coma, pinpoint pupils, slow breathing\"}\n    B -->|Yes| C[\"NALOXONE now<br/>antagonist: may trigger withdrawal\"]\n    B -->|No| D{\"Opioid use disorder?\"}\n    D -->|Yes| E[\"OPIOID AGONIST THERAPY<br/>+ harm reduction + psychosocial support\"]\n    E --> F[\"METHADONE<br/>full agonist, oral\"]\n    E --> G[\"BUPRENORPHINE-NALOXONE<br/>partial agonist, sublingual<br/>induction guided by COWS\"]\n    E --> H[\"Also: safe supply (slow-release morphine,<br/>oral hydromorphone) · injectable agonist therapy\"]\n    D -->|\"Withdrawal only\"| I[\"Score with COWS<br/>symptom relief: clonidine, ondansetron,<br/>loperamide, NSAIDs\"]"
+       "t": "figure",
+       "src": "assets/figures/ee42cb44382f.svg",
+       "alt": "opioid use pathway.svg",
+       "w": 759,
+       "h": 554
       },
       {
        "t": "list",

@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="759" height="554" viewBox="0 0 759 554" role="img" aria-labelledby="t"><title id="t">Person who uses opioids: naloxone for overdose, opioid agonist therapy for opioid use disorder, symptom relief for withdrawal alone</title><defs><marker id="ah" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#5a6577"/></marker></defs><rect width="100%" height="100%" rx="14" fill="#f6f7f9"/>
+<path d="M339.8 52.0L339.8 88.0" fill="none" stroke="#5a6577" stroke-width="2" marker-end="url(#ah)"/>
+<path d="M339.8 150.0L339.8 166.0L227.8 166.0L227.8 216.0" fill="none" stroke="#5a6577" stroke-width="2" marker-end="url(#ah)"/>
+<path d="M339.8 150.0L339.8 166.0L451.7 166.0L451.7 216.0" fill="none" stroke="#5a6577" stroke-width="2" marker-end="url(#ah)"/>
+<path d="M451.7 260.0L451.7 294.0L314.2 294.0L314.2 344.0" fill="none" stroke="#5a6577" stroke-width="2" marker-end="url(#ah)"/>
+<path d="M451.7 260.0L451.7 294.0L589.2 294.0L589.2 344.0" fill="none" stroke="#5a6577" stroke-width="2" marker-end="url(#ah)"/>
+<path d="M314.2 406.0L314.2 440.0L77.5 440.0L77.5 460.0" fill="none" stroke="#5a6577" stroke-width="2" marker-end="url(#ah)"/>
+<path d="M314.2 406.0L314.2 440.0L294.5 440.0L294.5 460.0" fill="none" stroke="#5a6577" stroke-width="2" marker-end="url(#ah)"/>
+<path d="M314.2 406.0L314.2 440.0L596.5 440.0L596.5 460.0" fill="none" stroke="#5a6577" stroke-width="2" marker-end="url(#ah)"/>
+<rect x="239.8" y="10.0" width="200.0" height="42.0" rx="10" fill="#18212e" stroke="#18212e" stroke-width="1.5"/>
+<text x="339.8" y="35.4" font-family="Arial, 'Segoe UI Symbol', 'Liberation Sans', Helvetica, sans-serif" font-size="14.5" font-weight="700" fill="#f6f7f9" text-anchor="middle">Person who uses opioids</text>
+<rect x="223.3" y="90.0" width="233.0" height="60.0" rx="10" fill="#ffffff" stroke="#c9d0db" stroke-width="1.5"/>
+<text x="339.8" y="115.4" font-family="Arial, 'Segoe UI Symbol', 'Liberation Sans', Helvetica, sans-serif" font-size="14.5" font-weight="700" fill="#18212e" text-anchor="middle">Overdose?</text>
+<text x="339.8" y="135.4" font-family="Arial, 'Segoe UI Symbol', 'Liberation Sans', Helvetica, sans-serif" font-size="12.5" font-weight="400" fill="#18212e" text-anchor="middle">coma, pinpoint pupils, slow breathing</text>
+<rect x="118.8" y="218.0" width="218.0" height="60.0" rx="10" fill="#fbe5e3" stroke="#b3261e" stroke-width="1.5"/>
+<text x="227.8" y="243.4" font-family="Arial, 'Segoe UI Symbol', 'Liberation Sans', Helvetica, sans-serif" font-size="14.5" font-weight="700" fill="#b3261e" text-anchor="middle">NALOXONE now</text>
+<text x="227.8" y="263.4" font-family="Arial, 'Segoe UI Symbol', 'Liberation Sans', Helvetica, sans-serif" font-size="12.5" font-weight="400" fill="#18212e" text-anchor="middle">antagonist: may trigger withdrawal</text>
+<rect x="366.2" y="218.0" width="171.0" height="42.0" rx="10" fill="#ffffff" stroke="#c9d0db" stroke-width="1.5"/>
+<text x="451.7" y="243.4" font-family="Arial, 'Segoe UI Symbol', 'Liberation Sans', Helvetica, sans-serif" font-size="14.5" font-weight="700" fill="#18212e" text-anchor="middle">Opioid use disorder?</text>
+<rect x="187.7" y="346.0" width="253.0" height="60.0" rx="10" fill="#e0f0f5" stroke="#1f6f8b" stroke-width="1.5"/>
+<text x="314.2" y="371.4" font-family="Arial, 'Segoe UI Symbol', 'Liberation Sans', Helvetica, sans-serif" font-size="14.5" font-weight="700" fill="#1f6f8b" text-anchor="middle">OPIOID AGONIST THERAPY</text>
+<text x="314.2" y="391.4" font-family="Arial, 'Segoe UI Symbol', 'Liberation Sans', Helvetica, sans-serif" font-size="12.5" font-weight="400" fill="#18212e" text-anchor="middle">+ harm reduction + psychosocial support</text>
+<rect x="14.0" y="462.0" width="127.0" height="60.0" rx="10" fill="#eee8f8" stroke="#6a4aa8" stroke-width="1.5"/>
+<text x="77.5" y="487.4" font-family="Arial, 'Segoe UI Symbol', 'Liberation Sans', Helvetica, sans-serif" font-size="14.5" font-weight="700" fill="#6a4aa8" text-anchor="middle">METHADONE</text>
+<text x="77.5" y="507.4" font-family="Arial, 'Segoe UI Symbol', 'Liberation Sans', Helvetica, sans-serif" font-size="12.5" font-weight="400" fill="#18212e" text-anchor="middle">full agonist, oral</text>
+<rect x="167.0" y="462.0" width="255.0" height="78.0" rx="10" fill="#e3edf8" stroke="#1f5f9e" stroke-width="1.5"/>
+<text x="294.5" y="487.4" font-family="Arial, 'Segoe UI Symbol', 'Liberation Sans', Helvetica, sans-serif" font-size="14.5" font-weight="700" fill="#1f5f9e" text-anchor="middle">BUPRENORPHINE-NALOXONE</text>
+<text x="294.5" y="507.4" font-family="Arial, 'Segoe UI Symbol', 'Liberation Sans', Helvetica, sans-serif" font-size="12.5" font-weight="400" fill="#18212e" text-anchor="middle">partial agonist, sublingual</text>
+<text x="294.5" y="525.4" font-family="Arial, 'Segoe UI Symbol', 'Liberation Sans', Helvetica, sans-serif" font-size="12.5" font-weight="400" fill="#18212e" text-anchor="middle">induction guided by COWS</text>
+<rect x="448.0" y="462.0" width="297.0" height="80.0" rx="10" fill="#fff4c2" stroke="#6b5200" stroke-width="1.5"/>
+<text x="596.5" y="487.4" font-family="Arial, 'Segoe UI Symbol', 'Liberation Sans', Helvetica, sans-serif" font-size="14.5" font-weight="700" fill="#6b5200" text-anchor="middle">Also: safe supply</text>
+<text x="596.5" y="507.4" font-family="Arial, 'Segoe UI Symbol', 'Liberation Sans', Helvetica, sans-serif" font-size="14.5" font-weight="700" fill="#6b5200" text-anchor="middle">(slow-release morphine,</text>
+<text x="596.5" y="527.4" font-family="Arial, 'Segoe UI Symbol', 'Liberation Sans', Helvetica, sans-serif" font-size="12.5" font-weight="400" fill="#18212e" text-anchor="middle">oral hydromorphone) · injectable agonist therapy</text>
+<rect x="466.7" y="346.0" width="245.0" height="78.0" rx="10" fill="#f6ece2" stroke="#8a5a2b" stroke-width="1.5"/>
+<text x="589.2" y="371.4" font-family="Arial, 'Segoe UI Symbol', 'Liberation Sans', Helvetica, sans-serif" font-size="14.5" font-weight="700" fill="#8a5a2b" text-anchor="middle">Score with COWS</text>
+<text x="589.2" y="391.4" font-family="Arial, 'Segoe UI Symbol', 'Liberation Sans', Helvetica, sans-serif" font-size="12.5" font-weight="400" fill="#18212e" text-anchor="middle">symptom relief: clonidine, ondansetron,</text>
+<text x="589.2" y="409.4" font-family="Arial, 'Segoe UI Symbol', 'Liberation Sans', Helvetica, sans-serif" font-size="12.5" font-weight="400" fill="#18212e" text-anchor="middle">loperamide, NSAIDs</text>
+<text x="227.8" y="195.5" font-family="Arial, 'Segoe UI Symbol', 'Liberation Sans', Helvetica, sans-serif" font-size="13" font-weight="700" fill="#5a6577" text-anchor="middle" stroke="#f6f7f9" stroke-width="5" stroke-linejoin="round" paint-order="stroke">Yes</text>
+<text x="451.7" y="195.5" font-family="Arial, 'Segoe UI Symbol', 'Liberation Sans', Helvetica, sans-serif" font-size="13" font-weight="700" fill="#5a6577" text-anchor="middle" stroke="#f6f7f9" stroke-width="5" stroke-linejoin="round" paint-order="stroke">No</text>
+<text x="314.2" y="323.5" font-family="Arial, 'Segoe UI Symbol', 'Liberation Sans', Helvetica, sans-serif" font-size="13" font-weight="700" fill="#5a6577" text-anchor="middle" stroke="#f6f7f9" stroke-width="5" stroke-linejoin="round" paint-order="stroke">Yes</text>
+<text x="589.2" y="323.5" font-family="Arial, 'Segoe UI Symbol', 'Liberation Sans', Helvetica, sans-serif" font-size="13" font-weight="700" fill="#5a6577" text-anchor="middle" stroke="#f6f7f9" stroke-width="5" stroke-linejoin="round" paint-order="stroke">Withdrawal only</text>
+</svg>

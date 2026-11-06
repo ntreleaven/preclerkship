@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="520" height="1032" viewBox="0 0 520 1032" role="img" aria-labelledby="t"><title id="t">Ontario Mental Health Act forms: Form 2 from a justice of the peace, Form 1 for a 72-hour assessment, Form 3 involuntary admission for 14 days, Form 4 renewal</title><defs><marker id="ah" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#5a6577"/></marker></defs><rect width="100%" height="100%" rx="14" fill="#f6f7f9"/>
+<path d="M195.2 72.0L195.2 108.0" fill="none" stroke="#5a6577" stroke-width="2" marker-end="url(#ah)"/>
+<path d="M195.2 170.0L195.2 186.0L119.5 186.0L119.5 236.0" fill="none" stroke="#5a6577" stroke-width="2" marker-end="url(#ah)"/>
+<path d="M195.2 170.0L195.2 186.0L271.0 186.0L271.0 364.0L152.1 364.0L152.1 384.0" fill="none" stroke="#5a6577" stroke-width="2" marker-end="url(#ah)"/>
+<path d="M119.5 336.0L119.5 352.0L152.1 352.0L152.1 384.0" fill="none" stroke="#5a6577" stroke-width="2" marker-end="url(#ah)"/>
+<path d="M152.1 446.0L152.1 462.0L74.9 462.0L74.9 896.0L182.5 896.0L182.5 958.0" fill="none" stroke="#5a6577" stroke-width="2" marker-end="url(#ah)"/>
+<path d="M152.1 446.0L152.1 462.0L229.3 462.0L229.3 512.0" fill="none" stroke="#5a6577" stroke-width="2" marker-end="url(#ah)"/>
+<path d="M229.3 574.0L229.3 610.0" fill="none" stroke="#5a6577" stroke-width="2" marker-end="url(#ah)"/>
+<path d="M229.3 672.0L229.3 688.0L132.8 688.0L132.8 896.0L182.5 896.0L182.5 958.0" fill="none" stroke="#5a6577" stroke-width="2" marker-end="url(#ah)"/>
+<path d="M229.3 672.0L229.3 688.0L311.7 688.0L311.7 738.0" fill="none" stroke="#5a6577" stroke-width="2" marker-end="url(#ah)"/>
+<path d="M311.7 800.0L311.7 836.0" fill="none" stroke="#5a6577" stroke-width="2" marker-end="url(#ah)"/>
+<path d="M311.7 880.0L311.7 908.0L399.5 908.0L399.5 958.0" fill="none" stroke="#5a6577" stroke-width="2" marker-end="url(#ah)"/>
+<path d="M311.7 880.0L311.7 908.0L182.5 908.0L182.5 958.0" fill="none" stroke="#5a6577" stroke-width="2" marker-end="url(#ah)"/>
+<rect x="92.7" y="10.0" width="205.0" height="62.0" rx="10" fill="#18212e" stroke="#18212e" stroke-width="1.5"/>
+<text x="195.2" y="35.4" font-family="Arial, 'Segoe UI Symbol', 'Liberation Sans', Helvetica, sans-serif" font-size="14.5" font-weight="700" fill="#f6f7f9" text-anchor="middle">Concern about a person's</text>
+<text x="195.2" y="55.4" font-family="Arial, 'Segoe UI Symbol', 'Liberation Sans', Helvetica, sans-serif" font-size="14.5" font-weight="700" fill="#f6f7f9" text-anchor="middle">mental state and safety</text>
+<rect x="93.2" y="110.0" width="204.0" height="60.0" rx="10" fill="#ffffff" stroke="#c9d0db" stroke-width="1.5"/>
+<text x="195.2" y="135.4" font-family="Arial, 'Segoe UI Symbol', 'Liberation Sans', Helvetica, sans-serif" font-size="14.5" font-weight="700" fill="#18212e" text-anchor="middle">Have you examined them</text>
+<text x="195.2" y="155.4" font-family="Arial, 'Segoe UI Symbol', 'Liberation Sans', Helvetica, sans-serif" font-size="12.5" font-weight="400" fill="#18212e" text-anchor="middle">in the past 7 days?</text>
+<rect x="14.0" y="238.0" width="211.0" height="98.0" rx="10" fill="#ffffff" stroke="#c9d0db" stroke-width="1.5"/>
+<text x="119.5" y="263.4" font-family="Arial, 'Segoe UI Symbol', 'Liberation Sans', Helvetica, sans-serif" font-size="14.5" font-weight="700" fill="#18212e" text-anchor="middle">Family goes to a JUSTICE</text>
+<text x="119.5" y="283.4" font-family="Arial, 'Segoe UI Symbol', 'Liberation Sans', Helvetica, sans-serif" font-size="14.5" font-weight="700" fill="#18212e" text-anchor="middle">OF THE PEACE</text>
+<text x="119.5" y="303.4" font-family="Arial, 'Segoe UI Symbol', 'Liberation Sans', Helvetica, sans-serif" font-size="12.5" font-weight="400" fill="#18212e" text-anchor="middle">FORM 2: police bring them in</text>
+<text x="119.5" y="321.4" font-family="Arial, 'Segoe UI Symbol', 'Liberation Sans', Helvetica, sans-serif" font-size="12.5" font-weight="400" fill="#18212e" text-anchor="middle">or call the police</text>
+<rect x="23.1" y="386.0" width="258.0" height="60.0" rx="10" fill="#ffffff" stroke="#c9d0db" stroke-width="1.5"/>
+<text x="152.1" y="411.4" font-family="Arial, 'Segoe UI Symbol', 'Liberation Sans', Helvetica, sans-serif" font-size="14.5" font-weight="700" fill="#18212e" text-anchor="middle">Mental disorder + Box A or Box B</text>
+<text x="152.1" y="431.4" font-family="Arial, 'Segoe UI Symbol', 'Liberation Sans', Helvetica, sans-serif" font-size="12.5" font-weight="400" fill="#18212e" text-anchor="middle">+ will not or cannot be voluntary?</text>
+<rect x="98.5" y="960.0" width="168.0" height="60.0" rx="10" fill="#e0f0f5" stroke="#1f6f8b" stroke-width="1.5"/>
+<text x="182.5" y="985.4" font-family="Arial, 'Segoe UI Symbol', 'Liberation Sans', Helvetica, sans-serif" font-size="14.5" font-weight="700" fill="#1f6f8b" text-anchor="middle">Voluntary admission</text>
+<text x="182.5" y="1005.4" font-family="Arial, 'Segoe UI Symbol', 'Liberation Sans', Helvetica, sans-serif" font-size="12.5" font-weight="400" fill="#18212e" text-anchor="middle">or discharge</text>
+<rect x="117.8" y="514.0" width="223.0" height="60.0" rx="10" fill="#ffffff" stroke="#c9d0db" stroke-width="1.5"/>
+<text x="229.3" y="539.4" font-family="Arial, 'Segoe UI Symbol', 'Liberation Sans', Helvetica, sans-serif" font-size="14.5" font-weight="700" fill="#18212e" text-anchor="middle">FORM 1 + Form 42</text>
+<text x="229.3" y="559.4" font-family="Arial, 'Segoe UI Symbol', 'Liberation Sans', Helvetica, sans-serif" font-size="12.5" font-weight="400" fill="#18212e" text-anchor="middle">held up to 72 hours for assessment</text>
+<rect x="127.8" y="612.0" width="203.0" height="60.0" rx="10" fill="#ffffff" stroke="#c9d0db" stroke-width="1.5"/>
+<text x="229.3" y="637.4" font-family="Arial, 'Segoe UI Symbol', 'Liberation Sans', Helvetica, sans-serif" font-size="14.5" font-weight="700" fill="#18212e" text-anchor="middle">A DIFFERENT physician:</text>
+<text x="229.3" y="657.4" font-family="Arial, 'Segoe UI Symbol', 'Liberation Sans', Helvetica, sans-serif" font-size="12.5" font-weight="400" fill="#18212e" text-anchor="middle">criteria for admission met?</text>
+<rect x="175.7" y="740.0" width="272.0" height="60.0" rx="10" fill="#ffffff" stroke="#c9d0db" stroke-width="1.5"/>
+<text x="311.7" y="765.4" font-family="Arial, 'Segoe UI Symbol', 'Liberation Sans', Helvetica, sans-serif" font-size="14.5" font-weight="700" fill="#18212e" text-anchor="middle">FORM 3: involuntary, up to 14 days</text>
+<text x="311.7" y="785.4" font-family="Arial, 'Segoe UI Symbol', 'Liberation Sans', Helvetica, sans-serif" font-size="12.5" font-weight="400" fill="#18212e" text-anchor="middle">Form 30 + rights advisor</text>
+<rect x="220.2" y="838.0" width="183.0" height="42.0" rx="10" fill="#ffffff" stroke="#c9d0db" stroke-width="1.5"/>
+<text x="311.7" y="863.4" font-family="Arial, 'Segoe UI Symbol', 'Liberation Sans', Helvetica, sans-serif" font-size="14.5" font-weight="700" fill="#18212e" text-anchor="middle">Still met when it ends?</text>
+<rect x="292.5" y="960.0" width="214.0" height="60.0" rx="10" fill="#eee8f8" stroke="#6a4aa8" stroke-width="1.5"/>
+<text x="399.5" y="985.4" font-family="Arial, 'Segoe UI Symbol', 'Liberation Sans', Helvetica, sans-serif" font-size="14.5" font-weight="700" fill="#6a4aa8" text-anchor="middle">FORM 4: renewal, 1 month</text>
+<text x="399.5" y="1005.4" font-family="Arial, 'Segoe UI Symbol', 'Liberation Sans', Helvetica, sans-serif" font-size="12.5" font-weight="400" fill="#18212e" text-anchor="middle">same physician allowed</text>
+<text x="119.5" y="215.5" font-family="Arial, 'Segoe UI Symbol', 'Liberation Sans', Helvetica, sans-serif" font-size="13" font-weight="700" fill="#5a6577" text-anchor="middle" stroke="#f6f7f9" stroke-width="5" stroke-linejoin="round" paint-order="stroke">No - e.g. family calls</text>
+<text x="271.0" y="264.5" font-family="Arial, 'Segoe UI Symbol', 'Liberation Sans', Helvetica, sans-serif" font-size="13" font-weight="700" fill="#5a6577" text-anchor="middle" stroke="#f6f7f9" stroke-width="5" stroke-linejoin="round" paint-order="stroke">Yes</text>
+<text x="74.9" y="540.5" font-family="Arial, 'Segoe UI Symbol', 'Liberation Sans', Helvetica, sans-serif" font-size="13" font-weight="700" fill="#5a6577" text-anchor="middle" stroke="#f6f7f9" stroke-width="5" stroke-linejoin="round" paint-order="stroke">No</text>
+<text x="229.3" y="491.5" font-family="Arial, 'Segoe UI Symbol', 'Liberation Sans', Helvetica, sans-serif" font-size="13" font-weight="700" fill="#5a6577" text-anchor="middle" stroke="#f6f7f9" stroke-width="5" stroke-linejoin="round" paint-order="stroke">Yes</text>
+<text x="132.8" y="766.5" font-family="Arial, 'Segoe UI Symbol', 'Liberation Sans', Helvetica, sans-serif" font-size="13" font-weight="700" fill="#5a6577" text-anchor="middle" stroke="#f6f7f9" stroke-width="5" stroke-linejoin="round" paint-order="stroke">No</text>
+<text x="311.7" y="717.5" font-family="Arial, 'Segoe UI Symbol', 'Liberation Sans', Helvetica, sans-serif" font-size="13" font-weight="700" fill="#5a6577" text-anchor="middle" stroke="#f6f7f9" stroke-width="5" stroke-linejoin="round" paint-order="stroke">Yes</text>
+<text x="399.5" y="937.5" font-family="Arial, 'Segoe UI Symbol', 'Liberation Sans', Helvetica, sans-serif" font-size="13" font-weight="700" fill="#5a6577" text-anchor="middle" stroke="#f6f7f9" stroke-width="5" stroke-linejoin="round" paint-order="stroke">Yes</text>
+<text x="190.5" y="937.5" font-family="Arial, 'Segoe UI Symbol', 'Liberation Sans', Helvetica, sans-serif" font-size="13" font-weight="700" fill="#5a6577" text-anchor="start" stroke="#f6f7f9" stroke-width="5" stroke-linejoin="round" paint-order="stroke">No</text>
+</svg>

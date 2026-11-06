@@ -1026,16 +1026,109 @@
      narrow at all. */
   var SEARCH_MIN = 2;
 
+  /* A term is a word, or a "quoted phrase" whose words must sit together in
+     that order: "rheumatoid arthritis" on its own is every note that names the
+     disease, where the two loose words are also every note that mentions
+     rheumatoid factor and, separately, any arthritis. An unclosed quote runs
+     to the end of the box, so the phrase already narrows while it is typed. */
   function searchWords(query) {
-    return (query || "").toLowerCase().split(/\s+/).filter(function (w) {
-      return w.length >= SEARCH_MIN;
+    var out = [];
+    (query || "").toLowerCase().replace(/"([^"]*)"?|(\S+)/g, function (m, phrase, word) {
+      var t = (phrase != null ? phrase : word).replace(/\s+/g, " ").replace(/^ | $/g, "");
+      if (t.length >= SEARCH_MIN && out.indexOf(t) === -1) out.push(t);
+      return m;
     });
+    return out;
+  }
+
+  /* A phrase is matched across any run of whitespace, since a note's text
+     breaks lines wherever its markup did. The pattern is built once per term. */
+  var PHRASE_RE = Object.create(null);
+  function phraseRe(t) {
+    if (!PHRASE_RE[t]) {
+      PHRASE_RE[t] = new RegExp(t.split(" ").map(function (w) {
+        return w.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+      }).join("\\s+"), "g");
+    }
+    return PHRASE_RE[t];
+  }
+
+  function hasTerm(hay, t) {
+    if (t.indexOf(" ") === -1) return hay.indexOf(t) !== -1;
+    var re = phraseRe(t);
+    re.lastIndex = 0;
+    return re.test(hay);
+  }
+
+  /* every position a term starts at, capped: a score only needs to know
+     whether a term is rare or everywhere, not how everywhere */
+  function termAt(hay, t, cap) {
+    var out = [];
+    if (t.indexOf(" ") === -1) {
+      var i = hay.indexOf(t);
+      while (i !== -1 && out.length < cap) { out.push(i); i = hay.indexOf(t, i + t.length); }
+    } else {
+      var re = phraseRe(t), m;
+      re.lastIndex = 0;
+      while (out.length < cap && (m = re.exec(hay))) out.push(m.index);
+    }
+    return out;
   }
 
   /* the haystack is the caller's, already lowercased; an empty word list is
      the "all" of this facet and matches everything */
   function searchHit(hay, words) {
-    return words.every(function (w) { return hay.indexOf(w) !== -1; });
+    return words.every(function (t) { return hasTerm(hay, t); });
+  }
+
+  /* Every-word-anywhere decides WHAT matches; this decides the ORDER. Search
+     two common words across a block and most notes hold both somewhere, so a
+     list in roster order hides the one note that is about them among the many
+     that mention them in passing. In falling weight:
+       - the terms are in the title (the lecture is about them)
+       - the terms sit side by side, in the order typed (the phrase)
+       - the terms sit within a sentence or so of each other
+       - each term is mentioned often, with diminishing returns
+     The title is the caller's too, lowercased. */
+  var NEAR = 160;                 // characters: about a sentence either side
+
+  /* in a title a term has to start a word: "arthritis" is not what
+     "Osteoarthritis" is about, though the body search rightly finds it there */
+  function titleHas(title, t) {
+    return termAt(title, t, 20).some(function (i) {
+      return i === 0 || !/[a-z0-9]/.test(title.charAt(i - 1));
+    });
+  }
+
+  function searchScore(hay, title, words) {
+    if (!words.length) return 0;
+    title = title || "";
+    var s = 0, at = [];
+    words.forEach(function (t) {
+      if (titleHas(title, t)) s += 40;
+      var pos = termAt(hay, t, 60);
+      at.push(pos);
+      s += 4 * Math.log(1 + pos.length);
+    });
+    if (words.length > 1) {
+      var phrase = words.join(" ");
+      if (titleHas(title, phrase)) s += 60;
+      s += 12 * Math.min(termAt(hay, phrase, 10).length, 10);
+
+      /* proximity, anchored on the rarest term: each of its mentions with
+         every other term close by is a passage that discusses them together */
+      var rare = 0;
+      at.forEach(function (p, i) { if (p.length < at[rare].length) rare = i; });
+      var near = 0;
+      at[rare].forEach(function (a) {
+        var all = at.every(function (p, i) {
+          return i === rare || p.some(function (b) { return Math.abs(b - a) <= NEAR; });
+        });
+        if (all) near++;
+      });
+      s += 6 * Math.min(near, 10);
+    }
+    return s;
   }
 
   /* Highlighting is the expensive half of a search, and its cost is the
@@ -1135,6 +1228,7 @@
   window.PORTAL_SEARCH = {
     words: searchWords,
     hit: searchHit,
+    score: searchScore,
     MARK_MIN: MARK_MIN,
     MARK_BUDGET: MARK_BUDGET,
     paintWords: paintWords,

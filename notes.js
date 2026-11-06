@@ -42,6 +42,7 @@
   var HITS = [];                  // every <mark> on the page, in reading order
   var AT_HIT = -1;                // which one the reader is standing on
   var HAY = Object.create(null);  // lecture id -> everything in it, lowercased
+  var TITLE = Object.create(null);  // lecture id -> its number and name, lowercased
   var MARKED = [];                // notes currently carrying highlights
   var QT = null;                  // the keystroke debounce
 
@@ -389,9 +390,83 @@
   function indexText() {
     lectures().forEach(function (lec) {
       var art = byId("n-" + lec.key);
+      TITLE[lec.key] = (lec.num + " " + lec.name).toLowerCase();
       HAY[lec.key] = (lec.num + " " + lec.name + " " +
                       (art ? art.textContent : "")).toLowerCase();
     });
+  }
+
+  /* ---------- best match first ---------- */
+
+  /* A search across a block of 40 notes still leaves a dozen or more that hold
+     every word, most of them in passing. So while there is a query the stream
+     and the index both run best match first (the score is portal.js's), the
+     week headings step aside since the order is no longer by week, and the
+     roster order comes back the moment the box is cleared.
+
+     The nodes are moved rather than restyled: hits are walked, and the index
+     marks the note being read, in document order, and moving the nodes keeps
+     both of those true without teaching either about a second order. */
+  var ORIG_STREAM = [], ORIG_INDEX = [];
+  var RANKED = false;
+
+  function snapshotOrder() {
+    var s = byId("note-stream"), x = byId("note-index");
+    ORIG_STREAM = s ? [].slice.call(s.children) : [];
+    ORIG_INDEX = x ? [].slice.call(x.children) : [];
+  }
+
+  function reorder(box, nodes) {
+    if (!box) return;
+    var frag = document.createDocumentFragment();
+    nodes.forEach(function (n) { frag.appendChild(n); });
+    box.appendChild(frag);
+  }
+
+  /* refreshes the spy's idea of which note comes after which */
+  function reindexAt() {
+    AT = Object.create(null);
+    [].forEach.call(document.querySelectorAll("#note-stream .note"), function (a, i) {
+      AT[a.dataset.id] = i;
+    });
+  }
+
+  function applyOrder(shownKeys) {
+    var stream = byId("note-stream"), index = byId("note-index");
+    var s = search();
+    if (!WORDS.length || !s || !s.score) {
+      if (RANKED) {
+        reorder(stream, ORIG_STREAM);
+        reorder(index, ORIG_INDEX);
+        RANKED = false;
+        reindexAt();
+      }
+      return;
+    }
+    var pos = Object.create(null);
+    shownKeys.forEach(function (k, i) { pos[k] = i; });
+    var score = Object.create(null);
+    shownKeys.forEach(function (k) { score[k] = s.score(HAY[k] || "", TITLE[k] || "", WORDS); });
+    var ranked = shownKeys.slice().sort(function (a, b) {
+      return (score[b] - score[a]) || (pos[a] - pos[b]);
+    });
+
+    /* the head stays on top and the empty line at the foot; everything the
+       filter hid keeps its roster order below the ranked notes, out of sight */
+    var head = [], tail = [];
+    ORIG_STREAM.forEach(function (n) {
+      if (n.classList.contains("note") || n.classList.contains("weekbar")) {
+        if (!(n.dataset.id in pos)) tail.push(n);
+      } else if (n.id === "note-empty") tail.push(n);
+      else head.push(n);
+    });
+    reorder(stream, head.concat(ranked.map(function (k) { return byId("n-" + k); })
+                                      .filter(Boolean), tail));
+
+    var rows = ranked.map(function (k) { return IDX[k]; }).filter(Boolean);
+    reorder(index, rows.concat(ORIG_INDEX.filter(function (n) { return rows.indexOf(n) === -1; })));
+    RANKED = true;
+    reindexAt();
   }
 
   /* every word of the query, in any order, somewhere in the note: the bank's
@@ -518,17 +593,26 @@
     var s = search();
     var paint = s ? s.paintWords(WORDS) : [];
     var budget = paint.length ? s.MARK_BUDGET : 0;
+    var shownKeys = [];
     lectures().forEach(function (lec) {
       var art = byId("n-" + lec.key);
       if (!art) return;
       var ok = matches(lec);
       art.hidden = !ok;
-      if (ok && budget > 0) budget -= markHits(art, paint, budget);
-      if (ok) shown++;
+      if (ok) { shown++; shownKeys.push(lec.key); }
     });
 
-    // a week heading survives only while a lecture under it is still visible
+    /* ordered before painting, so the mark budget is spent on the best notes
+       rather than on whichever came first in the roster */
+    applyOrder(shownKeys);
+    [].forEach.call(document.querySelectorAll("#note-stream .note:not([hidden])"), function (art) {
+      if (budget > 0) budget -= markHits(art, paint, budget);
+    });
+
+    // a week heading survives only while a lecture under it is still visible,
+    // and not at all while the stream is ranked rather than in week order
     [].forEach.call(document.querySelectorAll("#note-stream .weekbar"), function (h) {
+      if (RANKED) { h.hidden = true; return; }
       var any = false, n = h.nextElementSibling;
       while (n && !n.classList.contains("weekbar")) {
         if (n.classList.contains("note") && !n.hidden) { any = true; break; }
@@ -550,7 +634,7 @@
        A search thins the rows under them, so a heading left with nothing beneath
        it goes too - otherwise the rail reads as a list of empty weeks. */
     [].forEach.call(document.querySelectorAll("#note-index .lecgroup"), function (g) {
-      if (week !== "all") { g.hidden = true; return; }
+      if (week !== "all" || RANKED) { g.hidden = true; return; }
       var any = false, n = g.nextElementSibling;
       while (n && !n.classList.contains("lecgroup")) {
         if (n.classList.contains("lecrow") && !n.hidden) { any = true; break; }
@@ -583,7 +667,7 @@
     // a query with no word past the floor narrows nothing, so it has no count
     line.hidden = !WORDS.length;
     line.textContent = shown === 1 ? "1 lecture matches"
-                                   : shown + " lectures match";
+                                   : shown + " lectures match, best first";
   }
 
   function counts() {
@@ -890,6 +974,7 @@
     });
     buildRail();
     buildStream();
+    snapshotOrder();
     indexText();
     paintCoverage();
     applyFilter();

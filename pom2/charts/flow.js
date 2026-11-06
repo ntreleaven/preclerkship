@@ -169,6 +169,31 @@ document.querySelectorAll("#modes .chip").forEach(function (b) {
 });
 map.classList.add("is-look"); lookStart();
 
+/* pictures for a tree or flow chart, from charts/figures.json keyed by node id: a row under the drawing, credited at the foot; tap for full size */
+var CHART = location.pathname.replace(/\/(index\.html)?$/, "").split("/").pop();
+fetch("../figures.json").then(function (r) { return r.ok ? r.json() : {}; }).then(function (all) {
+  var figs = all[CHART]; if (!figs) return;
+  var used = M.nodes.map(function (n) { return figs[n.id]; }).filter(Boolean);
+  Object.keys(figs).forEach(function (k) { if (!byId[k]) used.push(figs[k]); });
+  if (!used.length) return;
+  var row = el("div", "figrow");
+  used.forEach(function (f) {
+    var fig = el("figure", "colfig"), a = el("a"); a.href = "../img/" + CHART + "/" + f.file; a.target = "_blank"; a.rel = "noopener";
+    var img = el("img"); img.src = a.href; img.alt = f.caption; img.loading = "lazy"; a.appendChild(img); fig.appendChild(a);
+    fig.appendChild(el("figcaption", null, f.caption)); row.appendChild(fig);
+  });
+  map.after(row);
+  var cr = el("section", "credits"); cr.appendChild(el("h3", null, "Image credits"));
+  cr.appendChild(el("p", null, "Pictures reused under their open licences (Creative Commons or public domain); drawn ones were made for this page. Tap a picture to open it full size."));
+  var ul = el("ul"); cr.appendChild(ul);
+  used.forEach(function (f) {
+    var li = el("li", null, f.caption + ": " + f.author + ", " + f.licence + (f.source_page_url ? ", " : ""));
+    if (f.source_page_url) { var s = el("a", null, "source"); s.href = f.source_page_url; s.rel = "noopener"; li.appendChild(s); }
+    ul.appendChild(li);
+  });
+  document.querySelector(".wrap").appendChild(cr);
+}).catch(function () {});
+
 if (EMBED && window.parent !== window) {
   var tell = function () { window.parent.postMessage({ chartHeight: document.querySelector(".wrap").getBoundingClientRect().height }, "*"); };
   tell(); if (window.ResizeObserver) new ResizeObserver(tell).observe(document.querySelector(".wrap"));

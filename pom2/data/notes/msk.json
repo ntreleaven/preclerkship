@@ -6287,6 +6287,13 @@
        "interactive": "charts/msk-w10-04_2/"
       },
       {
+       "t": "figure",
+       "src": "assets/figures/0d9fd7dae227.svg",
+       "alt": "fracture radiology map.svg",
+       "w": 1240,
+       "h": 6868
+      },
+      {
        "t": "note",
        "html": "<h5>1. Get the right films</h5>"
       },

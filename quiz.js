@@ -1901,6 +1901,7 @@
      time is "hide all but one" and every other part of the engine - progress,
      stars, the keyboard steps, the resume point - carries over untouched. */
   function applyFilters() {
+    applyStreamOrder();            // a no-op unless the search or order changed
     var ids = inPlayIds(), live = Object.create(null);
     if (VIEW === "paged" && ids.length) {
       if (pageIdx >= ids.length) pageIdx = ids.length - 1;
@@ -2113,9 +2114,54 @@
     deck.forEach(function (qid, i) { SHUFFLE[qid] = i; });
   }
 
+  /* A search ranks the stream best match first, the way the notes tab does:
+     two common words still leave dozens of questions that hold both, and the
+     ones about them belong on top. The score is portal.js's, with the lecture
+     the question came from as its title. A shuffle the learner asked for wins
+     over the ranking, and a sat block keeps the order it was drawn in. */
+  var RANK = { query: null, score: null };
+
+  function ranking() {
+    return !shuffling() && MODE !== "test" && searchOn() &&
+           !!(search() && search().score);
+  }
+
+  function rankScores() {
+    if (RANK.query === filters.search && RANK.score) return RANK.score;
+    var s = search(), words = currentWords(), score = Object.create(null);
+    QUESTIONS.forEach(function (q) {
+      if (!searchOk(q)) return;
+      var hay = SEARCH_HAY[q.qid];
+      if (hay === undefined) hay = SEARCH_HAY[q.qid] = searchText(q);
+      var memo = memoText(q.qid);
+      if (memo) hay = hay + " " + memo.toLowerCase();
+      score[q.qid] = s.score(hay, String(q.lecture || "").toLowerCase(), words);
+    });
+    RANK = { query: filters.search, score: score };
+    return score;
+  }
+
+  /* bank order breaks ties, so equal scores still read week by week */
+  var BANK_AT = null;
+  function bankAt() {
+    if (!BANK_AT) {
+      BANK_AT = Object.create(null);
+      QUESTIONS.forEach(function (q, i) { BANK_AT[q.qid] = i; });
+    }
+    return BANK_AT;
+  }
+
+  function byRank(a, b) {
+    var sc = rankScores(), at = bankAt();
+    return ((sc[b] || 0) - (sc[a] || 0)) || (at[a] - at[b]);
+  }
+
   function inDeckOrder(ids) {
-    if (!shuffling()) return ids;
-    return ids.slice().sort(function (a, b) { return SHUFFLE[a] - SHUFFLE[b]; });
+    if (shuffling()) {
+      return ids.slice().sort(function (a, b) { return SHUFFLE[a] - SHUFFLE[b]; });
+    }
+    if (ranking()) return ids.slice().sort(byRank);
+    return ids;
   }
 
   /* One at a time needs nothing here - it shows whichever card inPlayIds hands
@@ -2127,20 +2173,25 @@
   function applyStreamOrder(force) {
     var flat = byId("shuffled");
     if (!flat) return;                 /* a page cached from before this shipped */
-    var want = shuffling(), on = flat.dataset.on === "1";
+    /* the flat list is in use for a shuffle or for a ranking, and a ranking
+       is redone whenever the query changes */
+    var want = shuffling() ? "shuffle" : ranking() ? "rank:" + filters.search : "";
+    var on = flat.dataset.on || "";
     if (want === on && !force) return;
 
     if (want) {
       var frag = document.createDocumentFragment();
-      QUESTIONS.slice().sort(function (a, b) {
-        return SHUFFLE[a.qid] - SHUFFLE[b.qid];
-      }).forEach(function (q) {
-        var art = byId("q-" + q.qid);
+      var ids = QUESTIONS.map(function (q) { return q.qid; });
+      ids = shuffling()
+        ? ids.sort(function (a, b) { return SHUFFLE[a] - SHUFFLE[b]; })
+        : ids.sort(byRank);
+      ids.forEach(function (qid) {
+        var art = byId("q-" + qid);
         if (art) frag.appendChild(art);
       });
       flat.appendChild(frag);
       flat.hidden = false;
-      flat.dataset.on = "1";
+      flat.dataset.on = want;
     } else if (on) {
       HOME.forEach(function (h) {
         h.kids.forEach(function (n) { h.sec.appendChild(n); });
@@ -2148,6 +2199,8 @@
       flat.hidden = true;
       flat.dataset.on = "";
     }
+    /* "shuffle" is the styling hook for any flat list: each card says where it
+       came from, since the headings that said so are no longer above it */
     if (byId("stream")) byId("stream").dataset.order = want ? "shuffle" : "bank";
   }
 

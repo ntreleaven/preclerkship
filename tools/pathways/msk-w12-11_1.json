@@ -1,0 +1,120 @@
+{
+ "name": "visual field loss pathway",
+ "title": "Localizing visual field loss: one eye means the optic nerve on that side, both outer halves the optic chiasm, the same side in both eyes the opposite optic tract",
+ "width": 548,
+ "nodes": [
+  {
+   "id": "A",
+   "x": 101,
+   "y": 10,
+   "w": 142,
+   "h": 42,
+   "kind": "dark",
+   "title": "Visual field loss",
+   "lines": []
+  },
+  {
+   "id": "B",
+   "x": 106,
+   "y": 90,
+   "w": 131,
+   "h": 42,
+   "kind": "plain",
+   "title": "One eye only?",
+   "lines": []
+  },
+  {
+   "id": "C",
+   "x": 26,
+   "y": 200,
+   "w": 133,
+   "h": 60,
+   "kind": "anti",
+   "title": "OPTIC NERVE",
+   "lines": [
+    "on that side"
+   ]
+  },
+  {
+   "id": "D",
+   "x": 185,
+   "y": 200,
+   "w": 133,
+   "h": 42,
+   "kind": "plain",
+   "title": "Which halves?",
+   "lines": []
+  },
+  {
+   "id": "E",
+   "x": 28,
+   "y": 328,
+   "w": 163,
+   "h": 60,
+   "kind": "ana",
+   "title": "OPTIC CHIASM",
+   "lines": [
+    "bitemporal hemianopia"
+   ]
+  },
+  {
+   "id": "F",
+   "x": 231,
+   "y": 328,
+   "w": 303,
+   "h": 60,
+   "kind": "info",
+   "title": "OPTIC TRACT on the OPPOSITE side",
+   "lines": [
+    "homonymous hemianopia"
+   ]
+  }
+ ],
+ "edges": [
+  {
+   "from": "A",
+   "to": "B",
+   "path": "M172 52V88"
+  },
+  {
+   "from": "B",
+   "to": "C",
+   "path": "M172 132V148H92V198",
+   "label": "Yes",
+   "label_at": [
+    92,
+    178
+   ]
+  },
+  {
+   "from": "B",
+   "to": "D",
+   "path": "M172 132V148H251V198",
+   "label": "No, both eyes",
+   "label_at": [
+    251,
+    178
+   ]
+  },
+  {
+   "from": "D",
+   "to": "E",
+   "path": "M251 242V276H110V326",
+   "label": "Both outer (temporal) halves",
+   "label_at": [
+    110,
+    306
+   ]
+  },
+  {
+   "from": "D",
+   "to": "F",
+   "path": "M251 242V276H383V326",
+   "label": "Same side in both eyes",
+   "label_at": [
+    383,
+    306
+   ]
+  }
+ ]
+}

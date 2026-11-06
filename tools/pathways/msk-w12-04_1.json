@@ -1,0 +1,250 @@
+{
+ "name": "localizing weakness pathway",
+ "title": "Localizing weakness: upper motor neuron signs are placed in the brain or spinal cord by their pattern, lower motor neuron signs in the nerve root, peripheral nerve, neuromuscular junction or muscle",
+ "width": 1092,
+ "nodes": [
+  {
+   "id": "A",
+   "x": 242,
+   "y": 10,
+   "w": 190,
+   "h": 42,
+   "kind": "dark",
+   "title": "Patient with weakness",
+   "lines": []
+  },
+  {
+   "id": "B",
+   "x": 189,
+   "y": 90,
+   "w": 295,
+   "h": 42,
+   "kind": "plain",
+   "title": "Upper or lower motor neuron signs?",
+   "lines": []
+  },
+  {
+   "id": "C",
+   "x": 14,
+   "y": 200,
+   "w": 120,
+   "h": 42,
+   "kind": "plain",
+   "title": "Pattern?",
+   "lines": []
+  },
+  {
+   "id": "D",
+   "x": 344,
+   "y": 280,
+   "w": 224,
+   "h": 42,
+   "kind": "anti",
+   "title": "BRAIN",
+   "lines": []
+  },
+  {
+   "id": "D2",
+   "x": 344,
+   "y": 334,
+   "w": 224,
+   "h": 42,
+   "kind": "ana",
+   "title": "SPINAL CORD",
+   "lines": []
+  },
+  {
+   "id": "E",
+   "x": 344,
+   "y": 388,
+   "w": 224,
+   "h": 42,
+   "kind": "info",
+   "title": "CERVICAL SPINAL CORD",
+   "lines": []
+  },
+  {
+   "id": "F",
+   "x": 344,
+   "y": 442,
+   "w": 224,
+   "h": 60,
+   "kind": "sand",
+   "title": "THORACIC SPINAL CORD",
+   "lines": [
+    "or lumbar roots"
+   ]
+  },
+  {
+   "id": "G",
+   "x": 540,
+   "y": 200,
+   "w": 120,
+   "h": 42,
+   "kind": "plain",
+   "title": "Pattern?",
+   "lines": []
+  },
+  {
+   "id": "H",
+   "x": 817,
+   "y": 280,
+   "w": 261,
+   "h": 42,
+   "kind": "clay",
+   "title": "NERVE ROOT",
+   "lines": []
+  },
+  {
+   "id": "J",
+   "x": 817,
+   "y": 334,
+   "w": 261,
+   "h": 42,
+   "kind": "anti",
+   "title": "PERIPHERAL NERVE(S)",
+   "lines": []
+  },
+  {
+   "id": "K",
+   "x": 817,
+   "y": 388,
+   "w": 261,
+   "h": 42,
+   "kind": "ana",
+   "title": "NEUROMUSCULAR JUNCTION",
+   "lines": []
+  },
+  {
+   "id": "L",
+   "x": 817,
+   "y": 442,
+   "w": 261,
+   "h": 42,
+   "kind": "info",
+   "title": "MUSCLE",
+   "lines": []
+  }
+ ],
+ "edges": [
+  {
+   "from": "A",
+   "to": "B",
+   "path": "M337 52V88"
+  },
+  {
+   "from": "B",
+   "to": "C",
+   "path": "M337 132V148H74V198",
+   "label": "Upper",
+   "label_at": [
+    74,
+    178
+   ]
+  },
+  {
+   "from": "B",
+   "to": "G",
+   "path": "M337 132V148H600V198",
+   "label": "Lower",
+   "label_at": [
+    600,
+    178
+   ]
+  },
+  {
+   "from": "C",
+   "to": "D",
+   "path": "M74 242V280V301H342",
+   "label": "Hemibody, with face or cranial nerves",
+   "label_at": [
+    203,
+    293
+   ]
+  },
+  {
+   "from": "C",
+   "to": "D2",
+   "path": "M74 242V280V355H342",
+   "label": "Hemibody, no face or cranial nerves",
+   "label_at": [
+    198,
+    347
+   ]
+  },
+  {
+   "from": "C",
+   "to": "E",
+   "path": "M74 242V280V409H342",
+   "label": "All four limbs",
+   "label_at": [
+    128,
+    401
+   ]
+  },
+  {
+   "from": "C",
+   "to": "F",
+   "path": "M74 242V280V472H342",
+   "label": "Both legs",
+   "label_at": [
+    116,
+    464
+   ]
+  },
+  {
+   "from": "G",
+   "to": "H",
+   "path": "M600 242V280V301H815",
+   "label": "One myotome",
+   "label_at": [
+    655,
+    293
+   ]
+  },
+  {
+   "from": "G",
+   "to": "J",
+   "path": "M600 242V280V355H815",
+   "label": "One nerve, or several nerves",
+   "label_at": [
+    700,
+    347
+   ]
+  },
+  {
+   "from": "G",
+   "to": "K",
+   "path": "M600 242V280V409H815",
+   "label": "Eyes and swallowing",
+   "label_at": [
+    677,
+    401
+   ]
+  },
+  {
+   "from": "G",
+   "to": "L",
+   "path": "M600 242V280V463H815",
+   "label": "Generalized, proximal",
+   "label_at": [
+    680,
+    455
+   ]
+  }
+ ],
+ "kinds": {
+  "sand": [
+   "#fff4c2",
+   "#6b5200",
+   "#6b5200",
+   "#18212e"
+  ],
+  "clay": [
+   "#f6ece2",
+   "#8a5a2b",
+   "#8a5a2b",
+   "#18212e"
+  ]
+ }
+}

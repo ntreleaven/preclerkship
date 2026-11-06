@@ -1,0 +1,232 @@
+{
+ "name": "widespread body pain pathway",
+ "title": "Widespread body pain without swollen joints: an older patient with girdle pain, stiffness and raised inflammatory markers is treated as polymyalgia rheumatica, confirmed by a dramatic steroid response; otherwise the character of the pain points to myositis, neuropathic pain or fibromyalgia",
+ "width": 1116,
+ "nodes": [
+  {
+   "id": "A",
+   "x": 441,
+   "y": 10,
+   "w": 190,
+   "h": 60,
+   "kind": "dark",
+   "title": "Widespread body pain",
+   "lines": [
+    "no swollen joints"
+   ]
+  },
+  {
+   "id": "B",
+   "x": 402,
+   "y": 108,
+   "w": 267,
+   "h": 60,
+   "kind": "plain",
+   "title": "Over 50 · shoulder and hip girdle",
+   "lines": [
+    "pain and stiffness · raised ESR / CRP?"
+   ]
+  },
+  {
+   "id": "C",
+   "x": 162,
+   "y": 236,
+   "w": 296,
+   "h": 78,
+   "kind": "plain",
+   "title": "POLYMYALGIA RHEUMATICA likely",
+   "lines": [
+    "rule out cancer and infection first",
+    "prednisone 15-20 mg a day"
+   ]
+  },
+  {
+   "id": "D",
+   "x": 214,
+   "y": 382,
+   "w": 193,
+   "h": 60,
+   "kind": "plain",
+   "title": "Dramatic improvement",
+   "lines": [
+    "within about 3 days?"
+   ]
+  },
+  {
+   "id": "E",
+   "x": 14,
+   "y": 564,
+   "w": 290,
+   "h": 60,
+   "kind": "ok",
+   "title": "Confirms PMR",
+   "lines": [
+    "slow taper over 1-2 years + bone protection"
+   ]
+  },
+  {
+   "id": "F",
+   "x": 330,
+   "y": 564,
+   "w": 262,
+   "h": 42,
+   "kind": "bad",
+   "title": "RECONSIDER THE DIAGNOSIS",
+   "lines": []
+  },
+  {
+   "id": "G",
+   "x": 670,
+   "y": 236,
+   "w": 183,
+   "h": 42,
+   "kind": "plain",
+   "title": "What is the pain like?",
+   "lines": []
+  },
+  {
+   "id": "H",
+   "x": 466,
+   "y": 382,
+   "w": 160,
+   "h": 60,
+   "kind": "anti",
+   "title": "Myositis",
+   "lines": [
+    "check creatine kinase"
+   ]
+  },
+  {
+   "id": "I",
+   "x": 652,
+   "y": 382,
+   "w": 202,
+   "h": 78,
+   "kind": "ana",
+   "title": "Neuropathic pain",
+   "lines": [
+    "~burning, tingling, numbness",
+    "check for diabetes"
+   ]
+  },
+  {
+   "id": "J",
+   "x": 880,
+   "y": 382,
+   "w": 214,
+   "h": 114,
+   "kind": "plain",
+   "title": "2010 criteria met?",
+   "lines": [
+    "~'hurts everywhere' · fatigue",
+    "~unrefreshing sleep · fog",
+    "pain index + symptom severity",
+    "for 3 months or more"
+   ]
+  },
+  {
+   "id": "K",
+   "x": 870,
+   "y": 564,
+   "w": 232,
+   "h": 60,
+   "kind": "info",
+   "title": "FIBROMYALGIA",
+   "lines": [
+    "even if another disease is present"
+   ]
+  }
+ ],
+ "edges": [
+  {
+   "from": "A",
+   "to": "B",
+   "path": "M536 70V106"
+  },
+  {
+   "from": "B",
+   "to": "C",
+   "path": "M536 168V184H310V234",
+   "label": "Yes",
+   "label_at": [
+    310,
+    214
+   ]
+  },
+  {
+   "from": "B",
+   "to": "G",
+   "path": "M536 168V184H762V234",
+   "label": "No",
+   "label_at": [
+    762,
+    214
+   ]
+  },
+  {
+   "from": "C",
+   "to": "D",
+   "path": "M310 314V380"
+  },
+  {
+   "from": "D",
+   "to": "E",
+   "path": "M310 442V512H159V562",
+   "label": "Yes",
+   "label_at": [
+    159,
+    542
+   ]
+  },
+  {
+   "from": "D",
+   "to": "F",
+   "path": "M310 442V512H461V562",
+   "label": "No",
+   "label_at": [
+    461,
+    542
+   ]
+  },
+  {
+   "from": "G",
+   "to": "H",
+   "path": "M762 278V330H546V380",
+   "label": "Proximal WEAKNESS",
+   "label_at": [
+    546,
+    360
+   ]
+  },
+  {
+   "from": "G",
+   "to": "I",
+   "path": "M762 278V330H752V380",
+   "label": "Nerve pattern",
+   "label_at": [
+    752,
+    360
+   ]
+  },
+  {
+   "from": "G",
+   "to": "J",
+   "path": "M762 278V330H986V380",
+   "label": "Diffuse, migratory",
+   "label_at": [
+    986,
+    360
+   ]
+  },
+  {
+   "from": "J",
+   "to": "K",
+   "path": "M986 496V562",
+   "label": "Yes",
+   "label_at": [
+    986,
+    534
+   ]
+  }
+ ]
+}

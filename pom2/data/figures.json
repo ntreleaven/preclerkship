@@ -14,6 +14,11 @@
   "src": "assets/figures/550c8afbcdc7.jpg",
   "w": 900
  },
+ "ADHD pathway.svg": {
+  "h": 1262,
+  "src": "assets/figures/cd50a8e22006.svg",
+  "w": 727
+ },
  "ALS symptoms by body region - upper-year notes.jpg": {
   "h": 515,
   "src": "assets/figures/8c28a3f25b25.jpg",
@@ -133,6 +138,11 @@
   "h": 318,
   "src": "assets/figures/acf00d37cfb6.jpg",
   "w": 900
+ },
+ "OCD treatment pathway.svg": {
+  "h": 952,
+  "src": "assets/figures/232fa60616a9.svg",
+  "w": 500
  },
  "Ottawa Foot & Ankle Rules.png": {
   "h": 627,
@@ -274,6 +284,11 @@
   "src": "assets/figures/1402f71676a3.jpg",
   "w": 900
  },
+ "alcohol withdrawal pathway.svg": {
+  "h": 760,
+  "src": "assets/figures/d7c323b2ac0d.svg",
+  "w": 762
+ },
  "alcohol withdrawal syndrome timeline.png": {
   "h": 596,
   "src": "assets/figures/97074c76be82.jpg",
@@ -343,6 +358,11 @@
   "h": 391,
   "src": "assets/figures/9111f8dfff3b.jpg",
   "w": 433
+ },
+ "anxiety disorders pathway.svg": {
+  "h": 620,
+  "src": "assets/figures/f5d97d5b68a0.svg",
+  "w": 651
  },
  "aphasia syndromes overview.svg": {
   "h": 656,
@@ -474,6 +494,11 @@
   "src": "assets/figures/054bd64b43f4.jpg",
   "w": 455
  },
+ "behaviour in dementia pathway.svg": {
+  "h": 980,
+  "src": "assets/figures/c520719ee298.svg",
+  "w": 641
+ },
  "benign positional paroxysmal vertigo.png": {
   "h": 900,
   "src": "assets/figures/90818ecf4af3.jpg",
@@ -493,6 +518,11 @@
   "h": 505,
   "src": "assets/figures/d79560db5d11.jpg",
   "w": 900
+ },
+ "bipolar treatment pathway.svg": {
+  "h": 692,
+  "src": "assets/figures/693f4201066a.svg",
+  "w": 842
  },
  "bitemporal hemianopia.png": {
   "h": 386,
@@ -654,6 +684,11 @@
   "src": "assets/figures/ddba0fe84fb6.jpg",
   "w": 900
  },
+ "child welfare system pathway.svg": {
+  "h": 1262,
+  "src": "assets/figures/c8d6f89bcf91.svg",
+  "w": 829
+ },
  "child with a limp overview.svg": {
   "h": 1200,
   "src": "assets/figures/e96a74f22c00.svg",
@@ -683,6 +718,16 @@
   "h": 640,
   "src": "assets/figures/3391b9b6fd8a.svg",
   "w": 920
+ },
+ "cognitive enhancers pathway.svg": {
+  "h": 748,
+  "src": "assets/figures/570fed0a942c.svg",
+  "w": 750
+ },
+ "cognitive impairment workup pathway.svg": {
+  "h": 998,
+  "src": "assets/figures/d4c7e2c73872.svg",
+  "w": 574
  },
  "cognitive triad of depression.png": {
   "h": 304,
@@ -784,6 +829,11 @@
   "src": "assets/figures/078f65c29fce.jpg",
   "w": 900
  },
+ "delirium pathway.svg": {
+  "h": 1208,
+  "src": "assets/figures/1e3f129afc99.svg",
+  "w": 660
+ },
  "deltoid ligament of the ankle.png": {
   "h": 713,
   "src": "assets/figures/d949543bdf25.jpg",
@@ -793,6 +843,16 @@
   "h": 630,
   "src": "assets/figures/f4cb0f7ab93f.jpg",
   "w": 900
+ },
+ "depression in medical illness pathway.svg": {
+  "h": 722,
+  "src": "assets/figures/a78cddb64c75.svg",
+  "w": 739
+ },
+ "depressive disorders pathway.svg": {
+  "h": 1274,
+  "src": "assets/figures/24cea0a022de.svg",
+  "w": 1052
  },
  "derivatives of the 3 germ layers (slide 19).png": {
   "h": 675,
@@ -869,6 +929,16 @@
   "src": "assets/figures/d21000a93684.jpg",
   "w": 900
  },
+ "disruptive behaviour disorders pathway.svg": {
+  "h": 644,
+  "src": "assets/figures/cc0c049cece0.svg",
+  "w": 944
+ },
+ "dissociation pathway.svg": {
+  "h": 986,
+  "src": "assets/figures/ba73ba46247e.svg",
+  "w": 1153
+ },
  "distribution of weakness by lesion site - upper-year notes.jpg": {
   "h": 303,
   "src": "assets/figures/4a756298b6d0.jpg",
@@ -933,6 +1003,11 @@
   "h": 553,
   "src": "assets/figures/3b76992b47ac.svg",
   "w": 1300
+ },
+ "eating disorders admission pathway.svg": {
+  "h": 998,
+  "src": "assets/figures/ef408c12049a.svg",
+  "w": 368
  },
  "ectopic pregnancy on transvaginal ultrasound - adnexal mass beside uterus and ovary.png": {
   "h": 627,
@@ -1449,6 +1524,11 @@
   "src": "assets/figures/1897f04f9129.jpg",
   "w": 900
  },
+ "localizing weakness pathway.svg": {
+  "h": 524,
+  "src": "assets/figures/2d07c4b4077b.svg",
+  "w": 1092
+ },
  "lower extremity radiology overview.svg": {
   "h": 3159,
   "src": "assets/figures/aa07881616f0.svg",
@@ -1518,6 +1598,11 @@
   "h": 886,
   "src": "assets/figures/7cf2ed2aa88d.jpg",
   "w": 900
+ },
+ "mental health act forms pathway.svg": {
+  "h": 1032,
+  "src": "assets/figures/90d1651d3e5d.svg",
+  "w": 520
  },
  "mesonephric duct remnants.png": {
   "h": 813,
@@ -1759,10 +1844,20 @@
   "src": "assets/figures/21cc2685629a.jpg",
   "w": 588
  },
+ "opioid use pathway.svg": {
+  "h": 554,
+  "src": "assets/figures/ee42cb44382f.svg",
+  "w": 759
+ },
  "optic atrophy (glaucoma increased cup-disc ratio).png": {
   "h": 352,
   "src": "assets/figures/3b6bb56438f9.jpg",
   "w": 750
+ },
+ "organ donation pathway.svg": {
+  "h": 914,
+  "src": "assets/figures/a9313ebf09b0.svg",
+  "w": 702
  },
  "organ involvement in vasculitis - upper-year notes.jpg": {
   "h": 606,
@@ -1838,6 +1933,11 @@
   "h": 501,
   "src": "assets/figures/9db6e94f7789.jpg",
   "w": 900
+ },
+ "paraphilic disorders pathway.svg": {
+  "h": 696,
+  "src": "assets/figures/a3cff4a1974e.svg",
+  "w": 611
  },
  "parasympathetic vs sympathetic organ effects - upper-year notes.jpg": {
   "h": 454,
@@ -1928,6 +2028,11 @@
   "h": 623,
   "src": "assets/figures/cfe980f82f1c.jpg",
   "w": 900
+ },
+ "perinatal mood disorders pathway.svg": {
+  "h": 810,
+  "src": "assets/figures/f12f7e50b3f1.svg",
+  "w": 662
  },
  "perineal pouches - deep and superficial with colles fascia.png": {
   "h": 301,
@@ -2074,6 +2179,11 @@
   "src": "assets/figures/297c8ca3b121.svg",
   "w": 1700
  },
+ "psychotic disorders pathway.svg": {
+  "h": 692,
+  "src": "assets/figures/53d68317015a.svg",
+  "w": 1100
+ },
  "pupillary light reflex pathway - upper-year notes.jpg": {
   "h": 497,
   "src": "assets/figures/1d50873a3974.jpg",
@@ -2204,6 +2314,11 @@
   "src": "assets/figures/f9dbfba92283.jpg",
   "w": 846
  },
+ "sexual abuse reporting pathway.svg": {
+  "h": 718,
+  "src": "assets/figures/0954db7f1651.svg",
+  "w": 316
+ },
  "sexual health overview.svg": {
   "h": 1186,
   "src": "assets/figures/bb94cb19d750.svg",
@@ -2264,6 +2379,11 @@
   "src": "assets/figures/5b5d14bbb49c.jpg",
   "w": 900
  },
+ "sleep disorders pathway.svg": {
+  "h": 658,
+  "src": "assets/figures/45f18f8d0d2c.svg",
+  "w": 684
+ },
  "soft tissue mass overview.svg": {
   "h": 1224,
   "src": "assets/figures/ac880281acf7.svg",
@@ -2273,6 +2393,11 @@
   "h": 531,
   "src": "assets/figures/1402b3e2d4d6.jpg",
   "w": 705
+ },
+ "speech and language disorders pathway.svg": {
+  "h": 666,
+  "src": "assets/figures/86bb8ce052ea.svg",
+  "w": 683
  },
  "spermatogenesis and spermiogenesis.png": {
   "h": 715,
@@ -2354,6 +2479,11 @@
   "src": "assets/figures/ffd521c60989.jpg",
   "w": 815
  },
+ "suicide risk disposition pathway.svg": {
+  "h": 892,
+  "src": "assets/figures/1687f6f58d80.svg",
+  "w": 435
+ },
  "sulfonylurea mechanism - beta-cell k-atp channel.png": {
   "h": 627,
   "src": "assets/figures/cae3f0385d00.jpg",
@@ -2413,6 +2543,16 @@
   "h": 2121,
   "src": "assets/figures/21bd7d386c2f.svg",
   "w": 1000
+ },
+ "trauma and stressor disorders pathway.svg": {
+  "h": 694,
+  "src": "assets/figures/aaecaf459ed1.svg",
+  "w": 628
+ },
+ "treatment capacity pathway.svg": {
+  "h": 712,
+  "src": "assets/figures/f89b3c6f6e5e.svg",
+  "w": 756
  },
  "treatment of bipolar disorders.png": {
   "h": 560,
@@ -2579,6 +2719,11 @@
   "src": "assets/figures/e37058a17593.svg",
   "w": 1324
  },
+ "visual field loss pathway.svg": {
+  "h": 410,
+  "src": "assets/figures/74eb1b34edf1.svg",
+  "w": 548
+ },
  "visual hemifields to optic nerves chiasm and tracts - upper-year notes.jpg": {
   "h": 542,
   "src": "assets/figures/c11e377d0485.jpg",
@@ -2623,6 +2768,11 @@
   "h": 533,
   "src": "assets/figures/033a0e38a730.jpg",
   "w": 840
+ },
+ "widespread body pain pathway.svg": {
+  "h": 646,
+  "src": "assets/figures/d26163cfb629.svg",
+  "w": 1116
  },
  "wrist and hand overview.svg": {
   "h": 1345,

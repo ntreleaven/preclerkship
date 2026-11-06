@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="762" height="760" viewBox="0 0 762 760" role="img" aria-labelledby="t"><title id="t">Alcohol withdrawal: thiamine for everyone, front-loaded benzodiazepine if complicated, otherwise symptom-triggered dosing by CIWA-Ar score</title><defs><marker id="ah" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#5a6577"/></marker></defs><rect width="100%" height="100%" rx="14" fill="#f6f7f9"/>
+<path d="M251.0 70.0L251.0 106.0" fill="none" stroke="#5a6577" stroke-width="2" marker-end="url(#ah)"/>
+<path d="M251.0 188.0L251.0 224.0" fill="none" stroke="#5a6577" stroke-width="2" marker-end="url(#ah)"/>
+<path d="M251.0 286.0L251.0 302.0L141.5 302.0L141.5 352.0" fill="none" stroke="#5a6577" stroke-width="2" marker-end="url(#ah)"/>
+<path d="M251.0 286.0L251.0 302.0L360.5 302.0L360.5 352.0" fill="none" stroke="#5a6577" stroke-width="2" marker-end="url(#ah)"/>
+<path d="M360.5 396.0L360.5 452.0" fill="none" stroke="#5a6577" stroke-width="2"/>
+<path d="M360.5 482.0H463.8" fill="none" stroke="#5a6577" stroke-width="2" marker-end="url(#ah)"/>
+<path d="M360.5 564.0H463.8" fill="none" stroke="#5a6577" stroke-width="2" marker-end="url(#ah)"/>
+<path d="M360.5 646.0H463.8" fill="none" stroke="#5a6577" stroke-width="2" marker-end="url(#ah)"/>
+<path d="M360.5 718.0H463.8" fill="none" stroke="#5a6577" stroke-width="2" marker-end="url(#ah)"/>
+<path d="M360.5 452.0V718.0" fill="none" stroke="#5a6577" stroke-width="2"/>
+<rect x="168.0" y="10.0" width="166.0" height="60.0" rx="10" fill="#18212e" stroke="#18212e" stroke-width="1.5"/>
+<text x="251.0" y="35.4" font-family="Arial, 'Segoe UI Symbol', 'Liberation Sans', Helvetica, sans-serif" font-size="14.5" font-weight="700" fill="#f6f7f9" text-anchor="middle">Alcohol withdrawal</text>
+<text x="251.0" y="55.4" font-family="Arial, 'Segoe UI Symbol', 'Liberation Sans', Helvetica, sans-serif" font-size="12.5" font-weight="400" fill="#f6f7f9" text-anchor="middle">4-12 h after the last drink</text>
+<rect x="155.5" y="108.0" width="191.0" height="80.0" rx="10" fill="#ffffff" stroke="#c9d0db" stroke-width="1.5"/>
+<text x="251.0" y="133.4" font-family="Arial, 'Segoe UI Symbol', 'Liberation Sans', Helvetica, sans-serif" font-size="14.5" font-weight="700" fill="#18212e" text-anchor="middle">Everyone: thiamine 100</text>
+<text x="251.0" y="153.4" font-family="Arial, 'Segoe UI Symbol', 'Liberation Sans', Helvetica, sans-serif" font-size="14.5" font-weight="700" fill="#18212e" text-anchor="middle">mg IM daily for 3 days</text>
+<text x="251.0" y="173.4" font-family="Arial, 'Segoe UI Symbol', 'Liberation Sans', Helvetica, sans-serif" font-size="12.5" font-weight="400" fill="#18212e" text-anchor="middle">+ folic acid 1 mg</text>
+<rect x="101.0" y="226.0" width="300.0" height="60.0" rx="10" fill="#ffffff" stroke="#c9d0db" stroke-width="1.5"/>
+<text x="251.0" y="251.4" font-family="Arial, 'Segoe UI Symbol', 'Liberation Sans', Helvetica, sans-serif" font-size="14.5" font-weight="700" fill="#18212e" text-anchor="middle">Complicated? past withdrawal seizures,</text>
+<text x="251.0" y="271.4" font-family="Arial, 'Segoe UI Symbol', 'Liberation Sans', Helvetica, sans-serif" font-size="12.5" font-weight="400" fill="#18212e" text-anchor="middle">delirium tremens, pregnancy, older age</text>
+<rect x="14.0" y="354.0" width="255.0" height="60.0" rx="10" fill="#fbe5e3" stroke="#b3261e" stroke-width="1.5"/>
+<text x="141.5" y="379.4" font-family="Arial, 'Segoe UI Symbol', 'Liberation Sans', Helvetica, sans-serif" font-size="14.5" font-weight="700" fill="#b3261e" text-anchor="middle">FRONT-LOAD a benzodiazepine</text>
+<text x="141.5" y="399.4" font-family="Arial, 'Segoe UI Symbol', 'Liberation Sans', Helvetica, sans-serif" font-size="12.5" font-weight="400" fill="#18212e" text-anchor="middle">e.g. diazepam 20 mg hourly x 3</text>
+<rect x="295.0" y="354.0" width="131.0" height="42.0" rx="10" fill="#ffffff" stroke="#c9d0db" stroke-width="1.5"/>
+<text x="360.5" y="379.4" font-family="Arial, 'Segoe UI Symbol', 'Liberation Sans', Helvetica, sans-serif" font-size="14.5" font-weight="700" fill="#18212e" text-anchor="middle">CIWA-Ar score</text>
+<rect x="465.8" y="452.0" width="282.0" height="60.0" rx="10" fill="#e0f0f5" stroke="#1f6f8b" stroke-width="1.5"/>
+<text x="606.8" y="477.4" font-family="Arial, 'Segoe UI Symbol', 'Liberation Sans', Helvetica, sans-serif" font-size="14.5" font-weight="700" fill="#1f6f8b" text-anchor="middle">No medication</text>
+<text x="606.8" y="497.4" font-family="Arial, 'Segoe UI Symbol', 'Liberation Sans', Helvetica, sans-serif" font-size="12.5" font-weight="400" fill="#18212e" text-anchor="middle">keep re-scoring</text>
+<rect x="465.8" y="524.0" width="282.0" height="80.0" rx="10" fill="#eee8f8" stroke="#6a4aa8" stroke-width="1.5"/>
+<text x="606.8" y="549.4" font-family="Arial, 'Segoe UI Symbol', 'Liberation Sans', Helvetica, sans-serif" font-size="14.5" font-weight="700" fill="#6a4aa8" text-anchor="middle">Lorazepam 1-2 mg</text>
+<text x="606.8" y="569.4" font-family="Arial, 'Segoe UI Symbol', 'Liberation Sans', Helvetica, sans-serif" font-size="14.5" font-weight="700" fill="#6a4aa8" text-anchor="middle">or diazepam 5-10 mg</text>
+<text x="606.8" y="589.4" font-family="Arial, 'Segoe UI Symbol', 'Liberation Sans', Helvetica, sans-serif" font-size="12.5" font-weight="400" fill="#18212e" text-anchor="middle">every 2 h as needed</text>
+<rect x="465.8" y="616.0" width="282.0" height="60.0" rx="10" fill="#e3edf8" stroke="#1f5f9e" stroke-width="1.5"/>
+<text x="606.8" y="641.4" font-family="Arial, 'Segoe UI Symbol', 'Liberation Sans', Helvetica, sans-serif" font-size="14.5" font-weight="700" fill="#1f5f9e" text-anchor="middle">Same doses</text>
+<text x="606.8" y="661.4" font-family="Arial, 'Segoe UI Symbol', 'Liberation Sans', Helvetica, sans-serif" font-size="12.5" font-weight="400" fill="#18212e" text-anchor="middle">every 1 h</text>
+<rect x="465.8" y="688.0" width="282.0" height="60.0" rx="10" fill="#fff4c2" stroke="#6b5200" stroke-width="1.5"/>
+<text x="606.8" y="713.4" font-family="Arial, 'Segoe UI Symbol', 'Liberation Sans', Helvetica, sans-serif" font-size="14.5" font-weight="700" fill="#6b5200" text-anchor="middle">Lorazepam 2 mg or diazepam 10 mg</text>
+<text x="606.8" y="733.4" font-family="Arial, 'Segoe UI Symbol', 'Liberation Sans', Helvetica, sans-serif" font-size="12.5" font-weight="400" fill="#18212e" text-anchor="middle">every 1 h</text>
+<text x="141.5" y="331.5" font-family="Arial, 'Segoe UI Symbol', 'Liberation Sans', Helvetica, sans-serif" font-size="13" font-weight="700" fill="#5a6577" text-anchor="middle" stroke="#f6f7f9" stroke-width="5" stroke-linejoin="round" paint-order="stroke">Yes</text>
+<text x="360.5" y="331.5" font-family="Arial, 'Segoe UI Symbol', 'Liberation Sans', Helvetica, sans-serif" font-size="13" font-weight="700" fill="#5a6577" text-anchor="middle" stroke="#f6f7f9" stroke-width="5" stroke-linejoin="round" paint-order="stroke">No</text>
+<text x="372.5" y="474.0" font-family="Arial, 'Segoe UI Symbol', 'Liberation Sans', Helvetica, sans-serif" font-size="13" font-weight="700" fill="#5a6577" text-anchor="start" stroke="#f6f7f9" stroke-width="5" stroke-linejoin="round" paint-order="stroke">0-9</text>
+<text x="372.5" y="556.0" font-family="Arial, 'Segoe UI Symbol', 'Liberation Sans', Helvetica, sans-serif" font-size="13" font-weight="700" fill="#5a6577" text-anchor="start" stroke="#f6f7f9" stroke-width="5" stroke-linejoin="round" paint-order="stroke">10-14</text>
+<text x="372.5" y="638.0" font-family="Arial, 'Segoe UI Symbol', 'Liberation Sans', Helvetica, sans-serif" font-size="13" font-weight="700" fill="#5a6577" text-anchor="start" stroke="#f6f7f9" stroke-width="5" stroke-linejoin="round" paint-order="stroke">15-19</text>
+<text x="372.5" y="710.0" font-family="Arial, 'Segoe UI Symbol', 'Liberation Sans', Helvetica, sans-serif" font-size="13" font-weight="700" fill="#5a6577" text-anchor="start" stroke="#f6f7f9" stroke-width="5" stroke-linejoin="round" paint-order="stroke">20 or more</text>
+</svg>

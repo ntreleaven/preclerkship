@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="651" height="620" viewBox="0 0 651 620" role="img" aria-labelledby="t"><title id="t">Telling the anxiety disorders apart by what the fear is about</title><defs><marker id="ah" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#5a6577"/></marker></defs><rect width="100%" height="100%" rx="14" fill="#f6f7f9"/>
+<path d="M142.5 70.0L142.5 106.0" fill="none" stroke="#5a6577" stroke-width="2" marker-end="url(#ah)"/>
+<path d="M142.5 150.0L142.5 188.0" fill="none" stroke="#5a6577" stroke-width="2"/>
+<path d="M142.5 218.0H341.2" fill="none" stroke="#5a6577" stroke-width="2" marker-end="url(#ah)"/>
+<path d="M142.5 290.0H341.2" fill="none" stroke="#5a6577" stroke-width="2" marker-end="url(#ah)"/>
+<path d="M142.5 362.0H341.2" fill="none" stroke="#5a6577" stroke-width="2" marker-end="url(#ah)"/>
+<path d="M142.5 425.0H341.2" fill="none" stroke="#5a6577" stroke-width="2" marker-end="url(#ah)"/>
+<path d="M142.5 479.0H341.2" fill="none" stroke="#5a6577" stroke-width="2" marker-end="url(#ah)"/>
+<path d="M142.5 533.0H341.2" fill="none" stroke="#5a6577" stroke-width="2" marker-end="url(#ah)"/>
+<path d="M142.5 587.0H341.2" fill="none" stroke="#5a6577" stroke-width="2" marker-end="url(#ah)"/>
+<path d="M142.5 188.0V587.0" fill="none" stroke="#5a6577" stroke-width="2"/>
+<rect x="14.0" y="10.0" width="257.0" height="60.0" rx="10" fill="#18212e" stroke="#18212e" stroke-width="1.5"/>
+<text x="142.5" y="35.4" font-family="Arial, 'Segoe UI Symbol', 'Liberation Sans', Helvetica, sans-serif" font-size="14.5" font-weight="700" fill="#f6f7f9" text-anchor="middle">Anxiety that impairs function</text>
+<text x="142.5" y="55.4" font-family="Arial, 'Segoe UI Symbol', 'Liberation Sans', Helvetica, sans-serif" font-size="12.5" font-weight="400" fill="#f6f7f9" text-anchor="middle">substances and medical causes ruled out</text>
+<rect x="48.5" y="108.0" width="188.0" height="42.0" rx="10" fill="#ffffff" stroke="#c9d0db" stroke-width="1.5"/>
+<text x="142.5" y="133.4" font-family="Arial, 'Segoe UI Symbol', 'Liberation Sans', Helvetica, sans-serif" font-size="14.5" font-weight="700" fill="#18212e" text-anchor="middle">What is the fear about?</text>
+<rect x="343.2" y="188.0" width="294.0" height="60.0" rx="10" fill="#e0f0f5" stroke="#1f6f8b" stroke-width="1.5"/>
+<text x="490.2" y="213.4" font-family="Arial, 'Segoe UI Symbol', 'Liberation Sans', Helvetica, sans-serif" font-size="14.5" font-weight="700" fill="#1f6f8b" text-anchor="middle">GENERALIZED ANXIETY DISORDER</text>
+<text x="490.2" y="233.4" font-family="Arial, 'Segoe UI Symbol', 'Liberation Sans', Helvetica, sans-serif" font-size="12.5" font-weight="400" fill="#18212e" text-anchor="middle">uncontrollable worry, 6+ months</text>
+<rect x="343.2" y="260.0" width="294.0" height="60.0" rx="10" fill="#eee8f8" stroke="#6a4aa8" stroke-width="1.5"/>
+<text x="490.2" y="285.4" font-family="Arial, 'Segoe UI Symbol', 'Liberation Sans', Helvetica, sans-serif" font-size="14.5" font-weight="700" fill="#6a4aa8" text-anchor="middle">PANIC DISORDER</text>
+<text x="490.2" y="305.4" font-family="Arial, 'Segoe UI Symbol', 'Liberation Sans', Helvetica, sans-serif" font-size="12.5" font-weight="400" fill="#18212e" text-anchor="middle">2+ unexpected attacks</text>
+<rect x="343.2" y="332.0" width="294.0" height="60.0" rx="10" fill="#e3edf8" stroke="#1f5f9e" stroke-width="1.5"/>
+<text x="490.2" y="357.4" font-family="Arial, 'Segoe UI Symbol', 'Liberation Sans', Helvetica, sans-serif" font-size="14.5" font-weight="700" fill="#1f5f9e" text-anchor="middle">AGORAPHOBIA</text>
+<text x="490.2" y="377.4" font-family="Arial, 'Segoe UI Symbol', 'Liberation Sans', Helvetica, sans-serif" font-size="12.5" font-weight="400" fill="#18212e" text-anchor="middle">2 of 5 situations</text>
+<rect x="343.2" y="404.0" width="294.0" height="42.0" rx="10" fill="#fff4c2" stroke="#6b5200" stroke-width="1.5"/>
+<text x="490.2" y="429.4" font-family="Arial, 'Segoe UI Symbol', 'Liberation Sans', Helvetica, sans-serif" font-size="14.5" font-weight="700" fill="#6b5200" text-anchor="middle">SOCIAL ANXIETY DISORDER</text>
+<rect x="343.2" y="458.0" width="294.0" height="42.0" rx="10" fill="#f6ece2" stroke="#8a5a2b" stroke-width="1.5"/>
+<text x="490.2" y="483.4" font-family="Arial, 'Segoe UI Symbol', 'Liberation Sans', Helvetica, sans-serif" font-size="14.5" font-weight="700" fill="#8a5a2b" text-anchor="middle">SPECIFIC PHOBIA</text>
+<rect x="343.2" y="512.0" width="294.0" height="42.0" rx="10" fill="#e0f0f5" stroke="#1f6f8b" stroke-width="1.5"/>
+<text x="490.2" y="537.4" font-family="Arial, 'Segoe UI Symbol', 'Liberation Sans', Helvetica, sans-serif" font-size="14.5" font-weight="700" fill="#1f6f8b" text-anchor="middle">Obsessive-compulsive disorder</text>
+<rect x="343.2" y="566.0" width="294.0" height="42.0" rx="10" fill="#eee8f8" stroke="#6a4aa8" stroke-width="1.5"/>
+<text x="490.2" y="591.4" font-family="Arial, 'Segoe UI Symbol', 'Liberation Sans', Helvetica, sans-serif" font-size="14.5" font-weight="700" fill="#6a4aa8" text-anchor="middle">Post-traumatic stress disorder</text>
+<text x="154.5" y="210.0" font-family="Arial, 'Segoe UI Symbol', 'Liberation Sans', Helvetica, sans-serif" font-size="13" font-weight="700" fill="#5a6577" text-anchor="start" stroke="#f6f7f9" stroke-width="5" stroke-linejoin="round" paint-order="stroke">Many everyday things</text>
+<text x="154.5" y="282.0" font-family="Arial, 'Segoe UI Symbol', 'Liberation Sans', Helvetica, sans-serif" font-size="13" font-weight="700" fill="#5a6577" text-anchor="start" stroke="#f6f7f9" stroke-width="5" stroke-linejoin="round" paint-order="stroke">The attacks themselves</text>
+<text x="154.5" y="354.0" font-family="Arial, 'Segoe UI Symbol', 'Liberation Sans', Helvetica, sans-serif" font-size="13" font-weight="700" fill="#5a6577" text-anchor="start" stroke="#f6f7f9" stroke-width="5" stroke-linejoin="round" paint-order="stroke">Places hard to escape</text>
+<text x="154.5" y="417.0" font-family="Arial, 'Segoe UI Symbol', 'Liberation Sans', Helvetica, sans-serif" font-size="13" font-weight="700" fill="#5a6577" text-anchor="start" stroke="#f6f7f9" stroke-width="5" stroke-linejoin="round" paint-order="stroke">Being judged</text>
+<text x="154.5" y="471.0" font-family="Arial, 'Segoe UI Symbol', 'Liberation Sans', Helvetica, sans-serif" font-size="13" font-weight="700" fill="#5a6577" text-anchor="start" stroke="#f6f7f9" stroke-width="5" stroke-linejoin="round" paint-order="stroke">One object or situation</text>
+<text x="154.5" y="525.0" font-family="Arial, 'Segoe UI Symbol', 'Liberation Sans', Helvetica, sans-serif" font-size="13" font-weight="700" fill="#5a6577" text-anchor="start" stroke="#f6f7f9" stroke-width="5" stroke-linejoin="round" paint-order="stroke">Intrusive thoughts + rituals</text>
+<text x="154.5" y="579.0" font-family="Arial, 'Segoe UI Symbol', 'Liberation Sans', Helvetica, sans-serif" font-size="13" font-weight="700" fill="#5a6577" text-anchor="start" stroke="#f6f7f9" stroke-width="5" stroke-linejoin="round" paint-order="stroke">Reminders of a trauma</text>
+</svg>

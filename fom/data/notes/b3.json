@@ -44,7 +44,7 @@
         [
          "Size",
          "7-9 microns",
-         "2-3 microns; 7 fL volume",
+         "1-3 microns; 7 fL volume",
          "10-15 microns"
         ],
         [
@@ -476,7 +476,7 @@
        "rows": [
         [
          "Causes",
-         "Diamond-Blackfan anemia<br>Primary: autoimmune, MDS<br>Secondary: marrow toxins",
+         "Congenital: Diamond-Blackfan anemia<br>Primary: autoimmune (incl. transient erythroblastopenia of childhood), MDS<br>Secondary: marrow toxins (chemicals, radiation), pregnancy, infection, drugs, immunologic, tumours",
          "Hereditary<br><strong>Idiopathic (most common)</strong><br>Secondary: marrow toxins",
          "Marrow is <strong>replaced</strong>: myelofibrosis, hematologic cancer, metastatic solid cancer"
         ],
@@ -497,7 +497,7 @@
       },
       {
        "t": "note",
-       "html": "<h5>Marrow failure: workup and management</h5><p>(Listed once for the marrow-failure group in the source.)</p><ul><li><strong>Ix</strong>: physical exam — <strong>no splenomegaly</strong>; CBC; peripheral film; BM aspirate/biopsy</li><li><strong>Mx</strong>: febrile neutropenia → blood products + antibiotics; immunosuppression (antithymocyte globulin, cyclosporine, corticosteroids); BM transplant if eligible</li></ul>"
+       "html": "<h5>Marrow failure: workup and management</h5><p>(Listed once for the marrow-failure group in the source.)</p><ul><li><strong>Ix</strong>: physical exam (splenomegaly is <strong>not expected in PRCA</strong>, but <strong>can occur in myelofibrosis and dyserythropoiesis</strong>); CBC; peripheral film; BM aspirate/core biopsy</li><li><strong>Mx</strong>: febrile neutropenia → blood products + antibiotics; immunosuppression (antithymocyte globulin, cyclosporine, corticosteroids); BM transplant if eligible</li></ul>"
       },
       {
        "t": "note",
@@ -527,7 +527,7 @@
      "num": "05",
      "name": "Approach to Macrocytic Anemia",
      "hasNote": true,
-     "title": "Macrocytic Anemia (MCV > 100 fL)",
+     "title": "Macrocytic Anemia (MCV > 97 fL)",
      "framing": "<p>Big red cells come either from <strong>impaired DNA synthesis</strong> (B12/folate — megaloblastic) or from membrane and counting effects (liver, reticulocytes, clumping, thyroid). ABCDEF names them.</p>",
      "keypoints": "<p><strong>B12 stores last 3-4 years, folate 3-6 months.</strong> <strong>B12 deficiency ↑ methylmalonic acid + homocysteine; folate ↑ homocysteine only</strong> — and only B12 gives <strong>neurologic signs</strong> (proprioception, neuropathy). Megaloblastic film: <strong>oval macrocytes + hypersegmented neutrophils</strong>; liver disease gives round macrocytes with normal neutrophils. Myeloma and cold agglutinins cause <strong>pseudo-macrocytosis</strong>.</p>",
      "blocks": [
@@ -586,7 +586,7 @@
       },
       {
        "t": "note",
-       "html": "<h5>Megaloblastic anemia: workup and management</h5><ul><li><strong>Ix</strong>: CBC, reticulocyte count; film — <strong>oval macrocytes, hypersegmented neutrophils</strong>; marrow — hypercellular, <strong>nuclear-cytoplasmic asynchrony</strong>; antibody workup; colonoscopy; Schilling test (rarely done)</li><li><strong>Mx</strong>: vitamin replacement</li><li><strong>Prevention</strong>: B12 after bowel resection; <strong>folic acid in pregnancy</strong>; B12 + folate in active hemolysis</li></ul>"
+       "html": "<h5>Megaloblastic anemia: workup and management</h5><ul><li><strong>Ix</strong>: CBC, reticulocyte count; film — <strong>oval macrocytes, hypersegmented neutrophils</strong>; marrow — hypercellular, <strong>nuclear-cytoplasmic asynchrony</strong>; antibody workup; colonoscopy; Schilling test (no longer available)</li><li><strong>Mx</strong>: vitamin replacement</li><li><strong>Prevention</strong>: B12 after bowel resection; <strong>folic acid in pregnancy</strong>; B12 + folate in active hemolysis</li></ul>"
       },
       {
        "t": "table",
@@ -664,10 +664,10 @@
        "rows": [
         [
          "Type",
-         "Extravascular, intrinsic<br>X-linked recessive<br>African, Asian, Mediterranean",
+         "<strong>Both intra- and extravascular</strong>, intrinsic<br>X-linked recessive<br>African, Asian, Mediterranean",
          "Extravascular, intrinsic<br>Autosomal dominant",
          "Extravascular, extrinsic",
-         "—"
+         "Usually extravascular (only complement detected)"
         ],
         [
          "Cause",
@@ -1508,7 +1508,7 @@
          "Acute (1-2 d); severe (&lt; 10)",
          "Acute; severe (&lt; 10)",
          "Acute; moderate",
-         "Acute; severe",
+         "Acute or chronic; acute = severe, chronic = moderate",
          "Acute (<strong>5-10 d</strong> after heparin); moderate-severe"
         ],
         [
@@ -2453,7 +2453,7 @@
      "blocks": [
       {
        "t": "note",
-       "html": "<h5>Morphology of the marrow aspirate</h5><ul><li>Assesses <strong>all stages of hematopoiesis</strong></li><li>Site: <strong>posterior superior iliac spine (PSIS)</strong>; if necessary sternum (children and adults) or tibia (children only)</li><li><strong>Never take a core biopsy</strong> from the sternum (too close to the heart), tibia, skull or ribs</li><li><strong>Normal aspirate</strong>: mixed erythroid and myeloid cells at all stages; <strong>myeloid:erythroid ratio 1:1 to 3:1</strong>; no dysplasia</li></ul><h5>Normal core biopsy</h5><ul><li>Subcortical acellular zone often present</li><li><strong>Cellularity ≈ 100 − age</strong> (%)</li><li>Cell composition similar to the aspirate</li></ul><h5>Flow cytometry</h5><ul><li>Characterizes cell populations in a mixture: light scatter gives <strong>physical properties</strong>; fluorescent antibodies <strong>detect antigens</strong> on or in cells</li><li><strong>Forward scatter = size</strong>; <strong>side scatter = complexity/granularity</strong></li><li>Samples: <strong>fresh (&lt; 24 h)</strong> liquids (blood, marrow aspirate, CSF, ascites), or solid tissue disaggregated into suspension (lymph node, biopsy)</li><li><strong>Immunophenotype</strong> = pattern of antigen expression: immaturity, myeloid, B-cell, T-cell and NK markers</li></ul><h5>Cytogenetics and molecular diagnostics</h5><ul><li><strong>Cytogenetics</strong>: chromosome changes in structure, location or function</li><li><strong>Molecular genetics</strong>: mutations in the genetic material of cells</li></ul><h5>Pathology of the core biopsy</h5><p>Architecture and cellularity (see normal core above).</p>"
+       "html": "<h5>Morphology of the marrow aspirate</h5><ul><li>Assesses <strong>all stages of hematopoiesis</strong></li><li>Site: <strong>posterior superior iliac spine (PSIS)</strong>; if necessary sternum (children and adults) or tibia (children only)</li><li><strong>Never take a core biopsy</strong> from the sternum (too close to the heart) or tibia; <strong>never take any marrow sample</strong> from the skull or ribs</li><li><strong>Normal aspirate</strong>: mixed erythroid and myeloid cells at all stages; <strong>myeloid:erythroid ratio 1:1 to 3:1</strong>; no dysplasia</li></ul><h5>Normal core biopsy</h5><ul><li>Subcortical acellular zone often present</li><li><strong>Cellularity ≈ 100 − age</strong> (%)</li><li>Cell composition similar to the aspirate</li></ul><h5>Flow cytometry</h5><ul><li>Characterizes cell populations in a mixture: light scatter gives <strong>physical properties</strong>; fluorescent antibodies <strong>detect antigens</strong> on or in cells</li><li><strong>Forward scatter = size</strong>; <strong>side scatter = complexity/granularity</strong></li><li>Samples: <strong>fresh (&lt; 24 h)</strong> liquids (blood, marrow aspirate, CSF, ascites), or solid tissue disaggregated into suspension (lymph node, biopsy)</li><li><strong>Immunophenotype</strong> = pattern of antigen expression: immaturity, myeloid, B-cell, T-cell and NK markers</li></ul><h5>Cytogenetics and molecular diagnostics</h5><ul><li><strong>Cytogenetics</strong>: chromosome changes in structure, location or function</li><li><strong>Molecular genetics</strong>: mutations in the genetic material of cells</li></ul><h5>Pathology of the core biopsy</h5><p>Architecture and cellularity (see normal core above).</p>"
       },
       {
        "t": "figure",

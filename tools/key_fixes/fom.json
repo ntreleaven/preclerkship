@@ -299,5 +299,19 @@
     ],
     "lead": "<p><strong>The correct answer is C.</strong></p>",
     "why": "The workbook's key line gives C, but the bank had kept this as a self-marked question with no key. 03 - Approach to Microcytic Anemia: alpha thalassemia is common in South-East Asian and African populations, beta thalassemia in Mediterranean ones."
+  },
+  "b3-w9-new-q12-12": {
+    "correct": [
+      "E"
+    ],
+    "lead": "<p><strong>The correct answer is E.</strong></p>",
+    "why": "The bank's own explanation names A, C and D, which is option E, and 05 - Approach to Macrocytic Anemia lists reticulocytosis (most common with hemolysis) as a cause of macrocytosis. Reader report #52."
+  },
+  "b3-w10-meds2024-q31-31": {
+    "option": {
+      "G": "Patients with severe von Willebrand's disease (vWD)"
+    },
+    "answer": "<p><strong>The correct answer is B, D, E, G.</strong></p><p>The aPTT involves the intrinsic coagulation pathway (Factors XII, XI, IX, and VIII). Hemophilia A is associated with Factor VIII; the lupus anticoagulant is an antibody that targets the phospholipids which initiate the intrinsic pathway. vWD has reduced levels of von Willebrand factor (or reduced activity), which is a chaperone protein for Factor VIII.</p><p>C and D turn on the mixing study, not on the factor. A 50:50 mix with normal plasma corrects a factor deficiency, so the aPTT of the mix in C is normal; it does not correct an inhibitor, so the aPTT of the mix in D stays elevated.</p>",
+    "why": "Reader report #61 asked whether C is also correct. It is not: the Week 10 Hemostasis lecture says a mixing study that corrects means deficiency and one that does not means inhibitor, so the mix in C has a normal aPTT. The key stands; the explanation now says why, and option G's garbled text is repaired."
   }
 }

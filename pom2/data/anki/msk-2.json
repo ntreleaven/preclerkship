@@ -1,62 +1,62 @@
 {
- "bytes": 20425696,
- "cards": 704,
+ "bytes": 28934241,
+ "cards": 825,
  "deck": "PoM2::Block 3",
- "draft": "Rheumatology, Weeks 11-12, its own download. Built from upper-year Christina's Anki deck. Week 11 is her cards sorted into this year's lectures, not yet checked against the slides. Week 12 follows OneNote's order (rheumatology investigations and treatments and Body Pain, then the intro neurology and neuroanatomy lectures that close the block) and is checked against this year's Elentra slides: cards that conflict with the slides carry a grey note, and cards tagged AI_added fill gaps from the 2026 slides. It imports into PoM2::Block 3 beside the MSK Weeks 7-10 deck.",
+ "draft": "Rheumatology, Weeks 11-12, its own download. Built from upper-year Christina's Anki deck. Week 11 is checked against this year's slides: her cards in this year's lectures, plus AI-made cards for high-yield gaps (tagged AI_added), with low-yield and duplicate cards left out. Week 12 follows OneNote's order (rheumatology investigations and treatments and Body Pain, then the intro neurology and neuroanatomy lectures that close the block) and is checked against this year's Elentra slides: cards that conflict with the slides carry a grey note, and cards tagged AI_added fill gaps from the 2026 slides. It imports into PoM2::Block 3 beside the MSK Weeks 7-10 deck.",
  "file": "anki/msk-2.apkg",
- "highyield": 158,
+ "highyield": 166,
  "label": "rheumatology, weeks 11-12",
- "notes": 584,
+ "notes": 650,
  "weeks": [
   {
    "lectures": [
     {
-     "cards": 34,
-     "highyield": 11,
+     "cards": 47,
+     "highyield": 10,
      "name": "01 - MSK Infections",
-     "notes": 32
+     "notes": 37
     },
     {
-     "cards": 38,
+     "cards": 43,
      "highyield": 13,
      "name": "02 - Acute Monoarthritis",
-     "notes": 34
-    },
-    {
-     "cards": 25,
-     "highyield": 7,
-     "name": "03 - Approach to Polyarthritis",
-     "notes": 21
-    },
-    {
-     "cards": 25,
-     "highyield": 3,
-     "name": "04 - Juvenile Idiopathic Arthritis",
-     "notes": 20
-    },
-    {
-     "cards": 10,
-     "highyield": 3,
-     "name": "05 - Osteoarthritis",
-     "notes": 9
-    },
-    {
-     "cards": 19,
-     "highyield": 6,
-     "name": "06 - Seronegative Arthritides",
-     "notes": 16
-    },
-    {
-     "cards": 44,
-     "highyield": 23,
-     "name": "07 - Connective Tissue Disorders",
-     "notes": 35
+     "notes": 37
     },
     {
      "cards": 46,
+     "highyield": 14,
+     "name": "03 - Approach to Polyarthritis",
+     "notes": 37
+    },
+    {
+     "cards": 35,
+     "highyield": 3,
+     "name": "04 - Juvenile Idiopathic Arthritis",
+     "notes": 26
+    },
+    {
+     "cards": 27,
+     "highyield": 3,
+     "name": "05 - Osteoarthritis",
+     "notes": 16
+    },
+    {
+     "cards": 32,
+     "highyield": 6,
+     "name": "06 - Seronegative Arthritides",
+     "notes": 23
+    },
+    {
+     "cards": 77,
+     "highyield": 25,
+     "name": "07 - Connective Tissue Disorders",
+     "notes": 52
+    },
+    {
+     "cards": 55,
      "highyield": 13,
      "name": "08 - Vasculitis",
-     "notes": 40
+     "notes": 45
     }
    ],
    "week": "Week 11"

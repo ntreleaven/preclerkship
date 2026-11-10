@@ -979,38 +979,37 @@
  "msk-w10-08_2": {
   "frac": {
    "file": "frac.jpg",
-   "caption": "Buckle fracture: cortex crumpled but not broken through",
-   "author": "Apaul291003",
-   "licence": "CC BY-SA 4.0",
-   "source_page_url": "https://commons.wikimedia.org/wiki/File:Buckle_Fracture.jpg"
+   "caption": "Pliable bone: buckle (axial force), greenstick and plastic deformation (bending force)",
+   "author": "Activate Physiotherapy",
+   "licence": "licence not stated",
+   "source_page_url": "https://activatephysiotherapy.com.au/wp-content/uploads/2020/05/Greenstick-and-buckle-fracture-diagram.jpg"
   },
   "sh": {
-   "file": "sh.png",
-   "caption": "Types I-V: where the break crosses the growth plate",
-   "author": "Dr Frank Gaillard (labels redrawn for this page)",
-   "licence": "CC BY-SA 3.0 (relabelled, signature removed)",
-   "source_page_url": "https://commons.wikimedia.org/wiki/File:SalterHarris.svg"
+   "file": "sh.jpg",
+   "caption": "Salter-Harris I-V (SALTER): where the break crosses the growth plate, and what each means for prognosis",
+   "author": "@doctordconline",
+   "licence": "licence not stated",
+   "source_page_url": "https://www.facebook.com/photo/?fbid=1233214006882733"
   },
   "apo": {
    "file": "apo.jpg",
-   "caption": "Osgood-Schlatter: fragmented tibial tuberosity under the patellar tendon",
-   "author": "Lucien Monfils",
-   "licence": "CC BY-SA 3.0 (cropped)",
-   "source_page_url": "https://commons.wikimedia.org/wiki/File:Osgood.jpg"
+   "caption": "Osgood-Schlatter: patellar tendon pulls on the tibial tubercle apophysis, causing inflammation and fragmentation",
+   "author": "unknown (stock illustration)",
+   "licence": "licence not stated"
   },
   "ddh": {
-   "file": "ddh.png",
-   "caption": "Shallow socket lets the femoral head slide out",
-   "author": "Londenp (nl.wikipedia; labels redrawn for this page)",
-   "licence": "CC BY-SA 3.0 (relabelled)",
-   "source_page_url": "https://commons.wikimedia.org/wiki/File:Hip_dysplasia_-_schematic.jpg"
+   "file": "ddh.jpg",
+   "caption": "Normal hip (left) versus dislocated hip (right): the femoral head has left the socket",
+   "author": "OrthoInfo, American Academy of Orthopaedic Surgeons",
+   "licence": "licence not stated",
+   "source_page_url": "https://orthoinfo.aaos.org/en/diseases--conditions/developmental-dislocation-dysplasia-of-the-hip-ddh/"
   },
   "leg": {
-   "file": "leg.png",
-   "caption": "Knock knees (valgum) versus bow legs (varum)",
-   "author": "Dr. Vijaya chandar",
-   "licence": "CC BY-SA 4.0",
-   "source_page_url": "https://commons.wikimedia.org/wiki/File:Genu_valgum_and_Genu_Varum.jpg"
+   "file": "leg.jpg",
+   "caption": "Normal leg shape with age: varum at birth, straight by 18 months, valgum at 2-3 years, straight by 4-6",
+   "author": "unknown (via cdn.shopify.com)",
+   "licence": "licence not stated",
+   "source_page_url": "https://cdn.shopify.com/s/files/1/0242/0192/0576/files/Screen_Shot_2019-05-30_at_10.00.40_am_large.png"
   },
   "sco": {
    "file": "sco.jpg",
